@@ -18,4 +18,5 @@ jobs:
     continue-on-error: true
     steps:
       - uses: actions/checkout@v4
+      - run: sudo apt-get install -y poppler-utils # pdftotext, so PDF sources can be read
       - run: python3 tools/factcheck.py --online

@@ -19,6 +19,8 @@ what is on the cited pages, not what you remember.
 4. Are the three sources really independent, or does one copy another (the same wire story, the
    same press release)?
 5. Are the numbers precise about what they count (an estimate, a census, a claim by one side)?
+6. Does every entry in `contested` quote someone who holds that position? A name with no quoted
+   source was written from memory: move it to `could_not_verify` or find the page.
 
 ## Round 2: tie the answer to the facts (`review.citer`)
 

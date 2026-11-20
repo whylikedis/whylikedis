@@ -29,7 +29,8 @@ python3 tools/factcheck.py render     # write FACTS.md, the readable view
 python3 tools/factcheck.py selftest   # the gate fails on a bad card
 ```
 
-Python 3.9 or later. No dependencies.
+Python 3.9 or later. No dependencies. To read PDF sources, install `pdftotext` (poppler); without
+it, PDF sources are reported as unreachable.
 
 ## How cards are written
 

@@ -8,7 +8,7 @@
     python3 tools/factcheck.py render       write FACTS.md, the readable view of every card
     python3 tools/factcheck.py selftest     prove the gate fails on a bad card
 """
-import hashlib, html, json, os, re, sys, urllib.request
+import hashlib, html, json, os, re, shutil, subprocess, sys, urllib.request
 from datetime import date
 from urllib.parse import urlparse
 
@@ -47,10 +47,16 @@ def fetch(url):
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; factcheck/0)", "Accept": "text/html,*/*"})
     try:
         with urllib.request.urlopen(req, timeout=25) as r:
-            body = r.read(4_000_000)
+            body = r.read(30_000_000)
             kind = r.headers.get("Content-Type", "")
+            if "pdf" in kind or body[:5] == b"%PDF-":
+                # Optional: PDFs are read only where the pdftotext program (poppler) is installed.
+                if not shutil.which("pdftotext"):
+                    return r.status, ""
+                out = subprocess.run(["pdftotext", "-q", "-", "-"], input=body, capture_output=True, timeout=60).stdout
+                return r.status, norm(out.decode("utf-8", "replace"))
             if "html" not in kind and "text" not in kind and "json" not in kind:
-                return r.status, ""  # a PDF or image: needs a human or an HTML mirror
+                return r.status, ""  # an image or a download: needs a human or an HTML mirror
             return r.status, page_text(body.decode(r.headers.get_content_charset() or "utf-8", "replace"))
     except Exception as e:  # network errors are a result, not a crash
         return getattr(e, "code", 0) or 0, ""
@@ -80,6 +86,9 @@ def quoted(card):
     for i, f in enumerate(card.get("facts") or []):
         for j, s in enumerate(f.get("sources") or []):
             yield f"facts[{i}].sources[{j}]", s.get("url", ""), s.get("quote", ""), s.get("archive", "")
+    for i, c in enumerate(card.get("contested") or []):  # a disputed position, in the words of someone who holds it
+        for j, s in enumerate(c.get("sources") or [] if isinstance(c, dict) else []):
+            yield f"contested[{i}].sources[{j}]", s.get("url", ""), s.get("quote", ""), s.get("archive", "")
 
 
 def check_card(card, name, lock):
@@ -147,6 +156,10 @@ def check_card(card, name, lock):
             if len(sites) < 3:
                 e.append(f"facts[{i}]: verified needs three reliable sources from three sites (has {len(sites)}); "
                          "governments and advocacy groups do not count toward the three")
+        for i, c in enumerate(card["contested"]):
+            if not (isinstance(c, dict) and c.get("text") and c.get("sources")):
+                e.append(f"contested[{i}]: verified needs each disputed position as {{text, sources}}, quoted from "
+                         "someone who holds it; a position we only remember goes in could_not_verify")
         if not isinstance(card.get("could_not_verify"), list):
             e.append("verified needs could_not_verify: what was looked for and not found (an empty list if nothing)")
         claims = card.get("answer_claims") or []
@@ -224,7 +237,9 @@ def render():
         for f in c["facts"]:
             links = "; ".join(f"[{s['publisher']}]({s['url']})" for s in f["sources"])
             lines.append(f"- {f['text']} ({links})")
-        lines += ["", "**Where the record is contested**", ""] + [f"- {x}" for x in c["contested"] or ["Nothing recorded yet."]]
+        lines += ["", "**Where the record is contested**", ""] + [
+            "- " + (x if isinstance(x, str) else x["text"] + " (" + "; ".join(f"[{s['publisher']}]({s['url']})" for s in x["sources"]) + ")")
+            for x in c["contested"] or ["Nothing recorded yet."]]
         lines += ["", "**What this card does not claim**", ""] + [f"- {x}" for x in c["not_claimed"]] + [""]
     open(os.path.join(ROOT, "FACTS.md"), "w", encoding="utf-8").write("\n".join(lines))
 
@@ -264,6 +279,7 @@ def selftest():
         "answer sentence with no fact": lambda c: c["answer_claims"][1].update(facts=[]),
         "answer sentence left out": lambda c: c["answer_claims"].pop(),
         "no could_not_verify": lambda c: c.pop("could_not_verify"),
+        "a disputed position with no quoted source": lambda c: c.update(contested=["Some historians disagree."]),
         "quote changed after it was checked": lambda c: c["facts"][0]["sources"][0].update(quote="five other words were swapped in"),
     }
     for why, breakit in bad_ver.items():

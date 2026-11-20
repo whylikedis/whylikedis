@@ -22,6 +22,10 @@
   flaws), that breaking a real card is noticed, and, on 2,000 random texts, that normalising twice
   changes nothing and a quote copied from a fetched page is found again.
 - **F9.** No email address appears in a card.
+- **F10.** A verified card states each disputed position as text plus at least one source that
+  quotes someone who holds it. Those quotes are checked online like any other.
+- **F11.** `fetch` reads PDF sources where the `pdftotext` program is installed, and reports them
+  as unreachable where it is not.
 
 ## The feedback loop
 

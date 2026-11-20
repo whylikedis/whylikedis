@@ -20,9 +20,12 @@ You write fact cards for one era. You do not verify your own cards.
    the fact with what you have and say so in `could_not_verify`. Never pad with a weak source.
 4. Read every page with `python3 tools/factcheck.py fetch <url>` and copy each quote from that
    output, 5 to 40 words. If the page will not load, find its Wayback Machine copy and put it in
-   `archive`.
+   `archive`. PDFs are readable where `pdftotext` is installed.
 5. Write the answer last, in 150 words or fewer, from the facts on the card and nothing else.
-6. Fill `contested` honestly. If serious historians disagree, name the positions.
+6. Fill `contested` honestly. If serious historians disagree, name the positions. Write each one
+   as an object, `{ "text": "…", "sources": [ … ] }`, with at least one source that quotes someone
+   who holds that position, read with `fetch` like any other. A position you only remember, or saw
+   in a search summary, goes in `could_not_verify`, not in `contested`.
 7. Fill `could_not_verify`: what you looked for and did not find. "I could not find this" is a
    good answer; a guess is not.
 8. Fill `not_claimed`: the stronger thing a reader might think the card says, and does not.
@@ -37,7 +40,14 @@ You write fact cards for one era. You do not verify your own cards.
   "id": "era3-partition-vote",
   "era": 3,
   "claim": "The claim, as a child hears it.",
-  "heard": [{ "who": "Who says it", "url": "https://…", "quote": "their words", "archive": "" }],
+  "heard": [
+    {
+      "who": "Who says it",
+      "url": "https://…",
+      "quote": "their words",
+      "archive": ""
+    }
+  ],
   "answer": "What a parent can say in two minutes.",
   "facts": [
     {
@@ -55,7 +65,21 @@ You write fact cards for one era. You do not verify your own cards.
       ]
     }
   ],
-  "contested": ["Where the record is disputed, and by whom."],
+  "contested": [
+    {
+      "text": "Where the record is disputed, and by whom.",
+      "sources": [
+        {
+          "publisher": "…",
+          "title": "…",
+          "url": "https://…",
+          "quote": "their words",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    }
+  ],
   "could_not_verify": ["What you looked for and did not find."],
   "not_claimed": ["What this card does not say."],
   "status": "draft",
