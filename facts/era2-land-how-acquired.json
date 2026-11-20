@@ -481,7 +481,7 @@
       "record": true
     },
     {
-      "text": "The Shaw Commission's report (March 1930), sent after the 1929 violence, says in its summary of findings that the fundamental cause was the Arab feeling of animosity and hostility towards the Jews, consequent upon the disappointment of their political and national aspirations and fear for their economic future. It also says Zionist claims on future immigration aroused Arab apprehensions of being deprived of their livelihood and passing under the political domination of the Jews, and that on land 'a landless and discontented class is being created'.",
+      "text": "The Shaw Commission's report (March 1930), sent after the 1929 violence, says in its summary of findings that the fundamental cause was the Arab feeling of animosity and hostility towards the Jews, consequent upon the disappointment of their political and national aspirations and fear for their economic future. It also says Zionist claims on future immigration aroused Arab apprehensions of being deprived of their livelihood and passing under the political domination of the Jews, and that on land 'a landless and discontented class is being created'. The same summary of findings also says the outbreak of 23 August 1929 'was from the beginning an attack by Arabs on Jews for which no excuse in the form of earlier murders by Jews has been established' and was not premeditated.",
       "sources": [
         {
           "publisher": "Shaw Commission, Report of the Commission on the Palestine Disturbances of August 1929 (Cmd. 3530), summary of findings, as reproduced by the Institute for Palestine Studies (Palquest)",
@@ -509,6 +509,16 @@
           "url": "https://www.palquest.org/en/node/21720",
           "archive": "",
           "quote": "in consequence a landless and discontented class is being created. such a class is a potential danger to the country",
+          "accessed": "2026-11-20",
+          "kind": "primary",
+          "is_record": true
+        },
+        {
+          "publisher": "Shaw Commission, Report of the Commission on the Palestine Disturbances of August 1929 (Cmd. 3530), summary of findings, as reproduced by the Institute for Palestine Studies (Palquest)",
+          "title": "Shaw Commission Report",
+          "url": "https://www.palquest.org/en/node/21720",
+          "archive": "",
+          "quote": "was from the beginning an attack by arabs on jews for which no excuse in the form of earlier murders by jews has been established",
           "accessed": "2026-11-20",
           "kind": "primary",
           "is_record": true
@@ -588,7 +598,7 @@
       "record": true
     },
     {
-      "text": "Displaced farmers and their communities protested in their own terms. A scholarly study of the Sursuq (Sursock) family's accounts says peasants of Jidru wrote frequent petitions to local officials complaining that the companies were stealing their product, and earlier tenants held back a harvest and petitioned the German consul and Ottoman officials. In 1933 seven Bedouin sheikhs removed from the Wadi Hawarith lands applied to the president of the Nablus district court to set aside the order for their removal (JTA news report). Hope Simpson in 1930 reports that everywhere there is the complaint that many cultivators have lost their land.",
+      "text": "Few first-hand voices of the displaced are on this card, and some of what exists is about other cases. A scholarly study of the Sursuq (Sursock) family's accounts records petitions and harvest-holding by peasants against the Sursuq companies and, in one case, a German Templer purchase plan, before and during the First World War; these are not protests against Zionist purchases. A Jewish Telegraphic Agency report of 30 July 1933, headed as Arabs seeking to stir up dispossessed Bedouin, says seven Bedouin sheikhs removed from the Wadi Hawarith lands applied to the Nablus district court to set aside their removal. Hope Simpson reports that in 104 villages 29.4 percent of families had no holding and that everywhere there is the complaint that many cultivators have lost their land (a general finding about landlessness, not only about Jewish purchases).",
       "sources": [
         {
           "publisher": "International Journal of Middle East Studies (Cambridge University Press)",
@@ -654,7 +664,7 @@
       ]
     },
     {
-      "text": "How much of the displacement purchases caused is disputed. Hope Simpson (1930) concluded, from the Jewish Agency's own list, that 309 of 688 tenant families on the Esdraelon villages had joined the landless, and reported the area officers' count of 1,270 farmers displaced; the Agency's memorandum, which he quotes, said very few of those traced were landless. Stein, in one passage, gives three cases: on the 200,000 dunams of Sursock land fewer than 700 Arab tenants worked, perhaps 5,000 people in all; at Shatta (14,000 dunams, bought 1929-30) there were 900 Arabs; at Wadi Hawarith and Wadi Qabbani (30,000 dunams, bought 1929-30) there were 1,200 Bedouin families. In its official 1937 summary the Peel Commission judged that the shortage of land was due less to purchase by Jews than to the increase in the Arab population, while urging care for tenants. The 1936 register of landless Arabs admitted 664 applicants under a strict definition.",
+      "text": "How much of the displacement purchases caused is disputed. Hope Simpson (1930) concluded, from the Jewish Agency's own list, that 309 of 688 tenant families on the Esdraelon villages had joined the landless, and reported the area officers' count of 1,270 farmers displaced; the Agency's memorandum, which he quotes, said very few of those traced were landless. Stein, in one passage, gives three cases: on the 200,000 dunams of Sursock land fewer than 700 Arab tenants worked, perhaps 5,000 people in all; at Shatta (14,000 dunams, bought 1929-30) there were 900 Arabs; at Wadi Hawarith and Wadi Qabbani (30,000 dunams, bought 1929-30) there were 1,200 Bedouin families. In its official 1937 summary the Peel Commission judged that the shortage of land was due less to purchase by Jews than to the increase in the Arab population, while urging care for tenants. The 1936 register of landless Arabs admitted 664 applicants under a strict definition. The same summary also says the Arab claim that the Jews had obtained too large a proportion of the good land 'cannot be maintained', and that much of the land now carrying orange groves was sand dunes or swamps when bought.",
       "sources": [
         {
           "publisher": "UK Government (Sir John Hope Simpson), via United Nations UNISPAL",
@@ -709,6 +719,15 @@
           "quote": "when the jnf purchased 30,000 dunams of land from the beirut tayan family at wadi hawarith and wadi qabbani, lands located south of hedera, known also as emek hepher, there were 1200 bedouin families living there",
           "accessed": "2026-11-20",
           "kind": "scholarly"
+        },
+        {
+          "publisher": "League of Nations (official summary of the Peel Commission report), via UNISPAL",
+          "title": "Summary of the Palestine Royal Commission (Peel) Report, League of Nations C.495.M.336.1937.VI",
+          "url": "https://unispal.un.org/pdfs/08E38A718201458B052565700072B358.pdf",
+          "archive": "",
+          "quote": "the Arab claims that the Jews have obtained too large a proportion of good land cannot be maintained",
+          "accessed": "2026-11-20",
+          "kind": "primary"
         }
       ]
     },
@@ -761,7 +780,9 @@
     "The Shaw Commission's report is quoted from the Institute for Palestine Studies' reproduction of its summary of findings and from the Center for Online Judaic Studies' page-cited excerpts; I did not find a library scan of the full Cmd. 3530.",
     "Displaced farmers in their own words after 1922: the Wadi Hawarith tenants' article by Raya Adler (International Journal of Middle East Studies, 1988) and Middle Eastern Studies 52 (2016), 135-152, would quote petitions and testimony; neither page was readable here. The card's displaced-side fact rests on a 2024-era IJMES article (mostly pre-1922 and wartime), one 1933 news item and Hope Simpson's report of complaints.",
     "Facts 1, 2, 3, 7 and 9 do not meet the record rule's two confirming reliable sources, or rest on Stein alone; what a person would need is a second scholar on JNF holdings (for example Alexander Kedar or Fredrik Meiton) and a library copy of the Village Statistics land-ownership volume.",
-    "Fact 4 (Article 6) and fact 11's White Paper are the Mandate and White Paper texts themselves; the UN committee report and the Survey reproduce the Mandate text, so they confirm our reading, not the Mandate's effect."
+    "Fact 4 (Article 6) and fact 11's White Paper are the Mandate and White Paper texts themselves; the UN committee report and the Survey reproduce the Mandate text, so they confirm our reading, not the Mandate's effect.",
+    "Round two reviewer: record facts 0, 1, 2, 3, 8, 9 and 11 have no reader that reports the same content: the other sources on each are different documents (the UN study, Stein) or a table of contents (fact 2's Hope Simpson line is from the report's contents list) or a different clause (fact 11: Stein on circumvention is the only source and is a claim about the world). Facts 4 and 10 have the real readers (the UN committee report; the Encyclopaedia Judaica and Klein).",
+    "Round two reviewer: the displaced side (fact 12) rests on one source about Zionist purchases (a 1933 JTA item) and two about earlier or other cases; a first-hand Palestinian or Bedouin account of 1920s-30s evictions is not on the card."
   ],
   "not_claimed": [
     "This card does not say the land was 'empty' or that all sellers were willing; Hope Simpson and the Peel report document displacement and its limits.",
@@ -814,12 +835,12 @@
     "skeptic": {
       "verdict": "weakened",
       "date": "2026-11-20",
-      "notes": "Read 2+ sources for every fact (12) in context, including both volumes of the Survey. Figures check out against the Survey. Five Jewish-owned totals: all five are on their pages; they differ by date and definition (concessions, registered vs held, assumption of 650,000 before 1920, Stein's 'all sources'); the 1,491,699 for April 1945 is lower than the 1,514,247 for April 1943 and the sources do not say why; the fact now says so and says they are not a trend. 6.6 percent is the Survey's share of total land area (1,731,300 of 26,320 km2); the fact now says it is not of farmland or private land. [must-fix] Old answer began 'Jews bought land; they did not seize it' but 174,600 dunams (10 percent of the 1944 total) were government concessions, and the UN study on the card says the rest not bought came by Mandatory cessions or from religious charities; reworded to 'most ... was bought'. [must-fix] Contested[0] said 'both agree tenants were displaced; they differ on blame' with no quote from Khalidi or Stein saying so; removed. Added a blame entry from Hope Simpson (the Jewish authorities 'have nothing with which to reproach themselves'; the duty was the government's), which the card omitted and which the Israeli side would cite. [must-fix] Palestinian side: Stein's 'fewer than 700 tenants, perhaps 5,000 people' (Sursock) was quoted while the same passage records 900 Arabs on 14,000 dunams (Shatta) and 1,200 Bedouin families on 30,000 dunams (Wadi Hawarith); added. Hope Simpson's 309 of 688 is his reading of the Jewish Agency's own list, which said 'very few' were landless; both now shown. [must-fix] Fact 10 (Shaw) rests on three summaries, none of which is the report; now said in the text, with the report's stated primary cause (political and national aspirations) alongside the economic fear. [should-fix] Fact 2 (state land): the two Survey volumes and a PLO-reprint (advocacy) are one origin; 660 km2 and 616,000 dunums are different counts; no whole-country state-land figure exists on the card. Fact 6: the 90 percent debt figure is JNF buyer Hankin's claim to Hope Simpson, not Stein's finding; fixed. Fact 11: 'got around them' rests on Stein alone; said. Fact 1: Survey internal inconsistency (12,077 + 13,743 = 25,820, not 26,320) and the Survey's 2,000 km2 of possible private claims in the Negev are now on the card. Stein's 2 million: 'purchased' in text, 'from all sources' in his table. [should-fix] Missing: JNF lease terms (Hope Simpson), the Peel finding that tenants were displaced, and any Bedouin-side source. Stein supplies five facts and three of the contested entries: one scholar. 'heard' (Khalidi on the Jewish Colonization Agency) is a weak form of the claim; the stronger one, 1948, is deferred to another card. Strongest objections: Palestinian side, tenant displacement and Bedouin claims thinly sourced; Israeli side, concessions and Hope Simpson's 'nothing to reproach' were missing."
+      "notes": "Round two, after the record rule. Read the is_record sources: Survey vol. I and II (figures, table headings and column order checked; Jewish row sums to 1,514,247), Hope Simpson (688/379/309, 1,270, 'nothing to reproach', Article 23 lease), Shaw summary of findings (Palquest, read through its archive copy), White Paper, Mandate. Figures match year, counter and what is counted. First-round fixes held: concessions shown, 6.6 percent described as share of whole area, Negev attributed to the Survey with its 500 km2 inconsistency and the 2,000 km2 of possible private claims, state land left unquantified, Hope Simpson's two findings side by side. [must-fix] Readers: only facts 4 (UN committee) and 10 (Encyclopaedia Judaica, Klein) have real readers. Fact 0: nothing else reports the Survey's 1,731,300/6.6 percent. Fact 1: UNSCOP and Stein speak of the Negev, not the Survey's areas. Fact 2: Hadawi is advocacy and the Hope Simpson line is from a table of contents. Fact 3: one reader (Stein) for a table. Fact 8: COJS and Peel do not report the 688/379/309 or 1,270. Fact 9: Stein says the inquiry was in 1933, the Survey says French was appointed in 1931. Fact 11 puts a world claim (circumvented) on one source, Stein, and says so. [must-fix] Both conclusions: Shaw's finding that the violence was 'from the beginning an attack by Arabs on Jews' was missing from fact 10 (added from the same record), and Peel's finding that the Arab claim of too much good land 'cannot be maintained' was missing from contested (added). Hope Simpson's both findings are present. [must-fix] The displaced-side fact (12) is not fair as worded: the Cambridge petitions are against Sursuq companies and a Templer plan, not Zionist purchases, and Hope Simpson's complaint is general landlessness; reworded to say so. Its only source on Zionist purchases is one JTA item. Needs first-hand sources. [should-fix] Stein supplies facts 5, 6, 7, 9, 11 and the contested entries; one scholar. Fact 3 gives raw dunams, not shares (about 49 percent of citrus, 13 percent of taxable cereal land). Strongest objections: Palestinian side, the displaced are thinly sourced; Israeli side, Shaw's first finding was missing."
     },
     "citer": {
       "verdict": "holds",
       "date": "2026-11-20",
-      "notes": "6 answer sentences, each tied to facts. Removed/reworded: 'they did not seize it' (no fact says nothing was seized; concessions are in fact 0); 'roughly 6 to 7 percent' (the Survey says 6.6; the 2 million estimate is 7.6 percent of 26.3 million, outside the range) replaced by the Survey's own 6.6 and 'other counts run from 1.49 to 2 million'; 'sales cost Arab tenant farmers their holdings' now rests on the Esdraelon evidence stated; 'Historians dispute how many were displaced and who was to blame' removed from the answer (only contested carries it); 'state land is part of the rest' reworded (the Negev is largely state or unsettled land too). The cultivable-land fact (3) is not used by the answer; should-fix: say that Jewish share of citrus land was about half and of taxable cereal land about 13 percent, so 6.6 percent is not the share of farmland."
+      "notes": "Round two after the record rule. Answer re-split into 7 sentences, each tied to facts; no sentence uses fact 12, 9 or 10, so the weaknesses there do not reach the answer. 'He also wrote the Jewish authorities had nothing to reproach themselves with' is carried by fact 8 (Hope Simpson's own words). The 1.49 to 2 million range sentence is carried by fact 0, which lists the five counts with their dates and bases."
     }
   }
 }

@@ -10,7 +10,7 @@
       "quote": "none of them made any bones about the fact that they were doing this as part of a settler colonial process"
     }
   ],
-  "answer": "The land was Ottoman for about 400 years, never one province and never called Palestine: the south was the district of Jerusalem, the north split between the provinces of Beirut and Syria. Britain took Jerusalem in December 1917. The Balfour Declaration favoured a Jewish national home and protected the 'civil and religious rights' of other communities, without mentioning political rights. The 1922 Mandate recited the Jewish people's historical connection to the land, recognised a Jewish agency (the Zionist Organisation) as a public body, and in Article 6 told Britain to facilitate Jewish immigration and encourage close settlement, including on state lands, 'while ensuring' other sections' rights were not prejudiced. Transjordan was excluded from the national-home clauses. The 1939 White Paper limited Jewish immigration. Whether McMahon's 1915 offer of Arab independence left Palestine out is disputed. Sovereignty lay with the Ottomans, then Britain.",
+  "answer": "The land was Ottoman for about 400 years and never one province: the south was the district of Jerusalem, the north split between the provinces of Beirut and Syria, and no province was named Palestine. Britain took Jerusalem in December 1917. The Balfour Declaration favoured a Jewish national home and said nothing should prejudice the 'civil and religious rights' of other communities, without mentioning political rights. The 1922 Mandate recited the Jewish people's historical connection to the land, recognised a Jewish agency (the Zionist Organisation) as a public body, and in Article 6 told Britain to facilitate Jewish immigration and encourage close settlement, including on state lands, 'while ensuring' other sections' rights were not prejudiced. Transjordan was excluded from the national-home clauses. The 1939 White Paper limited Jewish immigration. Whether McMahon's 1915 offer of Arab independence left Palestine out is disputed. Rule lay with the Ottomans, then Britain as Mandatory.",
   "facts": [
     {
       "text": "Under Ottoman rule no province was named Palestine. The south was the independent sanjak (Mutasarrifate) of Jerusalem, answering directly to Istanbul; the north belonged to the vilayet of Beirut (the sanjaks of Acre and Nablus) and, before 1888, to the vilayet of Syria (Damascus).",
@@ -154,7 +154,7 @@
       "record": true
     },
     {
-      "text": "McMahon's letter of 24 October 1915 to the Sharif of Mecca says Britain would recognise Arab independence within the limits the Sharif demanded, except the districts of Mersina and Alexandretta and 'portions of Syria lying to the west of the districts of Damascus, Homs, Hama and Aleppo'. Whether that left Palestine out is disputed (see contested).",
+      "text": "McMahon's letter of 24 October 1915 to the Sharif of Mecca says that, subject to excluding the districts of Mersina and Alexandretta and 'portions of Syria lying to the west of the districts of Damascus, Homs, Hama and Aleppo', and in regions where Britain was free to act without detriment to France, Britain was prepared to recognise and support Arab independence within the limits the Sharif demanded. Whether that left Palestine out is disputed (see contested).",
       "sources": [
         {
           "publisher": "United Nations (UNISPAL)",
@@ -180,7 +180,7 @@
           "title": "Ambiguous Promises",
           "url": "https://www.commonwealmagazine.org/ambiguous-promises",
           "archive": "",
-          "quote": "if the territory west of these four points was being excluded, then McMahon was not including Palestine",
+          "quote": "generally accepting the boundaries set out in the Damascus Protocol, but excluding \"portions of Syria lying to the west of the districts of Damascus, Homs, Hama, and Aleppo.\"",
           "accessed": "2026-11-20",
           "kind": "news"
         }
@@ -222,7 +222,7 @@
       "record": true
     },
     {
-      "text": "Article 2 of the Mandate says Britain shall be responsible for conditions that 'will secure the establishment of the Jewish national home' and for 'safeguarding the civil and religious rights of all the inhabitants of Palestine, irrespective of race and religion'.",
+      "text": "Article 2 of the Mandate says Britain shall be responsible for conditions that 'will secure the establishment of the Jewish national home, as laid down in the preamble, and the development of self-governing institutions', and also for 'safeguarding the civil and religious rights of all the inhabitants of Palestine, irrespective of race and religion'.",
       "sources": [
         {
           "publisher": "League of Nations (via United Nations, UNISPAL)",
@@ -324,7 +324,7 @@
       "record": true
     },
     {
-      "text": "The British White Paper of May 1939 says Jewish immigration would be admitted at about 75,000 over the next five years and that after that no further Jewish immigration would be permitted unless the Arabs of Palestine were prepared to acquiesce in it.",
+      "text": "The British White Paper of May 1939 says Jewish immigration over the next five years would be at a rate that, if economic absorptive capacity permits, would bring the Jewish population to about one third of the total, allowing some 75,000 immigrants (10,000 a year plus 25,000 refugees), and that after that no further Jewish immigration would be permitted unless the Arabs of Palestine were prepared to acquiesce in it.",
       "sources": [
         {
           "publisher": "Yale Law School, Avalon Project",
@@ -508,7 +508,8 @@
     "I did not find a readable page by a historian who argues the Arab reading of McMahon's letter in his own words; the Arab case is quoted from the British 1939 committee report and a magazine summary.",
     "Three sources from three different sites for the Ottoman districts: the fourth (a UN committee study) is labelled government and does not count.",
     "The Palquest and Library of Congress copies of the Transjordan resolution returned http 403 here; fact 8 rests on the League's own note (an ECF-hosted scan), the UN committee report and COJS instead.",
-    "The Mandate facts (5 to 8, 10, 11) are record facts: the record is the League's Mandate text on UNISPAL. The two confirming sources (UN committee report, Survey of Palestine, Anglo-American Committee appendix, COJS excerpt) either reproduce or paraphrase that same text, so they check our reading of it; they are not independent measurements of anything."
+    "The Mandate facts (5 to 8, 10, 11) are record facts: the record is the League's Mandate text on UNISPAL. The two confirming sources (UN committee report, Survey of Palestine, Anglo-American Committee appendix, COJS excerpt) either reproduce or paraphrase that same text, so they check our reading of it; they are not independent measurements of anything.",
+    "Round two reviewer: facts 5, 6, 7, 10 and 11 (Mandate) have only one source that restates the text in its own words (the UN committee report for Articles 2, 4 (a block quotation), 6 and 25; the Anglo-American Committee for the preamble); the other confirming source in each is a reprint of the Mandate's text (COJS excerpt, Survey of Palestine appendix), which is a copy and not a reader."
   ],
   "not_claimed": [
     "This card does not say Palestine was empty or that no people with a claim lived there before 1917; chapter 2's population card gives the counts.",
@@ -520,7 +521,7 @@
   "content_approved": false,
   "answer_claims": [
     {
-      "says": "The land was Ottoman for about 400 years, never one province and never called Palestine: the south was the district of Jerusalem, the north split between the provinces of Beirut and Syria.",
+      "says": "The land was Ottoman for about 400 years and never one province: the south was the district of Jerusalem, the north split between the provinces of Beirut and Syria, and no province was named Palestine.",
       "facts": [
         0,
         1
@@ -533,7 +534,7 @@
       ]
     },
     {
-      "says": "The Balfour Declaration favoured a Jewish national home and protected the 'civil and religious rights' of other communities, without mentioning political rights.",
+      "says": "The Balfour Declaration favoured a Jewish national home and said nothing should prejudice the 'civil and religious rights' of other communities, without mentioning political rights.",
       "facts": [
         2,
         3
@@ -567,7 +568,7 @@
       ]
     },
     {
-      "says": "Sovereignty lay with the Ottomans, then Britain.",
+      "says": "Rule lay with the Ottomans, then Britain as Mandatory.",
       "facts": [
         1,
         5,
@@ -579,12 +580,12 @@
     "skeptic": {
       "verdict": "weakened",
       "date": "2026-11-20",
-      "notes": "Read 2+ sources per fact (all 10) with the paragraph around each quote. Quotes are accurate. [must-fix] contested[0] said the British 1939 review 'held' Palestine was excluded and left out that the same report records the British delegation conceding the Arab case had 'greater force' and the exclusion language was 'not so specific and unmistakable'; a Palestinian historian would call that minimising. I added the concession (from the report already cited). [must-fix] The card has no fact on Mandate Article 6 (facilitate Jewish immigration, close settlement on State and waste lands) or Article 4 (Jewish Agency as public body); without them 'ruled by empires, not Zionists' is one-sided. Needs new fact(s) from the Avalon text: cannot be added by the reviewer. [must-fix] Facts 5-7: the three hosts (Avalon, Fordham, UNISPAL) reproduce one document, so each is one source for what the Mandate says; I counted it as one strong primary source, not three. Fact 5's preamble clause is read in none of the quotes except Avalon's. [should-fix] Fact 8: the quote was cut so that it read as exclusion from 'the Articles of the Mandate'; I extended it to the clause the report actually states. Palquest and LOC pages were unreadable (403). [should-fix] Fact 9: the FRUS page is a US memorandum summarising the White Paper, and fact 4's FRUS page is a US despatch quoting The Times; both relabelled as summaries. Fact 4 third source is a 2011 book review, now labelled. [should-fix] 'heard' (Khalidi) carries the 'colonial' half of the claim only; nothing on the card answers 'stole the land'. [nit] Answer quoted 'existing non-Jewish communities' as if the promise covered all rights; reworded to 'civil and religious'. Strongest objections: Palestinian side, the missing Art. 6 and the minimised British concession; Israeli side, none found (the Mandate preamble and Art. 2 are quoted in full)."
+      "notes": "Round two, after the record rule. Read every is_record source (Balfour on Avalon, McMahon letter, Mandate text on UNISPAL, ECF scan of the League note, White Paper on Avalon) and compared each record fact's wording with it: all eight are worded as what the record says, and Articles 4 and 6 are quoted correctly. Fixed from round one: the British concession is quoted from the 1939 report itself; Articles 4 and 6 are on the card; fact 8 quote is complete. [must-fix] Readers are not real readers for five record facts. Fact 5 (preamble): the Anglo-American Committee paraphrases it, the COJS excerpt is a reprint. Fact 6 (Art. 2): the UN committee report discusses it, the Survey is a reprint. Fact 7 (Art. 25): UN committee yes, COJS reprint. Fact 10 (Art. 4): the UN committee passage is a footnote block quotation and the Survey a reprint, so no reader. Fact 11 (Art. 6): UN committee yes, Survey reprint. Facts 2, 3, 4, 8, 9 have two real readers (BBC, Rothschild Archive, IWM; The Times via FRUS; COJS description and UN committee; JTA and a US memorandum). Reprints confirm only that we copied accurately; I did not count them. [should-fix] Fixed by me: fact 4 omitted that the offer applied only where Britain was free to act without detriment to France, and its Commonweal quote was a reviewer's inference, now the reviewer's report of the exclusion; fact 6 dropped 'and the development of self-governing institutions'; fact 9 dropped the condition 'if economic absorptive capacity permits' and that 75,000 is 10,000 a year plus 25,000 refugees; answer said 'never called Palestine' (the sources say no province was named Palestine) and 'protected' the civil and religious rights (the text says nothing should prejudice them). [nit] Facts 0 and 1 are facts about the world with three independent sources; fact 8 relies on a League note read from an ECF scan; the Palquest and LOC pages were unreadable here (403). Missing counter: the White Paper's other conclusion (an independent Palestine within ten years) is not on this card. Strongest objections: Palestinian side, Articles 4 and 6 now present but the Mandate's silence on Arab national rights is stated only by IWM and the Rothschild Archive; Israeli side, none new."
     },
     "citer": {
       "verdict": "holds",
       "date": "2026-11-20",
-      "notes": "Split the answer into 8 sentences, each tied to facts. Removed: 'So the land was ruled by empires, not Zionists, until 1948' (no fact covers 1948 and Art. 4 gives the Jewish Agency a role the card does not show); replaced by a sentence limited to Ottoman then British sovereignty (facts 1, 5, 6). Reworded the Balfour sentence from 'the rights' to 'civil and religious rights' and added the no-political-rights point (fact 3). Replaced 'Whether Britain had earlier promised Palestine to the Arabs is disputed' with the McMahon offer it rests on (fact 4); the dispute itself lives in contested. Verdict covers the answer's tie to the facts; the weaknesses above are in the facts and the missing Art. 6."
+      "notes": "Round two after the record rule. Answer re-split into 8 sentences, each tied to facts. Reworded 'never called Palestine' to 'no province was named Palestine' (fact 0), 'protected' to 'said nothing should prejudice' (fact 3), 'Sovereignty' to 'Rule ... as Mandatory' (facts 1, 5, 6). The sentence on Articles 4 and 6 is carried by facts 5, 10, 11 whose readers are thin (see skeptic); the sentences themselves say only what those facts say."
     }
   }
 }

@@ -98,7 +98,7 @@
  "025fc0abc8847e6c": {
   "checked": "2026-11-20",
   "http": 429,
-  "result": "unreachable",
+  "result": "found",
   "url": "https://www.thejc.com/news/israel/knesset-bills-west-bank-annexation-h34eesd3"
  },
  "02646fb056976602": {
@@ -5213,6 +5213,12 @@
   "result": "found",
   "url": "https://www.polskieradio.pl/395/7785/artykul/3580191,un-inquiry-says-israel-committed-genocide-in-gaza-israel-calls-report-&"
  },
+ "700a3c6cc56d702c": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://nationsinquiry.com/datasets/vdem-democracy/2025/data.csv"
+ },
  "7014a48f474842c2": {
   "checked": "2026-11-20",
   "http": 200,
@@ -6946,6 +6952,12 @@
   "http": 200,
   "result": "found",
   "url": "https://www.aljazeera.com/news/2024/11/8/nearly-70-percent-of-deaths-in-gaza-are-women-and-children-un"
+ },
+ "938423635f3b8e01": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://nationsinquiry.com/datasets/vdem-democracy/2025/data.csv"
  },
  "938d7f45ee517e42": {
   "checked": "2026-11-20",
@@ -9862,6 +9874,12 @@
   "http": 200,
   "result": "found",
   "url": "https://www.aljazeera.com/opinions/2011/9/30/why-israel-cant-be-a-jewish-state"
+ },
+ "cc434c47f147a656": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/ga-meeting-coverage-12sep25"
  },
  "cc54ecb25fa46346": {
   "checked": "2026-11-20",

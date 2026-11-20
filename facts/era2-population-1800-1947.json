@@ -10,10 +10,10 @@
       "quote": "they expelled three-quarters of a million Palestinians stole their land, refused to allow them to return"
     }
   ],
-  "answer": "Before 1922 there was no modern census: earlier figures are estimates, and Ottoman counts undercounted. For 1914 estimates give about 689,000 people in all, with Jews put at 60,000 to 94,000. The 1922 census recorded 757,182 people, 83,794 of them Jews; the last, in 1931, recorded 1,035,821, with 174,610 Jews. By the end of 1946 the UN committee estimated the settled population at about 1,846,000, 1,203,000 of them Arabs and 608,000 Jews; its own table puts the Jewish share at 12.91 percent in 1922 and 32.96 percent in 1946. About 376,000 Jewish immigrants were recorded from 1920 to 1946, most of the Jewish growth. British and UN inquiries put Arab growth almost entirely down to births over deaths, but Arab immigration was not fully recorded, and a minority view says it mattered more. Every count after 1922 is one set of Mandate statistics. The land was inhabited, mostly by Arabs.",
+  "answer": "Before 1922 there was no modern census: earlier figures are estimates, some probably undercounts. For 1914 estimates give about 689,000 people in all, with Jews put at 60,000 to 94,000. The 1922 census recorded 757,182 people, 83,794 of them Jews; the last, in 1931, recorded 1,035,821, with 174,610 Jews. By the end of 1946 the UN committee estimated the settled population at about 1,846,000, 1,203,000 of them Arabs and 608,000 Jews; its own table puts the Jewish share at 12.91 percent in 1922 and 32.96 percent in 1946. About 376,000 Jewish immigrants were recorded from 1920 to 1946, most of the Jewish growth. British and UN inquiries put Arab growth almost entirely down to births over deaths, but Arab immigration was not fully recorded, and a minority view says it mattered more. Every count after 1922 is one set of Mandate statistics. The land was inhabited, mostly by Arabs.",
   "facts": [
     {
-      "text": "Population figures before the first British census (1922) are estimates, and the Ottoman counts undercounted. The Mandate's Survey says no data are available on the size of the population before the British occupation. The 1922 census report says the Ottoman counts existed to list men liable for military service or to impose taxes. The demographer Justin McCarthy writes that the Ottomans consistently undercounted women and children (a statement about the empire as a whole, not Palestine alone). The demographer Sergio DellaPergola labels his own series for 1800 to 1914 'rough estimates'. And a Cambridge article re-examining an 1849 Ottoman count of Nablus (20,000, against the 8,000-9,000 usually cited) says it raises serious doubts about commonly accepted figures.",
+      "text": "Population figures before the first British census (1922) are estimates. The 1922 census report says the Ottoman counts existed to list men liable for military service or to impose taxes. The demographer Justin McCarthy writes that the Ottomans consistently undercounted women and children (a statement about the empire as a whole, not Palestine alone). The demographer Sergio DellaPergola labels his own series for 1800 to 1914 'rough estimates'. A Cambridge article re-examining an actual 1849 Ottoman count of Nablus (20,000, against the 8,000-9,000 usually cited) says it raises serious doubts about commonly accepted figures, so the older outside estimates may be too low. The Mandate's Survey says no data are available on the size of the population before the British occupation.",
       "sources": [
         {
           "publisher": "International Journal of Middle East Studies (Cambridge University Press)",
@@ -100,20 +100,11 @@
           "quote": "roberto bachi estimated the total jewish population at 6700 in 1800, 42,900 in 1890, and 94,000 in 1914",
           "accessed": "2026-11-20",
           "kind": "scholarly"
-        },
-        {
-          "publisher": "Sergio DellaPergola, Genealogy (MDPI), reporting Roberto Bachi (1977)",
-          "title": "Montefiore censuses and the Jewish population of the Land of Israel",
-          "url": "https://www.mdpi.com/2313-5778/9/3/72",
-          "archive": "",
-          "quote": "roberto bachi estimated the total jewish population at 6700 in 1800, 42,900 in 1890, and 94,000 in 1914",
-          "accessed": "2026-11-20",
-          "kind": "scholarly"
         }
       ]
     },
     {
-      "text": "The report on the 1922 census (taken 23 October 1922) records a total of 757,182 people, including the military and persons of foreign nationality; later sources break it down as 590,890 Muslims, 83,794 Jews and 73,024 Christians (78, 11 and 9.6 percent), plus 9,474 others. The report's own table printed 83,694 Jews, corrected to 83,794 in its erratum.",
+      "text": "The report on the 1922 census (taken 23 October 1922) records a total of 757,182 people, including the military and persons of foreign nationality; later sources break it down as 590,890 Muslims, 83,794 Jews and 73,024 Christians (78, 11 and 9.6 percent), plus 9,474 others. The report says the Bedouin of Beersheba were not enumerated and their numbers were estimated. The report's own table printed 83,694 Jews, corrected to 83,794 in its erratum. The scan is poorly read (the quote carries its OCR errors); the figures 757,182 and 83,794 are legible.",
       "sources": [
         {
           "publisher": "Palestine Government, Report and General Abstracts of the Census of 1922 (J. B. Barron), scan hosted by Australian National University (Brendan McKay)",
@@ -156,7 +147,7 @@
       "record": true
     },
     {
-      "text": "The 1931 census report (Vol. II, tables) records a total of 1,035,821 people, 759,712 of them Muslims and 174,610 (17 percent) Jews; it was the last census the British took. The Survey of Palestine's chronology gives 1,035,154 for the same census, a difference the sources do not explain.",
+      "text": "The 1931 census report (Vol. II, tables) records a total of 1,035,821 people, 759,712 of them Muslims and 174,610 (17 percent) Jews; it was the last census the British took. Its Table VII separates a settled population (969,288) from a nomadic one; the Jews are the same 174,610 in both. The Survey of Palestine's chronology gives 1,035,154 for the same census, and the American Jewish Year Book's table 1,033,314, differences the sources do not explain.",
       "sources": [
         {
           "publisher": "Government of Palestine, Census of Palestine 1931, vol. II (E. Mills), Table VII, scan hosted by Australian National University (Brendan McKay)",
@@ -208,7 +199,7 @@
       "record": true
     },
     {
-      "text": "The Survey of Palestine gives an official estimate of the population at the end of 1944 of about 1,765,000, of whom about 554,000 were Jews; the Anglo-American Committee repeats the total.",
+      "text": "The Survey of Palestine gives a revised de facto estimate of the population at the end of 1944 of about 1,765,000 (1,698,000 settled), of whom about 554,000 were Jews; the Anglo-American Committee repeats the total. The American Jewish Year Book's table of the earlier official estimate for 1944 is lower, 1,727,786 with 521,564 Jews, so the 1944 figures depend on which estimate is used.",
       "sources": [
         {
           "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
@@ -234,7 +225,7 @@
           "title": "Statistics of Jews, 1945-46",
           "url": "https://www.bjpa.org/content/upload/bjpa/1945/1945_1946_13_Statistics.pdf",
           "archive": "",
-          "quote": "The population of Palestine according to the censuses of 1922 and 1931, and government estimates of settled population as of 1943 and October 1944",
+          "quote": "estimate 1944. 1,727,786 991,068 59.7 521,564 31.4",
           "accessed": "2026-11-20",
           "kind": "reference"
         }
@@ -294,7 +285,7 @@
       "record": true
     },
     {
-      "text": "The British government gave Parliament estimates of the Jewish population: in 1939, about 58,000 Jews (and 635,000 Arabs) in 1919 and 411,000 Jews (and 1,004,000 Arabs) in 1938; in 1948, 89,000 Jews in 1923, 411,000 in 1938 and 640,000 in 1948. The Jewish National Fund put the Jewish population at 460,000 in mid-1939, counting illegal immigrants for the first time (a different basis).",
+      "text": "The British government gave Parliament estimates of the Jewish population. A written answer of 8 February 1939 gave about 58,000 Jews and 635,000 Arabs in 1919 and 411,000 Jews and 1,004,000 Arabs in 1938. A written answer of 25 March 1948 gave 89,000 Jews in 1923, 411,000 in 1938 and 640,000 in 1948. The Jewish National Fund put the Jewish population at 460,000 in mid-1939, counting illegal immigrants for the first time (a different basis).",
       "sources": [
         {
           "publisher": "UK Parliament, Hansard (written answer, 25 March 1948)",
@@ -540,11 +531,8 @@
     "Justin McCarthy's book The Population of Palestine (1990) is the standard study of Ottoman undercounting in Palestine; no page of it was readable here. The card cites his statement from a paper on the Ottoman Armenians, which says the Ottomans consistently undercounted women and children across the empire. What a person needs to read: McCarthy, The Population of Palestine, chapters 1 and 2 (Columbia University Press, 1990), or Roberto Bachi, The Population of Israel (1977), pp. 4-5.",
     "Fact 6 (the 1948 British written answer) is kept as one record with no confirming source: the other Jewish-population figures on the card are for different dates. Fact 11 has one reliable source besides the Survey (a letter in a magazine, written in defence of Peters's thesis); a first-hand demographer on unrecorded Arab immigration (Bachi in his own book) was not readable.",
     "Pre-1914 estimates (275,000 in 1800, over half a million in 1890) rest on DellaPergola, who rests on Bachi, McEvedy and Jones, and Dulska; I did not find a second readable page that gives its own estimate for 1800.",
-    "Every count from 1922 on (the 1922 and 1931 census reports, the Survey, the Anglo-American Committee, UNSCOP, Hansard) is one set of Mandate statistics. The record facts rest on the document itself; the two confirming sources check that we read it right, they are not independent measurements. Facts 5, 7, 9, 10 and 11 are the weakest on this point.",
-    "The 1922 census report scan (hosted by Australian National University) is poorly OCR-ed: its table of religions is unreadable, so the breakdown by religion rests on the Economic Cooperation Foundation page, the Report on Palestine Administration 1922 and the 1931 report's comparison table; the quote on the card is the report's own sentence, copied with its OCR errors.",
-    "Justin McCarthy's book The Population of Palestine (1990) is the standard study of Ottoman undercounting in Palestine; no page of it was readable here. The card cites his statement from a paper on the Ottoman Armenians, which says the Ottomans consistently undercounted women and children across the empire. What a person needs to read: McCarthy, The Population of Palestine, chapters 1 and 2 (Columbia University Press, 1990), or Roberto Bachi, The Population of Israel (1977), pp. 4-5.",
     "Fact 6 (British figures given to Parliament in 1939 and 1948) has two government records and one news report (on a different basis, the Jewish National Fund count); I found no second reliable page that repeats the 1923 and 1948 figures. Fact 11 has one reliable source besides the Survey (a letter in a magazine, written in defence of Peters's thesis); a first-hand demographer on unrecorded Arab immigration (Bachi in his own book) was not readable.",
-    "Pre-1914 estimates (275,000 in 1800, over half a million in 1890) rest on DellaPergola, who rests on Bachi, McEvedy and Jones, and Dulska; I did not find a second readable page that gives its own estimate for 1800."
+    "Round two reviewer: record facts 4, 5, 6, 7, 9, 10 and 11 do not have two readers who report the same content. Fact 4: only the Anglo-American Committee repeats the 1,765,000 (the Year Book gives a different estimate). Fact 5: the 1949 UN paper is a garbled reproduction of a different record and DellaPergola's 1947 figures are rounded and a different date. Fact 6: both Hansard answers are records and the JNF count is a different thing. Fact 7: UNSCOP, the Anglo-American Committee and the Survey each give a different number. Facts 9, 10: the three sources are three records, and the Survey quote in fact 9 is a cut sentence."
   ],
   "not_claimed": [
     "This card does not say there was no Arab immigration into Palestine, only that the official inquiries put it at a small share of the growth.",
@@ -556,7 +544,7 @@
   "content_approved": false,
   "answer_claims": [
     {
-      "says": "Before 1922 there was no modern census: earlier figures are estimates, and Ottoman counts undercounted.",
+      "says": "Before 1922 there was no modern census: earlier figures are estimates, some probably undercounts.",
       "facts": [
         0
       ]
@@ -610,12 +598,12 @@
     "skeptic": {
       "verdict": "weakened",
       "date": "2026-11-20",
-      "notes": "Read 2+ sources for every fact (12). Checked every figure in its paragraph. Figures are accurate, but: [must-fix] Independence: from 1922 on, every count (census, Survey, Hansard, Anglo-American Committee, UNSCOP) is the Mandate government's own statistics, so the gate's three sites are one dataset. Facts 0, 1, 4, 11 have only two origins (the American Jewish Year Book and the Survey are both bjpa.org). Fact 5 has two UN pages for one UNSCOP report. Fact 6's numbers rest on one Hansard answer (government). The card cannot be called three-source on this basis. [must-fix] The old answer's last sentence mixed bases: 11 percent is of the 1922 census total, 33 percent is of the 1946 settled-population estimate; UNSCOP's own table gives 12.91 and 32.96 on a different 1922 total. Fixed in the answer and fact 5. [must-fix] Fact 0 said the Mandate statisticians called the older figures 'unreliable'; the Survey says only that no data are available. Reworded. The Cambridge article found Nablus about twice the size usually cited, so the old guesses may be too low, which matters for the Palestinian side. [must-fix] Fact 1 listed a 1900 figure under 1914 estimates and the answer called the 60,000-85,000 'Ottoman figures'; the 60,000 is an IWM video narration and 84,660 is the Survey's estimate. Reworded; the year-book quote now reads about 85,000 for 1914. [should-fix] Second-hand: Porath is quoted inside Ronald Sanders's letter, and Bachi inside Gottheil's article (about Muslim immigration, not total); both now said so in the facts and contested. Gottheil's host is the Middle East Forum (relabelled advocacy); Pipes's letter is hosted on his own site (other). 'Most reviewers rejected it' had no source; replaced. [should-fix] The 1931 total is 1,035,821 in the census report and 1,035,154 in the Survey; now shown. Fact 8's My Jewish Learning quote does not carry the numbers (only bpb and the Survey do). 'heard' (Khalidi on 1948) is not about population. Strongest objections: Palestinian side, no first-hand scholar (e.g. McCarthy) on Arab population and the Ottoman undercount; Israeli side, the Jewish share is given as 11 percent without the 1922 base problem being visible until fixed."
+      "notes": "Round two, after the record rule. Read the is_record scans: 1922 report (ANU scan, poor OCR: 757,182 and the erratum 83,694 to 83,794 are legible; the Bedouin of Beersheba were estimated, not counted), 1931 Table VII (1,035,821; settled 969,288; Jews 174,610), Survey, UNSCOP, Hansard (both answers). Figures match their records; wording of record facts is 'the report records', not 'there were'. [must-fix] Readers: facts 2 and 3 have real readers (Administration report, ECF, JTA; ECF, Emory). Facts 4, 5, 6, 7, 9, 10, 11 do not: fact 4 only the Anglo-American Committee repeats 1,765,000, and the Year Book's own table for 1944 is 1,727,786 with 521,564 Jews (now said on the card; the Survey's 554,000 is a revised de facto figure); fact 5 has no source repeating the Arab/Jewish split (DellaPergola is rounded 1947); fact 6 both Hansard answers are records and JNF is another count; facts 7, 9, 10 cite three different records, each saying something different, so none confirms another; fact 9's Survey quote is a cut sentence. The writer's own notes admit this. [must-fix] Fact 6 wording was garbled ('in 1939, about 58,000 Jews ... in 1919'); rewritten by date of each answer. Fact 0 said Ottoman counts undercounted; the Cambridge article found the Ottoman count higher than usual estimates, so only 'the older outside estimates may be too low' and McCarthy's empire-wide statement are claimed. [should-fix] Fact 1: one source per estimate (689,000 only the Survey); a duplicate source entry removed. Fact 2 did not say the Bedouin were estimated; fact 3 did not say its total includes nomads. Heard (Khalidi on 1948) is not about population. Missing first-hand demographer (McCarthy's Palestine book, Bachi) remains. Honest handling of the first-round must-fix (one dataset): stated in fact 5 and the answer. Strongest objections: Palestinian side, no first-hand demographer on the Ottoman undercount of Palestine; Israeli side, the 1944 Jewish figure varies by 33,000 between estimates."
     },
     "citer": {
       "verdict": "holds",
       "date": "2026-11-20",
-      "notes": "7 answer sentences, each tied to facts. Removed: 'the best-known book making that case was heavily criticised' (only the contested field carries it, not a fact). Reworded: 'Nobody counted carefully' (Ottoman counts exist); 'Ottoman figures ... run from about 690,000' (one Turkish estimate, not a range, and the Jewish figures are not Ottoman); '1,846,000' now 'settled population'; the 11-to-33-percent sentence now names both bases; the minority-view sentence now rests on fact 11 (incomplete records) and says 'a minority view'. Facts 6, 8, 10 are not used by the answer."
+      "notes": "Round two after the record rule. Answer re-split into 8 sentences, each tied to facts. Reworded 'Ottoman counts undercounted' (not shown for Palestine) to 'some were probably undercounts' (fact 0). The 12.91/32.96 percent sentence is carried by fact 5 (UNSCOP's own table, like with like). 'Every count after 1922 is one set of Mandate statistics' is carried by fact 5's text. Sentences are supported by the facts as worded; the readers behind those facts are the weakness, not the tie."
     }
   }
 }
