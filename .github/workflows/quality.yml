@@ -60,8 +60,8 @@ jobs:
       - run: npx turbo run build
       - name: No page that is not approved may be in the built site
         run: |
-          test -f apps/site/dist/index.html
-          ! grep -rl "waiting for Ido" apps/site/dist
+          test -f apps/site/.next/server/app/index.html
+          ! grep -rl "waiting for Ido" apps/site/.next/server/app
 
   quality-gate:
     name: Quality Gate

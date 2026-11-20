@@ -5,15 +5,19 @@
     "build": {
       "dependsOn": ["^build"],
       "inputs": [
-        "build.py",
-        "vercel.json",
-        "assets/**",
+        "app/**",
+        "public/**",
+        "export.py",
+        "check.mjs",
+        "next.config.ts",
+        "tsconfig.json",
         "package.json",
         "$TURBO_ROOT$/facts/**",
         "$TURBO_ROOT$/docs/**",
         "$TURBO_ROOT$/tools/factcheck.py"
       ],
-      "outputs": ["dist/**"]
+      "outputs": [".next/**", "!.next/cache/**", "data/**"],
+      "env": ["SITE_PREVIEW"]
     },
     "//#check": {
       "inputs": ["facts/**", "tools/**"],

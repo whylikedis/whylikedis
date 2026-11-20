@@ -62,8 +62,8 @@ It must exit 0 before any commit that touches a card. Never edit the checker to 
 
 ## The repository
 
-A Turborepo with npm workspaces. `npm run check` is the gate, `npm run build` builds the site into
-`apps/site/dist`, `npm run preview` serves the local preview, and `npm run ci:local` runs what the
+A Turborepo with npm workspaces. `npm run check` is the gate, `npm run build` builds the site (Next.js,
+in `apps/site`, from the data `export.py` writes), `npm run preview` serves the local preview, and `npm run ci:local` runs what the
 pre-push hook runs. Hooks are installed by lefthook. **Never `--no-verify`: the hooks are the gate.**
 Only `main` deploys, through `.github/workflows/deploy.yml`.
 

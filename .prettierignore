@@ -2,7 +2,8 @@
 facts/
 evals/
 analysis/
-apps/site/dist/
+apps/site/.next/
+apps/site/data/
 apps/site/landing.html
 package-lock.json
 FACTS.md

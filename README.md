@@ -35,7 +35,7 @@ The checker needs Python 3.9 or later and nothing else.
 ```bash
 npm install        # Node 24; installs the hooks
 npm run check      # the gate
-npm run build      # the site, into apps/site/dist
+npm run build      # the site: Next.js, built in apps/site
 npm run preview    # the local preview on http://localhost:4173
 ```
 
