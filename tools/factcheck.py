@@ -188,7 +188,11 @@ def run(folder=FACTS, online=False, out=print, prefix=""):
             for where, url, quote, archive in quoted(card):
                 status, text = read(url, archive)
                 result = "found" if text and norm(quote) in text else "missing" if text else "unreachable"
-                lock[key(url, quote)] = mine[key(url, quote)] = {"url": url, "result": result, "http": status, "checked": date.today().isoformat()}
+                k = key(url, quote)
+                if result == "unreachable" and lock.get(k, {}).get("result") == "found":
+                    out(f"  warn {name} {where}: could not read {url} today; keeping the quote found on {lock[k]['checked']}")
+                    continue  # a page that will not load today is not evidence that the quote is gone
+                lock[k] = mine[k] = {"url": url, "result": result, "http": status, "checked": date.today().isoformat()}
                 if result == "missing":
                     errs.append(f"{where}: the quote is not on the page {url}")
                 elif result == "unreachable":
