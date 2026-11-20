@@ -1,0 +1,34 @@
+{
+  "name": "whylikedis",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Clear answers about Israel, each with sources you can check.",
+  "packageManager": "npm@11.6.2",
+  "engines": {
+    "node": "24.x"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "prepare": "[ -d .git ] && lefthook install || true",
+    "build": "turbo run build",
+    "check": "python3 tools/factcheck.py selftest && python3 tools/factcheck.py",
+    "check:online": "python3 tools/factcheck.py --online",
+    "lint": "npm run lint:md",
+    "lint:md": "markdownlint-cli2 '**/*.md'",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "preview": "npm run preview --workspace @whylikedis/site",
+    "ci:local": "lefthook run pre-push --all-files --force"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^21.2.4",
+    "@commitlint/config-conventional": "^21.0.2",
+    "@evilmartians/lefthook": "^2.2.2",
+    "markdownlint-cli2": "^0.24.0",
+    "prettier": "^3.9.10",
+    "turbo": "^2.9.8"
+  }
+}

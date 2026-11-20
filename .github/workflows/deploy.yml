@@ -1,0 +1,66 @@
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
+name: Deploy
+
+# Only main deploys. A push to main that passes the same checks as Quality ships the site;
+# the manual trigger redeploys main. Vercel never deploys on its own: there is no Git link.
+#
+# Inert until the owner acts: with no VERCEL_TOKEN repository secret the preflight says what is
+# missing and the deploy job is skipped. The team and project ids are identifiers, not secrets.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'facts/**'
+      - 'docs/**'
+      - 'apps/site/**'
+      - 'tools/factcheck.py'
+      - '.github/workflows/deploy.yml'
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-production
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+env:
+  VERCEL_ORG_ID: team_MPLsy8lX4kIQqwZl9FA98dYW
+  VERCEL_PROJECT_ID: prj_7x7e1WD2Ku0zV4APN0EQbQ2KTtFE
+
+jobs:
+  preflight:
+    name: Preflight
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    outputs:
+      ready: ${{ steps.check.outputs.ready }}
+    steps:
+      - id: check
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          if [ -n "$VERCEL_TOKEN" ]; then echo "ready=true" >> "$GITHUB_OUTPUT"; else
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "No VERCEL_TOKEN repository secret: nothing was deployed." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+  deploy:
+    name: Deploy the site
+    needs: preflight
+    if: needs.preflight.outputs.ready == 'true' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment: production
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: ./.github/actions/setup
+      - name: The gate must pass before anything ships
+        run: npx turbo run //#check
+      - name: Build
+        run: npx turbo run build
+      - name: Deploy to production
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: npx --yes vercel@54.1.0 deploy apps/site/dist --prod --yes --token "$VERCEL_TOKEN"

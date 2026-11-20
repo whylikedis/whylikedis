@@ -1,0 +1,80 @@
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
+name: Quality
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  merge_group:
+  workflow_dispatch:
+
+concurrency:
+  group: quality-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  gate:
+    name: Fact gate
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: ./.github/actions/setup
+      - name: The gate rejects bad cards, and every card follows the rules
+        run: npx turbo run //#check
+
+  markdown:
+    name: Markdown
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: ./.github/actions/setup
+        with:
+          turbo-cache: 'false'
+      - run: npm run lint:md
+      - run: npm run format:check
+
+  lockfile:
+    name: Lockfile
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e # v6
+        with:
+          node-version-file: .nvmrc
+      - run: npm ci --dry-run --no-audit --fund=false
+
+  build:
+    name: Build the site
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: ./.github/actions/setup
+      - run: npx turbo run build
+      - name: No page that is not approved may be in the built site
+        run: |
+          test -f apps/site/dist/index.html
+          ! grep -rl "waiting for Ido" apps/site/dist
+
+  quality-gate:
+    name: Quality Gate
+    if: always()
+    needs: [gate, markdown, lockfile, build]
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Fail if any required job failed
+        env:
+          RESULTS: ${{ join(needs.*.result, ' ') }}
+        run: |
+          echo "results: $RESULTS" >> "$GITHUB_STEP_SUMMARY"
+          for r in $RESULTS; do
+            [ "$r" = "success" ] || { echo "a required job did not succeed: $RESULTS"; exit 1; }
+          done

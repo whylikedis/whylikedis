@@ -1,0 +1,8 @@
+# Cards and data are written by tools, in their own format.
+facts/
+evals/
+analysis/
+apps/site/dist/
+apps/site/landing.html
+package-lock.json
+FACTS.md

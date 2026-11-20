@@ -1,9 +1,10 @@
-# The rules that judge a change are owned, so a change cannot rewrite them.
+# Every change is owned. The rules that judge a change are listed too, so a change cannot rewrite them unseen.
+*            @whylikedis/owners
 /AGENTS.md   @whylikedis/owners
 /CLAUDE.md   @whylikedis/owners
 /REVIEW.md   @whylikedis/owners
 /.claude/    @whylikedis/owners
 /.github/    @whylikedis/owners
-/.githooks/  @whylikedis/owners
+/scripts/    @whylikedis/owners
 /.sdlc/      @whylikedis/owners
 /tools/      @whylikedis/owners

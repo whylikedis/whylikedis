@@ -1,7 +1,7 @@
 #!/bin/sh
 # Every commit says how it was verified ("Checked: none - reason" is allowed).
-# Mode is in .githooks/mode: off, observe (log what would be blocked) or enforce.
-mode=$(cat "$(dirname "$0")/mode" 2>/dev/null || echo observe)
+# Mode is in scripts/checked-stamp.mode: off, observe (log what would be blocked) or enforce.
+mode=$(cat "$(dirname "$0")/checked-stamp.mode" 2>/dev/null || echo observe)
 [ "$mode" = off ] && exit 0
 grep -q '^Checked: ' "$1" && exit 0
 echo "$(date -u +%FT%TZ) no Checked: line - $(head -1 "$1")" >> "$(git rev-parse --git-dir)/checked-gate.log"

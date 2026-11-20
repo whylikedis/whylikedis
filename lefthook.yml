@@ -1,0 +1,27 @@
+# Hooks are the gate. Never --no-verify.
+commit-msg:
+  commands:
+    commitlint:
+      run: npx --no -- commitlint --edit {1}
+    checked-stamp:
+      # Every commit says how it was verified. Observe mode: logged when missing, not blocked yet.
+      run: sh scripts/checked-stamp.sh {1}
+
+pre-commit:
+  parallel: true
+  commands:
+    gate:
+      # The self-test always blocks. The card gate blocks a commit that touches facts/.
+      run: sh scripts/pre-commit-gate.sh
+    markdown:
+      glob: '*.md'
+      run: npx --no -- markdownlint-cli2 {staged_files}
+    format:
+      glob: '*.{md,json,jsonc,yml,yaml,mjs}'
+      exclude: '(^|/)(facts|evals|analysis)/|package-lock\.json'
+      run: npx --no -- prettier --check {staged_files}
+
+pre-push:
+  commands:
+    battery:
+      run: npx --no -- turbo run build //#check //#lint:md --output-logs=errors-only

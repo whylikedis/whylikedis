@@ -1,8 +1,11 @@
+node_modules/
+.turbo/
 FACTS.md
 __pycache__/
 .DS_Store
 # Local-only working files: nothing about a person or a plan belongs in this repository.
 private/
 # The built site, and any page that is not approved yet.
-site/dist/
-site/landing.html
+apps/site/dist/
+apps/site/landing.html
+.vercel/

@@ -25,11 +25,22 @@ content until its `content_approved` flag is set.
 ```bash
 python3 tools/factcheck.py            # every card follows the rules
 python3 tools/factcheck.py --online   # every quote is on the page it cites
-python3 tools/factcheck.py render     # write FACTS.md, the readable view
 python3 tools/factcheck.py selftest   # the gate fails on a bad card
 ```
 
-Python 3.9 or later. No dependencies. To read PDF sources, install `pdftotext` (poppler); without
+The checker needs Python 3.9 or later and nothing else.
+
+## Work on it
+
+```bash
+npm install        # Node 24; installs the hooks
+npm run check      # the gate
+npm run build      # the site, into apps/site/dist
+npm run preview    # the local preview on http://localhost:4173
+```
+
+The repository is a Turborepo: `apps/site` is the site, and the fact base and its checker sit at
+the root. To read PDF sources, install `pdftotext` (poppler); without
 it, PDF sources are reported as unreachable.
 
 ## How cards are written

@@ -29,19 +29,19 @@ short: a rule moves into the gate as soon as a check can catch it.
 5. **Three rounds, then a person.** If a check still fails after three rounds of fixing, stop and
    ask. Never skip a check, add a retry, or run it again until it passes.
 6. **A change cannot change its own checks.** Card work never edits `tools/`, `AGENTS.md`,
-   `REVIEW.md`, `.claude/` or `.github/`. Those change in their own commit, approved by an owner.
+   `REVIEW.md`, `.claude/`, `.github/` or `scripts/`. Those change in their own commit, approved by an owner.
 7. **`content_approved` stays false.** Only the teacher sets it.
 8. **No contact with anyone.** No forms, sign-ups, posts or messages. Searches stay generic.
 9. **Restraint.** No graphic descriptions. Say "pro-Israel advocacy" or "outreach". Plain English.
 
 ## Where a rule lives
 
-| Kind of rule                                 | Home                                 | Example                                    |
-| -------------------------------------------- | ------------------------------------ | ------------------------------------------ |
-| A computer can check it                      | `tools/factcheck.py` (the gate)      | Three reliable sources; the quote is on the page |
-| Judgement, needed in every session           | This file (`CLAUDE.md` imports it)   | Quote the other side fairly                |
-| A procedure, needed only for one kind of task | A skill in `.claude/skills/`         | How to write a card; how to verify         |
-| What a reviewer looks for in a diff          | `REVIEW.md`                          | A changed quote means a new online check   |
+| Kind of rule                                  | Home                               | Example                                          |
+| --------------------------------------------- | ---------------------------------- | ------------------------------------------------ |
+| A computer can check it                       | `tools/factcheck.py` (the gate)    | Three reliable sources; the quote is on the page |
+| Judgement, needed in every session            | This file (`CLAUDE.md` imports it) | Quote the other side fairly                      |
+| A procedure, needed only for one kind of task | A skill in `.claude/skills/`       | How to write a card; how to verify               |
+| What a reviewer looks for in a diff           | `REVIEW.md`                        | A changed quote means a new online check         |
 
 A new rule is added only after the same mistake happened twice, and as a check if at all possible.
 Misses are logged in `docs/lessons.md`. Rules that never catch anything are removed.
@@ -58,4 +58,14 @@ Misses are logged in `docs/lessons.md`. Rules that never catch anything are remo
 python3 tools/factcheck.py selftest && python3 tools/factcheck.py
 ```
 
-It must exit 0 before any commit. Never edit the checker to make a card pass.
+It must exit 0 before any commit that touches a card. Never edit the checker to make a card pass.
+
+## The repository
+
+A Turborepo with npm workspaces. `npm run check` is the gate, `npm run build` builds the site into
+`apps/site/dist`, `npm run preview` serves the local preview, and `npm run ci:local` runs what the
+pre-push hook runs. Hooks are installed by lefthook. **Never `--no-verify`: the hooks are the gate.**
+Only `main` deploys, through `.github/workflows/deploy.yml`.
+
+Commits are conventional (`feat(cards): …`, `fix(gate): …`, `docs: …`) and end with a `Checked:`
+line saying how the change was verified.

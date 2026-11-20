@@ -1,16 +1,17 @@
 #!/usr/bin/env python3
 """Build the local preview site into site/dist/. No dependencies.
 
-    python3 site/build.py && python3 -m http.server 4173 --directory site/dist
+    npm run build            the hosted site, into apps/site/dist
+    npm run preview          the local preview, with any page that is not approved yet
 
-Pages: the waiting-list page (only if site/landing.html exists; it is kept out of git until both
+Pages: the waiting-list page (only if apps/site/landing.html exists; it is kept out of git until both
 founders approve it), the fact base from facts/*.json, and four pages from docs/.
 Everything here is a projection of files in the repository: edit the cards and the docs, not the output.
 """
 import html, json, os, re, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-ROOT = os.path.dirname(HERE)
+ROOT = os.path.dirname(os.path.dirname(HERE))  # apps/site -> the repository root
 DIST = os.path.join(HERE, "dist")
 PUBLIC = "--public" in sys.argv  # the hosted build: no waiting-list page, an honest banner, and no search indexing yet
 BANNER = ("WORK IN PROGRESS · cards marked draft have not passed review · nothing here is teaching content yet" if PUBLIC
@@ -286,6 +287,7 @@ if __name__ == "__main__":
     shutil.rmtree(DIST, ignore_errors=True)  # a build never carries a page over from the build before it
     os.makedirs(DIST, exist_ok=True)
     shutil.copytree(os.path.join(HERE, "assets"), os.path.join(DIST, "assets"))
+    shutil.copy(os.path.join(HERE, "vercel.json"), DIST)  # headers travel with the built site
     open(os.path.join(DIST, "index.html"), "w", encoding="utf-8").write(home())
     write("facts", facts_page())
     write("questions", doc_page("hypotheses.md", "Questions we tested", "questions/"))

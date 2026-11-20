@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
+name: Online check
+
+# Weekly: is every quote still on the page it cites? Observe mode: it reports and does not block.
+# Make it blocking once it has run clean for a month.
+
+on:
+  schedule:
+    - cron: '17 5 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  online:
+    name: Quotes are still on their pages
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - run: sudo apt-get install -y poppler-utils # pdftotext, so PDF sources can be read
+      - run: python3 tools/factcheck.py --online
