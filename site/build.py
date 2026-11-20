@@ -67,6 +67,23 @@ NAV_CSS = """
 """
 
 
+SITE = "https://whylikedis.fyi"
+TAGLINE = "Clear answers about Israel, each with sources you can check."
+
+
+def head_extras(title, depth):
+    """Icons and the card a link shows when it is shared."""
+    up = "../" * depth
+    return (f'<link rel="icon" href="{up}assets/favicon.svg" type="image/svg+xml">'
+            f'<link rel="icon" href="{up}assets/favicon-32.png" sizes="32x32" type="image/png">'
+            f'<link rel="apple-touch-icon" href="{up}assets/apple-touch-icon.png">'
+            '<meta name="theme-color" content="#0038b8">'
+            f'<meta name="description" content="{E(TAGLINE)}">'
+            f'<meta property="og:title" content="{E(title)} · WhyLikeDIs"><meta property="og:description" content="{E(TAGLINE)}">'
+            f'<meta property="og:image" content="{SITE}/assets/og.png"><meta property="og:type" content="website">'
+            '<meta name="twitter:card" content="summary_large_image">')
+
+
 def nav(current, depth):
     up = "../" * depth
     items = "".join(f'<li><a href="{up}{p}"{" aria-current=page" if p == current else ""}>{E(t)}</a></li>' for p, t in NAV)
@@ -75,7 +92,7 @@ def nav(current, depth):
 
 def page(title, current, body, depth=1):
     return (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
-            f'<title>{E(title)} · WhyLikeDIs</title>{ROBOTS}{FONTS}<style>{CSS}{NAV_CSS}</style></head><body>'
+            f'<title>{E(title)} · WhyLikeDIs</title>{ROBOTS}{head_extras(title, depth)}{FONTS}<style>{CSS}{NAV_CSS}</style></head><body>'
             f'<div class="draft">{BANNER}</div>{nav(current, depth)}'
             f'<main class="wrap">{body}</main></body></html>')
 
@@ -141,7 +158,15 @@ def facts_page():
     chapters = [(k, t) for k, t in factcheck.CHAPTERS.items() if any(c["era"] == k for _, c in cards)]
     body += '<ul class="chips">' + "".join(f'<li><a href="#ch{k}">{k}. {E(t)}</a></li>' for k, t in chapters) + "</ul>"
     for k, t in chapters:
-        body += f'<h2 id="ch{k}">{k}. {E(t)}</h2>' + "".join(card_html(n, c) for n, c in cards if c["era"] == k)
+        body += f'<h2 id="ch{k}">{k}. {E(t)}</h2>'
+        mine = [(n, c) for n, c in cards if c["era"] == k]
+        # The hosted site shows a card in full only once it is verified; drafts are listed, so nobody
+        # mistakes an unreviewed answer for a checked one.
+        body += "".join(card_html(n, c) for n, c in mine if not PUBLIC or c["status"] == "verified")
+        drafts = [c for _, c in mine if PUBLIC and c["status"] != "verified"]
+        if drafts:
+            body += ('<p class="soft" style="margin-top:18px">In review, not yet verified:</p><ul>'
+                     + "".join(f'<li><q>{E(c["claim"])}</q></li>' for c in drafts) + "</ul>")
     return page("Fact base", "facts/", body)
 
 
@@ -242,7 +267,7 @@ def home():
     path = os.path.join(HERE, "landing.html")
     if os.path.exists(path):  # the waiting-list page as drafted; we only add the site's navigation to it
         text = open(path, encoding="utf-8").read()
-        return text.replace("</head>", f"<style>{NAV_CSS}</style></head>", 1).replace('<div class="wrap">', nav("", 0) + '<div class="wrap">', 1)
+        return text.replace("</head>", f"{head_extras('Home', 0)}<style>{NAV_CSS}</style></head>", 1).replace('<div class="wrap">', nav("", 0) + '<div class="wrap">', 1)
     return page("Home", "", '<h1>WhyLikeDIs</h1><p class="lede">Clear answers about Israel, each with sources a parent can check.</p>'
                 '<p>The waiting-list page is not in this checkout. <a href="facts/">Open the fact base</a>.</p>', depth=0)
 
@@ -257,7 +282,10 @@ def demo():
 
 if __name__ == "__main__":
     demo()
+    import shutil
+    shutil.rmtree(DIST, ignore_errors=True)  # a build never carries a page over from the build before it
     os.makedirs(DIST, exist_ok=True)
+    shutil.copytree(os.path.join(HERE, "assets"), os.path.join(DIST, "assets"))
     open(os.path.join(DIST, "index.html"), "w", encoding="utf-8").write(home())
     write("facts", facts_page())
     write("questions", doc_page("hypotheses.md", "Questions we tested", "questions/"))
