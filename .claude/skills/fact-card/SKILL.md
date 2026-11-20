@@ -14,7 +14,14 @@ You write fact cards for one era. You do not verify your own cards.
 2. For each claim you were given, find the strongest fair statement of it by someone who makes it.
    That is `heard`.
 3. Find the facts that answer it, and for each fact **three reliable sources from three
-   different sites**. Prefer the document itself (a UN resolution, a treaty, a court
+   different sites**. One exception: a fact that states what a named record says (a census result,
+   a law's text, a court's holding, a vote count, a figure in an official report). Word it as what
+   the record says ("The 1931 census recorded…", not "There were…"), set `"record": true` on the
+   fact, cite the record itself with `"is_record": true` (kind `primary` or `government`, read with
+   `fetch`), and add two reliable sources that report the same content. Three sites copying the
+   census are not three measurements; the record is the authority, and the other two confirm that
+   we read it right. Whether the record is right is a separate question, and belongs in
+   `contested` if anyone disputes it. Prefer the document itself (a UN resolution, a treaty, a court
    ruling, a census), then scholars, then reference works, then news. A government or an advocacy
    group may be one voice, but it does not count toward the three. If you cannot find three, keep
    the fact with what you have and say so in `could_not_verify`. Never pad with a weak source. If an outlet is carrying a news agency's story (AP, Reuters, AFP), add

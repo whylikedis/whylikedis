@@ -73,6 +73,20 @@ def origin(s):
     return "wire:" + WIRES.get(wire, wire) if wire else urlparse(s.get("url", "")).netloc.removeprefix("www.")
 
 
+def enough(fact):
+    """(ok, how many, why). A fact about the world needs three reliable, independent sources.
+    A fact about what a named record says (a census, a law, a ruling, a vote, a report) needs the record
+    itself, read by us, plus two reliable sources that report the same content: three sources, but the
+    record is the authority and the other two confirm our reading of it."""
+    src = fact.get("sources") or []
+    reliable = {origin(s) for s in src if s.get("kind") in RELIABLE and not s.get("is_record")}
+    if fact.get("record"):
+        records = [s for s in src if s.get("is_record") and s.get("kind") in ("primary", "government")]
+        n = bool(records) + len(reliable)
+        return bool(records) and len(reliable) >= 2, n, "the record itself (is_record) and two reliable sources reporting it"
+    return len(reliable) >= 3, len(reliable), "three reliable, independent sources"
+
+
 def key(url, quote):
     return hashlib.sha256(f"{url}\n{norm(quote)}".encode()).hexdigest()[:16]
 
@@ -166,10 +180,10 @@ def check_card(card, name, lock):
             if (review.get(who) or {}).get("verdict") != "holds":
                 e.append(f"verified needs review.{who}.verdict = holds, from an agent that did not write the card")
         for i, f in enumerate(card["facts"]):
-            sites = {origin(s) for s in f.get("sources") or [] if s.get("kind") in RELIABLE}
-            if len(sites) < 3:
-                e.append(f"facts[{i}]: verified needs three reliable, independent sources (has {len(sites)}); governments and "
-                         "advocacy groups do not count, and one agency story on several sites counts once")
+            ok, n, why = enough(f)
+            if not ok:
+                e.append(f"facts[{i}]: verified needs {why} (has {n}); governments and advocacy groups do not count "
+                         "as reliable, and one agency story on several sites counts once")
         for i, c in enumerate(card["contested"]):
             if not (isinstance(c, dict) and c.get("text") and c.get("sources")):
                 e.append(f"contested[{i}]: verified needs each disputed position as {{text, sources}}, quoted from "
@@ -234,7 +248,7 @@ def run(folder=FACTS, online=False, out=print, prefix=""):
     mine = [c for name, c in cards(folder) if name.startswith(prefix) and "_broken" not in c]
     verified = sum(c.get("status") == "verified" for c in mine)
     facts = [f for c in mine for f in c.get("facts") or []]
-    three = sum(len({origin(s) for s in f.get("sources") or [] if s.get("kind") in RELIABLE}) >= 3 for f in facts)
+    three = sum(enough(f)[0] for f in facts)
     out(f"{'FAILED' if failed else 'ok'}: {n} cards, {verified} verified, {failed} failing; "
         f"{three} of {len(facts)} facts have three reliable sources")
     return failed
@@ -285,10 +299,17 @@ def selftest():
                review={"skeptic": {"verdict": "holds"}, "citer": {"verdict": "holds"}})
     lock = {key(u, q): {"result": "found"} for _, u, q, _ in quoted(ver)}
     assert check_card(ver, "good", lock) == [], check_card(ver, "good", lock)
+    rec = json.loads(json.dumps(ver))  # what a census says: the census itself plus two reliable readers
+    rec["facts"][0].update(record=True, sources=[dict(src("gov.example"), kind="government", is_record=True), src("a.org"), src("b.org")])
+    lock.update({key(u, q): {"result": "found"} for _, u, q, _ in quoted(rec)})
+    assert check_card(rec, "good", lock) == [], check_card(rec, "good", lock)
     bad_ver = {
         "one agency story on three sites": lambda c: [s.update(wire="AP") for s in c["facts"][0]["sources"]],
         "an agency named in the publisher but not declared": lambda c: c["facts"][0]["sources"][0].update(publisher="PBS NewsHour (Associated Press)"),
         "a site with nobody behind it counted as reliable": lambda c: c["facts"][0]["sources"][2].update(kind="other"),
+        "a record fact without the record itself": lambda c: c["facts"][0].update(record=True),
+        "a record fact with one reader": lambda c: c["facts"][0].update(record=True, sources=[
+            dict(src("gov.example"), kind="government", is_record=True), src("a.org")]),
         "two reliable sources": lambda c: c["facts"][0].update(sources=[src("a.org"), src("b.org"), src("c.org", "advocacy")]),
         "one reader": lambda c: c["review"].pop("citer"),
         "skeptic says weakened": lambda c: c["review"]["skeptic"].update(verdict="weakened"),
