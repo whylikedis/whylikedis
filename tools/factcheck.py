@@ -3,6 +3,7 @@
 
     python3 tools/factcheck.py              check every card in facts/ (offline, exits 1 on failure)
     python3 tools/factcheck.py --online     also fetch every source and look for its quote on the page
+    python3 tools/factcheck.py [--online] era3   only the cards whose id starts with "era3"
     python3 tools/factcheck.py fetch URL    print a page as the checker reads it (agents quote from this)
     python3 tools/factcheck.py render       write FACTS.md, the readable view of every card
     python3 tools/factcheck.py selftest     prove the gate fails on a bad card
@@ -150,17 +151,21 @@ def load_lock(path=LOCK):
     return json.load(open(path, encoding="utf-8")) if os.path.exists(path) else {}
 
 
-def run(folder=FACTS, online=False, out=print):
-    lock = load_lock(os.path.join(folder, "verified.lock.json"))
+def run(folder=FACTS, online=False, out=print, prefix=""):
+    """prefix: check only cards whose id starts with it, so agents on different eras do not trip on each other."""
+    lock_path = os.path.join(folder, "verified.lock.json")
+    lock, mine = load_lock(lock_path), {}
     failed = n = 0
     for name, card in cards(folder):
+        if not name.startswith(prefix):
+            continue
         n += 1
         errs = [f"not valid JSON: {card['_broken']}"] if "_broken" in card else []
         if online and not errs:
             for where, url, quote, archive in quoted(card):
                 status, text = read(url, archive)
                 result = "found" if text and norm(quote) in text else "missing" if text else "unreachable"
-                lock[key(url, quote)] = {"url": url, "result": result, "http": status, "checked": date.today().isoformat()}
+                lock[key(url, quote)] = mine[key(url, quote)] = {"url": url, "result": result, "http": status, "checked": date.today().isoformat()}
                 if result == "missing":
                     errs.append(f"{where}: the quote is not on the page {url}")
                 elif result == "unreachable":
@@ -169,8 +174,8 @@ def run(folder=FACTS, online=False, out=print):
         failed += bool(errs)
         for x in errs:
             out(f"FAIL {name}: {x}")
-    if online:
-        json.dump(lock, open(os.path.join(folder, "verified.lock.json"), "w", encoding="utf-8"), indent=1, sort_keys=True)
+    if online:  # re-read before writing: another agent may have added its own results meanwhile
+        json.dump({**load_lock(lock_path), **mine}, open(lock_path, "w", encoding="utf-8"), indent=1, sort_keys=True)
     verified = sum(c.get("status") == "verified" for _, c in cards(folder))
     out(f"{'FAILED' if failed else 'ok'}: {n} cards, {verified} verified, {failed} failing")
     return failed
@@ -233,4 +238,5 @@ if __name__ == "__main__":
         status, text = read(sys.argv[2])
         print(text if text else f"could not read the page (http {status})")
     else:
-        sys.exit(1 if run(online=cmd == "--online") else 0)
+        args = [a for a in sys.argv[1:] if a != "--online"]
+        sys.exit(1 if run(online="--online" in sys.argv, prefix=args[0] if args else "") else 0)
