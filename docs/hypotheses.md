@@ -26,6 +26,7 @@ brought, what the cards found, and whether it became a card.
 | Do minority groups in America move to the right as they settle? For which groups, and by how much?                            | 13      | untested |               |
 | Are Jews and Arabs near parity in number between the river and the sea? Who counts, and who disputes it?                      | 12      | untested |               |
 | Do Likud voters live in the same towns and neighbourhoods as opposition voters, more than Haredi, Arab and settler voters do? | 13      | untested |               |
+| Does the way groups were treated in Israel's first decades still show in how they vote?                                       | 13      | untested |               |
 
 States: `untested`, `supported` (cards say so, with sources), `partly`, `not supported` (we looked
 and the evidence is against it or absent), `cannot know` (no source can settle it).
