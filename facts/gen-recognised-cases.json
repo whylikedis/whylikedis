@@ -1,0 +1,396 @@
+{
+  "id": "gen-recognised-cases",
+  "era": 5,
+  "claim": "What Israel is doing in Gaza is the same as the Holocaust, or is a genocide like the others.",
+  "heard": [
+    {
+      "who": "Luiz Inacio Lula da Silva, President of Brazil, 18 February 2024, as reported by Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2024/2/18/brazils-lula-compares-israels-war-on-gaza-with-the-holocaust",
+      "quote": "What's happening in the Gaza Strip with the Palestinian people hasn't happened at any other moment in history. Actually, it has happened: when Hitler decided to kill the Jews.",
+      "archive": ""
+    },
+    {
+      "who": "A. Dirk Moses, professor of international relations at City College of New York, as quoted by NPR, 25 September 2025",
+      "url": "https://www.npr.org/2025/09/25/g-s1-89678/israel-gaza-genocide-debates-united-nations",
+      "quote": "In Srebrenica, 'only' 8,000 men and boys were killed, but they were deemed a substantial part of the Bosnian population. That was enough for a genocide ruling.",
+      "archive": ""
+    }
+  ],
+  "answer": "Genocide is a legal term, and courts apply it by intent, not by a body count. The Holocaust was a state plan to murder every Jew in reach: six million killed, two thirds of Europe's Jews. In Rwanda about 800,000 people were killed in about 100 days. At Srebrenica between 7,000 and 8,000 men and boys were killed, and the ICTY and the ICJ both ruled it genocide: so a genocide can involve thousands, not millions. The same ICJ found that other mass killings in Bosnia, and in Croatia, were not shown to be genocide, because the specific intent to destroy the group was not shown. Article II asks for intent to destroy a group in whole or in part, and the ICJ says that, when inferred from conduct, it must be the only reasonable inference. Whether that is met in Gaza is the subject of the next card.",
+  "facts": [
+    {
+      "text": "About six million Jews, roughly two thirds of the Jews living in Europe before the war, were murdered in the Holocaust by Nazi Germany and its allies and collaborators.",
+      "sources": [
+        {
+          "publisher": "US Holocaust Memorial Museum",
+          "title": "\"Final Solution\": Overview, Holocaust Encyclopedia",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/final-solution-overview",
+          "archive": "",
+          "quote": "Six million Jewish men, women, and children were killed during the Holocaust—two-thirds of the Jews living in Europe before World War II",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Imperial War Museums",
+          "title": "What was the Holocaust?",
+          "url": "https://www.iwm.org.uk/history/what-was-the-holocaust",
+          "archive": "",
+          "quote": "the genocide now known as the Holocaust was the state-sponsored mass murder of six million Jewish men, women and children",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Holocaust Memorial Day Trust",
+          "title": "The Holocaust",
+          "url": "https://www.hmd.org.uk/learn-about-the-holocaust-and-genocides/the-holocaust/",
+          "archive": "",
+          "quote": "By the end of the Holocaust, six million Jewish men, women and children had been murdered in ghettos, mass-shootings, in concentration camps and death camps.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "The Holocaust was a decision by the Nazi leadership to murder every Jew in reach, carried out by a state through killing centres built for the purpose; the Nazi leaders planned for 11 million Jews and killed six million.",
+      "sources": [
+        {
+          "publisher": "US Holocaust Memorial Museum",
+          "title": "\"Final Solution\": Overview, Holocaust Encyclopedia",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/final-solution-overview",
+          "archive": "",
+          "quote": "The Nazi leaders envisioned killing 11 million Jews as part of the “Final Solution.” They succeeded in murdering 6 million.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Imperial War Museums",
+          "title": "What was the Holocaust?",
+          "url": "https://www.iwm.org.uk/history/what-was-the-holocaust",
+          "archive": "",
+          "quote": "There was nothing inevitable about the decision of the Nazis and their collaborators to attempt to exterminate Europe's Jews",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Holocaust Memorial Day Trust",
+          "title": "The Holocaust",
+          "url": "https://www.hmd.org.uk/learn-about-the-holocaust-and-genocides/the-holocaust/",
+          "archive": "",
+          "quote": "the first death camp, Chelmno in Poland, had been established, giving the Nazis their method to continue murdering on a giant scale between 1941 and 1945",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "In Rwanda in 1994, about 800,000 people, mostly Tutsi, were killed in about 100 days by Hutu extremists, in a campaign the US Holocaust Memorial Museum describes as a plan to wipe out the Tutsi minority.",
+      "sources": [
+        {
+          "publisher": "United Nations (Outreach Programme on the Rwanda Genocide)",
+          "title": "Backgrounders: the Case of Rwanda",
+          "url": "https://www.un.org/en/preventgenocide/rwanda/backgrounders.shtml",
+          "archive": "",
+          "quote": "more than 800,000 Rwandans, mostly ethnic Tutsi, were massacred by Hutu militia and government forces over a period of just 100 days",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Rwanda genocide: 100 days of slaughter",
+          "url": "https://www.bbc.com/news/world-africa-26875506",
+          "archive": "",
+          "quote": "In just 100 days in 1994, about 800,000 people were slaughtered in Rwanda by ethnic Hutu extremists.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "US Holocaust Memorial Museum",
+          "title": "The Rwanda Genocide, Holocaust Encyclopedia",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/the-rwanda-genocide",
+          "archive": "",
+          "quote": "an extremist-led Hutu government launched a plan to wipe out Rwanda's entire Tutsi minority and any others who opposed its policies",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "The ICTR's judgment against Jean-Paul Akayesu on 2 September 1998 was the first judgment by an international court for the crime of genocide; the tribunal applied the Genocide Convention's definition, which turns on intent to destroy a group.",
+      "sources": [
+        {
+          "publisher": "UN International Criminal Tribunal for Rwanda",
+          "title": "Historic judgement finds Akayesu guilty of genocide (press release)",
+          "url": "https://unictr.irmct.org/en/news/historic-judgement-finds-akayesu-guilty-genocide",
+          "archive": "",
+          "quote": "in the first-ever judgement by an international court for the crime of genocide, today found Jean-Paul Akayesu guilty of genocide and crimes against humanity",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "UN News",
+          "title": "UN tribunal on Rwandan genocide formally closes",
+          "url": "https://news.un.org/en/story/2015/12/519212-un-tribunal-rwandan-genocide-formally-closes-major-role-fight-against-impunity",
+          "archive": "",
+          "quote": "the first time in history that an international tribunal delivered verdicts against those guilty of committing genocide",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "US Holocaust Memorial Museum",
+          "title": "Rwanda: The First Conviction for Genocide, Holocaust Encyclopedia",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/rwanda-the-first-conviction-for-genocide",
+          "archive": "",
+          "quote": "The first conviction for genocide only occurred nearly 50 years later in response to the 1994 genocide in Rwanda.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "At Srebrenica in July 1995, between 7,000 and 8,000 Bosnian Muslim men and boys were killed by Bosnian Serb forces; this was a small share of Bosnia's population but a large share of the Muslims of that town.",
+      "sources": [
+        {
+          "publisher": "American Society of International Law",
+          "title": "ICTY Appeals Chamber Delivers Two Major Judgments: Blaškić and Krstić",
+          "url": "https://asil.org/insights/volume/8/issue/19/icty-appeals-chamber-delivers-two-major-judgments-blaski-and-krsti",
+          "archive": "",
+          "quote": "the massacre by VRS soldiers of 7,000 to 8,000 Bosnian Muslim men and boys",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "NPR",
+          "title": "Inside the debate over whether Israel is committing genocide in Gaza",
+          "url": "https://www.npr.org/2025/09/25/g-s1-89678/israel-gaza-genocide-debates-united-nations",
+          "archive": "",
+          "quote": "the ICJ found that genocide occurred in 1995 in Srebrenica, where around 8,000 Bosnian Muslims were killed by a Serbian-aligned force",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "The Irish Times",
+          "title": "UN court clears Serbia of genocide",
+          "url": "https://www.irishtimes.com/news/un-court-clears-serbia-of-genocide-1.1197266",
+          "archive": "",
+          "quote": "where some 8,000 Muslims were murdered in July 1995",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "The ICTY Appeals Chamber ruled unanimously in April 2004 (Krstić) that genocide was committed at Srebrenica; Srebrenica is the only event the ICTY found to be genocide among the killings of the Yugoslav wars.",
+      "sources": [
+        {
+          "publisher": "UN News",
+          "title": "Srebrenica massacre was genocide, UN tribunal for former Yugoslavia confirms",
+          "url": "https://news.un.org/en/story/2004/04/100662",
+          "archive": "",
+          "quote": "unanimously confirmed that Bosnian Serb forces committed genocide during the notorious massacre in Srebrenica in July 1995",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "International Criminal Tribunal for the former Yugoslavia",
+          "title": "Prosecutor v. Krstić, Appeals Judgement (IT-98-33-A)",
+          "url": "https://www.icty.org/x/cases/krstic/acjug/en/krs-aj040419e.htm",
+          "archive": "",
+          "quote": "the crime of genocide was committed at Srebrenica in July 1995, a determination which the Trial Chamber correctly made",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Washington and Lee University School of Law (Mark Drumbl)",
+          "title": "Prosecutor v Radislav Krstić: ICTY Authenticates Genocide at Srebrenica and Convicts for Aiding and Abetting",
+          "url": "https://scholars.law.wlu.edu/en/publications/prosecutor-v-radislav-krsti%C4%87-icty-authenticates-genocide-at-srebr/",
+          "archive": "",
+          "quote": "Srebrenica is the only incidence of genocide the ICTY has found amidst the pervasive violence that roiled the former Yugoslavia.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "In its 2007 judgment (Bosnia v. Serbia) the ICJ found that genocide was committed at Srebrenica, and found that the other mass killings across Bosnia were not shown to have been committed with the specific intent to destroy the group.",
+      "sources": [
+        {
+          "publisher": "International Court of Justice",
+          "title": "Bosnia and Herzegovina v. Serbia and Montenegro, case page (summary of the Judgment of 26 February 2007)",
+          "url": "https://www.icj-cij.org/case/91",
+          "archive": "",
+          "quote": "the Court did, however, find that the killings in Srebrenica in July 1995 were committed with the specific intent to destroy in part the group of Bosnian Muslims in that area and that what happened there was indeed genocide",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "UN News",
+          "title": "UN World Court acquits Serbia of genocide in Bosnia; finds it guilty of inaction",
+          "url": "https://news.un.org/en/story/2007/02/210142-un-world-court-acquits-serbia-genocide-bosnia-finds-it-guilty-inaction",
+          "archive": "",
+          "quote": "While there is overwhelming evidence that massive killings throughout Bosnia and Herzegovina were perpetrated during the conflict, the Court said it was not convinced that these were accompanied by",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "RTÉ News",
+          "title": "ICJ finds Serbia not guilty of genocide",
+          "url": "https://www.rte.ie/news/2007/0226/86157-srebrenica/",
+          "archive": "",
+          "quote": "in other mass killings of Bosnian Muslims, the court was not convinced the perpetrators had the specific intent to commit genocide",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Article II of the 1948 Genocide Convention defines genocide as listed acts, such as killing members of a group, committed with intent to destroy, in whole or in part, a national, ethnical, racial or religious group, as such.",
+      "sources": [
+        {
+          "publisher": "Yale Law School, Avalon Project",
+          "title": "Convention on the Prevention and Punishment of the Crime of Genocide, December 9, 1948",
+          "url": "https://avalon.law.yale.edu/20th_century/genocide.asp",
+          "archive": "",
+          "quote": "genocide means any of the following acts committed with intent to destroy, in whole or in part, a national, ethnical, racial or religious group, as such",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "International Court of Justice",
+          "title": "Order of 26 January 2024, South Africa v. Israel",
+          "url": "https://www.icj-cij.org/node/203447",
+          "archive": "",
+          "quote": "genocide means any of the following acts committed with intent to destroy, in whole or in part, a national, ethnical, racial or religious group, as such",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "United Nations Office on Genocide Prevention",
+          "title": "Genocide: definition",
+          "url": "https://www.un.org/en/genocide-prevention/definition",
+          "archive": "",
+          "quote": "any of the following acts committed with intent to destroy, in whole or in part, a national, ethnical, racial or religious group, as such",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "The ICJ requires that genocidal intent inferred from a pattern of conduct be the only reasonable inference: in 2007 it said a pattern of conduct would have to be such that it could only point to such intent, and in 2015 (Croatia v. Serbia) it applied the test as the only reasonable inference.",
+      "sources": [
+        {
+          "publisher": "International Court of Justice",
+          "title": "Summary of the Judgment of 26 February 2007, Bosnia and Herzegovina v. Serbia and Montenegro",
+          "url": "https://www.icj-cij.org/node/103898",
+          "archive": "",
+          "quote": "for a pattern of conduct to be accepted as evidence of its existence, it would have to be such that it could only point to the existence of such intent",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "EJIL: Talk!",
+          "title": "The Attainability of the Evidentiary Standard for Genocidal Intent in Gaza",
+          "url": "https://www.ejiltalk.org/the-attainability-of-the-evidentiary-standard-for-genocidal-intent-in-gaza/",
+          "archive": "",
+          "quote": "it requires proof that the intent is 'the only reasonable inference' drawn from the evidence",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Legal Tribune Online (LTO)",
+          "title": "International Law Experts: Genocide in Gaza?",
+          "url": "https://www.lto.de/recht/hintergruende/h/gaza-is-israel-committing-genocide-assessments-international-law-experts",
+          "archive": "",
+          "quote": "it must be the “only reasonable inference” that can be drawn from the evidence presented in the specific case",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "The law asks whether the intent was to destroy at least a substantial part of the group, meaning a part significant enough to have an impact on the group as a whole; it does not set a number of dead, and a genocide can involve thousands rather than millions.",
+      "sources": [
+        {
+          "publisher": "International Court of Justice",
+          "title": "Summary of the Judgment of 26 February 2007, Bosnia and Herzegovina v. Serbia and Montenegro",
+          "url": "https://www.icj-cij.org/node/103898",
+          "archive": "",
+          "quote": "the intent must be to destroy at least a substantial part of the particular group",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "International Criminal Tribunal for the former Yugoslavia",
+          "title": "Prosecutor v. Krstić, Appeals Judgement (IT-98-33-A)",
+          "url": "https://www.icty.org/x/cases/krstic/acjug/en/krs-aj040419e.htm",
+          "archive": "",
+          "quote": "the part targeted must be significant enough to have an impact on the group as a whole",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Euronews",
+          "title": "There is no clear intent to commit genocide in Gaza, top international law expert says",
+          "url": "https://www.euronews.com/2025/08/01/there-is-no-clear-intent-to-commit-genocide-in-gaza-top-international-law-expert-says",
+          "archive": "",
+          "quote": "You don't need 6 million people dead like the Holocaust to have genocide.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Killing and forced displacement on a large scale are not by themselves genocide: in Croatia v. Serbia (2015) the ICJ found that acts of killing and serious harm had been established but that the specific intent was not, because the aim appeared to be forced displacement and not physical destruction.",
+      "sources": [
+        {
+          "publisher": "International Court of Justice",
+          "title": "Croatia v. Serbia, case page and summary of the Judgment of 3 February 2015",
+          "url": "https://www.icj-cij.org/case/118",
+          "archive": "",
+          "quote": "the aim of the crimes committed against ethnic Croats appeared to have been the forced displacement of the majority of the Croat population in the regions concerned, not its physical or biological destruction",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "UN News",
+          "title": "International Court of Justice dismisses genocide claims by Croatia and Serbia",
+          "url": "https://news.un.org/en/story/2015/02/489992-international-court-justice-dismisses-genocide-claims-croatia-and-serbia",
+          "archive": "",
+          "quote": "But the Court also found that the intentional element of genocide was lacking.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "IntLawGrrls",
+          "title": "Croatia v. Serbia: Genocide and the Dolus Specialis Question",
+          "url": "https://ilg2.blog/2015/02/03/croatia-v-serbia-genocide-and-the-dolus-specialis-question/",
+          "archive": "",
+          "quote": "the Court found that the actus reus of genocide had occurred under Article II (a), killing members of the protected group",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    "How strict the ICJ's test is. Critics of the 'only reasonable inference' standard say that if it is read to mean that any other plausible aim defeats the inference, it is nearly impossible to meet; Janina Dill and Mike Becker say the court's wording does not require genocidal intent to be the only intent, and that other aims do not rule genocide out (The Journal, December 2024; Opinio Juris, May 2025). Stefan Talmon, Bonn, treats the same standard as a high but workable threshold (Euronews, August 2025). The ICJ itself has not applied it to Gaza.",
+    "Whether the Holocaust comparison is fair. Brazil's president made it in February 2024; Israel's prime minister called it a trivialisation of the Holocaust (Al Jazeera, 18 February 2024). This card does not rule on the comparison. It sets out what the Holocaust was, so that a reader can compare for themselves, and the other chapter-5 cards set out what happened in Gaza.",
+    "Casualty figures for the cases themselves are ranges. Rwanda: the UN and the ICTR say at least 800,000; the US Holocaust Memorial Museum gives 500,000 to one million. Srebrenica: 7,000 to 8,000 depending on the source. The Holocaust: about six million is the figure the museums use; Yad Vashem says the exact number is not known and that serious research puts it between five and six million (we could not open that page; see could_not_verify).",
+    "The date of the Nazi decision is not settled: the US Holocaust Memorial Museum says it is unclear when Hitler decided to murder Europe's Jews and that the decision was probably made in 1941.",
+    "Moses's argument (NPR, September 2025) that Srebrenica shows small numbers can be genocide is correct as law. Whether the intent test is met in Gaza is a separate question that no court has decided; the card on Gaza's conduct sets out the evidence and the findings of those who say it is met and those who say it is not."
+  ],
+  "could_not_verify": [
+    "Yad Vashem's pages (FAQ, Wannsee Conference) refused the checker, so the Holocaust facts rest on the US Holocaust Memorial Museum, the Imperial War Museums and the Holocaust Memorial Day Trust. Britannica also refused.",
+    "The ICJ and ICTY judgments are long PDFs the checker cannot read; the card cites the ICJ's own summary pages, the ICTY appeals judgment in HTML, and press and scholarly accounts. I did not check paragraph numbers (for example Bosnia v. Serbia para. 373 or Croatia v. Serbia para. 148) against the full judgments.",
+    "The Akayesu trial judgment itself (the full text) was not read, only the tribunal's press release and museum and UN accounts. The card says only that it was the first genocide judgment and applied the Convention's definition.",
+    "Reuters and the New York Times refused the checker, so their reports of the 2007 and 2015 judgments are not cited."
+  ],
+  "not_claimed": [
+    "This card does not say that Gaza's dead are few. Tens of thousands of people have been reported killed, and the law does not turn on a number.",
+    "It does not say that only a Holocaust-scale event counts as genocide. Srebrenica, with 7,000 to 8,000 killed, is a recognised genocide.",
+    "It does not say whether Israel has or has not committed genocide in Gaza; the other chapter-5 cards give the evidence and the findings of both sides.",
+    "It does not say that the ICJ's 'only reasonable inference' test is the right one, only that it is the test the court has used.",
+    "It does not compare Gaza with the Holocaust, Rwanda or Srebrenica on any measure other than what courts required."
+  ],
+  "status": "draft",
+  "content_approved": false
+}

@@ -38,6 +38,15 @@
           "quote": "The ministry never distinguishes between civilians and combatants.",
           "accessed": "2026-11-20",
           "kind": "news"
+        },
+        {
+          "publisher": "RNZ (Reuters)",
+          "title": "How many Palestinians has Israel's Gaza offensive killed?",
+          "url": "https://www.rnz.co.nz/news/world/539107/how-many-palestinians-has-israel-s-gaza-offensive-killed",
+          "archive": "",
+          "quote": "The Palestinian health ministry figures do not differentiate between civilians and Hamas combatants, who do not wear formal uniform or carry separate identification.",
+          "accessed": "2026-11-20",
+          "kind": "news"
         }
       ]
     },
@@ -59,6 +68,15 @@
           "url": "https://www.opb.org/article/2024/05/15/why-the-u-n-revised-the-numbers-of-women-and-children-killed-in-gaza/",
           "archive": "",
           "quote": "the U.N. says Gaza's health ministry has been able to fully identify 24,686 deaths out of more than 35,000 people the ministry says have been killed",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "CBC News",
+          "title": "Why the UN changed its death tolls of Palestinian women and children killed in Gaza",
+          "url": "https://www.cbc.ca/1.7203167",
+          "archive": "",
+          "quote": "while 4,959 (20 per cent) were women and 7,797 were children (32 per cent)",
           "accessed": "2026-11-20",
           "kind": "news"
         }
@@ -84,6 +102,15 @@
           "quote": "the United Nations and other international institutions and experts say the Gaza ministry has long made a good-faith effort to account for the dead under the most difficult conditions",
           "accessed": "2026-11-20",
           "kind": "news"
+        },
+        {
+          "publisher": "PBS NewsHour (Associated Press)",
+          "title": "What is Gaza's Ministry of Health and how does it calculate the war's death toll",
+          "url": "https://www.pbs.org/newshour/world/what-is-gazas-ministry-of-health-and-how-does-it-calculate-the-wars-death-toll",
+          "archive": "",
+          "quote": "In previous wars, the ministry's counts have held up to U.N. scrutiny, independent investigations and even Israel's tallies.",
+          "accessed": "2026-11-20",
+          "kind": "news"
         }
       ]
     },
@@ -107,11 +134,20 @@
           "quote": "The official figure for that period was 37,877 deaths.",
           "accessed": "2026-11-20",
           "kind": "news"
+        },
+        {
+          "publisher": "RNZ (Reuters)",
+          "title": "How many Palestinians has Israel's Gaza offensive killed?",
+          "url": "https://www.rnz.co.nz/news/world/539107/how-many-palestinians-has-israel-s-gaza-offensive-killed",
+          "archive": "",
+          "quote": "Official Palestinian tallies of direct deaths in the Gaza war likely undercounted the number of casualties by around 40 percent in the first nine months of the war",
+          "accessed": "2026-11-20",
+          "kind": "news"
         }
       ]
     },
     {
-      "text": "Israel does not give a verified count of combatants killed. It says it has killed more than 20,000 militants, and in May 2024 the prime minister said the ratio of militants to civilians killed was almost 1 to 1; both claims came without evidence.",
+      "text": "Israel does not give a verified count of combatants killed. It put the figure at 17,000-18,000 in 2024 and says recent assessments are about 20,000, with about one civilian killed per fighter; in May 2024 the prime minister said the ratio was almost 1 to 1. None of this was accompanied by evidence.",
       "sources": [
         {
           "publisher": "PBS NewsHour (Associated Press)",
@@ -130,6 +166,47 @@
           "quote": "Israeli Prime Minister Benjamin Netanyahu said the ratio of Hamas militants to civilians in Gaza killed in the ongoing war was almost \"1 to 1,\" without providing evidence.",
           "accessed": "2026-11-20",
           "kind": "news"
+        },
+        {
+          "publisher": "RNZ (Reuters)",
+          "title": "How many Palestinians has Israel's Gaza offensive killed?",
+          "url": "https://www.rnz.co.nz/news/world/539107/how-many-palestinians-has-israel-s-gaza-offensive-killed",
+          "archive": "",
+          "quote": "It says about one civilian was killed for every fighter, a ratio it blames on Hamas for using civilian facilities.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "In March 2024 Abraham Wyner, a Wharton statistician, argued that the ministry's daily totals varied too little (about 270 a day, plus or minus 15 percent) to be natural, and that the numbers were likely fabricated. This is his argument, not an established finding, and the card sets out the answers to it in 'contested'.",
+      "sources": [
+        {
+          "publisher": "The Jerusalem Post",
+          "title": "Hamas's Gaza death toll is exaggerated or faked, statistics expert claims",
+          "url": "https://m.jpost.com/israel-hamas-war/article-791838",
+          "archive": "",
+          "quote": "there should be days with twice the average or more and others with half or less.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "JNS",
+          "title": "Hamas fakes casualty figures: the numbers are not real",
+          "url": "https://www.jns.org/hamas-fakes-casualty-figures-the-numbers-are-not-real/",
+          "archive": "",
+          "quote": "one would expect quite a bit of variation day to day. In fact, the daily reported casualty count over this period averages 270 plus or minus about 15%.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "The Jewish Exponent",
+          "title": "Opinion on the Gaza Ministry of Health casualty numbers",
+          "url": "https://www.jewishexponent.com/?p=217019",
+          "archive": "",
+          "quote": "Abraham Wyner, professor of statistics and data sciences at the Wharton School of the University of Pennsylvania, asserts that the Gaza health ministry numbers are not real",
+          "accessed": "2026-11-20",
+          "kind": "news"
         }
       ]
     }
@@ -137,9 +214,10 @@
   "contested": [
     "There is a range, not one number. The ministry's own total was about 55,000 in June 2025 and nearly 65,000 in September 2025 (AFP, Channels TV); a Lancet study put deaths from injury at about 64,000 by June 2024, when the ministry's count was 37,877.",
     "The share of the dead who were civilians is the most disputed figure. The ministry does not give it. The Associated Press called the share of women and children 'the best available proxy for civilian casualties' and found it fell from above 60 percent in October 2023 to below 40 percent for April 2024 (PBS, June 2024). A proxy is not a civilian count: some women and children may be fighters or not, and some men are civilians.",
-    "Some statisticians, such as Abraham Wyner in Tablet (March 2024), argued that the ministry's daily totals looked too regular to be natural and may have been faked. Others, including Human Rights Watch's Omar Shakir and the UN, called the ministry's figures professionally done and reliable with blind spots. The Lancet authors found the ministry undercounted rather than overcounted.",
+    "Some statisticians, such as Abraham Wyner in Tablet (March 2024), argued that the ministry's daily totals looked too regular to be natural and may have been faked. Others, including Human Rights Watch's Omar Shakir, the UN, and the Lancet authors, treat the ministry's figures as reliable with blind spots, and the Lancet study found an undercount rather than an overcount. Reuters (January 2025) reports overall Gaza casualty numbers as broadly reliable.",
     "The ministry is part of the Hamas-run government, which is why its figures are questioned. An Israeli army spokesman said in May 2024 that the military does not know how many civilians have been killed, and that Hamas does not either (NBC News).",
-    "The OCHA revision in May 2024 changed which dead were broken down by age and sex. It did not change the overall total. OCHA said its earlier breakdowns had been attributed to the Gaza government media office and based on reported fatalities, not on the ministry's fully identified records (OCHA, 17 May 2024)."
+    "The OCHA revision in May 2024 changed which dead were broken down by age and sex. It did not change the overall total. OCHA said its earlier breakdowns had been attributed to the Gaza government media office and based on reported fatalities, not on the ministry's fully identified records (OCHA, 17 May 2024).",
+    "Some experts told L'Orient Today (March 2024) that the Israeli army might be counting government administration workers as fighters, which would raise its combatant count."
   ],
   "not_claimed": [
     "This card does not say any single count is settled or exact.",
@@ -148,5 +226,12 @@
     "It does not say how many of the dead were killed by Israeli forces and how many by other causes."
   ],
   "status": "draft",
-  "content_approved": false
+  "content_approved": false,
+  "could_not_verify": [
+    "The original Tablet article by Abraham Wyner could not be read; his argument is cited only from the Jerusalem Post, JNS and the Jewish Exponent.",
+    "The Lancet papers themselves could not be read; the January 2025 study is cited from Al Jazeera, VOA and Reuters.",
+    "I looked for an independent civilian/combatant breakdown of the dead and for the method behind Israel's fighter counts, and found neither.",
+    "The AP finding that the women-and-children share fell over time rests on one source (PBS/AP); I found no second independent report of it.",
+    "I could not find a full statistician rebuttal of Wyner's daily-variance argument in a reliable outlet."
+  ]
 }

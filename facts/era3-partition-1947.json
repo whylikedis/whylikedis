@@ -4,13 +4,13 @@
   "claim": "Israel was imposed on the land by outside powers, and the Jews took the land by force in 1948.",
   "heard": [
     {
-      "who": "Rashid Khalidi, historian, in The Hundred Years' War on Palestine (2020)",
-      "url": "https://archive.org/stream/100yearswarpalestine/The_Hundred_Years_War_on_Palestine_A_History_of_Settler_Colonial_Conquest_and_Resistance_UK_Edition_Rashid_Khalidi_djvu.txt",
+      "who": "Rashid Khalidi, historian, in a 2024 interview",
+      "url": "https://lbo-news.com/2024/10/08/rashid-khalidi-on-settler-colonial-israel-an-interview/",
       "archive": "",
-      "quote": "The resolution was another declaration of war, providing the international birth certificate for a Jewish state in most of what was still an Arab-majority land"
+      "quote": "pushing through the partition resolution, which is the birth certificate of the state of Israel, the 1947 General Assembly resolution, partitioning Palestine"
     }
   ],
-  "answer": "The idea came first from Britain, not from the Jews alone. In 1937 a British commission proposed splitting Palestine; Arabs rejected it, and Zionist leaders rejected its borders but kept talking. On 29 November 1947 the UN General Assembly recommended a Jewish state and an Arab state, by 33 votes to 13. The Jewish leadership accepted. The Arab Higher Committee and Arab states refused to be bound. Israel declared independence on 14 May 1948 and five Arab states sent armies in on 15 May. Israel ended the war holding more land than the plan gave it. Palestinian and Arab spokespeople call the vote unjust and the outcome conquest. The record shows a UN recommendation, one side that accepted it, one side that rejected it, and a war.",
+  "answer": "The idea of splitting Palestine came first from a British commission in 1937. Arab leaders rejected it; Jewish opinion was divided. On 29 November 1947 the UN General Assembly recommended a Jewish state and an Arab state, by 33 votes to 13. The Jewish Agency accepted. Palestinian Arab leaders rejected it; the Arab states in the Assembly voted against it, and Saudi Arabia said it did not consider itself bound. Israel declared independence on 14 May 1948, and armies from Arab states entered Palestine on 15 May. By the 1949 ceasefires Israel held more land than the plan had given it, about 78 percent of the former mandate. The record shows a recommendation, one side that accepted it, one that rejected it, and a war.",
   "facts": [
     {
       "text": "In 1937 the British Peel Commission was the first to propose partitioning Palestine into an Arab state and a Jewish state.",
@@ -19,7 +19,7 @@
           "publisher": "Encyclopaedia Britannica",
           "title": "Peel Commission",
           "url": "https://www.britannica.com/event/Peel-Commission",
-          "archive": "https://web.archive.org/web/2/https://www.britannica.com/event/Peel-Commission",
+          "archive": "https://web.archive.org/web/20261109085739/https://www.britannica.com/event/Peel-Commission",
           "quote": "In July 1937 the commission recommended the mandate be partitioned into an Arab state and a Jewish state, but the idea was ultimately rejected in 1938 as infeasible.",
           "accessed": "2026-11-20",
           "kind": "reference"
@@ -32,11 +32,20 @@
           "quote": "the first proposal for the partition of Palestine was made in 1937 by the Peel Commission",
           "accessed": "2026-11-20",
           "kind": "primary"
+        },
+        {
+          "publisher": "EBSCO Research Starters",
+          "title": "Peel Commission",
+          "url": "https://www.ebsco.com/research-starters/history/peel-commission/",
+          "archive": "",
+          "quote": "In 1937, the Commission made a recommendation to establish two states and a neutral zone in the region.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
         }
       ]
     },
     {
-      "text": "Both sides turned the Peel plan down. The Zionist Congress rejected its borders but empowered its leaders to negotiate a better plan.",
+      "text": "Arab leaders rejected the Peel plan outright. Jewish opinion was divided; the Zionist Congress rejected its borders but authorised its leaders to negotiate a better plan.",
       "sources": [
         {
           "publisher": "United Nations (Conciliation Commission for Palestine, Secretariat)",
@@ -46,6 +55,24 @@
           "quote": "This plan was rejected by both Jews and Arabs.",
           "accessed": "2026-11-20",
           "kind": "primary"
+        },
+        {
+          "publisher": "EBSCO Research Starters",
+          "title": "Peel Commission",
+          "url": "https://www.ebsco.com/research-starters/history/peel-commission/",
+          "archive": "",
+          "quote": "the Jewish population was divided, and Arab leaders outright rejected the plan",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "The Jerusalem Post",
+          "title": "The Peel Commission Report of 1937",
+          "url": "https://www.jpost.com/jerusalem-report/the-peel-commission-report-of-1937-688922",
+          "archive": "",
+          "quote": "the Arabs rejected the proposed partition outright",
+          "accessed": "2026-11-20",
+          "kind": "news"
         },
         {
           "publisher": "Jewish Virtual Library",
@@ -78,6 +105,15 @@
           "quote": "called for the partition of Palestine into Arab and Jewish states, with the city of Jerusalem as a corpus separatum",
           "accessed": "2026-11-20",
           "kind": "reference"
+        },
+        {
+          "publisher": "Lumen Learning (SUNY HCCC, History of Western Civilization II)",
+          "title": "The Partitioning of Palestine",
+          "url": "https://courses.lumenlearning.com/suny-hccc-worldhistory2/chapter/the-partitioning-of-palestine/",
+          "archive": "",
+          "quote": "recommended a partition of mandatory Palestine into independent Arab and Jewish states",
+          "accessed": "2026-11-20",
+          "kind": "reference"
         }
       ]
     },
@@ -85,13 +121,13 @@
       "text": "The resolution passed with 33 votes in favour, 13 against and 10 abstentions.",
       "sources": [
         {
-          "publisher": "United Nations (Division for Palestinian Rights)",
-          "title": "The Origins and Evolution of the Palestine Problem, Part II (1947-1977)",
-          "url": "https://www.un.org/unispal/history2/origins-and-evolution-of-the-palestine-problem/part-ii-1947-1977/",
+          "publisher": "United Nations General Assembly",
+          "title": "Future government of Palestine - verbatim record of the vote on resolution 181",
+          "url": "https://www.un.org/unispal/document/auto-insert-189596/",
           "archive": "",
-          "quote": "It received 33 votes in favour and 13 against with 10 abstentions",
+          "quote": "The report was adopted by 33 votes to 13, with 10 abstentions.",
           "accessed": "2026-11-20",
-          "kind": "reference"
+          "kind": "primary"
         },
         {
           "publisher": "Encyclopaedia Britannica",
@@ -101,12 +137,30 @@
           "quote": "the resolution was passed with 33 votes in favor, 13 against, and 10 abstentions",
           "accessed": "2026-11-20",
           "kind": "reference"
+        },
+        {
+          "publisher": "Lumen Learning (SUNY HCCC, History of Western Civilization II)",
+          "title": "The Partitioning of Palestine",
+          "url": "https://courses.lumenlearning.com/suny-hccc-worldhistory2/chapter/the-partitioning-of-palestine/",
+          "archive": "",
+          "quote": "the UN General Assembly voted 33 to 13, with 10 abstentions, to adopt a resolution",
+          "accessed": "2026-11-20",
+          "kind": "reference"
         }
       ]
     },
     {
-      "text": "The Jewish community accepted the resolution; the Arab leadership rejected it and refused to recognise anything deriving from it.",
+      "text": "The Jewish Agency accepted the plan.",
       "sources": [
+        {
+          "publisher": "Lumen Learning (SUNY HCCC, History of Western Civilization II)",
+          "title": "The Partitioning of Palestine",
+          "url": "https://courses.lumenlearning.com/suny-hccc-worldhistory2/chapter/the-partitioning-of-palestine/",
+          "archive": "",
+          "quote": "The Jewish Agency, the Jewish state-in-formation, accepted the plan, and nearly all Jews in Palestine rejoiced at the news.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
         {
           "publisher": "United Nations (Conciliation Commission for Palestine, Secretariat)",
           "title": "The Future of Arab Palestine and the Question of Partition (working paper)",
@@ -117,13 +171,45 @@
           "kind": "primary"
         },
         {
-          "publisher": "Encyclopaedia Britannica",
-          "title": "United Nations Resolution 181",
-          "url": "https://www.britannica.com/print/article/1695871",
-          "archive": "https://web.archive.org/web/20250814163455/https://www.britannica.com/print/article/1695871",
-          "quote": "and which was rejected by the Arab community",
+          "publisher": "History Skills",
+          "title": "Understanding the 1948 Israeli-Arab War",
+          "url": "https://www.historyskills.com/classroom/modern-history/1948-palestine-war-reading/",
+          "archive": "",
+          "quote": "while the Jewish leadership accepted the partition plan, the Arab leadership, both within Palestine and in the surrounding countries, rejected it",
           "accessed": "2026-11-20",
           "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "Palestinian Arab leaders rejected the plan; the Arab states in the Assembly voted against it, and Saudi Arabia said it did not consider itself bound.",
+      "sources": [
+        {
+          "publisher": "Lumen Learning (SUNY HCCC, History of Western Civilization II)",
+          "title": "The Partitioning of Palestine",
+          "url": "https://courses.lumenlearning.com/suny-hccc-worldhistory2/chapter/the-partitioning-of-palestine/",
+          "archive": "",
+          "quote": "the partition plan was rejected out of hand by Palestinian Arab leadership and by most of the Arab population",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "United Nations General Assembly",
+          "title": "Future government of Palestine - verbatim record of the vote on resolution 181",
+          "url": "https://www.un.org/unispal/document/auto-insert-189596/",
+          "archive": "",
+          "quote": "the Government of Saudi Arabia registers, on this historic occasion, the fact that it does not consider itself bound by the resolution adopted today by the General Assembly",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Israel Law Review (Cambridge University Press)",
+          "title": "1948 Refugees (conference report incl. Benny Morris's talk)",
+          "url": "https://www.cambridge.org/core/journals/israel-law-review/article/1948-refugees/1E997E364691F4379C6F77EC05BC84AD",
+          "archive": "",
+          "quote": "the better view is that the 1948 war began after the Palestinians rejected the partition plan on 29 November 1947",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
         },
         {
           "publisher": "U.S. Department of State, Office of the Historian",
@@ -137,37 +223,64 @@
       ]
     },
     {
-      "text": "On 14 May 1948 Israel's leaders issued a declaration of independence that cited the UN resolution and offered peace to neighbouring states.",
+      "text": "Israel declared independence on 14 May 1948, as the British mandate ended.",
       "sources": [
         {
           "publisher": "Yale Law School, Avalon Project",
           "title": "Declaration of Israel's Independence 1948",
           "url": "https://avalon.law.yale.edu/20th_century/israel.asp",
           "archive": "",
-          "quote": "We extend our hand to all neighboring states and their peoples in an offer of peace and good neighborliness",
+          "quote": "Issued at Tel Aviv on May 14, 1948 (5th of Iyar, 5708)",
           "accessed": "2026-11-20",
           "kind": "primary"
         },
         {
-          "publisher": "United Nations (Division for Palestinian Rights)",
-          "title": "The Origins and Evolution of the Palestine Problem, Part II (1947-1977)",
-          "url": "https://www.un.org/unispal/history2/origins-and-evolution-of-the-palestine-problem/part-ii-1947-1977/",
+          "publisher": "Fanack",
+          "title": "First Arab-Israeli War (1948-1949)",
+          "url": "https://fanack.com/arab-palestinian-israeli-conflict/history-of-the-palestinian-israeli-conflict/1948-49-war-un-resolution-242/",
           "archive": "",
-          "quote": "israel declared its independence on 14 May 1948",
+          "quote": "when on 14 May 1948 Israel declared its independence the regular Arab armies moved in",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "EBSCO Research Starters",
+          "title": "Peel Commission",
+          "url": "https://www.ebsco.com/research-starters/history/peel-commission/",
+          "archive": "",
+          "quote": "The State of Israel was officially formed on May 14, 1948.",
           "accessed": "2026-11-20",
           "kind": "reference"
         }
       ]
     },
     {
-      "text": "On 15 May 1948, as the British mandate ended, army units from Egypt, Transjordan, Iraq, Syria and Lebanon entered Palestine.",
+      "text": "On 15 May 1948 armies from Egypt, Syria, Iraq, Lebanon and Transjordan entered Palestine.",
       "sources": [
         {
-          "publisher": "Encyclopaedia Britannica",
-          "title": "1948 Arab-Israeli War",
-          "url": "https://www.britannica.com/event/1948-Arab-Israeli-War",
-          "archive": "https://web.archive.org/web/2/https://www.britannica.com/event/1948-Arab-Israeli-War",
-          "quote": "on May 15, when the British Mandate came to an end, army units from Egypt, Transjordan (Jordan), Iraq, Syria, and Lebanon entered Palestine to fight on behalf of the Palestinian Arabs",
+          "publisher": "Explaining History",
+          "title": "The 1948 Conflict, 1920-1948: Causes and Legacy",
+          "url": "https://explaininghistory.org/the-1948-conflict-a-legacy-of-competing-narratives/",
+          "archive": "",
+          "quote": "the following day, armies from five Arab nations-Egypt, Transjordan (Jordan), Syria, Lebanon, and Iraq-invaded",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "War History Online",
+          "title": "Arab-Israeli War of 1948-9",
+          "url": "https://warhistory.org/article/arab-israeli-war-of-1948-9",
+          "archive": "",
+          "quote": "early on the morning of 15 May troops from Egypt, Syria, Iraq and Lebanon, together with volunteers from Saudi Arabia and Libya, entered Palestine",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "OnWar.com",
+          "title": "Israeli War of Independence 1948-1949",
+          "url": "https://www.onwar.com/data/israel1948.html",
+          "archive": "",
+          "quote": "on May 15, 1948, the day after an independent state of Israel was proclaimed, elements of the armies of Egypt, Iraq, Lebanon, Syria, Transjordan (as Jordan was then known) invaded Palestine",
           "accessed": "2026-11-20",
           "kind": "reference"
         },
@@ -183,16 +296,34 @@
       ]
     },
     {
-      "text": "By the January 1949 ceasefire Israel held 77 percent of the Palestine region, more than the 56 percent the partition plan allotted to the Jewish state.",
+      "text": "By the 1949 ceasefires Israel held about 78 percent of the former mandate, more than the partition plan gave it.",
       "sources": [
         {
-          "publisher": "Encyclopaedia Britannica",
-          "title": "1948 Arab-Israeli War",
-          "url": "https://www.britannica.com/event/1948-Arab-Israeli-War",
-          "archive": "https://web.archive.org/web/2/https://www.britannica.com/event/1948-Arab-Israeli-War",
-          "quote": "Israel controlled 77 percent of the Palestine region",
+          "publisher": "Explaining History",
+          "title": "The 1949 Armistice Agreements: Causes and Legacy",
+          "url": "https://explaininghistory.org/2025/11/17/the-1949-armistice-agreements-how-the-ceasefires-created-a-frozen-conflict/",
+          "archive": "",
+          "quote": "Israel controlled roughly 78% of historic Palestine, far more than the partition's allotment",
           "accessed": "2026-11-20",
           "kind": "reference"
+        },
+        {
+          "publisher": "Encyclopedia.com",
+          "title": "Arab-Israel War (1948)",
+          "url": "https://www.encyclopedia.com/politics/dictionaries-thesauruses-pictures-and-press-releases/arab-israel-war-1948",
+          "archive": "",
+          "quote": "Israeli territory increased from the 5,400 square miles proposed in the UN partition plan to 8,000 square miles.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Fanack",
+          "title": "First Arab-Israeli War (1948-1949)",
+          "url": "https://fanack.com/arab-palestinian-israeli-conflict/history-of-the-palestinian-israeli-conflict/1948-49-war-un-resolution-242/",
+          "archive": "",
+          "quote": "which now encompassed 78 percent of the territory of the former Mandate of Palestine, 22 percent more than what the UN's partition plan had initially established",
+          "accessed": "2026-11-20",
+          "kind": "news"
         },
         {
           "publisher": "U.S. Department of State, Office of the Historian",
@@ -207,16 +338,95 @@
     }
   ],
   "contested": [
-    "Khalidi argues the vote reflected the postwar balance of great powers (the US and USSR both voted yes, Britain abstained) and violated self-determination. Arab states argued the General Assembly had no power to partition a country; the UN Division for Palestinian Rights study records that they said they would not be bound. Supporters of the vote argued it was the best available option and that Jews, many of them refugees from Europe, also had a claim.",
-    "The UN Division for Palestinian Rights study says Jewish forces moved to occupy territory beyond the plan's lines when the mandate ended. That Division was set up to promote Palestinian rights, so its framing is one voice. Britannica gives the 77 percent versus 56 percent figures independently.",
-    "The Zionist Congress of 1937 rejected the specific Peel borders but did not reject partition in principle. Sources differ on how to summarise it: the UN secretariat paper says only that both sides rejected the plan."
+    "Khalidi calls the resolution the birth certificate of Israel and says the US and USSR pushed it through; supporters of the vote say it was the best option available and that Jews, many of them Holocaust survivors, also had a claim. Whether Britain, the US and the USSR 'imposed' it or the General Assembly decided it is a question of how one reads great-power influence; this card gives the vote and the rejection and leaves the word 'imposed' to the reader.",
+    "The Zionist Congress of 1937 rejected the Peel borders but did not reject partition in principle; the UN secretariat paper says only that both sides rejected it. Sources summarise it differently.",
+    "The roughly 78 percent figure and the 56 percent allotted to the Jewish state are measured on different bases, and the figure depends on how the Negev is counted. Sources round differently (Fanack and Explaining History say 78; Encyclopedia.com gives 5,400 to 8,000 square miles); no cited page gives 77. The rest of the former mandate did not go to a Palestinian state: Fanack and the State Department page say Jordan kept the West Bank and East Jerusalem and Egypt took Gaza.",
+    "Who started the violence after the November 1947 vote is argued by both sides.",
+    "Saudi Arabia's statement to the Assembly on the day of the vote, on the UN page cited in fact 5, says 'pressure' was 'exerted on various representatives' by 'some of the big powers'. This is a statement by an interested government, not a finding.",
+    "The State Department page cited in fact 7 says Transjordan's forces intervened 'only in areas that had been designated as part of the arab state' under the plan and the Jerusalem zone. The Arab states gave their aim as preventing partition (Explaining History); Israel and its supporters call the entry an invasion.",
+    "On the 1937 Zionist Congress, the Jerusalem Post (citing Walter Laqueur) says Weizmann and Ben-Gurion argued for accepting the plan 'with reservations' and the vote in favour was 300 to 158, so the divide was real but the majority was for negotiating."
+  ],
+  "could_not_verify": [
+    "The text of the Peel report itself: the pages I tried (Avalon) did not load. Peel is cited only through reference works and a UN secretariat paper.",
+    "The Zionist Congress 1937 decision is stated plainly only by the Jewish Virtual Library (advocacy), which does not count toward the three. I did not find a readable independent page with it.",
+    "The peace offer in Israel's declaration of independence: Avalon's text has it, but I found no second readable page, so I left it out of the facts.",
+    "Claims that Jewish forces took territory beyond the plan before 15 May appear on a UN Division for Palestinian Rights page, which counts as advocacy; I found no independent readable source and omitted it.",
+    "Khalidi's book is not cited (no authorised readable copy); his 2024 interview is used for the heard claim."
   ],
   "not_claimed": [
     "This card does not claim the UN vote made the 1948 war or the later displacement of Palestinians right, wrong or inevitable.",
     "It does not claim the vote was free of great-power pressure or that Palestinian Arabs were consulted in the way they wanted.",
-    "It does not claim Jewish forces took only land the plan gave them; see the 77 percent figure.",
+    "It does not claim Jewish forces took only land the plan gave them; Israel ended up with more.",
     "It does not say who fired first in the civil war that followed the vote."
   ],
   "status": "draft",
-  "content_approved": false
+  "content_approved": false,
+  "answer_claims": [
+    {
+      "says": "The idea of splitting Palestine came first from a British commission in 1937.",
+      "facts": [
+        0
+      ]
+    },
+    {
+      "says": "Arab leaders rejected it; Jewish opinion was divided.",
+      "facts": [
+        1
+      ]
+    },
+    {
+      "says": "On 29 November 1947 the UN General Assembly recommended a Jewish state and an Arab state, by 33 votes to 13.",
+      "facts": [
+        2,
+        3
+      ]
+    },
+    {
+      "says": "The Jewish Agency accepted.",
+      "facts": [
+        4
+      ]
+    },
+    {
+      "says": "Palestinian Arab leaders rejected it; the Arab states in the Assembly voted against it, and Saudi Arabia said it did not consider itself bound.",
+      "facts": [
+        3,
+        5
+      ]
+    },
+    {
+      "says": "Israel declared independence on 14 May 1948, and armies from Arab states entered Palestine on 15 May.",
+      "facts": [
+        6,
+        7
+      ]
+    },
+    {
+      "says": "By the 1949 ceasefires Israel held more land than the plan had given it, about 78 percent of the former mandate.",
+      "facts": [
+        8
+      ]
+    },
+    {
+      "says": "The record shows a recommendation, one side that accepted it, one that rejected it, and a war.",
+      "facts": [
+        2,
+        4,
+        5,
+        7
+      ]
+    }
+  ],
+  "review": {
+    "skeptic": {
+      "verdict": "weakened",
+      "date": "2026-11-20",
+      "notes": "Read two or more sources per fact; quotes are on the pages. Pro-Palestinian attack (the stronger one): the claim is 'imposed by outside powers'. The card gives the vote and the rejections but no fact on what the plan allotted against who lived and owned land there (about 56 percent to the Jewish state; population and land-ownership shares), nor on the fighting between November 1947 and 15 May 1948, nor on Jewish forces holding ground beyond the plan before the invasion. A reader cannot test 'imposed' or 'by force' from these facts. Pro-Israel attack: 'the Arab side rejected, the Jewish side accepted' is stated flatly, but Arab dissent is missing (Abdullah of Transjordan favoured partition in 1937 and dealt with the Jewish Agency in 1948 - not on the card), and the card does not say the Arab states' stated aim was to prevent partition. must-fix: fact 8 said '77 to 78 percent' and no cited page says 77; fixed to 'about 78'. must-fix (writer): add a sourced fact on the plan's shares and populations. should-fix: great-power pressure appears only as Khalidi's heard quote and a Saudi statement; add a fact if the answer is to address it. should-fix: fact 5 'Arab states ... refused to be bound' was carried by one government (Saudi Arabia); reworded to what the sources show, and the Israel Law Review line is a participant's 'better view', not a finding. should-fix: the 1937 Zionist Congress detail rests on the Jewish Virtual Library (advocacy) plus a Jerusalem Post piece citing Laqueur; added the 300-158 vote to contested. nit: Britannica pages could not be read live (archive quotes kept); fact 7 'invasion' wording is contested, now in contested. Independence: facts 0-4 draw on UN, EBSCO, Lumen, Britannica - separate publishers but reference works that follow the same standard narrative; no copying seen."
+    },
+    "citer": {
+      "verdict": "holds",
+      "date": "2026-11-20",
+      "notes": "Removed: 'Critics say the vote reflected great-power pressure and denied self-determination.' No fact on the card carries it (it lives in heard and contested only); the writer should add a fact if wanted. Reworded: 'Palestinian Arab leaders and Arab states rejected it and said they would not be bound' to what facts 3 and 5 carry (Arab states voted against; Saudi Arabia said it was not bound). Reworded '77 to 78 percent' to 'about 78 percent' (fact 8 and its sources). Every remaining sentence is tied in answer_claims. Holds for the answer as now worded; the skeptic verdict stays weakened because of the missing facts."
+    }
+  }
 }

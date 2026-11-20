@@ -1,0 +1,151 @@
+{
+  "id": "era4-1967-war-and-after",
+  "era": 4,
+  "claim": "The occupation is the root; Israel doesn't want peace.",
+  "heard": [
+    {
+      "who": "António Guterres, UN Secretary-General, to the Security Council, 24 October 2023",
+      "url": "https://www.un.org/unispal/document/un-secretary-general-remarks-to-security-council-on-the-situation-in-the-middle-east/",
+      "quote": "The Palestinian people have been subjected to 56 years of suffocating occupation.",
+      "archive": ""
+    },
+    {
+      "who": "Marwan Barghouti, Palestinian leader, in The Guardian, 2015",
+      "url": "https://www.theguardian.com/commentisfree/2015/oct/11/israel-occupation-palestinian-territory-peace-diplomacy",
+      "quote": "The real problem is that Israel has chosen occupation over peace, and used negotiations as a smokescreen to advance its colonial project.",
+      "archive": ""
+    }
+  ],
+  "answer": "The occupation began in the June 1967 war. Egypt expelled the UN force, massed troops in Sinai and closed the Straits of Tiran to Israeli ships. Israel struck first on 5 June and won, taking Sinai, Gaza, the West Bank, East Jerusalem and the Golan. Who bears the blame for the war is debated. In November 1967 the UN Security Council asked for Israeli withdrawal from territories together with an end to all claims of belligerency and peace within secure and recognised boundaries. In September 1967, the Arab League summit at Khartoum had answered with no peace, no recognition and no negotiations with Israel. So the occupation has a cause, and it began in a war, not in a refusal of peace. It is also true that Israel did not leave the West Bank and Gaza afterwards, and that is a separate question.",
+  "facts": [
+    {
+      "text": "In May 1967 Egypt demanded that the UN force leave the Sinai and Gaza border, moved troops into Sinai, and on 22 May closed the Straits of Tiran to Israeli shipping.",
+      "sources": [
+        {
+          "publisher": "U.S. Department of State, Office of the Historian",
+          "title": "The 1967 Arab-Israeli War",
+          "url": "https://history.state.gov/milestones/1961-1968/arab-israeli-war-1967",
+          "archive": "",
+          "quote": "on May 22, after UNEF withdrew, he announced that he would close the Straits.",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "Yale University Press",
+          "title": "Remembering the 1967 Six-Day War",
+          "url": "https://yalebooks.yale.edu/2017/03/01/remembering-the-1967-six-day-war/",
+          "archive": "",
+          "quote": "On May 22nd, Nasser raised the stakes by closing the Straits of Tiran, thus blocking the Gulf of Aqaba to Israeli navigation.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "Egypt sent large forces into the Sinai after a Soviet report, which was false, that Israel had massed troops on Syria's border.",
+      "sources": [
+        {
+          "publisher": "U.S. Department of State, Office of the Historian",
+          "title": "The 1967 Arab-Israeli War",
+          "url": "https://history.state.gov/milestones/1961-1968/arab-israeli-war-1967",
+          "archive": "",
+          "quote": "Though the report was false, Nasser sent large numbers of Egyptian soldiers into the Sinai anyway.",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "Yale University Press",
+          "title": "Remembering the 1967 Six-Day War",
+          "url": "https://yalebooks.yale.edu/2017/03/01/remembering-the-1967-six-day-war/",
+          "archive": "",
+          "quote": "The crisis erupted on May 14th, when Egyptian President Gamal Abd al-Nasser mobilized the largest army in the Middle East and ordered it to move east into the Sinai Desert.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "Israel struck first, on the morning of 5 June, wiping out the air forces of Egypt and its allies in the first hours; by 10 June it held Sinai, Gaza, the West Bank, East Jerusalem and the Golan Heights.",
+      "sources": [
+        {
+          "publisher": "Yale University Press",
+          "title": "Remembering the 1967 Six-Day War",
+          "url": "https://yalebooks.yale.edu/2017/03/01/remembering-the-1967-six-day-war/",
+          "archive": "",
+          "quote": "During the first three hours of the first day, Israeli aircraft wiped out the entire air forces of Egypt, Syria, Jordan and Iraq.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "U.S. Department of State, Office of the Historian",
+          "title": "The 1967 Arab-Israeli War",
+          "url": "https://history.state.gov/milestones/1961-1968/arab-israeli-war-1967",
+          "archive": "",
+          "quote": "Between June 5 and June 10, Israel defeated Egypt, Jordan, and Syria and occupied the Sinai Peninsula, the Gaza Strip, the West Bank, East Jerusalem, and the Golan Heights.",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        }
+      ]
+    },
+    {
+      "text": "UN Security Council Resolution 242 (22 November 1967) pairs Israeli withdrawal from territories with an end to belligerency and recognition of every state's right to live in peace within secure and recognised boundaries.",
+      "sources": [
+        {
+          "publisher": "Yale Law School, Avalon Project",
+          "title": "United Nations Security Council Resolution 242",
+          "url": "https://avalon.law.yale.edu/20th_century/un242.asp",
+          "archive": "",
+          "quote": "Withdrawal of Israeli armed forces from territories occupied in the recent conflict; Termination of all claims or states of belligerency",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "U.S. Department of State, Office of the Historian",
+          "title": "The 1967 Arab-Israeli War",
+          "url": "https://history.state.gov/milestones/1961-1968/arab-israeli-war-1967",
+          "archive": "",
+          "quote": "Security Council Resolution 242, adopted on November 22, called for Israel's withdrawal from \"territories occupied in the recent conflict\" in exchange for \"termination of all claims or states of belligerency",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        }
+      ]
+    },
+    {
+      "text": "On 1 September 1967 the Arab League summit at Khartoum resolved on the principles of no peace with Israel, no recognition of Israel and no negotiations with it, while insisting on the rights of the Palestinian people.",
+      "sources": [
+        {
+          "publisher": "Yale Law School, Avalon Project",
+          "title": "The Khartoum Resolutions; September 1, 1967",
+          "url": "https://avalon.law.yale.edu/20th_century/khartoum.asp",
+          "archive": "",
+          "quote": "no peace with Israel, no recognition of Israel, no negotiations with it, and insistence on the rights of the Palestinian people in their own country",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "The Guardian (Benjamin Pogrund)",
+          "title": "Peace is in the hands of the people",
+          "url": "https://www.theguardian.com/commentisfree/2009/jan/26/barack-obama-george-mitchell-israel-palestine",
+          "archive": "",
+          "quote": "the declaration by Arab states in Khartoum in September that year: no peace with Israel, no recognition, no negotiations",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    "Who bears responsibility for the 1967 war is debated. Israel and many historians say it was a pre-emptive strike after Egypt closed the Straits of Tiran, expelled the UN force and massed troops; Israel had said it would treat closing the Straits as grounds for war. Critics, including Israeli leaders at the time and later, say Nasser did not intend to attack and Israel chose war. Menachem Begin said in 1982 that the Sinai build-up did not prove Nasser was about to attack and that Israel chose to attack. Both sides agree that Israel fired first.",
+    "Resolution 242 says 'territories', not 'the territories'. Israel and its supporters say this means a withdrawal from some of the land in a peace deal; Arab states and many others say it means all of it. The French text says 'des territoires'. The resolution does not mention a Palestinian state.",
+    "The Khartoum summit's meaning is debated. Many Israelis took it as a declaration of permanent war. The Israeli historian Yoram Meital, cited by Gershom Gorenberg in The American Prospect, found that Arab leaders understood it as seeking only the land lost in June 1967, by indirect diplomacy, and that it was seen as a win for moderates. The text itself rejects negotiations and recognition.",
+    "Whether Israel offered the territories back in 1967 for peace, and whether the Arab states turned it down, is argued by historians. Avi Shlaim says Israel did not accept King Hussein's offer and began settling. This card does not settle that."
+  ],
+  "not_claimed": [
+    "It does not claim the war was only Egypt's fault, or only Israel's.",
+    "It does not claim the Khartoum resolution was the only reason Israel stayed in the West Bank and Gaza; settlement and security reasons are argued separately.",
+    "It does not claim the occupation is legitimate, or that it is illegitimate. It says how it began.",
+    "It does not cover what happened after 1967 in the territories."
+  ],
+  "status": "draft",
+  "content_approved": false
+}

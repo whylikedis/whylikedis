@@ -1,0 +1,352 @@
+{
+  "id": "ch9-partitions-and-transfers-1940s",
+  "era": 9,
+  "claim": "Israel is uniquely illegitimate because it was created through war and displacement.",
+  "heard": [
+    {
+      "who": "Ilan Pappé, historian, on the Verso Books blog (2018)",
+      "url": "https://www.versobooks.com/blogs/news/3809-the-nakba-and-the-ethnic-cleansing-of-palestine",
+      "archive": "",
+      "quote": "The crime committed by the leadership of the Zionist movement, which became the government of Israel, was that of ethnic cleansing."
+    }
+  ],
+  "answer": "The 1940s were an age of mass transfers. The partition of India in 1947 displaced about 14 to 15 million people, with estimates of the dead from 200,000 to 2 million. About 12 to 14 million Germans were expelled or fled from eastern and central Europe, and estimates of their dead run from about 500,000 to 2 million. The Potsdam Agreement itself approved transfers, asking only that they be \"orderly and humane\". Poland's border moved west with them. Next to these, about 700,000 Palestinian Arabs left or were driven out in 1948, and some 850,000 Jews left Arab countries. This tells you the period, not who was right: these numbers are not a ranking of suffering, and they do not make any single act just.",
+  "facts": [
+    {
+      "text": "The partition of India and Pakistan in 1947 displaced about 14 to 15 million people.",
+      "sources": [
+        {
+          "publisher": "BBC News",
+          "title": "Partition: Why was British India divided 75 years ago?",
+          "url": "https://www.bbc.com/news/world-south-asia-62467438",
+          "archive": "",
+          "quote": "This created an upsurge of violence, in which approximately 15 million people were displaced and an estimated one million died.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Survivors recall India's violent partition",
+          "url": "https://www.theguardian.com/world/2022/aug/11/a-sikh-soldier-pulled-me-out-of-the-rubble-survivors-recall-indias-violent-partition-and-reflect-on-its-legacy",
+          "archive": "",
+          "quote": "the deaths of at least 1 million Indians and the displacement of around 15 million",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "The Indian Express",
+          "title": "World Refugee Day: Five human influxes that have shaped India",
+          "url": "https://indianexpress.com/article/research/refugees-in-india-partition-bangladesh-war-tibet-occupation-sri-lankan-tamils-rohingyas-mynamar-world-refugee-day-five-human-influxes-that-have-shaped-india-2864449/",
+          "archive": "",
+          "quote": "The United Nations High Commissioner for Refugees (UNHCR) reported that approximately 14 million people were displaced during partition as Hindus and Sikhs moved to India and Muslims moved to Pakistan.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Estimates of the dead in the 1947 partition range from about 200,000 to 2 million, depending on who counts.",
+      "sources": [
+        {
+          "publisher": "BBC News",
+          "title": "Partition: Why was British India divided 75 years ago?",
+          "url": "https://www.bbc.com/news/world-south-asia-62467438",
+          "archive": "",
+          "quote": "Between 200,000 and one million people are estimated to have been killed or died of disease in refugee camps.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Survivors recall India's violent partition",
+          "url": "https://www.theguardian.com/world/2022/aug/11/a-sikh-soldier-pulled-me-out-of-the-rubble-survivors-recall-indias-violent-partition-and-reflect-on-its-legacy",
+          "archive": "",
+          "quote": "the deaths of at least 1 million Indians and the displacement of around 15 million",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "The Indian Express",
+          "title": "World Refugee Day: Five human influxes that have shaped India",
+          "url": "https://indianexpress.com/article/research/refugees-in-india-partition-bangladesh-war-tibet-occupation-sri-lankan-tamils-rohingyas-mynamar-world-refugee-day-five-human-influxes-that-have-shaped-india-2864449/",
+          "archive": "",
+          "quote": "Approximately one million people died in the riots and local level fighting.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "About 12 to 14 million ethnic Germans were expelled or fled from eastern and central Europe after 1944.",
+      "sources": [
+        {
+          "publisher": "Palgrave Macmillan (Rainer Schulze, historian, University of Essex)",
+          "title": "Forced Migration of German Populations During and After the Second World War: History and Memory",
+          "url": "https://doi.org/10.1057/9780230297685_3",
+          "archive": "",
+          "quote": "Some 12-14 million ethnic Germans were affected; up to 2 million lost their lives.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Bundeszentrale für politische Bildung (essay by historian Bernd Faulenbach)",
+          "title": "Die Vertreibung der Deutschen aus den Gebieten jenseits von Oder und Neiße",
+          "url": "https://www.bpb.de/themen/nationalsozialismus-zweiter-weltkrieg/dossier-nationalsozialismus/39587/die-vertreibung-der-deutschen-aus-den-gebieten-jenseits-von-oder-und-neisse/",
+          "archive": "",
+          "quote": "Meist wird von zwölf bis vierzehn Millionen Vertriebenen ausgegangen, von denen bei Flucht und Vertreibung, auch als Folge von Vertreibungsverbrechen, ca. zwei Millionen",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Deutschlandmuseum, Berlin",
+          "title": "The Potsdam Agreement",
+          "url": "https://www.deutschlandmuseum.de/en/history/calendar/1945-08-02-the-potsdam-agreement/",
+          "archive": "",
+          "quote": "Some twelve million refugees and displaced persons who would never be able to return home had to be accommodated in western and central Germany.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "Estimates of the German dead range from about 500,000 (counted deaths) to about 2 million (population balance).",
+      "sources": [
+        {
+          "publisher": "Palgrave Macmillan (Rainer Schulze, historian, University of Essex)",
+          "title": "Forced Migration of German Populations During and After the Second World War: History and Memory",
+          "url": "https://doi.org/10.1057/9780230297685_3",
+          "archive": "",
+          "quote": "up to 2 million lost their lives",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Bundeszentrale für politische Bildung (essay by historian Bernd Faulenbach)",
+          "title": "Die Vertreibung der Deutschen aus den Gebieten jenseits von Oder und Neiße",
+          "url": "https://www.bpb.de/themen/nationalsozialismus-zweiter-weltkrieg/dossier-nationalsozialismus/39587/die-vertreibung-der-deutschen-aus-den-gebieten-jenseits-von-oder-und-neisse/",
+          "archive": "",
+          "quote": "ca. zwei millionen - immerhin etwa ein Sechstel - ums Leben gekommen sind",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Deutschlandfunk (interview with military historian Rüdiger Overmans)",
+          "title": "Zahl der Vertreibungsopfer ist neu zu erforschen",
+          "url": "https://www.deutschlandfunk.de/zahl-der-vertreibungsopfer-ist-neu-zu-erforschen-100.html",
+          "archive": "",
+          "quote": "Fragt man hingegen, wie viele Todesfälle aufgrund der zahlreichen Registrierungen und Nachforschungen in der Nachkriegszeit nachgewiesen oder zumindest plausibel gemacht sind, dann kommt man auf ca. 500.000",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "The Potsdam Agreement (August 1945), Article XIII, accepted the transfer of Germans from Poland, Czechoslovakia and Hungary and asked that it be \"orderly and humane\".",
+      "sources": [
+        {
+          "publisher": "German Historical Institute Washington, German History in Documents and Images",
+          "title": "Excerpts from the Report on the Potsdam Conference (Potsdam Agreement), August 2, 1945",
+          "url": "https://germanhistorydocs.org/en/occupation-and-the-emergence-of-two-states-1945-1961/excerpts-from-the-report-on-the-potsdam-conference-potsdam-agreement-august-2-1945",
+          "archive": "",
+          "quote": "They agree that any transfers that take place should be effected in an orderly and humane manner.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Yale Law School, Avalon Project",
+          "title": "Protocol of the Proceedings, Berlin (Potsdam) Conference",
+          "url": "https://avalon.law.yale.edu/20th_century/decade17.asp",
+          "archive": "",
+          "quote": "They agree that any transfers that take place should be effected in an orderly and humane manner.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Deutschlandmuseum, Berlin",
+          "title": "The Potsdam Agreement",
+          "url": "https://www.deutschlandmuseum.de/en/history/calendar/1945-08-02-the-potsdam-agreement/",
+          "archive": "",
+          "quote": "Although the agreement stipulated that this should be carried out in an \"orderly and humane\" manner, the process was largely chaotic, violent, and sometimes even murderous.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "The Polish-Soviet border moved west: the Soviet Union kept eastern Poland and Poland received German land up to the Oder-Neisse line.",
+      "sources": [
+        {
+          "publisher": "Imperial War Museums",
+          "title": "How the Potsdam Conference shaped the future of post-war Europe",
+          "url": "https://www.iwm.org.uk/history/second-world-war/victory/how-the-potsdam-conference-shaped-the-future-of-post-war-europe",
+          "archive": "",
+          "quote": "Poland was to be compensated in the west by large areas of Germany up to the Oder-Neisse line",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "German Historical Institute Washington, German History in Documents and Images",
+          "title": "Excerpts from the Report on the Potsdam Conference (Potsdam Agreement), August 2, 1945",
+          "url": "https://germanhistorydocs.org/en/occupation-and-the-emergence-of-two-states-1945-1961/excerpts-from-the-report-on-the-potsdam-conference-potsdam-agreement-august-2-1945",
+          "archive": "",
+          "quote": "that the Oder-Neisse line would be established as Poland's provisional western boundary, meaning that Poland would undergo a \"western shift\"",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Deutschlandmuseum, Berlin",
+          "title": "The Potsdam Agreement",
+          "url": "https://www.deutschlandmuseum.de/en/history/calendar/1945-08-02-the-potsdam-agreement/",
+          "archive": "",
+          "quote": "resulting in the transfer of a quarter of its territory to Poland and the Soviet Union",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "US Department of State, Office of the Historian",
+          "title": "Potsdam Conference, 1945",
+          "url": "https://history.state.gov/milestones/1937-1945/potsdam-conf",
+          "archive": "",
+          "quote": "Poland received a large swath of German territory and began to deport the German residents of the territories in question",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        }
+      ]
+    },
+    {
+      "text": "The border shift came with mass population movements: Poles settled in former German land, and Germans were removed.",
+      "sources": [
+        {
+          "publisher": "Palgrave Macmillan (Catherine Gousseff, historian)",
+          "title": "Evacuation versus Repatriation: The Polish-Ukrainian Population Exchange, 1944-6",
+          "url": "https://doi.org/10.1057/9780230297685_5",
+          "archive": "",
+          "quote": "mass population movements there accompanied a westward shift of the entire national territory by over 200 kilometres",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "US Department of State, Foreign Relations of the United States 1947 (statement by the Polish government)",
+          "title": "Memorandum on Poland's western territories",
+          "url": "https://history.state.gov/historicaldocuments/frus1947v02/d68",
+          "archive": "",
+          "quote": "3.5 million Poles have been newly settled in this area, the majority of them repatriated from territories east of the so-called Curzon Line",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "US Department of State, Foreign Relations of the United States 1947 (statement by the Polish government)",
+          "title": "Memorandum on Poland's western territories",
+          "url": "https://history.state.gov/historicaldocuments/frus1947v02/d68",
+          "archive": "",
+          "quote": "1.5 million Germans were transferred from Poland to Germany proper by the end of 1946",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        }
+      ]
+    },
+    {
+      "text": "About 700,000 Palestinian Arabs left or were driven from their homes in 1947 to 1949; UNRWA counted about 750,000 in 1950.",
+      "sources": [
+        {
+          "publisher": "Israel Law Review (Cambridge University Press), account of a talk by Benny Morris",
+          "title": "1948 Refugees",
+          "url": "https://www.cambridge.org/core/journals/israel-law-review/article/1948-refugees/1E997E364691F4379C6F77EC05BC84AD",
+          "archive": "",
+          "quote": "The United Nations (UN) in 1949-50 concluded that the real figure was just over 700,000.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Middle East Research and Information Project",
+          "title": "No More Tears (review of Benny Morris)",
+          "url": "https://merip.org/2004/03/no-more-tears/",
+          "archive": "",
+          "quote": "well over 700,000 Palestinians were made refugees, the majority of them by direct expulsion or the fear of expulsion or massacre",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Los Angeles Times (Benny Morris)",
+          "title": "In '48, Israel Did What It Had to Do",
+          "url": "https://www.latimes.com/archives/la-xpm-2004-jan-26-oe-morris26-story.html",
+          "archive": "",
+          "quote": "700,000 Palestinians left the country, and the refugee problem that has haunted Israel ever since was born",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "UNRWA",
+          "title": "Palestine refugees",
+          "url": "https://www.unrwa.org/palestine-refugees",
+          "archive": "",
+          "quote": "When the Agency began operations in 1950, it was responding to the needs of about 750,000 Palestine refugees.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "Roughly 800,000 to 850,000 Jews left Arab and Muslim countries after 1948, most between 1948 and the early 1970s.",
+      "sources": [
+        {
+          "publisher": "Encyclopedia of the Modern Middle East and North Africa (Gale), via Encyclopedia.com",
+          "title": "Refugees, Jewish",
+          "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/refugees-jewish",
+          "archive": "",
+          "quote": "an estimated 800,000 Jews living in Arab and Muslim countries were subjected to anti-Jewish violence, abuse, and persecution",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Jewish Telegraphic Agency",
+          "title": "Canadian parliamentary committee recognizes Jews who fled Arab lands",
+          "url": "https://www.jta.org/2013/11/14/israel/canadian-parliamentary-committee-recognizes-jews-who-fled-arab-lands",
+          "archive": "",
+          "quote": "The committee heard that since 1948, some 850,000 Jews fled persecution and violence in the Middle East and North Africa",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Teach Jewish History",
+          "title": "The Departure from MENA",
+          "url": "https://teachjewishhistory.org/topic-mena-departure",
+          "archive": "",
+          "quote": "In 1948 roughly 850,000 Jews lived in the Arab countries of the Middle East and North Africa (MENA).",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "World Jewish Congress",
+          "title": "For the first time, Israel commemorates plight of Jewish refugees from Arab lands",
+          "url": "https://www.worldjewishcongress.org/en/news/for-the-first-time-israel-commemorates-plight-of-jewish-refugees-from-arab-lands",
+          "archive": "",
+          "quote": "an estimated 850,000 Jews who left, were expelled from, or fled from their homes in, Arab and other Muslim countries",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    "German expulsion deaths: the figure of about 2 million (West German government studies of the 1950s, by population balance) is disputed. Military historian Rüdiger Overmans counts about 500,000 deaths that are documented or plausible, and calls the remainder unexplained cases that need research.",
+    "1947 partition deaths: sources give 200,000 to one million (BBC), at least one million (The Guardian) and about one million (The Indian Express); Britannica gives 200,000 to 2 million. No census of the dead exists.",
+    "1948 Palestinian exodus: scholars agree on about 700,000 but disagree on cause. Benny Morris finds war, fear and expulsions in some places and no master plan; Ilan Pappé argues a planned ethnic cleansing; Efraim Karsh stresses Arab leaders' role. Card era3-exodus-causes-1948 holds that evidence.",
+    "Jews from Arab countries: the figure of about 850,000 is repeated by Jewish organisations and some news reports; Encyclopedia.com gives about 800,000. Scholars such as Yehouda Shenhav debate whether to call the departures a refugee flight (see card era3-jewish-refugees-arab-countries).",
+    "Whether these cases are a fair comparison is itself argued: a participant in the Israel Law Review discussion said the Sudeten expulsion was a punishment for the losers carried out under a peace agreement, which was not the case in 1948. Benny Morris replied that he cited it to show how the world judged such transfers at the time, not to justify them."
+  ],
+  "could_not_verify": [
+    "Three readable reliable sources for the number of Poles moved out of former eastern Poland. The Polish government figure (3.5 million settled in the west, most from east of the Curzon Line) is in a US government document only. A scholar's count (Kochanowski: 1,503,263 Poles moved in 1944 to 1948 and about 518,000 Ukrainians, Belarusians and Lithuanians the other way) is in a PDF the checker cannot read.",
+    "The UNHCR page for the 14 million figure for the 1947 partition could not be read by the checker (it is a PDF); the figure is cited through Britannica, the BBC, Stanford and The Indian Express.",
+    "The UN Conciliation Commission's own 1949 estimate of 711,000 refugees could not be read on a page the checker can open; it is cited through the Israel Law Review and MERIP.",
+    "A scholarly source for the Jews who left Arab countries with a total count that the checker can read; Oxford and Buffalo Law pages were unreadable or showed only an abstract."
+  ],
+  "not_claimed": [
+    "That because others did it, it was right. The card says what happened and how many, and the third card of this chapter says what the law was and is.",
+    "That any of these events were of equal size, cause or character; the numbers are set side by side and are not a ranking of suffering.",
+    "That the figures are exact. Most are estimates, and their sources are named.",
+    "That Israel's creation and the 1948 displacement were the same as the Potsdam transfers; the Allies agreed to the German transfers, and the Palestinian exodus had no such agreement."
+  ],
+  "status": "draft",
+  "content_approved": false
+}

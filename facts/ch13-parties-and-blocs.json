@@ -1,0 +1,554 @@
+{
+  "id": "ch13-parties-and-blocs",
+  "era": 13,
+  "claim": "Israel's government speaks for all Israelis (and its mirror: all Israelis are the same).",
+  "heard": [
+    {
+      "who": "Benjamin Netanyahu, as reported by Reuters, 13 November 2022",
+      "url": "https://www.reuters.com/world/middle-east/netanyahu-formally-tasked-with-forming-new-israeli-government-2022-11-13/",
+      "quote": "he would represent all Israelis \"without exception\"",
+      "archive": ""
+    }
+  ],
+  "answer": "Israel's 120-seat Knesset is elected by pure proportional vote in one national district, with a 3.25% threshold, so no party has ever won a majority and every government is a coalition. Small parties therefore carry real weight. The November 2022 election produced a government of Likud, two ultra-Orthodox parties and the Religious Zionism and Otzma Yehudit list; Yesh Atid, National Unity, Yisrael Beiteinu, Labor and two Arab-majority lists sat in opposition. The camps differ on a Palestinian state, from the Democrats' opposition to annexation to the coalition's claim of an exclusive Jewish right to the whole land, and on religion and state. Ra'am sat in the 2021 to 2022 coalition. The October 2026 election gave no bloc 61 seats.",
+  "facts": [
+    {
+      "text": "The Knesset has 120 seats, is elected by proportional representation in one nationwide district, and a list needs at least 3.25% of valid votes to win seats.",
+      "sources": [
+        {
+          "publisher": "Israel Ministry of Foreign Affairs",
+          "title": "Elections in Israel - November 2022",
+          "url": "https://www.gov.il/en/departments/general/elections-in-israel-november-2022",
+          "archive": "",
+          "quote": "Nationwide: The entire country serves as one electoral zone when it comes to distributing the Knesset seats.",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "IFES Election Guide",
+          "title": "Country Profile: Israel",
+          "url": "https://electionguide.org/countries/id/106/",
+          "archive": "",
+          "quote": "There is a 3.25% threshold required to gain representation. All candidates run in one, nationwide district.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Inter-Parliamentary Union",
+          "title": "PARLINE: Israel (Knesset), Electoral system",
+          "url": "https://archive.ipu.org/english/parline/reports/2155_B.htm",
+          "archive": "",
+          "quote": "1 multi-member constituency for 120 seats",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "No party has ever won 61 seats, so every government is a coalition, which gives small parties leverage: a faction just under or over the threshold can change which bloc governs.",
+      "sources": [
+        {
+          "publisher": "Israel Ministry of Foreign Affairs",
+          "title": "Elections in Israel - November 2022",
+          "url": "https://www.gov.il/en/departments/general/elections-in-israel-november-2022",
+          "archive": "",
+          "quote": "To date, no single party has received enough Knesset seats to be able to form a government by itself; thus all Israeli governments have been based on coalitions of several parties.",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "Anadolu Agency",
+          "title": "EXPLAINER - How Israel's election system works",
+          "url": "https://www.aa.com.tr/en/middle-east/explainer-how-israel-s-election-system-works/4036927",
+          "archive": "",
+          "quote": "The threshold makes smaller parties particularly important.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Live 2026 Israel election results",
+          "url": "https://www.reuters.com/graphics/ISRAEL-ELECTION/RESULTS/akvelybkapr/",
+          "archive": "",
+          "quote": "Parties need 61 seats to secure a majority and form a government in Israel.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "The November 2022 election (the 25th Knesset) gave Likud 32 seats, Yesh Atid 24, Religious Zionism with Otzma Yehudit and Noam 14, National Unity 12, Shas 11, United Torah Judaism 7, Yisrael Beiteinu 6, Ra'am 5, Hadash-Ta'al 5 and Labor 4; Meretz and Balad fell under the threshold.",
+      "sources": [
+        {
+          "publisher": "Central Elections Committee (Israel)",
+          "title": "Results of the elections to the 25th Knesset",
+          "url": "https://votes25.bechirot.gov.il/",
+          "archive": "",
+          "quote": "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה מחל 32 23.41%",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Haaretz",
+          "title": "Israel Election Final Results",
+          "url": "https://www.haaretz.com/israel-news/elections/2022-11-03/ty-article/israel-election-final-results-netanyahu-jewish-far-right-win-power-fiasco-for-left/00000184-3e80-daf1-abc4-7f9a53f40000",
+          "archive": "",
+          "quote": "Likud won 32 seats, while outgoing Prime Minister Yair Lapid's Yesh Atid is the second-largest party with 24 seats",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Israel National News",
+          "title": "Herzog: I am not pushing for the establishment of any particular government",
+          "url": "https://www.israelnationalnews.com/news/362510",
+          "archive": "",
+          "quote": "gives the Likud 32 seats, followed by Yesh Atid with 24, the Religious Zionist - Otzma Yehudit - Noam list with 14, National Unity with 12",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "The 25th Knesset has been superseded: the 27 October 2026 election (26th Knesset) gave Likud 27 seats, Yashar 21, Together 12, Joint List 11, The Democrats 8, Ra'am 8, Yisrael Beiteinu 7, Otzma Yehudit 7, United Torah Judaism 7, Shas 6 and Religious Zionism 6; Netanyahu's bloc won 53, with no bloc at 61.",
+      "sources": [
+        {
+          "publisher": "Central Elections Committee (Israel)",
+          "title": "Results of the elections to the 26th Knesset",
+          "url": "https://votes26.bechirot.gov.il/",
+          "archive": "",
+          "quote": "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה מחל 27 20.51% 1,167,591",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Live 2026 Israel election results",
+          "url": "https://www.reuters.com/graphics/ISRAEL-ELECTION/RESULTS/akvelybkapr/",
+          "archive": "",
+          "quote": "Israel's October 27 election ended in deadlock, with neither Prime Minister Benjamin Netanyahu nor his main rival Gadi Eisenkot with a clear path to a majority.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Midbar",
+          "title": "Israel has counted: the election results",
+          "url": "https://midbar.media/en/article/israel-election-results-likud-27-no-one-at-61",
+          "archive": "",
+          "quote": "Benjamin Netanyahu's Likud wins 27 seats (20.5%), ahead of Yashar, Gadi Eisenkot's list, with 21 (16.1%).",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Likud descends from the Revisionist movement of Jabotinsky through Herut (founded 1948), joined the Likud bloc in 1973, and under Menachem Begin won the 1977 election that ended Labor's rule.",
+      "sources": [
+        {
+          "publisher": "Encyclopaedia Britannica",
+          "title": "Likud",
+          "url": "https://www.britannica.com/topic/Likud",
+          "archive": "",
+          "quote": "the Herut had its roots in Vladimir Jabotinsky 's Revisionist Zionism, popular especially among Russian Jews of the 1920s and '30s.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Library of Congress Country Studies (mirror)",
+          "title": "Israel - The Likud Bloc",
+          "url": "https://countrystudies.us/israel/96.htm",
+          "archive": "",
+          "quote": "In the ninth Knesset elections in May 1977, the center-right Likud alliance emerged victorious and replaced the previously dominant Labor alignment",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "Israel Democracy Institute",
+          "title": "Likud",
+          "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/likud/",
+          "archive": "",
+          "quote": "headed by Menachem Begin, Likud first came to power in 1977 and continued as the ruling party until 1984.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "On the Palestinian question the Likud-led government that took office in December 2022 declared in its guidelines that the Jewish people have an exclusive and indisputable right to all parts of the Land of Israel, while promising to keep the religion-and-state status quo.",
+      "sources": [
+        {
+          "publisher": "Freedom House",
+          "title": "Israel: Freedom in the World 2023",
+          "url": "https://freedomhouse.org/country/israel/freedom-world/2023",
+          "archive": "",
+          "quote": "the Jewish people have an exclusive and indisputable right to all parts of the Land of Israel",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Israel National News",
+          "title": "Abbas' spokesman: All settlements will be evacuated",
+          "url": "https://www.israelnationalnews.com/news/365113",
+          "archive": "",
+          "quote": "the status quo on matters of religion and state will be maintained as has been customary for decades in Israel, including in relation to the holy places",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Just Security",
+          "title": "Israel is Annexing the West Bank. Don't be Misled by its Gaslighting",
+          "url": "https://www.justsecurity.org/85093/israel-is-annexing-the-west-bank-dont-be-misled-by-its-gaslighting/",
+          "archive": "",
+          "quote": "Its founding documents state unequivocally that the Jewish people have an \"exclusive and indisputable right to all parts of the Land of Israel\"",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "The Labor movement ran Israel from 1948: Mapai was the dominant party, every prime minister until 1977 came from it or its successor Labor, and Labor's line moved to support a Palestinian state; it merged with Meretz in 2024 into The Democrats.",
+      "sources": [
+        {
+          "publisher": "Israel Democracy Institute",
+          "title": "Labor Party (Ha'avoda)",
+          "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/labor-party/",
+          "archive": "",
+          "quote": "on the issue of the Israeli-Palestinian conflict, the party gradually moved to the left over the years and was the first major party to call for negotiations with the PLO and to support the establishment of a Palestinian state.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "The Times of Israel",
+          "title": "Labor and Meretz merge into united 'liberal-democratic Zionist party': The Democrats",
+          "url": "https://www.timesofisrael.com/labor-and-meretz-merge-into-united-liberal-democratic-zionist-party-the-democrats/",
+          "archive": "",
+          "quote": "Newly elected Labor chairman Yair Golan largely fulfilled his pledge to unify Israel's liberal camp on Sunday, announcing a merger with the left-wing Meretz",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Israel Democracy Institute",
+          "title": "The Democrats",
+          "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/the-democrats/",
+          "archive": "",
+          "quote": "The Democrats is an electoral list that was founded in 2024 as a result of a merger between the Labor Party and Meretz",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "The Democrats' published principles include halting the annexation process in the West Bank, amending the nation-state law in the spirit of the Declaration of Independence, civil marriage and limited public transport on Shabbat.",
+      "sources": [
+        {
+          "publisher": "Israel Democracy Institute",
+          "title": "The Democrats",
+          "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/the-democrats/",
+          "archive": "",
+          "quote": "religion and state: promote the operation of public transport on Shabbat in a limited format in secular localities; promote civil marriage",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "The Times of Israel",
+          "title": "Labor and Meretz merge into united 'liberal-democratic Zionist party': The Democrats",
+          "url": "https://www.timesofisrael.com/labor-and-meretz-merge-into-united-liberal-democratic-zionist-party-the-democrats/",
+          "archive": "",
+          "quote": "a liberal-democratic Zionist party that will be a political home for a large part of the Israeli population",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "The centre: Yesh Atid calls itself a centrist liberal party focused on civic issues, and its leader Yair Lapid, as prime minister in 2022, told the UN that a deal based on two states for two peoples is the right thing for Israel, on condition the Palestinian state is peaceful.",
+      "sources": [
+        {
+          "publisher": "Israel Democracy Institute",
+          "title": "Yesh Atid",
+          "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/yesh-atid/",
+          "archive": "",
+          "quote": "Yesh Atid positions itself as a centrist liberal party and its platform focuses largely on social and civic issues and governance, and less on defense and foreign affairs.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "The Times of Israel",
+          "title": "Full text of Lapid's 2022 speech to the UN General Assembly",
+          "url": "https://www.timesofisrael.com/full-text-of-lapids-2022-speech-to-the-un-general-assembly/",
+          "archive": "",
+          "quote": "An agreement with the Palestinians, based on two states for two peoples, is the right thing for Israel's security",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "UN News",
+          "title": "Israeli Prime Minister Lapid backs two-State solution",
+          "url": "https://news.un.org/en/story/2022/09/1127551",
+          "archive": "",
+          "quote": "a large majority of Israelis support the vision of this two-State solution. I am one of them",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "The religious-Zionist right: Religious Zionism is placed on the far right by the IDI, advocates the Greater Land of Israel with expanded West Bank settlement, and seeks to limit the Supreme Court; it ran in 2022 on a joint list with Otzma Yehudit and Noam.",
+      "sources": [
+        {
+          "publisher": "Israel Democracy Institute",
+          "title": "Religious Zionist Party",
+          "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/religious-zionism/",
+          "archive": "",
+          "quote": "it advocates the principle the \"Greater Land of Israel\" (supports the expansion of settlement projects in the West Bank / Judea and Samaria), and calls for an aggressive defense policy.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Haaretz",
+          "title": "Israel Election Final Results",
+          "url": "https://www.haaretz.com/israel-news/elections/2022-11-03/ty-article/israel-election-final-results-netanyahu-jewish-far-right-win-power-fiasco-for-left/00000184-3e80-daf1-abc4-7f9a53f40000",
+          "archive": "",
+          "quote": "followed by the far-right Religious Zionism - headed by Bezalel Smotrich and Kahanist lawmaker Itamar Ben-Gvir",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Otzma Yehudit has Kahanist roots: its figures come from the movement of Rabbi Meir Kahane, whose Kach party was barred from the Knesset elections in 1988 after Israel's parliament amended the election law against incitement to racism.",
+      "sources": [
+        {
+          "publisher": "Israel Democracy Institute",
+          "title": "Otzma Yehudit",
+          "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/otzma-yehudit/",
+          "archive": "",
+          "quote": "its organizational roots can be traced back to the Jewish National Front, a party founded in 2004 by Baruch Marzel",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Kahane's ghost: how a long-dead extremist rabbi continues to haunt Israel's politics",
+          "url": "https://www.theguardian.com/news/2025/mar/20/meir-kahane-israel-kach-ben-gvir-long-dead-extremist",
+          "archive": "",
+          "quote": "Kach was banned from running in the 1988 elections and the supreme court rejected Kahane's appeal.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Reuters (via Ynetnews)",
+          "title": "Otzma Yehudit's history of racism and provocation",
+          "url": "https://www.ynetnews.com/articles/0,7340,L-5467651,00.html",
+          "archive": "",
+          "quote": "but its roots are in the Kach movement, which Kahane established in the 1970s.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Kach was disqualified from the 1988 election, and after 1994 Kach and Kahane Chai were declared terrorist organisations in Israel.",
+      "sources": [
+        {
+          "publisher": "Israel Democracy Institute",
+          "title": "Kach Party",
+          "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/kach-party/",
+          "archive": "",
+          "quote": "In the 1988 elections for the 12th Knesset, Kach was indeed disqualified from running.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Tony Blair Institute for Global Change",
+          "title": "A Mechanism Against Extremism? Who Gets to Run in Israel's Elections",
+          "url": "https://institute.global/insights/geopolitics-and-security/mechanism-against-extremism-who-gets-run-israels-elections",
+          "archive": "",
+          "quote": "After Kahane's victory, and to ensure greater clarity on who could and could not run for election, the Basic Law: the Knesset was amended in 1985",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Kahane's ghost: how a long-dead extremist rabbi continues to haunt Israel's politics",
+          "url": "https://www.theguardian.com/news/2025/mar/20/meir-kahane-israel-kach-ben-gvir-long-dead-extremist",
+          "archive": "",
+          "quote": "In 1985, Israel's parliament passed a bill that amended the country's basic law to bar any party or politician that supports violent terrorism",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Otzma Yehudit's stated aims include Israeli sovereignty in the West Bank, the death penalty for Palestinian terrorists, integrating Jewish law into the judicial system and politicians selecting Supreme Court justices.",
+      "sources": [
+        {
+          "publisher": "Israel Democracy Institute",
+          "title": "Otzma Yehudit",
+          "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/otzma-yehudit/",
+          "archive": "",
+          "quote": "ideologically, the party advocates the idea of the Greater Land of Israel and the application of Israeli sovereignty in the West Bank (Judea and Samaria).",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Tony Blair Institute for Global Change",
+          "title": "A Mechanism Against Extremism? Who Gets to Run in Israel's Elections",
+          "url": "https://institute.global/insights/geopolitics-and-security/mechanism-against-extremism-who-gets-run-israels-elections",
+          "archive": "",
+          "quote": "Stated positions include \"working against the phenomenon of intermarriage\" and \"integrating Jewish law into Israeli law\".",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "The ultra-Orthodox parties: Shas, founded in 1984 by Sephardic haredim, backs peace deals that preserve security but opposes dividing Jerusalem, and United Torah Judaism, a list of Agudat Israel and Degel HaTorah, serves haredi education, welfare and army-service interests and tends to back the right because it is conservative on religion.",
+      "sources": [
+        {
+          "publisher": "Israel Democracy Institute",
+          "title": "Shas",
+          "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/shas/",
+          "archive": "",
+          "quote": "Shas supports arriving at peace agreements with the Arab states while preserving the security of the residents of Israel, but is opposed to the division of Jerusalem.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Israel Democracy Institute",
+          "title": "United Torah Judaism",
+          "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/united-torah-judaism/",
+          "archive": "",
+          "quote": "The party does tend to support the right-wing camp, however, because that camp tends to have a more conservative outlook on religious issues.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "What 'right' and 'left' mean in Israel today",
+          "url": "https://www.aljazeera.com/news/2026/9/9/what-right-and-left-mean-in-israel-today",
+          "archive": "",
+          "quote": "Shas and United Torah Judaism are conservative on religion, family, gender roles and the public place of Judaism.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Yisrael Beiteinu, founded by Avigdor Liberman in 1999 for immigrants from the former Soviet Union, combines hawkish positions on the Palestinians (population exchanges and two ethnically homogeneous states) with secular positions on religion and state, including universal conscription.",
+      "sources": [
+        {
+          "publisher": "Israel Democracy Institute",
+          "title": "Yisrael Beitenu",
+          "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/yisrael-beytenu/",
+          "archive": "",
+          "quote": "the party's proposed solution for the conflict with the Palestinians is based upon population exchanges and the creation of two ethnically homogeneous states.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "The Jerusalem Post",
+          "title": "What does Avigdor Liberman's Yisrael Beytenu stand for?",
+          "url": "https://www.jpost.com/israel-election-2026/article-906447",
+          "archive": "",
+          "quote": "sits on the right of the political aisle on security and national issues but leans secular-liberal on matters of religion and state.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "The Times of Israel",
+          "title": "Liberman unveils party slogan placing Israeli Arab city in Palestine",
+          "url": "https://www.timesofisrael.com/liberman-unveils-party-slogan-calling-for-population-swap/",
+          "archive": "",
+          "quote": "Ariel to Israel, Umm al-Fahm to Palestine",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Ra'am, an Islamist-rooted Arab party, joined the Bennett-Lapid coalition in June 2021, the first time an independent Arab party sat in an Israeli government; it supports a Palestinian state with Jerusalem as its capital and recognition of Arab citizens as a national minority.",
+      "sources": [
+        {
+          "publisher": "Israel Democracy Institute",
+          "title": "Ra'am",
+          "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/raam/",
+          "archive": "",
+          "quote": "following the 2021 Ra'am joined the coalition supporting the Bennett-Lapid government. That was the first time an Arab party was a formal member of the governing coalition.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "The Times of Israel",
+          "title": "History made as Arab Israeli Ra'am party joins Bennett-Lapid coalition",
+          "url": "https://www.timesofisrael.com/arab-israeli-raam-party-makes-history-by-joining-bennett-lapid-coalition/",
+          "archive": "",
+          "quote": "This is the first time that an Arab party is part of the process of forming a government.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "TIME",
+          "title": "The Arab Kingmaker Who Joined Israel's Far-Right to Oust Netanyahu",
+          "url": "https://time.com/6073019/mansour-abbas-arab-israel-coalition-government/",
+          "archive": "",
+          "quote": "a devout Muslim and Palestinian citizen of Israel into a coalition government with the two Jewish Zionist leaders",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "The other Arab-majority lists differ from Ra'am: Hadash, a mixed Arab-Jewish list with communist roots, was among the first parties to champion two states, and Balad seeks a state of all its citizens; Balad fell under the threshold in 2022.",
+      "sources": [
+        {
+          "publisher": "Israel Democracy Institute",
+          "title": "Hadash",
+          "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/hadash/",
+          "archive": "",
+          "quote": "Hadash had a distinct communist orientation and was among the first parties in Israel to champion the idea of two states for two peoples",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Israel Democracy Institute",
+          "title": "Balad",
+          "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/balad/",
+          "archive": "",
+          "quote": "it champions turning the state of Israel into a \"state of all of its citizens.\"",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Haaretz",
+          "title": "Israel Election Final Results",
+          "url": "https://www.haaretz.com/israel-news/elections/2022-11-03/ty-article/israel-election-final-results-netanyahu-jewish-far-right-win-power-fiasco-for-left/00000184-3e80-daf1-abc4-7f9a53f40000",
+          "archive": "",
+          "quote": "Arab nationalist party Balad and Ayelet Shaked's Habayit Hayehudi failed to make it into the Knesset.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    "Whether to call the Haredi parties right-wing. On the conflict they are mixed and have joined governments on both sides; they ally with the right chiefly over religious issues and budgets (IDI; Al Jazeera).",
+    "How to describe Religious Zionism and Otzma Yehudit. The IDI says far right; Haaretz calls the list far-right and Ben-Gvir Kahanist; the parties describe themselves as religious-Zionist nationalists. Ben-Gvir's own account of how far he has moved from his Kach past is not on this card.",
+    "What the Likud government's 'exclusive right' guideline means in practice: critics read it as aimed at annexation; the guidelines also say sovereignty will be applied at a time suited to national and international interests.",
+    "Seat counts shift during a term through splits and mergers: National Unity fell from 12 to 8 and Otzma Yehudit separated from Religious Zionism after 2022. The card gives election-day counts."
+  ],
+  "could_not_verify": [
+    "The Knesset's own English pages (main.knesset.gov.il) could not be read by the checker (empty response); official seat counts come from the Central Elections Committee instead.",
+    "A third independent source for several single-camp facts (Hadash and Balad platforms, Shas and UTJ, Yisrael Beiteinu on a Palestinian state, Religious Zionism's platform beyond the IDI): the IDI party pages are one site.",
+    "Whether the 26th Knesset (elected 27 October 2026) has a government. The brief named the 2022 Knesset as current; the sources show a newer election, so this card reports both and must be updated once a coalition forms.",
+    "Positions on a Palestinian state for National Unity (Gantz) and Noam: no source read.",
+    "Some pages blocked the checker (see factcheck warnings); their quotes come from the page text as returned by a search tool, not the checker."
+  ],
+  "not_claimed": [
+    "That any party speaks for a whole community: Arab citizens, ultra-Orthodox, secular, settlers and others vote across many lists.",
+    "That the camps are monoliths or that a party's platform equals its voters' views.",
+    "That one camp is more legitimate than another.",
+    "That describing a party's roots means every member shares the founders' positions."
+  ],
+  "status": "draft",
+  "content_approved": false
+}

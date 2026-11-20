@@ -1,0 +1,256 @@
+{
+  "id": "era1-name-palestine",
+  "era": 1,
+  "claim": "It was always called Palestine.",
+  "heard": [
+    {
+      "who": "Nur Masalha, historian, \"Palestine: A Four Thousand Year History\"",
+      "url": "https://qurancourse.com/books/palestine-a-four-thousand-year-history/2.2-the-conception-of-palaistin-by-the-founding-father-of-history",
+      "archive": "",
+      "quote": "the name took on its Greek form Παλαιστίνη (Palaistinê or Phalastin) and was used as the name of the region"
+    }
+  ],
+  "answer": "The name is old but was not continuous. It comes from the Philistines (Egyptian Peleset), and Herodotus used Palaistine in the 5th century BCE for the coast between Phoenicia and Egypt. Rome combined its province of Judaea into Syria Palaestina around the Bar Kokhba revolt (132-135 CE). The Byzantines had Palaestina Prima and Secunda, and the early caliphs a district called Jund Filastin. Under the Ottomans no province carried the name. Britain's Mandate of 1920-22 revived it, and Jews and Arabs alike held Palestinian citizenship. Jews and Judaea were not erased from the sources. Why Rome chose the name is not recorded: historians differ on whether it was meant to cut the Jews' tie to the land.",
+  "facts": [
+    {
+      "text": "The name has an ancient root: the Peleset of Egyptian texts under Ramesses III (about 1175 BCE), generally identified with the Philistines, and the Assyrian Palashtu, are the source of the later name Palestine.",
+      "sources": [
+        {
+          "publisher": "Biblical Archaeology Society",
+          "title": "Invasions of the Sea Peoples",
+          "url": "https://library.biblicalarchaeology.org/sidebar/invasions-of-the-sea-peoples/",
+          "archive": "",
+          "quote": "The Peleset were likely the Philistines",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Encyclopaedia Judaica (via Encyclopedia.com)",
+          "title": "Philistines",
+          "url": "https://www.encyclopedia.com/history/asia-and-africa/ancient-history-middle-east/philistines",
+          "archive": "",
+          "quote": "is first found in the Egyptian form prst as one of the \"Sea Peoples\" who invaded Egypt in the eighth year of Ramses iii",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Biblical Archaeology Society",
+          "title": "Who Were the Philistines, and Where Did They Come From?",
+          "url": "https://www.biblicalarchaeology.org/daily/people-cultures-in-the-bible/who-were-philistines-where-did-they-come-from/",
+          "archive": "",
+          "quote": "Egypt defeated the confederation, as recorded on one of the temple walls at Medinet Habu.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "Herodotus, in the 5th century BCE, is the earliest Greek author to use \"Palaistine\": he calls the coast between Phoenicia and Egypt \"Palestine\" and speaks of the \"Syrians of Palestine\".",
+      "sources": [
+        {
+          "publisher": "Perseus Digital Library, Tufts University (Herodotus 7.89)",
+          "title": "Herodotus, Histories, Book 7, chapter 89",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0126%3Abook%3D7%3Achapter%3D89",
+          "archive": "",
+          "quote": "This part of Syria as far as Egypt is all called Palestine.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Perseus Digital Library, Tufts University (Herodotus 2.104)",
+          "title": "Herodotus, Histories, Book 2, chapter 104",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0126%3Abook%3D2%3Achapter%3D104",
+          "archive": "",
+          "quote": "The Phoenicians and the Syrians of Palestine acknowledge that they learned the custom from the Egyptians",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "The Jerusalem Post",
+          "title": "Where does the name 'Palestine' come from? (opinion)",
+          "url": "https://www.jpost.com/opinion/article-752532",
+          "archive": "",
+          "quote": "The first known reference we have to Palestine as “a district of Syria, called ‘Palaistin,’” comes mid-5th-century",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "After the Bar Kokhba revolt (132-135 CE) the Roman province of Judaea was renamed Syria Palaestina; an inscription dated to 136 shows the new name in use.",
+      "sources": [
+        {
+          "publisher": "Cambridge University Press, Journal of Roman Studies (Werner Eck)",
+          "title": "The Bar Kokhba Revolt: The Roman Point of View",
+          "url": "https://www.cambridge.org/core/journals/journal-of-roman-studies/article/abs/bar-kokhba-revolt-the-roman-point-of-view/27E95F52A627562F93178F17A51D5FD4",
+          "archive": "",
+          "quote": "the name of the province of Judaea has already been changed to Syria Palaestina, it must be inferred that AE 1904.9 was written after the conclusion of the war in Judaea, i.e. in 136.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "The Posen Library of Jewish Culture and Civilization",
+          "title": "The Bar Kokhba Revolt and Its Aftermath",
+          "url": "https://www.posenlibrary.com/guide/bar-kokhba-revolt-and-its-aftermath",
+          "archive": "",
+          "quote": "there is no escaping the fact that the province—by then renamed Syria-Palaestina—was partly de-Judaized",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Tales of Times Forgotten (Spencer McDaniel, classicist)",
+          "title": "No, the Roman Emperor Hadrian Didn't Invent Palestine",
+          "url": "https://talesoftimesforgotten.com/2023/10/23/no-the-roman-emperor-hadrian-didnt-invent-palestine/",
+          "archive": "",
+          "quote": "Hadrian did combine Judaea into a province which bore the official name Syria Palaestina sometime around the time of the Bar Kokhba revolt",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "The sources do not state why Rome chose the name. A scholar's reconstruction of the choice as punitive is an inference, and the same article that argues for it suggests the name may have come from the province's non-Jewish population.",
+      "sources": [
+        {
+          "publisher": "Cambridge University Press, Journal of Roman Studies (Werner Eck)",
+          "title": "The Bar Kokhba Revolt: The Roman Point of View (note 98)",
+          "url": "https://www.cambridge.org/core/journals/journal-of-roman-studies/article/abs/bar-kokhba-revolt-the-roman-point-of-view/27E95F52A627562F93178F17A51D5FD4",
+          "archive": "",
+          "quote": "The choice of this specific name, Syria Palaestina, may not have been Hadrian's, but rather a suggestion of the non-Jewish population of the province",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Tales of Times Forgotten (Spencer McDaniel, classicist)",
+          "title": "No, the Roman Emperor Hadrian Didn't Invent Palestine",
+          "url": "https://talesoftimesforgotten.com/2023/10/23/no-the-roman-emperor-hadrian-didnt-invent-palestine/",
+          "archive": "",
+          "quote": "There is no surviving ancient source that explicitly says specifically when or why this change happened or who proposed it",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "After the Muslim conquest of the 630s the district of Palestine was called Jund Filastin, one of two military districts that replaced the three Byzantine Palaestinas.",
+      "sources": [
+        {
+          "publisher": "Israel Institute of Archaeology (Nimrod Luz, Lydda)",
+          "title": "Lod and Ramla - not Ramlod",
+          "url": "https://www.israeliarchaeology.org/lydda/vol-4-2026/lod-and-ramla-not-ramlod-on-a-geographic-anomaly-and-the-longue-duree-of-urban-history-and-history/?lang=en",
+          "archive": "",
+          "quote": "the Muslims transitioned from the tripartite division of Palaestina Prima, Secunda, and Tertia to a two-district system: Jund al-Urdunn and Jund Filastin",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Cambridge University Press (Journal of the Royal Asiatic Society, Nimrod Luz)",
+          "title": "The Construction of an Islamic City in Palestine. The Case of Umayyad al-Ramla",
+          "url": "https://doi.org/10.1017/s1356186300008300",
+          "archive": "",
+          "quote": "to serve as the capital of Jund Filasṭīn",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "Under the Ottomans (1516/17-1917) there was no province or district named Palestine; the area was divided among units of Syria.",
+      "sources": [
+        {
+          "publisher": "Encyclopaedia Judaica (via Encyclopedia.com)",
+          "title": "Land of Israel: Governance",
+          "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/land-israel-governance",
+          "archive": "",
+          "quote": "officially, there was no such entity as Palestine",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Jewish Virtual Library",
+          "title": "Origins of the Name Palestine and Palestinian Nationalism",
+          "url": "https://jewishvirtuallibrary.org/origin-of-quot-palestine-quot",
+          "archive": "",
+          "quote": "it was not an official designation",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        }
+      ]
+    },
+    {
+      "text": "Britain received the Mandate for Palestine in 1920, and the League of Nations approved it in 1922; the name Palestine was again the official name of a territory.",
+      "sources": [
+        {
+          "publisher": "National Army Museum, London",
+          "title": "The British Army in Palestine",
+          "url": "https://www.nam.ac.uk/explore/british-army-palestine",
+          "archive": "",
+          "quote": "In 1920, Britain assumed responsibility for Palestine under a League of Nations Mandate.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "United Nations, Question of Palestine (League of Nations text)",
+          "title": "Mandate for Palestine - League of Nations",
+          "url": "https://www.un.org/unispal/document/auto-insert-201057/",
+          "archive": "",
+          "quote": "The Mandatory shall have full powers of legislation and of administration, save as they may be limited by the terms of this mandate.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "United Kingdom memorandum, hosted by the United Nations",
+          "title": "Political History of Palestine under British Administration",
+          "url": "https://www.un.org/unispal/document/auto-insert-185776/",
+          "archive": "",
+          "quote": "The Mandate for Palestine was assigned to the United Kingdom by the Supreme Council of the Allied Powers at San Reno on the 25th April, 1920.",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        }
+      ]
+    },
+    {
+      "text": "Under the Mandate a Palestinian citizenship was created by law for Ottoman subjects living in the country and for persons who settled there, and the Mandate required it to be made easy for Jews to acquire; Jews and Arabs alike were Palestinian citizens.",
+      "sources": [
+        {
+          "publisher": "United Nations, Question of Palestine (UK report to the League of Nations)",
+          "title": "Mandate for Palestine - Report of the Mandatory to the League of Nations",
+          "url": "https://www.un.org/unispal/document/auto-insert-208411/",
+          "archive": "",
+          "quote": "provides for the acquisition of Palestinian citizenship by persons habitually resident in the country who were Ottoman subjects, and persons who were foreign subjects and take up permanent residence",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "Yale Law School, Avalon Project",
+          "title": "Mandate for Palestine",
+          "url": "https://avalon.law.yale.edu/20th_century/palmanda.asp",
+          "archive": "",
+          "quote": "provisions framed so as to facilitate the acquisition of Palestinian citizenship by Jews who take up their permanent residence in Palestine",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    "Why Rome renamed the province is disputed. Many writers say the aim was to sever Jewish ties to the land (Louis Feldman, \"Some Observations on the Name of Palestine\", 1990, says the aim was to \"obliterate the Jewish character of the land\"; Werner Eck also treats the renaming as punishment). David Jacobson argues it was a rational administrative choice with ancient precedent, since Palaistine already meant the wider land. Spencer McDaniel says no ancient source states a motive, calls a punitive motive plausible but unproven, and notes it may have been dated before the revolt. Eck suggests the name may have been proposed by non-Jewish provincials.",
+    "Palestine as a broad regional name is old, but what it covered varies by author: some Greek texts use it for the coast, Herodotus uses it for the wider land. Jewish writers such as Philo and Josephus mostly kept Judaea for the Jewish heartland and Palestine for the coast (Feldman).",
+    "Nur Masalha argues Palestine was the commonest name for the land from the Late Bronze Age on; others treat Judaea or Land of Israel as the usual name in Jewish texts. The Ottoman state used Filastin informally on maps without making it a province.",
+    "The date of the renaming is uncertain: Eck dates an inscription to 136, and Ronald Syme and others have argued for a date near Hadrian's visit of 130 (McDaniel)."
+  ],
+  "could_not_verify": [
+    "The Herodotus fact has two readable primary sources (Perseus, one site) and one newspaper opinion piece; I could not read Jacobson's article (JSTOR/academia), or a second Herodotus translation site.",
+    "The Peleset fact has only encyclopedia and Biblical Archaeology Society pages readable by the checker; no museum or journal page was readable.",
+    "The Jund Filastin, Ottoman-no-province and Palestinian-citizenship facts have fewer than three readable reliable sources. Pages from Britannica, palquest, a University of California Press book, De Gruyter, the Journal of Palestine Studies and OpenEdition could not be read by the checker (403 or bot check).",
+    "Feldman, Jacobson and Eck's own claim that the renaming was punitive are cited from search excerpts, not from pages the checker can read, so they appear in contested without a quote."
+  ],
+  "not_claimed": [
+    "This card does not say Palestine is not a real place, or that Palestinians are not a people.",
+    "It does not say Jews or Arabs have a better claim because of a name.",
+    "It does not claim Hadrian's renaming was or was not meant to erase Jewish ties; it says the sources do not tell us.",
+    "It does not claim there was no Arab or Muslim population: it covers the name, not who lived in the land."
+  ],
+  "status": "draft",
+  "content_approved": false
+}

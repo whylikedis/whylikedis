@@ -1,0 +1,151 @@
+{
+  "id": "era4-gaza-2005-2007",
+  "era": 4,
+  "claim": "The occupation is the root; Israel doesn't want peace.",
+  "heard": [
+    {
+      "who": "António Guterres, UN Secretary-General, to the Security Council, 24 October 2023",
+      "url": "https://www.un.org/unispal/document/un-secretary-general-remarks-to-security-council-on-the-situation-in-the-middle-east/",
+      "quote": "The Palestinian people have been subjected to 56 years of suffocating occupation.",
+      "archive": ""
+    },
+    {
+      "who": "Marwan Barghouti, Palestinian leader, in The Guardian, 2015",
+      "url": "https://www.theguardian.com/commentisfree/2015/oct/11/israel-occupation-palestinian-territory-peace-diplomacy",
+      "quote": "The real problem is that Israel has chosen occupation over peace, and used negotiations as a smokescreen to advance its colonial project.",
+      "archive": ""
+    }
+  ],
+  "answer": "In August and September 2005 Israel removed all 21 of its settlements from inside Gaza, about 8,000 settlers, and withdrew its soldiers. In January 2006 Hamas won the Palestinian parliamentary election. In June 2007, after fighting with Fatah, Hamas took complete control of Gaza. Israel then closed the crossings and imposed a blockade, and Egypt closed its border too. Israel says the blockade is about stopping weapons. The UN and the Red Cross say Gaza is still occupied because Israel controls its borders, airspace and sea; Israel says it is not occupied since it has no forces inside. So the 2005 withdrawal was real, and so was what followed it. Both facts belong in the story.",
+  "facts": [
+    {
+      "text": "In 2005 Israel removed all its settlements and soldiers from inside Gaza, about 8,000 settlers from 21 communities.",
+      "sources": [
+        {
+          "publisher": "United Nations (Question of Palestine), IRIN timeline",
+          "title": "Gaza humanitarian timeline since 2005",
+          "url": "https://www.un.org/unispal/document/auto-insert-207191/",
+          "archive": "",
+          "quote": "Israel unilaterally removed about 8,000 Israeli residents from the Gaza Strip.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Anti-Defamation League",
+          "title": "Disengagement",
+          "url": "https://www.adl.org/resources/backgrounder/disengagement",
+          "archive": "",
+          "quote": "removing all Israeli military installations, 25 Israeli settlements (4 in the West Bank) with over 8,000 residents",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        }
+      ]
+    },
+    {
+      "text": "Hamas won the Palestinian parliamentary election on 25 January 2006.",
+      "sources": [
+        {
+          "publisher": "United Nations (Question of Palestine), IRIN timeline",
+          "title": "Gaza humanitarian timeline since 2005",
+          "url": "https://www.un.org/unispal/document/auto-insert-207191/",
+          "archive": "",
+          "quote": "Hamas wins most seats, defeating Fatah in parliamentary elections.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "The Guardian (Ian Black)",
+          "title": "Hamas takes control of Gaza",
+          "url": "https://www.theguardian.com/world/2007/jun/15/israel4",
+          "archive": "",
+          "quote": "a long-standing power struggle between Hamas, which won elections last year, and Fatah, the historic core of the PLO",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "In June 2007, after fighting with Fatah, Hamas took complete control of the Gaza Strip.",
+      "sources": [
+        {
+          "publisher": "The Guardian (Ian Black)",
+          "title": "Hamas takes control of Gaza",
+          "url": "https://www.theguardian.com/world/2007/jun/15/israel4",
+          "archive": "",
+          "quote": "Hamas fighters today basked in triumph after taking complete control in Gaza",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "United Nations (Question of Palestine), IRIN timeline",
+          "title": "Gaza humanitarian timeline since 2005",
+          "url": "https://www.un.org/unispal/document/auto-insert-207191/",
+          "archive": "",
+          "quote": "Hamas seizes control of Gaza after Fatah is ordered to abandon its posts.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "After the June 2007 takeover Israel imposed a blockade on the crossings into and out of Gaza, and Egypt and Israel closed their borders with it.",
+      "sources": [
+        {
+          "publisher": "UN Office for the Coordination of Humanitarian Affairs",
+          "title": "Locked in: the humanitarian impact of two years of blockade on the Gaza Strip",
+          "url": "https://www.unocha.org/publications/report/occupied-palestinian-territory/ocha-opt-special-focus-locked-humanitarian-impact-two-years",
+          "archive": "",
+          "quote": "Following the Hamas takeover of the Gaza Strip in June 2007, Israel has imposed an unprecedented blockade on all border crossings in and out of the Gaza Strip.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Council on Foreign Relations",
+          "title": "What Is Hamas?",
+          "url": "https://www.cfr.org/backgrounder/what-hamas",
+          "archive": "",
+          "quote": "Egypt and Israel closed their borders with Gaza in 2006-07, restricting the movement of goods and people into and out of the territory.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "The ICRC regards Gaza as still occupied because Israel controls its borders, airspace and sea; the UN has held the same view.",
+      "sources": [
+        {
+          "publisher": "International Committee of the Red Cross",
+          "title": "FAQ: Our work in Israel and the occupied territories",
+          "url": "https://www.icrc.org/en/document/FAQ-icrc-work-Israel-and-occupied-territories",
+          "archive": "",
+          "quote": "The ICRC considers Gaza to remain occupied Palestinian territory on the basis that Israel still exercises key elements of authority over the strip",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "EJIL: Talk! (Marko Milanovic)",
+          "title": "The Occupation of Gaza in the ICJ Palestine Advisory Opinion",
+          "url": "https://www.ejiltalk.org/the-occupation-of-gaza-in-the-icj-palestine-advisory-opinion/",
+          "archive": "",
+          "quote": "other experts, including many from military backgrounds, have argued that occupation requires boots on the ground and that, after its disengagement, Israel had no effective control over Gaza",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    "Is Gaza still occupied? The ICRC, the UN, the International Court of Justice (in its July 2024 advisory opinion) and many academics say yes: Israel kept control of Gaza's land crossings, airspace and territorial waters, so occupation law still applies in proportion to that control. Israel says no: after 2005 it had no forces or settlers inside and the Strip is not occupied; some legal experts, including many from military backgrounds, agree that occupation needs troops on the ground. Both positions are on this card.",
+    "Why the blockade. Israel says it is needed to stop Hamas importing weapons and to protect its civilians from rocket fire; the Anti-Defamation League and Israeli officials say goods were misused for military purposes. UN agencies and human rights groups say it harms civilians and is collective punishment. Egypt also closed its crossing.",
+    "Whether the 2005 withdrawal was a peace step. Israel called it unilateral and not negotiated. Critics say it was done for Israel's own reasons, not as part of a deal; Elie Podeh's 2025 study argues it was coordinated with the Palestinian Authority and others but that Israel did not use it to advance peace talks and the Authority did not curb armed groups.",
+    "Hamas won an election the US and Israel had accepted taking place; the Quartet then demanded recognition of Israel, an end to violence and acceptance of past agreements, and Hamas refused, after which aid was frozen. How much that contributed to the 2007 clashes is disputed."
+  ],
+  "not_claimed": [
+    "It does not claim Israel's withdrawal ended the conflict or that Gaza was not under Israeli control afterwards in any sense.",
+    "It does not claim the blockade is lawful or unlawful; courts and experts differ.",
+    "It does not cover the wars after 2008 or 7 October 2023.",
+    "It does not claim Hamas's takeover was caused only by Israel, or only by Palestinians."
+  ],
+  "status": "draft",
+  "content_approved": false
+}

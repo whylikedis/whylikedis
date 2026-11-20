@@ -1,0 +1,283 @@
+{
+  "id": "era1-name-israel-judah-judea",
+  "era": 1,
+  "claim": "There was never a Jewish country there; Israel is an invention of 1948.",
+  "heard": [
+    {
+      "who": "Fayez Sayegh, Palestine Liberation Organization Research Center, \"Zionist Colonialism in Palestine\" (1965)",
+      "url": "https://redsails.org/zionist-colonialism-in-palestine/",
+      "archive": "",
+      "quote": "the religious and alleged racial bonds among Jews constituted a Jewish “nationality” and endowed the so-called “Jewish nation” with normal national rights"
+    }
+  ],
+  "answer": "The state declared in 1948 took an old name; the name is not new. An Egyptian stele of about 1208 BCE names a people called Israel in Canaan. In the 9th century BCE an Aramaic stele names a king of Israel and a House of David, and a Moabite stele names Omri, king of Israel. Assyrian and Babylonian records name Israelite and Judahite kings and the capture of Jerusalem in 597 BCE. Under Persia the province was called Yehud. From the 140s BCE to 63 BCE the Hasmoneans ruled an independent Judea, and in 6 CE Rome made it a province. Scholars dispute how large and united the kingdom of David and Solomon was, and the Merneptah stele names a people, not clearly a state. The evidence for a Jewish polity there long before 1948 is strong; it does not by itself settle who has rights today.",
+  "facts": [
+    {
+      "text": "An Egyptian victory stele of Pharaoh Merneptah, from about 1208 BCE, names a people called Israel in Canaan. It is the earliest known mention of Israel outside the Bible.",
+      "sources": [
+        {
+          "publisher": "University College London, Digital Egypt",
+          "title": "Israel stela",
+          "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/thebes/merenptah/stela.html",
+          "archive": "",
+          "quote": "mentions for the first and only time the word 'Israel' in Egyptian hieroglyphic sources",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "University of Michigan, Land of Israel / Palestine Image Database",
+          "title": "Luxor: Merneptah Stele - detail",
+          "url": "https://image-database.nes.lsa.umich.edu/items/show/61",
+          "archive": "",
+          "quote": "This is the earliest preserved inscriptional evidence of Israel and it is mentioned together with three other defeated states in Canaan",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Biblical Archaeology Society",
+          "title": "The Merneptah Stela: Israel Enters History",
+          "url": "https://library.biblicalarchaeology.org/sidebar/the-merneptah-stela-israel-enters-history/",
+          "archive": "",
+          "quote": "This is the earliest known reference to Israel; thus the stela is also known as the Israel Stela.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "A 9th-century BCE Aramaic stele found at Tel Dan names a king of Israel and a king of the \"House of David\", the earliest mention of David's dynasty outside the Bible.",
+      "sources": [
+        {
+          "publisher": "The Jewish Museum, New York (on loan from the Israel Museum)",
+          "title": "Tel Dan Stele",
+          "url": "https://thejewishmuseum.org/exhibitions/tel-dan-stele/",
+          "archive": "",
+          "quote": "containing the earliest mention of the royal House of David outside of the Hebrew Bible",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Nelson Glueck School of Biblical Archaeology (Hebrew Union College)",
+          "title": "Tel Dan",
+          "url": "https://ngsba.org/excavations/tel-dan/",
+          "archive": "",
+          "quote": "It is the only clear Iron Age (i.e nearly contemporary) reference to David outside the biblical text.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Biblical Archaeology Society",
+          "title": "The Tel Dan Inscription: The First Historical Evidence of King David",
+          "url": "https://www.biblicalarchaeology.org/daily/biblical-artifacts/the-tel-dan-inscription-the-first-historical-evidence-of-the-king-david-bible-story/",
+          "archive": "",
+          "quote": "the “king of Israel” and the “king of the House of David.”",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "The Mesha Stele, a Moabite royal inscription from about 840 BCE now in the Louvre, names Omri as king of Israel and describes Israel's rule over Moab.",
+      "sources": [
+        {
+          "publisher": "Musée du Louvre",
+          "title": "Stèle de Mesha",
+          "url": "https://collections.louvre.fr/en/ark:/53355/cl010120339",
+          "archive": "",
+          "quote": "Elle relate la reprise, sur Israël, de nombreux territoires moabites par le roi Mesha",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "The Jordan Museum",
+          "title": "Mesha' Stele: An Important Jordanian Historical Document",
+          "url": "https://www.jm-qr-objects.jo/en/objects/%D9%85%D8%B3%D9%84%D8%A9%20%D9%85%D9%8A%D8%B4%D8%B9:%20%D8%A5%D8%AD%D8%AF%D9%89%20%D8%A3%D9%87%D9%85%20%D9%88%D8%AB%D8%A7%D8%A6%D9%82%20%D8%A7%D9%84%D8%A3%D8%B1%D8%AF%D9%86%20%D8%A7%D9%84%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%8A%D8%A9",
+          "archive": "",
+          "quote": "was king of Israel, and he oppressed Moab for many days because Kemosh was angry with his country",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Center for Online Judaic Studies",
+          "title": "Moabite Stone, c. 840 BCE",
+          "url": "https://cojs.org/moabite_stone-_c-_840_bce/",
+          "archive": "",
+          "quote": "Omri was the king of Israel, and he oppressed Moab for many days",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "Assyrian royal inscriptions name Israelite kings: Ahab \"the Israelite\" at the battle of Qarqar in 853 BCE, and the capture of Samaria, the capital of the northern kingdom, in the 720s BCE.",
+      "sources": [
+        {
+          "publisher": "Biblical Archaeology Society",
+          "title": "Israelite Kings in Non-Biblical, Non-Israelite Inscriptions",
+          "url": "https://library.biblicalarchaeology.org/sidebar/israelite-kings-in-non-biblical-non-israelite-inscriptions/",
+          "archive": "",
+          "quote": "10,000 foot soldiers of Ahab, the Israelite",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Center for Online Judaic Studies",
+          "title": "The Babylonian Chronicle, 722 BCE",
+          "url": "https://cojs.org/the_babylonian_chronicle-_722_bce/",
+          "archive": "",
+          "quote": "Chronicle 1 tells us that, simply, “[Shalmaneser V] shattered Samaria.”",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Associates for Biblical Research",
+          "title": "Israelite Kings In Assyrian Inscriptions",
+          "url": "https://biblearchaeology.org/research-articles/israelite-kings-in-assyrian-inscriptions/",
+          "archive": "",
+          "quote": "2,000 chariots, and 10,000 soldiers belonging to Ahab, the Israelite",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        }
+      ]
+    },
+    {
+      "text": "A Babylonian chronicle on a clay tablet in the British Museum records that Nebuchadnezzar besieged \"the city of Judah\" (Jerusalem) and captured its king in March 597 BCE.",
+      "sources": [
+        {
+          "publisher": "The Posen Library of Jewish Culture and Civilization",
+          "title": "Babylonian Chronicle, Entry for 598/97",
+          "url": "https://www.posenlibrary.com/entry/babylonian-chronicle-entry-59897",
+          "archive": "",
+          "quote": "He encamped against the city of Judah and in the month Adar, day 2, he captured the city; he seized the king.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Center for Online Judaic Studies",
+          "title": "The Babylonian Chronicle (Chronicle 5): Nebuchadnezzar Besieges Jerusalem, 597 BCE",
+          "url": "https://cojs.org/the_babylonian_chronicle_-chronicle_5-_nebuchadnezzar_besieges_jerusalem-_597_bce/",
+          "archive": "",
+          "quote": "He (Nebuchadnezzar) encamped against the city of Judah (Jerusalem) and on the second day of Adar, he seized the city and seized the king.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Tyndale House, Cambridge",
+          "title": "How the Babylonians recorded biblical events",
+          "url": "https://tyndalehouse.com/2018/09/07/how-the-babylonians-recorded-biblical-events/",
+          "archive": "",
+          "quote": "On the second day of the month Addaru, he took the city, captured the king, and appointed a king of his choosing.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "Under Persian rule the province of Judah was called Yehud, and its jar seals and silver coins bore that name.",
+      "sources": [
+        {
+          "publisher": "The Posen Library of Jewish Culture and Civilization",
+          "title": "Yehud Seal Impressions",
+          "url": "https://www.posenlibrary.com/entry/yehud-seal-impressions",
+          "archive": "",
+          "quote": "Seal impressions bearing the name Yehud, the name of the province of Judah",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Center for Online Judaic Studies",
+          "title": "Yehud Coin 1, 4th century BCE",
+          "url": "https://cojs.org/yehud_coin_1-_4th_century_bce/",
+          "archive": "",
+          "quote": "Yehud was the current name of the province of Judah during the fifth and fourth centuries BCE",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Hebrew University of Jerusalem, Institute of Archaeology",
+          "title": "The City of David",
+          "url": "https://archaeology.huji.ac.il/city-david/",
+          "archive": "",
+          "quote": "Known in Aramaic as \"Yehud Medinta,\" this Persian province was granted permission to mint its own coins.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "From the 140s BCE until Pompey's intervention in 63 BCE the Hasmonean dynasty ruled Judea as a Jewish state, independent of the Seleucid kings.",
+      "sources": [
+        {
+          "publisher": "Center for Online Judaic Studies",
+          "title": "The Hasmonean Dynasty (142-37 BCE)",
+          "url": "https://cojs.org/the_hasmonean_dynasty_-142-37_bce/",
+          "archive": "",
+          "quote": "From then until the Roman conquest of Judea in 63 B.C.E., the descendants of Judah the Maccabee ruled over the Land of Israel.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Jewish Encyclopedia",
+          "title": "Hasmoneans",
+          "url": "https://www.jewishencyclopedia.com/articles/7319-hasmoneans",
+          "archive": "",
+          "quote": "Simon, who had made the Jewish people entirely independent of the Syrians, reigned from 142 to 135.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "The Posen Library of Jewish Culture and Civilization",
+          "title": "The Rise and Decline of the Hasmonean Dynasty",
+          "url": "https://www.posenlibrary.com/guide/rise-and-decline-hasmonean-dynasty",
+          "archive": "",
+          "quote": "when Pompey intervened in Judean affairs and ultimately took control of Jerusalem in 63 BCE—rendering Judea a client state of the Roman Empire",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "In 6 CE Rome annexed Judea, Samaria and Idumea after removing Herod Archelaus; the territory was governed by Roman prefects, under the oversight of the governor of Syria.",
+      "sources": [
+        {
+          "publisher": "Brigham Young University, BYU Studies",
+          "title": "The Roman Province of Judea: A Historical Overview",
+          "url": "https://byustudies.byu.edu/article/the-roman-province-of-judea-a-historical-overview",
+          "archive": "",
+          "quote": "Archelaus’s holdings were annexed as a province under the administrative oversight of the larger province of Syria in A.D. 6.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Livius.org",
+          "title": "Annexation (Roman-Jewish wars)",
+          "url": "https://www.livius.org/articles/concept/roman-jewish-wars/roman-jewish-wars-2/",
+          "archive": "",
+          "quote": "Judaea became an autonomous part of the Roman province Syria, ruled by a prefect",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    "The size and nature of a united monarchy under David and Solomon is disputed among archaeologists. The Tel Dan inscription shows David was remembered as the founder of Judah's dynasty about a century and a half later, but scholars differ on what it says about the extent of his kingdom (Biblical Archaeology Society, Tel Dan entry). The Jewish Museum text calls the monarchy \"united\"; others doubt it.",
+    "The University of Michigan image database notes that the Merneptah stele marks Israel with the sign for a people, not a city or state, so Israel at that date may have been a people without a fixed state.",
+    "Whether Israel appears in other Egyptian texts earlier than Merneptah is disputed: a name-ring on a Berlin pedestal read by some as Israel (c. 1400 BCE) is not accepted by all scholars (Biblical Archaeology Society).",
+    "The Babylonian Chronicle covering the destruction of Jerusalem in 587 or 586 BCE is lost, so that event rests on the Bible and later sources (Center for Online Judaic Studies). Reading \"House of David\" on the Mesha Stele is also disputed.",
+    "Historians disagree on whether Judea was a separate province from 6 CE or a prefecture inside Syria (Livius and BYU Studies describe it differently)."
+  ],
+  "could_not_verify": [
+    "The Assyrian-records fact has only two non-advocacy sources on pages the checker can read; I could not read the British Museum Kurkh Stela page, the Tyndale Bulletin article (PDF) or the Oxford Handbook chapter by Nissinen.",
+    "The Roman annexation of 6 CE has two sources the checker can read; the Cotton and Eck studies are on pages it cannot read (academia.edu, PDF).",
+    "Britannica pages for the Merneptah, Tel Dan and Mesha steles and the kingdoms of Israel and Judah could not be read by the checker (403, and no archive copy was reachable)."
+  ],
+  "not_claimed": [
+    "This card does not claim the Bible's account of David, Solomon or the Exodus is historical.",
+    "It does not claim that the modern State of Israel is the same polity as ancient Israel or Judah.",
+    "It does not say that evidence of an ancient Jewish kingdom settles who has rights in the land today.",
+    "It does not deny that other peoples lived in the land in every period."
+  ],
+  "status": "draft",
+  "content_approved": false
+}

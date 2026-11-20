@@ -1,0 +1,323 @@
+{
+  "id": "era1-arab-and-muslim-presence",
+  "era": 1,
+  "claim": "The Palestinians are recent immigrants; there is no Palestinian people.",
+  "heard": [
+    {
+      "who": "Newt Gingrich, then a US presidential candidate, to The Jewish Channel, December 2011 (as reported by The New York Times)",
+      "url": "https://archive.nytimes.com/thecaucus.blogs.nytimes.com/2011/12/09/gingrich-calls-palestinians-an-invented-people/",
+      "archive": "",
+      "quote": "I think that we've had an invented Palestinian people, who are in fact Arabs, and were historically part of the Arab community."
+    },
+    {
+      "who": "Golda Meir, Israeli prime minister, to The Sunday Times, 1969 (as quoted by historian Zachary Foster in Foreign Affairs)",
+      "url": "https://www.foreignaffairs.com/articles/middle-east/2015-03-11/whats-palestinian",
+      "archive": "",
+      "quote": "When was there an independent Palestinian people with a Palestinian state?"
+    },
+    {
+      "who": "Daniel Pipes, writing in 1986 in support of Joan Peters's book From Time Immemorial",
+      "url": "https://www.danielpipes.org/19124/mrs-peters-palestine",
+      "archive": "",
+      "quote": "Miss Peters's central thesis is that a substantial immigration of Arabs to Palestine took place during the first half of the twentieth century."
+    }
+  ],
+  "answer": "Part of this is false and part is a real argument. Arabs conquered the land in the 630s; Arabic and Islam spread gradually over centuries, mostly by conversion, not replacement. Muslims and Christians were the large majority in every count: about 94 percent in 1917, 78 percent Muslim in the 1922 census, 73 percent in 1931. The idea that most arrived in the Mandate years, argued by Joan Peters in 1984, was rejected by most reviewers; British and UN analysts found Arab growth came almost entirely from births. The highest serious estimate (Gottheil) puts immigration at about a third of growth in Jewish-settled districts in 1922-31, partly internal movement. A distinct Palestinian national identity is dated by historians from 1909 to the early 1920s or, by one, after 1948. Being a modern identity does not make a people recent arrivals.",
+  "facts": [
+    {
+      "text": "Arab armies conquered the land in the 630s; Arabic and Islam spread gradually, over centuries, and most of the population converted over time rather than being replaced.",
+      "sources": [
+        {
+          "publisher": "Tel Aviv Review of Books",
+          "title": "Sudden Change or Gradual Transition?",
+          "url": "https://www.tarb.co.il/sudden-change-or-gradual-transition/",
+          "archive": "",
+          "quote": "Arabic only gradually came to be the dominant language. Islam didn't supplant Christianity as the major religion of the region for hundreds of years.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Cambridge University Press (Michael Ehrlich, The Islamization of the Holy Land, 634-1800)",
+          "title": "The Islamization of the Holy Land, 634-1800",
+          "url": "https://www.cambridge.org/core/books/islamization-of-the-holy-land-6341800/DAA3688627E59E7518DC6E14684EFCCD",
+          "archive": "",
+          "quote": "the causes that led to the conversion of most of the Holy Land's population, as well as the survival of some religious communities, are essentially social and geographic in nature, rather than theological",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Encyclopaedia Judaica (via Encyclopedia.com)",
+          "title": "Jerusalem",
+          "url": "https://www.encyclopedia.com/places/asia/israeli-political-geography/jerusalem",
+          "archive": "",
+          "quote": "Although many Arabs came to live in Jerusalem, the great majority of the inhabitants was still Christian.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "Muslims and Christians, the Arabs, were the large majority of the land's people in every estimate and count that survives from the 19th century on: about 268,000 of 275,000 people around 1800 (Roberto Bachi's estimate: 246,000 Muslims and 22,000 Christians), about 327,000 of 340,000 in 1850 (Justin McCarthy's estimate), and about 94 percent in 1917 (Rashid Khalidi).",
+      "sources": [
+        {
+          "publisher": "Rashid Khalidi, The Hundred Years' War on Palestine (Metropolitan Books, 2020; full text at Internet Archive)",
+          "title": "The Hundred Years' War on Palestine",
+          "url": "https://archive.org/stream/100yearswarpalestine/The_Hundred_Years_War_on_Palestine_A_History_of_Settler_Colonial_Conquest_and_Resistance_UK_Edition_Rashid_Khalidi_djvu.txt",
+          "archive": "",
+          "quote": "the overwhelming Arab majority of the population (around 94 percent at that time)",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "LaGuardia Community College Library (citing Justin McCarthy, The Population of Palestine, Columbia University Press, 1990)",
+          "title": "Palestine/Israel: A Primer, What were the demographics of Ottoman Palestine?",
+          "url": "https://guides.laguardia.edu/c.php?g=1391450&p=10292820",
+          "archive": "",
+          "quote": "in 1850, there were approximately 300,000 Muslims, 13,000 Jews, and 27,000 Christians in Ottoman Palestine",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Teach Jewish History",
+          "title": "The Continuous Jewish Presence in the Land (citing Roberto Bachi)",
+          "url": "https://teachjewishhistory.org/topic-continuous-presence",
+          "archive": "",
+          "quote": "about 246,000 were Muslims, 22,000 were Christians, and 7,000 were Jews",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        }
+      ]
+    },
+    {
+      "text": "The British censuses counted a Muslim majority: 78 percent Muslim, 11 percent Jewish and 9.6 percent Christian in October 1922, and 73 percent Muslim, 17 percent Jewish and 9 percent Christian in November 1931.",
+      "sources": [
+        {
+          "publisher": "United Nations (UNISPAL, Question of Palestine)",
+          "title": "Mandate for Palestine: Report of the Mandatory to the League of Nations (1922)",
+          "url": "https://www.un.org/unispal/document/auto-insert-195974/",
+          "archive": "",
+          "quote": "it showed a total population of 757,182, of whom 78 per cent. were Moslems, 11 per cent. Jews and 9·6 per cent. Christians.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Economic Cooperation Foundation (ECF database)",
+          "title": "1931 Census of Palestine",
+          "url": "https://ecf.org.il/issues/issue/1091",
+          "archive": "",
+          "quote": "The total population of Palestine was given as 1,035,821, of whom 759,712 (73%) were Muslims, 174,610 (17%) Jews, 91,398 (9%) Christians",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Council for Israel Education (CIE)",
+          "title": "The Census of Palestine, 1931",
+          "url": "https://israeled.org/census-of-palestine-1931-an-invaluable-glimpse-at-palestines-population/",
+          "archive": "",
+          "quote": "there were 1,035,154 persons in Palestine, 80% of them (759,712) Muslims, 17% Jews",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        }
+      ]
+    },
+    {
+      "text": "The UN Special Committee on Palestine estimated the settled population at the end of 1946 as 1,203,000 Arabs, 608,000 Jews and 35,000 others, and said the Muslim share had fallen from about 75 percent in 1922 to 60 percent.",
+      "sources": [
+        {
+          "publisher": "United Nations (UNISPAL, Question of Palestine)",
+          "title": "UNSCOP report to the General Assembly (1947), Chapter II",
+          "url": "https://www.un.org/unispal/document/auto-insert-179435/",
+          "archive": "",
+          "quote": "the population at the end of 1946 was estimated as follows: Arabs, 1,203,000; Jews, 608,000; others, 35,000; Total, 1,846,000.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Jewish Virtual Library (reproduces the UNSCOP text)",
+          "title": "United Nations Special Committee on Palestine (UNSCOP)",
+          "url": "https://jewishvirtuallibrary.org/united-nations-special-committee-on-palestine-unscop",
+          "archive": "",
+          "quote": "the population at the end of 1946 was estimated as follows: Arabs, 1,203,000; Jews, 608,000; others, 35,000; Total, 1,846,000.",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        }
+      ]
+    },
+    {
+      "text": "Historians date the emergence of a distinct Palestinian national identity differently: the first known Arab use of the word 'Palestinian' is from 1909 and it was used in newspapers in 1910-1913 (Zachary Foster); Rashid Khalidi dates the formation of that identity to 1917-1923, after the First World War; Issam Nassar says it crystallised after contact with Zionism and spread through the Mandate; Efraim Karsh holds that the separation and dispersal after 1948 prevented a cohesive national identity from crystallising.",
+      "sources": [
+        {
+          "publisher": "Foreign Affairs (Zachary J. Foster)",
+          "title": "What's a Palestinian?",
+          "url": "https://www.foreignaffairs.com/articles/middle-east/2015-03-11/whats-palestinian",
+          "archive": "",
+          "quote": "it seems that the first Arab to use the term \"Palestinian\" was Farid Georges Kassab, a Beirut-based Orthodox Christian",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Columbia University Press via CIAO (Rashid Khalidi, 'The Formation of Palestinian Identity')",
+          "title": "Rethinking Nationalism in the Arab Middle East",
+          "url": "https://ciaotest.cc.columbia.edu/book/jankowski/jank09.html",
+          "archive": "",
+          "quote": "resulted in the emergence of a Palestinian national identity where before no such thing had existed",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Palestine-Israel Journal (Issam Nassar)",
+          "title": "Reflections on Writing the History of Palestinian Identity",
+          "url": "https://pij.org/articles/791",
+          "archive": "",
+          "quote": "it crystallized as a consciousness after the Palestinian encounter with Zionist colonization",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Middle East Quarterly (Efraim Karsh)",
+          "title": "Where is the Palestinian Ben-Gurion?",
+          "url": "https://www.meforum.org/palestinian-ben-gurion",
+          "archive": "",
+          "quote": "prevented the crystallization of a cohesive national identity",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "Joan Peters's 1984 book From Time Immemorial argued that a substantial Arab immigration took place in the first half of the 20th century. Reviewers found her use of statistics and sources unreliable: even Daniel Pipes, who accepted her thesis, said the book 'quotes carelessly, uses statistics sloppily, and ignores inconvenient facts', and Yehoshua Porath and Ian Gilmour showed that her key figures and her reading of the Hope Simpson report were wrong.",
+      "sources": [
+        {
+          "publisher": "Daniel Pipes (letter to The New York Review of Books, 1986)",
+          "title": "Mrs. Peters' Palestine",
+          "url": "https://www.danielpipes.org/19124/mrs-peters-palestine",
+          "archive": "",
+          "quote": "From Time Immemorial quotes carelessly, uses statistics sloppily, and ignores inconvenient facts.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "London Review of Books (Ian Gilmour and David Gilmour)",
+          "title": "Pseudo-travellers",
+          "url": "https://www.lrb.co.uk/v07/n02/ian-gilmour/pseudo-travellers",
+          "archive": "",
+          "quote": "So Hope Simpson said nothing whatever to suggest that there was, in Peters's words, 'large-scale Arab immigration'",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "The New York Review of Books",
+          "title": "Mrs. Peters's Palestine: An Exchange (Yehoshua Porath)",
+          "url": "https://www.nybooks.com/articles/1986/03/27/mrs-peterss-palestine-an-exchange/?pagination=false",
+          "archive": "",
+          "quote": "there is no need to account for the supposed quintupling of the Arab population in those areas by 1947; so dramatic an increase did not take place.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "The UN Special Committee on Palestine (1947) said the Arab population increased 'almost entirely' through births exceeding deaths, and Porath cited the British statistical abstracts for the same conclusion; even Fred Gottheil's own model, which applies a 2.5 percent natural growth rate to the 1922 Muslim population, explains 97.6 percent of the 1931 count (about 735,800 of 753,800), leaving about 18,000 of the 165,000 growth (about 11 percent) unexplained by natural increase.",
+      "sources": [
+        {
+          "publisher": "United Nations (UNISPAL, Question of Palestine)",
+          "title": "UNSCOP report to the General Assembly (1947), Chapter II",
+          "url": "https://www.un.org/unispal/document/auto-insert-179435/",
+          "archive": "",
+          "quote": "The Arab population has increased almost entirely as a result of an excess of births over deaths.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "The New York Review of Books",
+          "title": "Mrs. Peters's Palestine: An Exchange (Yehoshua Porath)",
+          "url": "https://www.nybooks.com/articles/1986/03/27/mrs-peterss-palestine-an-exchange/?pagination=false",
+          "archive": "",
+          "quote": "the natural increase in the Palestinian Arab population I referred to is made clear in the statistical abstracts and quarterly surveys published by the Mandatory government",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Middle East Quarterly (Fred M. Gottheil)",
+          "title": "The Smoking Gun: Arab Immigration into Palestine, 1922-1931",
+          "url": "https://www.meforum.org/middle-east-quarterly/the-smoking-gun-arab-immigration-into-palestine",
+          "archive": "",
+          "quote": "generates a 1931 population estimate of 735,799 or 97.6 percent of the 753,822 recorded in the 1931 census",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "U.S. Department of State, Office of the Historian (FRUS 1939, Vol. IV, d828)",
+          "title": "Foreign Relations of the United States, 1939, Vol. IV (report of the Consul General at Jerusalem)",
+          "url": "https://history.state.gov/historicaldocuments/frus1939v04/d828",
+          "archive": "",
+          "quote": "the Arab population has increased by some 57 percent, almost entirely through natural increase",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        }
+      ]
+    },
+    {
+      "text": "Demographers' estimates of Arab immigration range from minimal to substantial in one region: Justin McCarthy concluded that Muslim immigration after 1870 was small (Gottheil reports that McCarthy used Roberto Bachi's figure of about 900 Arab immigrants a year caught entering illegally in 1931-45); Gottheil estimates that Arab movement into the sub-districts that became Israel was as much as 38.7 percent of the 1922-31 Arab growth there, but also says the total is unknown and the figure includes Arabs moving within Palestine; Bachi himself wrote, as Gottheil quotes him, that total immigration could not even be guessed.",
+      "sources": [
+        {
+          "publisher": "Middle East Quarterly (Fred M. Gottheil, quoting McCarthy)",
+          "title": "The Smoking Gun: Arab Immigration into Palestine, 1922-1931 (on McCarthy)",
+          "url": "https://www.meforum.org/middle-east-quarterly/the-smoking-gun-arab-immigration-into-palestine",
+          "archive": "",
+          "quote": "one can say with certainty that Muslim immigration after 1870 was small",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "University of Illinois (Fred M. Gottheil, 1971 working paper; full text at Internet Archive)",
+          "title": "Arab immigration into pre-state Israel: 1922-1931",
+          "url": "https://archive.org/stream/arabimmigrationi26gott/arabimmigrationi26gott_djvu.txt",
+          "archive": "",
+          "quote": "The 1922-1931 Arab immigration alone represents 11.8 percent of the total Arab settled population of 1931 and as much as 38.7 percent of the total 1922-1931 Arab population growth.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Middle East Quarterly (Fred M. Gottheil)",
+          "title": "The Smoking Gun: Arab Immigration into Palestine, 1922-1931",
+          "url": "https://www.meforum.org/middle-east-quarterly/the-smoking-gun-arab-immigration-into-palestine",
+          "archive": "",
+          "quote": "The precise magnitude of Arab immigration into and within Palestine is, as Bachi noted, unknown.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "The New York Review of Books",
+          "title": "Mrs. Peters's Palestine: An Exchange (Yehoshua Porath)",
+          "url": "https://www.nybooks.com/articles/1986/03/27/mrs-peterss-palestine-an-exchange/?pagination=false",
+          "archive": "",
+          "quote": "the coastal area attracted Arab villagers from the mountainous parts of Palestine who preferred the economic opportunities in the fast-growing areas of Jaffa and Haifa",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    "Estimates of Arab immigration are disputed. McCarthy (1990, 'the single most cited' study of the subject, per Gottheil) finds immigration minimal; Gottheil argues McCarthy used Bachi's figure of 900 illegal immigrants a year, which Bachi said counted only those caught, and that the official data cannot show unrecorded entry. Gottheil's 38.7 percent (1971) and 36.8 percent (2003) are for sub-districts that became Israel, and he says part of the gain was Arabs moving there from elsewhere in Palestine, which Porath and Bachi also describe. The card reports both ends; it does not say the true figure is known.",
+    "Pipes wrote that Peters's central thesis had not been refuted and that her critics should go back to the archives; Porath and Gilmour answered with specific errors. Peters's book was widely praised on publication and widely rejected within two years. The card cites Porath and Gilmour as critics.",
+    "Whether a 'Palestinian people' existed before the 20th century is a question about when a national identity formed, which historians date differently (Foster: first used 1909; Khalidi: 1917-23, with older local loyalties; Karsh: not cohesive after 1948). Khalidi writes that Palestinian and other Arab national identities are modern, as are most national identities. Other scholars (Gerber, Kimmerling) date elements earlier, per Tezcan's survey of the literature, which the checker could not read.",
+    "Foster says Golda Meir's 1969 words were 'there were no such thing as Palestinians'; the card quotes only the part Foster quotes verbatim."
+  ],
+  "could_not_verify": [
+    "A readable source for the Muslim majority from the end of the 12th century on (Bachi, DellaPergola): the tables are in a PDF the checker cannot read, so the fact starts in the 19th century.",
+    "Joan Peters's own words: only Pipes's summary of her thesis was read; her book is not online in a readable form.",
+    "The 1946 UNSCOP figures and the claim that most growth was natural increase rest on one UN source plus government and single-author pieces; only the Gottheil/Porath numbers have three independent sites.",
+    "A statement of the share of Arab growth due to immigration from a demographer who is neither Gottheil nor McCarthy: not found on a readable page. The Journal of Palestine Studies article that puts natural increase at 96 percent of Muslim growth in 1922-45 is a PDF and was not read. McCarthy's own text is a PDF; his view is cited through Gottheil, who disputes it.",
+    "The 1931 census on three independent readable sites: only ECF and CIE (advocacy) were read; the PASSIA summary returned an error. Gerber and Kimmerling on earlier dating (via Tezcan, a PDF): not cited as a source."
+  ],
+  "not_claimed": [
+    "That Palestinian national identity is ancient, or that it is recent: historians disagree on the date, and the card reports the positions.",
+    "That no Arab immigration into Mandate Palestine happened: some did, and the size is uncertain.",
+    "That the length of time a people has had a national identity decides its rights or the outcome of any modern political question.",
+    "That Jews do not have a historical tie to the land: see the Jewish presence card."
+  ],
+  "status": "draft",
+  "content_approved": false
+}

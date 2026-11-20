@@ -1,0 +1,206 @@
+{
+  "id": "era4-peace-offers",
+  "era": 4,
+  "claim": "The occupation is the root; Israel doesn't want peace.",
+  "heard": [
+    {
+      "who": "Marwan Barghouti, Palestinian leader, in The Guardian, 2015",
+      "url": "https://www.theguardian.com/commentisfree/2015/oct/11/israel-occupation-palestinian-territory-peace-diplomacy",
+      "quote": "The real problem is that Israel has chosen occupation over peace, and used negotiations as a smokescreen to advance its colonial project.",
+      "archive": ""
+    },
+    {
+      "who": "Avi Shlaim, historian, in The Guardian, 2013",
+      "url": "https://www.theguardian.com/commentisfree/2013/sep/12/oslo-israel-reneged-colonial-palestine",
+      "quote": "Particularly destructive of the peace project was the policy of expanding Israeli settlements on occupied Palestinian territory.",
+      "archive": ""
+    }
+  ],
+  "answer": "Israel made peace with Egypt in 1979 and gave up all of Sinai, and with Jordan in 1994. In 1993 Israel and the PLO recognised each other and signed the Oslo Accords. In 2000 at Camp David, Barak offered about 92 percent of the West Bank and all of Gaza; in December Clinton set out parameters giving 94 to 96 percent, and in 2008 Olmert offered about 94 percent with swaps. Each of the last offers ended without a deal. Who is to blame for Camp David is disputed: Clinton blamed Arafat; Robert Malley and Hussein Agha, who were part of those talks, say Barak's offer was less than it looked. Settlements also grew during Oslo, from about 115,000 settlers in 1993 to about 200,000 in 2000, which Palestinians took as proof of bad faith.",
+  "facts": [
+    {
+      "text": "The 1979 Egypt-Israel peace treaty ended the state of war, and Israel agreed to withdraw all its armed forces and civilians from the Sinai.",
+      "sources": [
+        {
+          "publisher": "Yale Law School, Avalon Project",
+          "title": "Treaty of Peace between Israel and Egypt",
+          "url": "https://avalon.law.yale.edu/20th_century/isregypt.asp",
+          "archive": "",
+          "quote": "Israel will withdraw all its armed forces and civilians from the Sinai behind the international boundary between Egypt and mandated Palestine",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "U.S. Department of State, Office of the Historian",
+          "title": "The Camp David Accords",
+          "url": "https://history.state.gov/milestones/1977-1980/camp-david",
+          "archive": "",
+          "quote": "the Egyptian-Israeli peace treaty was formally signed on March 26",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        }
+      ]
+    },
+    {
+      "text": "Israel and Jordan signed a peace treaty on 26 October 1994.",
+      "sources": [
+        {
+          "publisher": "United Nations (Question of Palestine)",
+          "title": "Israel-Jordan peace treaty",
+          "url": "https://www.un.org/unispal/document/auto-insert-179122/",
+          "archive": "",
+          "quote": "Peace is hereby established between the State of Israel and the Hashemite Kingdom of Jordan",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Clinton White House archive",
+          "title": "Remarks by President Clinton, King Hussein and Prime Minister Rabin at signing of treaty of peace",
+          "url": "https://clintonwhitehouse6.archives.gov/1994/10/1994-10-26-clinton-hussein-and-rabin-on-peace-treaty-signing.html",
+          "archive": "",
+          "quote": "will shortly ratify the peace treaty between our two countries",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        }
+      ]
+    },
+    {
+      "text": "In the 1993 Declaration of Principles (the first Oslo Accord) Israel and the PLO recognised each other's rights and set a five-year interim period, with talks on Jerusalem, refugees, settlements and borders to follow.",
+      "sources": [
+        {
+          "publisher": "United Nations (Question of Palestine)",
+          "title": "Declaration of Principles on Interim Self-Government Arrangements",
+          "url": "https://www.un.org/unispal/document/auto-insert-180015/",
+          "archive": "",
+          "quote": "agree that it is time to put an end to decades of confrontation and conflict, recognize their mutual legitimate and political rights",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "U.S. Department of State, Office of the Historian",
+          "title": "The Oslo Accords and the Arab-Israeli Peace Process",
+          "url": "https://history.state.gov/milestones/1993-2000/oslo",
+          "archive": "",
+          "quote": "Israel accepted the PLO as the representative of the Palestinians, and the PLO renounced terrorism and recognized Israel's right to exist in peace.",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "The Guardian (Avi Shlaim)",
+          "title": "It's now clear: the Oslo peace accords were wrecked by Netanyahu's bad faith",
+          "url": "https://www.theguardian.com/commentisfree/2013/sep/12/oslo-israel-reneged-colonial-palestine",
+          "archive": "",
+          "quote": "the hesitant handshake between Yitzhak Rabin and Yasser Arafat clinched the historic compromise",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "At Camp David in July 2000, Barak offered about 92 percent of the West Bank, all of Gaza and a land swap; the talks ended without a deal, with borders, Jerusalem and refugees unresolved.",
+      "sources": [
+        {
+          "publisher": "Council on Foreign Relations",
+          "title": "Middle East Peace Plans: Background",
+          "url": "https://www.cfr.org/backgrounders/middle-east-peace-plans-background",
+          "archive": "",
+          "quote": "Barak offered the Palestinians 92 percent of the West Bank and all of the Gaza Strip, and a land swap in exchange for Jewish settlements in the West Bank.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "U.S. Department of State, Office of the Historian",
+          "title": "The Oslo Accords and the Arab-Israeli Peace Process",
+          "url": "https://history.state.gov/milestones/1993-2000/oslo",
+          "archive": "",
+          "quote": "the Israelis and Palestinians remained strongly at odds over borders, Jerusalem, and whether Israel would recognize Palestinian refugees' \"right of return.\"",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        }
+      ]
+    },
+    {
+      "text": "In December 2000 the Clinton Parameters proposed a Palestinian state in 94 to 96 percent of the West Bank and all of Gaza, with Israel keeping settlement blocs holding about 80 percent of settlers.",
+      "sources": [
+        {
+          "publisher": "Council on Foreign Relations",
+          "title": "Middle East Peace Plans: Background",
+          "url": "https://www.cfr.org/backgrounders/middle-east-peace-plans-background",
+          "archive": "",
+          "quote": "The right for 80 percent of the West Bank settlers, most of whom live near the 1967 borders, to stay put.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "The New York Review of Books (Robert Malley)",
+          "title": "Israel and the Arafat Question",
+          "url": "https://www.nybooks.com/articles/2004/10/07/israel-and-the-arafat-question/",
+          "archive": "",
+          "quote": "According to the \"parameters,\" Israel would withdraw from the Gaza Strip and 94 to 96 percent of the West Bank.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "In 2008 Prime Minister Olmert offered Abbas a Palestinian state on more than 94 percent of the West Bank, with land swaps and a shared Jerusalem; Abbas did not sign and no deal followed.",
+      "sources": [
+        {
+          "publisher": "BBC News",
+          "title": "The two-state solution map that promised to solve Middle East crisis",
+          "url": "https://www.bbc.com/news/articles/c4g0dv7rxxvo",
+          "archive": "",
+          "quote": "If implemented, it would have created a Palestinian state on more than 94% of the occupied West Bank.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Voice of America",
+          "title": "Former Israeli PM Details Failed Peace Deal with Palestinians",
+          "url": "https://www.voanews.com/amp/former-israeli-pm-details-failed-peace-deal-with-palestinians-114803389/172651.html",
+          "archive": "",
+          "quote": "Mr. Olmert said he offered Mr. Abbas a Palestinian state in nearly 94 percent of the West Bank.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Settlement building and the number of settlers grew throughout the Oslo years, which cuts against the claim that Israel was only offering peace.",
+      "sources": [
+        {
+          "publisher": "Journal of Palestine Studies",
+          "title": "Settlement growth during Oslo (Winter 2003)",
+          "url": "https://ciaotest.cc.columbia.edu/olj/jps/vol32-126usg01.html",
+          "archive": "",
+          "quote": "The new housing swelled the settler population in the West Bank and Gaza from 115,000 in 1993 to 200,000 by 2000.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "The New York Review of Books (Robert Malley and Hussein Agha)",
+          "title": "Camp David: The Tragedy of Errors",
+          "url": "https://www.nybooks.com/articles/2001/08/09/camp-david-the-tragedy-of-errors/",
+          "archive": "",
+          "quote": "Israel's expansion of the West Bank settlements, which proceeded at a rapid pace.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    "Who is to blame for Camp David. President Clinton said 'again, Mr. Arafat said no' and called it a 'colossal mistake' (memoir, 2004); his envoy Dennis Ross argued the same, and that the December 2000 parameters were Arafat's last chance. Robert Malley, a member of Clinton's team, and Hussein Agha, a Palestinian analyst, wrote in 2001 that the 'generous offer' story ignores the history and that Barak's approach, including continued settlement building, gave Arafat little to accept. Both sides agree the summit failed; they disagree on why.",
+    "Both sides reportedly accepted the Clinton Parameters with reservations; some experts say Arafat then added so many conditions that the deal fell apart, others point to the violence of the Second Intifada and to Barak's coming election defeat.",
+    "The Olmert offer. Olmert says he asked Abbas to sign and Abbas asked for time to consult experts; Palestinian officials, including Abbas, said the gaps were wide, and Olmert's own account says Abbas wanted a land swap of 1.9 percent. Olmert was also facing a corruption case and left office months later. Whether a deal was close is disputed.",
+    "Settlements. Israeli supporters point out that Oslo did not bar building and that Israel evacuated Gaza in 2005. Critics, including Avi Shlaim and Marwan Barghouti, argue that the settlement growth showed Israel preferred land to peace. Settlement numbers differ by source depending on whether East Jerusalem is counted: roughly 100,000 to 115,000 in the West Bank and Gaza in 1993, and about 200,000 in 2000, with about 150,000 to 175,000 more in East Jerusalem."
+  ],
+  "not_claimed": [
+    "It does not claim Arafat, Abbas or the Palestinians were solely to blame for the failed talks.",
+    "It does not claim that Israel's offers were what Palestinians would have accepted, or that the maps were precise; the 2000 and 2008 offers were never signed texts.",
+    "It does not claim settlement growth was the only cause of Oslo's collapse; Palestinian violence during these years is also part of the record.",
+    "It does not claim the Arab-Israeli conflict was settled by the peace treaties with Egypt and Jordan."
+  ],
+  "status": "draft",
+  "content_approved": false
+}

@@ -4,19 +4,19 @@
   "claim": "Israel was born from expulsion: the Nakba.",
   "heard": [
     {
-      "who": "Rashid Khalidi, historian, in The Hundred Years' War on Palestine (2020)",
-      "url": "https://archive.org/stream/100yearswarpalestine/The_Hundred_Years_War_on_Palestine_A_History_of_Settler_Colonial_Conquest_and_Resistance_UK_Edition_Rashid_Khalidi_djvu.txt",
+      "who": "Rashid Khalidi, historian, interviewed on Democracy Now! (2018)",
+      "url": "https://www.democracynow.org/2018/4/19/rashid_khalidi_the_israeli_security_establishment",
       "archive": "",
-      "quote": "The expulsion then of over half the Arab population of the country, first by Zionist militias and then by the Israeli army, completed the military and political triumph of Zionism."
+      "quote": "their expulsion of three-quarters of a million Palestinians back in April, May and so forth, of 1948, their confiscation of their property and their refusal to allow them to return"
     },
     {
-      "who": "Rashid Khalidi, historian, in The Hundred Years' War on Palestine (2020)",
-      "url": "https://archive.org/stream/100yearswarpalestine/The_Hundred_Years_War_on_Palestine_A_History_of_Settler_Colonial_Conquest_and_Resistance_UK_Edition_Rashid_Khalidi_djvu.txt",
+      "who": "Ilan Pappe, historian, interviewed on Democracy Now! (2024)",
+      "url": "https://www.democracynow.org/2024/5/21/ilan_pappe_airport_detention",
       "archive": "",
-      "quote": "the ethnic cleansing of Palestine began well before the State of Israel was proclaimed on May 15, 1948"
+      "quote": "what the Palestinians suffered was not an actual catastrophe, but rather ethnic cleansing, which is a clear policy motivated by clear ideology"
     }
   ],
-  "answer": "About 700,000 Palestinian Arabs left or were driven from their homes in 1947 to 1949; Britannica says the true figure likely exceeded 700,000. Historians agree on that number and on the fact of expulsions in places, Lydda and Ramle in July 1948 being the clearest. They disagree on the weight of each cause. Some stress fear after fighting and massacre reports, some early departures of wealthy families, some the collapse of Arab leadership, some expulsion as policy. Benny Morris says war, not design, produced the refugee problem; Khalidi says ethnic cleansing; Efraim Karsh puts most blame on Arab leaders. The calls-to-leave story is weak: a researcher found no record of such radio broadcasts. A fair answer does not deny expulsions and does not say they were the only cause.",
+  "answer": "About 700,000 Palestinian Arabs left or were driven from their homes in 1947 to 1949; Britannica gives a range of 520,000 to 1,000,000 and says the number likely exceeded 700,000, and Benny Morris says 700,000. Morris describes expulsions from Lydda and Ramle in July 1948, where he counts 50,000 to 60,000 people driven out, and says most other refugees fled out of fear of the war. Historians disagree on the weight of each cause. Morris says there was no master plan but that expulsion was real; Khalidi calls it expulsion and Pappe calls it ethnic cleansing and says it was planned; Efraim Karsh puts most blame on Arab leaders. In some places, such as Haifa, local Arab leaders ordered or advised leaving. Our reading: a fair answer does not deny expulsions and does not say they were the only cause.",
   "facts": [
     {
       "text": "About 700,000 Palestinian Arabs were displaced in 1947 to 1949. Estimates range from about 520,000 to 1,000,000; the figure most often given is around 700,000 or a little more.",
@@ -25,33 +25,42 @@
           "publisher": "Encyclopaedia Britannica",
           "title": "1948 Arab-Israeli War",
           "url": "https://www.britannica.com/event/1948-Arab-Israeli-War",
-          "archive": "https://web.archive.org/web/2/https://www.britannica.com/event/1948-Arab-Israeli-War",
+          "archive": "https://web.archive.org/web/20261103224152/https://www.britannica.com/event/1948-Arab-Israeli-War",
           "quote": "range from about 520,000 to about 1,000,000; there is general consensus, however, that the actual number was more than 600,000 and likely exceeded 700,000",
           "accessed": "2026-11-20",
           "kind": "reference"
         },
         {
-          "publisher": "Metropolitan Books (Rashid Khalidi)",
-          "title": "The Hundred Years' War on Palestine (2020)",
-          "url": "https://archive.org/stream/100yearswarpalestine/The_Hundred_Years_War_on_Palestine_A_History_of_Settler_Colonial_Conquest_and_Resistance_UK_Edition_Rashid_Khalidi_djvu.txt",
+          "publisher": "History News Network (reprinting Benny Morris, Los Angeles Times, 26 Jan 2004)",
+          "title": "Benny Morris: In '48, Israel Did What It Had to Do",
+          "url": "https://www.historynewsnetwork.org/article/benny-morris-in-48-israel-did-what-it-had-to-do",
           "archive": "",
-          "quote": "focused on the return to their homes of the 750,000 or so Palestinian refugees, whose property had been seized by Israel",
+          "quote": "700,000 Palestinians left the country, and the refugee problem that has haunted Israel ever since was born",
           "accessed": "2026-11-20",
-          "kind": "scholarly"
+          "kind": "news"
         },
         {
-          "publisher": "MERIP (Middle East Research and Information Project)",
-          "title": "No More Tears",
-          "url": "https://merip.org/2004/03/no-more-tears/",
+          "publisher": "Democracy Now! (interview with Rashid Khalidi, 2018)",
+          "title": "Rashid Khalidi: The Israeli Security Establishment Is Terrified of a Nonviolent Palestinian Movement",
+          "url": "https://www.democracynow.org/2018/4/19/rashid_khalidi_the_israeli_security_establishment",
           "archive": "",
-          "quote": "well over 700,000 Palestinians were made refugees, the majority of them by direct expulsion or the fear of expulsion",
+          "quote": "their expulsion of three-quarters of a million Palestinians back in April, May and so forth, of 1948",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Israel Law Review (Cambridge University Press)",
+          "title": "1948 Refugees (conference report incl. Benny Morris's talk)",
+          "url": "https://www.cambridge.org/core/journals/israel-law-review/article/1948-refugees/1E997E364691F4379C6F77EC05BC84AD",
+          "archive": "",
+          "quote": "the United Nations (UN) in 1949-50 concluded that the real figure was just over 700,000",
           "accessed": "2026-11-20",
           "kind": "scholarly"
         }
       ]
     },
     {
-      "text": "UN relief counts were lower than that figure: in late 1948 the UN counted 472,000 refugees needing aid, and about 500,000 qualified for relief when UNRWA began in 1950.",
+      "text": "UN relief counts were lower than that total: 472,000 refugees needing aid in late 1948, and about 500,000 qualifying for relief when UNRWA began in 1950.",
       "sources": [
         {
           "publisher": "United Nations (Acting Mediator for Palestine)",
@@ -66,7 +75,7 @@
           "publisher": "Encyclopaedia Britannica",
           "title": "1948 Arab-Israeli War",
           "url": "https://www.britannica.com/event/1948-Arab-Israeli-War",
-          "archive": "https://web.archive.org/web/2/https://www.britannica.com/event/1948-Arab-Israeli-War",
+          "archive": "https://web.archive.org/web/20261103224152/https://www.britannica.com/event/1948-Arab-Israeli-War",
           "quote": "some 500,000 Palestinians qualified for relief from the United Nations Relief and Works Agency for Palestine Refugees in the Near East",
           "accessed": "2026-11-20",
           "kind": "reference"
@@ -74,8 +83,26 @@
       ]
     },
     {
-      "text": "In July 1948 Israeli forces expelled the Arab populations of Lydda and Ramle during Operation Dani.",
+      "text": "In July 1948 Israeli forces expelled the Arab populations of Lydda and Ramle. Morris counts 50,000 to 60,000 in his article and 40,000 to 50,000 in a conference talk.",
       "sources": [
+        {
+          "publisher": "History News Network (reprinting Benny Morris, Los Angeles Times, 26 Jan 2004)",
+          "title": "Benny Morris: In '48, Israel Did What It Had to Do",
+          "url": "https://www.historynewsnetwork.org/article/benny-morris-in-48-israel-did-what-it-had-to-do",
+          "archive": "",
+          "quote": "ordered to empty the two towns of their Arab residents. Over two days, between 50,000 and 60,000 inhabitants were driven from their homes.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Israel Law Review (Cambridge University Press)",
+          "title": "1948 Refugees (conference report incl. Benny Morris's talk)",
+          "url": "https://www.cambridge.org/core/journals/israel-law-review/article/1948-refugees/1E997E364691F4379C6F77EC05BC84AD",
+          "archive": "",
+          "quote": "it was during this period that the major expulsion of the war occurred, when Israelis deported about forty to fifty thousand Arabs from Ramle and Lydda",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
         {
           "publisher": "Al Jazeera",
           "title": "The fall of an Arab town in 1948",
@@ -84,84 +111,93 @@
           "quote": "the surrender, occupation and ultimate expulsion of the Arab residents of al-Ramla, along with the more brutal assault and expulsion of Lydda, were part of the Israeli military's Operation Dani of July 1948",
           "accessed": "2026-11-20",
           "kind": "news"
-        },
-        {
-          "publisher": "MERIP (Middle East Research and Information Project)",
-          "title": "Original Sin",
-          "url": "https://www.merip.org/1988/05/original-sin",
-          "archive": "",
-          "quote": "tens of thousands of Palestinian men, women and children were forced out of Lydda and Ramla with the few possessions they could carry",
-          "accessed": "2026-11-20",
-          "kind": "scholarly"
         }
       ]
     },
     {
-      "text": "Many others left in fear during the fighting. Reports of the Deir Yassin massacre spread, and by mid-May 1948 some 250,000 to 300,000 Palestinian Arabs had left or been expelled.",
+      "text": "Most refugees elsewhere fled out of fear of the fighting. Morris says most fled because they feared the war or were advised to leave by their leaders; reports of the Deir Yassin massacre spread.",
       "sources": [
+        {
+          "publisher": "History News Network (reprinting Benny Morris, Los Angeles Times, 26 Jan 2004)",
+          "title": "Benny Morris: In '48, Israel Did What It Had to Do",
+          "url": "https://www.historynewsnetwork.org/article/benny-morris-in-48-israel-did-what-it-had-to-do",
+          "archive": "",
+          "quote": "most fled because they feared the ravages of war or because they were advised to do so by their leaders",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Israel Law Review (Cambridge University Press)",
+          "title": "1948 Refugees (conference report incl. Benny Morris's talk)",
+          "url": "https://www.cambridge.org/core/journals/israel-law-review/article/1948-refugees/1E997E364691F4379C6F77EC05BC84AD",
+          "archive": "",
+          "quote": "a few people were expelled, although the vast majority of these refugees fled out of fear of being caught up in battle",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
         {
           "publisher": "Encyclopaedia Britannica",
           "title": "1948 Arab-Israeli War",
           "url": "https://www.britannica.com/event/1948-Arab-Israeli-War",
-          "archive": "https://web.archive.org/web/2/https://www.britannica.com/event/1948-Arab-Israeli-War",
+          "archive": "https://web.archive.org/web/20261103224152/https://www.britannica.com/event/1948-Arab-Israeli-War",
           "quote": "word spread among Palestinians of the massacre at Deir Yassin on April 9",
           "accessed": "2026-11-20",
           "kind": "reference"
-        },
-        {
-          "publisher": "Encyclopaedia Britannica",
-          "title": "1948 Arab-Israeli War",
-          "url": "https://www.britannica.com/event/1948-Arab-Israeli-War",
-          "archive": "https://web.archive.org/web/2/https://www.britannica.com/event/1948-Arab-Israeli-War",
-          "quote": "By mid-May, some 250,000-300,000 Palestinian Arabs had left or been expelled from their homes",
-          "accessed": "2026-11-20",
-          "kind": "reference"
-        },
-        {
-          "publisher": "United Nations (Division for Palestinian Rights)",
-          "title": "The Origins and Evolution of the Palestine Problem, Part II (1947-1977)",
-          "url": "https://www.un.org/unispal/history2/origins-and-evolution-of-the-palestine-problem/part-ii-1947-1977/",
-          "archive": "",
-          "quote": "approximately over a quarter of a million of the Arab population have been compelled to leave their homes and emigrate to neighbouring Arab countries",
-          "accessed": "2026-11-20",
-          "kind": "primary"
         }
       ]
     },
     {
-      "text": "Some families left early, before the fighting peaked. Efraim Karsh cites British intelligence from October 1947 that leading Arab figures in Haifa had already sent their families abroad.",
+      "text": "Some wealthier families left early. In the first stage, December 1947 to March 1948, much of the Palestinian elite left, which set an example for others.",
       "sources": [
         {
-          "publisher": "Commentary",
-          "title": "Were the Palestinians Expelled? (Efraim Karsh)",
+          "publisher": "Israel Law Review (Cambridge University Press)",
+          "title": "1948 Refugees (conference report incl. Benny Morris's talk)",
+          "url": "https://www.cambridge.org/core/journals/israel-law-review/article/1948-refugees/1E997E364691F4379C6F77EC05BC84AD",
+          "archive": "",
+          "quote": "most of the Palestinian elite - much of the middle and upper classes - fled to neighbouring countries or to the area which later became known as the West Bank",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Commentary (Efraim Karsh)",
+          "title": "Were the Palestinians Expelled?",
           "url": "https://www.commentary.org/articles/efraim-karsh/were-the-palestinians-expelled/",
           "archive": "",
           "quote": "leading Arab personalities are acting on the assumption that disturbances are near at hand, and have already evacuated their families to neighboring Arab countries",
           "accessed": "2026-11-20",
-          "kind": "scholarly"
-        },
-        {
-          "publisher": "Metropolitan Books (Rashid Khalidi)",
-          "title": "The Hundred Years' War on Palestine (2020)",
-          "url": "https://archive.org/stream/100yearswarpalestine/The_Hundred_Years_War_on_Palestine_A_History_of_Settler_Colonial_Conquest_and_Resistance_UK_Edition_Rashid_Khalidi_djvu.txt",
-          "archive": "",
-          "quote": "people fled as news spread of massacres like that on April 9, 1948, in the village of Dayr Yasin near Jerusalem",
-          "accessed": "2026-11-20",
-          "kind": "scholarly"
+          "kind": "news"
         }
       ]
     },
     {
-      "text": "On calls to leave: Karsh reports the Arab Higher Committee evidently ordered women and children removed from Haifa in March 1948. Critics cite Erskine Childers, who found no record of Arab radio broadcasts ordering a general departure and many appeals to stay.",
+      "text": "In some places local Arab leaders ordered or advised people to leave, as in Haifa. Whether there was a general order from Arab leaders is disputed.",
       "sources": [
         {
-          "publisher": "Commentary",
-          "title": "Were the Palestinians Expelled? (Efraim Karsh)",
+          "publisher": "Commentary (Efraim Karsh)",
+          "title": "Were the Palestinians Expelled?",
           "url": "https://www.commentary.org/articles/efraim-karsh/were-the-palestinians-expelled/",
           "archive": "",
           "quote": "in March 1948, the AHC evidently ordered the removal of women and children from Haifa",
           "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Israel Law Review (Cambridge University Press)",
+          "title": "1948 Refugees (conference report incl. Benny Morris's talk)",
+          "url": "https://www.cambridge.org/core/journals/israel-law-review/article/1948-refugees/1E997E364691F4379C6F77EC05BC84AD",
+          "archive": "",
+          "quote": "in some cases the instructions were for complete abandonment, as happened in Haifa on 22 April 1948",
+          "accessed": "2026-11-20",
           "kind": "scholarly"
+        },
+        {
+          "publisher": "History News Network (reprinting Benny Morris, Los Angeles Times, 26 Jan 2004)",
+          "title": "Benny Morris: In '48, Israel Did What It Had to Do",
+          "url": "https://www.historynewsnetwork.org/article/benny-morris-in-48-israel-did-what-it-had-to-do",
+          "archive": "",
+          "quote": "advised to do so by their leaders",
+          "accessed": "2026-11-20",
+          "kind": "news"
         },
         {
           "publisher": "MERIP (Middle East Research and Information Project)",
@@ -170,62 +206,97 @@
           "archive": "",
           "quote": "there was no record of Arab radio broadcasts calling on the Palestinians to leave, there were numerous appeals from Palestinian and Arab officials telling the Palestinians to stay put",
           "accessed": "2026-11-20",
-          "kind": "scholarly"
+          "kind": "advocacy"
         }
       ]
     },
     {
-      "text": "Palestinian Arab society and leadership were collapsing in the spring of 1948, a point Britannica and Karsh both stress, though Karsh assigns blame to Arab leaders where others do not.",
+      "text": "Palestinian society and leadership were collapsing in spring 1948.",
       "sources": [
         {
           "publisher": "Encyclopaedia Britannica",
           "title": "1948 Arab-Israeli War",
           "url": "https://www.britannica.com/event/1948-Arab-Israeli-War",
-          "archive": "https://web.archive.org/web/2/https://www.britannica.com/event/1948-Arab-Israeli-War",
+          "archive": "https://web.archive.org/web/20261103224152/https://www.britannica.com/event/1948-Arab-Israeli-War",
           "quote": "The Arab front had collapsed, Palestinian Arab communities were being depopulated",
           "accessed": "2026-11-20",
           "kind": "reference"
         },
         {
-          "publisher": "History News Network",
+          "publisher": "Israel Law Review (Cambridge University Press)",
+          "title": "1948 Refugees (conference report incl. Benny Morris's talk)",
+          "url": "https://www.cambridge.org/core/journals/israel-law-review/article/1948-refugees/1E997E364691F4379C6F77EC05BC84AD",
+          "archive": "",
+          "quote": "the refugee problem, he said, was the major expression of the collapse of Palestinian society during the course of the war",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "History News Network (Efraim Karsh)",
           "title": "Efraim Karsh: Takes Israel's New Historians to task",
           "url": "https://historynewsnetwork.org/article/49464",
           "archive": "",
           "quote": "the collapse and dispersion of Palestinian society was largely the responsibility of Palestinian and other Arab leaders, not of the Zionists",
           "accessed": "2026-11-20",
-          "kind": "scholarly"
+          "kind": "news"
         }
       ]
     },
     {
-      "text": "Historians divide. Benny Morris concluded that war, not design by either side, produced the refugee problem (as summarised by a critic); Karsh says Arab leaders bear most responsibility.",
+      "text": "Historians divide on cause and intent: Morris finds no master plan but real expulsions; Karsh finds no Jewish grand design and blames Arab leaders; Khalidi and Pappe call it expulsion or ethnic cleansing, and Pappe says it was a planned strategy.",
       "sources": [
         {
-          "publisher": "MERIP (Middle East Research and Information Project)",
-          "title": "No More Tears",
-          "url": "https://merip.org/2004/03/no-more-tears/",
+          "publisher": "History News Network (reprinting Benny Morris, Los Angeles Times, 26 Jan 2004)",
+          "title": "Benny Morris: In '48, Israel Did What It Had to Do",
+          "url": "https://www.historynewsnetwork.org/article/benny-morris-in-48-israel-did-what-it-had-to-do",
           "archive": "",
-          "quote": "that war and not design, Jewish or Arab, gave birth to the Palestinian refugee problem",
+          "quote": "the idea of transfer never crystallized into a formal Zionist policy - there was no master plan",
           "accessed": "2026-11-20",
-          "kind": "scholarly"
+          "kind": "news"
         },
         {
-          "publisher": "History News Network",
-          "title": "Efraim Karsh: Takes Israel's New Historians to task",
-          "url": "https://historynewsnetwork.org/article/49464",
+          "publisher": "Commentary (Efraim Karsh)",
+          "title": "Were the Palestinians Expelled?",
+          "url": "https://www.commentary.org/articles/efraim-karsh/were-the-palestinians-expelled/",
           "archive": "",
-          "quote": "it appears that Morris and other New Historians engaged in systematic falsification of evidence",
+          "quote": "there was no Jewish grand design to force this departure",
           "accessed": "2026-11-20",
-          "kind": "scholarly"
+          "kind": "news"
+        },
+        {
+          "publisher": "LBO News (Behind the News interview with Rashid Khalidi, 2024)",
+          "title": "Rashid Khalidi on settler-colonial Israel: an interview",
+          "url": "https://lbo-news.com/2024/10/08/rashid-khalidi-on-settler-colonial-israel-an-interview/",
+          "archive": "",
+          "quote": "when they expelled three-quarters of a million Palestinians stole their land, refused to allow them to return",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Al Jazeera (quoting Ilan Pappe)",
+          "title": "The Deir Yassin massacre: Why it still matters 75 years later",
+          "url": "https://www.aljazeera.com/news/2023/4/9/the-deir-yassin-massacre-why-it-still-matters-75-years-later",
+          "archive": "",
+          "quote": "depopulating Palestine was not a consequential war event, but a carefully planned strategy, otherwise known as Plan Dalet",
+          "accessed": "2026-11-20",
+          "kind": "news"
         }
       ]
     }
   ],
   "contested": [
-    "Causes: Morris (war, not design, with expulsions in places such as Lydda and Ramle), Khalidi (ethnic cleansing as a pattern), Karsh (mainly Arab leadership failure and calls to flee). Ilan Pappe argues the expulsion was planned (Plan Dalet); this card does not quote Pappe because no page of his own words could be read by the checker.",
-    "Karsh accuses Morris and other New Historians of misusing evidence; his page states this charge in strong words and the card reports it only as his charge. MERIP's authors criticise Morris's later views. Both are partisan to their own argument.",
-    "The numbers: 520,000 to 1,000,000 is Britannica's range. UN relief counts were lower than population estimates, so figures depend on what is counted.",
-    "Whether the Lydda and Ramle expulsion was ordered from the top: Morris (as quoted by MERIP) says no decision was taken at the 12 July meeting before Ben-Gurion's reported remark; other writers disagree on how to read it."
+    "Causes: Morris (war, fear and some expulsions, no master plan; in the same article he also writes of 'partial ethnic cleansing' and calls the expulsions 'inevitable' and sensible, a moral view this card does not adopt), Khalidi (expulsion, 'three-quarters of a million'; the cited pages do not use the phrase ethnic cleansing for him), Pappe (planned ethnic cleansing under Plan Dalet), Karsh (mainly Arab leadership failure; he disputes Morris's reading of the documents).",
+    "Numbers: 520,000 to 1,000,000 is Britannica's range; the UN's 1949-50 figure (just over 700,000) is reported through a summary of Morris's talk. Relief counts are lower because they count people needing aid.",
+    "Whether Lydda and Ramle were expelled on a top-down order: Morris in his article says soldiers were ordered to empty the towns; other writers dispute how far the order went.",
+    "Calls to leave: local leaders ordering departures (Haifa) are in Karsh and in the summary of Morris's talk. A general radio order is argued against by Erskine Childers, as reported by MERIP, a source labelled advocacy here."
+  ],
+  "could_not_verify": [
+    "A readable page with Erskine Childers's 1961 finding on Arab radio broadcasts, other than MERIP (advocacy). Not counted.",
+    "Pappe's 2006 Journal of Palestine Studies article: the PDF did not load. His own words are taken from an interview and an Al Jazeera quotation.",
+    "Morris's 1988 book The Birth of the Palestinian Refugee Problem: no readable page. His own words come from a 2004 Los Angeles Times article reprinted by HNN, and a conference summary.",
+    "A third reliable source for the early departure of wealthier families (two used).",
+    "The UN Conciliation Commission's own 1949-50 count: I found it only through the Israel Law Review summary.",
+    "Primary documents for the Lydda and Ramle order (Rabin and Ben-Gurion diaries): no readable page."
   ],
   "not_claimed": [
     "This card does not deny that expulsions happened. It says they happened in specific places.",
@@ -234,5 +305,60 @@
     "It does not address the right of return, property, or who is responsible for the refugees' present status."
   ],
   "status": "draft",
-  "content_approved": false
+  "content_approved": false,
+  "answer_claims": [
+    {
+      "says": "About 700,000 Palestinian Arabs left or were driven from their homes in 1947 to 1949; Britannica gives a range of 520,000 to 1,000,000 and says the number likely exceeded 700,000, and Benny Morris says 700,000.",
+      "facts": [
+        0
+      ]
+    },
+    {
+      "says": "Morris describes expulsions from Lydda and Ramle in July 1948, where he counts 50,000 to 60,000 people driven out, and says most other refugees fled out of fear of the war.",
+      "facts": [
+        2,
+        3
+      ]
+    },
+    {
+      "says": "Historians disagree on the weight of each cause.",
+      "facts": [
+        7
+      ]
+    },
+    {
+      "says": "Morris says there was no master plan but that expulsion was real; Khalidi calls it expulsion and Pappe calls it ethnic cleansing and says it was planned; Efraim Karsh puts most blame on Arab leaders.",
+      "facts": [
+        6,
+        7
+      ]
+    },
+    {
+      "says": "In some places, such as Haifa, local Arab leaders ordered or advised leaving.",
+      "facts": [
+        5
+      ]
+    },
+    {
+      "says": "Our reading: a fair answer does not deny expulsions and does not say they were the only cause.",
+      "facts": [
+        2,
+        3,
+        5,
+        7
+      ]
+    }
+  ],
+  "review": {
+    "skeptic": {
+      "verdict": "weakened",
+      "date": "2026-11-20",
+      "notes": "Read two or more sources per fact. Pro-Palestinian attack (the stronger one): the card leans on Benny Morris through two doors (his 2004 article and a conference summary in the Israel Law Review) and so 'most fled out of fear' (fact 3), 'elite left first' (fact 4), the UN 700,000 figure and the Haifa order (fact 5) are one historian counted twice; the second voice is Karsh, who is on the other side. No Palestinian historian is quoted on cause except in heard. The Israel Law Review also reports a fourth stage (October-November 1948, about 200,000 more refugees after IDF offensives) that the card leaves out, and Morris's own article calls it 'partial ethnic cleansing', which the answer hid by crediting that phrase to Khalidi and Pappe. Pro-Israel attack: the answer opens with Lydda and Ramle and never says the Arab states' invasion and the civil war after November 1947 are the setting; the Haifa evidence is Karsh and a Morris summary against Childers via an advocacy source, and the page says Morris found no policy by Arab leaders to order flight. must-fix (done): fact 1 cited the Israel Law Review for 'about 500,000', but that line is about people moved within Palestine, not the UNRWA relief count; source removed, fact now has two reliable sources. must-fix (done): Khalidi was said to use the term ethnic cleansing; his cited pages say 'expelled'. should-fix: Morris counted twice - add an independent third source for facts 3 and 4 (Palestinian-side scholar). should-fix: add a fact on the autumn 1948 expulsions and on Israel's refusal of return, since heard names it. nit: the 'UN concluded just over 700,000' is a summary of a talk, so the answer no longer asserts it. Britannica pages read from the archive copy."
+    },
+    "citer": {
+      "verdict": "holds",
+      "date": "2026-11-20",
+      "notes": "Reworded 'Historians agree expulsions happened in specific places, Lydda and Ramle being the clearest': Karsh does not say that, so 'agree' was unsupported; now attributed to Morris (facts 2, 3). Reworded 'Khalidi and Pappe call it ethnic cleansing' to separate them (fact 7 sources). Removed 'and the UN concluded just over 700,000' (only a summary of a talk carries it). Marked the last sentence 'Our reading'. All sentences tied in answer_claims. Holds for the answer as worded; skeptic verdict stays weakened."
+    }
+  }
 }

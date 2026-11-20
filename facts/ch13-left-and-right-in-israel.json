@@ -1,0 +1,311 @@
+{
+  "id": "ch13-left-and-right-in-israel",
+  "era": 13,
+  "claim": "The Israeli right is like American Republicans and the Israeli left is like Democrats.",
+  "heard": [
+    {
+      "who": "Bernard Avishai, writer, in The New Yorker, 2016",
+      "url": "https://www.newyorker.com/news/news-desk/what-americans-against-trump-can-learn-from-the-failures-of-the-israeli-opposition",
+      "quote": "The Israeli left, like American Democrats, has assumed that the poorest voters could be appealed to as a class with social-democratic promises.",
+      "archive": ""
+    },
+    {
+      "who": "Bernard Avishai, writer, in The New Yorker, 2016",
+      "url": "https://www.newyorker.com/news/news-desk/what-americans-against-trump-can-learn-from-the-failures-of-the-israeli-opposition",
+      "quote": "During the Obama Administration, Likud became an ally of the Republicans.",
+      "archive": ""
+    }
+  ],
+  "answer": "The labels sound alike but sort different things. In Israel, scholars and surveys agree that left and right have mainly meant one's stance on the conflict: territory, a Palestinian state and security, with religion and state second and the economy weakest. In America the parties divide mostly over the role of government, the economy, social issues and immigration. The overlap is real in one respect: Israeli Jews now sort into camps by identity much as Americans do, and the Israel Democracy Institute says the Israeli gap now resembles the American one. But a voter who backs a negotiated two-state deal with strong security sits on the left or centre in Israel, while in America that view is held by most Democrats and by a large minority of Republicans.",
+  "facts": [
+    {
+      "text": "Scholars and commentators describe the Israeli left-right axis as mainly about the conflict with the Palestinians: territory, a Palestinian state, settlements and security.",
+      "sources": [
+        {
+          "publisher": "Israel Democracy Institute",
+          "title": "Doves and Hawks in Israeli Society: Stances on National Security",
+          "url": "https://en.idi.org.il/articles/10203",
+          "archive": "",
+          "quote": "The division between political left and right is primarily dependant on opinions regarding national security, and especially the question of the territories.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "What 'right' and 'left' mean in Israel today",
+          "url": "https://www.aljazeera.com/news/2026/9/9/what-right-and-left-mean-in-israel-today",
+          "archive": "",
+          "quote": "In Israel, the left-right divide is shaped less by economics than by positions on Palestinian statehood, occupation and Jewish sovereignty.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "European Council on Foreign Relations",
+          "title": "The ideas of Israel",
+          "url": "https://ecfr.eu/special/the-ideas-of-israel/",
+          "archive": "",
+          "quote": "we therefore use the left-right spectrum in line with the Israeli understanding that it is determined by one's security stance, especially regarding the Palestinians.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Party Politics (SAGE)",
+          "title": "The Israeli parties' positions in comparative perspective (Zur and Bakker)",
+          "url": "https://doi.org/10.1177/13540688231218917",
+          "archive": "",
+          "quote": "Israeli parties' positions are structured firstly around the conflict, then around cultural issues, and only then around economic issues.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "Religion and state is a second line of division, but it does not line up neatly with left and right: ultra-Orthodox voters sit furthest right on religion in public life yet are more centrist on the conflict.",
+      "sources": [
+        {
+          "publisher": "Pew Research Center",
+          "title": "Israel's Religiously Divided Society",
+          "url": "https://www.pewresearch.org/religion/2016/03/08/israels-religiously-divided-society/",
+          "archive": "",
+          "quote": "on some issues, including those pertaining to religion in public life, there is a clear overlap: haredim are furthest to the right and hilonim are furthest to the left",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Israel Democracy Institute",
+          "title": "United Torah Judaism",
+          "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/united-torah-judaism/",
+          "archive": "",
+          "quote": "regarding foreign policy and security, United Torah Judaism is a centrist party, which determines its positions based on religious concerns more than security concerns or diplomatic considerations.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "What 'right' and 'left' mean in Israel today",
+          "url": "https://www.aljazeera.com/news/2026/9/9/what-right-and-left-mean-in-israel-today",
+          "archive": "",
+          "quote": "Coalition choices are driven less by a fixed position on the Palestinians than by budgets, education, religious autonomy and military exemptions.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "The economy is the weakest dividing line, yet it matters to voters: in an Israel Democracy Institute survey Jewish voters named foreign policy and security (20%), religion and state (19%) and the economy and cost of living (19%) as the top issues behind their choice of party.",
+      "sources": [
+        {
+          "publisher": "The Times of Israel",
+          "title": "Most Israelis feel no political party fully represents their views, poll finds",
+          "url": "https://www.timesofisrael.com/most-israelis-feel-there-is-no-political-party-that-represents-their-views-poll/",
+          "archive": "",
+          "quote": "the top issues influencing choice of party come down to positions on foreign policy and security (20%), religion and state (19%), and the economy and the high cost of living (19%)",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "What 'right' and 'left' mean in Israel today",
+          "url": "https://www.aljazeera.com/news/2026/9/9/what-right-and-left-mean-in-israel-today",
+          "archive": "",
+          "quote": "Economic and social policy still matter, but they often cut across the camps rather than defining them.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Most Israeli Jews place themselves on the right, and that share has grown: 62% right, 24% centre and 11% left in 2022, up from 46% right in 2019; in 2007 it was 52% right, 26% centre and 22% left.",
+      "sources": [
+        {
+          "publisher": "The Times of Israel",
+          "title": "Jewish Israeli voters have moved significantly rightward in recent years, data shows",
+          "url": "https://www.timesofisrael.com/israeli-jewish-voters-moved-significantly-rightward-in-recent-years-data-shows/",
+          "archive": "",
+          "quote": "Israel's right-wing Jewish voter base has grown from 46 percent before the April 2019 election to 62% now",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Israel Democracy Institute",
+          "title": "Doves and Hawks in Israeli Society: Stances on National Security",
+          "url": "https://en.idi.org.il/articles/10203",
+          "archive": "",
+          "quote": "52% of the population defined themselves as rightists; of them, 25% saw themselves as belonging to the extreme Right. Twenty-six percent saw themselves as centrists, and 22% defined themselves as leftist",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "Among Israelis, views on a two-state outcome follow the left-right line: in Pew's 2025 survey 54% on the left, 29% in the centre and 7% on the right said a way can be found for Israel and an independent Palestinian state to coexist.",
+      "sources": [
+        {
+          "publisher": "Pew Research Center",
+          "title": "Potential for Israeli-Palestinian peace: Israeli public opinion",
+          "url": "https://www.pewresearch.org/global/2025/06/03/views-of-the-potential-for-lasting-peace/",
+          "archive": "",
+          "quote": "(54%) say a way can be found for Israel and a Palestinian state to coexist, compared with 29% of Israelis in the center and 7% of those on the right.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "The Jerusalem Post",
+          "title": "Only 21% Israelis think peace with a Palestinian state is possible",
+          "url": "https://www.jpost.com/israel-news/article-856501",
+          "archive": "",
+          "quote": "Political ideology also shapes perceptions: left-leaning Israelis are more optimistic about peace and more likely to cite settlements and Jerusalem as key obstacles",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Pew Research Center",
+          "title": "Israel's Religiously Divided Society",
+          "url": "https://www.pewresearch.org/religion/2016/03/08/israels-religiously-divided-society/",
+          "archive": "",
+          "quote": "86% think a way can be found for Israel and an independent Palestinian state to coexist peacefully together, compared with 29% of those on the political right and 46% of those in the center.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "Israeli Arab citizens are far less pessimistic than Israeli Jews about a two-state outcome (40% against 16% in Pew's 2025 survey), and the Israel Democracy Institute notes that many Arab citizens see themselves as identified with the left (its annual Index treats Arab respondents as a separate camp).",
+      "sources": [
+        {
+          "publisher": "Pew Research Center",
+          "title": "Potential for Israeli-Palestinian peace: Israeli public opinion",
+          "url": "https://www.pewresearch.org/global/2025/06/03/views-of-the-potential-for-lasting-peace/",
+          "archive": "",
+          "quote": "Four-in-ten Israeli Arabs think peaceful coexistence is possible - more than double the 16% of Israeli Jews who say the same.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "The Jerusalem Post",
+          "title": "Only 21% Israelis think peace with a Palestinian state is possible",
+          "url": "https://www.jpost.com/israel-news/article-856501",
+          "archive": "",
+          "quote": "Among Jewish Israelis, the results are even more stark: only 16% believe peaceful coexistence is achievable.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Israel Democracy Institute",
+          "title": "Jewish Israeli Voters Moving Right - Analysis",
+          "url": "https://en.idi.org.il/articles/45854",
+          "archive": "",
+          "quote": "many Arabs see themselves as identified with the left.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "Since 7 October 2023 the right-left rift has become the sharpest tension Jews report (48% of all Israelis named it in 2024), and the share of Jewish Israelis who think a Palestinian state could coexist with Israel fell from 32% in 2023 to 19% in 2024.",
+      "sources": [
+        {
+          "publisher": "Israel Democracy Institute",
+          "title": "The Israel Democracy Institute Publishes its 2024 Israeli Democracy Index",
+          "url": "https://en.idi.org.il/articles/57466",
+          "archive": "",
+          "quote": "This year, there was a sharp increase in the percentage of respondents who view the primary tension in Israeli society as being between the political Right and Left (48%).",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Pew Research Center",
+          "title": "How Israelis view societal conflicts and peaceful coexistence",
+          "url": "https://www.pewresearch.org/global/2024/06/20/societal-conflicts-and-optimism-about-peaceful-coexistence/",
+          "archive": "",
+          "quote": "Today, 19% of Jews think peaceful coexistence is possible, down from 32% who said the same in 2023",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "In America, party differences run across many issues: the size and role of government, the economy, immigration and race, and social questions such as abortion.",
+      "sources": [
+        {
+          "publisher": "Pew Research Center",
+          "title": "How the political typology groups view major issues",
+          "url": "https://www.pewresearch.org/politics/2021/11/09/how-the-political-typology-groups-view-major-issues/",
+          "archive": "",
+          "quote": "there are wide differences between Republicans and Democrats, but relatively modest differences within each partisan coalition.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Gallup",
+          "title": "Update: Partisan Gaps Expand Most on Government Power, Climate",
+          "url": "https://news.gallup.com/poll/509129/update-partisan-gaps-expand-government-power-climate.aspx",
+          "archive": "",
+          "quote": "Democrats' views that abortion should be legal under any circumstance increased significantly this year compared with 10 and 20 years earlier",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Pew Research Center",
+          "title": "How the political typology groups view major issues",
+          "url": "https://www.pewresearch.org/politics/2021/11/09/how-the-political-typology-groups-view-major-issues/",
+          "archive": "",
+          "quote": "Opinions on immigration - like views on race - are mostly divided along partisan lines, though there also are differences within the coalitions.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "Worked example, with data and no real person: a voter who backs a negotiated two-state outcome with strong security guarantees. In Israel that is a left or centre position (54% of the left, 29% of the centre, 7% of the right in Pew 2025); in the US, Gallup 2025 found 76% of Democrats, 53% of independents and 41% of Republicans favouring an independent Palestinian state.",
+      "sources": [
+        {
+          "publisher": "Gallup",
+          "title": "Less Than Half in U.S. Now Sympathetic Toward Israelis",
+          "url": "https://news.gallup.com/poll/657404/less-half-sympathetic-toward-israelis.aspx",
+          "archive": "",
+          "quote": "About three-quarters of Democrats, 76%, are in favor of such a state, compared with 53% of independents. While 41% of Republicans support a Palestinian state, 49% are opposed.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Newsweek",
+          "title": "American Support for Israel Hits Record Low",
+          "url": "https://www.newsweek.com/american-support-israel-hits-record-low-poll-2040978",
+          "archive": "",
+          "quote": "Around 76 percent of Democrats, 53 percent of independents and 41 percent of Republicans support an independent Palestinian state.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Pew Research Center",
+          "title": "Potential for Israeli-Palestinian peace: Israeli public opinion",
+          "url": "https://www.pewresearch.org/global/2025/06/03/views-of-the-potential-for-lasting-peace/",
+          "archive": "",
+          "quote": "(54%) say a way can be found for Israel and a Palestinian state to coexist, compared with 29% of Israelis in the center and 7% of those on the right.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    "How much the American parallel holds. The Israel Democracy Institute's 2022 Index says that Right and Left once meant mainly views on the conflict, and that today the divide is closer to Democrats against Republicans: a bundle of identity, religion and state, and the status of Arab citizens as well. Other scholars (Zur and Bakker) still find that party positions are structured first by the conflict. The card cannot settle this; the IDI wording comes from a PDF the checker cannot read.",
+    "Whether the economy matters as little as the scholarly literature says. Voters themselves name it as often as security in some surveys.",
+    "Poll wording differs: Pew asks whether a way can be found for Israel and a Palestinian state to coexist; Gallup asks whether people favour establishing a Palestinian state. The worked example compares two different questions and is an illustration, not a measurement of the same thing."
+  ],
+  "could_not_verify": [
+    "Israel Democracy Institute self-placement figures for 2023 to 2025 (after 7 October) and for Arab citizens on a left-right scale: the IDI Index is published as PDF and the HTML pages found carry no such figure.",
+    "The IDI 2022 Index sentence that the right-left divide now resembles Democrats against Republicans appears only in a PDF, so it is described in contested but not quoted.",
+    "Pew's 2022 and 2024 US surveys on the best outcome (two states) could not be read by the checker (HTML blocked), so the US half of the worked example rests on Gallup 2025 and a news report of it.",
+    "A source that states, in so many words, that the economy is the weakest dimension of Israeli left-right placement, beyond the Zur and Bakker study."
+  ],
+  "not_claimed": [
+    "That Israeli and American politics are unrelated: the IDI itself sees a growing resemblance.",
+    "That Israeli voters ignore the economy, religion or identity.",
+    "That any one party or camp is right about the conflict.",
+    "That the worked example is a real person or a forecast."
+  ],
+  "status": "draft",
+  "content_approved": false
+}

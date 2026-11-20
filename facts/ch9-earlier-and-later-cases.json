@@ -1,0 +1,529 @@
+{
+  "id": "ch9-earlier-and-later-cases",
+  "era": 9,
+  "claim": "Israel is uniquely illegitimate because it was created through war and displacement.",
+  "heard": [
+    {
+      "who": "Ben White, writer, on Al Jazeera (2012)",
+      "url": "https://www.aljazeera.com/opinions/2012/5/15/jewish-democracy-founded-on-ugly-battles",
+      "archive": "",
+      "quote": "Israel has a Jewish majority today because of the expulsions and denationalisation of most Palestinians living there."
+    }
+  ],
+  "answer": "Mass displacement after war is not unique to 1948. In 1923 about 1.2 million Greeks and 400,000 Muslims were moved under a treaty, with a Mixed Commission and the League of Nations' refugee commissioner involved. In Cyprus in 1974 about 165,000 Greek Cypriots and 45,000 Turkish Cypriots were displaced, and the island is still divided by a UN buffer zone. In Bosnia, about two million people were displaced, and the Dayton agreement promised a right to return. In 2023, over 100,000 Armenians left Nagorno-Karabakh in days. Refugee status differs too: UNRWA registers descendants of Palestine refugees, while UNHCR defines refugees individually. This is context, not an excuse.",
+  "facts": [
+    {
+      "text": "In 1923 about 1.2 million Greek Orthodox Christians were moved from Turkey to Greece and about 400,000 Muslims from Greece to Turkey.",
+      "sources": [
+        {
+          "publisher": "The Times (Brendan Simms, review of Bruce Clark, Twice a Stranger)",
+          "title": "An unfair exchange",
+          "url": "https://www.thetimes.com/travel/destinations/europe-travel/turkey/an-unfair-exchange-pz03p68np6j",
+          "archive": "",
+          "quote": "The facts are simple: around 1.2m Greeks were uprooted from their homelands in western Anatolia, Cappadocia and Trebizond and transplanted to metropolitan Greece",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Middle East Eye",
+          "title": "Turkey-Greece population exchange still painful for those yearning for a lost past",
+          "url": "https://www.middleeasteye.net/news/turkey-greece-population-exchange-painful-yearning-lost-past",
+          "archive": "",
+          "quote": "As many as 400,000 other Muslims also made the arduous journey across the sea to their eastern neighbour.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Kathimerini",
+          "title": "The legacy of Lausanne: 100 years since the population exchange between Greece and Turkey",
+          "url": "https://www.ekathimerini.com/multimedia/podcasts/1203769/the-legacy-of-lausanne-100-years-since-the-population-exchange-between-greece-and-turkey/",
+          "archive": "",
+          "quote": "the forced expulsion of 1.2 million Greek Orthodox Christians from Turkey and 400,000 Muslims from Greece",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Duke University Libraries",
+          "title": "Izmir and the 1923 Mubadele/Population Exchange",
+          "url": "https://blogs.library.duke.edu/blog/2024/09/18/izmir-and-the-mubadele/",
+          "archive": "",
+          "quote": "The exchange entailed 400,000 Muslims in Greece moving to Turkey while 1.2 million Greek Christians moved from Turkey to Greece.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "The 1923 exchange was agreed by a treaty between the two governments and was compulsory.",
+      "sources": [
+        {
+          "publisher": "Republic of Turkiye Ministry of Foreign Affairs (treaty text)",
+          "title": "Lausanne Peace Treaty VI. Convention Concerning the Exchange of Greek and Turkish Populations (30 January 1923)",
+          "url": "https://www.mfa.gov.tr/lausanne-peace-treaty-vi_-convention-concerning-the-exchange-of-greek-and-turkish-populations-signed-at-lausanne_.en.mfa",
+          "archive": "",
+          "quote": "there shall take place a compulsory exchange of Turkish nationals of the Greek Orthodox religion established in Turkish territory, and of Greek nationals of the Moslem religion established in Greek territory",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "The Times (Brendan Simms, review of Bruce Clark, Twice a Stranger)",
+          "title": "An unfair exchange",
+          "url": "https://www.thetimes.com/travel/destinations/europe-travel/turkey/an-unfair-exchange-pz03p68np6j",
+          "archive": "",
+          "quote": "the idea of systematic state-sponsored population exchanges was relatively new and originated in Lausanne in 1923",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Duke University Libraries",
+          "title": "Izmir and the 1923 Mubadele/Population Exchange",
+          "url": "https://blogs.library.duke.edu/blog/2024/09/18/izmir-and-the-mubadele/",
+          "archive": "",
+          "quote": "The Mübadele represents the first mass expulsion of a people in the modern period and fully agreed upon by 2 sovereign nation-states.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "EBSCO Research Starters",
+          "title": "Annihilation of racial and ethnic groups",
+          "url": "https://www.ebsco.com/research-starters/ethnic-and-cultural-studies/annihilation-racial-and-ethnic-groups",
+          "archive": "",
+          "quote": "In another variant, called the exchange of populations, two states agree to accept the minorities expelled by each other.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "A Mixed Commission with neutral members supervised the exchange, and the League of Nations' High Commissioner for Refugees, Fridtjof Nansen, helped arrange it.",
+      "sources": [
+        {
+          "publisher": "Republic of Turkiye Ministry of Foreign Affairs (treaty text)",
+          "title": "Lausanne Peace Treaty VI. Convention Concerning the Exchange of Greek and Turkish Populations (30 January 1923)",
+          "url": "https://www.mfa.gov.tr/lausanne-peace-treaty-vi_-convention-concerning-the-exchange-of-greek-and-turkish-populations-signed-at-lausanne_.en.mfa",
+          "archive": "",
+          "quote": "The duties of the Mixed Commission shall be to supervise and facilitate the emigration provided for in the present Convention",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "The Times (Brendan Simms, review of Bruce Clark, Twice a Stranger)",
+          "title": "An unfair exchange",
+          "url": "https://www.thetimes.com/travel/destinations/europe-travel/turkey/an-unfair-exchange-pz03p68np6j",
+          "archive": "",
+          "quote": "Fridtjof Nansen, the high commissioner for refugees at the League of Nations",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Nobel Prize (Nobel Foundation)",
+          "title": "Fridtjof Nansen: Biographical",
+          "url": "https://www.nobelprize.org/prizes/peace/1922/nansen/biographical/",
+          "archive": "",
+          "quote": "in 1922 at the request of the Greek government and with the approval of the League of Nations, Nansen tried to solve the problem of the Greek refugees who poured into their native land",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "Under the Convention, those exchanged took the nationality of the country they went to and could not return without permission; integration there took decades.",
+      "sources": [
+        {
+          "publisher": "Republic of Turkiye Ministry of Foreign Affairs (treaty text)",
+          "title": "Lausanne Peace Treaty VI. Convention Concerning the Exchange of Greek and Turkish Populations (30 January 1923)",
+          "url": "https://www.mfa.gov.tr/lausanne-peace-treaty-vi_-convention-concerning-the-exchange-of-greek-and-turkish-populations-signed-at-lausanne_.en.mfa",
+          "archive": "",
+          "quote": "The emigrants will lose the nationality of the country which they are leaving, and will acquire the nationality of the country of their destination, upon their arrival",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Republic of Turkiye Ministry of Foreign Affairs (treaty text)",
+          "title": "Lausanne Peace Treaty VI. Convention Concerning the Exchange of Greek and Turkish Populations (30 January 1923)",
+          "url": "https://www.mfa.gov.tr/lausanne-peace-treaty-vi_-convention-concerning-the-exchange-of-greek-and-turkish-populations-signed-at-lausanne_.en.mfa",
+          "archive": "",
+          "quote": "These persons shall not return to live in Turkey or Greece respectively without the authorisation of the Turkish Government or of the Greek Government respectively.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Middle East Eye",
+          "title": "Turkey-Greece population exchange still painful for those yearning for a lost past",
+          "url": "https://www.middleeasteye.net/news/turkey-greece-population-exchange-painful-yearning-lost-past",
+          "archive": "",
+          "quote": "integration took many, many decades and was particularly helped by the mass urbanisation of Turkey",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "In 1974 about 165,000 Greek Cypriots were displaced from the north of Cyprus and about 45,000 Turkish Cypriots moved north; the Cyprus government puts the Greek Cypriot figure at about 200,000.",
+      "sources": [
+        {
+          "publisher": "BBC News",
+          "title": "Cyprus profile - Timeline",
+          "url": "https://www.bbc.com/news/world-europe-17219505",
+          "archive": "",
+          "quote": "About 165,000 Greek Cypriots flee or are driven from the Turkish-occupied north, and about 45,000 Turkish Cypriots leave the south for the north.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Cyprus Mail",
+          "title": "1974 - Chronology of Events - Divided Island",
+          "url": "https://cyprus-mail.com/divided-island/a-chronology-of-events/1974",
+          "archive": "",
+          "quote": "165,000 Greek Cypriots are displaced from northern Cyprus while 45,000 Turkish Cypriots move north within a year.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Permanent Mission of the Republic of Cyprus to the United Nations (Greek Cypriot government position)",
+          "title": "Cyprus: The Political Issue in Brief",
+          "url": "https://www.cyprusun.org/?page_id=363",
+          "archive": "",
+          "quote": "200.000 Greek Cypriots – one third of the population – have been displaced from the occupied northern part",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        }
+      ]
+    },
+    {
+      "text": "The UN Security Council demanded an end to foreign military intervention in Cyprus on 20 July 1974; Turkey did not withdraw despite repeated resolutions.",
+      "sources": [
+        {
+          "publisher": "United Nations Peacekeeping Force in Cyprus",
+          "title": "Events in the Summer of 1974",
+          "url": "https://unficyp.unmissions.org/en/events-summer-1974",
+          "archive": "",
+          "quote": "by which it called upon all parties to cease firing and demanded an immediate end to foreign military intervention",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Cyprus profile - Timeline",
+          "url": "https://www.bbc.com/news/world-europe-17219505",
+          "archive": "",
+          "quote": "The UN Security Council unanimously passes a resolution calling on Turkey to withdraw its troops from Cyprus. Turkey refuses to do so",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "The island remains divided along a ceasefire line with a UN-controlled buffer zone, and the UN force has stayed to supervise it.",
+      "sources": [
+        {
+          "publisher": "United Nations Peacekeeping",
+          "title": "UNFICYP",
+          "url": "https://peacekeeping.un.org/en/mission/unficyp",
+          "archive": "",
+          "quote": "In the absence of a political settlement to the Cyprus problem, UNFICYP has remained on the island to supervise ceasefire lines, maintain a buffer zone",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Cyprus Mail",
+          "title": "1974 - Chronology of Events - Divided Island",
+          "url": "https://cyprus-mail.com/divided-island/a-chronology-of-events/1974",
+          "archive": "",
+          "quote": "Ceasefire lines established on August 16 have not since changed. Between them marks the UN-controlled buffer zone.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Cyprus profile - Timeline",
+          "url": "https://www.bbc.com/news/world-europe-17219505",
+          "archive": "",
+          "quote": "Turkish forces occupy third of the island, enforce partition between north and south roughly along the \"Green Line\" ceasefire line",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "In the Bosnian war of 1992 to 1995 about two million people, about half the population, were displaced.",
+      "sources": [
+        {
+          "publisher": "BBC News",
+          "title": "Bosnia-Herzegovina profile - Overview",
+          "url": "https://www.bbc.com/news/world-europe-17211937",
+          "archive": "",
+          "quote": "Around two million people - about half the population - were displaced.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "United Nations Meetings Coverage and Press Releases",
+          "title": "UNHCR presents Bosnia repatriation plan (17 January 1996)",
+          "url": "https://press.un.org/en/1996/19960117.ref1131.html",
+          "archive": "",
+          "quote": "unveiled plans for the return of more than 2 million refugees and displaced people in Bosnia and Herzegovina",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Council on Foreign Relations (excerpt, Susan Woodward, The World and Yugoslavia's Wars)",
+          "title": "Excerpt: The World and Yugoslavia's Wars",
+          "url": "https://www.cfr.org/excerpt-the-world-and-yugoslavias-wars",
+          "archive": "",
+          "quote": "as many as two million persons may have been forcibly displaced from their homes or have otherwise become refugees",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "The Dayton agreement of 1995 (Annex 7) gave all refugees and displaced persons the right to return to their homes and made UNHCR responsible for repatriation.",
+      "sources": [
+        {
+          "publisher": "Office of the High Representative (Dayton Peace Agreement text)",
+          "title": "Annex 7: Agreement on Refugees and Displaced Persons",
+          "url": "https://www.ohr.int/dayton-peace-agreement/annex-7-2/",
+          "archive": "",
+          "quote": "All refugees and displaced persons have the right freely to return to their homes of origin.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "United Nations Meetings Coverage and Press Releases",
+          "title": "UNHCR presents Bosnia repatriation plan (17 January 1996)",
+          "url": "https://press.un.org/en/1996/19960117.ref1131.html",
+          "archive": "",
+          "quote": "UNHCR, which, under Annex 7 of the Dayton Peace Accords, is responsible for the repatriation of refugees and the displaced",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Bosnia-Herzegovina profile - Overview",
+          "url": "https://www.bbc.com/news/world-europe-17211937",
+          "archive": "",
+          "quote": "The 1995 Dayton peace agreement brought to an end the bloodshed of the 1992-1995 war but entrenched the results of \"ethnic cleansing\", cementing the divide in the country.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "By August 2004 about 1,000,000 of the more than 2 million displaced in Bosnia had returned to their home areas (UNHCR figures), about 445,000 of them to places where their group is now a minority.",
+      "sources": [
+        {
+          "publisher": "Human Rights Watch",
+          "title": "World Report 2005: Bosnia and Herzegovina",
+          "url": "https://www.hrw.org/world-report/2005/country-chapters/bosnia-and-herzegovina",
+          "archive": "",
+          "quote": "1,001,520 out of a total of more than 2 million people forcibly displaced during the war had returned to their home areas. Of these, 445,735 persons had returned to municipalities where they currently constitute an ethnic minority.",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        },
+        {
+          "publisher": "Forced Migration Review (Andrew Mayne, UNHCR)",
+          "title": "Bosnia and Herzegovina 20 years on from Dayton",
+          "url": "https://www.fmreview.org/dayton20/mayne/",
+          "archive": "",
+          "quote": "over one million of the 2.2 million people displaced by the conflict in BiH returned and/or recovered their pre-war property",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "In September 2023 more than 100,000 ethnic Armenians, over four-fifths of Nagorno-Karabakh's population, left for Armenia within days of Azerbaijan's military offensive.",
+      "sources": [
+        {
+          "publisher": "UN News",
+          "title": "UN Karabakh mission told 'sudden' exodus means as few as 50 ethnic Armenians may remain",
+          "url": "https://news.un.org/en/story/2023/10/1141782",
+          "archive": "",
+          "quote": "after the exodus of recent days saw more than 100,000 flee",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Nagorno-Karabakh: Armenia says 100,000 refugees flee region",
+          "url": "https://www.bbc.com/news/world-europe-66969845",
+          "archive": "",
+          "quote": "More than 100,000 people have fled the Nagorno-Karabakh region, Armenia says.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "CNN",
+          "title": "Nagorno-Karabakh exodus tops 100,000 as first UN mission in 30 years set to arrive",
+          "url": "https://www.cnn.com/2023/09/30/asia/un-mission-nagorno-karabakh-intl-hnk",
+          "archive": "",
+          "quote": "At least 100,000 people have now fled the breakaway region of Nagorno-Karbakh – more than four-fifths of the population",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "The UN's first mission to the area in about 30 years found the departure sudden and could not tell whether people would return; Azerbaijan says it will treat residents as equals and Armenia calls that a lie.",
+      "sources": [
+        {
+          "publisher": "UN News",
+          "title": "UN Karabakh mission told 'sudden' exodus means as few as 50 ethnic Armenians may remain",
+          "url": "https://news.un.org/en/story/2023/10/1141782",
+          "archive": "",
+          "quote": "The mission was struck by the sudden manner in which the local population left their homes and the suffering the experience must have caused",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "UN News",
+          "title": "UN Karabakh mission told 'sudden' exodus means as few as 50 ethnic Armenians may remain",
+          "url": "https://news.un.org/en/story/2023/10/1141782",
+          "archive": "",
+          "quote": "it is difficult to determine at this stage whether the local population intends to return",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Nagorno-Karabakh: Armenia says 100,000 refugees flee region",
+          "url": "https://www.bbc.com/news/world-europe-66969845",
+          "archive": "",
+          "quote": "Azerbaijan has said it wants to reintegrate the area and treat its residents as equals, but an Armenian spokesman said this was just a \"lie\".",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "UNRWA registers the descendants of Palestine refugee males as well as the original refugees: about 750,000 in 1950 and some 5.9 million eligible today.",
+      "sources": [
+        {
+          "publisher": "UNRWA",
+          "title": "Palestine refugees",
+          "url": "https://www.unrwa.org/palestine-refugees",
+          "archive": "",
+          "quote": "The descendants of Palestine refugee males, including adopted children, are also eligible for registration.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "UNRWA",
+          "title": "Palestine refugees",
+          "url": "https://www.unrwa.org/palestine-refugees",
+          "archive": "",
+          "quote": "Today, some 5.9 million Palestine refugees are eligible for UNRWA services.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Israel Law Review (Cambridge University Press), account of talks by Benny Morris and Guy Goodwin-Gill",
+          "title": "1948 Refugees",
+          "url": "https://www.cambridge.org/core/journals/israel-law-review/article/1948-refugees/1E997E364691F4379C6F77EC05BC84AD",
+          "archive": "",
+          "quote": "Today there are more than five million Palestinian refugees on UN records, including those who were alive in 1948 and their descendants",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Migration Policy Institute (Nathan Citino)",
+          "title": "Generations of Palestinian Refugees Face Protracted Displacement and Dispossession",
+          "url": "https://www.migrationpolicy.org/journal/feature/generations-palestinian-refugees-face-protracted-displacement-and-dispossession",
+          "archive": "",
+          "quote": "while these younger generations would not typically be considered refugees in other displacement situations, they are counted as such by the United Nations Relief and Works Agency",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "UNHCR handles refugees by an individual definition, and Palestinians assisted by UNRWA fall under Article 1D of the 1951 Convention instead.",
+      "sources": [
+        {
+          "publisher": "UNHCR Emergency Handbook",
+          "title": "Refugee definition",
+          "url": "https://emergency.unhcr.org/protection/legal-framework/refugee-definition",
+          "archive": "",
+          "quote": "Article 1 D excludes those presently receiving protection or assistance from another organ of the United Nations. In reality, this concerns Palestinian refugees receiving protection and assistance from UNRWA.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Israel Law Review (Cambridge University Press), account of talks by Benny Morris and Guy Goodwin-Gill",
+          "title": "1948 Refugees",
+          "url": "https://www.cambridge.org/core/journals/israel-law-review/article/1948-refugees/1E997E364691F4379C6F77EC05BC84AD",
+          "archive": "",
+          "quote": "All other refugees in the world are handled by the UN High Commissioner for Refugees (UNHCR). It is only Palestinians who have a special agency of their own",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "UNRWA",
+          "title": "Frequently asked questions",
+          "url": "https://www.unrwa.org/faq",
+          "archive": "",
+          "quote": "Therefore, Palestine Refugees within these fields do not fall under UNHCR's mandate.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "Whether passing refugee status to descendants is unique to UNRWA is disputed: UNRWA says UNHCR also treats descendants as refugees until a durable solution; an analyst says younger generations would not typically be refugees elsewhere; Benny Morris says descendants of Sudeten German expellees are not.",
+      "sources": [
+        {
+          "publisher": "UNRWA",
+          "title": "Frequently asked questions",
+          "url": "https://www.unrwa.org/faq",
+          "archive": "",
+          "quote": "Under international law and the principle of family unity, the children of refugees and their descendants are also considered refugees until a durable solution is found.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Migration Policy Institute (Nathan Citino)",
+          "title": "Generations of Palestinian Refugees Face Protracted Displacement and Dispossession",
+          "url": "https://www.migrationpolicy.org/journal/feature/generations-palestinian-refugees-face-protracted-displacement-and-dispossession",
+          "archive": "",
+          "quote": "while these younger generations would not typically be considered refugees in other displacement situations, they are counted as such by the United Nations Relief and Works Agency",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Israel Law Review (Cambridge University Press), account of talks by Benny Morris and Guy Goodwin-Gill",
+          "title": "1948 Refugees",
+          "url": "https://www.cambridge.org/core/journals/israel-law-review/article/1948-refugees/1E997E364691F4379C6F77EC05BC84AD",
+          "archive": "",
+          "quote": "the children, grandchildren and great-grandchildren of refugees are not recognised as 'refugees' (as in the case of, for example, the Sudeten Germans who were expelled from Czechoslovakia to Germany in 1945-46)",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    "Cyprus 1974 numbers: UN and press figures are about 165,000 Greek Cypriots and 45,000 Turkish Cypriots; the Republic of Cyprus uses about 200,000 Greek Cypriots.",
+    "1923 exchange: the figures are approximate (the Nobel Foundation biography of Nansen gives about 1,250,000 Greeks and about 500,000 Turks), and many Greeks had already fled in 1922 before the Convention took effect. Scholars differ on how much Nansen shaped a compulsory exchange; some say Turkey chiefly engineered it.",
+    "Nagorno-Karabakh 2023: Azerbaijan says it offered Karabakh Armenians equal treatment and that they left of their own will; Armenia calls this a lie. The UN mission heard of no violence against civilians after the ceasefire.",
+    "Refugee status across generations: UNRWA says the descent rule is not unique to it and that UNHCR also recognises descendants in protracted cases; Benny Morris and the Migration Policy Institute analyst say it is unusual.",
+    "Whether these cases are comparable to 1948 is itself argued; see the third card of this chapter."
+  ],
+  "could_not_verify": [
+    "The Duke University exhibition page that says the exchange was supervised by the League of Nations could not be read by the checker; the card says a Mixed Commission supervised it and Nansen, the League's High Commissioner, helped arrange it, from pages the checker could read.",
+    "Three readable reliable sources for the 1974 Cyprus displacement figures: only the BBC and Cyprus Mail were readable as independent sources; the Greek Cypriot figure of about 200,000 comes from a government page, and a US Senate report and a PRIO study that give similar figures are PDFs the checker cannot read.",
+    "A second reliable source for what the 1923 convention said on nationality and return (only the treaty text itself; Middle East Eye covers integration) and for the Cyprus UN resolution (UNFICYP and BBC only; the text on gov.cy could not be read).",
+    "UNHCR's own pages for the 2014 recommendation to end refugee status for refugees from Croatia and for its 2017 guidelines that cover descendants of Palestine refugees were not readable, so UNHCR's practice on descendants is not shown from its own pages, only its refugee definition.",
+    "A readable source on whether the Republic of Cyprus passes displaced status to children (it issues refugee cards to children of displaced persons); the court and IDMC documents are PDFs the checker cannot read.",
+    "Three readable reliable sources for Bosnian return figures: only Human Rights Watch (advocacy) and Forced Migration Review were readable; the IDMC report on Refworld and a UNHCR page refused the checker."
+  ],
+  "not_claimed": [
+    "That these cases justify 1948 or any other act. They are context.",
+    "That any two cases are alike in cause, scale or legality; a treaty-based exchange differs from an offensive and a flight.",
+    "That all displaced people in these cases are refugees in the legal sense; some were displaced inside their own state.",
+    "That the figures are exact; each estimate is attributed.",
+    "That UNRWA's rule is right or wrong; the card states both agencies' rules and the dispute."
+  ],
+  "status": "draft",
+  "content_approved": false
+}

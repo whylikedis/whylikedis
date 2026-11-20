@@ -1,0 +1,292 @@
+{
+  "id": "era1-jewish-presence-through-centuries",
+  "era": 1,
+  "claim": "The Jews left 2,000 years ago and came back as Europeans.",
+  "heard": [
+    {
+      "who": "Mahmoud Abbas, President of the Palestinian Authority, to the Fatah Revolutionary Council, August 2023 (BBC translation)",
+      "url": "https://www.bbc.com/news/world-middle-east-66741336",
+      "archive": "",
+      "quote": "The truth that we should spread to the world is that European Jews are not Semites. They have nothing to do with Semitism"
+    }
+  ],
+  "answer": "Most Jews did leave, or were scattered, after the Roman wars, and for most of the next 1,800 years Jews were a small minority in the land, with most Jews living abroad. But they did not all leave. After 135 the centre of Jewish life moved to the Galilee, where the Mishnah (about 200) and the Jerusalem Talmud (about 400) were compiled. Jewish communities are recorded under Byzantine, early Islamic, Crusader, Mamluk and Ottoman rule, in Tiberias, Jerusalem, Hebron and above all Safed in the 16th century. Jerusalem's Jewish community was nearly empty in 1267 and rebuilt after. By the 1850s to 1860s Jews were the largest single group in Jerusalem, decades before the first Zionist Congress in 1897. About half of Israel's Jews today descend from Ashkenazi Europe; the rest, from the Middle East and North Africa.",
+  "facts": [
+    {
+      "text": "After the Roman wars (70 and 132-135 CE) the centre of Jewish life moved north to the Galilee, where the Mishnah was compiled about 200 CE and the Jerusalem Talmud, produced in the Galilean academies (above all Tiberias), about 400 CE.",
+      "sources": [
+        {
+          "publisher": "Center for Online Judaic Studies",
+          "title": "The Palestinian Talmud, The Yerushalmi",
+          "url": "https://cojs.org/the_palestinian_talmud-_the_yerushalmi/",
+          "archive": "",
+          "quote": "the centers of Jewish population had shifted northwards, in the aftermath of the two revolts, to the Galilee and Golan regions",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Biblical Archaeology Society",
+          "title": "A Tale of Two Talmuds",
+          "url": "https://library.biblicalarchaeology.org/sidebar/a-tale-of-two-talmuds/",
+          "archive": "",
+          "quote": "It was produced not in Jerusalem but primarily in the academies at Caesarea, Sepphoris and-above all-Tiberias",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Encyclopaedia Judaica (via Encyclopedia.com)",
+          "title": "Talmud, Jerusalem",
+          "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/talmud-jerusalem",
+          "archive": "",
+          "quote": "it is usually assumed that it was redacted in Tiberias, perhaps with material deriving from Sepphoris and Caesarea also included",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "Under Byzantine and then early Muslim rule Jews remained in the land: Tiberias stayed the seat of the Jewish patriarch and Sanhedrin until the Arab conquest of the 630s, and a rabbinic academy later worked in Tiberias and Ramle.",
+      "sources": [
+        {
+          "publisher": "Encyclopaedia Judaica (via Encyclopedia.com)",
+          "title": "Tiberias",
+          "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/tiberias",
+          "archive": "",
+          "quote": "Tiberias remained the capital of the Jews in the country until the transfer of the religious authorities to Jerusalem after the Arab conquest in the seventh century",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Center for Online Judaic Studies",
+          "title": "Under Byzantine Christianity",
+          "url": "https://cojs.org/under_byzantine_christianity/",
+          "archive": "",
+          "quote": "the patriarchate and the Sanhedrin were officially recognized, and Jews controlled those municipalities in the Galilee which were primarily Jewish",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "My Jewish Learning",
+          "title": "Life in Palestine (Jeremy Moses)",
+          "url": "https://www.myjewishlearning.com/article/life-in-palestine/",
+          "archive": "",
+          "quote": "A rabbinic academy was formed in Tiberius (and later moved to Ramle)",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "In the Mamluk period (1260-1517) Jewish communities existed in Safed, Jerusalem and Hebron, though Jerusalem had almost no Jews when Nachmanides arrived in 1267 and the city's Jews numbered only about seventy families in 1488.",
+      "sources": [
+        {
+          "publisher": "Journal of the Royal Asiatic Society (Cambridge University Press)",
+          "title": "Michael Ehrlich, The Jewish communities of Safed and Jerusalem during the fourteenth century",
+          "url": "https://www.cambridge.org/core/journals/journal-of-the-royal-asiatic-society/article/jewish-communities-of-safed-and-jerusalem-during-the-fourteenth-century/DAFA875AAE01C52DEDB26B198731DAE3",
+          "archive": "",
+          "quote": "Safed replaced Tiberias as the central settlement in the Galilee and Safed's Jewish community replaced Tiberias's as the central Jewish community of the Galilee region",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "My Jewish Learning",
+          "title": "Jews in Palestine (Elchanan Reiner)",
+          "url": "https://www.myjewishlearning.com/article/jews-in-palestine/",
+          "archive": "",
+          "quote": "the inland communities of Safed, and especially Jerusalem, took its place. Gaza and Hebron harbored smaller communities",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Center for Online Judaic Studies",
+          "title": "1488 Jewish Italian Pilgrim, Rabbi Obadiah da Bertinoro",
+          "url": "https://cojs.org/1488-jewish-italian-pilgrim-rabbi-obadiah-da-bertinoro/",
+          "archive": "",
+          "quote": "there was now only 'about seventy families of the poorest class",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "The Crusaders barred Jews from Jerusalem after 1099 but allowed them to live in the rest of Palestine.",
+      "sources": [
+        {
+          "publisher": "My Jewish Learning",
+          "title": "Life in Palestine (Jeremy Moses)",
+          "url": "https://www.myjewishlearning.com/article/life-in-palestine/",
+          "archive": "",
+          "quote": "The Crusaders banned Jews from living in the city of Jerusalem, though they were permitted to live in the rest of Palestine",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Encyclopaedia Judaica (via Encyclopedia.com)",
+          "title": "Safed",
+          "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/safed",
+          "archive": "",
+          "quote": "Jewish settlement in Safed is attested by Genizah documents from the first half",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Center for Online Judaic Studies",
+          "title": "1200-1300: Mamluks and Synagogues",
+          "url": "https://cojs.org/1200-1300-mamluks-and-synagogues/",
+          "archive": "",
+          "quote": "Noted scholar Nachmanides (also known as Ramban) arrived in Jerusalem in 1267 and reconstructed a synagogue for prayer and study.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "In the 16th century Ottoman tax registers record a growing Jewish community in Safed (232 Jewish families in 1525-26, 716 Jewish households in 1548), where Joseph Karo and Isaac Luria worked; Jewish communities also grew in Jerusalem, Tiberias, Hebron and elsewhere.",
+      "sources": [
+        {
+          "publisher": "The Jewish Diaspora (digital atlas)",
+          "title": "Kabbalists gather in Safed",
+          "url": "https://thejewishdiaspora.org/migrations/safed-ingathering/",
+          "archive": "",
+          "quote": "Ottoman registers show 232 Jewish families in 1525/26, rising to 716 households in 1548",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Encyclopaedia Judaica (via Encyclopedia.com)",
+          "title": "Safed",
+          "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/safed",
+          "archive": "",
+          "quote": "Approximately 1,900 families of taxpayers lived in the town (716 of them Jewish)",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "My Jewish Learning",
+          "title": "Life in Palestine (Jeremy Moses)",
+          "url": "https://www.myjewishlearning.com/article/life-in-palestine/",
+          "archive": "",
+          "quote": "The Jewish communities in Jerusalem, Tiberias, Gaza, Hebron, Acre, and Safed greatly increased in number during this period.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "In the mid-19th century, before political Zionism (first Zionist Congress, 1897), Jews were the largest single group in Jerusalem: Karl Marx reported 8,000 Jews among 15,500 'sedentary' inhabitants in 1854; the British consul's 1865 report gave 8,000-9,000 Jews among about 18,000; the 1868 Jerusalem Almanack gave 9,000 Jews, 5,000 Muslims and 4,000 Christians.",
+      "sources": [
+        {
+          "publisher": "Marxists Internet Archive (Karl Marx, New-York Daily Tribune, 15 April 1854)",
+          "title": "Declaration of War - On the History of the Eastern Question",
+          "url": "https://www.marxists.org/archive/marx/works/1854/03/28.htm",
+          "archive": "",
+          "quote": "the sedentary population of Jerusalem numbers about 15,500 souls, of whom 4,000 are Mussulmans and 8,000 Jews",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Center for Online Judaic Studies (quoting Martin Gilbert's atlas)",
+          "title": "1695 The Jews of Jerusalem",
+          "url": "https://cojs.org/?p=37009",
+          "archive": "",
+          "quote": "population estimate of 1868 in the Jerusalem almanack: 9,000 Jews, 5,000 Muslims, 4,000 Christians",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Encyclopaedia Judaica (via Encyclopedia.com)",
+          "title": "Jerusalem",
+          "url": "https://www.encyclopedia.com/places/asia/israeli-political-geography/jerusalem",
+          "archive": "",
+          "quote": "The British consul reported in 1865 that there were approximately 18,000 residents in the city (as in 1856), of whom 8-9,000 were Jews.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "Jews were a small minority of the land's population for most of this time: about 13,000 of roughly 340,000 people in 1850 by Justin McCarthy's estimate, and still 'a tiny minority' when the Balfour Declaration was issued in 1917, in the words of the Palestinian historian Rashid Khalidi. Most Jews lived elsewhere, because most Jewish residents dispersed after the Roman wars.",
+      "sources": [
+        {
+          "publisher": "LaGuardia Community College Library (citing Justin McCarthy, The Population of Palestine, Columbia University Press, 1990)",
+          "title": "Palestine/Israel: A Primer, What were the demographics of Ottoman Palestine?",
+          "url": "https://guides.laguardia.edu/c.php?g=1391450&p=10292820",
+          "archive": "",
+          "quote": "in 1850, there were approximately 300,000 Muslims, 13,000 Jews, and 27,000 Christians in Ottoman Palestine",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Rashid Khalidi, The Hundred Years' War on Palestine (Metropolitan Books, 2020; full text at Internet Archive)",
+          "title": "The Hundred Years' War on Palestine",
+          "url": "https://archive.org/stream/100yearswarpalestine/The_Hundred_Years_War_on_Palestine_A_History_of_Settler_Colonial_Conquest_and_Resistance_UK_Edition_Rashid_Khalidi_djvu.txt",
+          "archive": "",
+          "quote": "at a time when Jews constituted a tiny minority of the population",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "My Jewish Learning",
+          "title": "Life in Palestine (Jeremy Moses)",
+          "url": "https://www.myjewishlearning.com/article/life-in-palestine/",
+          "archive": "",
+          "quote": "grave enough to convince most residents to disperse around the globe",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "Israeli Jews are roughly evenly divided between Ashkenazi (European) and Sephardi or Mizrahi (Middle Eastern, North African and Mediterranean) origin; Mizrahi Jews are the largest single group, about 40% to 45%, ahead of Ashkenazi at about 32%.",
+      "sources": [
+        {
+          "publisher": "Pew Research Center",
+          "title": "Israel's Religiously Divided Society (2016 survey)",
+          "url": "https://www.pewresearch.org/religion/2016/03/08/israels-religiously-divided-society/",
+          "archive": "",
+          "quote": "Israeli Jews are roughly evenly divided between two types of ethnic identity",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "The Conversation (David L. Graizbord, University of Arizona)",
+          "title": "Israel's mosaic of Jewish ethnic groups is key to understanding the country",
+          "url": "https://theconversation.com/israels-mosaic-of-jewish-ethnic-groups-is-key-to-understanding-the-country-217893",
+          "archive": "",
+          "quote": "The largest Jewish ethnic group in Israel, about 40% to 45% of the country's total population",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Jewish Virtual Library (citing Israel Central Bureau of Statistics)",
+          "title": "Demographics of Israel: Israeli Jews, by Region of Origin",
+          "url": "https://jewishvirtuallibrary.org/israeli-jews-by-region-of-origin",
+          "archive": "",
+          "quote": "Asia 14% 12% 9% Africa 16% 15% 12%",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    "Whether Jews were a majority or a plurality of Jerusalem in the 1860s is disputed. The Encyclopaedia Judaica says they became a majority 'for the first time in 1800 years' in the mid-1860s, but the consul's count it cites (8,000-9,000 of 18,000) is about half, and Marx's 1854 figure (8,000 of 15,500 sedentary inhabitants) excludes soldiers and others. Jewish Virtual Library's table puts the Jewish share at 46% in 1844 and 48% in 1876, a plurality; Teach Jewish History says Jews were a majority by about 1880 on consular and travellers' estimates, and that Ottoman registers, kept mainly for taxes and incomplete, counted fewer Jews.",
+    "How continuous the Jewish presence was is argued. Michael Ehrlich writes that Jerusalem had no Jewish community when the Mamluks took it and that part of the 14th-century community came from Acre and Tyre, not from earlier Jerusalem families; Nachmanides described Jerusalem in 1267 as nearly without Jews. Jewish presence is documented in every period, but it thinned and was rebuilt by immigrants. The Safed growth of the 16th century was largely driven by Spanish and North African refugees.",
+    "Population figures before 1914 are estimates. Ottoman censuses undercounted women, children, Bedouin and foreign nationals, and McCarthy, Bachi and Ottoman figures differ (for 1890 the Jewish count ranges from about 18,000 to about 43,000).",
+    "Abbas's claim that Ashkenazi Jews descend from Khazars is described by the BBC as a long-abandoned historical theory; this card does not rely on that point and addresses only the family origins of Israeli Jews by country."
+  ],
+  "could_not_verify": [
+    "A statistical table of Israeli Jews by continent of origin that the checker can read: Israel's Central Bureau of Statistics publishes it only as PDF, so the share rests on Jewish Virtual Library (advocacy; Asia 9 percent and Africa 12 percent in 2022). A CBS table seen only in a search result (not read by the checker) shows about 9 percent Asian and about 13 percent African origin in 2021. Only two independent readable sites (Pew, The Conversation) support the 'evenly divided' and 40% to 45% statements.",
+    "Roberto Bachi's and Sergio DellaPergola's estimates (for example about 7,000 Jews of 275,000 people in 1800, 43,000 of 532,000 in 1890) are in PDFs the checker cannot read; the card cites McCarthy and Khalidi instead.",
+    "Dated evidence for Hebron's Jewish community through the centuries on three independent readable pages: only Encyclopaedia Judaica and teachjewishhistory were readable.",
+    "The source of the Prussian consul's 1845 count (about 7,000 Jews of about 16,000): not found on a readable independent page."
+  ],
+  "not_claimed": [
+    "That Jewish presence gives Jews a right to the land or settles any modern political question.",
+    "That the Jewish population was large or continuous at every time or place: it was small, interrupted, and refreshed by immigration from Spain, North Africa and Europe.",
+    "That Ashkenazi immigration of the 19th and 20th centuries did not happen: about half of Israel's Jews descend from Europe.",
+    "That Arabs and Muslims were not the large majority of the land's people: see the Arab and Muslim presence card."
+  ],
+  "status": "draft",
+  "content_approved": false
+}

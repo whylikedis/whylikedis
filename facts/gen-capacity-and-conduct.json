@@ -1,0 +1,656 @@
+{
+  "id": "gen-capacity-and-conduct",
+  "era": 5,
+  "claim": "Israel is trying to wipe out the Palestinians of Gaza.",
+  "heard": [
+    {
+      "who": "Amnesty International, 5 December 2024",
+      "url": "https://www.amnesty.org/en/latest/news/2024/12/amnesty-international-concludes-israel-is-committing-genocide-against-palestinians-in-gaza/",
+      "quote": "Amnesty International's research has found sufficient basis to conclude that Israel has committed and is continuing to commit genocide against Palestinians in the occupied Gaza Strip",
+      "archive": ""
+    },
+    {
+      "who": "Yuli Novak, executive director of B'Tselem, to NPR, 29 July 2025",
+      "url": "https://www.npr.org/2025/07/29/nx-s1-5482830/two-prominent-israeli-rights-groups-say-israel-is-committing-genocide-in-gaza",
+      "quote": "what Israel is doing is taking a coordinated and deliberate action to destroy Palestinian society in the Gaza Strip",
+      "archive": ""
+    },
+    {
+      "who": "Navi Pillay, chair of the UN Commission of Inquiry, 16 September 2025 (UN press release)",
+      "url": "https://www.un.org/unispal/document/israel-has-committed-genocide-in-the-gaza-strip-un-commission-finds-16sep25/",
+      "quote": "The Commission finds that Israel is responsible for the commission of genocide in Gaza",
+      "archive": ""
+    }
+  ],
+  "answer": "Gaza had about 2.2 million people before the war. Its health ministry, part of the Hamas-run government, counts over 72,000 dead, about 3 per cent, without separating civilians from fighters. Israel warned civilians to leave areas, agreed to pauses for a 2024 polio campaign, and says it let in large amounts of aid. Against that: a full aid ban from 2 March to 19 May 2025, a famine finding in August 2025, 81 per cent of structures damaged, most people displaced, and officials' statements the ICJ quoted. Amnesty, a UN commission, B'Tselem, PHRI and genocide scholars concluded Israel committed genocide; Israel, the US government and some legal scholars reject that. Our reading: the record is mixed, so we do not say the intent test is met. The ICJ has not ruled, and the bodies named above concluded otherwise.",
+  "facts": [
+    {
+      "text": "Before the war Gaza's population was about 2.2 million (UN OCHA's figure; the Palestinian Central Bureau of Statistics put it at 2.23 million for 2023).",
+      "sources": [
+        {
+          "publisher": "UN OCHA (occupied Palestinian territory)",
+          "title": "Flash Appeal 2023 at a Glance",
+          "url": "https://www.ochaopt.org/content/flash-appeal-2023-glance",
+          "archive": "",
+          "quote": "the entire Gaza population of 2.2 million",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Aid delivery waits to enter Gaza from Egypt at Rafah crossing",
+          "url": "https://www.bbc.com/news/world-middle-east-67156084",
+          "archive": "",
+          "quote": "bringing some relief to its 2.2 million residents",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "US International Trade Administration",
+          "title": "West Bank and Gaza - Market Overview",
+          "url": "https://www.trade.gov/knowledge-product/west-bank-market-overview",
+          "archive": "",
+          "quote": "the Palestinian population stands at 5.48 million, with 3.25 million in the West Bank and 2.23 million in Gaza, according to the Palestinian Central Bureau of Statistics",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        }
+      ]
+    },
+    {
+      "text": "Gaza's population is now about 2.1 million, according to the UN.",
+      "sources": [
+        {
+          "publisher": "UN OCHA (occupied Palestinian territory)",
+          "title": "Humanitarian Situation Update #340, Gaza Strip, 12 November 2025",
+          "url": "https://www.ochaopt.org/content/humanitarian-situation-update-340-gaza-strip",
+          "archive": "",
+          "quote": "about one million people, out of a total population of 2.1 million, are residing in 862 displacement sites",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "UN News",
+          "title": "In Gaza, women-headed households face 'impossible choices' to survive",
+          "url": "https://news.un.org/en/story/2026/09/1168291",
+          "archive": "",
+          "quote": "most of Gaza's population of around 2.1 million people remains displaced today",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Gaza: Israel allows aid in after 11-week blockade but UN calls it 'drop in ocean'",
+          "url": "https://www.bbc.com/news/articles/c3d4kz8p00eo",
+          "archive": "",
+          "quote": "the 2.1 million Palestinians in the war-torn territory",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "The Gaza Health Ministry, which is part of the Hamas-run government and does not separate civilians from fighters, reported 72,045 Palestinians killed between 7 October 2023 and 11 February 2026, and the total was reported to have passed 73,000 by mid-June 2026. Set against the pre-war population that is about 3 per cent (our arithmetic: 72,045 of 2.23 million is 3.2 per cent).",
+      "sources": [
+        {
+          "publisher": "UN OCHA",
+          "title": "Humanitarian Situation Update #357, Gaza Strip, February 2026",
+          "url": "https://www.unocha.org/publications/report/occupied-palestinian-territory/humanitarian-situation-update-357-gaza-strip",
+          "archive": "",
+          "quote": "This brings the casualty toll among Palestinians since 7 October 2023, as reported by the MoH, to 72,045 fatalities and 171,686 injuries.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "The Independent",
+          "title": "Gaza death toll hits 1,005 Palestinians since ceasefire amid relentless Israeli attacks",
+          "url": "https://www.independent.co.uk/news/world/middle-east/israeli-gaza-hamas-palestinians-deaths-b2998158.html",
+          "archive": "",
+          "quote": "had surpassed 73,000 in Gaza",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "UN OCHA (occupied Palestinian territory)",
+          "title": "Humanitarian Situation Report, 15 October 2026",
+          "url": "https://www.ochaopt.org/content/humanitarian-situation-report-15-october-2026",
+          "archive": "",
+          "quote": "According to the Ministry of Health in Gaza, which operates under the de-facto authorities",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "Israel's military issued evacuation warnings before operations in Gaza; a BBC analysis of 26 warnings found they contained specific information people could use to escape, but that 17 also contained errors and inconsistencies. Legal commentators disagree on whether such warnings are effective and lawful: Amnesty said the order to move south could not be considered an effective warning, while Michael Schmitt of West Point's Lieber Institute argued it was a warning under the laws of war.",
+      "sources": [
+        {
+          "publisher": "BBC News",
+          "title": "Gaza evacuation warnings from IDF contain many errors, BBC finds",
+          "url": "https://www.bbc.com/news/world-middle-east-68687749",
+          "archive": "",
+          "quote": "The 26 separate warnings we found contained specific information from the IDF that people could use to escape areas of danger. But 17 of them also contained errors and inconsistencies.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Lieber Institute, West Point (Michael N. Schmitt)",
+          "title": "The Evacuation of Northern Gaza: Practical and Legal Aspects",
+          "url": "https://lieber.westpoint.edu/evacuation-northern-gaza-practical-legal-aspects/",
+          "archive": "",
+          "quote": "Israel's action qualifies as a “warning” in IHL, a form of “precautions in attack.”",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "UN OCHA",
+          "title": "Humanitarian Situation Update #329, Gaza Strip, October 2025",
+          "url": "https://www.unocha.org/publications/report/occupied-palestinian-territory/humanitarian-situation-update-329-gaza-strip",
+          "archive": "",
+          "quote": "the Israeli military stated that Gaza city remains a dangerous battlefield that should be vacated",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "In August 2024 the WHO said Israel's military had made a preliminary commitment to area-specific humanitarian pauses so that about 640,000 children could be vaccinated against polio, after a first case in 25 years; the pauses were three-day, daytime pauses in separate areas.",
+      "sources": [
+        {
+          "publisher": "UN News",
+          "title": "Humanitarian pauses in Gaza pave way for polio vaccinations",
+          "url": "https://news.un.org/en/story/2024/08/1153761",
+          "archive": "",
+          "quote": "UN aid teams have reached a tentative agreement with parties involved in the war in Gaza for humanitarian pauses to allow 640,000 children to be vaccinated amid an outbreak of the virus",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Israel agrees to pauses in fighting for Gaza polio vaccine drive",
+          "url": "https://www.bbc.com/news/articles/cn02z5kjn40o",
+          "archive": "",
+          "quote": "Israel has agreed to a series of “humanitarian pauses” in Gaza to allow for the vaccination of children against polio",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "CBC News (Associated Press)",
+          "title": "WHO makes deal with Israel for limited pauses in Gaza fighting to allow for polio vaccinations",
+          "url": "https://www.cbc.ca/news/world/israel-gaza-polio-vaccination-1.7308455",
+          "archive": "",
+          "quote": "The World Health Organization said Thursday it has reached an agreement with Israel for limited pauses in fighting in Gaza",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Aid did enter Gaza. Israel's COGAT (a government agency) says it has let in many more trucks than the UN records and that the food entering exceeds what the UN says is needed; the UN counts only what its own system collects (for example, more than 19,000 metric tons collected by the UN and partners from the crossings in two weeks in early 2026). The two sets of figures have not been reconciled.",
+      "sources": [
+        {
+          "publisher": "Ynetnews",
+          "title": "UN misrepresents Gaza aid flow, Israel says nearly 6,000 trucks not counted",
+          "url": "https://www.ynetnews.com/article/b1wd5bzfll",
+          "archive": "",
+          "quote": "Israel's COGAT says nearly 9,200 aid trucks entered Gaza since May, while the UN reports only 3,553",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "UN OCHA",
+          "title": "Humanitarian Situation Update #357, Gaza Strip, February 2026",
+          "url": "https://www.unocha.org/publications/report/occupied-palestinian-territory/humanitarian-situation-update-357-gaza-strip",
+          "archive": "",
+          "quote": "more than 19,000 metric tons (MT) of humanitarian aid were collected by the United Nations (UN) and partners from Gaza's crossings",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "UN-backed experts say Gaza food supplies improving but 100,000 still in 'catastrophic conditions'",
+          "url": "https://www.bbc.com/news/articles/ckgdpz0gp3jo",
+          "archive": "",
+          "quote": "Cogat, the Israeli military body which controls Gaza's crossings, said the number of trucks with food aid entering each week went beyond what the UN had determined it needed.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "In August 2025 the IPC confirmed famine (Phase 5) in Gaza Governorate, with over half a million people in the Strip facing catastrophic conditions, and projected it would spread; the World Food Programme calls it a first in the Middle East.",
+      "sources": [
+        {
+          "publisher": "IPC Global Initiative (via ReliefWeb)",
+          "title": "Gaza Strip: Famine confirmed in Gaza Governorate, projected to expand (22 August 2025)",
+          "url": "https://reliefweb.int/report/occupied-palestinian-territory/gaza-strip-famine-confirmed-gaza-governorate-projected-expand-1-july-30-september-2025-published-22-august-2025",
+          "archive": "",
+          "quote": "As of 15 August 2025, Famine (IPC Phase 5)—with reasonable evidence—is confirmed in Gaza Governorate.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "World Health Organization",
+          "title": "Famine confirmed for first time in Gaza",
+          "url": "https://www.who.int/news/item/22-08-2025-famine-confirmed-for-first-time-in-gaza",
+          "archive": "",
+          "quote": "More than half a million people in Gaza are trapped in famine, marked by widespread starvation, destitution and preventable deaths",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "World Food Programme",
+          "title": "As famine grips Gaza, families turn to desperate measures to survive",
+          "url": "https://www.wfp.org/stories/famine-grips-gaza-families-turn-desperate-measures-survive",
+          "archive": "",
+          "quote": "has confirmed famine in Gaza Governorate - a first in the Middle East",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "In December 2025, after the October ceasefire and improved access, the IPC found no area of Gaza in famine, though the whole Strip remained in Emergency (Phase 4); Israel's COGAT rejected the IPC's findings as distorted and biased.",
+      "sources": [
+        {
+          "publisher": "WHO, FAO, UNICEF and WFP",
+          "title": "UN agencies welcome news that famine has been pushed back in the Gaza Strip",
+          "url": "https://www.who.int/news/item/19-12-2025-un-agencies-welcome-news-that-famine-has-been-pushed-back-in-the-gaza-strip-but-warn-fragile-gains-could-be-reversed-without-increased-and-sustained-support",
+          "archive": "",
+          "quote": "confirms that no areas of the Strip are currently classified in famine following the October ceasefire and improved humanitarian and commercial access",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "UN-backed experts say Gaza food supplies improving but 100,000 still in 'catastrophic conditions'",
+          "url": "https://www.bbc.com/news/articles/ckgdpz0gp3jo",
+          "archive": "",
+          "quote": "the report said no areas in Gaza were now classified as \"in famine\"",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "The Jerusalem Post",
+          "title": "COGAT slams UN following claims of food insecurity in Gaza",
+          "url": "https://www.jpost.com/israel-news/defense-news/article-880779",
+          "archive": "",
+          "quote": "calling the assessment “a distorted and baseless picture of reality.”",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "From 2 March to about 19 May 2025 Israeli authorities banned the entry of all supplies into Gaza, including food, medicine and fuel; limited UN aid resumed on 19 May.",
+      "sources": [
+        {
+          "publisher": "UN OCHA (occupied Palestinian territory)",
+          "title": "Humanitarian Situation Update #290, Gaza Strip, 21 May 2025",
+          "url": "https://www.ochaopt.org/content/humanitarian-situation-update-290-gaza-strip",
+          "archive": "",
+          "quote": "For 11 weeks, since 2 March 2025, Israeli authorities imposed a full blockade on Gaza, entailing a ban on the entry of any supplies, including food, medicine and fuel.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "UN News",
+          "title": "Gaza: Israel 'approaches UN' to resume limited aid deliveries, says aid agency",
+          "url": "https://news.un.org/en/story/2025/05/1163401",
+          "archive": "",
+          "quote": "It is now 11 weeks since the Israeli authorities closed off all food, fuel and medicines to Gaza.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "Gaza: Israel allows aid in after 11-week blockade but UN calls it 'drop in ocean'",
+          "url": "https://www.bbc.com/news/articles/c3d4kz8p00eo",
+          "archive": "",
+          "quote": "after 11 weeks of blockade",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Satellite analysis by the UN's UNOSAT found about 81 per cent of all structures in Gaza damaged as of 11 October 2025, and the EU, UN and World Bank assessment of April 2026 counted over 371,888 housing units destroyed or damaged.",
+      "sources": [
+        {
+          "publisher": "UN Satellite Centre (UNOSAT), via UN Question of Palestine",
+          "title": "UNOSAT Gaza Strip Comprehensive Damage Assessment, 31 October 2025",
+          "url": "https://www.un.org/unispal/document/unosat-gaza-strip-damage-assessment-31oct25/",
+          "archive": "",
+          "quote": "approximately 81% of all structures in the Gaza Strip are damaged",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "UN in Palestine (EU, UN and World Bank)",
+          "title": "Final Gaza Rapid Damage and Needs Assessment estimates $71.4 billion for recovery and reconstruction",
+          "url": "https://palestine.un.org/en/314095-final-gaza-rapid-damage-and-needs-assessment-estimates-714-billion-recovery-and",
+          "archive": "",
+          "quote": "Over 371,888 housing units have been destroyed or damaged",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "NPR",
+          "title": "Inside the debate over whether Israel is committing genocide in Gaza",
+          "url": "https://www.npr.org/2025/09/25/g-s1-89678/israel-gaza-genocide-debates-united-nations",
+          "archive": "",
+          "quote": "serially they've destroyed more than 70% of Gaza's buildings and killed tens of thousands, mainly civilians",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Most of Gaza's population has been displaced: the EU, UN and World Bank assessment counts over 1.9 million people displaced inside Gaza, many more than once, and the UN said in September 2026 that most of the roughly 2.1 million people remain displaced.",
+      "sources": [
+        {
+          "publisher": "EU, UN and World Bank (via UN Question of Palestine)",
+          "title": "Gaza Strip Rapid Damage and Needs Assessment (April 2026)",
+          "url": "https://www.un.org/unispal/document/report-gaza-strip-rapid-damage-20apr26/",
+          "archive": "",
+          "quote": "over 1.9 million Palestinians in the Gaza Strip have been internally displaced to locations inside of the Gaza Strip, many of them multiple times over",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "UN OCHA",
+          "title": "Humanitarian Situation Update #357, Gaza Strip, February 2026",
+          "url": "https://www.unocha.org/publications/report/occupied-palestinian-territory/humanitarian-situation-update-357-gaza-strip",
+          "archive": "",
+          "quote": "at least two thirds of the population (1.4 million of 2.1 million people) are estimated to reside in about 1,000 displacement sites",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "UN News",
+          "title": "In Gaza, women-headed households face 'impossible choices' to survive",
+          "url": "https://news.un.org/en/story/2026/09/1168291",
+          "archive": "",
+          "quote": "most of Gaza's population of around 2.1 million people remains displaced today",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "In its order of 26 January 2024 the ICJ noted statements by senior Israeli officials, including the defence minister's announcement of a 'complete siege' with 'no electricity, no food, no fuel', his remark that Israel was fighting 'human animals', and a minister's statement that civilians in Gaza would receive no water 'until they leave the world'. The court used them to find the Palestinians' right to protection plausible and did not rule on intent.",
+      "sources": [
+        {
+          "publisher": "International Court of Justice",
+          "title": "Order of 26 January 2024, South Africa v. Israel, paras. 51-54",
+          "url": "https://www.icj-cij.org/node/203447",
+          "archive": "",
+          "quote": "announced that he had ordered a \"complete siege\" of Gaza City and that there would be \"no electricity, no food, no fuel\"",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "UN News",
+          "title": "UN world court calls for prevention of genocidal acts in Gaza",
+          "url": "https://news.un.org/en/story/2024/01/1145937",
+          "archive": "",
+          "quote": "who reportedly told troops on the border with the enclave that they were fighting \"human animals\"",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "The Hindu",
+          "title": "What did the ICJ order in South Africa's genocide case against Israel? Explained",
+          "url": "https://www.thehindu.com/news/international/what-did-icj-order-in-south-africas-genocide-case-against-israel-explained/article67782401.ece",
+          "archive": "",
+          "quote": "Notably, the Court took note of genocidal rhetoric from several senior Israeli officials",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Israel told the ICJ in January 2024 that it had taken concrete measures to ensure Palestinian civilians' right to exist and had facilitated humanitarian assistance, citing bakeries reopened with the World Food Programme, water supplied through pipelines, field hospitals and the delivery of fuel and cooking gas; the court called such steps welcome but not enough. (Israel's own account of its measures.)",
+      "sources": [
+        {
+          "publisher": "International Court of Justice",
+          "title": "Order of 26 January 2024, South Africa v. Israel, para. 64",
+          "url": "https://www.icj-cij.org/node/203447",
+          "archive": "",
+          "quote": "concrete measures aimed specifically at recognizing and ensuring the right of the Palestinian civilians in Gaza to exist and has facilitated the provision of humanitarian assistance throughout the Gaza Strip",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "The Indian Express",
+          "title": "Explained: The ICJ ruling on the genocide case against Israel for its actions in Gaza",
+          "url": "https://indianexpress.com/article/explained/explained-global/icj-israel-genocide-emergency-measures-southa-africa-9130178/",
+          "archive": "",
+          "quote": "The court said that while Israel said it had made efforts to mitigate harm against civilians, and such steps were welcome, they were not enough.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Amnesty International (December 2024) and the UN Commission of Inquiry (September 2025) concluded that Israel has committed genocide in Gaza; the Commission says it does not speak for the UN as a whole.",
+      "sources": [
+        {
+          "publisher": "Amnesty International",
+          "title": "Amnesty International investigation concludes Israel is committing genocide against Palestinians in Gaza",
+          "url": "https://www.amnesty.org/en/latest/news/2024/12/amnesty-international-concludes-israel-is-committing-genocide-against-palestinians-in-gaza/",
+          "archive": "",
+          "quote": "Amnesty International's research has found sufficient basis to conclude that Israel has committed and is continuing to commit genocide against Palestinians in the occupied Gaza Strip",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        },
+        {
+          "publisher": "UN Independent International Commission of Inquiry (via UN Question of Palestine)",
+          "title": "Israel has committed genocide in the Gaza Strip, UN Commission of Inquiry finds",
+          "url": "https://www.un.org/unispal/document/israel-has-committed-genocide-in-the-gaza-strip-un-commission-finds-16sep25/",
+          "archive": "",
+          "quote": "Israel has committed genocide against Palestinians in the Gaza Strip, the UN Independent International Commission of Inquiry",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "UN News",
+          "title": "UN News Today 16 September 2025: Independent rights panel finds Israel has committed genocide in Gaza",
+          "url": "https://news.un.org/en/audio/2025/09/1165860",
+          "archive": "",
+          "quote": "finds that Israel has committed genocide in Gaza, which Israeli authorities have flatly rejected",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Channels Television (AFP)",
+          "title": "'Distorted and false': Israel rejects UN probe accusing it of genocide",
+          "url": "https://www.channelstv.com/2025/09/16/distorted-and-false-israel-rejects-un-probe-accusing-it-of-genocide/",
+          "archive": "",
+          "quote": "which does not speak on behalf of the world body, found that \"genocide is occurring in Gaza and is continuing to occur\"",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "In July 2025 the Israeli human rights organisations B'Tselem and Physicians for Human Rights Israel (PHRI) said Israel is committing genocide in Gaza; B'Tselem says Israel is taking coordinated, deliberate action to destroy Palestinian society in the Strip, and PHRI says Gaza's health system is being deliberately dismantled. Israel's foreign ministry called B'Tselem's report a politically motivated document.",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "title": "Two prominent Israeli rights groups say Israel is committing genocide in Gaza",
+          "url": "https://www.npr.org/2025/07/29/nx-s1-5482830/two-prominent-israeli-rights-groups-say-israel-is-committing-genocide-in-gaza",
+          "archive": "",
+          "quote": "what Israel is doing is taking a coordinated and deliberate action to destroy Palestinian society in the Gaza Strip",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "ABC News (Australia)",
+          "title": "Two leading Israeli human rights groups accuse their country of committing genocide in Gaza",
+          "url": "https://www.abc.net.au/news/2025-07-29/israeli-orgs-label-gaza-situation-genocide/105584184",
+          "archive": "",
+          "quote": "The Israeli foreign ministry rejected the B'Tselem report, labelling it a \"politically motivated document\".",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "B'Tselem (via UN Question of Palestine)",
+          "title": "\"Our Genocide\", executive summary (July 2025)",
+          "url": "https://www.un.org/unispal/document/our-genocide-report-of-an-israeli-human-rights-organization-btselem-non-un-document/",
+          "archive": "",
+          "quote": "leads to the unequivocal conclusion that Israel is taking coordinated, deliberate action to destroy Palestinian society in the Gaza Strip",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        }
+      ]
+    },
+    {
+      "text": "On 31 August 2025 the International Association of Genocide Scholars passed a resolution that Israel's policies and actions in Gaza meet the legal definition of genocide; 28 per cent of its roughly 500 members voted and 86 per cent of those who voted were in favour.",
+      "sources": [
+        {
+          "publisher": "BBC News",
+          "title": "Israel committing genocide in Gaza, world's leading experts say",
+          "url": "https://www.bbc.com/news/articles/cde3eyzdr63o",
+          "archive": "",
+          "quote": "Out of its 500 members, 28% took part in the vote and 86% of those who voted supported the resolution.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "TIME",
+          "title": "Israel's Policies and Actions in Gaza 'Meet Legal Definition of Genocide,' Says Association of Scholars",
+          "url": "https://time.com/7313709/israel-policies-actions-gaza-genocide-scholars-association-resolution/",
+          "archive": "",
+          "quote": "A spokesperson for Israel's Ministry of Foreign Affairs rejected the resolution, calling it an “embarrassment to the legal profession and to any academic standard.”",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "International Association of Genocide Scholars",
+          "title": "Reactions to IAGS resolution on Gaza",
+          "url": "https://genocidescholars.org/reactions-to-iags-resolution-on-gaza/",
+          "archive": "",
+          "quote": "To pass, a resolution must receive at least two-thirds majority of those voting in favour, and this was well exceeded, with 86% voting in favour of the resolution.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "Some legal scholars say the intent test is not met: Stefan Talmon (Bonn) says Israel is committing the war crime of using hunger as a weapon of war but that genocidal intent is not proved, because vengeance or displacement are other possible inferences from Israel's conduct.",
+      "sources": [
+        {
+          "publisher": "Euronews",
+          "title": "There is no clear intent to commit genocide in Gaza, top international law expert says",
+          "url": "https://www.euronews.com/2025/08/01/there-is-no-clear-intent-to-commit-genocide-in-gaza-top-international-law-expert-says",
+          "archive": "",
+          "quote": "Israel is committing the war crime of using hunger as a weapon of war, which is prohibited under international law",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Legal Tribune Online (LTO)",
+          "title": "International Law Experts: Genocide in Gaza?",
+          "url": "https://www.lto.de/recht/hintergruende/h/gaza-is-israel-committing-genocide-assessments-international-law-experts",
+          "archive": "",
+          "quote": "He argued that vengeance or displacement are other possible inferences from Israel's actions.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Scholars disagree about what the ICJ's 'only reasonable inference' test means when a state also has a military aim: some say a military aim does not rule genocidal intent out, others that it makes the destruction of Hamas a competing reasonable inference.",
+      "sources": [
+        {
+          "publisher": "TheJournal.ie",
+          "title": "Why is Israel accusing Amnesty International of inventing its own definition of genocide?",
+          "url": "https://www.thejournal.ie/amnesty-international-invented-definitiion-of-genocide-israel-gaza-6568231-Dec2024/",
+          "archive": "",
+          "quote": "crucially, the mere existence of other intentions does not mean genocide is ruled out",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "EJIL: Talk!",
+          "title": "The Attainability of the Evidentiary Standard for Genocidal Intent in Gaza",
+          "url": "https://www.ejiltalk.org/the-attainability-of-the-evidentiary-standard-for-genocidal-intent-in-gaza/",
+          "archive": "",
+          "quote": "it is argued that the declared military objective to destroy Hamas after the attack on 7 October cannot be overlooked as another reasonable inference",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Opinio Juris",
+          "title": "When Does Military Purpose Justification Become Acceptable? Competing Reasoning and Genocidal Intent in South Africa v. Israel",
+          "url": "https://opiniojuris.org/2026/10/12/when-does-military-purpose-justification-become-acceptable-competing-reasoning-and-genocidal-intent-in-south-africa-v-israel/",
+          "archive": "",
+          "quote": "The mere existence of a military objective does not negate genocidal intent.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "The ICJ has not ruled on whether genocide occurred; in May 2026 it set 22 November 2027 for South Africa's reply and 22 May 2029 for Israel's rejoinder.",
+      "sources": [
+        {
+          "publisher": "BBC News",
+          "title": "Israel committing genocide in Gaza, world's leading experts say",
+          "url": "https://www.bbc.com/news/articles/cde3eyzdr63o",
+          "archive": "",
+          "quote": "The ICJ has not yet made a determination on the subject",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "The Citizen (South Africa)",
+          "title": "ICJ sets new deadlines in SA's genocide case against Israel",
+          "url": "https://www.citizen.co.za/news/south-africa/icj-sets-new-deadlines-sa-israel-genocide-gaza-case/",
+          "archive": "",
+          "quote": "the ICJ ordered Pretoria to file its reply by 22 November 2027. Israel will then have until 22 May 2029 to submit a rejoinder.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Government of South Africa (Presidency)",
+          "title": "Presidency notes ICJ order on South Africa and Israel case",
+          "url": "https://www.gov.za/news/media-statements/presidency-notes-icj-order-south-africa-and-israel-case-02-jun-2026",
+          "archive": "",
+          "quote": "issued an order setting a deadline of 22 November 2027 for South Africa to file its reply",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    "The bodies that concluded Israel is committing or has committed genocide, in full: Amnesty International (December 2024), the UN Commission of Inquiry (16 September 2025, which says it does not speak for the UN as a whole), B'Tselem and Physicians for Human Rights Israel (28 July 2025), and the International Association of Genocide Scholars (resolution of 31 August 2025, 86 per cent of the 28 per cent of its roughly 500 members who voted). Individual legal scholars, quoted by LTO (August 2025), go further: Itamar Mann (Haifa) concludes the only reasonable inference is genocidal intent, dating it to February 2025; another scholar there says that as of August 2025 there is a strong case that it is the only reasonable inference even if it was not at earlier points. A. Dirk Moses and Fyfe (NPR, September 2025) argue the pattern of destruction cannot be explained as collateral damage and that the siege has no clear military purpose.",
+    "Those who dispute it: Israel's government (it told the ICJ the specific intent has not been shown, called the Commission's report 'distorted and false', called B'Tselem's report politically motivated and the IAGS resolution 'an embarrassment to the legal profession'); the US State Department called Amnesty's allegation 'unfounded' (December 2024); in a declaration of intervention at the ICJ dated 12 March 2026 the United States, as summarised by Opinio Juris, relied on Israel's efforts to comply with the laws of armed conflict and to mitigate civilian harm as evidence that genocide is not a reasonable inference. We did not read the declaration itself. Stefan Talmon says war crimes are likely but genocidal intent is not proved.",
+    "Timing. The scholars above do not agree on when, or whether, intent could be inferred; the pattern changes over the period (heavy fighting, the January to March 2025 ceasefire, the March to May 2025 blockade, the August 2025 famine finding, the October 2025 ceasefire and after). A reader should not read the card as describing one uniform period. After the ceasefire of October 2025 the IPC found no famine (December 2025), but Gaza's health ministry still reports hundreds killed since, and Israel's military still holds over half the territory (UN OCHA, 15 October 2026 and 2025 reports).",
+    "The counts. The death toll comes from the Gaza Health Ministry, part of the Hamas-run government, which does not say how many were fighters; Israel has dismissed the ministry's figures as Hamas propaganda, while the UN and the Associated Press have treated the overall total as generally reliable. The IPC famine finding is disputed by Israel's COGAT, which cites its own aid figures and says the IPC relies on gaps in data; the UN counts and COGAT counts of aid trucks differ and have not been reconciled.",
+    "The ICJ's January 2024 order found the Palestinians' right to protection from genocide plausible, which is a low provisional threshold; it did not find that genocide was committed or that Israel's intent was genocidal, and its then-president said it did not decide that the genocide claim itself was plausible. The first measure was passed by fifteen votes to two; judge Sebutinde and judge ad hoc Barak voted against. The statements by Israeli officials the court quoted were made in October 2023; the court did not say they showed intent.",
+    "What warnings and pauses show is itself disputed: Israel and some legal commentators treat evacuation warnings and humanitarian pauses as evidence of efforts to protect civilians; Amnesty and others say that ordering people to move to places that were then attacked, or with nowhere safe to go, cannot be an effective warning and may amount to forced displacement. Evidence of such efforts can count against genocidal intent, but does not make an attack lawful."
+  ],
+  "could_not_verify": [
+    "A third independent source for Gaza's pre-war population: the Palestinian Central Bureau of Statistics release is a PDF the checker cannot read, and the US government page that quotes it counts as a government source. UN OCHA and the BBC are the reliable sources.",
+    "The latest death toll. Reports in September to November 2026 give about 74,000 to 74,700, but the Associated Press pages refused the checker and the other pages I found were not reliable enough to cite; the card uses the OCHA figure of 11 February 2026 and the Independent's mid-June 2026 report.",
+    "The share of the dead who were fighters. I found no independent count; Israel's own claims about militants killed were not read, and the UN and the ministry give no split.",
+    "The outcome of the 2024 polio campaign (the coverage reached) was not checked; the card states only the agreement for pauses. The Reuters report of the agreement refused the checker.",
+    "Israel's own totals for aid (COGAT dashboard, Israeli foreign ministry) are PDFs the checker cannot read; they are cited only through Ynetnews and the BBC. Israel's stated reason for the March to May 2025 blockade (the prime minister's office said aid would not enter until Hamas released the hostages, per a Reuters report that refused the checker) is therefore not on the card.",
+    "The IPC's 2023 and 2024 findings (risk of famine, the Famine Review Committee's reviews of 2024) were not read; the card covers only the August and December 2025 findings.",
+    "The full B'Tselem and PHRI reports, the Commission of Inquiry report and the IAGS resolution were not read; the card relies on press releases, summaries and news coverage.",
+    "Statements by Israeli officials after January 2024 (including proposals about the departure of Gaza's residents, cited by IAGS and by scholars) are not on the card; nor did I find whether Israel investigated or disowned the October 2023 statements the ICJ quoted.",
+    "Evacuation-warning figures given by the Israeli military (leaflets, text messages, calls) came only from a think-tank page that I did not treat as reliable; the Washington Post report refused the checker.",
+    "Facts with only two reliable sources (the rest have three): the pre-war population (OCHA and the BBC, plus a US government page); Israel's account to the ICJ (the ICJ and the Indian Express); the B'Tselem and PHRI finding (NPR and ABC, plus B'Tselem itself as an advocacy source); the Talmon fact (Euronews and LTO); and the ICJ-has-not-ruled fact (BBC and The Citizen, plus the South African government)."
+  ],
+  "not_claimed": [
+    "This card does not say the conduct was lawful. Famine, blocked aid and the destruction of housing are not defended here, and nothing on the card says they were justified.",
+    "It does not say civilians were not killed in very large numbers. About 3 per cent of Gaza's pre-war population is reported dead by the ministry that counts them, and the UN treats the total as broadly reliable.",
+    "It does not say that war crimes did not occur. Even a scholar who rejects the genocide finding (Talmon) says the starvation of civilians as a method of war is a war crime.",
+    "It does not say the ICJ has found genocide or has rejected the claim; it has not ruled.",
+    "It does not say that Amnesty, the UN Commission, B'Tselem, PHRI or the genocide scholars are wrong, or that Israel's rejection is right."
+  ],
+  "status": "draft",
+  "content_approved": false
+}

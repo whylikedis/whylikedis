@@ -1,4 +1,16 @@
 {
+ "003d050ade0b2aab": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://avalon.law.yale.edu/20th_century/kbpact.asp"
+ },
+ "012128f179ed823e": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://corpus.quran.com/translation.jsp?chapter=7&verse=137"
+ },
  "01ca99ffe81dc518": {
   "checked": "2026-11-20",
   "http": 403,
@@ -10,6 +22,66 @@
   "http": 200,
   "result": "found",
   "url": "https://archive.org/stream/100yearswarpalestine/The_Hundred_Years_War_on_Palestine_A_History_of_Settler_Colonial_Conquest_and_Resistance_UK_Edition_Rashid_Khalidi_djvu.txt"
+ },
+ "021b26cc813010e5": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://qurancourse.com/books/palestine-a-four-thousand-year-history/2.2-the-conception-of-palaistin-by-the-founding-father-of-history"
+ },
+ "022ca7ad6d85efd8": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/update-report-08nov24/"
+ },
+ "0235503e90a47e42": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://news.un.org/en/story/2015/12/519212-un-tribunal-rwandan-genocide-formally-closes-major-role-fight-against-impunity"
+ },
+ "0286612f365f8622": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.dawn.com/news/amp/1942391"
+ },
+ "02f1f1e8e509066d": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.israelnationalnews.com/news/365113"
+ },
+ "02f6b1911b94f2b5": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.nam.ac.uk/explore/british-army-palestine"
+ },
+ "03039a37b81bc2a1": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "missing",
+  "url": "https://theconversation.com/israels-mosaic-of-jewish-ethnic-groups-is-key-to-understanding-the-country-217893"
+ },
+ "0334d39ccffca2de": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://yalebooks.yale.edu/2017/03/01/remembering-the-1967-six-day-war/"
+ },
+ "03bf8e1ba53b4e8a": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/otzma-yehudit/"
+ },
+ "0430e2317d05c0d7": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.npr.org/2024/01/26/1227078791/icj-israel-genocide-gaza-palestinians-south-africa"
  },
  "04d9885818f410a4": {
   "checked": "2026-11-20",
@@ -23,11 +95,95 @@
   "result": "found",
   "url": "https://avalon.law.yale.edu/20th_century/res181.asp"
  },
+ "051a7886b1cf76ea": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://thejewishdiaspora.org/migrations/safed-ingathering/"
+ },
+ "055a46512132952a": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://history.state.gov/historicaldocuments/frus1947v02/d68"
+ },
+ "0576c5c089c5a2a0": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.nam.ac.uk/explore/british-army-palestine"
+ },
+ "05cfe968b3580023": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cambridge.org/core/journals/journal-of-roman-studies/article/abs/bar-kokhba-revolt-the-roman-point-of-view/27E95F52A627562F93178F17A51D5FD4"
+ },
+ "0612904fc52fe4f6": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://ciaotest.cc.columbia.edu/journals/jps/v37i145/03.html"
+ },
+ "0658ae32b87e99ae": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://opiniojuris.org/2026/10/12/when-does-military-purpose-justification-become-acceptable-competing-reasoning-and-genocidal-intent-in-south-africa-v-israel/"
+ },
+ "0667c1f65bb59b41": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://countrystudies.us/israel/96.htm"
+ },
+ "06d25dad09b38ea3": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://indianexpress.com/article/research/refugees-in-india-partition-bangladesh-war-tibet-occupation-sri-lankan-tamils-rohingyas-mynamar-world-refugee-day-five-human-influxes-that-have-shaped-india-2864449/"
+ },
+ "06d96a8c3b6b9257": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "missing",
+  "url": "https://quranx.com/17.104"
+ },
+ "0703f3dc5e3ea4b7": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.law.cornell.edu/wex/forcible_transfer"
+ },
  "0737e01346152d38": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://www.amnesty.org/en/latest/news/2024/12/amnesty-international-concludes-israel-is-committing-genocide-against-palestinians-in-gaza/"
+ },
+ "077e4d76c9800ffe": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.hrw.org/report/2002/10/15/erased-moment/suicide-bombing-attacks-against-israeli-civilians"
+ },
+ "078b9057ee199cd0": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.posenlibrary.com/entry/babylonian-chronicle-entry-59897"
+ },
+ "07aef897b1681351": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cfr.org/backgrounder/what-hamas"
+ },
+ "07b9e5747c2abebb": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.deutschlandmuseum.de/en/history/calendar/1945-08-02-the-potsdam-agreement/"
  },
  "07f82abd16cc0918": {
   "checked": "2026-11-20",
@@ -35,11 +191,191 @@
   "result": "found",
   "url": "https://rozenberg.substack.com/p/top-judge-corrects-media"
  },
+ "080791a7a3fcebcd": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://archive.org/stream/PalestineTerminationOfTheMandate15thMay1948/palestine_djvu.txt"
+ },
+ "081482af91d07969": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.ebsco.com/research-starters/history/peel-commission/"
+ },
+ "08206e7674272304": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/auto-insert-201057/"
+ },
+ "08248440bc7f2e90": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.icj-cij.org/case/118"
+ },
+ "08395e470e7affcd": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://pij.org/articles/791"
+ },
+ "096490b6770467e0": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.historynewsnetwork.org/article/benny-morris-in-48-israel-did-what-it-had-to-do"
+ },
+ "0970ce0f55d9f8b3": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.pcpsr.org/en/search/content/2025%20polls"
+ },
+ "09fe9b1c1fe4b225": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/israel-has-committed-genocide-in-the-gaza-strip-un-commission-finds-16sep25/"
+ },
+ "0a24cd248ed604df": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cfr.org/backgrounders/middle-east-peace-plans-background"
+ },
+ "0a8f08777687e1ca": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://history.state.gov/milestones/1961-1968/arab-israeli-war-1967"
+ },
+ "0aa798c0a5039a41": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.jm-qr-objects.jo/en/objects/%D9%85%D8%B3%D9%84%D8%A9%20%D9%85%D9%8A%D8%B4%D8%B9:%20%D8%A5%D8%AD%D8%AF%D9%89%20%D8%A3%D9%87%D9%85%20%D9%88%D8%AB%D8%A7%D8%A6%D9%82%20%D8%A7%D9%84%D8%A3%D8%B1%D8%AF%D9%86%20%D8%A7%D9%84%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%8A%D8%A9"
+ },
+ "0b21e81a80103457": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.foreignaffairs.com/articles/middle-east/2015-03-11/whats-palestinian"
+ },
+ "0b50118d180efe67": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://doi.org/10.1057/9780230297685_3"
+ },
+ "0b8b02db741d2b67": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://news.gallup.com/poll/547760/life-israel-oct-charts.aspx"
+ },
+ "0bdea1200a2ce460": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/auto-insert-207191/"
+ },
+ "0c47cd550f71b43c": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.aljazeera.com/news/2026/9/9/what-right-and-left-mean-in-israel-today"
+ },
+ "0d0522204e38e66a": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.encyclopedia.com/places/asia/israeli-political-geography/jerusalem"
+ },
+ "0d423494b6578a95": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "missing",
+  "url": "https://www.npr.org/2024/12/05/nx-s1-5217774/amnesty-accuses-israel-genocide-palestinians-gaza"
+ },
+ "0d43f216ecb959c8": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://avalon.law.yale.edu/20th_century/un242.asp"
+ },
+ "0d4ab238bd078550": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/history2/origins-and-evolution-of-the-palestine-problem/part-ii-1947-1977/"
+ },
+ "0d68a967fd32f52b": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.aljazeera.com/news/2024/3/4/reasonable-grounds-to-believe-HAMAS-committed-sexual-violence-un"
+ },
+ "0d859d703cf09cdf": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://doi.org/10.1017/ajil.2024.26"
+ },
+ "0ecf7133d2cc1074": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://quranx.com/10.93"
+ },
+ "0ef892effe0d9d38": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://komonews.com/news/nation-world/israel-discovers-tunnels-underneath-gaza-hq-of-un-agency-for-palestinian-refugees-hamas-terrorists-war-middle-east-conflict-oct-7-attack-unwra-united-nations-relief-aid"
+ },
  "0f39344a6280f78e": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://www.hrw.org/news/2024/07/17/questions-and-answers-hamas-led-armed-groups-october-7-2023-assault-israel"
+ },
+ "0fb5bd46e24b5141": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.encyclopedia.com/places/asia/israeli-political-geography/jerusalem"
+ },
+ "10e36e4f23966ba2": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://quran.com/17/104"
+ },
+ "115afa3e0f3592c9": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "missing",
+  "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/safed"
+ },
+ "119744cc441856ca": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/?p=294365"
+ },
+ "11a799948ea0f497": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.pewresearch.org/global/2026/09/15/many-israelis-and-palestinians-say-they-cannot-coexist-peacefully-and-explain-why/"
+ },
+ "11aff2c8c356a034": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://ngsba.org/excavations/tel-dan/"
  },
  "120967ee47e26b45": {
   "checked": "2026-11-20",
@@ -47,17 +383,239 @@
   "result": "found",
   "url": "https://www.aljazeera.com/news/2008/7/19/the-fall-of-an-arab-town-in-1948"
  },
+ "125ede153e6f68e9": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "unreachable",
+  "url": "https://www.britannica.com/place/Gaza-Strip"
+ },
+ "126c5028cd6864bc": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.rte.ie/news/2007/0226/86157-srebrenica/"
+ },
+ "12a359f2de803e7c": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://lieber.westpoint.edu/targeting-gazas-tunnels/"
+ },
+ "12cc129c94498a12": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://avalon.law.yale.edu/20th_century/israel.asp"
+ },
+ "1343ae389a19257f": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://cojs.org/under_byzantine_christianity/"
+ },
+ "13dd732178d4deb7": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.foreignaffairs.com/united-states/might-unmakes-right-hathaway-shapiro"
+ },
+ "14d965fc3fb9c2c2": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://redsails.org/zionist-colonialism-in-palestine/"
+ },
+ "14e32da0a23101f3": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://quran.com/17/1"
+ },
+ "150efbcf083fa537": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "unreachable",
+  "url": "https://www.loc.gov/item/global-legal-monitor/2015-02-06/croatia-international-court-of-justice-serbia-judgment-in-a-case-on-the-application-of-the-convention-on-genocide/"
+ },
+ "1518cf5dd6c51a03": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/religious-zionism/"
+ },
+ "153450e066e9b174": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.theguardian.com/books/2001/may/31/londonreviewofbooks"
+ },
+ "1548b34ccebf4cf6": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.fmreview.org/dayton20/mayne/"
+ },
+ "164a98071f05b890": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.aa.com.tr/en/middle-east/explainer-how-israel-s-election-system-works/4036927"
+ },
+ "16746fe4ae78aef7": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.historynewsnetwork.org/article/benny-morris-in-48-israel-did-what-it-had-to-do"
+ },
+ "169d17a5be075658": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.ohr.int/dayton-peace-agreement/annex-7-2/"
+ },
+ "1703155bc2f87b90": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.aljazeera.com/news/2024/12/5/amnesty-international-accuses-israel-of-committing-genocide-in-gaza"
+ },
+ "171afc8eafb37d95": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.iranicaonline.org/articles/eber-nari/"
+ },
+ "1746b2cd018d6167": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://history.state.gov/historicaldocuments/frus1947v02/d68"
+ },
+ "17f0dd277d8d7bbc": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.wfp.org/stories/famine-grips-gaza-families-turn-desperate-measures-survive"
+ },
+ "18161f12cc470f61": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://peacekeeping.un.org/en/mission/unficyp"
+ },
+ "183422576f1299da": {
+  "checked": "2026-11-20",
+  "http": 401,
+  "result": "unreachable",
+  "url": "https://www.reuters.com/world/middle-east/netanyahu-formally-tasked-with-forming-new-israeli-government-2022-11-13/"
+ },
+ "18ad79c44cc360d6": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.pm.gc.ca/en/news/statements/2025/09/21/statement-prime-minister-carney-on-canada-recognition-state-palestine"
+ },
+ "18fd44eaabb0ab35": {
+  "checked": "2026-11-20",
+  "http": 0,
+  "result": "unreachable",
+  "url": "https://mideastweb.org/palpop.htm"
+ },
+ "1933e319e9753ca0": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/israel-has-committed-genocide-in-the-gaza-strip-un-commission-finds-16sep25/"
+ },
+ "197d2f2fe0f572ec": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://library.biblicalarchaeology.org/sidebar/the-merneptah-stela-israel-enters-history/"
+ },
  "19f8433aadd11b1e": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://prrn.mcgill.ca/prrn/papers/shenhav2.htm"
  },
+ "19fa570b62a29b8d": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://news.un.org/en/story/2024/08/1153761"
+ },
  "1a2d4ecbcb7dbafd": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://www.counterextremism.com/content/hamas-statement-january-21-2024-1"
+ },
+ "1a9b3207ee8fb946": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://archive.org/stream/100yearswarpalestine/The_Hundred_Years_War_on_Palestine_A_History_of_Settler_Colonial_Conquest_and_Resistance_UK_Edition_Rashid_Khalidi_djvu.txt"
+ },
+ "1abe4999006d61f8": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.ynetnews.com/article/4545336"
+ },
+ "1af6b5d312822341": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.foxnews.com/world/palestinian-leader-shines-new-light-on-failed-2008-peace-talks"
+ },
+ "1c4f2e56f04cf797": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "found",
+  "url": "https://www.timesofisrael.com/full-text-of-lapids-2022-speech-to-the-un-general-assembly/"
+ },
+ "1c951fa61e042f8c": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://quranx.com/7.137"
+ },
+ "1cb70a8f635829cb": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.npr.org/2025/07/29/nx-s1-5482830/two-prominent-israeli-rights-groups-say-israel-is-committing-genocide-in-gaza"
+ },
+ "1cbcfc55cb3100de": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://k-larevue.com/en/2022/01/13/the-jewish-exodus-from-arab-lands-1948-1967-about-the-imas-exhibition/"
+ },
+ "1d407122a7cce9af": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.hrw.org/world-report/2005/country-chapters/bosnia-and-herzegovina"
+ },
+ "1d5e3a827d45c9b3": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.newyorker.com/news/news-desk/what-americans-against-trump-can-learn-from-the-failures-of-the-israeli-opposition"
+ },
+ "1d7307c138bcdc0a": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cambridge.org/core/journals/israel-law-review/article/1948-refugees/1E997E364691F4379C6F77EC05BC84AD"
+ },
+ "1d737fb10bb031ea": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.ochaopt.org/content/humanitarian-situation-update-290-gaza-strip"
  },
  "1ddfcc680cba5801": {
   "checked": "2026-11-20",
@@ -71,11 +629,65 @@
   "result": "found",
   "url": "https://archive.org/stream/100yearswarpalestine/The_Hundred_Years_War_on_Palestine_A_History_of_Settler_Colonial_Conquest_and_Resistance_UK_Edition_Rashid_Khalidi_djvu.txt"
  },
+ "1e801a42bb78edf0": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://doi.org/10.1017/s1356186300008300"
+ },
+ "1e9dee496584e5a2": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.lawfaremedia.org/article/the-dangerous-failure-to-hold-hamas-accountable-for-using-human-shields"
+ },
+ "1eb6fca4a422fbb1": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.presidency.ucsb.edu/documents/remarks-announcing-the-white-house-middle-east-peace-plan-with-prime-minister-benjamin"
+ },
+ "1efacd46deca40f0": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://history.state.gov/milestones/1961-1968/arab-israeli-war-1967"
+ },
+ "1f200fd64da61ae3": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "missing",
+  "url": "https://www.mako.co.il/news-israel-elections/election_2022/Article-ca7fe778d3ec281026.htm"
+ },
+ "20350307ed54fe8d": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://news.un.org/en/story/2007/02/210142-un-world-court-acquits-serbia-genocide-bosnia-finds-it-guilty-inaction"
+ },
  "2078345532a87b42": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://www.un.org/unispal/history2/origins-and-evolution-of-the-palestine-problem/part-ii-1947-1977/"
+ },
+ "2082901ecf0ed90c": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://jewishvirtuallibrary.org/united-nations-special-committee-on-palestine-unscop"
+ },
+ "20dfb2e9a97af83b": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.iranicaonline.org/articles/seleucid-empire/"
+ },
+ "216db0d43e3274e2": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/security-council-meeting-coverage-17nov25/"
  },
  "218ba3ea8cfc9519": {
   "checked": "2026-11-20",
@@ -83,11 +695,83 @@
   "result": "found",
   "url": "https://www.ohchr.org/en/press-releases/2025/09/israel-has-committed-genocide-gaza-strip-un-commission-finds"
  },
+ "21e10d3b14abe3f8": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "unreachable",
+  "url": "https://www.timesofisrael.com/israeli-jewish-voters-moved-significantly-rightward-in-recent-years-data-shows/"
+ },
+ "23424ff25521303f": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://news.un.org/en/story/2026/09/1168291"
+ },
  "2395baebeb22a0a5": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://www.amnesty.org/en/latest/news/2024/12/amnesty-international-concludes-israel-is-committing-genocide-against-palestinians-in-gaza/"
+ },
+ "23a809bb01257fe6": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://emergency.unhcr.org/protection/legal-framework/refugee-definition"
+ },
+ "23d81a4d369280f4": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cyprusun.org/?page_id=363"
+ },
+ "23f02cae0886cd0b": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://news.un.org/en/story/2023/10/1141782"
+ },
+ "24af793d86c99269": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://freedomhouse.org/country/israel/freedom-world/2023"
+ },
+ "24c182a588b53ac6": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://ctc.westpoint.edu/the-path-to-october-7-how-iran-built-up-and-managed-a-palestinian-axis-of-resistance/"
+ },
+ "2504eedfba9875eb": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://palestine.un.org/en/314095-final-gaza-rapid-damage-and-needs-assessment-estimates-714-billion-recovery-and"
+ },
+ "253fabdaa9c69321": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.nybooks.com/articles/2001/08/09/camp-david-the-tragedy-of-errors/"
+ },
+ "2575bd95d0f6ac6e": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.nybooks.com/articles/2004/10/07/israel-and-the-arafat-question/"
+ },
+ "260c07a0fb298290": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.theguardian.com/commentisfree/2008/may/15/israelandthepalestinians.usa"
+ },
+ "2629fed301ef8dd1": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.pbs.org/newshour/world/gaza-health-officials-say-55000-Palestinians-have-died-in-israel-hamas-war"
  },
  "2727da83aca63511": {
   "checked": "2026-11-20",
@@ -95,11 +779,71 @@
   "result": "found",
   "url": "https://www.un.org/unispal/document/auto-insert-189271"
  },
+ "2783021bdeab5ac2": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://avalon.law.yale.edu/20th_century/decade17.asp"
+ },
+ "278bb82db02949d0": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://avalon.law.yale.edu/20th_century/palmanda.asp"
+ },
+ "284e2b4f1e549bde": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "found",
+  "url": "https://www.politico.com/blogs/burns-haberman/2011/12/gingrich-palestinians-are-an-invented-people-106721"
+ },
+ "28919b6233b5d56e": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://cojs.org/the_hasmonean_dynasty_-142-37_bce/"
+ },
+ "28c9d902356d58c1": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/tiberias"
+ },
+ "28df523649a0777a": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://news.bbc.co.uk/2/hi/middle_east/3694350.stm"
+ },
+ "29131fd5d5ced86a": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://quran.com/7/137"
+ },
  "2922731c0dd10056": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://jpost.com/israel-hamas-war/article-798766"
+ },
+ "2925ee8c0363fd8d": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://quranx.com/Tafsirs/5.21"
+ },
+ "2929a598fceed64f": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.posenlibrary.com/guide/bar-kokhba-revolt-and-its-aftermath"
+ },
+ "2a4fd532abfa4b86": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://talesoftimesforgotten.com/2023/10/23/no-the-roman-emperor-hadrian-didnt-invent-palestine/"
  },
  "2a842aa669fd159d": {
   "checked": "2026-11-20",
@@ -107,11 +851,65 @@
   "result": "found",
   "url": "https://prrn.mcgill.ca/prrn/papers/shenhav2.htm"
  },
+ "2aadf73a6cc18244": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.thetimes.com/travel/destinations/europe-travel/turkey/an-unfair-exchange-pz03p68np6j"
+ },
+ "2b3a93151706a7f1": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.theguardian.com/world/2025/sep/21/uk-canada-and-australia-announce-formal-recognition-of-palestine-with-wave-of-israel-allies-to-follow"
+ },
+ "2b76c38a1e182379": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.nobelprize.org/prizes/peace/1922/nansen/biographical/"
+ },
+ "2cb29aeba44f0903": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cfr.org/backgrounder/what-hamas"
+ },
+ "2d13ff68baaad41d": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/united-torah-judaism/"
+ },
+ "2d60bd9102b838d6": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://history.state.gov/historicaldocuments/frus1939v04/d828"
+ },
+ "2d9f136532d78d2a": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.theguardian.com/news/2025/mar/20/meir-kahane-israel-kach-ben-gvir-long-dead-extremist"
+ },
  "2e29b3e9c39913b9": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://avalon.law.yale.edu/20th_century/genocide.asp"
+ },
+ "2e371753e7eb9a1f": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.nbcnews.com/news/world/israels-knesset-votes-overwhelmingly-palestinian-statehood-netanyahu-p-rcna162466"
+ },
+ "2ecc4fae7dc5f82b": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.biblicalarchaeology.org/daily/biblical-artifacts/the-tel-dan-inscription-the-first-historical-evidence-of-the-king-david-bible-story/"
  },
  "2f42c40c745ee40c": {
   "checked": "2026-11-20",
@@ -119,11 +917,77 @@
   "result": "found",
   "url": "https://www.opb.org/article/2024/05/15/why-the-u-n-revised-the-numbers-of-women-and-children-killed-in-gaza/"
  },
+ "2f49c93397aa22f5": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "missing",
+  "url": "https://history.state.gov/milestones/1961-1968/arab-israeli-war-1967"
+ },
+ "2ff47255d9141a41": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/balad/"
+ },
+ "3075d4df3d58e644": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.myjewishlearning.com/article/life-in-palestine/"
+ },
  "30db59fe6d2e5f22": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://history.state.gov/milestones/1945-1952/arab-israeli-war"
+ },
+ "30e59ea98734c336": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/update-report-08nov24/"
+ },
+ "312c42a549d6504c": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.bbc.com/news/world-middle-east-39744551"
+ },
+ "3224b77681f8b32b": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.iwm.org.uk/history/what-was-the-holocaust"
+ },
+ "331de8c8efe929e5": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.progressiveisrael.org/why-jews-left-arab-lands-another-look/"
+ },
+ "33296c5855149849": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.bbc.com/news/world-europe-17211937"
+ },
+ "3350033355969c68": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://cyprus-mail.com/divided-island/a-chronology-of-events/1974"
+ },
+ "33d1f6b79a5886c7": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://en.idi.org.il/articles/57466"
+ },
+ "3408e90ee68fba38": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cambridge.org/core/journals/israel-law-review/article/1948-refugees/1E997E364691F4379C6F77EC05BC84AD"
  },
  "344216f7851fb735": {
   "checked": "2026-11-20",
@@ -131,11 +995,41 @@
   "result": "found",
   "url": "https://npr.org/2024/03/04/1235824305/israel-sexual-assault-rape-hamas-attack-un-report"
  },
+ "348ff4f011309652": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://byustudies.byu.edu/article/alexander-the-great-comes-to-jerusalem-the-jewish-response-to-hellenism"
+ },
  "34c1b2aea7b5e16a": {
   "checked": "2026-11-20",
   "http": 403,
-  "result": "unreachable",
+  "result": "missing",
   "url": "https://www.britannica.com/event/1948-Arab-Israeli-War"
+ },
+ "3503ce35123486b8": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.theguardian.com/commentisfree/2013/sep/12/oslo-israel-reneged-colonial-palestine"
+ },
+ "356f809d59967303": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.bbc.com/news/articles/cde3eyzdr63o"
+ },
+ "35afa722f2b7b694": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://quranx.com/5.21"
+ },
+ "35dca92c903c7726": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://history.state.gov/milestones/1937-1945/potsdam-conf"
  },
  "35dd32c7637cb479": {
   "checked": "2026-11-20",
@@ -143,11 +1037,131 @@
   "result": "found",
   "url": "https://www.pbs.org/newshour/world/what-is-gazas-ministry-of-health-and-how-does-it-calculate-the-wars-death-toll"
  },
+ "35f0d88a5784d6c0": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.ynetnews.com/articles/0,7340,L-5467651,00.html"
+ },
+ "365b7294862ba4ee": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.presidency.ucsb.edu/documents/remarks-israel-policy-forum-dinner-new-york-city"
+ },
+ "369f50d30a7497f7": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.progressiveisrael.org/why-jews-left-arab-lands-another-look/"
+ },
  "36b1da57929c2897": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://www.citizen.co.za/news/south-africa/icj-sets-new-deadlines-sa-israel-genocide-gaza-case/"
+ },
+ "386b33d87523029b": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.bbc.com/news/articles/cn02z5kjn40o"
+ },
+ "39660c033ea8d933": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://library.biblicalarchaeology.org/sidebar/invasions-of-the-sea-peoples/"
+ },
+ "396a3a28aecff6d1": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.bbc.com/news/world-middle-east-66741336"
+ },
+ "3a3b22d45fe48e42": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0126%3Abook%3D2%3Achapter%3D104"
+ },
+ "3b03b81b1fb74ce5": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "missing",
+  "url": "https://www.pewresearch.org/global/2024/06/20/societal-conflicts-and-optimism-about-peaceful-coexistence/"
+ },
+ "3b7d6e2a878da68a": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "unreachable",
+  "url": "https://www.palquest.org/en/highlight/31097/i-ottoman-rule"
+ },
+ "3bb0c9ca9af15aee": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://germanhistorydocs.org/en/occupation-and-the-emergence-of-two-states-1945-1961/excerpts-from-the-report-on-the-potsdam-conference-potsdam-agreement-august-2-1945"
+ },
+ "3c4e226f1d08369f": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://legal.un.org/icc/statute/99_corr/cstatute.htm"
+ },
+ "3d88923a180f44a3": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.pewresearch.org/religion/2016/03/08/israels-religiously-divided-society/"
+ },
+ "3dd6d891571bd160": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://history.state.gov/milestones/1977-1980/camp-david"
+ },
+ "3e24942c317d1372": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "unreachable",
+  "url": "https://www.britannica.com/event/Six-Day-War"
+ },
+ "3e2c68d989b84a11": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.posenlibrary.com/guide/rise-and-decline-hasmonean-dynasty"
+ },
+ "3f9e1094aaa1ad51": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://library.biblicalarchaeology.org/sidebar/israelite-kings-in-non-biblical-non-israelite-inscriptions/"
+ },
+ "3fc8cb4cbe172275": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cfr.org/backgrounders/middle-east-peace-plans-background"
+ },
+ "3fd66b7863a9afe7": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.meforum.org/middle-east-quarterly/the-smoking-gun-arab-immigration-into-palestine"
+ },
+ "405ea9cfb6ef13aa": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.myjewishlearning.com/article/jews-in-palestine/"
+ },
+ "407f5fb190da5a73": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://history.state.gov/milestones/1993-2000/oslo"
  },
  "40c67c276da2dbd0": {
   "checked": "2026-11-20",
@@ -155,17 +1169,137 @@
   "result": "found",
   "url": "https://www.britannica.com/print/article/1695871"
  },
+ "410071b940aa6078": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.nybooks.com/articles/2001/08/09/camp-david-the-tragedy-of-errors/"
+ },
+ "4103feddc391b4ef": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://k-larevue.com/en/2022/01/13/the-jewish-exodus-from-arab-lands-1948-1967-about-the-imas-exhibition/"
+ },
+ "41fe4a08948d567f": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.ochaopt.org/content/humanitarian-situation-update-340-gaza-strip"
+ },
+ "423d90e417e2c8d7": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://jcfa.org/article/security-council-resolution-242/"
+ },
+ "427582dfb7112810": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://genocidescholars.org/reactions-to-iags-resolution-on-gaza/"
+ },
+ "42d97e3a0beeb73d": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.aljazeera.com/news/2024/7/18/israels-knesset-votes-to-reject-palestinian-statehood"
+ },
+ "430ddcbe14e4501c": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.iranicaonline.org/articles/jerusalem-and-iran/"
+ },
+ "435d7df7190d635c": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.bbc.com/news/world-europe-17211937"
+ },
  "43666fbb0b2160aa": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://www.channelstv.com/2025/09/16/distorted-and-false-israel-rejects-un-probe-accusing-it-of-genocide/"
  },
+ "44086a2e2c9b07f8": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://pcpsr.org/en/node/731"
+ },
  "442995b12fafee25": {
   "checked": "2026-11-20",
   "http": 403,
-  "result": "unreachable",
+  "result": "found",
   "url": "https://www.britannica.com/print/article/1695871"
+ },
+ "4477035d075f9e75": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://history.state.gov/milestones/1945-1952/arab-israeli-war"
+ },
+ "44883588f7c0c293": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.unrwa.org/palestine-refugees"
+ },
+ "44a67424c4c4a763": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://archive.org/stream/arabimmigrationi26gott/arabimmigrationi26gott_djvu.txt"
+ },
+ "44f814f8ffb9d3e9": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cfr.org/backgrounders/middle-east-peace-plans-background"
+ },
+ "4557ad7f5755188a": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.aljazeera.com/news/2024/6/19/israels-actions-in-gaza-intentional-attack-on-civilians-un-inquiry"
+ },
+ "45e7db796f0df23a": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://aboutislam.net/?p=68710"
+ },
+ "460cb5d365d6768c": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://ecf.org.il/issues/issue/1087"
+ },
+ "4623bcd24d766795": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.aljazeera.com/news/2024/2/18/brazils-lula-compares-israels-war-on-gaza-with-the-holocaust"
+ },
+ "462e5e494e1c73e8": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://history.state.gov/milestones/1993-2000/oslo"
+ },
+ "463a4247468bbecc": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-5-jerusalem-chronicle/"
+ },
+ "471913824173fc78": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.unrwa.org/faq"
  },
  "475d54b4063cc09f": {
   "checked": "2026-11-20",
@@ -173,11 +1307,65 @@
   "result": "found",
   "url": "https://www.thejakartapost.com/world/2024/12/06/us-says-amnesty-charge-of-genocide-by-israel-unfounded"
  },
+ "47def2411e734f59": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.icj-cij.org/node/103898"
+ },
+ "47fabe6e2bedb09e": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://origins.osu.edu/read/1936-1939-arab-revolt-palestine"
+ },
+ "4849022c4232dd57": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://arabcenterdc.org/resource/the-arab-peace-initiative-is-back-on-the-table-netanyahu-is-not-budging/"
+ },
+ "488126d41eeb9e53": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://cojs.org/yehud_coin_1-_4th_century_bce/"
+ },
+ "48aaf7bd7f4eebb6": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.ejiltalk.org/the-attainability-of-the-evidentiary-standard-for-genocidal-intent-in-gaza/"
+ },
+ "48ec1ffa104ee7fa": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.israeliarchaeology.org/lydda/vol-4-2026/lod-and-ramla-not-ramlod-on-a-geographic-anomaly-and-the-longue-duree-of-urban-history-and-history/?lang=en"
+ },
+ "495efa3a92b7cebd": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://jewishvirtuallibrary.org/origin-of-quot-palestine-quot"
+ },
  "49d5b79b79ac6fed": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://www.cbc.ca/1.7133305"
+ },
+ "4a4a710b95677232": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.bbc.com/news/world-europe-17219505"
+ },
+ "4aa5a5fe841f1b65": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://jewishvirtuallibrary.org/israeli-jews-by-region-of-origin"
  },
  "4b4c4d1bdb05b370": {
   "checked": "2026-11-20",
@@ -191,11 +1379,29 @@
   "result": "found",
   "url": "https://news.un.org/en/story/2024/06/1150946"
  },
+ "4c1265bec31aef36": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://doi.org/10.1017/ajil.2024.26"
+ },
  "4c186a6e25831322": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://avalon.law.yale.edu/20th_century/israel.asp"
+ },
+ "4c21dfb830baefe8": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.nybooks.com/articles/2004/10/07/israel-and-the-arafat-question/"
+ },
+ "4c414e101ad0054b": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "found",
+  "url": "https://www.timesofisrael.com/labor-and-meretz-merge-into-united-liberal-democratic-zionist-party-the-democrats/"
  },
  "4c550f5d65554ccc": {
   "checked": "2026-11-20",
@@ -203,11 +1409,83 @@
   "result": "found",
   "url": "https://www.hrw.org/news/2024/07/17/questions-and-answers-hamas-led-armed-groups-october-7-2023-assault-israel"
  },
+ "4c6b2500f03eab28": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.unocha.org/publications/report/occupied-palestinian-territory/humanitarian-situation-update-329-gaza-strip"
+ },
+ "4cec96929fa51f60": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.icj-cij.org/case/91"
+ },
+ "4ceda24437844f97": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.aljazeera.com/news/2024/5/22/mapping-which-countries-recognise-palestine-in-2024"
+ },
+ "4d308f34cc651939": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://avalon.law.yale.edu/20th_century/geneva07.asp"
+ },
+ "4d5c9c4026e2b4ea": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://explaininghistory.org/the-1948-conflict-a-legacy-of-competing-narratives/"
+ },
+ "4dfa63f32dea079e": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://time.com/7313709/israel-policies-actions-gaza-genocide-scholars-association-resolution/"
+ },
  "4dff48a421e65014": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://www.pbs.org/newshour/world/gaza-health-officials-say-55000-Palestinians-have-died-in-israel-hamas-war"
+ },
+ "4e506db1fcaf43a2": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.biblicalarchaeology.org/daily/people-cultures-in-the-bible/who-were-philistines-where-did-they-come-from/"
+ },
+ "4f03a87c10c71a30": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://en.idi.org.il/articles/10203"
+ },
+ "4f20592057f50552": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://ciaotest.cc.columbia.edu/olj/jps/vol32-126usg01.html"
+ },
+ "508422775863b67c": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://history.state.gov/milestones/1993-2000/oslo"
+ },
+ "50afd9e8b9850529": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cnn.com/2024/07/18/middleeast/israel-us-biden-knesset-vote-palestinian-state-intl"
+ },
+ "50d95266a7c42556": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.npr.org/2023/10/19/1207243717/23-years-ago-israelis-and-palestinians-were-talking-about-a-two-state-solution"
  },
  "50e86fca5fc38c9d": {
   "checked": "2026-11-20",
@@ -215,11 +1493,179 @@
   "result": "found",
   "url": "https://www.hrw.org/news/2024/01/26/gaza-world-court-orders-israel-prevent-genocide"
  },
+ "51a7ee251d547128": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://guides.laguardia.edu/c.php?g=1391450&p=10292820"
+ },
+ "5231124332302405": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.theguardian.com/commentisfree/2009/jan/26/barack-obama-george-mitchell-israel-palestine"
+ },
+ "52af099093fb45ef": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://cojs.org/the_babylonian_chronicle_-chronicle_5-_nebuchadnezzar_besieges_jerusalem-_597_bce/"
+ },
+ "52b699fd37b9a2ce": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://quranx.com/17.104"
+ },
+ "5377bc9e3fd477f9": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://talesoftimesforgotten.com/2023/10/23/no-the-roman-emperor-hadrian-didnt-invent-palestine/"
+ },
+ "53ac1b6f30e9ab88": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://fanack.com/arab-palestinian-israeli-conflict/history-of-the-palestinian-israeli-conflict/1948-49-war-un-resolution-242/"
+ },
+ "53bcd3be76a4e074": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.npr.org/2025/09/25/g-s1-89678/israel-gaza-genocide-debates-united-nations"
+ },
+ "53cb66e8201c281c": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.meforum.org/palestinian-ben-gurion"
+ },
+ "54b656c4b7b2fcec": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://pcpsr.org/en"
+ },
+ "54ce1e618295d149": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.jewishencyclopedia.com/articles/7319-hasmoneans"
+ },
+ "5557e937ff29d5d7": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.jpost.com/israel-news/defense-news/article-880779"
+ },
+ "55fa7ff214f23d1c": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/auto-insert-179435/"
+ },
+ "56054206af40fc66": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cfr.org/blog/abbas-admits-he-said-no-israels-peace-offer"
+ },
+ "572937d090a2145f": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/statement-about-the-discovery-of-military-items-in-an-unrwa-school-in-gaza/"
+ },
  "57912f8966c68814": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://www.aljazeera.com/news/2025/1/10/deaths-from-israeli-attacks-in-gaza-undercounted-by-41-percent-study-finds"
+ },
+ "57aeaae53c7cf067": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.reuters.com/graphics/ISRAEL-ELECTION/RESULTS/akvelybkapr/"
+ },
+ "57ea5b1d72205130": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://time.com/6073019/mansour-abbas-arab-israel-coalition-government/"
+ },
+ "5847c7f25b36508f": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/auto-insert-185776/"
+ },
+ "5856142bb7a4cb8f": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.who.int/news/item/22-08-2025-famine-confirmed-for-first-time-in-gaza"
+ },
+ "59736150ad4bc92d": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/history2/origins-and-evolution-of-the-palestine-problem/part-i-1917-1947/"
+ },
+ "599f0d4d66eed727": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://ecf.org.il/issues/issue/1091"
+ },
+ "59e54bebaf6cff5c": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.unrwa.org/faq"
+ },
+ "5a5960813d221627": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "missing",
+  "url": "https://www.britannica.com/topic/Likud"
+ },
+ "5a94c78c8054a150": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.theguardian.com/commentisfree/2015/oct/11/israel-occupation-palestinian-territory-peace-diplomacy"
+ },
+ "5b221a520e66863f": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://news.bbc.co.uk/2/hi/middle_east/3256858.stm"
+ },
+ "5b467b2121f1a2c5": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.unocha.org/publications/report/occupied-palestinian-territory/humanitarian-situation-update-357-gaza-strip"
+ },
+ "5b6f987e0806ce87": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://amp.cbc.ca/lite/story/1.7401842"
+ },
+ "5b74aeabcbb546d1": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.ochaopt.org/content/flash-appeal-2023-glance"
+ },
+ "5bacf79255967243": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.theguardian.com/world/2007/jun/15/israel4"
  },
  "5bbf5605d5fdf646": {
   "checked": "2026-11-20",
@@ -227,11 +1673,89 @@
   "result": "found",
   "url": "https://www.npr.org/2024/01/26/1227078791/icj-israel-genocide-gaza-palestinians-south-africa"
  },
+ "5c349edb6b4003ad": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cambridge.org/core/journals/israel-law-review/article/1948-refugees/1E997E364691F4379C6F77EC05BC84AD"
+ },
  "5cae1262263409ff": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://jewishvirtuallibrary.org/zionist-congresses-during-british-mandate-1923-1946"
+ },
+ "5cdfa0e41648b7e3": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://library.biblicalarchaeology.org/sidebar/the-early-islamic-period-in-the-levant/"
+ },
+ "5dd2d799a2a22540": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.npr.org/2025/09/25/g-s1-89678/israel-gaza-genocide-debates-united-nations"
+ },
+ "5e1e6b63d36900d3": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "missing",
+  "url": "https://history.state.gov/milestones/1961-1968/arab-israeli-war-1967"
+ },
+ "5e87d301a694736a": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.hrw.org/report/2007/06/30/indiscriminate-fire/palestinian-rocket-attacks-israel-and-israeli-artillery"
+ },
+ "5ee07d5c48e10e01": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.lto.de/recht/hintergruende/h/gaza-is-israel-committing-genocide-assessments-international-law-experts"
+ },
+ "5ef97b883172bca1": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.aljazeera.com/news/2023/4/9/the-deir-yassin-massacre-why-it-still-matters-75-years-later"
+ },
+ "5f35dada922e52ff": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://corpus.quran.com/translation.jsp?chapter=5&verse=26"
+ },
+ "5f851b000e75e47f": {
+  "checked": "2026-11-20",
+  "http": 429,
+  "result": "found",
+  "url": "https://institute.global/insights/geopolitics-and-security/mechanism-against-extremism-who-gets-run-israels-elections"
+ },
+ "5f9cdf46e099ccfb": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.iwm.org.uk/history/second-world-war/victory/how-the-potsdam-conference-shaped-the-future-of-post-war-europe"
+ },
+ "607e83350abbe875": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cfr.org/backgrounder/what-hamas"
+ },
+ "60e32c4b85c04f2c": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.middleeasteye.net/news/turkey-greece-population-exchange-painful-yearning-lost-past"
+ },
+ "612b3ae6e489eaf9": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.pewresearch.org/politics/2021/11/09/how-the-political-typology-groups-view-major-issues/"
  },
  "6131439cfe05d1c3": {
   "checked": "2026-11-20",
@@ -245,17 +1769,203 @@
   "result": "found",
   "url": "https://www.icj-cij.org/node/203447"
  },
+ "622c7257b1f2d534": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.theguardian.com/world/2008/nov/01/israel-and-the-palestinians-middle-east"
+ },
+ "6246581f0cab616d": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://en.idi.org.il/articles/51746"
+ },
+ "629857c61e7a1299": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.jta.org/archive/ross-to-u-s-jews-palestinians-will-rue-another-missed-opportunity"
+ },
+ "62a8dba7fa126e6c": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "missing",
+  "url": "https://sunnah.com/bukhari:1189"
+ },
+ "62d7030c595007b7": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.latimes.com/archives/la-xpm-2004-jan-26-oe-morris26-story.html"
+ },
+ "638402b31f014a8a": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/auto-insert-180015/"
+ },
+ "63b1b7cf6bd11221": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.ebsco.com/research-starters/history/peel-commission/"
+ },
+ "64c38af7307b0a01": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.icj-cij.org/node/203447"
+ },
+ "64e57d28b7b6124c": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.foreignaffairs.com/united-states/might-unmakes-right-hathaway-shapiro"
+ },
+ "64edf776790240cc": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.posenlibrary.com/guide/judea-under-ptolemaic-and-seleucid-rule"
+ },
+ "65275b9ea2f44f0c": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.bpb.de/themen/nationalsozialismus-zweiter-weltkrieg/dossier-nationalsozialismus/39587/die-vertreibung-der-deutschen-aus-den-gebieten-jenseits-von-oder-und-neisse/"
+ },
+ "66688a59b35ac6f3": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.reuters.com/graphics/ISRAEL-ELECTION/RESULTS/akvelybkapr/"
+ },
+ "678cf2585ab3ad09": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cambridge.org/core/journals/israel-law-review/article/1948-refugees/1E997E364691F4379C6F77EC05BC84AD"
+ },
+ "687007ce741bb479": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/auto-insert-208796"
+ },
+ "68acada7c9a751db": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://clintonwhitehouse6.archives.gov/1994/10/1994-10-26-clinton-hussein-and-rabin-on-peace-treaty-signing.html"
+ },
  "695fe3758589bb7e": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://npr.org/2024/03/04/1235824305/israel-sexual-assault-rape-hamas-attack-un-report"
  },
+ "698c9b23b5a1abd8": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.bbc.com/news/articles/ckgdpz0gp3jo"
+ },
+ "698ead7651ef5360": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://cojs.org/?p=37009"
+ },
+ "6a1b381682372a5e": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.iranicaonline.org/articles/babylonia/babylonia-i/"
+ },
+ "6a662e4995dfe951": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.tarb.co.il/sudden-change-or-gradual-transition/"
+ },
+ "6a9591bbc5aaa408": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.pbs.org/newshour/world/what-is-gazas-ministry-of-health-and-how-does-it-calculate-the-wars-death-toll"
+ },
+ "6ae488f97b108308": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.pbs.org/newshour/world/spain-ireland-and-norway-formally-recognize-a-palestinian-state"
+ },
+ "6b324f9d1024c601": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.versobooks.com/blogs/news/3809-the-nakba-and-the-ethnic-cleansing-of-palestine"
+ },
+ "6bb3ef7cef077e93": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.ynetnews.com/article/b1wd5bzfll"
+ },
+ "6be9e62e44db58e0": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.encyclopedia.com/politics/dictionaries-thesauruses-pictures-and-press-releases/amir-yigal-1970"
+ },
+ "6c94c8600ee57f8b": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://quran.com/10/93"
+ },
+ "6c97a9324c9109c0": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.jpost.com/israel-news/article-856501"
+ },
  "6cbc7f6012c2d9eb": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://archive.org/stream/100yearswarpalestine/The_Hundred_Years_War_on_Palestine_A_History_of_Settler_Colonial_Conquest_and_Resistance_UK_Edition_Rashid_Khalidi_djvu.txt"
+ },
+ "6cdadbac751485bb": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/auto-insert-189596/"
+ },
+ "6d8aae7314269b09": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.jpost.com/israel-news/article-856501"
+ },
+ "6d9b192b0e228a33": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.ebsco.com/research-starters/ethnic-and-cultural-studies/annihilation-racial-and-ethnic-groups"
+ },
+ "6daf09937e67d65d": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.bpb.de/themen/nationalsozialismus-zweiter-weltkrieg/dossier-nationalsozialismus/39587/die-vertreibung-der-deutschen-aus-den-gebieten-jenseits-von-oder-und-neisse/"
+ },
+ "6df6cdb353603582": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.theguardian.com/world/2017/may/01/hamas-new-charter-palestine-israel-1967-borders"
  },
  "6dfc7286ace5c4aa": {
   "checked": "2026-11-20",
@@ -269,11 +1979,89 @@
   "result": "found",
   "url": "https://www.ochaopt.org/content/hostilities-gaza-strip-and-israel-reported-impact-day-224"
  },
- "724258dee7680504": {
+ "6ed71eca4cc96f2d": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.rnz.co.nz/news/world/539107/how-many-palestinians-has-israel-s-gaza-offensive-killed"
+ },
+ "6eefca53503b3c50": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cfr.org/article/irans-regional-armed-network"
+ },
+ "6f50837592d712f4": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://cojs.org/moabite_stone-_c-_840_bce/"
+ },
+ "6fa5d595d5142efd": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://thejewishmuseum.org/exhibitions/tel-dan-stele/"
+ },
+ "6fd391f8612f4df0": {
   "checked": "2026-11-20",
   "http": 403,
   "result": "unreachable",
+  "url": "https://www.britannica.com/print/article/1695871"
+ },
+ "6fefc62b0a63f9ad": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.polskieradio.pl/395/7785/artykul/3580191,un-inquiry-says-israel-committed-genocide-in-gaza-israel-calls-report-&"
+ },
+ "703c153a218d8307": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cambridge.org/core/journals/israel-law-review/article/1948-refugees/1E997E364691F4379C6F77EC05BC84AD"
+ },
+ "70fb6d58307f687c": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://news.un.org/en/story/2023/10/1141782"
+ },
+ "7145d91550b5dc1b": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.mfa.gov.tr/lausanne-peace-treaty-vi_-convention-concerning-the-exchange-of-greek-and-turkish-populations-signed-at-lausanne_.en.mfa"
+ },
+ "714df91781631f7c": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.rnz.co.nz/news/world/539107/how-many-palestinians-has-israel-s-gaza-offensive-killed"
+ },
+ "718583c4f35f2128": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.aljazeera.com/news/2020/1/28/trump-unveils-his-middle-east-plan-amid-palestinian-rejections"
+ },
+ "724258dee7680504": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "found",
   "url": "https://www.britannica.com/event/1948-Arab-Israeli-War"
+ },
+ "724e58c4cc825e69": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cambridge.org/core/journals/israel-law-review/article/1948-refugees/1E997E364691F4379C6F77EC05BC84AD"
+ },
+ "72610b3b46c9ea17": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://israeled.org/census-of-palestine-1931-an-invaluable-glimpse-at-palestines-population/"
  },
  "73cb42fd9cab9eac": {
   "checked": "2026-11-20",
@@ -287,17 +2075,215 @@
   "result": "found",
   "url": "https://archive.org/stream/100yearswarpalestine/The_Hundred_Years_War_on_Palestine_A_History_of_Settler_Colonial_Conquest_and_Resistance_UK_Edition_Rashid_Khalidi_djvu.txt"
  },
+ "744a1f9214e2c1a1": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://history.state.gov/milestones/1993-2000/oslo"
+ },
+ "762809a9f41cb6bc": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.myjewishlearning.com/article/life-in-palestine/"
+ },
+ "763df3bfbf7f830a": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://news.un.org/en/story/2025/05/1163401"
+ },
+ "765af271c0726efb": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://doi.org/10.1057/9780230297685_3"
+ },
+ "767efa9bb969e9eb": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://news.bbc.co.uk/2/hi/middle_east/3256858.stm"
+ },
+ "77760705aaebdee2": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://doi.org/10.1017/ajil.2024.26"
+ },
+ "780244494b22cc98": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://avalon.law.yale.edu/20th_century/un242.asp"
+ },
+ "7811e5ad61f4dbda": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.democracynow.org/2018/4/19/rashid_khalidi_the_israeli_security_establishment"
+ },
+ "78338314540954c9": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/report-gaza-strip-rapid-damage-20apr26/"
+ },
+ "78cfc00e74bc12f6": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "missing",
+  "url": "https://www.jpost.com/Middle-East/UNRWA-investigating-20-rockets-found-in-one-of-its-vacant-schools-363279"
+ },
+ "7952d1380dd68915": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://quran.com/5/26"
+ },
+ "796c68bebc7509cd": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.jus.uio.no/english/services/library/treaties/01/1-01/friendly-relations.html"
+ },
+ "7a539cc22a6c1419": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://m.jpost.com/israel-hamas-war/article-791838"
+ },
+ "7a7d05ed21ae272d": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://k-larevue.com/en/2022/01/13/the-jewish-exodus-from-arab-lands-1948-1967-about-the-imas-exhibition/"
+ },
+ "7a8d743b2c13da8d": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://corpus.quran.com/translation.jsp?chapter=5&verse=21"
+ },
+ "7b3a85f526a03a66": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.aljazeera.com/news/2024/7/17/hamas-committed-numerous-crimes-against-humanity-on-oct-7-hrw"
+ },
+ "7b6e4dd2a120c004": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://courses.lumenlearning.com/suny-hccc-worldhistory2/chapter/the-partitioning-of-palestine/"
+ },
+ "7bc8a31a9544a6ce": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://yalebooks.yale.edu/2017/03/01/remembering-the-1967-six-day-war/"
+ },
+ "7cd01eb7128fdc53": {
+  "checked": "2026-11-20",
+  "http": 0,
+  "result": "unreachable",
+  "url": "https://old.btselem.org/statistics/english/casualties.asp?eD=26&eM=12&eY=2008&filterby=event&oferet_stat=before&sD=29&sM=09&sY=2000"
+ },
+ "7cd131e68d2e79fa": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://doi.org/10.1057/9780230297685_5"
+ },
+ "7daabadf2c8a7ba3": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://encyclopedia.ushmm.org/content/en/article/rwanda-the-first-conviction-for-genocide"
+ },
+ "7db3f5f2ddc279af": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://religionfacts.com/islam/jerusalem"
+ },
+ "7e3c102202d7a23f": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/update-report-08nov24/"
+ },
  "7e4636aced47a84e": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://www.un.org/unispal/history2/origins-and-evolution-of-the-palestine-problem/part-ii-1947-1977/"
  },
+ "7ec939cb1baaba5c": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://en.idi.org.il/articles/45854"
+ },
+ "7edf5746793eb4c2": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cambridge.org/core/journals/israel-law-review/article/1948-refugees/1E997E364691F4379C6F77EC05BC84AD"
+ },
+ "7eec46eb0ab96d6a": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.pewresearch.org/religion/2016/03/08/israels-religiously-divided-society/"
+ },
  "7f0e04a2d925d5f0": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://prrn.mcgill.ca/prrn/papers/shenhav2.htm"
+ },
+ "7fa140cea02c1837": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://library.biblicalarchaeology.org/sidebar/israelite-kings-in-non-biblical-non-israelite-inscriptions/"
+ },
+ "7fec2b6ec3aea452": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://cojs.org/yahud_stamps-_c-_539_bce/"
+ },
+ "801586c13607d0af": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.danielpipes.org/19124/mrs-peters-palestine"
+ },
+ "8042cf69358badf5": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://history.state.gov/milestones/1961-1968/arab-israeli-war-1967"
+ },
+ "8043fa288e680eb6": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.jewishvirtuallibrary.org/the-peel-commission"
+ },
+ "806775bab3910ec2": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/our-genocide-report-of-an-israeli-human-rights-organization-btselem-non-un-document/"
+ },
+ "80e8dc157ae606c7": {
+  "checked": "2026-11-20",
+  "http": 0,
+  "result": "unreachable",
+  "url": "https://www.miamiherald.com/news/nation-world/national/article301641594.html"
  },
  "80eb5c817da07274": {
   "checked": "2026-11-20",
@@ -311,17 +2297,71 @@
   "result": "missing",
   "url": "https://www.britannica.com/print/article/1695871"
  },
+ "812752ac3ee72b97": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.foreignaffairs.com/united-states/might-unmakes-right-hathaway-shapiro"
+ },
+ "81349fca5ad8647b": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cnn.com/world/live-news/palestinian-statehood-israel-gaza-09-21-25"
+ },
  "813e962a6ae54f31": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://www.jewishvirtuallibrary.org/anti-semitism-wing/in-the-arabmuslim-world/historical-context-of-anti-semitism-2/jewish-refugees-from-arab-countries"
  },
+ "8152662328c8729a": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "missing",
+  "url": "https://cojs.org/1488-jewish-italian-pilgrim-rabbi-obadiah-da-bertinoro/"
+ },
+ "8177e76016e1512f": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/united-torah-judaism/"
+ },
+ "81f19f76e455ed26": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://news.gallup.com/poll/509129/update-partisan-gaps-expand-government-power-climate.aspx"
+ },
+ "8238504ac9bbbc0e": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.pm.gc.ca/en/news/statements/2025/09/21/statement-prime-minister-carney-on-canada-recognition-state-palestine"
+ },
  "830ff47bd8b8a78b": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://merip.org/2004/03/no-more-tears/"
+ },
+ "831e2451c51afdc3": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.pewresearch.org/global/2025/06/03/views-of-the-potential-for-lasting-peace/"
+ },
+ "832b4787628c2438": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.rnz.co.nz/news/world/539107/how-many-palestinians-has-israel-s-gaza-offensive-killed"
+ },
+ "832e19ff18fefbd0": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cnn.com/world/live-news/palestinian-statehood-israel-gaza-09-21-25"
  },
  "83b287d3d8c06a6a": {
   "checked": "2026-11-20",
@@ -335,11 +2375,215 @@
   "result": "found",
   "url": "https://www.icj-cij.org/node/203447"
  },
+ "8478077666945486": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/un-secretary-general-remarks-to-security-council-on-the-situation-in-the-middle-east/"
+ },
+ "84b66882b25445af": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://sunnah.com/bukhari:1189"
+ },
+ "84f1c009c2b8a21d": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://ecfr.eu/special/the-ideas-of-israel/"
+ },
+ "853f5731a6b49868": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://lieber.westpoint.edu/evacuation-northern-gaza-practical-legal-aspects/"
+ },
+ "8599262b1740e19d": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0126%3Abook%3D7%3Achapter%3D89"
+ },
+ "859f554ea9feee9f": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.ynetnews.com/article/sj00e9bkwc"
+ },
+ "85a518494aebcfb6": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.aljazeera.com/news/2026/9/9/what-right-and-left-mean-in-israel-today"
+ },
  "85ca9de3971f0471": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://www.gov.za/news/media-statements/presidency-notes-icj-order-south-africa-and-israel-case-02-jun-2026"
+ },
+ "86676456968c9859": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.aljazeera.com/news/2026/9/9/what-right-and-left-mean-in-israel-today"
+ },
+ "86e2bddb98a15011": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.bbc.com/news/articles/c4g0dv7rxxvo"
+ },
+ "87104d711c062d58": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.jns.org/former-top-hague-judge-media-wrong-to-report-court-ruled-plausible-claim-of-israeli-genocide/"
+ },
+ "873252f8d35c1179": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://reliefweb.int/report/occupied-palestinian-territory/gaza-strip-famine-confirmed-gaza-governorate-projected-expand-1-july-30-september-2025-published-22-august-2025"
+ },
+ "874788d2edbfd165": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/the-democrats/"
+ },
+ "87c605b271c692eb": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.myjewishlearning.com/article/the-mass-migration-of-the-1950s/"
+ },
+ "884823d85ee0ad7c": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.adl.org/resources/backgrounder/disengagement"
+ },
+ "885a1c9e49d830e7": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://encyclopedia.ushmm.org/content/en/article/the-rwanda-genocide"
+ },
+ "88903aa10877b9a1": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://asil.org/insights/volume/8/issue/19/icty-appeals-chamber-delivers-two-major-judgments-blaski-and-krsti"
+ },
+ "895ac899a54b30d5": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://quran.com/5/21"
+ },
+ "896588956eec2b9d": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.livius.org/articles/concept/roman-jewish-wars/roman-jewish-wars-2/"
+ },
+ "89f72f7a337dced6": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.middleeasteye.net/news/turkey-greece-population-exchange-painful-yearning-lost-past"
+ },
+ "8a2aedbef2c628dc": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.rnz.co.nz/news/world/539107/how-many-palestinians-has-israel-s-gaza-offensive-killed"
+ },
+ "8a8b676e242e45e2": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://library.biblicalarchaeology.org/sidebar/the-early-islamic-period-in-the-levant/"
+ },
+ "8ab2700a40a9b002": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.aljazeera.com/opinions/2012/5/15/jewish-democracy-founded-on-ugly-battles"
+ },
+ "8bc9cec2385544ab": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.hmd.org.uk/learn-about-the-holocaust-and-genocides/the-holocaust/"
+ },
+ "8c02b9dd01447665": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.rnz.co.nz/news/world/539107/how-many-palestinians-has-israel-s-gaza-offensive-killed"
+ },
+ "8c29bec13659f58d": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://archive.org/stream/100yearswarpalestine/The_Hundred_Years_War_on_Palestine_A_History_of_Settler_Colonial_Conquest_and_Resistance_UK_Edition_Rashid_Khalidi_djvu.txt"
+ },
+ "8c72ca3d1024d506": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.bbc.com/news/articles/c4g0dv7rxxvo"
+ },
+ "8cac81fcd4a625d6": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.who.int/news/item/19-12-2025-un-agencies-welcome-news-that-famine-has-been-pushed-back-in-the-gaza-strip-but-warn-fragile-gains-could-be-reversed-without-increased-and-sustained-support"
+ },
+ "8cbbea991c90e0af": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.npr.org/2024/02/10/1230632741/israel-gaza-tunnels-unrwa-united-nations"
+ },
+ "8cebf2becc984e82": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cfr.org/backgrounders/middle-east-peace-plans-background"
+ },
+ "8cffbdc7e8733692": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/auto-insert-195974/"
+ },
+ "8d302e633200920b": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://prrn.mcgill.ca/prrn/papers/shenhav2.htm"
+ },
+ "8d9e868a76fd6d77": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://explaininghistory.org/2025/11/17/the-1949-armistice-agreements-how-the-ceasefires-created-a-frozen-conflict/"
+ },
+ "8decd83397aee967": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.pewresearch.org/global/2025/06/03/views-of-the-potential-for-lasting-peace/"
+ },
+ "8e5e9b3afca42c2c": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.migrationpolicy.org/journal/feature/generations-palestinian-refugees-face-protracted-displacement-and-dispossession"
  },
  "8e648d0a3651c76f": {
   "checked": "2026-11-20",
@@ -347,11 +2591,35 @@
   "result": "found",
   "url": "https://www.cbc.ca/1.7133305"
  },
+ "8ec3b50eb73ec564": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/auto-insert-179435/"
+ },
  "8ed4b39ddfb438bc": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://www.icj-cij.org/node/203447"
+ },
+ "8f3e2e714cf8f978": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://news.gallup.com/poll/657404/less-half-sympathetic-toward-israelis.aspx"
+ },
+ "8f3fd667295baa48": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.abc.net.au/news/2025-07-29/israeli-orgs-label-gaza-situation-genocide/105584184"
+ },
+ "8f755453c7289bec": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/raam/"
  },
  "8f8dc02fb2a9d388": {
   "checked": "2026-11-20",
@@ -359,11 +2627,149 @@
   "result": "found",
   "url": "https://www.un.org/unispal/history2/origins-and-evolution-of-the-palestine-problem/part-ii-1947-1977/"
  },
+ "90c6d7d851a3e7c3": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.ynetnews.com/article/rkh1ndhqxx"
+ },
+ "916e6671ecbde4c3": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.amnesty.org/en/latest/news/2024/12/amnesty-international-concludes-israel-is-committing-genocide-against-palestinians-in-gaza/"
+ },
+ "91b0d9723c3d2902": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.aljazeera.com/news/2026/9/9/what-right-and-left-mean-in-israel-today"
+ },
+ "91dffe8c7200ccb1": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://archive.org/stream/100yearswarpalestine/The_Hundred_Years_War_on_Palestine_A_History_of_Settler_Colonial_Conquest_and_Resistance_UK_Edition_Rashid_Khalidi_djvu.txt"
+ },
  "920484ba39da323c": {
   "checked": "2026-11-20",
   "http": 403,
-  "result": "unreachable",
+  "result": "found",
   "url": "https://www.britannica.com/print/article/1695871"
+ },
+ "921d29edb578e73c": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://teachjewishhistory.org/topic-continuous-presence"
+ },
+ "92a5d4c09d8d500d": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.unocha.org/publications/report/occupied-palestinian-territory/humanitarian-situation-update-357-gaza-strip"
+ },
+ "93302e3b53508b41": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.justsecurity.org/91728/between-rhetoric-and-effects-the-icj-provisional-measures-order-in-south-africa-v-israel/"
+ },
+ "936023938232a4df": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.deutschlandmuseum.de/en/history/calendar/1945-08-02-the-potsdam-agreement/"
+ },
+ "938d7f45ee517e42": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.jewishexponent.com/?p=217019"
+ },
+ "944c618d21d09eec": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.ejiltalk.org/implausible-confusion-the-meaning-of-plausibility-in-the-icjs-provisional-measures/"
+ },
+ "948d51169c85bda2": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.commentary.org/articles/efraim-karsh/were-the-palestinians-expelled/"
+ },
+ "94a1deca97cf2d44": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://encyclopedia.ushmm.org/content/en/article/final-solution-overview"
+ },
+ "94ae8104e0425cf1": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.mfa.gov.tr/lausanne-peace-treaty-vi_-convention-concerning-the-exchange-of-greek-and-turkish-populations-signed-at-lausanne_.en.mfa"
+ },
+ "94c6bc46a15caf94": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://image-database.nes.lsa.umich.edu/items/show/61"
+ },
+ "950e05e016ff520e": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.newsweek.com/american-support-israel-hits-record-low-poll-2040978"
+ },
+ "95136a344fb644ae": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cfr.org/backgrounder/what-hamas"
+ },
+ "955d4deccc8dd691": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.iwm.org.uk/history/what-was-the-holocaust"
+ },
+ "95ca889058cbfdb3": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.thenationalnews.com/news/mena/2025/06/10/hamas-must-hand-over-its-weapons-mahmoud-abbas-tells-emmanuel-macron-in-a-letter"
+ },
+ "95cd1d79cdba25e6": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "unreachable",
+  "url": "https://www.britannica.com/event/1948-Arab-Israeli-War"
+ },
+ "967988be13c7a787": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/talmud-jerusalem"
+ },
+ "96efbc49cec01523": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.bbc.com/news/articles/ckgdpz0gp3jo"
+ },
+ "97e3c2822e39a01e": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://germanhistorydocs.org/en/occupation-and-the-emergence-of-two-states-1945-1961/excerpts-from-the-report-on-the-potsdam-conference-potsdam-agreement-august-2-1945"
+ },
+ "97e84d416ae13205": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.jns.org/news/israel-news/international-court-of-justice-extends-timeline-in-south-africas-genocide-case-against-israel"
  },
  "98912833a42aaebc": {
   "checked": "2026-11-20",
@@ -377,11 +2783,191 @@
   "result": "found",
   "url": "https://www.jewishvirtuallibrary.org/anti-semitism-wing/in-the-arabmuslim-world/historical-context-of-anti-semitism-2/jewish-refugees-from-arab-countries"
  },
+ "99eeb3dc1855898d": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://cojs.org/1200-1300-mamluks-and-synagogues/"
+ },
+ "99f5beef835f61bf": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/shas/"
+ },
+ "9a27320a86d33885": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.jta.org/archive/ross-to-u-s-jews-palestinians-will-rue-another-missed-opportunity"
+ },
+ "9a7d1b42aabe270b": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.npr.org/2024/12/05/nx-s1-5217774/amnesty-accuses-israel-genocide-palestinians-gaza"
+ },
+ "9a83c38ce268624f": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "unreachable",
+  "url": "https://www.britannica.com/event/Six-Day-War"
+ },
+ "9a8786883b536440": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://doi.org/10.1017/9781108783170.009"
+ },
+ "9a93260d8d0e3b4d": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.nybooks.com/articles/1986/03/27/mrs-peterss-palestine-an-exchange/?pagination=false"
+ },
+ "9b3db4e61b6506f9": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://doi.org/10.1017/ajil.2024.26"
+ },
+ "9bb0bb24aa8f00f5": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://lieber.westpoint.edu/targeting-gazas-tunnels/"
+ },
+ "9c5c00cf819ae79d": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.theguardian.com/world/2007/jun/15/israel4"
+ },
+ "9cebf051b588a047": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.encyclopedia.com/politics/dictionaries-thesauruses-pictures-and-press-releases/arab-israel-war-1948"
+ },
+ "9d46776380aad0f1": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.jta.org/2013/11/14/israel/canadian-parliamentary-committee-recognizes-jews-who-fled-arab-lands"
+ },
+ "9d4800ffeaa39c7c": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.nybooks.com/articles/1986/03/27/mrs-peterss-palestine-an-exchange/?pagination=false"
+ },
+ "9d53b4b488ae2325": {
+  "checked": "2026-11-20",
+  "http": 0,
+  "result": "found",
+  "url": "https://archive.ipu.org/english/parline/reports/2155_B.htm"
+ },
+ "9da98b1f28a7c16e": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.pewresearch.org/short-reads/2023/09/26/israelis-have-grown-more-skeptical-of-a-two-state-solution/"
+ },
+ "9e6c3089eb30a17a": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.meforum.org/middle-east-quarterly/the-smoking-gun-arab-immigration-into-palestine"
+ },
+ "9ec92b4e72d82c24": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "missing",
+  "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/religious-zionism/"
+ },
+ "9f0dc88d89c1ff0a": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cambridge.org/core/journals/israel-law-review/article/1948-refugees/1E997E364691F4379C6F77EC05BC84AD"
+ },
+ "9f1afe6cbae0f2c4": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.israeliarchaeology.org/lydda/vol-4-2026/lod-and-ramla-not-ramlod-on-a-geographic-anomaly-and-the-longue-duree-of-urban-history-and-history/?lang=en"
+ },
+ "9f4b5bc16d934b80": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://library.biblicalarchaeology.org/sidebar/a-tale-of-two-talmuds/"
+ },
  "9f82e7c289db3665": {
   "checked": "2026-11-20",
   "http": 403,
   "result": "found",
   "url": "https://www.britannica.com/event/1948-Arab-Israeli-War"
+ },
+ "9fa211ede9d78010": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cambridge.org/core/journals/journal-of-the-royal-asiatic-society/article/jewish-communities-of-safed-and-jerusalem-during-the-fourteenth-century/DAFA875AAE01C52DEDB26B198731DAE3"
+ },
+ "a01d0d2c6271135e": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.bbc.com/news/world-middle-east-68687749"
+ },
+ "a0fec3a8e001d734": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.jpost.com/israel-election-2026/article-906447"
+ },
+ "a106e85132b4b938": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.myjewishlearning.com/article/life-in-palestine/"
+ },
+ "a107d16be4bb3c77": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://jewishvirtuallibrary.org/comprehensive-listing-of-terrorism-victims-in-israel"
+ },
+ "a12183671dc2e3bf": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.pewresearch.org/politics/2021/11/09/how-the-political-typology-groups-view-major-issues/"
+ },
+ "a14339b18bf0666c": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://scholars.law.wlu.edu/en/publications/prosecutor-v-radislav-krsti%C4%87-icty-authenticates-genocide-at-srebr/"
+ },
+ "a184ec6688f4d896": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.hmd.org.uk/learn-about-the-holocaust-and-genocides/the-holocaust/"
+ },
+ "a1a6cda043fbbca3": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/land-israel-governance"
+ },
+ "a206d8657bbd6feb": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "unreachable",
+  "url": "https://www.britannica.com/event/Six-Day-War"
  },
  "a233cb54bfb1f326": {
   "checked": "2026-11-20",
@@ -395,11 +2981,59 @@
   "result": "found",
   "url": "https://amp.cbc.ca/lite/story/1.7010255"
  },
+ "a3ae81cbf7dfb41c": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://news.un.org/en/story/2015/02/489992-international-court-justice-dismisses-genocide-claims-croatia-and-serbia"
+ },
+ "a41e9627fa768865": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://courses.lumenlearning.com/suny-hccc-worldhistory2/chapter/the-partitioning-of-palestine/"
+ },
  "a42dca09d27c0d44": {
   "checked": "2026-11-20",
   "http": 403,
   "result": "unreachable",
   "url": "https://www.britannica.com/event/1948-Arab-Israeli-War"
+ },
+ "a4489d19f55a35e2": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.jpost.com/opinion/article-752532"
+ },
+ "a48c61ad4dceb9db": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://news.gallup.com/poll/547760/life-israel-oct-charts.aspx"
+ },
+ "a499009de5876573": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.npr.org/2025/09/25/g-s1-89678/israel-gaza-genocide-debates-united-nations"
+ },
+ "a50417352c25b7d1": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://archaeology.huji.ac.il/city-david/"
+ },
+ "a52cada7816ffef7": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.jpost.com/jerusalem-report/the-peel-commission-report-of-1937-688922"
+ },
+ "a539bc9910a56537": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.bbc.com/news/world-middle-east-51288218"
  },
  "a58f27aa6fee5e5b": {
   "checked": "2026-11-20",
@@ -407,11 +3041,89 @@
   "result": "found",
   "url": "https://www.channelstv.com/2025/09/16/distorted-and-false-israel-rejects-un-probe-accusing-it-of-genocide/"
  },
+ "a60017a2c407998f": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.mfa.gov.tr/lausanne-peace-treaty-vi_-convention-concerning-the-exchange-of-greek-and-turkish-populations-signed-at-lausanne_.en.mfa"
+ },
+ "a67a7ba588bdb28c": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://blogs.library.duke.edu/blog/2024/09/18/izmir-and-the-mubadele/"
+ },
+ "a7ae221c45af9813": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://cojs.org/the_palestinian_talmud-_the_yerushalmi/"
+ },
  "a7e8ff0b9610b843": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "missing",
   "url": "https://www.cbc.ca/1.7133305"
+ },
+ "a80e865d267ea979": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://thejewishmuseum.org/exhibitions/tel-dan-stele/"
+ },
+ "a818506b6d0f83f4": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.unrwa.org/palestine-refugees"
+ },
+ "a8593537ab60e3d2": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.voanews.com/amp/former-israeli-pm-details-failed-peace-deal-with-palestinians-114803389/172651.html"
+ },
+ "a88b6459b2aa36c7": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.pewresearch.org/religion/2016/03/08/israels-religiously-divided-society/"
+ },
+ "a89cd05e67884248": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.bbc.com/news/articles/c3d4kz8p00eo"
+ },
+ "a8a2da89eccc3e4e": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://quranx.com/5.26"
+ },
+ "a8ec11f41aefb5a5": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://votes25.bechirot.gov.il/"
+ },
+ "a9a4da7fc058fa93": {
+  "checked": "2026-11-20",
+  "http": 0,
+  "result": "unreachable",
+  "url": "https://web.archive.org/web/20110730094752/old.btselem.org/statistics/english/casualties.asp?eD=26&eM=12&eY=2008&filterby=event&oferet_stat=before&sD=29&sM=09&sY=2000"
+ },
+ "a9ba3b63928c6f54": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.nbcnews.com/world/gaza/trump-gaza-peace-plan-un-security-council-votes-us-resolution-rcna244321"
+ },
+ "a9c8c42124142839": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/auto-insert-207191/"
  },
  "a9d03472d40e2f0b": {
   "checked": "2026-11-20",
@@ -419,11 +3131,161 @@
   "result": "found",
   "url": "https://archive.org/stream/100yearswarpalestine/The_Hundred_Years_War_on_Palestine_A_History_of_Settler_Colonial_Conquest_and_Resistance_UK_Edition_Rashid_Khalidi_djvu.txt"
  },
+ "aa1404c9467b553c": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "unreachable",
+  "url": "https://www.britannica.com/place/Gaza-Strip"
+ },
+ "aa470aefa259e24c": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cfr.org/excerpt-the-world-and-yugoslavias-wars"
+ },
+ "aa6db3a3501afe4f": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.thejournal.ie/amnesty-international-invented-definitiion-of-genocide-israel-gaza-6568231-Dec2024/"
+ },
+ "ab14b61173441d33": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.irishtimes.com/news/un-court-clears-serbia-of-genocide-1.1197266"
+ },
+ "ab6b1d6d8cd73676": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "unreachable",
+  "url": "https://www.palestine-studies.org/ar/node/35885"
+ },
+ "abc1a383163721c0": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "found",
+  "url": "https://www.timesofisrael.com/most-israelis-feel-there-is-no-political-party-that-represents-their-views-poll/"
+ },
+ "ac8029919df48ba1": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://midbar.media/en/article/israel-election-results-likud-27-no-one-at-61"
+ },
+ "ac93edb52eb1f8cd": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.npr.org/2007/09/05/14163429/israel-weighs-a-response-to-gaza-rocket-fire"
+ },
+ "aca68095f57c8deb": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/en/genocide-prevention/definition"
+ },
+ "ad175ac5046eaf99": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://history.state.gov/milestones/1961-1968/arab-israeli-war-1967"
+ },
+ "ad715a93e8999b95": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.pewresearch.org/global/2025/06/03/views-of-the-potential-for-lasting-peace/"
+ },
+ "add039982e55023a": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cambridge.org/core/books/islamization-of-the-holy-land-6341800/DAA3688627E59E7518DC6E14684EFCCD"
+ },
+ "ae2dbd93d760af56": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.algemeiner.com/2018/06/07/senior-adviser-to-pa-president-abbas-reiterates-denial-of-historic-jewish-link-to-jerusalem-land-of-israel/"
+ },
  "af03a0af15f82965": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://www.commentary.org/articles/efraim-karsh/were-the-palestinians-expelled/"
+ },
+ "af0a6db648f06329": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.pewresearch.org/global/2025/06/03/views-of-the-potential-for-lasting-peace/"
+ },
+ "afe76c62f784dd1e": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://press.un.org/en/1996/19960117.ref1131.html"
+ },
+ "b04c3602cff8cab9": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://cojs.org/the_hasmonean_dynasty_-142-37_bce/"
+ },
+ "b14522cf52dfbf26": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/labor-party/"
+ },
+ "b16efa8ffffff54a": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.bbc.com/news/articles/c3d4kz8p00eo"
+ },
+ "b22166f6bb01eee2": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://corpus.quran.com/translation.jsp?chapter=17&verse=104"
+ },
+ "b2a5063453e34d34": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://k-larevue.com/en/2022/01/13/the-jewish-exodus-from-arab-lands-1948-1967-about-the-imas-exhibition/"
+ },
+ "b3ffcfaad0806137": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://news.un.org/en/story/2022/09/1127551"
+ },
+ "b4703b1ff1b62b83": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.democracynow.org/2024/5/21/ilan_pappe_airport_detention"
+ },
+ "b5f6932392809b7f": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.unrwa.org/palestine-refugees"
+ },
+ "b63854483bb6682d": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/safed"
+ },
+ "b63c0d559a2ef1b1": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cbsnews.com/news/peace-plan-adopted-israel-wary/"
  },
  "b662d411b30031ce": {
   "checked": "2026-11-20",
@@ -434,8 +3296,86 @@
  "b6c5b5c305cc0558": {
   "checked": "2026-11-20",
   "http": 403,
-  "result": "unreachable",
+  "result": "found",
   "url": "https://www.britannica.com/event/1948-Arab-Israeli-War"
+ },
+ "b6d11c7c1ce5a18f": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.channelstv.com/2025/09/16/distorted-and-false-israel-rejects-un-probe-accusing-it-of-genocide/"
+ },
+ "b73b50c57bee75ec": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.democracynow.org/2018/4/19/rashid_khalidi_the_israeli_security_establishment"
+ },
+ "b74a31b9d09c4715": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://en.idi.org.il/articles/10203"
+ },
+ "b761cfcac9a55457": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "found",
+  "url": "https://www.timesofisrael.com/ipc-monitor-says-famine-conditions-over-but-gaza-food-security-still-critical-israel-rejects-findings/"
+ },
+ "b7be36e2e9b8ae2d": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://news.gallup.com/poll/715202/israelis-palestinians-not-two-state-solution.aspx"
+ },
+ "b7c3452deeaa6f84": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.meforum.org/middle-east-quarterly/the-smoking-gun-arab-immigration-into-palestine"
+ },
+ "b89cb584166e611d": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cbc.ca/1.7133305"
+ },
+ "b8b4159acc4b3ac7": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cbc.ca/news/world/israel-gaza-polio-vaccination-1.7308455"
+ },
+ "b8d9b0a1c2162e4b": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://germanhistorydocs.org/en/occupation-and-the-emergence-of-two-states-1945-1961/excerpts-from-the-report-on-the-potsdam-conference-potsdam-agreement-august-2-1945"
+ },
+ "b8def50e11922df9": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://theconversation.com/israels-mosaic-of-jewish-ethnic-groups-is-key-to-understanding-the-country-217893"
+ },
+ "b926823d62ac0293": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://archive.nytimes.com/thecaucus.blogs.nytimes.com/2011/12/09/gingrich-calls-palestinians-an-invented-people/"
+ },
+ "ba2f1780317f5705": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://history.state.gov/milestones/1961-1968/arab-israeli-war-1967"
+ },
+ "ba5d08cd11a375fd": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.marxists.org/archive/marx/works/1854/03/28.htm"
  },
  "ba7810a51e8c7c0d": {
   "checked": "2026-11-20",
@@ -443,11 +3383,83 @@
   "result": "found",
   "url": "https://historynewsnetwork.org/article/49464"
  },
+ "ba78f8f1bbc3642f": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/hadash/"
+ },
+ "badb34ff3ed22231": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "unreachable",
+  "url": "https://www.britannica.com/event/1948-Arab-Israeli-War"
+ },
+ "bbc4464bde266eb3": {
+  "checked": "2026-11-20",
+  "http": 429,
+  "result": "found",
+  "url": "https://www.metmuseum.org/essays/the-seleucid-empire-323-64-b-c"
+ },
+ "bc564428c1260ec7": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://unficyp.unmissions.org/en/events-summer-1974"
+ },
+ "bc940a66ed44890c": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.icty.org/x/cases/krstic/acjug/en/krs-aj040419e.htm"
+ },
+ "bce56a4b6a5cf391": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://press.un.org/en/1996/19960117.ref1131.html"
+ },
+ "bceba14bf4b5a32a": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://news.bbc.co.uk/2/hi/middle_east/3256858.stm"
+ },
+ "bcfde63491b639ce": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/auto-insert-179122/"
+ },
+ "bcff72f8ffb31b74": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://fanack.com/arab-palestinian-israeli-conflict/history-of-the-palestinian-israeli-conflict/1948-49-war-un-resolution-242/"
+ },
+ "bd1151338e0606dd": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://lieber.westpoint.edu/targeting-gazas-tunnels/"
+ },
+ "bd248f6b61957173": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.nbcnews.com/news/world/israels-knesset-votes-overwhelmingly-palestinian-statehood-netanyahu-p-rcna162466"
+ },
  "bd876d21e704ad2a": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://npr.org/2024/03/04/1235824305/israel-sexual-assault-rape-hamas-attack-un-report"
+ },
+ "bdf503d2f5d466d9": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.ochaopt.org/content/humanitarian-situation-report-15-october-2026"
  },
  "bf0e42dff30fcb7e": {
   "checked": "2026-11-20",
@@ -455,11 +3467,53 @@
   "result": "found",
   "url": "https://www.merip.org/1988/05/original-sin"
  },
+ "bf16632de4b57fe0": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.nbcnews.com/world/gaza/trump-gaza-peace-plan-un-security-council-votes-us-resolution-rcna244321"
+ },
+ "bf1f067155dcd385": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://doi.org/10.1017/cho9781139049047.010"
+ },
+ "bf2a073d793ada38": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.theguardian.com/world/2022/aug/11/a-sikh-soldier-pulled-me-out-of-the-rubble-survivors-recall-indias-violent-partition-and-reflect-on-its-legacy"
+ },
+ "bf6d057229810f51": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.posenlibrary.com/entry/yehud-seal-impressions"
+ },
+ "bf6ef7549cd99094": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.voanews.com/a/amnesty-international-says-israel-committing-genocide-in-gaza/7888167.html"
+ },
  "bf7fab9f93aa90c9": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/refugees-jewish"
+ },
+ "bfc3b5263ebe9024": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.historyskills.com/classroom/modern-history/1948-palestine-war-reading/"
+ },
+ "bfda1a4bed3be04a": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.unocha.org/publications/report/occupied-palestinian-territory/humanitarian-situation-update-357-gaza-strip"
  },
  "c03fa2de944fbb26": {
   "checked": "2026-11-20",
@@ -467,11 +3521,191 @@
   "result": "found",
   "url": "https://www.dawn.com/news/1819387"
  },
+ "c0a51cf3a1427d9b": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.hrw.org/report/2002/10/15/erased-moment/suicide-bombing-attacks-against-israeli-civilians"
+ },
+ "c12adca9d8d93ae5": {
+  "checked": "2026-11-20",
+  "http": 0,
+  "result": "found",
+  "url": "https://www.icrc.org/en/doc/war-and-law/conduct-hostilities/overview-conduct-of-hostilities.htm"
+ },
+ "c140c2ad08ba2b55": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://dergipark.org.tr/en/pub/esoguifd/issue/90533/1574827"
+ },
+ "c1d2b55eda11af8b": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://npr.org/2024/03/04/1235824305/israel-sexual-assault-rape-hamas-attack-un-report"
+ },
+ "c319747d1863d86d": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.historynewsnetwork.org/article/benny-morris-in-48-israel-did-what-it-had-to-do"
+ },
+ "c36d395d9af2a30b": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/ohchr-thematic-report-indiscriminate-attacks-in-gaza-19jun24"
+ },
+ "c370ac0d67c74de2": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://collections.louvre.fr/en/ark:/53355/cl010120339"
+ },
  "c37225c4facebb6c": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://www.un.org/unispal/?p=294365"
+ },
+ "c39b5daeb7764ee2": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://tyndalehouse.com/2018/09/07/how-the-babylonians-recorded-biblical-events/"
+ },
+ "c436d7e087b7ddba": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.onwar.com/data/israel1948.html"
+ },
+ "c479a5823a90da68": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/history-erez-israel-second-temple"
+ },
+ "c484bda3316e978c": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "found",
+  "url": "https://www.timesofisrael.com/labor-and-meretz-merge-into-united-liberal-democratic-zionist-party-the-democrats/"
+ },
+ "c4bbea8bc59e3d48": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/otzma-yehudit/"
+ },
+ "c523f84ceb28e32b": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://blogs.library.duke.edu/blog/2024/09/18/izmir-and-the-mubadele/"
+ },
+ "c5683431ce4bf1f4": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.bbc.com/news/world-south-asia-62467438"
+ },
+ "c5b3a685bc5ef8d0": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.theguardian.com/world/2025/sep/12/un-general-assembly-to-back-hamas-free-government-for-palestine"
+ },
+ "c5d8b82168044df6": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://lbo-news.com/2024/10/08/rashid-khalidi-on-settler-colonial-israel-an-interview/"
+ },
+ "c60920d7d9f71700": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://byustudies.byu.edu/article/the-roman-province-of-judea-a-historical-overview"
+ },
+ "c639d896897d66f5": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.bbc.com/news/world-africa-26875506"
+ },
+ "c699b3069c548ba5": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cambridge.org/core/journals/israel-law-review/article/1948-refugees/1E997E364691F4379C6F77EC05BC84AD"
+ },
+ "c6af493e1f0d2b9e": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/thebes/merenptah/stela.html"
+ },
+ "c6ee2a8a153d77fe": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://electionguide.org/countries/id/106/"
+ },
+ "c70ba93e8e3ec458": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://embassies.gov.il/nepal/en/news/no-palestinian-state-says-prime-minister-benjamin-netanyahu-21092025"
+ },
+ "c7879819580e34cc": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.deutschlandmuseum.de/en/history/calendar/1945-08-02-the-potsdam-agreement/"
+ },
+ "c7cab889205c25f8": {
+  "checked": "2026-11-20",
+  "http": 429,
+  "result": "found",
+  "url": "https://institute.global/insights/geopolitics-and-security/mechanism-against-extremism-who-gets-run-israels-elections"
+ },
+ "c7d6b13c3edd1182": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "unreachable",
+  "url": "https://www.britannica.com/event/Six-Day-War"
+ },
+ "c7de3a09942185a5": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://avalon.law.yale.edu/20th_century/palmanda.asp"
+ },
+ "c80f29639dd3af57": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://redsails.org/zionist-colonialism-in-palestine/"
+ },
+ "c8645a7d0e956017": {
+  "checked": "2026-11-20",
+  "http": 0,
+  "result": "found",
+  "url": "https://www.icrc.org/en/doc/war-and-law/conduct-hostilities/overview-conduct-of-hostilities.htm"
+ },
+ "c88515c42bd9a9a3": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "unreachable",
+  "url": "https://www.timesofisrael.com/arab-israeli-raam-party-makes-history-by-joining-bennett-lapid-coalition/"
+ },
+ "c8884f3d487c3de3": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://courses.lumenlearning.com/suny-hccc-worldhistory2/chapter/the-partitioning-of-palestine/"
  },
  "c9182bf56adfa68a": {
   "checked": "2026-11-20",
@@ -479,17 +3713,71 @@
   "result": "found",
   "url": "https://history.state.gov/milestones/1945-1952/arab-israeli-war"
  },
+ "c98ba9173ad6a808": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.haaretz.com/israel-news/elections/2022-11-03/ty-article/israel-election-final-results-netanyahu-jewish-far-right-win-power-fiasco-for-left/00000184-3e80-daf1-abc4-7f9a53f40000"
+ },
  "c999a706a4d4a38e": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://www.un.org/unispal/?p=211161"
  },
+ "c99cc5b6e93e51f1": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.theguardian.com/commentisfree/2013/sep/12/oslo-israel-reneged-colonial-palestine"
+ },
+ "c9cb2e9a9f1faa83": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.justsecurity.org/85093/israel-is-annexing-the-west-bank-dont-be-misled-by-its-gaslighting/"
+ },
+ "cb1059c6160d5675": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://courses.lumenlearning.com/suny-hccc-worldhistory2/chapter/the-partitioning-of-palestine/"
+ },
+ "cb45676182bd9d9f": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://encyclopedia.ushmm.org/content/en/article/final-solution-overview"
+ },
+ "cb503d9d9a1889c7": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cfr.org/backgrounders/middle-east-peace-plans-background"
+ },
+ "cb9387edb13c5ece": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cnn.com/2023/09/30/asia/un-mission-nagorno-karabakh-intl-hnk"
+ },
  "cbfcbc2c4b5a292e": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://www.icj-cij.org/node/203447"
+ },
+ "cc54ecb25fa46346": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://cyprus-mail.com/divided-island/a-chronology-of-events/1974"
+ },
+ "cc63569bca46e7a8": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.jns.org/hamas-fakes-casualty-figures-the-numbers-are-not-real/"
  },
  "cc8ed351f4056e4d": {
   "checked": "2026-11-20",
@@ -503,11 +3791,113 @@
   "result": "found",
   "url": "https://historynewsnetwork.org/article/49464"
  },
+ "cc9d81bd5d1ceece": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.thehindu.com/news/international/what-did-icj-order-in-south-africas-genocide-case-against-israel-explained/article67782401.ece"
+ },
+ "cca68698cdd24e8c": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.aljazeera.com/news/2024/3/4/reasonable-grounds-to-believe-HAMAS-committed-sexual-violence-un"
+ },
+ "ccb62b7ed9d8a127": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.historynewsnetwork.org/article/benny-morris-in-48-israel-did-what-it-had-to-do"
+ },
+ "ccdf9475bbcca79a": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://teachjewishhistory.org/topic-mena-departure"
+ },
+ "cd3b0d239ece79d1": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://cojs.org/political_and_social_structures_in_hellenistic_judea_-332-63_bce/"
+ },
+ "cd9c04b606437f41": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.mfa.gov.tr/lausanne-peace-treaty-vi_-convention-concerning-the-exchange-of-greek-and-turkish-populations-signed-at-lausanne_.en.mfa"
+ },
+ "cd9e305550f0727c": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.icrc.org/en/document/statement-gaza-and-israel-president-icrc"
+ },
+ "cdb13a96a7af73da": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://biblearchaeology.org/research-articles/israelite-kings-in-assyrian-inscriptions/"
+ },
+ "cdeaa74cfafa9b8a": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://indianexpress.com/article/explained/explained-global/icj-israel-genocide-emergency-measures-southa-africa-9130178/"
+ },
+ "cede2015087e859c": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://avalon.law.yale.edu/20th_century/isregypt.asp"
+ },
+ "cf0a1a4293e296bf": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://ciaotest.cc.columbia.edu/book/jankowski/jank09.html"
+ },
+ "cf94e2c18f1abbb9": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://news.bbc.co.uk/2/hi/middle_east/3694350.stm"
+ },
+ "d0d74ef09155baa1": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.trade.gov/knowledge-product/west-bank-market-overview"
+ },
+ "d109c55f5e05f7fd": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.jta.org/?p=894701"
+ },
+ "d1a18dc0bf493953": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://corpus.quran.com/translation.jsp?chapter=10&verse=93"
+ },
  "d24d8bf91014898b": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://www.amnesty.org/en/latest/news/2024/12/amnesty-international-concludes-israel-is-committing-genocide-against-palestinians-in-gaza/"
+ },
+ "d2964ad47feaad84": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.bbc.com/news/world-europe-66969845"
+ },
+ "d2a40c41111dd97b": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.danielpipes.org/19124/mrs-peters-palestine"
  },
  "d2f2c8063ed991d6": {
   "checked": "2026-11-20",
@@ -515,11 +3905,101 @@
   "result": "found",
   "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/refugees-jewish"
  },
+ "d3df998ae0f0118a": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://archive.org/stream/100yearswarpalestine/The_Hundred_Years_War_on_Palestine_A_History_of_Settler_Colonial_Conquest_and_Resistance_UK_Edition_Rashid_Khalidi_djvu.txt"
+ },
+ "d42d95c6b99d3f7a": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/auto-insert-185776/"
+ },
+ "d4c259d36c36fa71": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.meforum.org/middle-east-quarterly/quran-covenant-with-jewish-people"
+ },
+ "d4e382c474ecd195": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://yalebooks.yale.edu/2017/03/01/remembering-the-1967-six-day-war/"
+ },
+ "d4fe31d678b4ac39": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://cojs.org/1488-jewish-italian-pilgrim-rabbi-obadiah-da-bertinoro/"
+ },
+ "d52b7aa5358f50c7": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.encyclopedia.com/history/asia-and-africa/ancient-history-middle-east/philistines"
+ },
+ "d5644602d78582f5": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "missing",
+  "url": "https://quranx.com/17.104"
+ },
+ "d61b8a21a7c45454": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cbc.ca/1.7203167"
+ },
+ "d61c6a8b0f1c80ea": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.thetimes.com/travel/destinations/europe-travel/turkey/an-unfair-exchange-pz03p68np6j"
+ },
+ "d6b6ddf5e0e47260": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.bbc.com/news/world-europe-17219505"
+ },
+ "d6be39a857734feb": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.deutschlandfunk.de/zahl-der-vertreibungsopfer-ist-neu-zu-erforschen-100.html"
+ },
+ "d74b65d48a290ede": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/history2/origins-and-evolution-of-the-palestine-problem/part-i-1917-1947/"
+ },
+ "d74ff66afa13ed65": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://votes26.bechirot.gov.il/"
+ },
+ "d86765d68bf2caea": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.bbc.com/news/world-europe-66969845"
+ },
  "d86905678a170341": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://www.pbs.org/newshour/world/gaza-health-officials-say-55000-Palestinians-have-died-in-israel-hamas-war"
+ },
+ "d8c6b67dae92771a": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.wilsoncenter.org/article/iran-hamas-and-palestinian-islamic-jihad"
  },
  "d8d64b304197f538": {
   "checked": "2026-11-20",
@@ -527,11 +4007,335 @@
   "result": "found",
   "url": "https://prrn.mcgill.ca/prrn/papers/shenhav2.htm"
  },
+ "d9061fd0a2e50a26": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cambridge.org/core/journals/israel-law-review/article/1948-refugees/1E997E364691F4379C6F77EC05BC84AD"
+ },
+ "d9db9d8ce49c6f3a": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.bbc.com/news/world-middle-east-67156084"
+ },
+ "d9f69c9db4ac037f": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.jurist.org/news/2024/02/israel-claims-hamas-tunnels-found-under-un-agency-headquarters-in-gaza"
+ },
+ "dab8a85fda20547f": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "unreachable",
+  "url": "https://www.timesofisrael.com/liberman-unveils-party-slogan-calling-for-population-swap/"
+ },
+ "dad2a958510f5452": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.aljazeera.com/news/2024/7/18/israels-knesset-votes-to-reject-palestinian-statehood"
+ },
+ "db051d5fb4f2f47f": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "unreachable",
+  "url": "https://doi.org/10.1177/13540688231218917"
+ },
+ "db1e6bd1b22d01da": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://mg.co.za/2026-06-03-icj-sets-next-phase-of-south-africa-s-gaza-genocide-case/"
+ },
+ "db52ae4577bb1d16": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/auto-insert-189596/"
+ },
+ "db6a45d7b1cd5f12": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.theguardian.com/commentisfree/2013/sep/12/oslo-israel-reneged-colonial-palestine"
+ },
+ "dbffa6986086a570": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/likud/"
+ },
+ "dc0fbca84485e17f": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.icrc.org/en/document/FAQ-icrc-work-Israel-and-occupied-territories"
+ },
+ "dcc103f6f43352b8": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.euronews.com/2025/08/01/there-is-no-clear-intent-to-commit-genocide-in-gaza-top-international-law-expert-says"
+ },
+ "dcc8024dd2b05c9a": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://avalon.law.yale.edu/20th_century/khartoum.asp"
+ },
+ "dccab81b30c98fe7": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.haaretz.com/israel-news/elections/2022-11-03/ty-article/israel-election-final-results-netanyahu-jewish-far-right-win-power-fiasco-for-left/00000184-3e80-daf1-abc4-7f9a53f40000"
+ },
+ "ddcae479165c2b0d": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.haaretz.com/israel-news/elections/2022-11-03/ty-article/israel-election-final-results-netanyahu-jewish-far-right-win-power-fiasco-for-left/00000184-3e80-daf1-abc4-7f9a53f40000"
+ },
+ "df579bc1ea34d87e": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://warhistory.org/article/arab-israeli-war-of-1948-9"
+ },
+ "dfd2f8aa719ea75f": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.islam.museum/en/exhibits/path-crusades-era/"
+ },
+ "e072ebddbdd08ae4": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/auto-insert-208411/"
+ },
+ "e0979acedf9f2d7d": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://news.un.org/en/story/2004/04/100662"
+ },
+ "e12811367b22addc": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.thetimes.com/travel/destinations/europe-travel/turkey/an-unfair-exchange-pz03p68np6j"
+ },
+ "e14e6672f3dddd49": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.bbc.com/news/articles/cde3eyzdr63o"
+ },
+ "e1ff693e86476352": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://news.un.org/en/story/2025/09/1165835"
+ },
+ "e202f43d5a6f050d": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/kach-party/"
+ },
+ "e2c15af7288c6674": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.theguardian.com/international/story/0,,2085908,00.html"
+ },
+ "e35b5e895dc6951e": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://doi.org/10.1017/ajil.2024.26"
+ },
+ "e37b254be1d2b9ec": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://lbo-news.com/2024/10/08/rashid-khalidi-on-settler-colonial-israel-an-interview/"
+ },
+ "e43efd2b7806becc": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.nbcnews.com/world/middle-east/israel-palestinian-reax-two-state-solution-recognition-rcna232944"
+ },
+ "e4ed590cd33c500a": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://ilg2.blog/2015/02/03/croatia-v-serbia-genocide-and-the-dolus-specialis-question/"
+ },
+ "e53f13265c74714e": {
+  "checked": "2026-11-20",
+  "http": 0,
+  "result": "found",
+  "url": "https://www.icrc.org/en/doc/war-and-law/conduct-hostilities/overview-conduct-of-hostilities.htm"
+ },
+ "e55d42fa56541dc9": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/yisrael-beytenu/"
+ },
+ "e5e6a51a8e01debc": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/en/about-us/un-charter/chapter-1"
+ },
+ "e66f4e8e9a70b3cf": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.ihlcentre.org/resources/international-humanitarian-law/ihl-displacement/"
+ },
+ "e6af7038564593be": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.pewresearch.org/global/2024/06/20/societal-conflicts-and-optimism-about-peaceful-coexistence/"
+ },
+ "e6fdfd8086874220": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.israelnationalnews.com/news/362510"
+ },
+ "e79f45f2f4867c37": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://origins.osu.edu/read/1936-1939-arab-revolt-palestine"
+ },
+ "e7d7f9da5cb9db9f": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/the-democrats/"
+ },
+ "e7dfaf1c1803d008": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/safed"
+ },
+ "e7eb8a825e37a456": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.ebsco.com/research-starters/history/peel-commission/"
+ },
+ "e8241eacaa1610c7": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.thetimes.com/travel/destinations/europe-travel/turkey/an-unfair-exchange-pz03p68np6j"
+ },
  "e87eaefac5dc002e": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/refugees-jewish"
+ },
+ "e88f91ce358df3de": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.ejiltalk.org/the-occupation-of-gaza-in-the-icj-palestine-advisory-opinion/"
+ },
+ "e8d516f5fff2b46e": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "unreachable",
+  "url": "https://www.gov.il/en/departments/general/elections-in-israel-november-2022"
+ },
+ "e94c864b1db68e86": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/yesh-atid/"
+ },
+ "ea4e5fb8dcc84edb": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://indianexpress.com/article/research/refugees-in-india-partition-bangladesh-war-tibet-occupation-sri-lankan-tamils-rohingyas-mynamar-world-refugee-day-five-human-influxes-that-have-shaped-india-2864449/"
+ },
+ "ea5051120197c02f": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "unreachable",
+  "url": "https://www.britannica.com/event/Camp-David-Accords"
+ },
+ "ea6997fa71576f8f": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.aljazeera.com/news/2020/9/28/palestinian-intifada-20-years-later-israeli-occupation-continues"
+ },
+ "eacf321054b0c922": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://library.biblicalarchaeology.org/sidebar/the-early-islamic-period-in-the-levant/"
+ },
+ "eaedb34fb2e82643": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://news.un.org/en/story/2023/10/1141782"
+ },
+ "eb3a0340fef315d9": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://quran.com/Al-Maidah/21/tafsirs/en-tafisr-ibn-kathir"
+ },
+ "eb3a4891c786bd2f": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.icj-cij.org/node/103898"
+ },
+ "eb3bce7c8c5b37c0": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cambridge.org/core/journals/israel-law-review/article/1948-refugees/1E997E364691F4379C6F77EC05BC84AD"
+ },
+ "ebb23aaa1564599d": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.newyorker.com/news/news-desk/what-americans-against-trump-can-learn-from-the-failures-of-the-israeli-opposition"
+ },
+ "ec02bb64ddd57f47": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://doi.org/10.5356/jorient.30.90"
+ },
+ "ec111fa3bf768f2d": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.bbc.com/news/world-south-asia-62467438"
+ },
+ "ec73c595cf2c62d4": {
+  "checked": "2026-11-20",
+  "http": 0,
+  "result": "unreachable",
+  "url": "http://archive.ipu.org/english/parline/reports/2155_B.htm"
  },
  "ec9a94556e3f0270": {
   "checked": "2026-11-20",
@@ -539,11 +4343,65 @@
   "result": "found",
   "url": "https://www.un.org/unispal/?p=211161"
  },
+ "ecb6f5f56646da0a": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.hrw.org/report/2002/10/15/erased-moment/suicide-bombing-attacks-against-israeli-civilians"
+ },
  "ecc7cabda6c1d2cd": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://www.voanews.com/amp/gaza-death-toll-41-higher-than-official-figures-study-contends/7932849.html"
+ },
+ "ecf6ab3f69064f16": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.nam.ac.uk/explore/british-army-palestine"
+ },
+ "ed1087b116df7991": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.lrb.co.uk/v07/n02/ian-gilmour/pseudo-travellers"
+ },
+ "ed60d4c5ce2f1701": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.foreignaffairs.com/articles/middle-east/2015-03-11/whats-palestinian"
+ },
+ "ed6b0662a4f351b3": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://cojs.org/the_babylonian_chronicle-_722_bce/"
+ },
+ "ee3d1e4419a7be09": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/auto-insert-180015/"
+ },
+ "ef46f4b07f43f025": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.nybooks.com/articles/1986/03/27/mrs-peterss-palestine-an-exchange/?pagination=false"
+ },
+ "efb8019ffda648af": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://news.un.org/en/audio/2025/09/1165860"
+ },
+ "eff545f3cd18f09e": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.myjewishlearning.com/article/life-in-palestine/"
  },
  "f0762ae5007b560a": {
   "checked": "2026-11-20",
@@ -551,11 +4409,65 @@
   "result": "found",
   "url": "https://www.hrw.org/news/2024/07/17/october-7-crimes-against-humanity-war-crimes-hamas-led-groups"
  },
+ "f0897b30fee7d5c4": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.law.cornell.edu/wex/genocide"
+ },
+ "f124f05fcf0a9dc7": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://merip.org/2004/03/no-more-tears/"
+ },
+ "f1821e5598ecc4c6": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "unreachable",
+  "url": "https://www.economist.com/middle-east-and-africa/2020/10/29/sudan-joins-a-wave-of-arab-states-recognising-israel"
+ },
+ "f1ea9cb4881444ab": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.ekathimerini.com/multimedia/podcasts/1203769/the-legacy-of-lausanne-100-years-since-the-population-exchange-between-greece-and-turkey/"
+ },
+ "f2a2d130fae8051e": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.euronews.com/2025/08/01/there-is-no-clear-intent-to-commit-genocide-in-gaza-top-international-law-expert-says"
+ },
  "f2b380ae1cdb7a32": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://amp.cbc.ca/lite/story/1.7010255"
+ },
+ "f2e1cf4339b7dd20": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.meforum.org/2472/from-the-commentary-of-tabari"
+ },
+ "f372752793261db1": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cfr.org/blog/abbas-admits-he-said-no-israels-peace-offer"
+ },
+ "f380f3222f221943": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.theguardian.com/news/2025/mar/20/meir-kahane-israel-kach-ben-gvir-long-dead-extremist"
+ },
+ "f39e25d8880aea0e": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/unosat-gaza-strip-damage-assessment-31oct25/"
  },
  "f4c1cee6c5299f1c": {
   "checked": "2026-11-20",
@@ -563,11 +4475,71 @@
   "result": "found",
   "url": "https://history.state.gov/historicaldocuments/frus1948v05p2/d4"
  },
+ "f51959e55c396dfa": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://news.un.org/en/story/2024/01/1145937"
+ },
+ "f536c93b76153f4d": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.independent.co.uk/news/world/middle-east/israeli-gaza-hamas-palestinians-deaths-b2998158.html"
+ },
+ "f5800234e3c5abfb": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/en/preventgenocide/rwanda/backgrounders.shtml"
+ },
+ "f600b1f07c51ed1c": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.theguardian.com/commentisfree/2013/sep/12/oslo-israel-reneged-colonial-palestine"
+ },
+ "f66fae80329de553": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.legislation.gov.uk/ukpga/Eliz2/5-6/52/schedule/FOURTH/part/3/chapter/3/crossheading/article-49"
+ },
  "f6aa3d576bc01e5f": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://www.cbc.ca/1.7133305"
+ },
+ "f6f7bd0d8d7dea99": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "unreachable",
+  "url": "https://www.britannica.com/event/1948-Arab-Israeli-War"
+ },
+ "f7415a12f90ecb49": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.bbc.com/news/world-europe-17219505"
+ },
+ "f7694f7884473245": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/auto-insert-206425"
+ },
+ "f7851e40500af7e2": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.unocha.org/publications/report/occupied-palestinian-territory/ocha-opt-special-focus-locked-humanitarian-impact-two-years"
+ },
+ "f786255069678bbb": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.icj-cij.org/node/203447"
  },
  "f7e873cc63b96418": {
   "checked": "2026-11-20",
@@ -575,11 +4547,95 @@
   "result": "unreachable",
   "url": "https://www.britannica.com/event/1948-Arab-Israeli-War"
  },
+ "f8327b17a5def428": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.worldjewishcongress.org/en/news/for-the-first-time-israel-commemorates-plight-of-jewish-refugees-from-arab-lands"
+ },
+ "f8437b3d9cc28a7b": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/auto-insert-207191/"
+ },
  "f9761fe61297a67a": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://www.un.org/unispal/?p=294365"
+ },
+ "f9d32f162da362b0": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cambridge.org/core/journals/israel-law-review/article/1948-refugees/1E997E364691F4379C6F77EC05BC84AD"
+ },
+ "f9e6c28860de89d2": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/update-report-08nov24/"
+ },
+ "fb00e4bc10f3e6f2": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.icty.org/x/cases/krstic/acjug/en/krs-aj040419e.htm"
+ },
+ "fb9848f7d2703434": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://unictr.irmct.org/en/news/historic-judgement-finds-akayesu-guilty-genocide"
+ },
+ "fba63ce147be42a8": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.ejiltalk.org/the-attainability-of-the-evidentiary-standard-for-genocidal-intent-in-gaza/"
+ },
+ "fc14dab0fb3f5992": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cambridge.org/core/journals/journal-of-roman-studies/article/abs/bar-kokhba-revolt-the-roman-point-of-view/27E95F52A627562F93178F17A51D5FD4"
+ },
+ "fc9cf9e4e0060dc7": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.amnesty.org/en/latest/news/2015/03/palestinian-armed-groups-killed-civilians-on-both-sides-in-attacks-amounting-to-war-crimes-during-2014-gaza-conflict/"
+ },
+ "fd4d4bcff70afa3e": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.historynewsnetwork.org/article/benny-morris-in-48-israel-did-what-it-had-to-do"
+ },
+ "fe5446f0509931db": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "unreachable",
+  "url": "https://www.gov.il/en/departments/general/elections-in-israel-november-2022"
+ },
+ "fe98dafe17e0ed60": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "found",
+  "url": "https://www.thenewhumanitarian.org/news/2024/12/05/amnesty-international-says-israel-committing-genocide-gaza"
+ },
+ "ff340f8061ac5d7f": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cambridge.org/core/journals/israel-law-review/article/1948-refugees/1E997E364691F4379C6F77EC05BC84AD"
+ },
+ "ff73a3a3ef00d073": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.lto.de/recht/hintergruende/h/gaza-is-israel-committing-genocide-assessments-international-law-experts"
  },
  "ffe91140d8b90221": {
   "checked": "2026-11-20",

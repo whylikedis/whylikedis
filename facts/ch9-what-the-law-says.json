@@ -1,0 +1,286 @@
+{
+  "id": "ch9-what-the-law-says",
+  "era": 9,
+  "claim": "Israel is uniquely illegitimate because it was created through war and displacement.",
+  "heard": [
+    {
+      "who": "Seumas Milne, columnist, in The Guardian (2008)",
+      "url": "https://www.theguardian.com/commentisfree/2008/may/15/israelandthepalestinians.usa",
+      "archive": "",
+      "quote": "the commemoration of the nakba, or catastrophe, that led to the destruction of their society and expulsion from their homeland"
+    }
+  ],
+  "answer": "Before the twentieth century a victor in war could acquire title to land by conquest. That began to change with the 1928 Kellogg-Briand Pact, and the UN Charter of 1945 (Article 2(4)) forbade force against a state's territorial integrity. The Fourth Geneva Convention (1949, Article 49) bars forcible transfers from occupied territory. Security Council Resolution 242 (1967) stressed \"the inadmissibility of the acquisition of territory by war\", the 1970 Friendly Relations Declaration said no territorial acquisition by force shall be recognized as legal, and forcible transfer is now a crime against humanity under the Rome Statute. In the 1940s transfers were common, and the Allies approved some at Potsdam. Comparing cases explains the period; it does not answer whether a specific act was just.",
+  "facts": [
+    {
+      "text": "Until the twentieth century international law did not prohibit war, and conquest could give a victor legal title to territory.",
+      "sources": [
+        {
+          "publisher": "American Journal of International Law (Cambridge University Press; Ingrid Brunk and Monica Hakimi)",
+          "title": "The Prohibition of Annexations and the Foundations of Modern International Law",
+          "url": "https://doi.org/10.1017/ajil.2024.26",
+          "archive": "",
+          "quote": "Until the twentieth century, international law regulated but did not outright prohibit war, whether waged over territory or for other reasons.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Foreign Affairs (Oona Hathaway and Scott Shapiro, Yale Law School)",
+          "title": "Might Unmakes Right: The Catastrophic Collapse of Norms Against the Use of Force",
+          "url": "https://www.foreignaffairs.com/united-states/might-unmakes-right-hathaway-shapiro",
+          "archive": "",
+          "quote": "Before the twentieth century, legal theorists believed not only that countries could wage war to seize others' land and resources but also that in some circumstances, they should.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "American Journal of International Law (Cambridge University Press; Ingrid Brunk and Monica Hakimi)",
+          "title": "The Prohibition of Annexations and the Foundations of Modern International Law",
+          "url": "https://doi.org/10.1017/ajil.2024.26",
+          "archive": "",
+          "quote": "title of almost all the nations of Europe to the territory now possessed by them, in that quarter of the world, was originally derived from conquest",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "The 1928 Kellogg-Briand Pact renounced war as an instrument of national policy, and the 1932 Stimson Doctrine began the refusal to recognise gains made by force.",
+      "sources": [
+        {
+          "publisher": "Yale Law School, Avalon Project",
+          "title": "Kellogg-Briand Pact 1928",
+          "url": "https://avalon.law.yale.edu/20th_century/kbpact.asp",
+          "archive": "",
+          "quote": "they condemn recourse to war for the solution of international controversies, and renounce it, as an instrument of national policy in their relations with one another",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Foreign Affairs (Oona Hathaway and Scott Shapiro, Yale Law School)",
+          "title": "Might Unmakes Right: The Catastrophic Collapse of Norms Against the Use of Force",
+          "url": "https://www.foreignaffairs.com/united-states/might-unmakes-right-hathaway-shapiro",
+          "archive": "",
+          "quote": "Conquest, once lawful, would no longer be recognized.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "American Journal of International Law (Cambridge University Press; Ingrid Brunk and Monica Hakimi)",
+          "title": "The Prohibition of Annexations and the Foundations of Modern International Law",
+          "url": "https://doi.org/10.1017/ajil.2024.26",
+          "archive": "",
+          "quote": "Most nations, including the world's most powerful, signed the Pact.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "The UN Charter of 1945, Article 2(4), requires states to refrain from the threat or use of force against the territorial integrity or political independence of any state.",
+      "sources": [
+        {
+          "publisher": "United Nations",
+          "title": "United Nations Charter, Chapter I: Purposes and Principles",
+          "url": "https://www.un.org/en/about-us/un-charter/chapter-1",
+          "archive": "",
+          "quote": "All Members shall refrain in their international relations from the threat or use of force against the territorial integrity or political independence of any State, or in any other manner inconsistent with the Purposes of the United Nations.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "American Journal of International Law (Cambridge University Press; Ingrid Brunk and Monica Hakimi)",
+          "title": "The Prohibition of Annexations and the Foundations of Modern International Law",
+          "url": "https://doi.org/10.1017/ajil.2024.26",
+          "archive": "",
+          "quote": "Article 2(4) of the UN Charter, which is also widely understood to reflect customary international law, obligates states to refrain from",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Foreign Affairs (Oona Hathaway and Scott Shapiro, Yale Law School)",
+          "title": "Might Unmakes Right: The Catastrophic Collapse of Norms Against the Use of Force",
+          "url": "https://www.foreignaffairs.com/united-states/might-unmakes-right-hathaway-shapiro",
+          "archive": "",
+          "quote": "The 1945 UN Charter reaffirmed and expanded that commitment",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "The Fourth Geneva Convention of 1949, Article 49, prohibits individual or mass forcible transfers and deportations of protected persons from occupied territory, regardless of motive.",
+      "sources": [
+        {
+          "publisher": "Yale Law School, Avalon Project",
+          "title": "Geneva Convention relative to the Protection of Civilian Persons in Time of War (1949)",
+          "url": "https://avalon.law.yale.edu/20th_century/geneva07.asp",
+          "archive": "",
+          "quote": "Individual or mass forcible transfers, as well as deportations of protected persons from occupied territory to the territory of the Occupying Power or to that of any other country, occupied or not, are prohibited, regardless of their motive.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "IHL Centre",
+          "title": "Displacement and IHL",
+          "url": "https://www.ihlcentre.org/resources/international-humanitarian-law/ihl-displacement/",
+          "archive": "",
+          "quote": "Article 49 of the Fourth Geneva Convention sets out a clear prohibition of forcible transfer during situations of armed conflict",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "UK legislation.gov.uk (Geneva Conventions Act 1957, Fourth Schedule)",
+          "title": "Geneva Conventions Act 1957, Fourth Schedule, Article 49",
+          "url": "https://www.legislation.gov.uk/ukpga/Eliz2/5-6/52/schedule/FOURTH/part/3/chapter/3/crossheading/article-49",
+          "archive": "",
+          "quote": "Individual or mass forcible transfers, as well as deportations of protected persons from occupied territory to the territory of the Occupying Power or to that of any other country, occupied or not, are prohibited, regardless of their motive.",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        }
+      ]
+    },
+    {
+      "text": "Security Council Resolution 242 (1967) emphasized \"the inadmissibility of the acquisition of territory by war\" in its preamble.",
+      "sources": [
+        {
+          "publisher": "Yale Law School, Avalon Project",
+          "title": "United Nations Security Council Resolution 242 (22 November 1967)",
+          "url": "https://avalon.law.yale.edu/20th_century/un242.asp",
+          "archive": "",
+          "quote": "emphasizing the inadmissibility of the acquisition of territory by war and the need to work for a just and lasting peace in which every state in the area can live in security",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Journal of Palestine Studies (Michael Lynk)",
+          "title": "Conceived in Law: The Legal Foundations of Resolution 242",
+          "url": "https://ciaotest.cc.columbia.edu/journals/jps/v37i145/03.html",
+          "archive": "",
+          "quote": "UN Security Council Resolution 242 endorsed the \"inadmissibility of the acquisition of territory by war\"",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Jerusalem Center for Public Affairs (Ruth Lapidoth)",
+          "title": "The Misleading Interpretation of Security Council Resolution 242 (1967)",
+          "url": "https://jcfa.org/article/security-council-resolution-242/",
+          "archive": "",
+          "quote": "the Security Council emphasized the \"inadmissibility of the acquisition of territory by war.\"",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        }
+      ]
+    },
+    {
+      "text": "The 1970 Friendly Relations Declaration says no territorial acquisition resulting from the threat or use of force shall be recognized as legal.",
+      "sources": [
+        {
+          "publisher": "University of Oslo Faculty of Law, treaty library",
+          "title": "Declaration on Principles of International Law concerning Friendly Relations (UN General Assembly resolution 2625, 1970)",
+          "url": "https://www.jus.uio.no/english/services/library/treaties/01/1-01/friendly-relations.html",
+          "archive": "",
+          "quote": "No territorial acquisition resulting from the threat or use of force shall be recognized as legal.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "American Journal of International Law (Cambridge University Press; Ingrid Brunk and Monica Hakimi)",
+          "title": "The Prohibition of Annexations and the Foundations of Modern International Law",
+          "url": "https://doi.org/10.1017/ajil.2024.26",
+          "archive": "",
+          "quote": "the prohibition thus became anchored in the international legal order, with the Declaration on Friendly Relations marking an important turning point.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "Under the Rome Statute of 1998, deportation or forcible transfer of population, when part of a widespread or systematic attack on civilians, is a crime against humanity.",
+      "sources": [
+        {
+          "publisher": "United Nations Office of Legal Affairs (text of the Rome Statute, 1998)",
+          "title": "Rome Statute of the International Criminal Court, Article 7",
+          "url": "https://legal.un.org/icc/statute/99_corr/cstatute.htm",
+          "archive": "",
+          "quote": "\"Deportation or forcible transfer of population\" means forced displacement of the persons concerned by expulsion or other coercive acts from the area in which they are lawfully present, without grounds permitted under international law",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Cornell Law School, Legal Information Institute",
+          "title": "Forcible transfer",
+          "url": "https://www.law.cornell.edu/wex/forcible_transfer",
+          "archive": "",
+          "quote": "The term \"forcible transfer\" describes the forced relocation of civilian populations as part of an organized offensive against that population.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "In the 1940s transfers of populations were treated by governments and many writers as an acceptable way to settle minority problems, and the Allied governments approved some at Potsdam.",
+      "sources": [
+        {
+          "publisher": "German Historical Institute Washington, German History in Documents and Images",
+          "title": "Excerpts from the Report on the Potsdam Conference (Potsdam Agreement), August 2, 1945",
+          "url": "https://germanhistorydocs.org/en/occupation-and-the-emergence-of-two-states-1945-1961/excerpts-from-the-report-on-the-potsdam-conference-potsdam-agreement-august-2-1945",
+          "archive": "",
+          "quote": "recognize that the transfer to Germany of German populations or elements thereof, remaining in Poland, Czechoslovakia and Hungary, will have to be undertaken",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Israel Law Review (Cambridge University Press), account of a talk by Benny Morris",
+          "title": "1948 Refugees",
+          "url": "https://www.cambridge.org/core/journals/israel-law-review/article/1948-refugees/1E997E364691F4379C6F77EC05BC84AD",
+          "archive": "",
+          "quote": "in the realm of morality in the world at the time, population transfers were not absolutely immoral",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Cambridge University Press (A. Dirk Moses)",
+          "title": "Cutting Out the Ulcer and Washing Away the Incubus of the Past",
+          "url": "https://doi.org/10.1017/9781108783170.009",
+          "archive": "",
+          "quote": "at the time it became ineluctably associated with partition and was justified in terms of modernity and preventing ethnic civil wars",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "The Times (Brendan Simms, review of Bruce Clark, Twice a Stranger)",
+          "title": "An unfair exchange",
+          "url": "https://www.thetimes.com/travel/destinations/europe-travel/turkey/an-unfair-exchange-pz03p68np6j",
+          "archive": "",
+          "quote": "What was agreed there was to become the model for later \"exchanges\", such as the post-1945 expulsion of the Germans",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    "Whether comparisons excuse: critics of such comparisons, summarised by Michael Koplow of the Israel Policy Forum as the charge of \"whataboutism\", say pointing to other cases deflects from the act in question and treats worse conduct elsewhere as a defence. The card does not use the comparisons that way.",
+    "The counter-argument is a double standard: Cary Nelson and Michael Saenger (Fathom) argue that comparing Israel with other countries is normal practice in political science, that labelling the 1948 transfers \"ethnic cleansing\" while the millions of Europeans moved in the same years are not so labelled singles Israel out, and that the term \"whataboutism\" is used both to dismiss legitimate criticism and to dismiss legitimate comparison.",
+    "Whether the German case is a fair parallel: in the Israel Law Review discussion, a participant said the Sudeten expulsion was a punishment of the defeated carried out under a peace agreement, which was not the case in 1948; Benny Morris replied he cited it to show how the world then judged transfers, not to justify them.",
+    "Resolution 242: Ruth Lapidoth (Jerusalem Center for Public Affairs) argues the phrase in the preamble concerns acquisition of title, not military occupation, and that the preamble is not binding; Michael Lynk (Journal of Palestine Studies) argues the resolution endorses the inadmissibility of acquisition and calls for withdrawal. Both are cited above.",
+    "The law on conquest: Brunk and Hakimi (AJIL) argue that Article 2(4) regulates the use of force while the separate prohibition of annexation regulates title, and that the two are not the same."
+  ],
+  "could_not_verify": [
+    "A third readable reliable source that conquest gave title before 1945: Sharon Korman's The Right of Conquest (Oxford) and Britannica's entry on conquest could not be read by the checker.",
+    "A third readable reliable source for the Fourth Geneva Convention Article 49 text: the ICRC and OHCHR pages could not be read; the third source here is a UK government copy of the treaty.",
+    "A third readable reliable source for Resolution 242's text: the UN's own page and Britannica could not be read; the third source here is an advocacy think tank quoting the preamble.",
+    "A third readable reliable source for the 1970 Friendly Relations Declaration: the UN, Kenya Law and a university copy of the text could not be read.",
+    "A third readable reliable source for the Rome Statute definition: the ICC, OHCHR and ICRC pages could not be read by the checker.",
+    "The 1932 Stimson Doctrine: a primary source (the Office of the Historian page could not be read); the card relies on the Foreign Affairs article for it."
+  ],
+  "not_claimed": [
+    "That because transfers were common and accepted in the 1940s, any of them was just.",
+    "That Article 49 and the Rome Statute apply to 1948: the Convention is from 1949 and the Statute from 1998, and the card does not say they apply to events before them.",
+    "That Resolution 242 is binding law or that it settles the status of any territory; the card quotes its words and records the dispute.",
+    "That singling out one case is always a double standard, or that comparison is always whataboutism; both arguments are stated and neither is endorsed."
+  ],
+  "status": "draft",
+  "content_approved": false
+}

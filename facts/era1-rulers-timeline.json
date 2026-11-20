@@ -1,0 +1,471 @@
+{
+  "id": "era1-rulers-timeline",
+  "era": 1,
+  "claim": "Palestine was an Arab country stolen by outsiders.",
+  "heard": [
+    {
+      "who": "Fayez Sayegh, Palestine Liberation Organization Research Center, \"Zionist Colonialism in Palestine\" (1965)",
+      "url": "https://redsails.org/zionist-colonialism-in-palestine/",
+      "archive": "",
+      "quote": "the establishment of a colonial Zionist state in the Afro-Asian bridge, the Arab land of Palestine"
+    }
+  ],
+  "answer": "Two things are true. Arabs were the large majority of the population under the Mandate (78 percent Muslim in the 1922 census), and earlier. But no independent state called Palestine, governed by its Arab inhabitants, existed before 1948. The land was ruled from outside in this order: the kingdoms of Israel and Judah, Assyria, Babylon, Persia (539-332 BCE), Alexander and the Ptolemies and Seleucids, the Hasmoneans (to 63 BCE), Rome and Byzantium, the Arab caliphates from the 630s, the Crusaders (1099-1187), the Ayyubids and Mamluks, the Ottomans (1516/17-1917), and Britain (1917-1948). Many rulers were Muslim or Arab; many were not. Who ruled when does not settle who has rights today.",
+  "facts": [
+    {
+      "text": "The kingdoms of Israel (north) and Judah (south) are attested in 9th-century inscriptions; Israel fell to Assyria in the 720s BCE.",
+      "sources": [
+        {
+          "publisher": "The Jewish Museum, New York (on loan from the Israel Museum)",
+          "title": "Tel Dan Stele",
+          "url": "https://thejewishmuseum.org/exhibitions/tel-dan-stele/",
+          "archive": "",
+          "quote": "a reference to Israel's two kingdoms at the time, Israel in the north and Judah in the south",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Biblical Archaeology Society",
+          "title": "Israelite Kings in Non-Biblical, Non-Israelite Inscriptions",
+          "url": "https://library.biblicalarchaeology.org/sidebar/israelite-kings-in-non-biblical-non-israelite-inscriptions/",
+          "archive": "",
+          "quote": "Annals of the Assyrian king Sargon II (c. 721–705 B.C.E.)",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Center for Online Judaic Studies",
+          "title": "The Babylonian Chronicle, 722 BCE",
+          "url": "https://cojs.org/the_babylonian_chronicle-_722_bce/",
+          "archive": "",
+          "quote": "Chronicle 1 tells us that, simply, “[Shalmaneser V] shattered Samaria.”",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "Babylon took Jerusalem in 597 BCE and again in 587 or 586 BCE, ending the kingdom of Judah.",
+      "sources": [
+        {
+          "publisher": "Center for Online Judaic Studies",
+          "title": "The Babylonian Chronicle (Chronicle 5): Nebuchadnezzar Besieges Jerusalem, 597 BCE",
+          "url": "https://cojs.org/the_babylonian_chronicle_-chronicle_5-_nebuchadnezzar_besieges_jerusalem-_597_bce/",
+          "archive": "",
+          "quote": "He (Nebuchadnezzar) encamped against the city of Judah (Jerusalem) and on the second day of Adar, he seized the city and seized the king.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Livius.org",
+          "title": "ABC 5 (Jerusalem Chronicle)",
+          "url": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-5-jerusalem-chronicle/",
+          "archive": "",
+          "quote": "he seized the city and captured the king",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Encyclopaedia Iranica",
+          "title": "Babylonia i. History of Babylonia in the Median and Achaemenid periods",
+          "url": "https://www.iranicaonline.org/articles/babylonia/babylonia-i/",
+          "archive": "",
+          "quote": "in 587 Nebuchadnezzar captured Jerusalem and removed thousands of its inhabitants to Babylonia in captivity",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "Persia ruled the land from 539 BCE until Alexander in 332 BCE; Judah was the province of Yehud, with considerable internal autonomy.",
+      "sources": [
+        {
+          "publisher": "Encyclopaedia Iranica",
+          "title": "Eber-Nari",
+          "url": "https://www.iranicaonline.org/articles/eber-nari/",
+          "archive": "",
+          "quote": "These regions apparently passed from Neo-Babylonian to Persian control in 539 B.C.E. when Cyrus the Great conquered Mesopotamia.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Center for Online Judaic Studies",
+          "title": "Yahud Stamps, c. 539 BCE",
+          "url": "https://cojs.org/yahud_stamps-_c-_539_bce/",
+          "archive": "",
+          "quote": "YHD stamps were introduced to the region after the Persians wrested control of much of the Near East from the Babylonians in 539 BCE and Judah became known as its Persian equivalent, Yahud.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Hebrew University of Jerusalem, Institute of Archaeology",
+          "title": "The City of David",
+          "url": "https://archaeology.huji.ac.il/city-david/",
+          "archive": "",
+          "quote": "Known in Aramaic as \"Yehud Medinta,\" this Persian province was granted permission to mint its own coins.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "Alexander the Great conquered the land in 332 BCE; Ptolemaic Egypt held it from 301 to about 200 BCE.",
+      "sources": [
+        {
+          "publisher": "Center for Online Judaic Studies",
+          "title": "Political and Social Structures in Hellenistic Judea (332-63 BCE)",
+          "url": "https://cojs.org/political_and_social_structures_in_hellenistic_judea_-332-63_bce/",
+          "archive": "",
+          "quote": "In the summer of 332 B.C.E., Palestine was conquered by Alexander the Great.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Brigham Young University, BYU Studies",
+          "title": "Alexander the Great Comes to Jerusalem",
+          "url": "https://byustudies.byu.edu/article/alexander-the-great-comes-to-jerusalem-the-jewish-response-to-hellenism",
+          "archive": "",
+          "quote": "Ptolemy and his heirs held Judea for the next century.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Encyclopaedia Judaica (via Encyclopedia.com)",
+          "title": "History: Erez Israel - Second Temple",
+          "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/history-erez-israel-second-temple",
+          "archive": "",
+          "quote": "was included in the Ptolemaic kingdom until 200",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "The Seleucid kingdom took the land from the Ptolemies in 200 BCE (the battle of Panion) and held it until the Maccabean revolt.",
+      "sources": [
+        {
+          "publisher": "The Metropolitan Museum of Art",
+          "title": "The Seleucid Empire (323-64 B.C.)",
+          "url": "https://www.metmuseum.org/essays/the-seleucid-empire-323-64-b-c",
+          "archive": "",
+          "quote": "The Egyptian forces were crushed in 200 B.C., and the Ptolemies were forced to cede Palestine to Antiochus",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Encyclopaedia Iranica",
+          "title": "Seleucid Empire",
+          "url": "https://www.iranicaonline.org/articles/seleucid-empire/",
+          "archive": "",
+          "quote": "inflicted a crushing defeat on the Ptolemies at the Battle of Panion (200), which allowed him to occupy Palestine",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "The Posen Library of Jewish Culture and Civilization",
+          "title": "Judea under Ptolemaic and Seleucid Rule",
+          "url": "https://www.posenlibrary.com/guide/judea-under-ptolemaic-and-seleucid-rule",
+          "archive": "",
+          "quote": "Antiochus III the Great (r. 223–187 BCE) annexed Judea.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "The Hasmonean dynasty ruled Judea as a Jewish state from the 140s BCE until Pompey's intervention in 63 BCE.",
+      "sources": [
+        {
+          "publisher": "Center for Online Judaic Studies",
+          "title": "The Hasmonean Dynasty (142-37 BCE)",
+          "url": "https://cojs.org/the_hasmonean_dynasty_-142-37_bce/",
+          "archive": "",
+          "quote": "From then until the Roman conquest of Judea in 63 B.C.E., the descendants of Judah the Maccabee ruled over the Land of Israel.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Jewish Encyclopedia",
+          "title": "Hasmoneans",
+          "url": "https://www.jewishencyclopedia.com/articles/7319-hasmoneans",
+          "archive": "",
+          "quote": "Simon, who had made the Jewish people entirely independent of the Syrians, reigned from 142 to 135.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "The Posen Library of Jewish Culture and Civilization",
+          "title": "The Rise and Decline of the Hasmonean Dynasty",
+          "url": "https://www.posenlibrary.com/guide/rise-and-decline-hasmonean-dynasty",
+          "archive": "",
+          "quote": "when Pompey intervened in Judean affairs and ultimately took control of Jerusalem in 63 BCE—rendering Judea a client state of the Roman Empire",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "Rome took control in 63 BCE, ruled through client kings, annexed Judea in 6 CE, and renamed the province Syria Palaestina after 135 CE.",
+      "sources": [
+        {
+          "publisher": "Center for Online Judaic Studies",
+          "title": "The Hasmonean Dynasty (142-37 BCE)",
+          "url": "https://cojs.org/the_hasmonean_dynasty_-142-37_bce/",
+          "archive": "",
+          "quote": "Thus ended the Hasmonean dynasty. The Romans were now the country's real rulers.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Brigham Young University, BYU Studies",
+          "title": "The Roman Province of Judea: A Historical Overview",
+          "url": "https://byustudies.byu.edu/article/the-roman-province-of-judea-a-historical-overview",
+          "archive": "",
+          "quote": "Archelaus’s holdings were annexed as a province under the administrative oversight of the larger province of Syria in A.D. 6.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Cambridge University Press, Journal of Roman Studies (Werner Eck)",
+          "title": "The Bar Kokhba Revolt: The Roman Point of View",
+          "url": "https://www.cambridge.org/core/journals/journal-of-roman-studies/article/abs/bar-kokhba-revolt-the-roman-point-of-view/27E95F52A627562F93178F17A51D5FD4",
+          "archive": "",
+          "quote": "the name of the province of Judaea has already been changed to Syria Palaestina, it must be inferred that AE 1904.9 was written after the conclusion of the war in Judaea, i.e. in 136.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "Byzantine (Eastern Roman) rule followed, with the provinces of Palaestina Prima, Secunda and Tertia from the late 4th century; Persia held Jerusalem briefly in the early 7th century.",
+      "sources": [
+        {
+          "publisher": "Israel Institute of Archaeology (Nimrod Luz, Lydda)",
+          "title": "Lod and Ramla - not Ramlod",
+          "url": "https://www.israeliarchaeology.org/lydda/vol-4-2026/lod-and-ramla-not-ramlod-on-a-geographic-anomaly-and-the-longue-duree-of-urban-history-and-history/?lang=en",
+          "archive": "",
+          "quote": "the Muslims transitioned from the tripartite division of Palaestina Prima, Secunda, and Tertia to a two-district system: Jund al-Urdunn and Jund Filastin",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Encyclopaedia Iranica",
+          "title": "Jerusalem and Iran",
+          "url": "https://www.iranicaonline.org/articles/jerusalem-and-iran/",
+          "archive": "",
+          "quote": "the second during the westward expansion of the Sasanian state in the early seventh century C.E.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "Arab Muslim armies conquered the land in the 630s (635-638); Rashidun, Umayyad, Abbasid and Fatimid caliphates then ruled it, with the Seljuk Turks briefly in the late 11th century.",
+      "sources": [
+        {
+          "publisher": "Biblical Archaeology Society",
+          "title": "The Early Islamic Period in the Levant",
+          "url": "https://library.biblicalarchaeology.org/sidebar/the-early-islamic-period-in-the-levant/",
+          "archive": "",
+          "quote": "635-638: Muslim conquest of the Levant.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Israel Institute of Archaeology (Nimrod Luz, Lydda)",
+          "title": "Lod and Ramla - not Ramlod",
+          "url": "https://www.israeliarchaeology.org/lydda/vol-4-2026/lod-and-ramla-not-ramlod-on-a-geographic-anomaly-and-the-longue-duree-of-urban-history-and-history/?lang=en",
+          "archive": "",
+          "quote": "The Muslim conquest of the Land of Israel in the fourth decade of the seventh century CE did not immediately lead to fundamental changes in the administration of the region.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "European Crusaders held the Kingdom of Jerusalem from 1099 to 1187, with a reduced Crusader presence until the Mamluks took Acre in 1291.",
+      "sources": [
+        {
+          "publisher": "Biblical Archaeology Society",
+          "title": "The Early Islamic Period in the Levant",
+          "url": "https://library.biblicalarchaeology.org/sidebar/the-early-islamic-period-in-the-levant/",
+          "archive": "",
+          "quote": "1099-1187: European Crusaders created colonies along the Levantine coast, including the Kingdom of Jerusalem",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Islam Museum",
+          "title": "The Crusading Era",
+          "url": "https://www.islam.museum/en/exhibits/path-crusades-era/",
+          "archive": "",
+          "quote": "1291: the Mamluks expel the last from Acre.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "The Ayyubids (1187-1260) and then the Mamluks (1260-1517) ruled the land from Egypt and Damascus.",
+      "sources": [
+        {
+          "publisher": "Biblical Archaeology Society",
+          "title": "The Early Islamic Period in the Levant",
+          "url": "https://library.biblicalarchaeology.org/sidebar/the-early-islamic-period-in-the-levant/",
+          "archive": "",
+          "quote": "1187-1260: Ayyubid dynasty, founded by Salah al-Din (1138-1193), united Syrian and Egyptian Muslims",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Journal of the Japanese Association for Middle East Studies (Tadashi Suzuki)",
+          "title": "Selim I's Expedition against the Mamluks and the Process of the Reorganization of the Conquered Lands",
+          "url": "https://doi.org/10.5356/jorient.30.90",
+          "archive": "",
+          "quote": "Selim I's expedition against the Mamluks during 1516-1518 resulted in the extinction of the Mamluk Empire",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "The Ottoman Empire conquered the land from the Mamluks in 1516-1517 and ruled it until British forces took Jerusalem in December 1917.",
+      "sources": [
+        {
+          "publisher": "Cambridge University Press (Salih Ozbaran)",
+          "title": "Ottoman expansion in the Red Sea",
+          "url": "https://doi.org/10.1017/cho9781139049047.010",
+          "archive": "",
+          "quote": "The defeat of the Mamluk army by Ottoman forces in 1516 and 1517",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "National Army Museum, London",
+          "title": "The British Army in Palestine",
+          "url": "https://www.nam.ac.uk/explore/british-army-palestine",
+          "archive": "",
+          "quote": "General Edmund Allenby led British forces to capture Jerusalem from the Ottoman Empire in December 1917",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "United Kingdom memorandum, hosted by the United Nations",
+          "title": "Political History of Palestine under British Administration",
+          "url": "https://www.un.org/unispal/document/auto-insert-185776/",
+          "archive": "",
+          "quote": "The territory now known as Palestine formed part of the Ottoman empire until it was occupied, in 1917-19, by British forces under the command of General Allenby.",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        }
+      ]
+    },
+    {
+      "text": "Britain held the land from December 1917 to 14 May 1948, first by military administration and from 1920-22 under a League of Nations Mandate.",
+      "sources": [
+        {
+          "publisher": "The Guardian (London Review of Books essay)",
+          "title": "The Mandate years: colonialism and the creation of Israel",
+          "url": "https://www.theguardian.com/books/2001/may/31/londonreviewofbooks",
+          "archive": "",
+          "quote": "The British army occupied Jerusalem on Sunday, 9 December 1917, and withdrew on 14 May 1948.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "National Army Museum, London",
+          "title": "The British Army in Palestine",
+          "url": "https://www.nam.ac.uk/explore/british-army-palestine",
+          "archive": "",
+          "quote": "In 1920, Britain assumed responsibility for Palestine under a League of Nations Mandate.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "United Nations, Question of Palestine (League of Nations text)",
+          "title": "Mandate for Palestine - League of Nations",
+          "url": "https://www.un.org/unispal/document/auto-insert-201057/",
+          "archive": "",
+          "quote": "The Mandatory shall have full powers of legislation and of administration, save as they may be limited by the terms of this mandate.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "In every period listed no independent state called Palestine was governed by its Arab inhabitants: under the Ottomans there was no such unit, and under the Mandate the Mandatory held full powers of legislation and administration.",
+      "sources": [
+        {
+          "publisher": "Encyclopaedia Judaica (via Encyclopedia.com)",
+          "title": "Land of Israel: Governance",
+          "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/land-israel-governance",
+          "archive": "",
+          "quote": "officially, there was no such entity as Palestine",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Yale Law School, Avalon Project",
+          "title": "Mandate for Palestine",
+          "url": "https://avalon.law.yale.edu/20th_century/palmanda.asp",
+          "archive": "",
+          "quote": "The Mandatory shall have full powers of legislation and of administration",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "United Kingdom Colonial Office and Foreign Office (via Internet Archive)",
+          "title": "Palestine: Termination of the Mandate, 15th May, 1948",
+          "url": "https://archive.org/stream/PalestineTerminationOfTheMandate15thMay1948/palestine_djvu.txt",
+          "archive": "",
+          "quote": "will cease to be responsible for the administration of Palestine from midnight on 14th May, 1948",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        }
+      ]
+    },
+    {
+      "text": "Arabs (Muslims and Christians) were the large majority of the population: in the 1922 census 78 percent were Muslims, about 11 percent Jews and about 9 percent Christians.",
+      "sources": [
+        {
+          "publisher": "Economic Cooperation Foundation (census database)",
+          "title": "1922 Census of Palestine",
+          "url": "https://ecf.org.il/issues/issue/1087",
+          "archive": "",
+          "quote": "The total population of Palestine was given as 757,182, of whom 590,890 (78%) were Muslims",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "National Army Museum, London",
+          "title": "The British Army in Palestine",
+          "url": "https://www.nam.ac.uk/explore/british-army-palestine",
+          "archive": "",
+          "quote": "Mandatory Palestine had a majority Arab population",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    "Whether Arabs were the majority \"for many centuries\" is not settled by one source: Ottoman and early Mandate counts are disputed, and the 1922 census may have undercounted Bedouin. This card relies on the 1922 census for the one sure figure.",
+    "Historians differ on which rulers count as \"native\": Arab-speaking Muslims governed from Damascus, Baghdad or Cairo under the caliphates, but those capitals were not in Palestine. Some call that Arab rule of the land; others call it rule by an empire that included it.",
+    "The kingdom of David and Solomon and the date of the Babylonian destruction (587 or 586 BCE) are disputed.",
+    "Crusader and Ayyubid frontiers moved; the dates 1187 and 1291 mark the main changes, not a clean line."
+  ],
+  "could_not_verify": [
+    "The Crusader and Ayyubid-Mamluk facts rest on one readable reliable source (a Biblical Archaeology Society chronology page); Britannica, Taylor & Francis and worldhistory.org pages could not be read by the checker.",
+    "The Assyrian conquest of Samaria has two readable reliable sources; dates for its fall (722 or 720 BCE) differ.",
+    "The Byzantine, caliphate and Arab-majority facts have two or fewer readable reliable sources. I did not find a source I could read for the population before 1922 beyond estimates cited in pages the checker cannot read.",
+    "The no-independent-state fact is partly an inference from the list of rulers; it relies on the Ottoman and Mandate sources, not on a single statement of it."
+  ],
+  "not_claimed": [
+    "This card does not claim that who ruled when settles who has rights today, or that long rule gives or removes a claim.",
+    "It does not say the Arab majority had no claim, or that a Jewish minority had none.",
+    "It does not say Arabs never ruled the land: caliphs, Fatimids, Ayyubids and Mamluks were Muslim rulers of it, some Arab, some not.",
+    "It does not say the land was empty or that its inhabitants were absent."
+  ],
+  "status": "draft",
+  "content_approved": false
+}
