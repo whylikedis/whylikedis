@@ -1,0 +1,455 @@
+{
+  "id": "era6-apartheid-in-law",
+  "era": 6,
+  "claim": "Israel is an apartheid state.",
+  "heard": [
+    {
+      "who": "Human Rights Watch, 27 April 2021",
+      "url": "https://www.hrw.org/report/2021/04/27/threshold-crossed/israeli-authorities-and-crimes-apartheid-and-persecution",
+      "quote": "Israeli authorities are committing the crimes against humanity of apartheid and persecution",
+      "archive": ""
+    },
+    {
+      "who": "Michael Lynk, UN Special Rapporteur, 25 March 2022",
+      "url": "https://www.un.org/unispal/document/israels-55-year-occupation-of-palestinian-territory-is-apartheid-special-rapporteur-for-the-situation-of-human-rights-in-the-palestinian-territory-occupied-since-1967-statement",
+      "quote": "apartheid is being practiced by Israel in the occupied Palestinian territory",
+      "archive": ""
+    }
+  ],
+  "answer": "Apartheid is a legal term, not only an insult. The 1973 Apartheid Convention and the Rome Statute define it as inhuman acts committed to maintain domination by one racial group over another. Human Rights Watch, Amnesty International, B'Tselem and a UN Special Rapporteur say Israel does this, most clearly in the West Bank, where Palestinians live under military law and settlers under Israeli civil law. In July 2024 the International Court of Justice found that Israel's separation of settlers and Palestinians breaches the treaty ban on racial segregation and apartheid, but did not define apartheid, and its judges differed on what that means. The United States, Germany and the United Kingdom reject the word. Our reading: the charge fits the West Bank far better than it fits Israel inside its pre-1967 lines.",
+  "facts": [
+    {
+      "text": "The 1973 Apartheid Convention defines the crime of apartheid as inhuman acts committed for the purpose of establishing and maintaining domination by one racial group over another and systematically oppressing them.",
+      "sources": [
+        {
+          "publisher": "University of Minnesota Human Rights Library",
+          "title": "International Convention on the Suppression and Punishment of the Crime of Apartheid (1973)",
+          "url": "https://hrlibrary.umn.edu/instree/apartheid-supp.html",
+          "archive": "",
+          "quote": "committed for the purpose of establishing and maintaining domination by one racial group of persons over any other racial group of persons and systematically oppressing them",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "United Nations Treaty Collection",
+          "title": "International Convention on the Suppression and Punishment of the Crime of Apartheid",
+          "url": "https://treaties.un.org/doc/Treaties/1976/07/19760718%2003-04%20AM/Ch_IV_7p.pdf",
+          "archive": "",
+          "quote": "committed for the purpose of establishing and maintaining domination by one racial group of persons over any other racial group of persons and systematically oppressing them",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "EJIL: Talk! (Human Rights Watch response)",
+          "title": "Human Rights Watch Responds: Reflections on Apartheid and Persecution in International Law",
+          "url": "https://www.ejiltalk.org/human-rights-watch-responds-reflections-on-apartheid-and-persecution-in-international-law/",
+          "archive": "",
+          "quote": "inhuman acts committed for the purpose of establishing and maintaining domination by one racial group of persons over any other racial group of persons",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "The Rome Statute, Article 7(2)(h), defines the crime of apartheid as inhumane acts committed in the context of an institutionalized regime of systematic oppression and domination by one racial group over another, with the intention of maintaining that regime.",
+      "sources": [
+        {
+          "publisher": "International Criminal Court",
+          "title": "Rome Statute of the International Criminal Court",
+          "url": "https://www.icc-cpi.int/sites/default/files/RS-Eng.pdf",
+          "archive": "",
+          "quote": "committed in the context of an institutionalized regime of systematic oppression and domination by one racial group over any other racial group or groups and committed with the intention of maintaining that regime",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "EJIL: Talk! (Carola Lingaas)",
+          "title": "Jewish Israeli and Palestinians as distinct 'racial groups' within the meaning of the crime of apartheid?",
+          "url": "https://www.ejiltalk.org/jewish-israeli-and-palestinians-as-distinct-racial-groups-within-the-meaning-of-the-crime-of-apartheid/",
+          "archive": "",
+          "quote": "the conduct was committed in the context of an institutionalized regime of systematic oppression and domination by one racial group over any other racial group or groups",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "International Court of Justice (Judge Iwasawa, separate opinion)",
+          "title": "Separate opinion of Judge Iwasawa",
+          "url": "https://www.icj-cij.org/index.php/node/204167",
+          "archive": "",
+          "quote": "under the Rome Statute, there must be an institutionalized régime of systematic oppression and domination by one racial group over another",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "South African apartheid, in dated facts: the Population Registration Act of 1950 classified every South African by race; the Promotion of Bantu Self-Government Act of 1959 created ten homelands; and Black South Africans had no vote in national elections until the constitution of 1994.",
+      "sources": [
+        {
+          "publisher": "History.com",
+          "title": "Apartheid",
+          "url": "https://www.history.com/topics/africa/apartheid",
+          "archive": "",
+          "quote": "the population registration act of 1950 provided the basic framework for apartheid by classifying all South Africans by race",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "History.com",
+          "title": "Apartheid",
+          "url": "https://www.history.com/topics/africa/apartheid",
+          "archive": "",
+          "quote": "A new constitution, which enfranchised black citizens and other racial groups, took effect in 1994",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "South African History Online",
+          "title": "Apartheid legislation, 1850s-1970s",
+          "url": "https://www.sahistory.org.za/article/apartheid-legislation-1850s-1970s",
+          "archive": "",
+          "quote": "the inhabitants of these homelands would lose South African citizenship and all political rights including voting",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Lumen Learning (SUNY World History)",
+          "title": "Apartheid",
+          "url": "https://courses.lumenlearning.com/suny-worldhistory/chapter/33-4-3-apartheid/",
+          "archive": "",
+          "quote": "established strict racial classification, forced relocation of nonwhites to",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "Human Rights Watch (April 2021) concluded that Israeli authorities are committing the crimes against humanity of apartheid and persecution, against Palestinians in the occupied territory and, in its analysis, inside Israel; its report presents the present-day reality of one authority ruling the area between the river and the sea.",
+      "sources": [
+        {
+          "publisher": "Human Rights Watch",
+          "title": "A Threshold Crossed: Israeli Authorities and the Crimes of Apartheid and Persecution",
+          "url": "https://www.hrw.org/report/2021/04/27/threshold-crossed/israeli-authorities-and-crimes-apartheid-and-persecution",
+          "archive": "",
+          "quote": "Israeli authorities are committing the crimes against humanity of apartheid and persecution",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        },
+        {
+          "publisher": "NBC News",
+          "title": "Human Rights Watch accuses Israel of apartheid over treatment of Palestinians",
+          "url": "https://www.nbcnews.com/news/world/human-rights-watch-accuses-israel-apartheid-over-treatment-palestinians-n1265442",
+          "archive": "",
+          "quote": "israel is guilty of the international crimes of apartheid and persecution because of discriminatory policies toward palestinians within its own borders and in the occupied territories",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "The Irish Times",
+          "title": "Israel accused of apartheid and crimes against humanity by NGO",
+          "url": "https://www.irishtimes.com/news/world/middle-east/israel-accused-of-apartheid-and-crimes-against-humanity-by-ngo-1.4549252",
+          "archive": "",
+          "quote": "cited a range of policies it said were aimed at ensuring a Jewish majority in Israel and limiting Arab land purchases",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "NPR",
+          "title": "Israel Accused Of 'Apartheid' Crimes By Human Rights Watch",
+          "url": "https://www.npr.org/2021/04/27/990993903/israel-accused-of-apartheid-crimes-by-human-rights-watch",
+          "archive": "",
+          "quote": "accused Israel of committing \"crimes against humanity\" and said the U.S. and the international community have \"turned a blind eye.\"",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Amnesty International (February 2022) concluded that Israel imposes a system of oppression and domination against Palestinians across all areas under its control, in Israel and the occupied territories and against refugees, and that this amounts to apartheid.",
+      "sources": [
+        {
+          "publisher": "Amnesty International",
+          "title": "Israel's apartheid against Palestinians",
+          "url": "https://www.amnesty.org/en/latest/campaigns/2022/02/israels-system-of-apartheid/",
+          "archive": "",
+          "quote": "Israel imposes a system of oppression and domination against Palestinians across all areas under its control: in Israel and the OPT, and against Palestinian refugees",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        },
+        {
+          "publisher": "PBS NewsHour (Associated Press)",
+          "title": "Amnesty International releases report accusing Israel of apartheid",
+          "url": "https://www.pbs.org/newshour/world/amnesty-international-releases-report-accusing-israel-of-apartheid",
+          "archive": "",
+          "quote": "a system of oppression and domination\" over the Palestinians going all the way back to its establishment in 1948",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AP"
+        },
+        {
+          "publisher": "The Irish Times",
+          "title": "Israel accused of apartheid and crimes against humanity by NGO",
+          "url": "https://www.irishtimes.com/news/world/middle-east/israel-accused-of-apartheid-and-crimes-against-humanity-by-ngo-1.4549252",
+          "archive": "",
+          "quote": "Israel strongly denies apartheid accusations, saying its Arab minority, which makes up almost 20 per cent of the population, enjoys full civil rights",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "The Jerusalem Post",
+          "title": "UK: we do not agree with Amnesty's terminology",
+          "url": "https://www.jpost.com/israel-news/article-695546",
+          "archive": "",
+          "quote": "the 211-page report by the London-based international human rights group accusing Israel of the crime of apartheid",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "B'Tselem, an Israeli human rights group, said in January 2021 that all of Israel and the occupied territories are organised under a single principle of advancing and cementing the supremacy of Jews over Palestinians, and called it apartheid.",
+      "sources": [
+        {
+          "publisher": "Middle East Eye",
+          "title": "Israel is an apartheid regime, says B'Tselem",
+          "url": "https://www.middleeasteye.net/news/israel-btselem-apartheid-state-palestine-occupation",
+          "archive": "",
+          "quote": "under a single principle: advancing and cementing the supremacy of one group - Jews - over another - Palestinians",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "'This is apartheid': Rights group slams Israeli rule",
+          "url": "https://www.aljazeera.com/news/2021/1/12/this-is-apartheid-rights-group-slam-israeli-rule",
+          "archive": "",
+          "quote": "This is not democracy plus occupation. This is apartheid between the river and the sea.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Israel Hayom (AP)",
+          "title": "Leftist NGO B'Tselem blasts government policies, says Israel an 'apartheid' state",
+          "url": "https://www.israelhayom.com/2021/01/13/leftist-ngo-btselem-blasts-government-policies-says-israel-an-apartheid-state",
+          "archive": "",
+          "quote": "for the high-profile Israeli organization to adopt a term long seen as taboo even by many critics of Israel",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AP"
+        }
+      ]
+    },
+    {
+      "text": "Michael Lynk, then UN Special Rapporteur on the Palestinian territory occupied since 1967, reported in March 2022 that a dual legal and political system there privileges about 700,000 Israeli settlers over more than three million Palestinians, and that this is apartheid. His mandate covered the territory occupied in 1967, not Israel inside its pre-1967 lines.",
+      "sources": [
+        {
+          "publisher": "United Nations (via UNISPAL)",
+          "title": "Israel's 55-year occupation of Palestinian territory is apartheid - Special Rapporteur statement",
+          "url": "https://www.un.org/unispal/document/israels-55-year-occupation-of-palestinian-territory-is-apartheid-special-rapporteur-for-the-situation-of-human-rights-in-the-palestinian-territory-occupied-since-1967-statement",
+          "archive": "",
+          "quote": "a deeply discriminatory dual legal and political system that privileges the 700,000 Israeli Jewish settlers living in the 300 illegal Israeli settlements in East Jerusalem and the West Bank",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "International Center for Transitional Justice",
+          "title": "UN investigator accuses Israel of apartheid, citing permanence of occupation",
+          "url": "https://www.ictj.org/node/35063",
+          "archive": "",
+          "quote": "the first time that a UN-appointed investigator has accused Israel of apartheid in such an unequivocal way",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Jewish Journal",
+          "title": "UN rapporteur issues report accusing Israel of apartheid",
+          "url": "https://jewishjournal.com/israel/346354/un-rapporteur-issues-report-accusing-israel-of-apartheid/",
+          "archive": "",
+          "quote": "one racial-national-ethnic group with substantial rights, benefits and privileges while intentionally subjecting another group to live behind walls, checkpoints and under a permanent military rule",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "On 19 July 2024 the ICJ found in an advisory opinion that Israel's legislation and measures impose and maintain a near-complete separation between settlers and Palestinians in the West Bank and East Jerusalem, and constitute a breach of Article 3 of the racial-discrimination convention, which condemns racial segregation and apartheid. The Court did not say which of the two it found.",
+      "sources": [
+        {
+          "publisher": "International Court of Justice",
+          "title": "Advisory Opinion of 19 July 2024, Legal Consequences arising from the Policies and Practices of Israel in the Occupied Palestinian Territory",
+          "url": "https://www.icj-cij.org/node/204160",
+          "archive": "",
+          "quote": "Israel's legislation and measures impose and serve to maintain a near-complete separation in the West Bank and East Jerusalem between the settler and Palestinian communities",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "EJIL: Talk!",
+          "title": "Whose reasonable inference? The ICJ's Advisory Opinion and the threshold for apartheid's mens rea",
+          "url": "https://www.ejiltalk.org/whose-reasonable-inference-the-icjs-advisory-opinion-and-the-threshold-for-apartheids-mens-rea/",
+          "archive": "",
+          "quote": "the AO does not delve into the definitions of these crimes, presumably because of the diverging views of the judges",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Verfassungsblog",
+          "title": "Apartheid or systemic discrimination?",
+          "url": "https://verfassungsblog.de/apartheid-or-systemic-discrimination/",
+          "archive": "",
+          "quote": "the Court merely observed that Israel's legislation and measures that segregate the settler and Palestinian communities in East Jerusalem and the West Bank constitute a breach of Article 3 of CERD",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "The United States, Germany and the United Kingdom each rejected the apartheid label after the 2021-22 reports: the US State Department said it rejects the view that Israel's actions constitute apartheid; a German government spokesperson rejected the term; a UK Foreign Office spokesperson said it did not agree with the terminology.",
+      "sources": [
+        {
+          "publisher": "Jewish Telegraphic Agency",
+          "title": "'Absurd': US officials decry Amnesty International's use of 'apartheid' to describe Israel",
+          "url": "https://www.jta.org/?p=1766760",
+          "archive": "",
+          "quote": "we reject the view that Israel's actions constitute apartheid",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Ynetnews (Reuters)",
+          "title": "Germany rejects use of word 'apartheid' in connection with Israel",
+          "url": "https://www.ynetnews.com/article/r1bptw00rt",
+          "archive": "",
+          "quote": "Germany rejects the use of terms such as \"apartheid\" in connection with Israel, said a government spokesperson",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "Reuters"
+        },
+        {
+          "publisher": "The Jerusalem Post",
+          "title": "UK: we do not agree with Amnesty's terminology",
+          "url": "https://www.jpost.com/israel-news/article-695546",
+          "archive": "",
+          "quote": "We do not agree with this terminology",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    {
+      "text": "What the ICJ found. President Salam and Judge Tladi read the Article 3 finding as accepting that Israel's policies breach the prohibition of apartheid; Judge Iwasawa said the Court did not qualify them as apartheid; Judge Nolte said the Court left the matter open.",
+      "sources": [
+        {
+          "publisher": "Verfassungsblog",
+          "title": "Apartheid or systemic discrimination?",
+          "url": "https://verfassungsblog.de/apartheid-or-systemic-discrimination/",
+          "archive": "",
+          "quote": "Judge Iwasawa was of the view that the Court did not qualify Israel's policies as apartheid",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Verfassungsblog",
+          "title": "Apartheid or systemic discrimination?",
+          "url": "https://verfassungsblog.de/apartheid-or-systemic-discrimination/",
+          "archive": "",
+          "quote": "Judge Nolte was of the view that the Court left the matter open",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Human Rights Watch",
+          "title": "World Court Findings on Israeli Apartheid a Wake-Up Call",
+          "url": "https://www.hrw.org/news/2024/09/19/world-court-findings-israeli-apartheid-wake-call",
+          "archive": "",
+          "quote": "the finding means that Israel is responsible for apartheid",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        }
+      ]
+    },
+    {
+      "text": "Whether Jewish Israelis and Palestinians are 'racial groups' and whether the intent element is met. Neither treaty defines 'racial group'; one scholar argues the element is likely met, another calls it a tricky interpretative problem, and the intent element is called the most difficult to demonstrate.",
+      "sources": [
+        {
+          "publisher": "EJIL: Talk! (Carola Lingaas)",
+          "title": "Jewish Israeli and Palestinians as distinct 'racial groups' within the meaning of the crime of apartheid?",
+          "url": "https://www.ejiltalk.org/jewish-israeli-and-palestinians-as-distinct-racial-groups-within-the-meaning-of-the-crime-of-apartheid/",
+          "archive": "",
+          "quote": "the HRW report (p. 35) correctly points out that neither the Apartheid Convention nor the Rome Statute define the term 'racial group'",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "University of Gottingen (Kai Ambos)",
+          "title": "Apartheid in the occupied Palestinian territory",
+          "url": "https://www.department-ambos.uni-goettingen.de/data/documents/apartheidintheocc.pdf",
+          "archive": "",
+          "quote": "the second element raises some tricky interpretative problems (especially the \"racial group\" part), and the third element is arguably the most difficult to demonstrate",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "Whether the label fits Israel inside its pre-1967 lines. Israel and its supporters say its Arab citizens, almost a fifth of the population, have full civil rights; HRW, Amnesty and B'Tselem say discrimination there is part of the same regime. See era6-arab-citizens-of-israel.",
+      "sources": [
+        {
+          "publisher": "The Irish Times",
+          "title": "Israel accused of apartheid and crimes against humanity by NGO",
+          "url": "https://www.irishtimes.com/news/world/middle-east/israel-accused-of-apartheid-and-crimes-against-humanity-by-ngo-1.4549252",
+          "archive": "",
+          "quote": "its Arab minority, which makes up almost 20 per cent of the population, enjoys full civil rights",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Scholars who reject the charge. A 2025 academic study examining the Rome Statute and the Apartheid Convention concluded that the apartheid charge is not legally established.",
+      "sources": [
+        {
+          "publisher": "The Jerusalem Post (on a study by Karpe and Jikeli)",
+          "title": "Israel not conducting genocide, not guilty of apartheid, new academic study shows",
+          "url": "https://www.jpost.com/israel-news/article-910003",
+          "archive": "",
+          "quote": "concluding the first two are not established and the third is an inadequate classification",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Israel's government rejects the charge. Its foreign ministry called the Human Rights Watch report 'preposterous and false' and said HRW has a long-standing anti-Israel agenda; the US State Department said it is not the view of the administration that Israel's actions constitute apartheid.",
+      "sources": [
+        {
+          "publisher": "NBC News",
+          "title": "Human Rights Watch accuses Israel of apartheid over treatment of Palestinians",
+          "url": "https://www.nbcnews.com/news/world/human-rights-watch-accuses-israel-apartheid-over-treatment-palestinians-n1265442",
+          "archive": "",
+          "quote": "The fictional claims that HRW concocted are both preposterous and false",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    }
+  ],
+  "could_not_verify": [
+    "B'Tselem's own report page (btselem.org) returns HTTP 403; its finding is cited from Middle East Eye, Al Jazeera and Israel Hayom (AP).",
+    "The ICJ's full advisory-opinion PDF and the separate opinions of Judges Salam, Tladi and Nolte could not be read directly; the judges' positions are cited from Verfassungsblog and EJIL: Talk!, and the Court's own words from the ICJ page for the opinion and Judge Iwasawa's opinion.",
+    "Britannica's page on apartheid could not be read; South African facts rest on History.com, South African History Online and Lumen Learning.",
+    "The UK and German governments' own statements could not be read; they are cited from Reuters/Ynetnews and the Jerusalem Post. I did not find the United Kingdom's or Germany's position after the July 2024 ICJ opinion.",
+    "I found only one study (Karpe and Jikeli, via the Jerusalem Post) as a scholarly rejection of the charge; the full study could not be read. The Special Rapporteur's mandate report (A/HRC/49/87) was fetched from UNISPAL but its quoted statement is the press statement."
+  ],
+  "not_claimed": [
+    "This card does not say Israel is an apartheid state, and it does not say the charge is baseless.",
+    "It does not say the ICJ found Israel guilty of the crime of apartheid; the Court found a breach of Article 3, which names both segregation and apartheid, and did not say which.",
+    "It does not say South Africa under apartheid and Israel are the same, or that they differ in every respect.",
+    "It does not defend any practice documented in the reports, including discriminatory planning, movement restrictions or a dual legal system; those costs to Palestinians are facts on this card and the West Bank card.",
+    "It does not rest on the NGOs' reports being neutral; they are advocacy groups and are labelled so."
+  ],
+  "status": "draft",
+  "content_approved": false
+}

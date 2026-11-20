@@ -1,0 +1,536 @@
+{
+  "id": "era6-arab-citizens-of-israel",
+  "era": 6,
+  "claim": "Israel is an apartheid state: Arab citizens of Israel are second-class citizens.",
+  "heard": [
+    {
+      "who": "Amnesty International, 1 February 2022 (campaign page)",
+      "url": "https://www.amnesty.org/en/latest/campaigns/2022/02/israels-system-of-apartheid/",
+      "quote": "Israel imposes a system of oppression and domination against Palestinians across all areas under its control: in Israel and the OPT, and against Palestinian refugees",
+      "archive": ""
+    },
+    {
+      "who": "Associated Press, on the Arab minority's reaction to the Nation-State Law, 19 July 2018 (NPR)",
+      "url": "https://www.npr.org/2018/07/19/630368973/israel-passes-controversial-law-reserving-national-self-determination-for-jews",
+      "quote": "see the change as akin to establishing apartheid",
+      "archive": ""
+    }
+  ],
+  "answer": "Inside Israel's pre-1967 lines the picture is mixed, and both halves are true. Arabs are about a fifth of the population; those with citizenship vote, sit in the Knesset, serve as ministers and as Supreme Court justices, and in 2021 an Arab party joined the governing coalition. They also lived under military rule until 1966, and today they face documented gaps: poverty about two and a half times the Jewish rate, unequal municipal services found by the State Comptroller, a record 252 killings in 2025, a 2018 law reserving national self-determination to Jews, and a law that bars Palestinian spouses from joining them. Our reading: this is unequal citizenship in a democracy, a serious wrong that Israelis themselves audit and litigate, not the legal crime of apartheid.",
+  "facts": [
+    {
+      "text": "Arabs are about 21 percent of Israel's population (2.157 million of 10.244 million in April 2026). About 17.2 percent of the population are Arab citizens; the rest of the 21 percent are mainly East Jerusalem residents, who are permanent residents and mostly not citizens.",
+      "sources": [
+        {
+          "publisher": "Israel Central Bureau of Statistics",
+          "title": "Israel's population on the eve of Independence Day 2026",
+          "url": "https://www.cbs.gov.il/he/mediarelease/DocLib/2026/117/11_26_117e.pdf",
+          "archive": "",
+          "quote": "2.157 million Arabs 3 (21.1%)",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "Israel Democracy Institute",
+          "title": "Statistical Report on Arab Society in Israel 2024: Selected Findings",
+          "url": "https://en.idi.org.il/media/31409/idi-arab-shnaton-2024.pdf",
+          "archive": "",
+          "quote": "This percentage is made up of 17.2% who hold Israeli citizenship and 3.7% who are defined as \"permanent residents\" living in East Jerusalem",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Council on Foreign Relations",
+          "title": "What to Know About Arab Citizens of Israel",
+          "url": "https://www.cfr.org/backgrounder/what-know-about-arab-citizens-israel",
+          "archive": "",
+          "quote": "All are citizens of Israel except the few hundred thousand in East Jerusalem, who are permanent residents",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Ynetnews",
+          "title": "On Israel's 77th Independence Day: One-third of Israelis are under 20",
+          "url": "https://www.ynetnews.com/article/h100a9e0yxl",
+          "archive": "",
+          "quote": "the Arab population numbers 2,114,000 (20.9%)",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Arab citizens vote and are represented in the Knesset: in the 2022 election Ra'am and Hadash-Ta'al each won five seats.",
+      "sources": [
+        {
+          "publisher": "Israel Democracy Institute",
+          "title": "Arab Society and the 2022 elections",
+          "url": "https://en.idi.org.il/articles/47986",
+          "archive": "",
+          "quote": "It won five seats in the Knesset, the same number as Hadash-Ta'al",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Moshe Dayan Center (Arik Rudnitzky)",
+          "title": "Summary of the 25th Knesset election results in Arab society",
+          "url": "https://dayan.org/content/summary-25th-knesset-election-results-arab-society",
+          "archive": "",
+          "quote": "Ra'am became the largest Arab party, with five seats in the Knesset - the same number as Hadash-Ta'al",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Institute for National Security Studies",
+          "title": "Arab Society in Israel and the Elections to the 25th Knesset",
+          "url": "https://www.inss.org.il/?p=108674",
+          "archive": "",
+          "quote": "35.2 percent voted for Ra'am, which received 194,047 votes, earning 5 mandates",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "Salim Joubran, a Christian Arab from Haifa, was the first Arab Israeli to serve as a Supreme Court justice and rose to deputy president of the court; he was also the first Arab to chair the Central Elections Committee.",
+      "sources": [
+        {
+          "publisher": "The Times of Israel",
+          "title": "Salim Joubran, first Arab Israeli Supreme Court justice, dies at 76",
+          "url": "https://www.timesofisrael.com/salim-joubran-first-arab-israeli-supreme-court-justice-dies-at-76/",
+          "archive": "",
+          "quote": "Salim Joubran, the first Arab Israeli to serve as a Supreme Court justice, died Friday at the age of 76",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "The Jerusalem Post",
+          "title": "The legacy of Israel's first Arab Supreme Court judge",
+          "url": "https://jpost.com/international/the-legacy-of-israels-first-arab-supreme-court-judge-501567",
+          "archive": "",
+          "quote": "Joubran has been paraded by Israel as an example of the country treating Arab-Israelis equally",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Center for Israel Education",
+          "title": "Salim Joubran, 1947-2024",
+          "url": "https://israeled.org/salim-joubran-1947-",
+          "archive": "",
+          "quote": "was the first Arab with a permanent seat on the Israeli Supreme Court, serving from 2004 to 2017",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "GBH",
+          "title": "Justice Salim Joubran",
+          "url": "https://wgbh.org/people/justice-salim-joubran",
+          "archive": "",
+          "quote": "is the first Arab Israeli to serve a permanent appointment to the Supreme Court of Israel",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "Arabs have served as ministers: Raleb Majadele was appointed Israel's first Arab government minister in 2007, and Issawi Frej and Hamad Amar (a Druze) served in the government formed in 2021.",
+      "sources": [
+        {
+          "publisher": "NBC News (Associated Press)",
+          "title": "Israeli Cabinet OKs first Muslim minister",
+          "url": "https://www.nbcnews.com/news/amp/wbna16854543",
+          "archive": "",
+          "quote": "The Israeli government on Sunday approved the appointment of the country's first Muslim cabinet member",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AP"
+        },
+        {
+          "publisher": "Jewish Virtual Library",
+          "title": "Raleb Majadele",
+          "url": "https://www.jewishvirtuallibrary.org/raleb-majadele",
+          "archive": "",
+          "quote": "in January 2007, Raleb Majadele was appointed minister without portfolio, Israel's first Arab government minister",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "The Forward",
+          "title": "Why an Arab in the Israeli government says he's OK with a delay in the peace process",
+          "url": "https://forward.com/news/476522/israeli-arab-minister-frej-peace-process",
+          "archive": "",
+          "quote": "serving as an Arab minister in the Israeli government for the first time in 12 years",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "In 2021 the Islamist Arab party Ra'am joined the governing coalition, the first Arab party to do so; it later suspended and resumed its membership.",
+      "sources": [
+        {
+          "publisher": "Voice of America (Associated Press)",
+          "title": "Israel swears in new government, ending Netanyahu's rule",
+          "url": "https://www.voanews.com/middle-east/israel-swears-new-government-ending-netanyahus-rule",
+          "archive": "",
+          "quote": "the first time that an Arab party, the Islamist Ra'am party, has joined the Israeli governing coalition",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AP"
+        },
+        {
+          "publisher": "Dawn (AFP)",
+          "title": "Trailblazing Arab lawmaker Mansour Abbas shakes up Israeli politics",
+          "url": "https://www.dawn.com/news/1669963",
+          "archive": "",
+          "quote": "became the first Arab faction to join an Israeli coalition",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AFP"
+        },
+        {
+          "publisher": "Israel21c",
+          "title": "9 firsts you should know about Israel's new government",
+          "url": "https://archive.israel21c.org/9-firsts-you-should-know-about-israels-new-government/",
+          "archive": "",
+          "quote": "The ruling coalition includes an Arab party - the Islamist Ra'am party",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Arab citizens of Israel were under military rule from 1948 until December 1966, with travel permits required to enter sensitive areas; on 2 December 1966 the military governors' functions passed to the police.",
+      "sources": [
+        {
+          "publisher": "Council on Foreign Relations",
+          "title": "What to Know About Arab Citizens of Israel",
+          "url": "https://www.cfr.org/backgrounder/what-know-about-arab-citizens-israel",
+          "archive": "",
+          "quote": "Unlike Jewish citizens, Arab citizens of Israel were subjected to military rule until 1966",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Jewish Telegraphic Agency",
+          "title": "Rule of Israeli military over Arab border areas in the country ended (2 December 1966)",
+          "url": "https://www.jta.org/archive/rule-of-israeli-military-over-arab-border-areas-in-the-country-ended",
+          "archive": "",
+          "quote": "military government over Israeli Arabs in border areas came to an end last night after having been in force since the creation of Israel",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Akevot Institute (Israel State Archives file)",
+          "title": "Israel State Archives file GL-17005/6: Military Government",
+          "url": "https://www.akevot.org.il/en/?p=6009",
+          "archive": "",
+          "quote": "before it was formally replaced with civilian oversight mechanisms in December 1966",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "Poverty is more than twice as high in Arab society as in Jewish society: in 2023, 38.4 percent of Arab families and 48.8 percent of Arab children were poor, against 15.4 percent of Jewish families and 21.3 percent of Jewish children (National Insurance Institute data). The rate has been falling for a decade.",
+      "sources": [
+        {
+          "publisher": "Israel Democracy Institute",
+          "title": "Statistical Report on Arab Society in Israel 2024: Selected Findings",
+          "url": "https://en.idi.org.il/media/31409/idi-arab-shnaton-2024.pdf",
+          "archive": "",
+          "quote": "poverty rates in Arab society are still more than twice as high as those in Jewish society for both families (15.4%) and children (21.3%)",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Council on Foreign Relations",
+          "title": "What to Know About Arab Citizens of Israel",
+          "url": "https://www.cfr.org/backgrounder/what-know-about-arab-citizens-israel",
+          "archive": "",
+          "quote": "More than half of the country's Arab families were considered poor in 2020, compared to 40 percent of Jewish families",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "The Jerusalem Post",
+          "title": "Millions of Israelis, including 900,000 children, live in poverty, NII report for 2024 shows",
+          "url": "https://www.jpost.com/israel-news/article-885066",
+          "archive": "",
+          "quote": "poverty rates remain especially high among Arab and Haredi populations, who together account for 65.1% of people in poverty, nearly double their share of the population",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "The State Comptroller found gaps in public services and planning: a 2022 audit of five mixed cities found gaps between municipal services to Jewish and Arab residents, and a 2024 audit found that only 49 percent of NIS 80 million allocated for planning in non-Jewish localities under Government Resolution 922 (2016-2020) was used. About 93 percent of Israel's land is held by the state, its Development Authority and the Jewish National Fund.",
+      "sources": [
+        {
+          "publisher": "State Comptroller of Israel",
+          "title": "Audit report - Mixed Cities, 2022",
+          "url": "https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2022/Mixed-Cities/EN/2022-Mixed-Cities-102-Taktzir-EN.pdf",
+          "archive": "",
+          "quote": "This audit report indicates gaps between the municipal services to the Jewish residents and the municipal services to the Arab residents in the examined mixed cities",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "State Comptroller of Israel",
+          "title": "Planning and budgeting in the non-Jewish sector, 2024",
+          "url": "https://library.mevaker.gov.il/sites/DigitalLibrary/Documents/2024/2024.11-75A-PartB/EN/2024.11-75A-PartB-502-Tichnun-Taktzir-EN.pdf",
+          "archive": "",
+          "quote": "the amount utilized (49%) of the NIS 80 million budget allocated under Government Resolution 922",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "Council on Foreign Relations",
+          "title": "What to Know About Arab Citizens of Israel",
+          "url": "https://www.cfr.org/backgrounder/what-know-about-arab-citizens-israel",
+          "archive": "",
+          "quote": "a government audit in July 2022 found Arabs had less access to municipal services in those cities",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "The Jerusalem Post",
+          "title": "Arab residents of mixed cities disadvantaged compared to Jews - Comptroller",
+          "url": "https://www.jpost.com/israel-news/article-713268",
+          "archive": "",
+          "quote": "Arab residents of mixed cities are heavily disadvantaged compared to their Jewish neighbors, according to a new report published by the State Comptroller",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Ynetnews",
+          "title": "Israel's Arabs underfunded, underserved in mixed cities, comptroller says",
+          "url": "https://www.ynetnews.com/article/rjgpvxjp5",
+          "archive": "",
+          "quote": "Englman called for the government ministries to present a long-term plan to reduce the gap between the Jewish and Arab populations in mixed cities",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Violence in Arab communities is at record levels: the Abraham Initiatives counted 252 Arab citizens killed in 218 incidents of violence and crime in 2025, up from 230 in 2024.",
+      "sources": [
+        {
+          "publisher": "The Jerusalem Post",
+          "title": "2025 deadliest year on record for Arab society in Israel, Abraham Initiatives report finds",
+          "url": "https://www.jpost.com/israel-news/crime-in-israel/article-881593",
+          "archive": "",
+          "quote": "252 Arab citizens lost their lives in 218 incidents of violence and crime this year, an increase compared to 2024, when 230 people were murdered",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Yahoo News (Jerusalem Post)",
+          "title": "2025 deadliest year on record for Arab society in Israel",
+          "url": "https://www.yahoo.com/news/articles/2025-deadliest-record-arab-society-160445129.html",
+          "archive": "",
+          "quote": "2025 marked the deadliest year ever for Arab society in Israel, with 252 Arab citizens losing their lives",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "All Israel News",
+          "title": "Violence in Israel's Arab communities reaches record high in 2025",
+          "url": "https://allisraelnews.com/violence-in-israels-arab-communities-reaches-record-high-in-2025-with-over-250-killed",
+          "archive": "",
+          "quote": "the year 2025 was the bloodiest year ever in Arab society, with 252 civilians killed",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "All Israel News",
+          "title": "Violence in Israel's Arab communities reaches record high in 2025",
+          "url": "https://allisraelnews.com/violence-in-israels-arab-communities-reaches-record-high-in-2025-with-over-250-killed",
+          "archive": "",
+          "quote": "the year 2025 was the bloodiest year ever in Arab society, with 252 civilians killed",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "The Nation-State Law of 2018 declares that the right to national self-determination in Israel is exclusive to the Jewish people, makes Hebrew the language of the state, and gives Arabic a special status; the Knesset passed it by 62 to 55. The government said it enshrines what was already integral to Israel's character; Arab citizens, about 20 percent of the population, see it as akin to establishing apartheid.",
+      "sources": [
+        {
+          "publisher": "The Knesset",
+          "title": "Basic Law: Israel as the Nation-State of the Jewish People",
+          "url": "https://main.knesset.gov.il/EN/activity/Documents/BasicLawsPDF/BasicLawNationState.pdf",
+          "archive": "",
+          "quote": "The realization of the right to national selfdetermination in the State of Israel is exclusive to the Jewish people",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "NPR (Scott Neuman)",
+          "title": "Israel Passes Controversial Law Reserving National Self-Determination For Jews",
+          "url": "https://www.npr.org/2018/07/19/630368973/israel-passes-controversial-law-reserving-national-self-determination-for-jews",
+          "archive": "",
+          "quote": "The government says the bill only enshrines into law what had long been integral to Israel's existing character",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "NPR (Scott Neuman)",
+          "title": "Israel Passes Controversial Law Reserving National Self-Determination For Jews",
+          "url": "https://www.npr.org/2018/07/19/630368973/israel-passes-controversial-law-reserving-national-self-determination-for-jews",
+          "archive": "",
+          "quote": "The measure passed by 62 to 55, with two lawmakers abstaining",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Council on Foreign Relations",
+          "title": "What to Know About Arab Citizens of Israel",
+          "url": "https://www.cfr.org/backgrounder/what-know-about-arab-citizens-israel",
+          "archive": "",
+          "quote": "the law removed Arabic as an official language but gave it a \"special status,\"",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "The Forward",
+          "title": "Israel passes controversial law that defines it as a nation for Jews",
+          "url": "https://forward.com/fast-forward/406124/israel-passes-controversial-law-that-defines-it-as-a-nation-for-jews/",
+          "archive": "",
+          "quote": "it passed early Thursday morning after hours of contentious debate by a vote of 62-55, with two abstentions",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Jewish Virtual Library",
+          "title": "Understanding Israel's Nation State Law",
+          "url": "https://www.jewishvirtuallibrary.org/understanding-israel-s-nation-state-law",
+          "archive": "",
+          "quote": "the law downgrades the status of the Arabic language from an official state language to one holding a more ambiguous \"special status.\"",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        }
+      ]
+    },
+    {
+      "text": "The Citizenship and Entry into Israel Law (2003, temporary, renewed repeatedly) bars Palestinians from the West Bank and Gaza from receiving Israeli citizenship or residency through marriage; it mainly affects Arab citizens and their spouses. The Supreme Court upheld it 6 to 5 in 2006 and again in 2012. The Knesset failed to renew it in a 59-59 vote in July 2021, and passed it again in March 2022.",
+      "sources": [
+        {
+          "publisher": "Human Rights Watch",
+          "title": "Israel: High Court Rulings Undermine Human Rights",
+          "url": "https://www.hrw.org/news/2012/01/30/israel-high-court-rulings-undermine-human-rights",
+          "archive": "",
+          "quote": "The law primarily affects Palestinian citizens of Israel and their Palestinian spouses, who are prohibited from living together in Israel",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        },
+        {
+          "publisher": "Jurist",
+          "title": "Israel Supreme Court upholds citizenship law",
+          "url": "https://www.jurist.org/news/2012/01/israel-supreme-court-upholds-citizenship-law",
+          "archive": "",
+          "quote": "a law that prevents Palestinians who marry Israelis from obtaining Israeli citizenship",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "PBS NewsHour (Associated Press)",
+          "title": "Israel blocks renewal of law that keeps out Palestinian spouses",
+          "url": "https://www.pbs.org/newshour/amp/world/israel-blocks-renewal-of-law-that-keeps-out-palestinian-spouses",
+          "archive": "",
+          "quote": "failed to renew a law that bars Arab citizens from extending citizenship or residency rights to spouses from the occupied West Bank and Gaza",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AP"
+        },
+        {
+          "publisher": "JNS (Israel Hayom)",
+          "title": "Knesset passes controversial citizenship law in third reading",
+          "url": "https://www.jns.org/knesset-passes-controversial-citizenship-law-in-third-reading/",
+          "archive": "",
+          "quote": "prevents the granting of Israeli citizenship or permanent resident status to inhabitants of the Gaza Strip and Judea and Samaria",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    {
+      "text": "Whether the Citizenship and Entry Law is a security measure or discrimination. The 2012 ruling upheld the ban on the basis that Palestinian spouses are potential security risks because some had carried out attacks. Human Rights Watch says it is unlawful discrimination that cannot be justified by security interests, and in 2006 Chief Justice Barak, in dissent, wrote that the law violates Arab citizens' right to equality.",
+      "sources": [
+        {
+          "publisher": "Human Rights Watch",
+          "title": "Israel: Family Reunification Ruling Discriminatory",
+          "url": "https://www.hrw.org/news/2006/05/17/israel-family-reunification-ruling-discriminatory",
+          "archive": "",
+          "quote": "the law is a violation of the right of Arab citizens in Israel to equality",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        },
+        {
+          "publisher": "Jurist",
+          "title": "Israel Supreme Court upholds citizenship law",
+          "url": "https://www.jurist.org/news/2012/01/israel-supreme-court-upholds-citizenship-law",
+          "archive": "",
+          "quote": "a law that prevents Palestinians who marry Israelis from obtaining Israeli citizenship",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Whether the Nation-State Law changes anything in practice. Its defenders say it only writes down what was already the case, and that Hebrew-only status matches other countries' practice; critics, including Arab lawmakers, say it entrenches a second-class status.",
+      "sources": [
+        {
+          "publisher": "Jewish Virtual Library",
+          "title": "Understanding Israel's Nation State Law",
+          "url": "https://www.jewishvirtuallibrary.org/understanding-israel-s-nation-state-law",
+          "archive": "",
+          "quote": "the recognition of Hebrew is consistent with the policies of other countries which give official status only to the majority language",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        },
+        {
+          "publisher": "NPR (Scott Neuman)",
+          "title": "Israel Passes Controversial Law Reserving National Self-Determination For Jews",
+          "url": "https://www.npr.org/2018/07/19/630368973/israel-passes-controversial-law-reserving-national-self-determination-for-jews",
+          "archive": "",
+          "quote": "the country's minority Arabs, which make up about 20 percent of the country's 9 million people, see the change as akin to establishing apartheid",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Whether Joubran's career shows equality or is a token. The Jerusalem Post reports that Israel has held him up as proof of equal treatment.",
+      "sources": [
+        {
+          "publisher": "The Jerusalem Post",
+          "title": "The legacy of Israel's first Arab Supreme Court judge",
+          "url": "https://jpost.com/international/the-legacy-of-israels-first-arab-supreme-court-judge-501567",
+          "archive": "",
+          "quote": "Joubran has been paraded by Israel as an example of the country treating Arab-Israelis equally",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    }
+  ],
+  "could_not_verify": [
+    "The Abraham Initiatives' own report and an official police count could not be read; the 2025 killing figures are cited from the Jerusalem Post and its Yahoo copy, which are one source repeated, so that fact has two sites, not three. I did not find a police clearance-rate figure I could read.",
+    "I did not find an official source I could read comparing Arab and Jewish local-authority budgets per resident or land allocation per resident; the Comptroller's planning audit and the mixed-cities audit are the closest. Land ownership is cited only as the Comptroller's 93 percent figure for state, Development Authority and JNF land, which is not a split by group.",
+    "The current (2026) Knesset's count of Arab members could not be confirmed; the card uses the 2022 election. A current status of the Citizenship and Entry Law after March 2022 (renewals in 2023 and 2024 reported) was not read from a primary page.",
+    "Cabinet-level and Supreme Court history beyond Joubran and the 2007 and 2021 ministers was not checked; I did not verify the 2022 appointment of a second Arab justice.",
+    "The Knesset page for the Nation-State Law and the Times of Israel page for Joubran load only intermittently for the checker; both were read through fetch."
+  ],
+  "not_claimed": [
+    "This card does not say Arab citizens have full equality, and it does not say they live under apartheid.",
+    "It does not say Palestinians in the West Bank and Gaza have the same rights as Arab citizens; they do not, see the West Bank card.",
+    "It does not excuse military rule until 1966, the budget and planning gaps, or the family-unification ban; they are documented costs to Arab citizens and are facts on this card.",
+    "It does not attribute crime figures to any cause; the sources say 88 percent of 2025 victims were shot and describe a loss of basic security, not a cause."
+  ],
+  "status": "draft",
+  "content_approved": false
+}

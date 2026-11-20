@@ -1,0 +1,478 @@
+{
+  "id": "era2-population-1800-1947",
+  "era": 2,
+  "claim": "Zionism is a colonial project that stole the land.",
+  "heard": [
+    {
+      "who": "Rashid Khalidi, historian, in a 2024 interview",
+      "url": "https://lbo-news.com/2024/10/08/rashid-khalidi-on-settler-colonial-israel-an-interview/",
+      "archive": "",
+      "quote": "they expelled three-quarters of a million Palestinians stole their land, refused to allow them to return"
+    }
+  ],
+  "answer": "Nobody counted carefully before the British. Ottoman figures are estimates; for 1914 they run from about 690,000 people in all, with Jews put at 60,000 to about 85,000. The British census of 1922 found 757,182 people, 83,794 of them Jews; the last census, in 1931, found about 1,035,000. By the end of 1946 the UN committee estimated about 1,846,000: 1,203,000 Arabs and 608,000 Jews. About 376,000 Jewish immigrants were recorded from 1920 to 1946, most of the Jewish growth. The British and UN inquiries said the Arab growth was almost entirely births exceeding deaths. A minority view says unrecorded Arab immigration mattered more; the best-known book making that case was heavily criticised. So the land was inhabited, mostly by Arabs, and the Jewish share rose from 11 to about 33 percent.",
+  "facts": [
+    {
+      "text": "Before the British censuses Palestine's population is known only from Ottoman registers and outside estimates, and scholars and the Mandate's own statisticians say these are unreliable.",
+      "sources": [
+        {
+          "publisher": "International Journal of Middle East Studies (Cambridge University Press)",
+          "title": "The Political Economy of Population Counts in Ottoman Palestine: Nablus circa 1850",
+          "url": "https://cambridge.org/core/journals/international-journal-of-middle-east-studies/article/political-economy-of-population-counts-in-ottoman-palestine-nablus-circa-1850/7F413C6CEEEE0C023860CE87CB175110",
+          "archive": "",
+          "quote": "This revision raises serious doubts about the veracity of hitherto commonly accepted population figures",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
+          "title": "A Survey of Palestine, vol. I",
+          "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20I.pdf",
+          "archive": "",
+          "quote": "no data are available on this point nor on the changes in the size of the population before the British occupation",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "American Jewish Year Book (hosted by Berman Jewish Policy Archive)",
+          "title": "Statistics of Jews, 1945-46",
+          "url": "https://www.bjpa.org/content/upload/bjpa/1945/1945_1946_13_Statistics.pdf",
+          "archive": "",
+          "quote": "While Palestine was under Turkish rule there were enumerations of population, but the results were not organized in the manner of a modern census",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "Estimates for 1914 differ: a Turkish estimate put the whole population at about 689,000; the Jewish part is given as about 60,000 (8 percent) by one source, 84,660 by the Mandate government's survey, and the American Jewish Year Book estimated 70,000 in 1900.",
+      "sources": [
+        {
+          "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
+          "title": "A Survey of Palestine, vol. I",
+          "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20I.pdf",
+          "archive": "",
+          "quote": "according to Turkish sources, the population of Palestine in 1914 was estimated to be 689,000",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Imperial War Museums",
+          "title": "Britain, the First World War and the future of Palestine",
+          "url": "https://www.iwm.org.uk/history/first-world-war/middle-east/balfour-declaration",
+          "archive": "",
+          "quote": "By 1914, the Jews in Palestine numbered around 60,000 or 8% of the population",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "American Jewish Year Book (hosted by Berman Jewish Policy Archive)",
+          "title": "Statistics of Jews, 1945-46",
+          "url": "https://www.bjpa.org/content/upload/bjpa/1945/1945_1946_13_Statistics.pdf",
+          "archive": "",
+          "quote": "in 1880, 35,000; in 1900, 70,000",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "The first British census, on 23 October 1922, counted 757,182 people: 590,890 Muslims, 83,794 Jews and 73,024 Christians (about 78, 11 and 10 percent).",
+      "sources": [
+        {
+          "publisher": "Palestine Government, Report on Palestine Administration 1922 (League of Nations), hosted by Emory University",
+          "title": "Report on Palestine Administration, 1922",
+          "url": "https://israeled.org/wp-content/uploads/2014/10/1922-LON.pdf",
+          "archive": "",
+          "quote": "A census was taken in the month of October. It showed a total population of 757,182",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
+          "title": "A Survey of Palestine, vol. I",
+          "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20I.pdf",
+          "archive": "",
+          "quote": "the first census showed atotal population of 757,182",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Economic Cooperation Foundation database",
+          "title": "1922 Census of Palestine",
+          "url": "https://ecf.org.il/issues/issue/1087",
+          "archive": "",
+          "quote": "The total population of Palestine was given as 757,182, of whom 590,890 (78%) were Muslims",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Jewish Telegraphic Agency",
+          "title": "Census in Palestine in 1932: Arrangements Already Being Started",
+          "url": "https://www.jta.org/archive/census-in-palestine-in-1932-arrangements-already-being-started",
+          "archive": "",
+          "quote": "The census results were: 590,890 Moslems; 83,794 Jews; 73,024 Christians",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "The second census, on 18 November 1931, was the last the British took. It counted about 1,035,000 people, of whom 174,610 (17 percent) were Jews.",
+      "sources": [
+        {
+          "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
+          "title": "A Survey of Palestine, vol. I",
+          "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20I.pdf",
+          "archive": "",
+          "quote": "the second census for palestine showed a total population of 1,035,154",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Economic Cooperation Foundation database",
+          "title": "Census of Palestine 1931",
+          "url": "https://ecf.org.il/issues/issue/1091",
+          "archive": "",
+          "quote": "The total population of Palestine was given as 1,035,821, of whom 759,712 (73%) were Muslims, 174,610 (17%) Jews",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Emory University (Center for Israel Education), quoting the census report",
+          "title": "Census of Palestine 1931: An Invaluable Glimpse at Palestine's Population",
+          "url": "https://israeled.org/census-of-palestine-1931-an-invaluable-glimpse-at-palestines-population",
+          "archive": "",
+          "quote": "the population enumerated as at midnight on the 18th of November 1931 consisted of 1,035,821 persons",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Jewish Telegraphic Agency",
+          "title": "Palestine Jews Will Outnumber Arabs in 1958, Says Census Report",
+          "url": "https://www.jta.org/archive/palestine-jews-will-outnumber-arabs-in-1958-says-census-report",
+          "archive": "",
+          "quote": "as there were 175,000 Jews in Palestine in 1931",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "UK Parliament, Hansard (written answer, 25 March 1948)",
+          "title": "Palestine: Jewish Population",
+          "url": "https://api.parliament.uk/historic-hansard/written-answers/1948/mar/25/jewish-population",
+          "archive": "",
+          "quote": "a census of the population of Palestine has been taken on only two occasions, in 1922 and in 1931",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        }
+      ]
+    },
+    {
+      "text": "Official estimates put the whole population at about 1,765,000 at the end of 1944, of whom about 554,000 were Jews.",
+      "sources": [
+        {
+          "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
+          "title": "A Survey of Palestine, vol. I",
+          "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20I.pdf",
+          "archive": "",
+          "quote": "estimate of population of Palestine by race (end of 1944)",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Anglo-American Committee of Inquiry, Report (1946), Chapter IV",
+          "title": "Anglo-American Committee of Inquiry, Chapter IV",
+          "url": "https://avalon.law.yale.edu/20th_century/angch04.asp",
+          "archive": "",
+          "quote": "the population of Palestine grew from 750,000 at the census of 1922 to 1,765,000 at the end of 1944",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "American Jewish Year Book (hosted by Berman Jewish Policy Archive)",
+          "title": "Statistics of Jews, 1945-46",
+          "url": "https://www.bjpa.org/content/upload/bjpa/1945/1945_1946_13_Statistics.pdf",
+          "archive": "",
+          "quote": "The population of Palestine according to the censuses of 1922 and 1931, and government estimates of settled population as of 1943 and October 1944",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "The UN Special Committee on Palestine estimated the settled population at the end of 1946 at about 1,846,000: 1,203,000 Arabs, 608,000 Jews and 35,000 others, and warned that such estimates carry a margin of error that grows as the census year recedes.",
+      "sources": [
+        {
+          "publisher": "United Nations (UNISPAL), UNSCOP Report to the General Assembly, vol. 1",
+          "title": "Question of Palestine/Majority plan (Partition), Minority plan (Federal State)",
+          "url": "https://www.un.org/unispal/document/auto-insert-179435/",
+          "archive": "",
+          "quote": "Arabs, 1,203,000; Jews, 608,000; others, 35,000; Total, 1,846,000.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "United Nations (UNISPAL), UNSCOP Report to the General Assembly, vol. 1",
+          "title": "Question of Palestine/Majority plan (Partition), Minority plan (Federal State)",
+          "url": "https://www.un.org/unispal/document/auto-insert-179435/",
+          "archive": "",
+          "quote": "but there is a margin of error which tends to increase as the census year on which the calculations are based becomes more remote",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "United Nations Conciliation Commission for Palestine (W/4, 1949), reproducing the Mandate government's 1947 Supplement to the Survey of Palestine",
+          "title": "Settled population of Palestine by town and sub-district, estimated at 31st December 1946",
+          "url": "https://unispal.un.org/pdfs/AAC25W4.pdf",
+          "archive": "",
+          "quote": "total(a) moslems jews(a) christians others . total 1,845,560",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "Jewish population estimates given by the British government: 89,000 in 1923, 411,000 in 1938 and 640,000 in 1948 (the Survey of Palestine gave about 554,000 for the end of 1944 and the UN committee 608,000 for the end of 1946).",
+      "sources": [
+        {
+          "publisher": "UK Parliament, Hansard (written answer, 25 March 1948)",
+          "title": "Palestine: Jewish Population",
+          "url": "https://api.parliament.uk/historic-hansard/written-answers/1948/mar/25/jewish-population",
+          "archive": "",
+          "quote": "the estimated figures for the Jewish population on the dates mentioned by the hon. Member are as follows: 1923-89,000; 1938-411,000; 1948-640,000",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "United Nations (UNISPAL), UNSCOP Report to the General Assembly, vol. 1",
+          "title": "Question of Palestine/Majority plan (Partition), Minority plan (Federal State)",
+          "url": "https://www.un.org/unispal/document/auto-insert-179435/",
+          "archive": "",
+          "quote": "Arabs, 1,203,000; Jews, 608,000; others, 35,000; Total, 1,846,000.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
+          "title": "A Survey of Palestine, vol. I",
+          "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20I.pdf",
+          "archive": "",
+          "quote": "estimate of population of Palestine by race (end of 1944)",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "About 376,000 Jewish immigrants were recorded entering Palestine from 1920 to 1946; the Anglo-American Committee found three-fourths of the growth of the Jewish community to be immigration; the Survey counted net immigration of 258,222 in 1932-44.",
+      "sources": [
+        {
+          "publisher": "United Nations (UNISPAL), UNSCOP Report to the General Assembly, vol. 1",
+          "title": "Question of Palestine/Majority plan (Partition), Minority plan (Federal State)",
+          "url": "https://www.un.org/unispal/document/auto-insert-179435/",
+          "archive": "",
+          "quote": "the total number of recorded Jewish immigrants into Palestine was about 376,000",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Anglo-American Committee of Inquiry, Report (1946), Chapter IV",
+          "title": "Anglo-American Committee of Inquiry, Chapter IV",
+          "url": "https://avalon.law.yale.edu/20th_century/angch04.asp",
+          "archive": "",
+          "quote": "Three-fourths of this expansion of the Jewish community was accounted for by immigration.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
+          "title": "A Survey of Palestine, vol. I",
+          "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20I.pdf",
+          "archive": "",
+          "quote": "in 1932-44, out of 2,119,732 arrivals and 1,861,510 departures, net immigration was 258,222",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "Jewish immigration came in waves: about 25,000 in the First Aliyah (1882-1903), about 35,000 in the Third (1919-23) and about 200,000 in the Fifth (1932-39); after the Nazi rise to power annual arrivals jumped from 9,553 in 1932 to 30,327 in 1933.",
+      "sources": [
+        {
+          "publisher": "Federal Agency for Civic Education (bpb, Germany)",
+          "title": "Historical development of Jewish immigration",
+          "url": "https://www.bpb.de/themen/migration-integration/laenderprofile/english-version-country-profiles/58400/historical-development-of-jewish-immigration/",
+          "archive": "",
+          "quote": "The First Aliyah, between 1882 and 1903, comprised about 25,000",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "My Jewish Learning",
+          "title": "Jewish Immigration to Pre-State Israel",
+          "url": "https://www.myjewishlearning.com/article/jewish-immigration-to-palestine/",
+          "archive": "",
+          "quote": "each wave of immigration brought with it specific ideological and social characteristics which shaped the development of the Yishuv",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
+          "title": "A Survey of Palestine, vol. I",
+          "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20I.pdf",
+          "archive": "",
+          "quote": "the number of immigrants jumped from 9,553 in 1932 to 30,327 in 1933",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "The Arab population also grew fast, and the official inquiries attributed the growth almost entirely to natural increase: the Anglo-American Committee counted only 19,000 of the Muslim population's growth of 472,000 (1922 to 1944) as immigration.",
+      "sources": [
+        {
+          "publisher": "United Nations (UNISPAL), UNSCOP Report to the General Assembly, vol. 1",
+          "title": "Question of Palestine/Majority plan (Partition), Minority plan (Federal State)",
+          "url": "https://www.un.org/unispal/document/auto-insert-179435/",
+          "archive": "",
+          "quote": "The Arab population has increased almost entirely as a result of an excess of births over deaths.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Anglo-American Committee of Inquiry, Report (1946), Chapter IV",
+          "title": "Anglo-American Committee of Inquiry, Chapter IV",
+          "url": "https://avalon.law.yale.edu/20th_century/angch04.asp",
+          "archive": "",
+          "quote": "Of this Moslem growth by 472,000, only 19,000 was accounted for by immigration.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "The New York Review of Books (exchange with Yehoshua Porath)",
+          "title": "Mrs. Peters's Palestine: An Exchange",
+          "url": "https://www.nybooks.com/articles/1986/03/27/mrs-peterss-palestine-an-exchange/",
+          "archive": "",
+          "quote": "one cannot escape the conclusion that most of the growth of the Palestinian Arab community resulted from a process of natural increase",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "Demographers and officials explained the Arab growth by very high fertility and falling death rates, helped by better public health and the end of Ottoman conscription and of much malaria.",
+      "sources": [
+        {
+          "publisher": "United Nations (UNISPAL), UNSCOP Report to the General Assembly, vol. 1",
+          "title": "Question of Palestine/Majority plan (Partition), Minority plan (Federal State)",
+          "url": "https://www.un.org/unispal/document/auto-insert-179435/",
+          "archive": "",
+          "quote": "very high fertility rates coupled with a marked decline in death rates as a result of improved conditions of life and public health",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Anglo-American Committee of Inquiry, Report (1946), Chapter IV",
+          "title": "Anglo-American Committee of Inquiry, Chapter IV",
+          "url": "https://avalon.law.yale.edu/20th_century/angch04.asp",
+          "archive": "",
+          "quote": "the disappearance under the Mandate of such counter-balancing factors as conscription for the Ottoman army and a high incidence of malaria",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
+          "title": "A Survey of Palestine, vol. I",
+          "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20I.pdf",
+          "archive": "",
+          "quote": "the high rate of natural increase of the population of Palestine is a phenomenon of the mandatory period",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "The official migration counts are incomplete: the Survey's statisticians made no allowance for illegal immigration before 1939, and the demographer Roberto Bachi wrote that he was unable to even guess the size of total immigration.",
+      "sources": [
+        {
+          "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
+          "title": "A Survey of Palestine, vol. I",
+          "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20I.pdf",
+          "archive": "",
+          "quote": "has therefore been made for illegalimmigration in the years previous to 1939",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Middle East Quarterly (Fred M. Gottheil, quoting Roberto Bachi)",
+          "title": "The Smoking Gun: Arab Immigration into Palestine, 1922-1931",
+          "url": "https://www.meforum.org/middle-east-quarterly/the-smoking-gun-arab-immigration-into-palestine",
+          "archive": "",
+          "quote": "in the present state of knowledge, we have been unable to even guess the size of total immigration",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "The New York Review of Books (Ronald Sanders, letter)",
+          "title": "Mrs. Peters's Palestine: An Exchange",
+          "url": "https://www.nybooks.com/articles/1986/03/27/mrs-peterss-palestine-an-exchange/",
+          "archive": "",
+          "quote": "unfortunately, the British, while keeping thorough records of Jewish immigration, did not",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    {
+      "text": "Joan Peters's 1984 book argued that much Arab growth was illegal immigration drawn by Zionist prosperity. Most reviewers rejected it. Yehoshua Porath, an Israeli historian, wrote that most of the growth was natural increase, as the British and UN inquiries had found. Daniel Pipes, who had praised the book, conceded serious faults yet held that no reviewer had refuted its central thesis. The economist Fred Gottheil argues that unrecorded illegal immigration from 1922 to 1931 mattered. Our reading: the large majority of the growth was natural increase; some immigration and movement within the country happened but cannot be measured.",
+      "sources": [
+        {
+          "publisher": "Daniel Pipes (letter in The New York Review of Books, 1986)",
+          "title": "Mrs. Peters's Palestine",
+          "url": "https://www.danielpipes.org/19124/mrs-peters-palestine",
+          "archive": "",
+          "quote": "the book presents a thesis that neither Professor Porath nor any other reviewer has so far succeeded in refuting",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Middle East Quarterly (Fred M. Gottheil)",
+          "title": "The Smoking Gun: Arab Immigration into Palestine, 1922-1931",
+          "url": "https://www.meforum.org/middle-east-quarterly/the-smoking-gun-arab-immigration-into-palestine",
+          "archive": "",
+          "quote": "it provides strong circumstantial evidence that the illegal Arab immigration into Palestine, like that within Palestine, was of consequence as well",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "The New York Review of Books (exchange with Yehoshua Porath)",
+          "title": "Mrs. Peters's Palestine: An Exchange",
+          "url": "https://www.nybooks.com/articles/1986/03/27/mrs-peterss-palestine-an-exchange/",
+          "archive": "",
+          "quote": "one cannot escape the conclusion that most of the growth of the Palestinian Arab community resulted from a process of natural increase",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    }
+  ],
+  "could_not_verify": [
+    "Two facts have only two reliable sites: the Ottoman-era uncertainty and 1914 estimates (the American Jewish Year Book and the Survey of Palestine are both on bjpa.org, one site), and the end-of-1944 estimate. I found no third readable independent page for them.",
+    "The end-of-1946 figures: UNSCOP and the Mandate government's 1947 Supplement to the Survey (reproduced in a 1949 UN paper, whose scan is garbled) are the documents; the Supplement itself was not found online. I found no independent scholar or news page that repeats the Arab and Jewish split.",
+    "Ottoman census totals (Karpat, McCarthy) were not read; Justin McCarthy's book is under copyright and I did not cite it. The Journal of Palestine Studies demography article, UN University Press table and a mideastweb.org summary were not readable.",
+    "The 1931 census report is an unreadable scan here; its figures come from the Survey, ECF, Emory's quotation and the news item.",
+    "The Survey of Palestine and the Anglo-American report give the Jewish and Arab counts but differ in total (1,765,000 vs 1,727,786 in the American Jewish Year Book) because of how they count forces and nomads; I did not resolve it.",
+    "UNSCOP's own table of religions gives a 1922 Muslim figure (486,177) that does not match the census (590,890); I cite only its prose paragraphs.",
+    "I did not find a readable page by a demographer arguing that Arab growth from 1922 to 1946 was mostly immigration other than Gottheil on 1922-1931."
+  ],
+  "not_claimed": [
+    "This card does not say there was no Arab immigration into Palestine, only that the official inquiries put it at a small share of the growth.",
+    "It does not say the Jewish population was small in 1947; it says it was about a third.",
+    "It does not give the Arab population by origin or say how many Arab families were in their villages for generations.",
+    "It does not say the land was 'empty' or 'full': counts alone do not settle that."
+  ],
+  "status": "draft",
+  "content_approved": false
+}

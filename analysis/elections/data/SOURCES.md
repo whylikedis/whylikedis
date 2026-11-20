@@ -29,3 +29,22 @@ https://en.idi.org.il/israeli-elections-and-parties/elections/2022/ (fetched 202
 reproduces the committee's final result. That is a second source, not the committee itself.
 The check also confirms the two committee files agree with each other on every list.
 Replace the table with the committee's own page when it is back up.
+
+## Check for a 26th Knesset election (2026-11-20)
+
+A lead said an election for the 26th Knesset was held on 27 October 2026. Checked the same day:
+
+- `https://data.gov.il/api/3/action/package_show?id=votes-knesset`: 17 resources, for the 16th to
+  the 25th Knesset only. The dataset was last modified 2024-11-27. No 26th Knesset resource by
+  locality or by ballot box.
+- `https://data.gov.il/api/3/action/package_search` for the 26th Knesset: only `votes-knesset`
+  and `candidates-lists` (the second is not results).
+- `https://votes26.bechirot.gov.il/` and its `/nationalresults` and `/download` paths: each
+  returns an error page on gov.il ("the requested site was not found"). `votes25.bechirot.gov.il`
+  returns the same page. The committee's results site does not serve any results today.
+- A general web search found news reports that the committee set the vote for 27 October 2026.
+  Those are press reports of the date, not official results. They do not show the vote was held.
+
+Result: no official 26th Knesset results files are published at either official source today. No
+2026 data was used. `elections.py`, the tests and `docs/election-map.md` are unchanged and cover
+the 25th Knesset only. Re-run this check when the committee publishes.

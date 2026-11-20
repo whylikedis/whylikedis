@@ -1,0 +1,406 @@
+{
+  "id": "era8-aid-how-much-and-under-what",
+  "era": 8,
+  "claim": "America funds Israel's war. Our money buys the bombs.",
+  "heard": [
+    {
+      "who": "Senator Bernie Sanders, on the Senate floor, 20 November 2024 (reported by The Intercept)",
+      "url": "https://theintercept.com/2024/11/20/bernie-sanders-block-weapons-arms-israel-gaza/",
+      "quote": "why are you funding the starvation of children in Gaza right now?",
+      "archive": ""
+    },
+    {
+      "who": "Beth Miller, political director, Jewish Voice for Peace, to Al Jazeera, November 2024",
+      "url": "https://www.aljazeera.com/news/2024/11/21/us-senate-votes-down-effort-to-withhold-weapons-to-israel-amid-gaza-war",
+      "quote": "there is a moral obligation for them to stop arming a genocide .",
+      "archive": ""
+    }
+  ],
+  "answer": "Part of this is true. The US has given Israel about $174 billion in current dollars, the largest cumulative total since World War II (Egypt: over $90 billion, historical dollars). Under a 2016 agreement the US pledged $38 billion for 2019 to 2028: $3.3 billion a year in military grants and $500 million a year for missile defence. It is a pledge, not a law; Congress votes each year. In April 2024 Congress appropriated $3.5 billion in grants and $5.2 billion for missile defence, in a $95 billion package that gave Ukraine $60.8 billion. In the war's first year, Brown's Costs of War project counts at least $17.9 billion in approved security assistance, a partial figure. Left out: two counts put US grants at 14 to 20 percent of Israel's defence budget. On 3 November 2026 President Trump said the aid would stop by year end; Congress controls the money.",
+  "facts": [
+    {
+      "text": "In 2016 the US and Israel signed a ten-year memorandum of understanding for fiscal years 2019 to 2028: $38 billion, made up of $33 billion in military financing grants (about $3.3 billion a year) and $5 billion for missile defence (about $500 million a year), subject to Congress.",
+      "sources": [
+        {
+          "publisher": "Congressional Research Service (via Federation of American Scientists)",
+          "title": "U.S. Foreign Aid to Israel: Overview and Developments since October 7, 2023 (RL33222, May 2025)",
+          "url": "https://sgp.fas.org/crs/mideast/RL33222.pdf",
+          "archive": "",
+          "quote": "the United States pledged to provide-subject to congressional appropriation-$38 billion in military aid ($33 billion in foreign military financing (FMF) grants plus $5 billion in missile defense appropriations) to Israel",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "White House (Obama administration archive)",
+          "title": "Fact Sheet: Memorandum of Understanding Reached with Israel",
+          "url": "https://obamawhitehouse.archives.gov/the-press-office/2016/09/14/fact-sheet-memorandum-understanding-reached-israel",
+          "archive": "",
+          "quote": "disbursed in equal increments of $3.3 billion in FMF and $500 million in missile defense funding each year for the duration of the understanding",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "PBS NewsHour (AP)",
+          "title": "U.S., Israel sign massive military aid deal: $38B over 10 years",
+          "url": "https://www.pbs.org/newshour/world/u-s-israel-sign-massive-military-aid-deal-38b-10-years",
+          "archive": "",
+          "quote": "the aid totals $3.8 billion a year - up from $3.1 billion the U.S. gave Israel annually under the current 10-year deal that expires in 2018.",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AP"
+        },
+        {
+          "publisher": "Fortune (Reuters)",
+          "title": "The U.S. just agreed to give Israel $38 billion in military aid",
+          "url": "https://www.fortune.com/2016/09/13/us-israel-military-aid/",
+          "archive": "",
+          "quote": "a record new package of at least $38 billion in U.S. military aid",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "REUTERS"
+        },
+        {
+          "publisher": "Council on Foreign Relations",
+          "title": "U.S. Aid to Israel in Four Charts",
+          "url": "https://www.cfr.org/article/us-aid-israel-four-charts",
+          "archive": "",
+          "quote": "$500 million per year is slated for Israeli and joint U.S.-Israeli missile defense programs",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "Israel is the largest cumulative recipient of US foreign aid since World War II: the Congressional Research Service counts $174 billion in current dollars; the Council on Foreign Relations says over $300 billion adjusted for inflation.",
+      "sources": [
+        {
+          "publisher": "Congressional Research Service (via Federation of American Scientists)",
+          "title": "U.S. Foreign Aid to Israel: Overview and Developments since October 7, 2023 (RL33222, May 2025)",
+          "url": "https://sgp.fas.org/crs/mideast/RL33222.pdf",
+          "archive": "",
+          "quote": "the United States has provided Israel $174 billion (current, or non-inflation-adjusted, dollars) in bilateral assistance and missile defense funding.",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "Council on Foreign Relations",
+          "title": "U.S. Aid to Israel in Four Charts",
+          "url": "https://www.cfr.org/article/us-aid-israel-four-charts",
+          "archive": "",
+          "quote": "receiving over $300 billion (adjusted for inflation) in total economic and military assistance.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Council on Foreign Relations",
+          "title": "U.S. Aid to Israel in Four Charts",
+          "url": "https://www.cfr.org/article/us-aid-israel-four-charts",
+          "archive": "",
+          "quote": "nearly all U.S. aid today goes to support Israel's military, the most advanced in the region",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "WJLA (ABC 7, Washington)",
+          "title": "Fact Check Team: How much aid has the US given Israel?",
+          "url": "https://wjla.com/news/nation-world/fact-check-team-how-much-aid-has-the-us-given-israel-council-foreign-relations-united-states",
+          "archive": "",
+          "quote": "Israel is the largest cumulative recipient of U.S. foreign aid since World War II.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "For comparison, the CRS counts over $90 billion in aid to Egypt since 1946 (historical dollars), and the CFR counts $196 billion that Congress made available, through 30 June 2026, in spending related to Operation Atlantic Resolve and the war in Ukraine (this includes US operations in Europe, so it is not like-for-like with the Israel figures).",
+      "sources": [
+        {
+          "publisher": "Congressional Research Service (via EveryCRSReport)",
+          "title": "Egypt: Background and U.S. Relations (RL33003)",
+          "url": "https://www.everycrsreport.com/reports/RL33003.html",
+          "archive": "",
+          "quote": "Since 1946, the United States has provided Egypt with over $90 billion in bilateral foreign aid (calculated in historical dollars-not adjusted for inflation)",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "Council on Foreign Relations",
+          "title": "How Much U.S. Aid Is Going to Ukraine?",
+          "url": "https://www.cfr.org/article/how-much-us-aid-going-ukraine",
+          "archive": "",
+          "quote": "as of June 30, 2026, the U.S. Congress has made available $196 billion in spending related to Operation Atlantic Resolve and the war in Ukraine",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "NPR",
+          "title": "Biden signs $95 billion military aid package for Ukraine, Israel and Taiwan",
+          "url": "https://www.npr.org/2024/04/24/1246839045/biden-signs-95-billion-military-aid-package-for-ukraine-israel-and-taiwan",
+          "archive": "",
+          "quote": "The assistance for Ukraine, totaling $60.8 billion, accounts for nearly two-thirds of the total.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "US military grants cover a minority of Israel's defence budget: about 14 percent by the CRS's count of annual grants alone (the CRS bases it on a January 2024 Jane's figure and does not date it to before the war), and around 20 percent by the CFR's count of US aid in the years before the war.",
+      "sources": [
+        {
+          "publisher": "Congressional Research Service (via Federation of American Scientists)",
+          "title": "U.S. Foreign Aid to Israel: Overview and Developments since October 7, 2023 (RL33222, May 2025)",
+          "url": "https://sgp.fas.org/crs/mideast/RL33222.pdf",
+          "archive": "",
+          "quote": "annual FMF grants to Israel represent approximately 14% of the overall Israeli defense budget.",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "Council on Foreign Relations",
+          "title": "U.S. Aid to Israel in Four Charts",
+          "url": "https://www.cfr.org/article/us-aid-israel-four-charts",
+          "archive": "",
+          "quote": "U.S. aid reportedly accounted for around 20 percent of Israel's defense budget in the years prior to the Israel-Hamas war.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "The April 2024 supplemental (Public Law 118-50) appropriated for Israel $3.5 billion in military financing (available to 30 September 2025) and $5.2 billion for missile defence (available to 30 September 2026), of which $4 billion was for Iron Dome and David's Sling and $1.2 billion for Iron Beam; it sat inside a $95 billion package and also carried $1 billion in humanitarian aid for Gaza. These are appropriated amounts, not amounts delivered.",
+      "sources": [
+        {
+          "publisher": "U.S. Government Publishing Office (Public Law 118-50)",
+          "title": "Public Law 118-50 (April 24, 2024), Israel Security Supplemental Appropriations Act, 2024",
+          "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ50/html/PLAW-118publ50.htm",
+          "archive": "",
+          "quote": "$3,500,000,000, to remain available until September 30, 2025, for assistance for Israel and for related expenses",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "U.S. Government Publishing Office (Public Law 118-50)",
+          "title": "Public Law 118-50 (April 24, 2024), Israel Security Supplemental Appropriations Act, 2024",
+          "url": "https://www.govinfo.gov/content/pkg/PLAW-118publ50/html/PLAW-118publ50.htm",
+          "archive": "",
+          "quote": "$4,000,000,000 shall be for the Secretary of Defense to provide to the Government of Israel for the procurement of the Iron Dome and David's Sling defense systems",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Congressional Research Service (via Federation of American Scientists)",
+          "title": "U.S. Foreign Aid to Israel: Overview and Developments since October 7, 2023 (RL33222, May 2025)",
+          "url": "https://sgp.fas.org/crs/mideast/RL33222.pdf",
+          "archive": "",
+          "quote": "That act included, among other things, $3.5 billion in FMF for Israel.",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "NPR",
+          "title": "Biden signs $95 billion military aid package for Ukraine, Israel and Taiwan",
+          "url": "https://www.npr.org/2024/04/24/1246839045/biden-signs-95-billion-military-aid-package-for-ukraine-israel-and-taiwan",
+          "archive": "",
+          "quote": "the bill includes $9 billion for humanitarian assistance worldwide, including $1 billion for Gaza.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "CBS News",
+          "title": "Biden signs foreign aid bill into law",
+          "url": "https://www.cbsnews.com/amp/news/biden-foreign-aid-bill-ukraine-israel-taiwan-tiktok-ban",
+          "archive": "",
+          "quote": "the package includes $60.8 billion in aid for Ukraine; $26.4 billion to support Israel, along with humanitarian aid for Gaza",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "In the first year after 7 October 2023, the Costs of War project counts at least $17.9 billion in security assistance approved for Israel's military operations, a record and a partial figure; the CFR counts at least $16.3 billion enacted in direct military aid by law since 7 October 2023 including fiscal 2025 appropriations (a longer period and a narrower measure, not a comparison). Separately, Israel's defence ministry reported US deliveries of more than 90,000 tons of armaments by May 2025.",
+      "sources": [
+        {
+          "publisher": "Costs of War Project, Brown University Watson Institute",
+          "title": "United States Spending on Israel's Military Operations and Related U.S. Operations in the Region",
+          "url": "https://watson.brown.edu/costsofwar/papers/2024/USspendingIsrael",
+          "archive": "",
+          "quote": "the $17.9 billion the U.S. government has approved in security assistance for Israeli military operations in Gaza and elsewhere since October 7",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "PBS NewsHour (Associated Press)",
+          "title": "U.S. military aid for Israel tops $17.9 billion since last Oct. 7",
+          "url": "https://www.pbs.org/newshour/world/u-s-military-aid-for-israel-tops-17-9-billion-since-last-oct-7",
+          "archive": "",
+          "quote": "the United States has spent a record of at least $17.9 billion on military aid to Israel since the war in Gaza began",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AP"
+        },
+        {
+          "publisher": "Congressional Research Service (via Federation of American Scientists)",
+          "title": "U.S. Foreign Aid to Israel: Overview and Developments since October 7, 2023 (RL33222, May 2025)",
+          "url": "https://sgp.fas.org/crs/mideast/RL33222.pdf",
+          "archive": "",
+          "quote": "the United States had dispatched 800 transport planes and 140 ships to deliver more than 90,000 tons of armaments and military equipment to Israel since the start of the war in October 2023.",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "Council on Foreign Relations",
+          "title": "U.S. Aid to Israel in Four Charts",
+          "url": "https://www.cfr.org/article/us-aid-israel-four-charts",
+          "archive": "",
+          "quote": "the United States has enacted legislation providing at least $16.3 billion in direct military aid to Israel",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "On 3 November 2026 President Trump said the US would stop paying Israel about $4 billion a year by the end of the year; reports note the MOU is not binding and Congress appropriates the money.",
+      "sources": [
+        {
+          "publisher": "The War Zone (TWZ)",
+          "title": "What Trump's drastic reduction of U.S. military aid to Israel could mean",
+          "url": "https://www.twz.com/news-features/what-trumps-drastic-reduction-of-u-s-military-aid-to-israel-could-mean",
+          "archive": "",
+          "quote": "By the end of the year, the U.S. will stop providing Israel with billions of dollars in annual assistance, President Donald Trump proclaimed Tuesday morning .",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "Trump announces that US will stop paying Israel after year-end",
+          "url": "https://www.aljazeera.com/amp/news/2026/11/3/trump-announces-that-us-will-stop-paying-israel-after-year-end",
+          "archive": "",
+          "quote": "the money is appropriated by Congress; Trump can't end this aid unilaterally.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Al-Monitor (Reuters)",
+          "title": "As Americans vote, Trump says US will stop $4 billion in aid to Israel",
+          "url": "https://www.al-monitor.com/originals/2026/11/trump-says-us-will-stop-4-billion-funding-israel-end-2026",
+          "archive": "",
+          "quote": "Trump says US will stop $4 billion in aid to Israel",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "REUTERS"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    {
+      "text": "That American money funds the war. Critics say US grants and arms transfers sustain Israel's military operations in Gaza, so the US shares responsibility for them.",
+      "sources": [
+        {
+          "publisher": "The Intercept",
+          "title": "Bernie Sanders lost vote to block arms for Israel, says U.S. is 'funding the starvation of children in Gaza'",
+          "url": "https://theintercept.com/2024/11/20/bernie-sanders-block-weapons-arms-israel-gaza/",
+          "archive": "",
+          "quote": "why are you funding the starvation of children in Gaza right now?",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "US Senate votes down effort to withhold weapons to Israel amid Gaza war",
+          "url": "https://www.aljazeera.com/news/2024/11/21/us-senate-votes-down-effort-to-withhold-weapons-to-israel-amid-gaza-war",
+          "archive": "",
+          "quote": "there is a moral obligation for them to stop arming a genocide .",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    }
+  ],
+  "could_not_verify": [
+    "A single audited figure for US arms actually delivered since October 2023: the $17.9 billion is the Costs of War project's count of approved assistance and the authors call it partial; the AP says full shipments cannot be tracked as Ukraine's can.",
+    "The Israeli Ministry of Defense statement of 90,000 tons: the original and the Times of Israel article could not be fetched; it is quoted via the CRS report and the CFR.",
+    "Three reliable sources for fact 2 (largest cumulative recipient): the CRS is a government source; the CFR and one local news report that cites the CFR are the only independent ones.",
+    "Three reliable sources for fact 3 (Egypt and Ukraine): the Egypt figure rests on the CRS only; Ukraine rests on the CFR and NPR. The CRS Israel and Egypt totals use historical dollars; the CFR Ukraine figure counts war-related spending, including US operations in Europe, so it is not like-for-like.",
+    "Three reliable sources for fact 4 (share of Israel's defence budget): only the CRS (14 percent, grants only) and the CFR (about 20 percent, all aid, 'reportedly').",
+    "Congress's reaction to the 3 November 2026 announcement, and whether any funding has changed; the pages read are from the day it was announced.",
+    "Whether $26.4 billion (CBS) or $26 billion (VOA) is the right total for Israel-related items in the April 2024 law; the card gives the law's line items instead.",
+    "Whether the 3 November 2026 announcement is more than a statement: Al Jazeera says it was not clear what form of aid Trump meant, and TWZ quotes Politico that no formal document was submitted by the prime minister's office. Fact 6 and the last sentence of the answer say only what he said, and rest on three independent outlets (TWZ, Al Jazeera, Reuters via Al-Monitor), all reporting one television interview.",
+    "A source on the card that puts the case that the aid is defensive or is spent mostly in the United States: 'contested' holds the critics' side only (the other side is on era8-where-it-goes-and-who-objects)."
+  ],
+  "not_claimed": [
+    "This card does not say the aid is right or wrong, or that it should continue.",
+    "It does not say that any specific US-made weapon caused any specific death; that is a question for the incident-level records.",
+    "It does not say the aid pays for the whole of Israel's war; it gives amounts and the share of the Israeli defence budget that two sources report (about 14 to 20 percent before the war).",
+    "It does not say Congress or the president has decided the future of the aid after November 2026."
+  ],
+  "status": "draft",
+  "content_approved": false,
+  "answer_claims": [
+    {
+      "says": "Part of this is true.",
+      "facts": [
+        0,
+        4,
+        5
+      ]
+    },
+    {
+      "says": "The US has given Israel about $174 billion in current dollars, the largest cumulative total since World War II (Egypt: over $90 billion, historical dollars).",
+      "facts": [
+        1,
+        2
+      ]
+    },
+    {
+      "says": "Under a 2016 agreement the US pledged $38 billion for 2019 to 2028: $3.3 billion a year in military grants and $500 million a year for missile defence.",
+      "facts": [
+        0
+      ]
+    },
+    {
+      "says": "It is a pledge, not a law; Congress votes each year.",
+      "facts": [
+        0,
+        6
+      ]
+    },
+    {
+      "says": "In April 2024 Congress appropriated $3.5 billion in grants and $5.2 billion for missile defence, in a $95 billion package that gave Ukraine $60.8 billion.",
+      "facts": [
+        2,
+        4
+      ]
+    },
+    {
+      "says": "In the war's first year, Brown's Costs of War project counts at least $17.9 billion in approved security assistance, a partial figure.",
+      "facts": [
+        5
+      ]
+    },
+    {
+      "says": "Left out: two counts put US grants at 14 to 20 percent of Israel's defence budget.",
+      "facts": [
+        3
+      ]
+    },
+    {
+      "says": "On 3 November 2026 President Trump said the aid would stop by year end; Congress controls the money.",
+      "facts": [
+        6
+      ]
+    }
+  ],
+  "review": {
+    "skeptic": {
+      "verdict": "weakened",
+      "date": "2026-11-20",
+      "notes": "Round 1. Quotes are on their pages and in context. Dollar figures checked: $38bn/$33bn/$5bn pledged for FY2019-2028 (CRS: 'subject to congressional appropriation'); $174bn current dollars (CRS, May 2025) against CFR $300bn inflation-adjusted; April 2024 law lines read in the law ($3.5bn to 30 Sep 2025, $4bn, $1.2bn, $5.2bn to 30 Sep 2026): appropriated, not delivered (text now says so); $17.9bn is Costs of War's count of approved aid, which AP calls 'spent' (the card keeps 'approved'); the CFR $16.3bn covers a longer period (to FY2025) and was set beside it as if comparable (fixed in text). Fixed: fact 2 called the CFR's $196bn 'the war in Ukraine' but it includes Operation Atlantic Resolve; fact 3 said 'before the war' for the CRS's 14%, which the CRS bases on a January 2024 Jane's figure and does not date. 3 November 2026: three independent, readable outlets carry it (TWZ, Al Jazeera, Reuters via Al-Monitor), so the answer may say 'Trump said'; kept as a statement only, and not as policy (all three report one interview; Al Jazeera says it was unclear what aid he meant). Strongest objection from the critics' side: the card gives their position only as two quotes and never states the strongest version (heard[0] is Sanders on starvation, not on weapons; should-fix). From the pro-aid side: contested is critics only and carries no holder of 'the aid is defensive' (should-fix; a source is needed). Only 7 of 16 facts across the two chapter 8 cards have three reliable sources; here facts 1 to 3 do not (CFR and WJLA, which cites the CFR, are one voice). Kinds checked: CRS and White House government; the law primary. Status stays draft."
+    },
+    "citer": {
+      "verdict": "holds",
+      "date": "2026-11-20",
+      "notes": "Removed: 'since 1946' (the CRS quote says 'to date'), 'the most of any country' (reworded to the CRS's 'largest cumulative recipient'), and 'most of the money is spent in the US, and the US Congress sets conditions' (no fact on this card says either; they sit on the sibling card). 'Part of this is true' is a summary tied to the facts for and against. 'In April 2024 Congress added' changed to 'appropriated'. 'at least $17.9 billion in military aid was approved' now credits the Costs of War count and calls it partial. Added one sentence that the card's own fact 3 supports (14 to 20 percent of the defence budget)."
+    }
+  }
+}

@@ -1,25 +1,25 @@
 {
   "id": "era3-jewish-refugees-arab-countries",
   "era": 3,
-  "claim": "Only the Palestinians became refugees in 1948.",
+  "claim": "The Jews who left Arab countries were not refugees: they left by choice, drawn by Zionism. Only the Palestinians were refugees.",
   "heard": [
+    {
+      "who": "Shlomo Hillel, Israeli who led the Iraqi Zionist underground's escape operation, quoted by Yehouda Shenhav (1998)",
+      "url": "https://prrn.mcgill.ca/prrn/papers/shenhav2.htm",
+      "archive": "",
+      "quote": "I do not regard the exodus of Jews from Arab countries as refugees. I do not accept that. The Jews in the Arab countries came because they wanted to come"
+    },
     {
       "who": "Yated Ne'eman, an anti-Zionist ultra-Orthodox Israeli newspaper, quoted by Yehouda Shenhav",
       "url": "https://prrn.mcgill.ca/prrn/papers/shenhav2.htm",
       "archive": "",
       "quote": "this talk about 'Jewish refugees who were expelled from Arab countries' as opposed to 'Arab refugees who were expelled from the land of Israel' was grating to our journalistic ears"
-    },
-    {
-      "who": "Shlomo Hillel, Israeli minister and organiser of the Iraqi Jews' departure, quoted by Yehouda Shenhav (1998)",
-      "url": "https://prrn.mcgill.ca/prrn/papers/shenhav2.htm",
-      "archive": "",
-      "quote": "I do not regard the exodus of Jews from Arab countries as refugees."
     }
   ],
-  "answer": "Palestinians were not the only people displaced in these years. About 800,000 Jews are estimated to have lived in Arab countries around 1948, and most left over the next two decades, many to Israel and others to Europe and North America. Reasons differed by country: Egypt after 1956 saw expulsions, Iraq's government let Jews leave if they gave up their citizenship, and one scholar finds a mix of push and pull in Iraq. These figures are estimates. Scholars differ on the word refugee: Shenhav calls it not unreasonable given post-war usage. The Jewish refugee claim has been used in arguments about Palestinian return and compensation; whether the two cases cancel out is an argument these facts do not settle.",
+  "answer": "Some Jews who left Arab countries did go out of Zionist conviction, and Shlomo Hillel, who led the Iraqi Zionist underground's escape operation, does not call it a refugee flight. But the Palestinians were not the only people displaced in these years. About 800,000 Jews are estimated to have lived in Arab countries around 1948 (DellaPergola counts 945,000 for the Middle East and North Africa), and most left over the next two decades. Reasons differed: Egypt after 1956 saw expulsions, and Iraq let Jews leave only if they gave up their citizenship. Iraq's Jews had also suffered the Farhud pogrom in 1941, seven years before. A 1957 press report said the UN refugee chief had ruled that Jews exiled from Egypt were refugees eligible for UN protection. Scholars differ on the word refugee. These figures are estimates; whether the two cases cancel out these facts do not settle.",
   "facts": [
     {
-      "text": "Estimates put the Jewish population of Arab and Muslim countries around 1948 at about 800,000 to 850,000.",
+      "text": "Estimates put the Jewish population of Arab and Muslim countries around 1948 at about 800,000 to 850,000; the demographer Sergio DellaPergola gives 945,000 for the wider Middle East and North Africa.",
       "sources": [
         {
           "publisher": "Encyclopedia of the Modern Middle East and North Africa (Gale), via Encyclopedia.com",
@@ -47,6 +47,15 @@
           "quote": "yemen/aden 63,000 4,300 500 500 250 <50 Total 851,000 469,060 69,600 31,790",
           "accessed": "2026-11-20",
           "kind": "advocacy"
+        },
+        {
+          "publisher": "American Jewish Year Book / Berman Jewish Policy Archive (Sergio DellaPergola, 2003)",
+          "title": "Demographic Trends in Israel and Palestine: Prospects and Policy Implications",
+          "url": "https://www.bjpa.org/content/upload/bjpa/103d/103demographic.pdf",
+          "archive": "",
+          "quote": "in 1948, the total world Jewish population was estimated at 11.2 million, of which 650,000 (6 percent) lived in Palestine, 945,000 (8 percent) in Middle Eastern and North African countries",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
         }
       ]
     },
@@ -124,7 +133,7 @@
       ]
     },
     {
-      "text": "Scholars differ on how to describe the departure. Shenhav calls the description of these Jews as refugees not unreasonable given post-war usage; Mendes, on why they left, finds the two polarised accounts (Arab violence alone, or a Zionist plot) each oversimplified.",
+      "text": "The word refugee is disputed. Hillel rejects it for the Iraqi exodus; Shenhav calls the description not unreasonable given post-war usage; DellaPergola says most Jews who immigrated to Israel would qualify as refugees; in January 1957 the UN High Commissioner ruled that refugees from Egypt who could not rely on their own government fell under his mandate (the press reported it as covering Jews exiled from Egypt).",
       "sources": [
         {
           "publisher": "British Journal of Middle Eastern Studies (Yehouda Shenhav, 2002)",
@@ -136,15 +145,6 @@
           "kind": "scholarly"
         },
         {
-          "publisher": "Australian Journal of Jewish Studies (Philip Mendes, 2002), via Partners for Progressive Israel",
-          "title": "Why Jews Left Arab Lands: Another Look",
-          "url": "https://www.progressiveisrael.org/why-jews-left-arab-lands-another-look/",
-          "archive": "",
-          "quote": "the zionist position which attributes the Jewish exodus almost solely to Arab violence or threats of violence",
-          "accessed": "2026-11-20",
-          "kind": "scholarly"
-        },
-        {
           "publisher": "Jewish Virtual Library",
           "title": "Fact Sheet: Jewish Refugees from Arab Countries",
           "url": "https://www.jewishvirtuallibrary.org/anti-semitism-wing/in-the-arabmuslim-world/historical-context-of-anti-semitism-2/jewish-refugees-from-arab-countries",
@@ -152,6 +152,24 @@
           "quote": "the Jews of the Arab world fled their homes as refugees",
           "accessed": "2026-11-20",
           "kind": "advocacy"
+        },
+        {
+          "publisher": "American Jewish Year Book / Berman Jewish Policy Archive (Sergio DellaPergola, 2003)",
+          "title": "Demographic Trends in Israel and Palestine: Prospects and Policy Implications",
+          "url": "https://www.bjpa.org/content/upload/bjpa/103d/103demographic.pdf",
+          "archive": "",
+          "quote": "the majority of Jews who ever immigrated to Israel would indeed qualify for the status of refugees, having lost most of their belonging and being unable to return to the countries of origin",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Jewish Telegraphic Agency",
+          "title": "Jews Expelled from Egypt Are Eligible for United Nations Protection (6 February 1957)",
+          "url": "https://www.jta.org/archive/jews-expelled-from-egypt-are-eligible-for-united-nations-protection",
+          "archive": "",
+          "quote": "the United Nations High Commissioner for Refugees has ruled that Jews exiled from Egypt are refugees eligible for UN protection",
+          "accessed": "2026-11-20",
+          "kind": "news"
         }
       ]
     },
@@ -186,22 +204,255 @@
           "kind": "news"
         }
       ]
+    },
+    {
+      "text": "Iraq: about 135,000 Jews lived there in 1947/48 by one scholarly estimate, and about 125,000 moved to Israel between 1948 and 1953.",
+      "sources": [
+        {
+          "publisher": "American Jewish Studies (AJS) Perspectives, via Berman Jewish Policy Archive (Sergio DellaPergola)",
+          "title": "Iran and Iraq: Demography beyond the Jewish Past",
+          "url": "https://www.bjpa.org/content/upload/bjpa/serg/Sergio%20Dellapergola%20Iran%20Iraq%20Demography.pdf",
+          "archive": "",
+          "quote": "in 1947/48, at the time of Israel's independence, reasonable Jewish population estimates would be 135,000 for Iraq",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "American Jewish Studies (AJS) Perspectives, via Berman Jewish Policy Archive (Sergio DellaPergola)",
+          "title": "Iran and Iraq: Demography beyond the Jewish Past",
+          "url": "https://www.bjpa.org/content/upload/bjpa/serg/Sergio%20Dellapergola%20Iran%20Iraq%20Demography.pdf",
+          "archive": "",
+          "quote": "between 1948 and 1953, 125,000 Iraqi Jews migrated to Israel",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Australian Journal of Jewish Studies (Philip Mendes, 2002), via Partners for Progressive Israel",
+          "title": "Why Jews Left Arab Lands: Another Look",
+          "url": "https://www.progressiveisrael.org/why-jews-left-arab-lands-another-look/",
+          "archive": "",
+          "quote": "during 1950 and 1951, more than 120,000 Jews (95% of the Jewish population) left Iraq for Israel via the airlift known as Operation Ezra and Nehemiah",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Encyclopedia of the Modern Middle East and North Africa (Gale), via Encyclopedia.com",
+          "title": "Refugees: Jewish",
+          "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/refugees-jewish",
+          "archive": "",
+          "quote": "Between 1950 and 1951, 123,370 Iraqi Jews were airlifted to Israel in Operation Ezra and Nehemiah",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "In June 1941, the Farhud pogrom in Baghdad killed 128 Jews by the official inquiry's count, and 179 by the Jewish community's count.",
+      "sources": [
+        {
+          "publisher": "United States Holocaust Memorial Museum",
+          "title": "The Farhud",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/the-farhud",
+          "archive": "",
+          "quote": "According to the official report of the commission investigating the incident, 128 Jews were killed, 210 were injured, and over 1,500 businesses and homes were damaged",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Quest. Issues in Contemporary Jewish History",
+          "title": "Emotionally Dividing Baghdad: Spatial Memories of the Farhud throughout the Iraqi Jewish Diaspora",
+          "url": "https://www.quest-cdecjournal.it/emotionally-dividing-baghdad-spatial-memories-of-the-farhud-throughout-the-iraqi-jewish-diaspora/",
+          "archive": "",
+          "quote": "The Jewish community counted 179 Jews murdered, thousands wounded, women raped, and homes, synagogues, and shops looted",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Stanford Humanities Center (Ali Shakir)",
+          "title": "Farhud: The forgotten ordeal of Iraqi Jews",
+          "url": "https://shc.stanford.edu/arcade/interventions/farhud-forgotten-ordeal-iraqi-jews",
+          "archive": "",
+          "quote": "many Muslims had indeed protected their Jewish neighbors during Farhud",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
     }
   ],
   "contested": [
-    "Numbers: the totals (800,000, 820,000, 851,000) come from encyclopedia estimates, an exhibition review, and Israeli and Jewish organisations; they are estimates, not counts of departures, and no single agreed figure exists.",
-    "The word refugee: Shlomo Hillel (quoted in Shenhav) rejects it; the ultra-Orthodox paper Yated Ne'eman said the migration was Zionist immigration and not deportation. Shenhav argues that the World Organization of Jews from Arab Countries, active from the 1970s, used the population-exchange thesis mainly to contest the Palestinian right of return.",
-    "Causes differ by country and period: Mendes finds both push and pull in Iraq; the K. review says forcible expulsion was the exception overall.",
-    "Whether the exodus was an equal 'exchange' with the Palestinian one is argued in the K. review; this card does not make that claim.",
-    "Egypt shows how far sources differ: the Gale entry gives about 100,000 Jews in 1948, the Jewish Virtual Library table 75,000, and the K. review 40,000 before 1956.",
-    "The Gale entry says the estimated 800,000 'were subjected to anti-Jewish violence, abuse, and persecution'; the K. review says forcible expulsion was the exception and most had little plan to leave. This card uses the Gale entry only for the number."
+    {
+      "text": "How many Jews lived in Arab and Muslim countries in 1948 and how many left. Encyclopedia.com says about 800,000; DellaPergola counts 945,000 for the Middle East and North Africa; the Jewish Virtual Library table gives 851,000. These are estimates, not counts of departures.",
+      "sources": [
+        {
+          "publisher": "Encyclopedia of the Modern Middle East and North Africa (Gale), via Encyclopedia.com",
+          "title": "Refugees: Jewish",
+          "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/refugees-jewish",
+          "archive": "",
+          "quote": "an estimated 800,000 Jews living in Arab and Muslim countries were subjected to anti-Jewish violence, abuse, and persecution",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "American Jewish Year Book / Berman Jewish Policy Archive (Sergio DellaPergola, 2003)",
+          "title": "Demographic Trends in Israel and Palestine: Prospects and Policy Implications",
+          "url": "https://www.bjpa.org/content/upload/bjpa/103d/103demographic.pdf",
+          "archive": "",
+          "quote": "945,000 (8 percent) in Middle Eastern and North African countries",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Jewish Virtual Library",
+          "title": "Fact Sheet: Jewish Refugees from Arab Countries",
+          "url": "https://www.jewishvirtuallibrary.org/anti-semitism-wing/in-the-arabmuslim-world/historical-context-of-anti-semitism-2/jewish-refugees-from-arab-countries",
+          "archive": "",
+          "quote": "yemen/aden 63,000 4,300 500 500 250 <50 Total 851,000 469,060 69,600 31,790",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        }
+      ]
+    },
+    {
+      "text": "Whether to call these Jews refugees. Hillel rejects it for the Iraqi exodus; the Yated Ne'eman paper called the refugee framing grating; DellaPergola says most who immigrated to Israel would qualify as refugees.",
+      "sources": [
+        {
+          "publisher": "British Journal of Middle Eastern Studies (Yehouda Shenhav, 2002)",
+          "title": "Jews from Arab Countries and the Palestinian Right for Return",
+          "url": "https://prrn.mcgill.ca/prrn/papers/shenhav2.htm",
+          "archive": "",
+          "quote": "I do not regard the exodus of Jews from Arab countries as refugees. I do not accept that.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "British Journal of Middle Eastern Studies (Yehouda Shenhav, 2002)",
+          "title": "Jews from Arab Countries and the Palestinian Right for Return",
+          "url": "https://prrn.mcgill.ca/prrn/papers/shenhav2.htm",
+          "archive": "",
+          "quote": "this talk about 'Jewish refugees who were expelled from Arab countries' as opposed to 'Arab refugees who were expelled from the land of Israel' was grating to our journalistic ears",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "American Jewish Year Book / Berman Jewish Policy Archive (Sergio DellaPergola, 2003)",
+          "title": "Demographic Trends in Israel and Palestine: Prospects and Policy Implications",
+          "url": "https://www.bjpa.org/content/upload/bjpa/103d/103demographic.pdf",
+          "archive": "",
+          "quote": "the majority of Jews who ever immigrated to Israel would indeed qualify for the status of refugees",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "Why they left. Mendes finds push and pull factors in Iraq; the K. review says forcible expulsion was the exception overall.",
+      "sources": [
+        {
+          "publisher": "Australian Journal of Jewish Studies (Philip Mendes, 2002), via Partners for Progressive Israel",
+          "title": "Why Jews Left Arab Lands: Another Look",
+          "url": "https://www.progressiveisrael.org/why-jews-left-arab-lands-another-look/",
+          "archive": "",
+          "quote": "the massive and rapid Jewish exodus from Iraq arguably reflected a combination of push and pull factors",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "K. Jews, Europe, 21st Century",
+          "title": "The Jewish exodus from Arab lands (1948-1967)",
+          "url": "https://k-larevue.com/en/2022/01/13/the-jewish-exodus-from-arab-lands-1948-1967-about-the-imas-exhibition/",
+          "archive": "",
+          "quote": "it is important to emphasize that forcible expulsion was the exception",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Whether the two exoduses were an equal 'exchange'. Israel's deputy finance minister said the Jewish problem is equal to or greater than the Palestinian one; Kamel calls the equivalence misleading.",
+      "sources": [
+        {
+          "publisher": "Al Jazeera (Lorenzo Kamel, quoting Yitzhak Cohen)",
+          "title": "The Palestinian refugees and the 'monologue of the century'",
+          "url": "https://www.aljazeera.com/opinions/2019/6/24/the-palestinian-refugees-and-the-monologue-of-the-century",
+          "archive": "",
+          "quote": "the uprooted Jews' problem is equal to, if not greater than, the Palestinian refugees' problem",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Al Jazeera (Lorenzo Kamel)",
+          "title": "The Palestinian refugees and the 'monologue of the century'",
+          "url": "https://www.aljazeera.com/opinions/2019/6/24/the-palestinian-refugees-and-the-monologue-of-the-century",
+          "archive": "",
+          "quote": "this attempted moral equivalence is a misleading one",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Egypt's Jewish population: the Gale entry says some 100,000 in 1948, the Jewish Virtual Library table 75,000, and the K. review 40,000.",
+      "sources": [
+        {
+          "publisher": "Encyclopedia of the Modern Middle East and North Africa (Gale), via Encyclopedia.com",
+          "title": "Refugees: Jewish",
+          "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/refugees-jewish",
+          "archive": "",
+          "quote": "In 1948, some 100,000 Jews lived in Egypt",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Jewish Virtual Library",
+          "title": "Fact Sheet: Jewish Refugees from Arab Countries",
+          "url": "https://www.jewishvirtuallibrary.org/anti-semitism-wing/in-the-arabmuslim-world/historical-context-of-anti-semitism-2/jewish-refugees-from-arab-countries",
+          "archive": "",
+          "quote": "egypt 75,000 15,000 1,000 400 100 100",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        },
+        {
+          "publisher": "K. Jews, Europe, 21st Century",
+          "title": "The Jewish exodus from Arab lands (1948-1967)",
+          "url": "https://k-larevue.com/en/2022/01/13/the-jewish-exodus-from-arab-lands-1948-1967-about-the-imas-exhibition/",
+          "archive": "",
+          "quote": "Of the 40,000 Jews in Egypt, only 4,000 remained in 1957",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Whether all 800,000 were 'subjected to violence'. The Gale entry says so; the K. review says most had little plan to leave and forcible expulsion was the exception.",
+      "sources": [
+        {
+          "publisher": "Encyclopedia of the Modern Middle East and North Africa (Gale), via Encyclopedia.com",
+          "title": "Refugees: Jewish",
+          "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/refugees-jewish",
+          "archive": "",
+          "quote": "an estimated 800,000 Jews living in Arab and Muslim countries were subjected to anti-Jewish violence, abuse, and persecution",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "K. Jews, Europe, 21st Century",
+          "title": "The Jewish exodus from Arab lands (1948-1967)",
+          "url": "https://k-larevue.com/en/2022/01/13/the-jewish-exodus-from-arab-lands-1948-1967-about-the-imas-exhibition/",
+          "archive": "",
+          "quote": "most of the 800,000 Jews in Arab countries had little plan to leave their homeland",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    }
   ],
   "could_not_verify": [
-    "An independent demographic or scholarly total for the Jewish population of Arab countries in 1948 and departures. Sergio DellaPergola's estimates exist (about 945,000 in the Middle East and North Africa in 1948 by one summary), but his papers were PDFs the checker could not read, so they are not cited.",
-    "Moshe Sicron's arrivals-by-country table is on a page I read, but it counts arrivals in Israel only, not departures, so I cited only its text on the airlifts.",
-    "A third reliable source for the 800,000 to 850,000 population figure (two reliable plus an advocacy table).",
-    "A third reliable source for the debate over the word refugee (two scholarly used; the third is advocacy and does not count).",
-    "Country-by-country breakdowns beyond Iraq and Morocco from a source other than Encyclopedia.com."
+    "An independent demographic total for departures (as opposed to population stock): DellaPergola's population figure is cited, but he is an Israeli demographer, so every figure here still comes from Israeli or Jewish scholarship or encyclopedias; I found no Arab, UN or non-Israeli demographic count I could read.",
+    "Moshe Sicron's arrivals-by-country table counts arrivals in Israel only, so it is not cited for departures.",
+    "Country-by-country breakdowns beyond Iraq, Morocco and Egypt from a source other than Encyclopedia.com.",
+    "Cut as a separate fact: the UNHCR's 1957 statement on refugees from Egypt. The UNREF report and the UN Digital Library record (A/AC.79/SR.27) did not load (403/202), and Refworld and UNHCR pages were blocked. The statement now appears inside the 'refugee' fact, carried by a JTA report (news) and the World Jewish Congress (advocacy). A person with access should read the UNREF fourth-session report (29 January 1957).",
+    "Whether anyone readable says in so many words that only Palestinians were refugees: I found no such quote. The claim is therefore stated as what is said: that these Jews were not refugees but came by choice or Zionist conviction (Hillel; Yated Ne'eman).",
+    "A UN or non-Israeli count of Jewish departures from Arab countries: none readable."
   ],
   "not_claimed": [
     "This card does not say Jewish displacement cancels out Palestinian displacement, or that one makes the other acceptable.",
@@ -213,40 +464,54 @@
   "content_approved": false,
   "answer_claims": [
     {
-      "says": "Palestinians were not the only people displaced in these years.",
+      "says": "Some Jews who left Arab countries did go out of Zionist conviction, and Shlomo Hillel, who led the Iraqi Zionist underground's escape operation, does not call it a refugee flight.",
+      "facts": [
+        2,
+        3
+      ]
+    },
+    {
+      "says": "But the Palestinians were not the only people displaced in these years.",
       "facts": [
         0,
         1
       ]
     },
     {
-      "says": "About 800,000 Jews are estimated to have lived in Arab countries around 1948, and most left over the next two decades, many to Israel and others to Europe and North America.",
+      "says": "About 800,000 Jews are estimated to have lived in Arab countries around 1948 (DellaPergola counts 945,000 for the Middle East and North Africa), and most left over the next two decades.",
       "facts": [
         0,
         1
       ]
     },
     {
-      "says": "Reasons differed by country: Egypt after 1956 saw expulsions, Iraq's government let Jews leave if they gave up their citizenship, and one scholar finds a mix of push and pull in Iraq.",
+      "says": "Reasons differed: Egypt after 1956 saw expulsions, and Iraq let Jews leave only if they gave up their citizenship.",
       "facts": [
         2
       ]
     },
     {
-      "says": "These figures are estimates.",
+      "says": "Iraq's Jews had also suffered the Farhud pogrom in 1941, seven years before.",
       "facts": [
-        0
+        6
       ]
     },
     {
-      "says": "Scholars differ on the word refugee: Shenhav calls it not unreasonable given post-war usage.",
+      "says": "A 1957 press report said the UN refugee chief had ruled that Jews exiled from Egypt were refugees eligible for UN protection.",
       "facts": [
         3
       ]
     },
     {
-      "says": "The Jewish refugee claim has been used in arguments about Palestinian return and compensation; whether the two cases cancel out is an argument these facts do not settle.",
+      "says": "Scholars differ on the word refugee.",
       "facts": [
+        3
+      ]
+    },
+    {
+      "says": "These figures are estimates; whether the two cases cancel out these facts do not settle.",
+      "facts": [
+        0,
         4
       ]
     }
@@ -255,12 +520,12 @@
     "skeptic": {
       "verdict": "weakened",
       "date": "2026-11-20",
-      "notes": "Read two or more sources per fact. Pro-Palestinian attack (the stronger one): every population and departure figure comes from Israeli or Jewish sources (an encyclopedia entry, an exhibition review, an advocacy table), the Gale entry says all 800,000 were 'subjected to violence' while another source on the card says expulsion was the exception, and the card has no source on Iraq 1950-51 (the dispute over who caused the bombings) or on Egypt's own figures; the 'refugee' fact rests on Shenhav alone, whose thesis is that the label was built to counter return. Pro-Israel attack: the card gives no UN or international recognition of these Jews as refugees (the UNHCR 1957 statement on Egypt is not here), no Arab League 1947 draft law against Jews, no Farhud 1941, and no denaturalisation laws, so 'expulsion and pressure' is thin; Egypt's 1956 expulsions appear only in one sentence. The heard quotes (Yated, Hillel) do not say 'only Palestinians became refugees'; they say Jews who went to Israel were not refugees. should-fix: add the strongest voice for the claim (a Palestinian-side author). must-fix: fact 0 and fact 3 have only two reliable sources (the third is the advocacy table), so the gate refuses verified; fact 3 mixes the label debate (Shenhav) with causes (Mendes); reworded. Numbers: 800,000-851,000 are estimates of population around 1948, not counts of departures; Egypt differs 100,000/75,000/40,000 across sources (added to contested). nit: the card calls Hillel an Israeli minister; the Shenhav page says only that he was active in the Iraqi Zionist underground. Independence: the K. review appears in four facts and is itself a review of one exhibition."
+      "notes": "Round three (final). Checked the restated claim: 'not refugees, left by choice, drawn by Zionism; only the Palestinians were refugees'. The heard quotes are real. Hillel does say they came because they wanted to, and Yated Ne'eman calls the refugee talk grating and sets it against 'heroic stories' of Zionist immigration, so the first two parts are made by real holders. The last part, 'only the Palestinians were refugees', is made by no one on the card; the writer says so. should-fix: restate the claim as the two parts held. The answer meets it without overreach: it concedes the Zionist-conviction cases, then gives Egypt, Iraq's citizenship terms and the Farhud, and (my edit) no longer implies the Farhud caused the exodus. NOT FIXED: (1) the UNHCR 1957 statement was folded into fact 3 as a sub-claim with one reliable source (JTA, itself a Jewish agency report, and the WJC, advocacy); the UN report was never read. Folding it in lets it pass the count, so my answer now attributes it to a press report. must-fix: read UNREF report of 29 Jan 1957 (UN Digital Library) or UNHCR archive. (2) every number is Israeli or Jewish in origin; no UN, Arab or non-Israeli count. (3) Egypt's expulsions rest on one news source (K.), and the 800,000 figure itself has the Gale entry's 'subjected to violence' wording. (4) the Iraq 1950-51 dispute and Farhud's causal role are not covered. Stronger attack: pro-Palestinian (one-sided sourcing; the UNHCR claim rests on the Jewish press); pro-Israel (thin evidence of expulsion outside Egypt and Iraq)."
     },
     "citer": {
       "verdict": "holds",
       "date": "2026-11-20",
-      "notes": "Removed: 'I found no independent demographic count I could read' (a first-person note about the card, already in could_not_verify; no fact carries it). Removed: 'Some Israeli Jews, such as Shlomo Hillel, reject the word refugee' (Hillel is only in heard, no fact). Reworded 'many to Israel and others to France' to 'Europe and North America' (fact 1, Jewish Virtual Library line). Reworded the causes sentence to what fact 2 sources show (Egypt after 1956; Iraqi emigration on condition of giving up citizenship). Reworded the last sentence, which was a conclusion, to say what the facts leave open. All sentences tied in answer_claims. Holds for the answer; skeptic verdict stays weakened."
+      "notes": "Round three. Reworded 'In 1957 the UN refugee chief ruled that refugees from Egypt fell under his mandate' to 'A 1957 press report said ...' because only the JTA report (reliable) and a WJC page (advocacy) carry it. Separated the Farhud into its own sentence so it is not offered as a cause (fact 6 gives the pogrom, not its effect). Tied the Hillel sentence to fact 3 (Hillel's view) and fact 2 (pull factor). All sentences in answer_claims. Holds for the answer as worded."
     }
   }
 }

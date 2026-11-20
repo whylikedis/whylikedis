@@ -1,0 +1,480 @@
+{
+  "id": "era7-slogan-history-and-meanings",
+  "era": 7,
+  "claim": "'From the river to the sea' is a call for freedom, not for erasing Israel.",
+  "heard": [
+    {
+      "who": "Rashida Tlaib, US Representative, on X, November 2023 (reported by NBC News)",
+      "url": "https://www.nbcnews.com/politics/congress/rep-rashida-tlaib-faces-criticism-democrats-palestinian-remarks-rcna123735",
+      "quote": "From the river to the sea is an aspirational call for freedom, human rights, and peaceful coexistence, not death, destruction, or hate.",
+      "archive": ""
+    },
+    {
+      "who": "Maha Nassar, historian, University of Arizona, in The Conversation, 2023",
+      "url": "https://theconversation.com/from-the-river-to-the-sea-a-palestinian-historian-explores-the-meaning-and-intent-of-scrutinized-slogan-217491",
+      "quote": "it soon also came to represent the vision of a secular democratic state with equality for all.",
+      "archive": ""
+    },
+    {
+      "who": "65 student organizations at Northwestern University, letter, November 2023",
+      "url": "https://dailynorthwestern.com/2023/11/16/opinion/lte-from-the-river-to-the-sea-palestine-will-be-free",
+      "quote": "we imagine a world free of Islamophobia, antisemitism, anti-Blackness, militarism, occupation and apartheid.",
+      "archive": ""
+    }
+  ],
+  "answer": "The phrase has been used for different things. The PLO's 1968 charter claimed all of Mandatory Palestine, and Hamas's 2017 document uses the phrase in a sentence rejecting any alternative to liberating all of Palestine. Israel's Likud platform of 1977 claimed the same land for Israel alone. Some who use it today, such as a US congresswoman and 65 Northwestern student groups, say they mean freedom, human rights and coexistence. Jewish organisations say it calls for the end of Israel, and in April 2024 the US House called it 'outrightly antisemitic'. The Meta Oversight Board found that it has many meanings. Our reading: a parent should ask the speaker what they mean, and should know that in the Hamas, Likud and 1968 PLO documents cited here, the land is claimed for one side.",
+  "facts": [
+    {
+      "text": "The 1968 Palestinian National Charter treated Palestine within its Mandate boundaries as one indivisible unit and called the 1947 partition and Israel's establishment illegal.",
+      "sources": [
+        {
+          "publisher": "Yale Law School, Avalon Project",
+          "title": "The Palestinian National Charter (1968)",
+          "url": "https://avalon.law.yale.edu/20th_century/plocov.asp",
+          "archive": "",
+          "quote": "Palestine, with the boundaries it had during the British Mandate , is an indivisible territorial unit.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "'From the river to the sea': What does the Palestinian slogan really mean?",
+          "url": "https://www.aljazeera.com/news/2023/11/2/from-the-river-to-the-sea-what-does-the-palestinian-slogan-really-mean",
+          "archive": "",
+          "quote": "the PLO called for the establishment of a single state that extend from the Jordan River to the Mediterranean Sea to encompass its historic territories",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "The Conversation (Maha Nassar, University of Arizona)",
+          "title": "'From the river to the sea': a Palestinian historian explores the meaning and intent of scrutinized slogan",
+          "url": "https://theconversation.com/from-the-river-to-the-sea-a-palestinian-historian-explores-the-meaning-and-intent-of-scrutinized-slogan-217491",
+          "archive": "",
+          "quote": "the call for a free Palestine \"from the river to the sea\" started to gain traction among those who believed that all the land should be returned to the Palestinians",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "American Jewish Committee",
+          "title": "#translatehate: \"From the river to the sea\"",
+          "url": "https://www.ajc.org/translatehate/from-the-river-to-the-sea",
+          "archive": "",
+          "quote": "in the 1960s and 70s it became the signature phrase of the Palestine Liberation Organization",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        }
+      ]
+    },
+    {
+      "text": "The 1968 charter also said that Jews who had normally lived in Palestine before the 'Zionist invasion' would be considered Palestinians, and by 1969 the Palestinian National Council spoke of a 'Palestinian democratic state' free of religious discrimination.",
+      "sources": [
+        {
+          "publisher": "Yale Law School, Avalon Project",
+          "title": "The Palestinian National Charter (1968)",
+          "url": "https://avalon.law.yale.edu/20th_century/plocov.asp",
+          "archive": "",
+          "quote": "The Jews who had normally resided in Palestine until the beginning of the Zionist invasion will be considered Palestinians.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "The Conversation (Maha Nassar, University of Arizona)",
+          "title": "'From the river to the sea': a Palestinian historian explores the meaning and intent of scrutinized slogan",
+          "url": "https://theconversation.com/from-the-river-to-the-sea-a-palestinian-historian-explores-the-meaning-and-intent-of-scrutinized-slogan-217491",
+          "archive": "",
+          "quote": "in 1969, the Palestinian National Council, the highest decision-making body of the Palestinians in exile, formally called for a \"Palestinian democratic state\"",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "ABC News (Good Morning America)",
+          "title": "'From the river to the sea': What to know about the pro-Palestinian slogan roiling American politics",
+          "url": "https://www.goodmorningamerica.com/news/story/river-sea-palestinian-nationalist-slogan-gaza-flashpoint-104767203",
+          "archive": "",
+          "quote": "part of a larger call to see a secular democratic state established in all of historic Palestine.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Hamas's 2017 'Document of General Principles and Policies' uses the phrase in the sentence that rejects any alternative to liberating all of Palestine.",
+      "sources": [
+        {
+          "publisher": "Middle East Eye (full text of Hamas's 2017 document)",
+          "title": "Hamas 2017 document in full",
+          "url": "https://www.middleeasteye.net/news/hamas-2017-document-full",
+          "archive": "",
+          "quote": "Hamas rejects any alternative to the full and complete liberation of Palestine, from the river to the sea.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "CNN",
+          "title": "Hamas presents new charter accepting a Palestine based on 1967 borders",
+          "url": "https://amp.cnn.com/cnn/2017/05/01/middleeast/hamas-charter-palestinian-israeli",
+          "archive": "",
+          "quote": "the full and complete liberation of Palestine, from the river to the sea.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Institute for National Security Studies (INSS Insight 928)",
+          "title": "Hamas's New Statement of Principles: A Political Opportunity for Israel?",
+          "url": "https://www.inss.org.il/wp-content/uploads/2017/05/No.-928-.pdf",
+          "archive": "",
+          "quote": "Hamas still rejects any alternative to the liberation of all of Palestine, from the river to the sea.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Oversight Board (Meta)",
+          "title": "\"From the River to the Sea\" Should Not Be Automatically Removed from Meta's Platforms, Oversight Board Says",
+          "url": "https://www.oversightboard.com/?p=34277",
+          "archive": "",
+          "quote": "the phrase has a long history as part of the Palestinian protest movement but has also been included in the 2017 Hamas Charter",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "Israelis used the same geography too: the Likud platform of 1977 said that between the Sea and the Jordan there would be only Israeli sovereignty.",
+      "sources": [
+        {
+          "publisher": "Jewish Virtual Library (American-Israeli Cooperative Enterprise)",
+          "title": "Likud Party: Original Party Platform (1977)",
+          "url": "https://jewishvirtuallibrary.org/original-party-platform-of-the-likud-party",
+          "archive": "",
+          "quote": "between the Sea and the Jordan there will only be Israeli sovereignty",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        },
+        {
+          "publisher": "Jewish Telegraphic Agency (1977 archive)",
+          "title": "Behind the headlines: profiles of the parties competing in the May 17 elections in Israel",
+          "url": "https://www.jta.org/archive/behind-the-headlines-profiles-of-the-parties-competing-in-the-may-17-elections-in-israel",
+          "archive": "",
+          "quote": "Likud's platform calls for permanent Israeli sovereignty between the Mediterranean and the Jordan rivers",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Oversight Board (Meta)",
+          "title": "\"From the River to the Sea\" Should Not Be Automatically Removed from Meta's Platforms, Oversight Board Says",
+          "url": "https://www.oversightboard.com/?p=34277",
+          "archive": "",
+          "quote": "likewise appeared in the 1977 platform of Israel's ruling Likud party",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Responsible Statecraft",
+          "title": "How Israel's Likud party played the long game toward annexation of the West Bank",
+          "url": "https://responsiblestatecraft.org/2020/05/18/how-israels-likud-party-played-the-long-game-toward-annexation-of-the-west-bank",
+          "archive": "",
+          "quote": "back in 1977, the Likud Party's platform called for \"only Israeli sovereignty\" over the land between Jordan and the Mediterranean Sea",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Rep. Rashida Tlaib and 65 student organisations at Northwestern give the phrase a positive meaning in their own words: freedom, human rights and peaceful coexistence (Tlaib), and a world free of antisemitism, Islamophobia, occupation and apartheid (the students).",
+      "sources": [
+        {
+          "publisher": "NBC News",
+          "title": "Rep. Rashida Tlaib faces criticism from Democrats over Palestinian remarks",
+          "url": "https://www.nbcnews.com/politics/congress/rep-rashida-tlaib-faces-criticism-democrats-palestinian-remarks-rcna123735",
+          "archive": "",
+          "quote": "From the river to the sea is an aspirational call for freedom, human rights, and peaceful coexistence, not death, destruction, or hate.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Axios",
+          "title": "Tlaib sparks Democratic backlash with defense of Palestinian chant",
+          "url": "https://www.axios.com/2023/11/06/rashida-tlaib-river-sea-democrats",
+          "archive": "",
+          "quote": "an aspirational call for freedom, human rights, and peaceful coexistence, not death, destruction, or hate",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Michigan Advance",
+          "title": "Tlaib stands by her defense of Palestinian slogan, 'From the river to the sea'",
+          "url": "https://michiganadvance.com/2023/11/06/tlaib-stands-by-her-defense-of-pro-palestinanian-slogan-from-the-river-to-the-sea/",
+          "archive": "",
+          "quote": "From the river to the sea is an aspirational call for freedom, human rights, and peaceful coexistence, not death, destruction, or hate",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "The Daily Northwestern (letter from 65 student organizations)",
+          "title": "LTE: From the river to the sea, Palestine will be free",
+          "url": "https://dailynorthwestern.com/2023/11/16/opinion/lte-from-the-river-to-the-sea-palestine-will-be-free",
+          "archive": "",
+          "quote": "we imagine a world free of Islamophobia, antisemitism, anti-Blackness, militarism, occupation and apartheid.",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        }
+      ]
+    },
+    {
+      "text": "Jewish organisations and Harvard's president, in 2023, say they hear the phrase as a call to end Israel or to remove Jews, and the AJC adds that some people use it without knowing how Jews hear it.",
+      "sources": [
+        {
+          "publisher": "American Jewish Committee",
+          "title": "#translatehate: \"From the river to the sea\"",
+          "url": "https://www.ajc.org/translatehate/from-the-river-to-the-sea",
+          "archive": "",
+          "quote": "a phrase that can be used to call for the elimination of the State of Israel and/or ethnic cleansing of Jews living there",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        },
+        {
+          "publisher": "American Jewish Committee",
+          "title": "#translatehate: \"From the river to the sea\"",
+          "url": "https://www.ajc.org/translatehate/from-the-river-to-the-sea",
+          "archive": "",
+          "quote": "some use the phrase without knowledge of its meaning to the majority of Jews",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        },
+        {
+          "publisher": "The Algemeiner",
+          "title": "Harvard University President Condemns Anti-Israel 'From the River to the Sea' Chant",
+          "url": "https://www.algemeiner.com/2023/11/10/harvard-university-president-condemns-anti-israel-from-river-to-sea-chant/",
+          "archive": "",
+          "quote": "phrases such as 'from the river to the sea' bear specific historical meanings that to a great many people imply the eradication of Jews from Israel",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "The Conversation (Maha Nassar, University of Arizona)",
+          "title": "'From the river to the sea': a Palestinian historian explores the meaning and intent of scrutinized slogan",
+          "url": "https://theconversation.com/from-the-river-to-the-sea-a-palestinian-historian-explores-the-meaning-and-intent-of-scrutinized-slogan-217491",
+          "archive": "",
+          "quote": "pro-Israel groups, including the U.S.-based Anti-Defamation League , have labeled the phrase \"antisemitic .\"",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "ABC News (Good Morning America)",
+          "title": "'From the river to the sea': What to know about the pro-Palestinian slogan roiling American politics",
+          "url": "https://www.goodmorningamerica.com/news/story/river-sea-palestinian-nationalist-slogan-gaza-flashpoint-104767203",
+          "archive": "",
+          "quote": "the Anti-Defamation League has rejected that explanation, calling the phrase antisemitic",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "On 16 April 2024 the US House passed a non-binding resolution, 377 to 44 with one voting present, calling the slogan 'outrightly antisemitic'.",
+      "sources": [
+        {
+          "publisher": "U.S. Government Publishing Office (H.Res. 883, 118th Congress)",
+          "title": "H.Res.883 as introduced",
+          "url": "https://www.govinfo.gov/content/pkg/BILLS-118hres883ih/html/BILLS-118hres883ih.htm",
+          "archive": "",
+          "quote": "the slogan, ``from the river to the sea, Palestine will be free'', is outrightly antisemitic and must be strongly condemned",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Fox News",
+          "title": "House resolution condemning 'From the River to the Sea' chant as antisemitic passes with 44 opposed",
+          "url": "https://www.foxnews.com/politics/house-resolution-condemning-river-sea-chant-antisemitic-passes-44-opposed.amp",
+          "archive": "",
+          "quote": "passed in a 377 to 44 vote",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Yahoo News",
+          "title": "Forty-four House members vote against resolution declaring 'river to the sea' slogan antisemitic",
+          "url": "https://www.yahoo.com/news/forty-four-house-members-vote-004009100.html",
+          "archive": "",
+          "quote": "as antisemitic was passed by the House with a vote of 377-44-1",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Courts and boards that have ruled differ: a Berlin criminal court classed the slogan as a Hamas symbol, a Mannheim court said it was not, and Meta's Oversight Board said three posts using it did not break Meta's rules.",
+      "sources": [
+        {
+          "publisher": "Legal Tribune Online (LTO)",
+          "title": "Federal Court to rule on 'from the river to the sea'",
+          "url": "https://www.lto.de/recht/hintergruende/h/berlin-federal-court-justice-appeal-from-river-to-sea-hamas-slogan",
+          "archive": "",
+          "quote": "For the first time, a Regional Criminal Court classified the slogan as a Hamas symbol.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Legal Tribune Online (LTO)",
+          "title": "Federal Court to rule on 'from the river to the sea'",
+          "url": "https://www.lto.de/recht/hintergruende/h/berlin-federal-court-justice-appeal-from-river-to-sea-hamas-slogan",
+          "archive": "",
+          "quote": "it concluded that \"From the River to the Sea\" was not a Hamas symbol.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Oversight Board (Meta)",
+          "title": "\"From the River to the Sea\" Should Not Be Automatically Removed from Meta's Platforms, Oversight Board Says",
+          "url": "https://www.oversightboard.com/?p=34277",
+          "archive": "",
+          "quote": "did not violate Meta's Community Standards, and the company was right not to remove them",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "JNS",
+          "title": "German court affirms ban on 'River to the Sea' chant",
+          "url": "https://www.jns.org/german-court-affirms-ban-on-river-to-the-sea-chant/",
+          "archive": "",
+          "quote": "upheld a ban imposed by police in two cities on chanting the slogan",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    {
+      "text": "Whether the phrase today means freedom for all people in the land, or the end of Israel as a Jewish state. Supporters and Jewish organisations give opposite readings of the same words.",
+      "sources": [
+        {
+          "publisher": "NBC News",
+          "title": "Rep. Rashida Tlaib faces criticism from Democrats over Palestinian remarks",
+          "url": "https://www.nbcnews.com/politics/congress/rep-rashida-tlaib-faces-criticism-democrats-palestinian-remarks-rcna123735",
+          "archive": "",
+          "quote": "From the river to the sea is an aspirational call for freedom, human rights, and peaceful coexistence, not death, destruction, or hate.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "U.S. Government Publishing Office (H.Res. 883, 118th Congress)",
+          "title": "H.Res.883 as introduced",
+          "url": "https://www.govinfo.gov/content/pkg/BILLS-118hres883ih/html/BILLS-118hres883ih.htm",
+          "archive": "",
+          "quote": "the slogan ``from the river to the sea, Palestine will be free'' is an antisemitic call to arms with the goal of the eradication of the State of Israel",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "Whether the phrase can be separated from Hamas's use of it. The Oversight Board found that it 'has many meanings', while a Berlin court treated it as a Hamas symbol.",
+      "sources": [
+        {
+          "publisher": "Oversight Board (Meta)",
+          "title": "\"From the River to the Sea\" Should Not Be Automatically Removed from Meta's Platforms, Oversight Board Says",
+          "url": "https://www.oversightboard.com/?p=34277",
+          "archive": "",
+          "quote": "the phrase has many meanings and is used by people with different intentions",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Legal Tribune Online (LTO)",
+          "title": "Federal Court to rule on 'from the river to the sea'",
+          "url": "https://www.lto.de/recht/hintergruende/h/berlin-federal-court-justice-appeal-from-river-to-sea-hamas-slogan",
+          "archive": "",
+          "quote": "Regional Criminal Court classified the slogan as a Hamas symbol",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    }
+  ],
+  "could_not_verify": [
+    "The Likud platform's own Hebrew text and Likud's archive; the English wording comes from the Jewish Virtual Library and is confirmed by a 1977 JTA summary, the Oversight Board and Responsible Statecraft.",
+    "The first use of the phrase: sources put it in the mid-1960s PLO or in 1967-69; none gives a dated first use. AJC says its origins are unknown.",
+    "A US court or a US university ruling on the slogan: none found readable. The Berlin, Mannheim and Duesseldorf courts and the Meta Oversight Board are cited instead; only Harvard's president is cited from a university, as a statement and not a ruling.",
+    "ADL's own page on the slogan could not be loaded; ABC News and the AJC page are used for the Jewish-organisation reading. Hillel's national statements were not read.",
+    "The wording of the Berlin court's written reasons: only reports about it (LTO, JNS) were read.",
+    "Who translated the English texts. The Avalon pages for the 1968 PLO charter and the 1988 Hamas Covenant, Middle East Eye's 2017 Hamas document and the Jewish Virtual Library's Likud platform do not say who translated them; none is an official or agreed translation, and readings of single words (for example the date in Article 6 of the charter) are disputed. The Jewish Virtual Library is an advocacy publisher and is labelled so.",
+    "That the PLO later recognised Israel (1993) and its National Council voted in 1996 to cancel the charter articles that contradict that recognition: not on this card, so the 1968 charter is shown without its later revision.",
+    "The next sentence of Hamas's 2017 article 20, which treats a state on the 1967 lines as 'a formula of national consensus', is on the card era7-hamas-in-its-own-words and not here."
+  ],
+  "not_claimed": [
+    "This card does not say the slogan is antisemitic, or that it is not. It records what the documents say and what each side says it means.",
+    "It does not say that everyone who chants the slogan wants Israel gone, or that none do.",
+    "It does not defend Hamas's document, the PLO's 1968 charter, or the Likud platform; it quotes them.",
+    "It does not say Likud's 1977 line and Hamas's line are morally the same; it says both claimed the same land for one side."
+  ],
+  "status": "draft",
+  "content_approved": false,
+  "answer_claims": [
+    {
+      "says": "The phrase has been used for different things.",
+      "facts": [
+        0,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "says": "The PLO's 1968 charter claimed all of Mandatory Palestine, and Hamas's 2017 document uses the phrase in a sentence rejecting any alternative to liberating all of Palestine.",
+      "facts": [
+        0,
+        2
+      ]
+    },
+    {
+      "says": "Israel's Likud platform of 1977 claimed the same land for Israel alone.",
+      "facts": [
+        3
+      ]
+    },
+    {
+      "says": "Some who use it today, such as a US congresswoman and 65 Northwestern student groups, say they mean freedom, human rights and coexistence.",
+      "facts": [
+        4
+      ]
+    },
+    {
+      "says": "Jewish organisations say it calls for the end of Israel, and in April 2024 the US House called it 'outrightly antisemitic'.",
+      "facts": [
+        5,
+        6
+      ]
+    },
+    {
+      "says": "The Meta Oversight Board found that it has many meanings.",
+      "facts": [
+        2,
+        7
+      ]
+    },
+    {
+      "says": "Our reading: a parent should ask the speaker what they mean, and should know that in the Hamas, Likud and 1968 PLO documents cited here, the land is claimed for one side.",
+      "facts": [
+        0,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "review": {
+    "skeptic": {
+      "verdict": "weakened",
+      "date": "2026-11-20",
+      "notes": "Round 1. Read two or more sources per fact; every quote is on its page. Strongest objection from the chanting side: the 1968 charter is shown without its later revision (PLO recognition of Israel 1993, charter articles cancelled 1996); the 1969 'democratic state' line is there but the card is silent on the revision (should-fix, needs a new source). From the Jewish side: Hamas's 2017 sentence is quoted without the next sentence (a 1967-lines state, 'formula of national consensus'), which cuts both ways (should-fix); fact 2 would be fairer with it. Found and fixed: fact 5 said 'some universities' but only Harvard's president is cited (now narrowed); fact 4 said 'people' and 'equality' but its sources are one Tlaib tweet (NBC, Axios, Michigan Advance report the same tweet: one voice, not three) and one student letter that does not say 'equality' (narrowed to those two speakers). Must-fix for the writer: none blocks the facts as now worded. Translations: Avalon's charter, Middle East Eye's Hamas text and the Jewish Virtual Library's Likud text name no translator; recorded in could_not_verify. JVL is advocacy (already labelled). Responsible Statecraft is a think-tank magazine, labelled news; borderline, left. Oversight Board is 'primary' only for its own ruling; its Likud and Hamas lines are its description, corroborated by JTA and the Hamas text. H.Res. 883 is cited as introduced; the passed text was not read (should-fix). Axios returns 403 to the checker (archive copy used). Quotes: verified online below. Status stays draft until the revision of the charter and the 1967 sentence are added with sources."
+    },
+    "citer": {
+      "verdict": "holds",
+      "date": "2026-11-20",
+      "notes": "Split the answer into seven sentences, each tied to facts. Removed: 'Both halves are true, because...' (the 'halves' were never defined and no fact says either half is true); 'Jewish organisations and the US House say it calls for the end of Israel' (fact 6 carries 'outrightly antisemitic', not 'end of Israel': reworded); 'Many people who chant it' (facts carry named speakers only: now 'Some ... such as'); 'where the phrase appears in official documents' (the PLO charter and Likud platform do not contain the phrase: now names the three documents). Every remaining sentence rests on the cited facts."
+    }
+  }
+}

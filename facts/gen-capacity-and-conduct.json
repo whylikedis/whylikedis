@@ -180,7 +180,8 @@
           "archive": "",
           "quote": "The World Health Organization said Thursday it has reached an agreement with Israel for limited pauses in fighting in Gaza",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "news",
+          "wire": "AP"
         }
       ]
     },
@@ -468,7 +469,8 @@
           "archive": "",
           "quote": "which does not speak on behalf of the world body, found that \"genocide is occurring in Gaza and is continuing to occur\"",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "news",
+          "wire": "AFP"
         }
       ]
     },

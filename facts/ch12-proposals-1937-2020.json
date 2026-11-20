@@ -16,7 +16,7 @@
       "archive": ""
     }
   ],
-  "answer": "Both slogans are too simple. The Zionist leadership accepted the principle of partition in 1937 and the Jewish community accepted it in 1947; the Arab leadership rejected both. At Khartoum in 1967 Arab states said no peace, no recognition, no negotiations, yet in 2002 the Arab League offered normal relations for full withdrawal, and Israel did not accept that as a basis for talks. Oslo set up self-government and did not promise a state. In 2000 Clinton said both leaders accepted his parameters with reservations; Ross says Barak's were within them and Arafat's were not, while Malley and Agha say the proposals were never fixed offers. In 2008 Olmert showed Abbas a map; Abbas did not sign and later said he rejected it. In 2020 Netanyahu agreed to negotiate on Trump's plan; Abbas rejected it. Our reading: refusals came from both sides, at different moments.",
+  "answer": "In 1937 the Zionist Congress rejected the Peel borders but authorised talks; in 1947 the Jewish community accepted partition; the Arab leadership rejected both. At Khartoum in 1967 Arab states said no peace, no recognition, no negotiations; in 2002 the Arab League offered normal relations for full withdrawal, and Israel replied with reservations. Oslo set up self-government and did not promise a state. In January 2001 Clinton said Barak and Arafat accepted his parameters with reservations; Ross says Arafat did not say yes; Malley and Agha say Barak accepted nothing at Camp David. In 2008 Olmert showed Abbas a map; Abbas has said he rejected it because he was not allowed to study it. In 2020 Netanyahu agreed to negotiate on Trump's plan; Abbas rejected it, citing Jerusalem. Our reading: refusals came from both sides, at different moments.",
   "facts": [
     {
       "text": "In July 1937 the Peel Commission recommended ending the British mandate and partitioning Palestine into a Jewish state, an Arab state to be joined to Transjordan, and a British-held zone around Jerusalem; the commission itself called the plan not final.",
@@ -47,6 +47,15 @@
           "quote": "to abolish the Mandate and partition the country between the two peoples",
           "accessed": "2026-11-20",
           "kind": "advocacy"
+        },
+        {
+          "publisher": "Rashid Khalidi, The Hundred Years' War on Palestine",
+          "title": "The Hundred Years' War on Palestine",
+          "url": "https://archive.org/stream/100yearswarpalestine/The_Hundred_Years_War_on_Palestine_A_History_of_Settler_Colonial_Conquest_and_Resistance_UK_Edition_Rashid_Khalidi_djvu.txt",
+          "archive": "",
+          "quote": "giving them over 56 percent of Palestine, against the much smaller 17 percent for the Jewish state envisioned by the 1937 Peel partition plan",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
         }
       ]
     },
@@ -92,7 +101,7 @@
       ]
     },
     {
-      "text": "On 29 November 1947 the UN General Assembly voted 33 to 13, with 10 abstentions, to recommend partition with economic union into an Arab state, a Jewish state and an international Jerusalem; the Jewish state was allotted over half of Palestine, against the 17 percent Khalidi says Peel proposed.",
+      "text": "On 29 November 1947 the UN General Assembly voted 33 to 13, with 10 abstentions, to recommend partition with economic union into an Arab state, a Jewish state and an international Jerusalem; the UN committee's majority report that the resolution followed gave the Jewish state over 56 percent of Palestine, against the 17 percent Khalidi says Peel proposed (the sources define 'the country' differently).",
       "sources": [
         {
           "publisher": "Yale Law School, Avalon Project",
@@ -152,6 +161,15 @@
           "quote": "determined persist in rejection partition and in refusal recognize UNO resolution this respect and anything deriving therefrom",
           "accessed": "2026-11-20",
           "kind": "government"
+        },
+        {
+          "publisher": "Jewish Telegraphic Agency",
+          "title": "Ross to U.S. Jews: Palestinians will rue another missed opportunity",
+          "url": "https://www.jta.org/archive/ross-to-u-s-jews-palestinians-will-rue-another-missed-opportunity",
+          "archive": "",
+          "quote": "the Palestinians' regret will mirror their remorse over rejecting the U.N. partition plan",
+          "accessed": "2026-11-20",
+          "kind": "news"
         }
       ]
     },
@@ -207,6 +225,15 @@
           "quote": "Security Council Resolution 242, adopted on November 22, called for Israel's withdrawal from",
           "accessed": "2026-11-20",
           "kind": "government"
+        },
+        {
+          "publisher": "Rashid Khalidi, The Hundred Years' War on Palestine",
+          "title": "The Hundred Years' War on Palestine",
+          "url": "https://archive.org/stream/100yearswarpalestine/The_Hundred_Years_War_on_Palestine_A_History_of_Settler_Colonial_Conquest_and_Resistance_UK_Edition_Rashid_Khalidi_djvu.txt",
+          "archive": "",
+          "quote": "the key document contains not a single mention of Palestine or the Palestinians",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
         }
       ]
     },
@@ -245,14 +272,14 @@
           "title": "The Oslo Accords and the Arab-Israeli Peace Process",
           "url": "https://history.state.gov/milestones/1993-2000/oslo",
           "archive": "",
-          "quote": "the Israelis and Palestinians remained strongly at odds over borders, Jerusalem",
+          "quote": "permanent status talks on the issues of borders, refugees, and Jerusalem would be held",
           "accessed": "2026-11-20",
           "kind": "government"
         }
       ]
     },
     {
-      "text": "In December 2000 President Clinton said that both Barak and Arafat had accepted his parameters as a basis for further effort, though both had reservations. Dennis Ross says Barak's reservations were within the parameters and that Arafat, asked on 2 January 2001, did not say yes; Robert Malley and Hussein Agha say the Camp David proposals were presented as conditional bases for talks, which Barak never accepted in return and which Palestinians judged inadequate.",
+      "text": "On 7 January 2001 President Clinton said that both Barak and Arafat had accepted his December parameters as a basis for further effort, though both had reservations. Dennis Ross says Barak's reservations were within the parameters and that Arafat, asked on 2 January 2001, did not say yes; Robert Malley and Hussein Agha say the Camp David proposals were presented as conditional bases for talks, which Barak never accepted in return and which Palestinians judged inadequate.",
       "sources": [
         {
           "publisher": "American Presidency Project (UC Santa Barbara)",
@@ -330,6 +357,15 @@
           "quote": "never formally accepted the initiative, even as the basis of negotiations",
           "accessed": "2026-11-20",
           "kind": "advocacy"
+        },
+        {
+          "publisher": "United Nations (UN Special Coordinator's office)",
+          "title": "Official translation of the Arab Peace Initiative",
+          "url": "https://unsco.unmissions.org/sites/default/files/api.pdf",
+          "archive": "",
+          "quote": "Full Israeli withdrawal from all the territories occupied since 1967, including the Syrian Golan Heights, to the June 4, 1967 lines",
+          "accessed": "2026-11-20",
+          "kind": "primary"
         }
       ]
     },
@@ -352,7 +388,8 @@
           "archive": "",
           "quote": "\"He showed me a map. He didn't give me a map,\" Abbas said",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "news",
+          "wire": "AP"
         },
         {
           "publisher": "Council on Foreign Relations (blog)",
@@ -361,12 +398,12 @@
           "archive": "",
           "quote": "\"I did not agree,\" Abbas replied. \"I rejected it out of hand.\"",
           "accessed": "2026-11-20",
-          "kind": "reference"
+          "kind": "advocacy"
         }
       ]
     },
     {
-      "text": "In January 2020 the Trump plan proposed a demilitarised Palestinian state in disconnected areas, with Israeli sovereignty over settlements and the Jordan Valley; Netanyahu said he would negotiate on its basis and Abbas rejected it outright.",
+      "text": "In January 2020 the Trump plan proposed a Palestinian state with Israeli sovereignty over West Bank settlement blocs and the Jordan Valley and Jerusalem as Israel's undivided capital; the BBC's analysis called the state offered 'much truncated', while Trump promised contiguous territory under conditions. Netanyahu was willing to endorse it as the basis for direct negotiations; Abbas rejected it outright, saying a Palestinian state without Jerusalem as its capital was impossible to accept.",
       "sources": [
         {
           "publisher": "American Presidency Project (UC Santa Barbara)",
@@ -396,22 +433,376 @@
           "kind": "news"
         }
       ]
+    },
+    {
+      "text": "At Taba in January 2001, in the last weeks of Barak's government, the EU envoy Miguel Moratinos recorded in his non-paper that the Israeli side sketched a map annexing 6 percent of the West Bank and the Palestinian side a map annexing 3.1 percent in a land swap, with both accepting the principle of a swap; no agreement was reached before Israel's election. Israeli officials said the notes were only Moratinos's impressions; Haaretz's Akiva Eldar reported that the Taba negotiators had approved its main points as accurate.",
+      "sources": [
+        {
+          "publisher": "United Nations (Question of Palestine; Moratinos non-paper)",
+          "title": "Taba, January 2001",
+          "url": "https://www.un.org/unispal/document/auto-insert-200101/",
+          "archive": "",
+          "quote": "The Israeli side sketched a map presenting a 6 percent annexation, the outer limit of the Clinton proposal. The Palestinian illustrative map presented 3.1 percent in the context of a land swap.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Haaretz (Akiva Eldar), hosted by McGill University",
+          "title": "The Moratinos Document: The peace that nearly was at Taba",
+          "url": "https://prrn.mcgill.ca/prrn/papers/moratinos.html",
+          "archive": "",
+          "quote": "whose main points have been approved by the Taba negotiators as an accurate description of the discussions",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Council on Foreign Relations",
+          "title": "Middle East Peace Plans: Background",
+          "url": "https://www.cfr.org/backgrounders/middle-east-peace-plans-background",
+          "archive": "",
+          "quote": "Israel proposed keeping 6 percent of West Bank land; the Palestinians offered 3.1 percent.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Jewish Virtual Library (American-Israeli Cooperative Enterprise)",
+          "title": "Taba Peace Talks",
+          "url": "https://www.jewishvirtuallibrary.org/taba-peace-talks",
+          "archive": "",
+          "quote": "notes taken by the European representative, Miguel Moratinos, were only his impressions",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        }
+      ]
+    },
+    {
+      "text": "The Road Map of 2003, drafted by the Quartet, set out phases ending in a settlement that would produce an independent, democratic and viable Palestinian state beside Israel. On 25 May 2003 Israel's cabinet voted 12 to 7 to accept the 'steps' of the plan but attached 14 reservations, including a waiver of any right of return of refugees to Israel, which Sharon's side called red lines; the Palestinians said they accepted the Road Map as it stood.",
+      "sources": [
+        {
+          "publisher": "Yale Law School, Avalon Project",
+          "title": "A Performance-Based Roadmap to a Permanent Two-State Solution",
+          "url": "https://avalon.law.yale.edu/21st_century/roadmap.asp",
+          "archive": "",
+          "quote": "A settlement, negotiated between the parties, will result in the emergence of an independent, democratic, and viable Palestinian state living side by side in peace and security with Israel",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Jewish Telegraphic Agency",
+          "title": "Road map vote seen as historic, but the hard part is just beginning",
+          "url": "https://www.jta.org/archive/road-map-vote-seen-as-historic-but-the-hard-part-is-just-beginning",
+          "archive": "",
+          "quote": "The Palestinians have accepted the road map as is, and insist that Israel do so as well.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "PBS NewsHour",
+          "title": "Sharon Defends Cabinet's Road Map Endorsement",
+          "url": "https://www.pbs.org/newshour/politics/middle_east-jan-june03-israel_05-27",
+          "archive": "",
+          "quote": "the waiver of any right of return for Palestinian refugees to the State of Israel.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Jewish Virtual Library (Israeli cabinet statement)",
+          "title": "Israeli Cabinet Statement on Road Map and 14 Reservations",
+          "url": "https://jewishvirtuallibrary.org/israeli-cabinet-statement-on-road-map-and-14-reservations",
+          "archive": "",
+          "quote": "the resolution of the issue of the refugees will not include their entry into or settlement within the State of Israel",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        }
+      ]
+    },
+    {
+      "text": "The Kerry talks of July 2013 to April 2014 ended with each side blaming the other: Israel suspended the talks on 24 April 2014 after Abbas's unity pact with Hamas; US envoy Martin Indyk blamed both sides, citing Israeli settlement building and the Palestinians' signing of 15 international conventions, and said neither would make 'gut-wrenching compromises'; unnamed senior US officials told an Israeli journalist that the 'primary sabotage' came from the settlements; former US negotiator Aaron David Miller said the effort did not collapse because of settlements but because the sides were too far apart.",
+      "sources": [
+        {
+          "publisher": "NBC News (Reuters)",
+          "title": "U.S. Blames Israelis, Palestinians for Failed Mideast Talks",
+          "url": "https://www.nbcnews.com/news/mideast/u-s-blames-israelis-palestinians-failed-mideast-talks-n101136",
+          "archive": "",
+          "quote": "Indyk made clear there was blame on both sides, citing Israeli settlement-building as well as the Palestinians' signing of 15 international conventions.",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "Reuters"
+        },
+        {
+          "publisher": "Middle East Research and Information Project",
+          "title": "Indyk vs. Indyk",
+          "url": "https://www.merip.org/2014/05/indyk-vs-indyk",
+          "archive": "",
+          "quote": "The \"primary sabotage,\" they insisted, \"came from the settlements.\"",
+          "accessed": "2026-11-20",
+          "kind": "other"
+        },
+        {
+          "publisher": "Jewish Telegraphic Agency",
+          "title": "Anonymous interview airs U.S. frustration with Israel after talks collapse",
+          "url": "https://www.jta.org/2014/05/06/united-states/anonymous-interview-airs-u-s-frustration-with-israel-after-talks-collapse",
+          "archive": "",
+          "quote": "The maximum that Netanyahu can offer on all core issues doesn't come close to the minimum that anyone on the Palestinian side can accept",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
     }
   ],
   "contested": [
-    "The strongest case that Israel never wanted a state: Oslo's text did not promise one while, by one scholarly count, the settler population grew from 115,000 in 1993 to 200,000 in 2000; Sharon's government never accepted the 2002 Arab offer as a basis for talks; and Malley and Agha argue that Barak's Camp David ideas were conditional, unwritten and never mapped, so there was no offer for Arafat to accept. Avi Shlaim writes that building settlements 'does not violate the letter of the Oslo accords but it most decidedly violates its spirit'.",
-    "The strongest case that the Palestinians rejected every offer: the Arab leadership rejected the 1937 and 1947 partitions, the Khartoum summit refused negotiation, Dennis Ross argues that Arafat's reply to the December 2000 parameters was a 'no', and Abbas told Israeli television in 2015 about the 2008 offer: 'I rejected it out of hand.' Elliott Abrams reads that as proof that Israel's version of events is correct.",
-    "Whether Zionist acceptance of partition was principled or tactical. The UN's own history says the 1937 Congress judged it 'too early' to accept a state in only part of Palestine, because the ultimate aim was a Jewish state in all of it; Khalidi reads Peel as satisfying Zionist aims at the Palestinians' expense, including the transfer of about 200,000 Arabs (OSU figure). Defenders reply that the Congress and the Jewish community in 1947 accepted a plan that left an Arab state beside Israel.",
-    "How much land Peel gave the Jewish state: the Ohio State history says 17 percent of the country, the UN study says about a third of the area; the sources define the area differently and the card does not choose between them.",
-    "How large Olmert's offer was: the BBC film shows 4.9 percent of the West Bank annexed to Israel; in the Associated Press interview Olmert speaks of Israel keeping 6.3 percent, in return for land swaps. Whether Abbas rejected the offer (his 2015 words) or was not given time to study it (his explanation, and Olmert's account that a meeting of map experts was agreed and never held) is disputed."
+    {
+      "text": "The strongest case that Israel never wanted a state: Oslo's text did not promise one while the settler population grew; Sharon's government never accepted the 2002 Arab offer as a basis for talks; and Malley and Agha argue that Barak's Camp David ideas were conditional, unwritten and never mapped, so there was no offer for Arafat to accept. Shlaim writes that settlement building violates the spirit of Oslo.",
+      "sources": [
+        {
+          "publisher": "The Guardian (Avi Shlaim)",
+          "title": "It's now clear: the Oslo peace accords were wrecked by Netanyahu's bad faith",
+          "url": "https://www.theguardian.com/commentisfree/2013/sep/12/oslo-israel-reneged-colonial-palestine",
+          "archive": "",
+          "quote": "Building civilian settlements beyond the Green Line does not violate the letter of the Oslo accords but it most decidedly violates its spirit.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "The New York Review of Books (Robert Malley and Hussein Agha)",
+          "title": "Camp David: The Tragedy of Errors",
+          "url": "https://www.nybooks.com/articles/2001/08/09/camp-david-the-tragedy-of-errors/",
+          "archive": "",
+          "quote": "Finally, Barak was careful not to accept anything.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "The Guardian (Marwan Barghouti)",
+          "title": "Israel has chosen occupation over peace",
+          "url": "https://www.theguardian.com/commentisfree/2015/oct/11/israel-occupation-palestinian-territory-peace-diplomacy",
+          "archive": "",
+          "quote": "The real problem is that Israel has chosen occupation over peace, and used negotiations as a smokescreen to advance its colonial project.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "The strongest case that the Palestinians rejected every offer: the Arab leadership rejected the 1937 and 1947 partitions, the Khartoum summit refused negotiation, Dennis Ross says Arafat did not say yes to the December 2000 parameters, and Abbas told Israeli television in 2015 about the 2008 offer: 'I rejected it out of hand.' Elliott Abrams reads that as proof that Israel's account is correct.",
+      "sources": [
+        {
+          "publisher": "Council on Foreign Relations (Elliott Abrams)",
+          "title": "Abbas Admits He Said No to Israel's Peace Offer",
+          "url": "https://www.cfr.org/blog/abbas-admits-he-said-no-israels-peace-offer",
+          "archive": "",
+          "quote": "Abbas walked away, just as Yasser Arafat had walked away at Camp David in 2000.",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        },
+        {
+          "publisher": "NPR (Dennis Ross)",
+          "title": "23 years ago, Israelis and Palestinians were talking about a two-state solution",
+          "url": "https://www.npr.org/2023/10/19/1207243717/23-years-ago-israelis-and-palestinians-were-talking-about-a-two-state-solution",
+          "archive": "",
+          "quote": "So on January 2, we had Arafat come to the White House, and he didn't say yes.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Fox News (Associated Press)",
+          "title": "Palestinian leader shines new light on failed 2008 peace talks",
+          "url": "https://www.foxnews.com/world/palestinian-leader-shines-new-light-on-failed-2008-peace-talks",
+          "archive": "",
+          "quote": "\"He showed me a map. He didn't give me a map,\" Abbas said",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AP"
+        }
+      ]
+    },
+    {
+      "text": "Whether Zionist acceptance of partition was principled or tactical. The UN's own history says the 1937 Congress judged it 'too early' to accept a state in only part of Palestine because the ultimate aim was a state in all of it; Khalidi reads Peel as satisfying Zionist aims at the Palestinians' expense. Defenders reply, as the UN puts it, that in accepting the 1947 plan the Jews accepted indirectly the status of a future independent Arab state.",
+      "sources": [
+        {
+          "publisher": "United Nations (Question of Palestine)",
+          "title": "The Origins and Evolution of the Palestine Problem, Part I",
+          "url": "https://www.un.org/unispal/history2/origins-and-evolution-of-the-palestine-problem/part-i-1917-1947/",
+          "archive": "",
+          "quote": "It was too early - the ultimate aim was to establish the Jewish State in all of Palestine",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Rashid Khalidi, The Hundred Years' War on Palestine",
+          "title": "The Hundred Years' War on Palestine",
+          "url": "https://archive.org/stream/100yearswarpalestine/The_Hundred_Years_War_on_Palestine_A_History_of_Settler_Colonial_Conquest_and_Resistance_UK_Edition_Rashid_Khalidi_djvu.txt",
+          "archive": "",
+          "quote": "The Peel Commission's satisfaction of the basic Zionist aims of statehood and removal of the Palestinians, albeit not in the whole of Palestine",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "United Nations (Question of Palestine)",
+          "title": "Question of Palestine: background",
+          "url": "https://www.un.org/unispal/?p=211161",
+          "archive": "",
+          "quote": "In accepting the Partition Plan, the Jews accepted indirectly the status of a future independent Arab State of Palestine",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "How much land Peel gave the Jewish state: the Ohio State history says 17 percent of the country, the UN study says about a third of the area; the sources define the area differently and the card does not choose between them.",
+      "sources": [
+        {
+          "publisher": "Origins (Ohio State University)",
+          "title": "The 1936-1939 Arab Revolt in Palestine",
+          "url": "https://origins.osu.edu/read/1936-1939-arab-revolt-palestine",
+          "archive": "",
+          "quote": "A Jewish state would be established on 17%",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "United Nations (Question of Palestine)",
+          "title": "The Origins and Evolution of the Palestine Problem, Part I",
+          "url": "https://www.un.org/unispal/history2/origins-and-evolution-of-the-palestine-problem/part-i-1917-1947/",
+          "archive": "",
+          "quote": "to the Jewish state, about a third of the country's area",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "How large Olmert's offer was, and whether Abbas rejected it. The BBC film shows 4.9 percent of the West Bank annexed to Israel; Olmert told Israeli television Israel would retain 6.3 percent in return for land swaps; Abbas says he rejected it because he was not allowed to study the map, and Olmert says a meeting of map experts was agreed and never held.",
+      "sources": [
+        {
+          "publisher": "BBC News",
+          "title": "The two-state solution map that promised to solve Middle East crisis",
+          "url": "https://www.bbc.com/news/articles/c4g0dv7rxxvo",
+          "archive": "",
+          "quote": "It shows, in detail, the territory which Olmert proposed to annexe to Israel - 4.9% of the West Bank",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Fox News (Associated Press)",
+          "title": "Palestinian leader shines new light on failed 2008 peace talks",
+          "url": "https://www.foxnews.com/world/palestinian-leader-shines-new-light-on-failed-2008-peace-talks",
+          "archive": "",
+          "quote": "proposing that Israel retain 6.3 percent of the territory in order to keep control of major Jewish settlements",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AP"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "The two-state solution map that promised to solve Middle East crisis",
+          "url": "https://www.bbc.com/news/articles/c4g0dv7rxxvo",
+          "archive": "",
+          "quote": "Olmert says the two agreed to a meeting of map experts the following day",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "What ended the Kerry talks. Indyk blamed both sides; unnamed senior US officials told an Israeli journalist that the primary sabotage came from the settlements; Aaron David Miller argues the settlements were not the cause and that the gap between the sides was too large.",
+      "sources": [
+        {
+          "publisher": "NBC News (Reuters)",
+          "title": "U.S. Blames Israelis, Palestinians for Failed Mideast Talks",
+          "url": "https://www.nbcnews.com/news/mideast/u-s-blames-israelis-palestinians-failed-mideast-talks-n101136",
+          "archive": "",
+          "quote": "Indyk made clear there was blame on both sides, citing Israeli settlement-building as well as the Palestinians' signing of 15 international conventions.",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "Reuters"
+        },
+        {
+          "publisher": "Middle East Research and Information Project",
+          "title": "Indyk vs. Indyk",
+          "url": "https://www.merip.org/2014/05/indyk-vs-indyk",
+          "archive": "",
+          "quote": "The \"primary sabotage,\" they insisted, \"came from the settlements.\"",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Jewish Telegraphic Agency (Aaron David Miller)",
+          "title": "Anonymous interview airs U.S. frustration with Israel after talks collapse",
+          "url": "https://www.jta.org/2014/05/06/united-states/anonymous-interview-airs-u-s-frustration-with-israel-after-talks-collapse",
+          "archive": "",
+          "quote": "The maximum that Netanyahu can offer on all core issues doesn't come close to the minimum that anyone on the Palestinian side can accept",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "The reasons each side gave for saying no. Abbas on the 2020 plan: a Palestinian state without Jerusalem as its capital is impossible to accept; on Olmert's 2008 map: he could not sign what he was not given (AP reports he said he rejected it because he was not allowed to study the map). Ross reports from Palestinian negotiators that the 2001 delegation had decided to accept the Clinton parameters and Arafat said no, apparently hoping for a better deal under Bush.",
+      "sources": [
+        {
+          "publisher": "BBC News",
+          "title": "Trump releases long-awaited Middle-East peace plan",
+          "url": "https://www.bbc.com/news/world-middle-east-51288218",
+          "archive": "",
+          "quote": "impossible for any Palestinian, Arab, Muslim or Christian child to accept",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Fox News (Associated Press)",
+          "title": "Palestinian leader shines new light on failed 2008 peace talks",
+          "url": "https://www.foxnews.com/world/palestinian-leader-shines-new-light-on-failed-2008-peace-talks",
+          "archive": "",
+          "quote": "how can I sign on something that I didn't receive?",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AP"
+        },
+        {
+          "publisher": "NPR (interview with Dennis Ross)",
+          "title": "23 years ago, Israelis and Palestinians were talking about a two-state solution",
+          "url": "https://www.npr.org/2023/10/19/1207243717/23-years-ago-israelis-and-palestinians-were-talking-about-a-two-state-solution",
+          "archive": "",
+          "quote": "they went back to Arafat, and Arafat said no.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "The reasons Israel gave for its reservations. The 2003 cabinet accepted the Road Map's steps but resolved that refugees would not enter or settle in Israel; Sharon's adviser answered the 2002 Arab offer by demanding direct negotiations and rejecting refugee return.",
+      "sources": [
+        {
+          "publisher": "Jewish Virtual Library (Israeli cabinet statement)",
+          "title": "Israeli Cabinet Statement on Road Map and 14 Reservations",
+          "url": "https://jewishvirtuallibrary.org/israeli-cabinet-statement-on-road-map-and-14-reservations",
+          "archive": "",
+          "quote": "the resolution of the issue of the refugees will not include their entry into or settlement within the State of Israel",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "CBS News",
+          "title": "Peace Plan Adopted, Israel Wary",
+          "url": "https://www.cbsnews.com/news/peace-plan-adopted-israel-wary/",
+          "archive": "",
+          "quote": "Gissin insisted Arab nations must open \"direct negotiations with Israel\"",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    }
   ],
   "could_not_verify": [
-    "Taba 2001, the Road Map of 2003 (including Israel's reservations to it), and the Kerry talks of 2013-14: not covered here because we did not read three reliable pages for each; the Road Map text itself is on Avalon but we did not find a reliable page on each side's response.",
-    "The full text of the Arab Peace Initiative as a readable HTML page: the UN copy we found is a PDF, so the terms rest on CBS News and the Council on Foreign Relations; Elie Podeh's article on Israel's non-response could not be read.",
+    "Taba: we read the Moratinos non-paper as hosted by the UN and Eldar's Haaretz article, but not the full list of what each side offered on Jerusalem and refugees; Barak's and the Palestinian negotiators' own accounts were not read.",
+    "The Road Map: only Israel's refugee reservation is quoted from the cabinet text; we did not read all 14 reservations one by one, or a Palestinian document stating their acceptance (we rely on JTA).",
+    "The Kerry talks: Kerry's own account and Netanyahu's and Abbas's own statements on why the talks ended were not read; the blame is given through Indyk, unnamed US officials and Miller, as reported by Reuters (NBC), MERIP and JTA.",
+    "Fewer than three reliable sources: Khartoum (Avalon and The Guardian only), the 1947 acceptance and rejection (UN and the Jewish Telegraphic Agency, plus two government pages), the Peel recommendation has three but the Taba and Road Map facts each include an advocacy or government page beyond three reliable ones; the Olmert fact leans on a CFR blog post by a partisan author for Abbas's 2015 words.",
     "Abbas's 2009 statement to the Washington Post that 'the gaps were wide' (the page would not load for us).",
-    "Fewer than three reliable sources: the 1947 responses (one UN page plus two government pages), the Peel recommendation (two reliable plus an advocacy site), Khartoum (Avalon and The Guardian only), Resolution 242 (Avalon and the UN only, plus a government page), the Arab Peace Initiative (CBS and CFR, plus an advocacy-labelled think tank). The Olmert fact leans on a CFR blog post by a partisan author for Abbas's 2015 words.",
-    "Barak's Camp David percentages from a primary document: Malley and Agha say no written offer exists. The Peel report and Dennis Ross's book were not read directly.",
-    "A reliable third source for the 1947 acceptance and rejection: the UN page and two US government pages carry it, but Britannica could not be read by our fetcher and Khalidi's text has no plain statement."
+    "Barak's Camp David percentages from a primary document: Malley and Agha say no written offer exists. The Peel report and Dennis Ross's book were not read directly. Podeh's article on Israel's non-response to the Arab Peace Initiative and the Chatham House pages could not be read.",
+    "Britannica could not be read by our fetcher, so its pages are not cited.",
+    "The Arab leadership's own stated reasons for rejecting partition in 1937 and 1947 (Arab Higher Committee statements) were not read; the card has only the State Department's summary that they thought the plan favourable to the Jews. Netanyahu's own statements on a Palestinian state (Bar-Ilan 2009, 2015, 2024) are not on this card."
   ],
   "not_claimed": [
     "Listing who refused what does not by itself assign blame: a refusal can be reasonable, forced by politics, or a mistake, and the card does not rank the refusals.",
@@ -421,5 +812,69 @@
     "It does not say that the Arab Peace Initiative was an offer Israel should have accepted as written."
   ],
   "status": "draft",
-  "content_approved": false
+  "content_approved": false,
+  "answer_claims": [
+    {
+      "says": "In 1937 the Zionist Congress rejected the Peel borders but authorised talks; in 1947 the Jewish community accepted partition; the Arab leadership rejected both.",
+      "facts": [
+        1,
+        3
+      ]
+    },
+    {
+      "says": "At Khartoum in 1967 Arab states said no peace, no recognition, no negotiations; in 2002 the Arab League offered normal relations for full withdrawal, and Israel replied with reservations.",
+      "facts": [
+        4,
+        8
+      ]
+    },
+    {
+      "says": "Oslo set up self-government and did not promise a state.",
+      "facts": [
+        6
+      ]
+    },
+    {
+      "says": "In January 2001 Clinton said Barak and Arafat accepted his parameters with reservations; Ross says Arafat did not say yes; Malley and Agha say Barak accepted nothing at Camp David.",
+      "facts": [
+        7
+      ]
+    },
+    {
+      "says": "In 2008 Olmert showed Abbas a map; Abbas has said he rejected it because he was not allowed to study it.",
+      "facts": [
+        9
+      ]
+    },
+    {
+      "says": "In 2020 Netanyahu agreed to negotiate on Trump's plan; Abbas rejected it, citing Jerusalem.",
+      "facts": [
+        10
+      ]
+    },
+    {
+      "says": "Our reading: refusals came from both sides, at different moments.",
+      "facts": [
+        1,
+        3,
+        4,
+        7,
+        8,
+        9,
+        10
+      ]
+    }
+  ],
+  "review": {
+    "skeptic": {
+      "verdict": "weakened",
+      "date": "2026-11-20",
+      "notes": "Read at least two sources per fact in context; all 70 quotes are on their pages. Strongest Palestinian objection: the card says Arafat 'did not say yes' (Ross) and Abbas 'rejected' Olmert's map, but gave neither man's stated reason; Ross's own NPR answer adds that the Palestinian delegation had decided to accept and Arafat said no. Reasons are now in contested, but the Arab leadership's own words for rejecting 1937 and 1947 are absent (must-fix: needs a new source). Strongest Israeli objection: the card has no Israeli leader's own statement on a Palestinian state (Bar-Ilan 2009, Netanyahu 2015 and 2024), the best evidence for the 'Israel never wanted one' side, and the Arab Peace Initiative claim 'never formally accepted' rests on an advocacy page (Arab Center) plus CFR's 'skepticism'. Fixed by me: Clinton's remarks are dated 7 January 2001, not December 2000; F10 said 'disconnected areas' and 'demilitarised', which no cited page says (BBC quotes Trump promising contiguous territory); F6's State Dept quote was about Camp David, replaced with the Oslo deferral sentence; F2's 56 percent is Khalidi's figure for the UN committee's report; MERIP 'Indyk vs. Indyk' is unsigned, relabelled other; the Abrams blog relabelled advocacy. Not independent or short: F3 has two reliable sources (UN, JTA; State Dept and FRUS are government); F4 has two (Avalon, Guardian); F9 now has two (BBC, AP); F11 and F12 each lean on an advocacy or government page for the Israeli position; F13's 'primary sabotage' claim reaches us only through the unsigned MERIP page, not Barnea's report. Wire: Fox/AP and NBC/Reuters already marked. Should-fix: JTA archive pieces carry no byline we could check; Khalidi is read through an archive.org full-text copy of a book. MUST-FIX list: (1) Arab leadership's stated reasons 1937/1947 in their own words; (2) an Israeli primary statement on a Palestinian state; (3) a third reliable source for F3, F4, F9, F13; (4) a non-advocacy source for 'never formally accepted'."
+    },
+    "citer": {
+      "verdict": "holds",
+      "date": "2026-11-20",
+      "notes": "Split the answer into seven sentences, each tied to facts. Removed: 'Both slogans are too simple' (a verdict no fact carries; the closing 'Our reading' sentence stays); 'the Zionist leadership accepted the principle of partition in 1937' (the UN history on the card says the Congress judged it too early; reworded to what F1 carries: rejected the borders, authorised talks); 'Israel did not accept that as a basis for talks' (single advocacy source; reworded to 'replied with reservations', which CBS carries); 'Barak's were within them and Arafat's were not' (Ross says only that Arafat did not say yes); 'proposals were never fixed offers' (Malley and Agha's quote is about Camp David, not the December parameters; reworded). Added Abbas's stated reasons for 2008 and 2020, which F9 and F10 now carry. Answer is 140 words. Verdict holds for the answer as now worded; the card stays draft because the skeptic verdict is weakened."
+    }
+  }
 }

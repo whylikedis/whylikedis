@@ -1,0 +1,542 @@
+{
+  "id": "era6-west-bank-status",
+  "era": 6,
+  "claim": "Israel runs an apartheid system in the West Bank: Palestinians live under military law, settlers under civil law, on land Israel occupies illegally.",
+  "heard": [
+    {
+      "who": "Michael Lynk, UN Special Rapporteur, 25 March 2022",
+      "url": "https://www.un.org/unispal/document/israels-55-year-occupation-of-palestinian-territory-is-apartheid-special-rapporteur-for-the-situation-of-human-rights-in-the-palestinian-territory-occupied-since-1967-statement",
+      "quote": "a deeply discriminatory dual legal and political system that privileges the 700,000 Israeli Jewish settlers living in the 300 illegal Israeli settlements in East Jerusalem and the West Bank",
+      "archive": ""
+    },
+    {
+      "who": "Al Jazeera, 11 September 2019",
+      "url": "https://www.aljazeera.com/amp/news/2019/9/11/what-are-areas-a-b-and-c-of-the-occupied-west-bank",
+      "quote": "Israel maintains military control over the entire area",
+      "archive": ""
+    }
+  ],
+  "answer": "In the West Bank about 3 million Palestinians live under Israeli military law, while roughly 500,000 Israeli settlers living beside them are under Israeli civil law. Under the 1995 Oslo II accord the territory is split into Areas A, B and C; Israel keeps security control throughout and full control of Area C, about 60 percent. The International Court of Justice said in 2004 and again in July 2024 that the territory is occupied and that the settlements breach international law; in 2024 it called Israel's presence unlawful, by eleven votes to four. Israel says the land is disputed, not occupied, and points to the second intifada, when suicide attacks peaked at 60 in 2002; they fell sharply by 2005, after the barrier and army operations. Our reading: security can explain the occupation, not the settlements or the two legal systems.",
+  "facts": [
+    {
+      "text": "About 3 million to 3.3 million Palestinians and roughly 500,000 Israeli settlers live in the West Bank. Counts differ on who is included: settler figures of about 500,000 leave out East Jerusalem, which Israel annexed and where more than 200,000 settlers live; the UN counted about 465,000 settlers in the West Bank and 230,000 in East Jerusalem in 2023.",
+      "sources": [
+        {
+          "publisher": "International Court of Justice",
+          "title": "Advisory Opinion of 19 July 2024, paragraph 68",
+          "url": "https://www.icj-cij.org/node/204160",
+          "archive": "",
+          "quote": "by 2023, approximately 465,000 settlers resided in the West Bank, spread across around 300 settlements and outposts, while some 230,000 settlers resided in East Jerusalem",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Asharq Al-Awsat (AP)",
+          "title": "Israeli settler population in West Bank surpasses 500K",
+          "url": "https://english.aawsat.com/home/article/4133141/israeli-settler-population-west-bank-surpasses-500k",
+          "archive": "",
+          "quote": "The settler population report does not include annexed East Jerusalem, home to more than 200,000 settlers",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AP"
+        },
+        {
+          "publisher": "The Week",
+          "title": "Who are the West Bank settlers?",
+          "url": "https://theweek.com/world-news/who-are-the-west-bank-settlers",
+          "archive": "",
+          "quote": "Palestinian residents of the West Bank - an area less than half the size of Northern Ireland on the western side of the River Jordan - now number 3.3 million",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Peace Now",
+          "title": "Settlements data: population",
+          "url": "https://peacenow.org.il/en/settlements-watch/settlements-data/population",
+          "archive": "",
+          "quote": "more then 3 million people live in the West Bank, 85% of them are Palestinians",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        }
+      ]
+    },
+    {
+      "text": "Two legal systems apply in the same territory: Israeli settlers are subject to Israeli civilian law, while Palestinians are tried in Israeli military courts, where almost all defendants are convicted (a rate of nearly 100 percent has been cited in military data; the army would not comment).",
+      "sources": [
+        {
+          "publisher": "International Court of Justice",
+          "title": "Advisory Opinion of 19 July 2024, paragraph 135",
+          "url": "https://www.icj-cij.org/node/204160",
+          "archive": "",
+          "quote": "two sets of applicable law: military law and Israeli domestic law, which has been",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "Israel's military courts 'humiliating charade' for Palestinians",
+          "url": "https://www.aljazeera.com/amp/features/2018/2/26/israels-military-courts-humiliating-charade-for-palestinians",
+          "archive": "",
+          "quote": "settlers are subject to Israeli civil law, while Palestinians to Israeli military law",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Yahoo News (AP)",
+          "title": "A look at the dual justice system in the West Bank",
+          "url": "https://news.yahoo.com/look-dual-justice-system-west-bank-190445437.html",
+          "archive": "",
+          "quote": "Israeli settlers are prosecuted under Israeli civilian law, while Palestinians are thrust into the military justice system",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AP"
+        },
+        {
+          "publisher": "The National",
+          "title": "Political row underscores different justice systems for Palestinians and Israeli settlers",
+          "url": "https://www.thenationalnews.com/mena/2022/06/14/apartheid-system-leaves-west-bank-palestinians-tried-in-military-courts",
+          "archive": "",
+          "quote": "teenagers and adults are tried at courts such as Ofer, where almost all defendants are convicted",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Under the 1995 Oslo II accord the West Bank is divided into Areas A, B and C. Area A (about 18 percent) is under Palestinian administration and police; in Area B (about 21 percent) the Palestinian Authority runs civil affairs while Israel keeps security; Area C (about 60 percent), which holds the Israeli settlements, remains under Israeli control. The accord meant it as temporary; the divisions persist.",
+      "sources": [
+        {
+          "publisher": "Jewish Virtual Library (text of the Oslo II accord)",
+          "title": "Interim Agreement on the West Bank and the Gaza Strip (Oslo II)",
+          "url": "https://jewishvirtuallibrary.org/interim-agreement-on-the-west-bank-and-the-gaza-strip-oslo-ii",
+          "archive": "",
+          "quote": "\"Area C\" means areas of the West Bank outside Areas A and B, which, except for the issues that will be negotiated in the permanent status negotiations, will be gradually transferred to Palestinian jurisdiction",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "What are areas A, B, and C of the occupied West Bank?",
+          "url": "https://www.aljazeera.com/amp/news/2019/9/11/what-are-areas-a-b-and-c-of-the-occupied-west-bank",
+          "archive": "",
+          "quote": "Area A constitutes 18 percent of the West Bank. The PA controls most affairs in this area, including internal security",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Edinburgh Peace Agreements Database (PA-X)",
+          "title": "Oslo II: coding of the Interim Agreement",
+          "url": "https://www.peaceagreements.org/agreements/410/coding/Israeli-Palestinian%20Interim%20Agreement%20on%20the%20West%20Bank%20and%20the%20Gaza%20Strip%20('Oslo%20II')",
+          "archive": "",
+          "quote": "the settlements\" means, in the West Bank - the settlements in Area C",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Anera",
+          "title": "What are Area A, Area B, and Area C in the West Bank?",
+          "url": "https://www.anera.org/what-are-area-a-area-b-and-area-c-in-the-west-bank/",
+          "archive": "",
+          "quote": "Oslo II intended for the divisions to be temporary, with full jurisdiction of all three areas gradually transferred to the Palestinian Authority over time",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        }
+      ]
+    },
+    {
+      "text": "The Palestinian Authority, created by the Oslo accords, holds legislative and executive powers in the parts transferred to it, but Israel retains security powers and, according to Al Jazeera, can enter Areas A and B at any time. The ICJ said Israel cannot rely on the Oslo accords to exercise jurisdiction in a way that conflicts with the law of occupation.",
+      "sources": [
+        {
+          "publisher": "Jewish Virtual Library (text of the Oslo II accord)",
+          "title": "Interim Agreement on the West Bank and the Gaza Strip (Oslo II)",
+          "url": "https://jewishvirtuallibrary.org/interim-agreement-on-the-west-bank-and-the-gaza-strip-oslo-ii",
+          "archive": "",
+          "quote": "The Council shall possess both legislative power and executive power",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "What are areas A, B, and C of the occupied West Bank?",
+          "url": "https://www.aljazeera.com/amp/news/2019/9/11/what-are-areas-a-b-and-c-of-the-occupied-west-bank",
+          "archive": "",
+          "quote": "Israeli authorities have full external security control",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "International Court of Justice",
+          "title": "Advisory Opinion of 19 July 2024, paragraph 140",
+          "url": "https://www.icj-cij.org/node/204160",
+          "archive": "",
+          "quote": "Israel may not rely on the Oslo Accords to exercise its jurisdiction in the occupied Palestinian territory in a manner that is at variance with its obligations under the law of occupation",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "Israel's position is that the West Bank is disputed rather than occupied: the 2012 Levy committee said the Fourth Geneva Convention's definition of occupation does not fit because the territory was not under another state's sovereignty. Prime Minister Netanyahu answered the ICJ's 2024 opinion by saying Jews are not occupiers in their historic homeland.",
+      "sources": [
+        {
+          "publisher": "Israel Democracy Institute",
+          "title": "The Status of the West Bank Settlements Under International Law",
+          "url": "https://en.idi.org.il/articles/6822",
+          "archive": "",
+          "quote": "the West Bank is \"disputed territory\" rather than \"occupied territory.\"",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Israel Law Review (Cambridge University Press)",
+          "title": "The West Bank as occupied territory: the irrelevance of the Mandate and the lack of Jordanian sovereignty",
+          "url": "https://www.cambridge.org/core/journals/israel-law-review/article/west-bank-as-occupied-territory-the-irrelevance-of-the-mandate-and-the-lack-of-jordanian-sovereignty/A8EE21814A6B99109895C27BA4F6C874",
+          "archive": "",
+          "quote": "two arguments raised by the government of Israel to explain why it does not regard the West Bank as occupied territory",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Ynetnews",
+          "title": "Netanyahu rejects ICJ opinion: A perversion of history",
+          "url": "https://www.ynetnews.com/article/bk62txdoc",
+          "archive": "",
+          "quote": "PM says Jews are not occupiers in their historic homeland and no decision in The Hague would change that",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Jerusalem Center for Public Affairs (interview with Eugene Kontorovich)",
+          "title": "An interview with Professor Eugene Kontorovich",
+          "url": "https://jcpa.org/?p=62757",
+          "archive": "",
+          "quote": "Jordan and Egypt conquered territories from Israel illegally, and it was almost universally agreed that neither Jordan nor Egypt had any legitimate claim of sovereignty",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        }
+      ]
+    },
+    {
+      "text": "In its 9 July 2004 advisory opinion on the wall, the ICJ held that the Fourth Geneva Convention applies in the territories east of the 1949 armistice line that Israel occupied in 1967, and that the Israeli settlements there have been established in breach of international law.",
+      "sources": [
+        {
+          "publisher": "International Court of Justice",
+          "title": "Legal Consequences of the Construction of a Wall in the Occupied Palestinian Territory: overview",
+          "url": "https://www.icj-cij.org/case/131",
+          "archive": "",
+          "quote": "recalled that those settlements had been established in breach of international law",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "American Society of International Law",
+          "title": "The World Court Rules that Israel's West Bank Barrier Violates International Law",
+          "url": "https://www.asil.org/insights/volume/8/issue/17/world-court-rules-israels-west-bank-barrier-violates-international-law",
+          "archive": "",
+          "quote": "the Israeli settlements in the Occupied Palestinian Territory (including East Jerusalem) have been established in breach of international law",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Voice of America (via GlobalSecurity)",
+          "title": "World Court rules Israeli barrier illegal (9 July 2004)",
+          "url": "https://www.globalsecurity.org/military/library/news/2004/07/mil-040709-229e3118.htm",
+          "archive": "",
+          "quote": "the wall's sinuous route has been traced in such a way as to include in that area the great majority of the Israeli settlements",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "In its 19 July 2024 opinion the ICJ found that the West Bank and East Jerusalem are occupied territory, that Israel's settlement policy and the regime tied to it breach international law, and, by eleven votes to four, that Israel's continued presence in the occupied territory is unlawful. Israel rejected the opinion.",
+      "sources": [
+        {
+          "publisher": "International Court of Justice",
+          "title": "Advisory Opinion of 19 July 2024, operative clause",
+          "url": "https://www.icj-cij.org/node/204160",
+          "archive": "",
+          "quote": "the State of Israel's continued presence in the Occupied Palestinian Territory is unlawful",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "NBC News",
+          "title": "Israeli settlements violate international law, U.N.'s top court says in a landmark opinion",
+          "url": "https://www.nbcnews.com/news/world/icj-united-nations-israel-settlement-violate-international-law-rcna162667",
+          "archive": "",
+          "quote": "The International Court of Justice said Israel should cease all new settlement activities and evacuate settlers from Palestinian territories",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Jurist",
+          "title": "ICJ rules Israel's settlements and presence in Palestinian territory illegal",
+          "url": "https://www.jurist.org/news/2024/07/icj-rules-israels-presence-in-palestinian-territory-illegal/",
+          "archive": "",
+          "quote": "ruled on Friday that Israel's settlement and occupation activity in Palestinian territory breach international law",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "The Algemeiner",
+          "title": "Netanyahu blasts 'absurd' UN court ruling on Israeli settlements",
+          "url": "https://www.algemeiner.com/2024/07/19/netanyahu-blasts-absurd-un-court-ruling-israeli-settlements-jews-cant-be-occupiers-own-land/",
+          "archive": "",
+          "quote": "Jews can't be occupiers in own land",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "The ICJ found costs to Palestinians: Israel's systematic failure to prevent or punish settler attacks on Palestinians, excessive use of force, land confiscation, and policies that induce Palestinians to leave parts of Area C.",
+      "sources": [
+        {
+          "publisher": "International Court of Justice",
+          "title": "Advisory Opinion of 19 July 2024, summary",
+          "url": "https://www.icj-cij.org/node/204160",
+          "archive": "",
+          "quote": "Israel's systematic failure to prevent or punish attacks by settlers against the life or bodily integrity of Palestinians",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Jurist",
+          "title": "ICJ rules Israel's settlements and presence in Palestinian territory illegal",
+          "url": "https://www.jurist.org/news/2024/07/icj-rules-israels-presence-in-palestinian-territory-illegal/",
+          "archive": "",
+          "quote": "its failure to punish extremist settlers who attack Palestinians",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "International Court of Justice",
+          "title": "Advisory Opinion of 19 July 2024, paragraph 143",
+          "url": "https://www.icj-cij.org/node/204160",
+          "archive": "",
+          "quote": "the large-scale confiscation of land and the deprivation of access to natural resources divest the local population of their basic means of subsistence, thus inducing their departure",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "NBC News",
+          "title": "Israeli settlements violate international law, U.N.'s top court says in a landmark opinion",
+          "url": "https://www.nbcnews.com/news/world/icj-united-nations-israel-settlement-violate-international-law-rcna162667",
+          "archive": "",
+          "quote": "it further said that Israel systematically discriminated against Palestinians and branded the occupation of the territories",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Israel's stated security reason is the second intifada: from September 2000 to July 2007 at least 5,848 people were killed in the conflict (4,228 Palestinians, 1,024 Israelis, 63 foreigners, per the UN's OCHA), and Israeli sources count more than 1,000 Israelis killed by attacks that included suicide bombings.",
+      "sources": [
+        {
+          "publisher": "United Nations OCHA (via UNISPAL)",
+          "title": "Israeli-Palestinian fatalities since 2000 - OCHA Special Focus",
+          "url": "https://www.un.org/unispal/?p=208380",
+          "archive": "",
+          "quote": "of those killed in the conflict, 4,228 have been Palestinians, 1,024 Israelis, and 63 foreign citizens",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "The Jerusalem Post",
+          "title": "On this day: Second Intifada triggered following Ariel Sharon's visit to Temple Mount",
+          "url": "https://www.jpost.com/history/article-909986",
+          "archive": "",
+          "quote": "more than 1,000 Israelis and between 2,000 and 5,000 Palestinians were killed during the uprising",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Israel Ministry of Defense Archives",
+          "title": "The Time Axis, 2000-2005",
+          "url": "https://archives.mod.gov.il/sites/English/theTimeAxis/Pages/2000-2005.aspx",
+          "archive": "",
+          "quote": "by the end of 2003, 900 Israelis were killed, and over 7,000 were injured",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "Ynetnews (Shin Bet statistics)",
+          "title": "A year of relative quiet",
+          "url": "https://www.ynetnews.com/article/3148800",
+          "archive": "",
+          "quote": "26,159 terror attacks against Israeli targets were recorded over the last five years, during which 1,064 Israelis lost their lives and 6,089 got injured",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Suicide attacks fell from 60 in 2002 to six between October 2004 and September 2005; Israel's security chief said in 2004 that infiltration had ceased where the barrier was built. A peer-reviewed study of attacks from 1999 to 2011 found the barrier and associated security activity effective at preventing suicide bombings with little apparent displacement. Other measures, including military operations in West Bank cities, also played a part.",
+      "sources": [
+        {
+          "publisher": "Ynetnews (Shin Bet statistics)",
+          "title": "A year of relative quiet",
+          "url": "https://www.ynetnews.com/article/3148800",
+          "archive": "",
+          "quote": "In 2002, the year that marked the intifada's zenith, 60 suicide attacks hit the country",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Journal of Quantitative Criminology (Hebrew University record)",
+          "title": "The Situational Prevention of Terrorism: An Evaluation of the Israeli West Bank Barrier",
+          "url": "https://cris.huji.ac.il/en/publications/the-situational-prevention-of-terrorism-an-evaluation-of-the-isra/",
+          "archive": "",
+          "quote": "the barrier together with associated security activities was effective in preventing suicide bombings and other attacks and fatalities with little if any apparent displacement",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Jewish Telegraphic Agency",
+          "title": "Terrorist infiltration has ceased in areas where the West Bank security barrier has been built (25 February 2004)",
+          "url": "https://www.jta.org/archive/terrorist-infiltration-has-ceased-in-areas-where-the",
+          "archive": "",
+          "quote": "terrorist infiltration has ceased in areas where the West Bank security barrier has been built",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Institute for National Security Studies (Gabi Siboni)",
+          "title": "Defeating Suicide Terrorism in Judea and Samaria, 2002-2005",
+          "url": "https://www.inss.org.il/?p=58774",
+          "archive": "",
+          "quote": "around the middle of 2005 the number of suicide attacks from Judea and Samaria dropped to a very low level",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "New Zealand Herald (AP)",
+          "title": "Israel violence at a low (2007 Shin Bet data)",
+          "url": "https://nzherald.co.nz/world/israel-violence-at-a-low/P7ZCEU4LIFR5TUAA6Q2UAF52GQ",
+          "archive": "",
+          "quote": "that year, Palestinian militants killed 426 Israelis, including 211 in 60 suicide bombings",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AP"
+        }
+      ]
+    },
+    {
+      "text": "The barrier's route runs through the West Bank and encloses the great majority of Israeli settlements, about 80 percent of the settlers according to the ICJ; in 2004 the Court said it was not convinced that the specific route was necessary to attain Israel's security objectives, and found the wall and its regime contrary to international law.",
+      "sources": [
+        {
+          "publisher": "International Court of Justice",
+          "title": "Legal Consequences of the Construction of a Wall: overview",
+          "url": "https://www.icj-cij.org/case/131",
+          "archive": "",
+          "quote": "it was not convinced that the specific course Israel had chosen for the wall was necessary to attain its security objectives",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "American Society of International Law",
+          "title": "The World Court Rules that Israel's West Bank Barrier Violates International Law",
+          "url": "https://www.asil.org/insights/volume/8/issue/17/world-court-rules-israels-west-bank-barrier-violates-international-law",
+          "archive": "",
+          "quote": "the wall's sinuous route has been traced in such a way as to include within that area the great majority of Israeli settlements in the Occupied Palestinian Territory",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Voice of America (via GlobalSecurity)",
+          "title": "World Court rules Israeli barrier illegal (9 July 2004)",
+          "url": "https://www.globalsecurity.org/military/library/news/2004/07/mil-040709-229e3118.htm",
+          "archive": "",
+          "quote": "includes within a closed area to which a special administrative region applies, some 80 percent of the settlers living in the occupied Palestinian territory",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    {
+      "text": "Whether the West Bank is 'occupied'. Israel's government and scholars such as Eugene Kontorovich argue the territory was not another state's sovereign land in 1967 and that Israel's claim is the strongest; other Israeli and international legal scholars, and the ICJ twice, say it is occupied and that the law of occupation applies.",
+      "sources": [
+        {
+          "publisher": "Jerusalem Center for Public Affairs (interview with Eugene Kontorovich)",
+          "title": "An interview with Professor Eugene Kontorovich",
+          "url": "https://jcpa.org/?p=62757",
+          "archive": "",
+          "quote": "when Israel liberated the territories in 1967, it renewed its control over lands that it had sovereignty over based on the mandatory borders",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        },
+        {
+          "publisher": "Israel Democracy Institute",
+          "title": "The Status of the West Bank Settlements Under International Law",
+          "url": "https://en.idi.org.il/articles/6822",
+          "archive": "",
+          "quote": "it is clear that the territories are occupied in the eyes of international law",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "Whether the barrier, rather than other measures, ended the suicide attacks. The INSS study dates the decline to mid-2005 after Operation Defensive Shield and the army's operations in Palestinian cities; the peer-reviewed barrier study credits the barrier; the ICJ doubted the necessity of its route.",
+      "sources": [
+        {
+          "publisher": "Institute for National Security Studies (Gabi Siboni)",
+          "title": "Defeating Suicide Terrorism in Judea and Samaria, 2002-2005",
+          "url": "https://www.inss.org.il/?p=58774",
+          "archive": "",
+          "quote": "a long, demanding process that began with the Israeli government's decision to launch Operation Defensive Shield and have the IDF operate in Palestinian cities",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "Whether the dual legal system is apartheid. The UN Special Rapporteur says it is; ICJ Judge Iwasawa wrote that applying the concept of apartheid to the territory 'is no easy task' because there is no universally accepted definition; Israel rejects the label.",
+      "sources": [
+        {
+          "publisher": "International Court of Justice (Judge Iwasawa, separate opinion)",
+          "title": "Separate opinion of Judge Iwasawa",
+          "url": "https://www.icj-cij.org/index.php/node/204167",
+          "archive": "",
+          "quote": "applying the concept of apartheid to Israeli policies and practices in the occupied Palestinian territory is no easy task",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "Whether Israel's presence is unlawful as a whole. Four ICJ judges (Vice-President Sebutinde and Judges Tomka, Abraham and Aurescu) voted against the finding that Israel's continued presence is unlawful.",
+      "sources": [
+        {
+          "publisher": "International Court of Justice",
+          "title": "Advisory Opinion of 19 July 2024, operative clause",
+          "url": "https://www.icj-cij.org/node/204160",
+          "archive": "",
+          "quote": "against: Vice-President Sebutinde; Judges Tomka, Abraham, Aurescu",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    }
+  ],
+  "could_not_verify": [
+    "The Palestinian Central Bureau of Statistics page could not be read (returns no text); Palestinian population is cited from The Week and Peace Now, which gives 'more than 3 million, 85 percent Palestinian' for the West Bank as a whole.",
+    "I did not find a readable official Israeli Foreign Ministry or Defense Ministry page for its present legal position on the West Bank, or Israel's own written statement to the ICJ; the position is cited from the Levy committee as described by the Israel Democracy Institute, from Israel Law Review, and from Netanyahu's reaction in Ynetnews and the Algemeiner. The Levy report itself is not on the card.",
+    "The percentages of Areas A, B and C (18, 21 and about 60) come from Al Jazeera and Anera; I did not find an official or World Bank page I could read, and sources vary by a point or two.",
+    "I found no readable official count of military-court conviction rates; the 'nearly 100 percent' figure is cited from The National, which itself cites Haaretz and says the army would not comment, and Israel's Justice Ministry did not provide a civilian comparison.",
+    "I did not read the full Perry et al. paper (paywalled); only the Hebrew University abstract. The Washington Institute and Israeli Foreign Ministry pages on attack counts could not be read.",
+    "The ICJ 2024 opinion's own page (node 204160) and the 2004 overview page load, but the separate-opinion pages load only through the Wayback Machine."
+  ],
+  "not_claimed": [
+    "This card does not say the West Bank is Israeli territory or Palestinian territory; it says what the law, the court and the two sides say.",
+    "It does not say the settlements are lawful. The ICJ twice found they are not, and Israel's government rejects both opinions.",
+    "It does not say the barrier or the military courts are justified; it says why Israel gives them and what the ICJ and a peer-reviewed study found.",
+    "It does not say the second intifada excuses any act against Palestinians. The costs to Palestinians (two legal systems, unpunished settler attacks, land confiscation, displacement) are facts on this card.",
+    "It does not say the West Bank regime is apartheid. That is contested, and this card is the evidence on which the contest turns."
+  ],
+  "status": "draft",
+  "content_approved": false
+}

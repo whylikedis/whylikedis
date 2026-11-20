@@ -16,7 +16,7 @@
       "archive": ""
     }
   ],
-  "answer": "Both peoples were under heavy pressure during the peace years, and the sources show it on each side. Israelis faced Hamas and Islamic Jihad suicide bombings that began before Oslo and peaked in the second intifada, when counts run from 950 to about 1,100 Israelis killed; an Israeli opponent of Oslo murdered Rabin in 1995; and after the 2005 Gaza withdrawal rockets kept coming. Palestinians faced a settler population that grew from 115,000 to 200,000 between 1993 and 2000, between 3,100 and about 5,000 Palestinians killed in the intifada depending on who counts, and checkpoints and closure that the World Bank linked to 25 percent unemployment. Iran backed groups that opposed any deal, and Fatah and Hamas split in 2007. Polls show belief in two states falling on both sides. Our reading: neither side's pressure explains the failure alone, and both did wrong.",
+  "answer": "Israelis faced Hamas and Islamic Jihad suicide bombings that began before Oslo and peaked in the second intifada. B'Tselem's count to January 2005, via BBC: 950 Israelis killed by Palestinians, 3,135 Palestinians killed by Israeli security forces in the West Bank and Gaza; the Palestinian Center for Human Rights counts at least 4,973 over the whole intifada. An Israeli opponent of Oslo murdered Rabin in 1995, and after the 2005 Gaza withdrawal rockets kept coming. Palestinians faced a settler population that grew from 115,000 to 200,000 between 1993 and 2000, and closures that the World Bank called a key factor behind an economic crisis, with unemployment at 25 percent in 2003. Iran backed groups that opposed the Oslo process, and Fatah and Hamas split in 2007. Polls show belief in two states falling on both sides. Our reading: neither side's pressure explains the failure alone, and both did wrong.",
   "facts": [
     {
       "text": "During the Oslo years Hamas and Islamic Jihad carried out suicide bombings against Israelis: BBC counts about 120 Israelis killed in suicide attacks from 1994 to September 2000, and Human Rights Watch counts fourteen suicide attacks on civilians between September 1993 and September 2000. Hamas had begun the tactic in April 1993, before the first Oslo accord.",
@@ -51,7 +51,7 @@
       ]
     },
     {
-      "text": "In the second intifada the toll on Israelis rose sharply: BBC, using B'Tselem's figures, counts 950 Israelis killed by Palestinians from September 2000 to January 2005 (431 civilians in Israel, 218 civilians in the territories, 301 members of the security forces); BBC's suicide-attack counts for later years are 144 dead in 2003, 55 in 2004 and 23 in 2005; Israel's Foreign Ministry figure, as published by the Jewish Virtual Library, is about 1,100 killed from September 2000 to December 2005.",
+      "text": "Israelis killed, by year: Israel's Security Agency (Shin Bet) series, read from its flattened chart, is 44 (from 29 September 2000), 207 (2001), 451 (2002), 208 (2003), 117 (2004), 56 (2005), 30 (2006), 13 (2007) and 36 (2008), 1,162 in all; BBC, using B'Tselem's figures, counts 950 killed by Palestinians to January 2005 (431 civilians in Israel, 218 civilians in the territories, 301 security forces), and counts 144 dead in suicide attacks in 2003, 55 in 2004 and 23 in 2005. The UN's humanitarian office, which draws on B'Tselem data, counts 1,024 Israelis killed to July 2007 and notes that Israeli civilian deaths peaked in 2002 at an average of 22 a month and fell to about one a month in 2007.",
       "sources": [
         {
           "publisher": "BBC News",
@@ -72,20 +72,29 @@
           "kind": "news"
         },
         {
+          "publisher": "UN Office for the Coordination of Humanitarian Affairs",
+          "title": "Israeli-Palestinian Fatalities Since 2000 - Key Trends (August 2007)",
+          "url": "https://container.ochaopt.org/sites/default/files/CAS_Aug07.pdf",
+          "archive": "",
+          "quote": "The number of Israeli civilians killed, from attacks by Palestinian armed groups or individuals, has declined steadily, peaking in 2002 at an average of 22 deaths per month",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Israel Security Agency",
+          "title": "Palestinian Terror in 2008: Statistics and Trends (published by the Jewish Virtual Library)",
+          "url": "https://jewishvirtuallibrary.org/jsource/images/shabak2008.pdf",
+          "archive": "",
+          "quote": "Total: 1,162 Killed 207 208 117 56 44 From 29 Sept 2000 2001 2002 2003 2004 2005 30 13 2006 2007 36 2008",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
           "publisher": "Human Rights Watch",
           "title": "Erased in a Moment: Suicide Bombing Attacks Against Israeli Civilians",
           "url": "https://www.hrw.org/report/2002/10/15/erased-moment/suicide-bombing-attacks-against-israeli-civilians",
           "archive": "",
           "quote": "More than 415 Israeli and other civilians have been killed, and more than two thousand injured",
-          "accessed": "2026-11-20",
-          "kind": "advocacy"
-        },
-        {
-          "publisher": "Jewish Virtual Library (American-Israeli Cooperative Enterprise)",
-          "title": "Comprehensive Listing of Terrorism Victims in Israel",
-          "url": "https://jewishvirtuallibrary.org/comprehensive-listing-of-terrorism-victims-in-israel",
-          "archive": "",
-          "quote": "During the Al-Aqsa Intifada (Sept. 2000 - Dec. 2005), another 1,100 Israelis were killed.",
           "accessed": "2026-11-20",
           "kind": "advocacy"
         }
@@ -110,7 +119,8 @@
           "archive": "",
           "quote": "Yigal Amir shot Rabin at the end of a peace rally in Tel Aviv. Amir opposed the 1993 Oslo peace accord Rabin signed",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "news",
+          "wire": "AP"
         },
         {
           "publisher": "Encyclopedia.com (Dictionary of the Israeli-Palestinian Conflict)",
@@ -124,7 +134,7 @@
       ]
     },
     {
-      "text": "After Israel left Gaza in 2005, rocket fire from Gaza continued: the UN's figures, as reported by Human Rights Watch, are almost 2,700 rockets from September 2005 to May 2007, killing four Israeli civilians; NPR reported more than 2,000 rockets in the two years after the withdrawal, and The Guardian reported that the fire had forced thousands of residents near the border to flee.",
+      "text": "After Israel left Gaza in 2005, rocket fire from Gaza continued: Israel's Security Agency's chart (flattened in the PDF, so read here in the order of its labels, with 2007 confirmed by its text as 1,276) shows 401 rocket launchings in 2005, 1,722 in 2006, 1,276 in 2007 and 1,785 in 2008 to 26 December; the UN's figures, as reported by Human Rights Watch, are almost 2,700 rockets from September 2005 to May 2007, killing four Israeli civilians; NPR reported more than 2,000 rockets in the two years after the withdrawal, and The Guardian reported that the fire had forced thousands of residents near the border to flee.",
       "sources": [
         {
           "publisher": "Human Rights Watch",
@@ -152,11 +162,20 @@
           "quote": "the rocket fire which has forced thousands of Israeli residents close to the Gaza border to flee",
           "accessed": "2026-11-20",
           "kind": "news"
+        },
+        {
+          "publisher": "Israel Security Agency",
+          "title": "Palestinian Terror in 2008: Statistics and Trends (published by the Jewish Virtual Library)",
+          "url": "https://jewishvirtuallibrary.org/jsource/images/shabak2008.pdf",
+          "archive": "",
+          "quote": "Rocket Launchings from the Gaza Strip, 2000-2008 1785 1722 1276 401 2005 2006 2007 01/01/08-26/12/08",
+          "accessed": "2026-11-20",
+          "kind": "government"
         }
       ]
     },
     {
-      "text": "Israeli settlements grew throughout the peace process: a Journal of Palestine Studies analysis counts the settler population of the West Bank and Gaza rising from 115,000 in 1993 to 200,000 in 2000; Malley and Agha write that settlement expansion 'proceeded at a rapid pace' during the Camp David period; Shlaim notes that building settlements did not violate the letter of Oslo.",
+      "text": "Israeli settlements grew throughout the peace process: a Journal of Palestine Studies analysis counts the settler population of the West Bank and Gaza rising from 115,000 in 1993 to 200,000 in 2000; Malley and Agha write that settlement expansion 'proceeded at a rapid pace' during the Camp David period; Shlaim notes that building settlements did not violate the letter of Oslo. Peace Now's table of Israeli statistics bureau data (West Bank excluding East Jerusalem) gives 116,300 settlers in 1993, 127,800 in 1994, 134,300 in 1995, 146,900 in 1996, 160,200 in 1997, 172,200 in 1998, 183,900 in 1999, 198,300 in 2000, 208,300 in 2001, 220,000 in 2002, 231,800 in 2003, 243,900 in 2004 and 247,300 in 2005 (the PDF's columns are flattened, so the years are read in order).",
       "sources": [
         {
           "publisher": "Journal of Palestine Studies",
@@ -184,11 +203,20 @@
           "quote": "Building civilian settlements beyond the Green Line does not violate the letter of the Oslo accords but it most decidedly violates its spirit.",
           "accessed": "2026-11-20",
           "kind": "news"
+        },
+        {
+          "publisher": "Peace Now (from Israel's Central Bureau of Statistics data)",
+          "title": "Israeli Settler Population Since 1967",
+          "url": "https://peacenow.org/WP/wp-content/uploads/Settlement-Watch-Data-Charts.pdf",
+          "archive": "",
+          "quote": "116,300 127,800 134,300 146,900 160,200 172,200 183,900 198,300 208,300 220,000 231,800 243,900 247,300",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
         }
       ]
     },
     {
-      "text": "Palestinians killed in the same years, by two counts: B'Tselem, an Israeli human-rights group, counts 3,135 Palestinians killed by Israeli security forces in the West Bank and Gaza from 29 September 2000 to 15 January 2005 (as published by BBC); the Palestinian Center for Human Rights, quoted by Al Jazeera, counts at least 4,973 killed over the second intifada. BBC notes there are no figures showing how many were combatants, and Al Jazeera reports Amnesty International's finding that most Palestinian casualties in the first month were civilian bystanders.",
+      "text": "Palestinians killed in the same years, by several counts: B'Tselem, an Israeli human-rights group, counts 3,135 killed by Israeli security forces in the West Bank and Gaza from 29 September 2000 to 15 January 2005 (as published by BBC), and 455 in 2008 to 26 December; the UN's humanitarian office, using B'Tselem's data, counts 4,228 Palestinians killed to July 2007, with Palestinian civilian deaths peaking at an average of 35 a month in 2002 and again in 2004 and falling to about ten a month in 2007, and a ratio of Palestinian to Israeli deaths of 2.5 to 1 in 2002 and 25 to 1 in 2007; the Palestinian Center for Human Rights, quoted by Al Jazeera, counts at least 4,973 over the second intifada. BBC notes there are no figures showing how many were combatants; OCHA says that, where status was known, 59 percent were civilians.",
       "sources": [
         {
           "publisher": "BBC News",
@@ -200,6 +228,15 @@
           "kind": "news"
         },
         {
+          "publisher": "UN Office for the Coordination of Humanitarian Affairs",
+          "title": "Israeli-Palestinian Fatalities Since 2000 - Key Trends (August 2007)",
+          "url": "https://container.ochaopt.org/sites/default/files/CAS_Aug07.pdf",
+          "archive": "",
+          "quote": "In 2007, for example, for every one Israeli death there were 25 Palestinian deaths compared to 2002 when the ratio was 1:2.5.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
           "publisher": "Al Jazeera",
           "title": "Palestinian Intifada: how Israel orchestrated a bloody takeover",
           "url": "https://www.aljazeera.com/news/2020/9/28/palestinian-intifada-20-years-later-israeli-occupation-continues",
@@ -207,11 +244,20 @@
           "quote": "At least 4,973 Palestinians were killed over the course of the Second Intifada.",
           "accessed": "2026-11-20",
           "kind": "news"
+        },
+        {
+          "publisher": "B'Tselem (2008 annual report)",
+          "title": "Human Rights in the Occupied Territories 2008",
+          "url": "https://www.btselem.org/download/200812_annual_report_eng.pdf",
+          "archive": "",
+          "quote": "Throughout 2008, until 26 December, Israeli security forces killed 455 Palestinians, 87 of them minors.",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
         }
       ]
     },
     {
-      "text": "Closure and checkpoints weighed on Palestinian life: the World Bank reported in 2004 that unemployment stood at 25 percent in 2003 against 10 percent before the intifada, and that military checkpoints were on all main and most secondary roads in the West Bank and Gaza; Dennis Ross, a US negotiator, publicly criticised Israel for settlement building, home demolitions and 'insensitive treatment at military roadblocks'. BBC reports that attacks fell as Israel besieged Palestinian towns and built its barrier.",
+      "text": "Closure weighed on Palestinian life: the World Bank reported in 2004 that unemployment stood at 25 percent in 2003 against 10 percent before the intifada, and quoted its country director that closures are 'a key factor behind today's economic crisis in the West Bank'; Dennis Ross, a US negotiator, publicly criticised Israel for settlement building, home demolitions and 'insensitive treatment at military roadblocks'. BBC reports that attacks fell as Israel besieged Palestinian towns and built its barrier.",
       "sources": [
         {
           "publisher": "World Bank (press release hosted by the United Nations)",
@@ -307,7 +353,7 @@
       ]
     },
     {
-      "text": "Israeli belief in a peaceful two-state outcome has fallen: Pew found 50 percent of Israelis in 2013 said Israel and an independent Palestinian state could coexist peacefully, 35 percent in 2023, 21 percent in 2025 and 17 percent in 2026 (21 percent of Palestinians in the West Bank and East Jerusalem in 2026). Gallup found Israeli support for an independent Palestinian state at 61 percent in 2012 and 25 percent in late 2023, and 26 percent in 2026.",
+      "text": "Israeli belief in a peaceful two-state outcome has fallen: Pew found 50 percent of Israelis in 2013 said Israel and an independent Palestinian state could coexist peacefully, 35 percent in 2023, 21 percent in 2025 and 17 percent in 2026 (21 percent of Palestinians in the West Bank and East Jerusalem in 2026). Gallup found Israeli support for an independent Palestinian state at 61 percent in 2012 and 25 percent in late 2023, and 26 percent in 2026. Tel Aviv University's Peace Index of November 2025 puts Jewish support for two states at 20 percent.",
       "sources": [
         {
           "publisher": "Pew Research Center",
@@ -353,11 +399,20 @@
           "quote": "relatively few Israelis (26%) and Palestinians living in the West Bank and East Jerusalem (32%) continue to say they support a two-state solution",
           "accessed": "2026-11-20",
           "kind": "reference"
+        },
+        {
+          "publisher": "Tel Aviv University and Israel Democracy Institute",
+          "title": "Peace Index, November 2025",
+          "url": "https://en-social-sciences.tau.ac.il/sites/socsci-english.tau.ac.il/files/media_server/social/peaceindex/2025-11.pdf",
+          "archive": "",
+          "quote": "Support for the two-state solution among Jewish respondents returns to its lowest recorded level (20%)",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
         }
       ]
     },
     {
-      "text": "The joint Palestinian-Israeli Pulse polls, run by the Palestinian Center for Policy and Survey Research and Tel Aviv University, found support for the two-state concept at 43 percent among both Palestinians and Israeli Jews in June 2018, down from 46 percent six months earlier; in its July 2024 poll the Center reports that October 7 and the war reduced support among Israeli Jews and raised it among Palestinians, though still only a minority on each side.",
+      "text": "The joint Palestinian-Israeli Pulse polls, run by the Palestinian Center for Policy and Survey Research and Tel Aviv University, found support for the two-state concept among Israeli Jews falling from 53 percent in June 2016 to 21 percent in 2024; among Palestinians it was 51 percent in June 2016, 44 percent in December 2016, 52 percent in June 2017, 43 percent in June 2018 and 40 percent in 2024; Tel Aviv University's Peace Index of November 2025 puts Jewish support at 20 percent.",
       "sources": [
         {
           "publisher": "Palestinian Center for Policy and Survey Research",
@@ -369,11 +424,20 @@
           "kind": "scholarly"
         },
         {
-          "publisher": "Palestinian Center for Policy and Survey Research",
-          "title": "The Palestine/Israel Pulse: a joint poll (July 2024)",
-          "url": "https://pcpsr.org/en",
+          "publisher": "Palestinian Center for Policy and Survey Research and Tel Aviv University",
+          "title": "Palestine/Israel Pulse, September 2024",
+          "url": "https://pcpsr.org/sites/default/files/Summary%20Report_%20English_Joint%20Poll%2012%20Sept%202024.pdf",
           "archive": "",
-          "quote": "the events reduce support for a two-state peace solution among Israeli Jews while increasing it among Palestinians, but still only a minority support it on each side",
+          "quote": "among Jews, support for the two-state principle has seen an incremental but steady decline since June 2016, when it stood at 53%.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Tel Aviv University and Israel Democracy Institute",
+          "title": "Peace Index, November 2025",
+          "url": "https://en-social-sciences.tau.ac.il/sites/socsci-english.tau.ac.il/files/media_server/social/peaceindex/2025-11.pdf",
+          "archive": "",
+          "quote": "Support for the two-state solution among Jewish respondents returns to its lowest recorded level (20%)",
           "accessed": "2026-11-20",
           "kind": "scholarly"
         },
@@ -413,18 +477,158 @@
     }
   ],
   "contested": [
-    "The strongest case that Palestinian violence is the cause: suicide bombing began five months before Oslo was signed, the 1996 bombings helped end Labor's government, the second intifada killed about a thousand Israelis, withdrawal from Gaza was followed by thousands of rockets. On this account closures and checkpoints answered attacks (BBC reports that attacks fell as Israel besieged Palestinian towns and built its barrier), and settlement growth did not break Oslo's text.",
-    "The strongest case that occupation and settlement are the cause: the settler population grew by about 85,000 in seven years of negotiation, Palestinian deaths in the intifada were roughly three to five times the Israeli toll with most casualties in the first month being civilian bystanders in Amnesty's finding (quoted by Al Jazeera), the World Bank documented the cost of closure, and Shlaim argues that settlements violated the spirit of Oslo. On this account Palestinian violence grew out of the occupation rather than explaining it.",
-    "What the counts mean. B'Tselem, Israel's Foreign Ministry, Human Rights Watch and the Palestinian Center for Human Rights use different date ranges and definitions, so 950 and about 1,100 Israeli dead, and 3,135 and 4,973 Palestinian dead, are not in conflict as much as measuring different periods and groups. BBC states that no figures show how many Palestinians killed were combatants.",
-    "Whether Rabin's murder should be weighed as a pressure on Israelis at all: the sources describe it as the act of one man, Yigal Amir, who opposed Oslo; but Amir told Israeli television in 2008 that he was spurred by warnings from hawkish former generals (Guardian/AP), and the State Department's historian ties the 1996 Labor defeat to the Hamas attacks that followed it. How far one act and one rally of opponents shaped Israeli politics is a judgement the card does not make.",
-    "Whether settler numbers include East Jerusalem: the Journal of Palestine Studies figure is for the West Bank and Gaza; totals that include East Jerusalem are higher by roughly 150,000 to 175,000 (see era4-peace-offers)."
+    {
+      "text": "The strongest case that Palestinian violence is the cause: suicide bombing began five months before Oslo was signed, the 1996 bombings helped end Labor's government, the second intifada killed about a thousand Israelis, withdrawal from Gaza was followed by thousands of rockets, and closures and checkpoints answered attacks. Dennis Ross, for the Clinton administration in January 2001, said Arafat 'wanted peace, but had not come reconciled to what it took to produce it'.",
+      "sources": [
+        {
+          "publisher": "BBC News",
+          "title": "Analysis: Palestinian suicide attacks",
+          "url": "https://news.bbc.co.uk/2/hi/middle_east/3256858.stm",
+          "archive": "",
+          "quote": "The number of attacks fell as Israel besieged Palestinian towns and pressed ahead with its barrier in and around the occupied West Bank.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "U.S. Department of State, Office of the Historian",
+          "title": "The Oslo Accords and the Arab-Israeli Peace Process",
+          "url": "https://history.state.gov/milestones/1993-2000/oslo",
+          "archive": "",
+          "quote": "Rabin's murder was followed by a string of terrorist attacks by Hamas, which undermined support for the Labor Party in Israel's May 1996 elections.",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "Human Rights Watch",
+          "title": "Erased in a Moment: Suicide Bombing Attacks Against Israeli Civilians",
+          "url": "https://www.hrw.org/report/2002/10/15/erased-moment/suicide-bombing-attacks-against-israeli-civilians",
+          "archive": "",
+          "quote": "as part of their opposition to the Oslo Accords",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        },
+        {
+          "publisher": "Jewish Telegraphic Agency",
+          "title": "Ross to U.S. Jews: Palestinians will rue another missed opportunity",
+          "url": "https://www.jta.org/archive/ross-to-u-s-jews-palestinians-will-rue-another-missed-opportunity",
+          "archive": "",
+          "quote": "wanted peace, but had not come reconciled to what it took to produce it",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "The strongest case that occupation and settlement are the cause: the settler population grew by about 85,000 in seven years of negotiation, Palestinian deaths in the intifada were roughly three to five times the Israeli toll (the UN counts 25 Palestinian deaths per Israeli death in 2007), and the World Bank documented the cost of closure. On this account Palestinian violence grew out of the occupation rather than explaining it.",
+      "sources": [
+        {
+          "publisher": "The Guardian (Avi Shlaim)",
+          "title": "It's now clear: the Oslo peace accords were wrecked by Netanyahu's bad faith",
+          "url": "https://www.theguardian.com/commentisfree/2013/sep/12/oslo-israel-reneged-colonial-palestine",
+          "archive": "",
+          "quote": "Building civilian settlements beyond the Green Line does not violate the letter of the Oslo accords but it most decidedly violates its spirit.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "World Bank (press release hosted by the United Nations)",
+          "title": "Palestinian economy remains stagnant after four years of intifada",
+          "url": "https://www.un.org/unispal/document/auto-insert-206425",
+          "archive": "",
+          "quote": "Closures are a key factor behind today's economic crisis in the West Bank.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "The Guardian (Marwan Barghouti)",
+          "title": "Israel has chosen occupation over peace",
+          "url": "https://www.theguardian.com/commentisfree/2015/oct/11/israel-occupation-palestinian-territory-peace-diplomacy",
+          "archive": "",
+          "quote": "used negotiations as a smokescreen to advance its colonial project",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "What the counts mean. B'Tselem, Israel's Security Agency, Human Rights Watch, the UN and the Palestinian Center for Human Rights use different date ranges and definitions, so 950 and about 1,100 Israeli dead, and 3,135, 4,228 and 4,973 Palestinian dead, measure different periods and groups. BBC says no figures show how many Palestinians killed were combatants; the UN says that where status was known 59 percent were civilians.",
+      "sources": [
+        {
+          "publisher": "BBC News",
+          "title": "Intifada toll 2000-2005 (B'Tselem figures)",
+          "url": "https://news.bbc.co.uk/2/hi/middle_east/3694350.stm",
+          "archive": "",
+          "quote": "There are no figures to show the proportion of Palestinians who were combatants and those who were civilians.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "UN Office for the Coordination of Humanitarian Affairs",
+          "title": "Israeli-Palestinian Fatalities Since 2000 - Key Trends (August 2007)",
+          "url": "https://container.ochaopt.org/sites/default/files/CAS_Aug07.pdf",
+          "archive": "",
+          "quote": "of Palestinians killed by Israeli security forces, whose status was known7, 59% were civilians and 41% were engaged in hostilities at the time of their death",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "Whether Rabin's murder should be weighed as a pressure on Israelis at all: the sources describe it as the act of one man, Yigal Amir, who opposed Oslo; but Amir told Israeli television in 2008 that he was spurred by warnings from hawkish former generals, and the State Department's historian ties the 1996 Labor defeat to the Hamas attacks that followed it. How far one act shaped Israeli politics is a judgement the card does not make.",
+      "sources": [
+        {
+          "publisher": "The Guardian (Associated Press)",
+          "title": "Rabin's assassin says he was spurred by hawkish generals",
+          "url": "https://www.theguardian.com/world/2008/nov/01/israel-and-the-palestinians-middle-east",
+          "archive": "",
+          "quote": "Sharon, Raful, Gandhi, all of the people who understand the military and said this agreement would bring a disaster.",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AP"
+        },
+        {
+          "publisher": "U.S. Department of State, Office of the Historian",
+          "title": "The Oslo Accords and the Arab-Israeli Peace Process",
+          "url": "https://history.state.gov/milestones/1993-2000/oslo",
+          "archive": "",
+          "quote": "Rabin's murder was followed by a string of terrorist attacks by Hamas, which undermined support for the Labor Party in Israel's May 1996 elections.",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        }
+      ]
+    },
+    {
+      "text": "Whether settler numbers include East Jerusalem: the Journal of Palestine Studies and Peace Now figures are for the West Bank (and Gaza) without East Jerusalem; a 2023 UN report counts about 236,000 Israelis in East Jerusalem settlements in addition to 478,600 in the West Bank.",
+      "sources": [
+        {
+          "publisher": "Journal of Palestine Studies",
+          "title": "Settlement growth during Oslo (Winter 2003)",
+          "url": "https://ciaotest.cc.columbia.edu/olj/jps/vol32-126usg01.html",
+          "archive": "",
+          "quote": "The new housing swelled the settler population in the West Bank and Gaza from 115,000 in 1993 to 200,000 by 2000.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "United Nations (report on Israeli settlements, 2023)",
+          "title": "One-Year Report on Israeli Settlements in the occupied West Bank",
+          "url": "https://www.un.org/unispal/wp-content/uploads/2024/08/One-Year-Report-on-Israeli-Settlements-in-the-occupied-West-Bank-including-East-Jerusalem-Reporting-period-January-December-2023.pdf",
+          "archive": "",
+          "quote": "there are around 236,000 Israelis living in 12 settlements constructed in East Jerusalem",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    }
   ],
   "could_not_verify": [
-    "Year-by-year series: Israel's Shin Bet tables, Peace Now's settler series and the Palestinian Central Bureau of Statistics table are PDFs or pages our fetcher could not read, so the card gives period totals and the years BBC publishes, not a full series. ",
-    "A second HTML-readable count of Palestinian deaths by year, and any B'Tselem page: its site refused our fetcher (the UN's OCHA tables are PDFs). The two counts used are B'Tselem as published by BBC and the Palestinian Center for Human Rights as quoted by Al Jazeera; the Palestinian-deaths fact has only two reliable sources.",
+    "Year-by-year series are partial: the Israeli figures are the Shin Bet's flattened chart (2000-2008) and BBC's counts for 2003-2005; the Palestinian figures by year are OCHA's monthly averages and ratios for 2002, 2004 and 2007 and B'Tselem's 2008 total, not a full yearly series. OCHA's monthly tables are in PDFs we could not turn into a yearly series. Israel's statistics bureau's own settler table, the Palestinian bureau's table and the Foundation for Middle East Peace table did not load; Peace Now's PDF (advocacy) carries the bureau's series.",
+    "The UN counts both sides, but OCHA states that its figures come from B'Tselem, so the UN count is not independent data; the OCHA protection-of-civilians tables that are independent are PDFs of month-by-governorate tables that flatten into numbers we cannot quote safely.",
     "Pressure from the United States and from the Arab League during the peace years: we found no page we could quote that states it plainly. Khartoum 1967 and the 2002 Arab Peace Initiative are on the other card.",
-    "Fewer than three reliable sources: the Oslo-era suicide bombings (BBC and CFR, plus Human Rights Watch labelled advocacy), the intifada toll on Israelis (BBC only; the others are advocacy-labelled), the rocket fact (NPR and Guardian, plus HRW), the Rabin fact (Guardian and Encyclopedia.com, plus a government page), the PA fact (one news source and HRW).",
-    "The joint Pulse results for 2016, 2020 and 2022 and the Israel Democracy Institute's Peace Index: the pages we found were PDFs, so the card uses PCPSR's 2018 page and its July 2024 summary. Pew and Gallup do not poll Gaza, so the 2025-26 Palestinian figures cover the West Bank and East Jerusalem only."
+    "Fewer than three reliable sources: the Oslo-era suicide bombings (BBC and CFR, plus Human Rights Watch labelled advocacy), the Rabin fact (Guardian and Encyclopedia.com, plus a government page), the PA fact (one news source and HRW), the rocket fact and the Israeli toll fact each rely on government or advocacy-labelled series for their year-by-year numbers.",
+    "The joint Pulse results for 2020 and 2022 and the Israel Democracy Institute's Peace Index before October 2023: not read. Pew and Gallup do not poll Gaza, so the 2025-26 Palestinian figures cover the West Bank and East Jerusalem only.",
+    "Israeli wrongs in the peace years beyond settlement growth and closure: the BBC page says Hamas gave the February 1994 Hebron killings by a Jewish settler as its reason for its first suicide attack in Israel; Hamas's own statement and a source for the Hebron killings were not read, and the card does not carry them.",
+    "Death counts: the Israeli and Palestinian totals come from different counters (B'Tselem via BBC, the UN, Shin Bet, the Palestinian Center for Human Rights) and different periods; only the B'Tselem figures to 15 January 2005 are like for like."
   ],
   "not_claimed": [
     "Listing pressures on each side does not by itself assign blame, and it does not excuse any act: suicide bombings of civilians and the killing of civilians who took no part in fighting are wrongs whatever the pressure.",
@@ -434,5 +638,78 @@
     "It does not use poll numbers to say what either people ought to want."
   ],
   "status": "draft",
-  "content_approved": false
+  "content_approved": false,
+  "answer_claims": [
+    {
+      "says": "Israelis faced Hamas and Islamic Jihad suicide bombings that began before Oslo and peaked in the second intifada.",
+      "facts": [
+        0,
+        1
+      ]
+    },
+    {
+      "says": "B'Tselem's count to January 2005, via BBC: 950 Israelis killed by Palestinians, 3,135 Palestinians killed by Israeli security forces in the West Bank and Gaza; the Palestinian Center for Human Rights counts at least 4,973 over the whole intifada.",
+      "facts": [
+        1,
+        5
+      ]
+    },
+    {
+      "says": "An Israeli opponent of Oslo murdered Rabin in 1995, and after the 2005 Gaza withdrawal rockets kept coming.",
+      "facts": [
+        2,
+        3
+      ]
+    },
+    {
+      "says": "Palestinians faced a settler population that grew from 115,000 to 200,000 between 1993 and 2000, and closures that the World Bank called a key factor behind an economic crisis, with unemployment at 25 percent in 2003.",
+      "facts": [
+        4,
+        6
+      ]
+    },
+    {
+      "says": "Iran backed groups that opposed the Oslo process, and Fatah and Hamas split in 2007.",
+      "facts": [
+        7,
+        8
+      ]
+    },
+    {
+      "says": "Polls show belief in two states falling on both sides.",
+      "facts": [
+        9,
+        10
+      ]
+    },
+    {
+      "says": "Our reading: neither side's pressure explains the failure alone, and both did wrong.",
+      "facts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    }
+  ],
+  "review": {
+    "skeptic": {
+      "verdict": "weakened",
+      "date": "2026-11-20",
+      "notes": "Read at least two sources per fact in context; all 58 quotes are on their pages. Death counts are the main trap. Israeli 950 and Palestinian 3,135 are both B'Tselem figures to 15 January 2005 (BBC) and are comparable; 'about 1,100 Israelis' is Shin Bet to the end of 2005 and 4,973 is the Palestinian Center for Human Rights over a period its Al Jazeera citation does not define, so the old answer's 'ranges depending on who counts' mixed periods and counters (rewritten to like-for-like). BBC and UN OCHA are one source for these numbers: OCHA says its data come from B'Tselem, so F1 (BBC, OCHA) and F5 (BBC, OCHA, B'Tselem's own report) each count B'Tselem once; the independent counters are Shin Bet and HRW for Israelis (government and advocacy) and PCHR for Palestinians (one Al Jazeera page). Both facts are short on independent sources. Strongest Palestinian objection: Israeli wrongs in the peace years are thin (settlements, closure, Ross's one sentence); the Hebron killings of February 1994, which the BBC page names as Hamas's stated reason for its first suicide attack in Israel, are not on the card, and contested[0] presents the bombings as unprovoked. Strongest Israeli objection: the card reports Palestinian security failures only through HRW and one Ross sentence (F11, two sources, one advocacy) and omits the PA's own record on incitement and payments; 'Palestinian violence is the cause' had no holder quoted (BBC, State Dept, HRW are not holders); I added Ross's own words from the JTA page. Fixed by me: F6 said World Bank reported checkpoints 'on all main and most secondary roads', which is not on the cited page (removed; the page does carry the 25 percent and 'closures are a key factor'); answer said Iran backed groups opposing 'any deal' (the CTC page says Oslo). Labels checked: Peace Now, HRW, B'Tselem advocacy; Shin Bet government; JPS page is read from a ciaotest.cc.columbia.edu mirror (nit). Wire: Guardian/AP already marked. heard[1] (Knesset resolution via NBC) is about a Palestinian state, not about one side being evil (nit). MUST-FIX: (1) F11 needs a third reliable source or a PA-record source; (2) F1, F5 need counters independent of B'Tselem; (3) a source for the Hebron killings and Hamas's stated reason; (4) F2 and F4 have only two reliable sources each, F0 two."
+    },
+    "citer": {
+      "verdict": "holds",
+      "date": "2026-11-20",
+      "notes": "Split into seven sentences, each tied to facts. Removed: 'Both peoples were under heavy pressure... the sources show it on each side' (a summary no single fact carries; the closing 'Our reading' sentence stays); 'counts run from 950 to about 1,100 Israelis' and 'between 3,100 and about 5,000 Palestinians depending on who counts' (different periods and counters, replaced by the like-for-like B'Tselem pair and the PCHR figure with its source); 'checkpoints' (the World Bank page does not say it); 'any deal' (Oslo only). Answer is within 150 words. Holds for the answer as worded; card stays draft because the skeptic verdict is weakened."
+    }
+  }
 }

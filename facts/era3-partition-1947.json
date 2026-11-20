@@ -10,7 +10,7 @@
       "quote": "pushing through the partition resolution, which is the birth certificate of the state of Israel, the 1947 General Assembly resolution, partitioning Palestine"
     }
   ],
-  "answer": "The idea of splitting Palestine came first from a British commission in 1937. Arab leaders rejected it; Jewish opinion was divided. On 29 November 1947 the UN General Assembly recommended a Jewish state and an Arab state, by 33 votes to 13. The Jewish Agency accepted. Palestinian Arab leaders rejected it; the Arab states in the Assembly voted against it, and Saudi Arabia said it did not consider itself bound. Israel declared independence on 14 May 1948, and armies from Arab states entered Palestine on 15 May. By the 1949 ceasefires Israel held more land than the plan had given it, about 78 percent of the former mandate. The record shows a recommendation, one side that accepted it, one that rejected it, and a war.",
+  "answer": "The idea of splitting Palestine came first from a British commission in 1937; Arab leaders rejected it. On 29 November 1947 the UN General Assembly recommended a Jewish state and an Arab state, by 33 votes to 13. The Jewish state would have had about 56 percent of the land, including the Negev desert, when Jews were about a third of the people and held about 6 percent by registered ownership; Arabs held about 48 percent and the rest was public land. The Jewish Agency accepted; Palestinian Arab leaders rejected the plan. Fighting began at once. Israel declared independence on 14 May 1948, and Arab armies entered on 15 May. By 1949 Israel held about 78 percent of the former mandate.",
   "facts": [
     {
       "text": "In 1937 the British Peel Commission was the first to propose partitioning Palestine into an Arab state and a Jewish state.",
@@ -177,7 +177,16 @@
           "archive": "",
           "quote": "while the Jewish leadership accepted the partition plan, the Arab leadership, both within Palestine and in the surrounding countries, rejected it",
           "accessed": "2026-11-20",
-          "kind": "reference"
+          "kind": "other"
+        },
+        {
+          "publisher": "American Jewish Year Book / Berman Jewish Policy Archive (Sergio DellaPergola, 2003)",
+          "title": "Demographic Trends in Israel and Palestine: Prospects and Policy Implications",
+          "url": "https://www.bjpa.org/content/upload/bjpa/103d/103demographic.pdf",
+          "archive": "",
+          "quote": "representatives of the Jewish side declared their acceptance of territorial partition",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
         }
       ]
     },
@@ -235,15 +244,6 @@
           "kind": "primary"
         },
         {
-          "publisher": "Fanack",
-          "title": "First Arab-Israeli War (1948-1949)",
-          "url": "https://fanack.com/arab-palestinian-israeli-conflict/history-of-the-palestinian-israeli-conflict/1948-49-war-un-resolution-242/",
-          "archive": "",
-          "quote": "when on 14 May 1948 Israel declared its independence the regular Arab armies moved in",
-          "accessed": "2026-11-20",
-          "kind": "news"
-        },
-        {
           "publisher": "EBSCO Research Starters",
           "title": "Peel Commission",
           "url": "https://www.ebsco.com/research-starters/history/peel-commission/",
@@ -251,6 +251,24 @@
           "quote": "The State of Israel was officially formed on May 14, 1948.",
           "accessed": "2026-11-20",
           "kind": "reference"
+        },
+        {
+          "publisher": "American Jewish Year Book / Berman Jewish Policy Archive (Sergio DellaPergola, 2003)",
+          "title": "Demographic Trends in Israel and Palestine: Prospects and Policy Implications",
+          "url": "https://www.bjpa.org/content/upload/bjpa/103d/103demographic.pdf",
+          "archive": "",
+          "quote": "the State of Israel was declared on May 14, 1948, thus implementing the claim to a Jewish state in Palestine",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Fanack",
+          "title": "First Arab-Israeli War (1948-1949)",
+          "url": "https://fanack.com/arab-palestinian-israeli-conflict/history-of-the-palestinian-israeli-conflict/1948-49-war-un-resolution-242/",
+          "archive": "",
+          "quote": "when on 14 May 1948 Israel declared its independence the regular Arab armies moved in",
+          "accessed": "2026-11-20",
+          "kind": "other"
         }
       ]
     },
@@ -258,13 +276,40 @@
       "text": "On 15 May 1948 armies from Egypt, Syria, Iraq, Lebanon and Transjordan entered Palestine.",
       "sources": [
         {
+          "publisher": "Israel Law Review (Cambridge University Press)",
+          "title": "1948 Refugees (conference report incl. Benny Morris's talk)",
+          "url": "https://www.cambridge.org/core/journals/israel-law-review/article/1948-refugees/1E997E364691F4379C6F77EC05BC84AD",
+          "archive": "",
+          "quote": "it is wrong to put the starting point of the war at 15 May 1948, when the Arab armies invaded",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Stanford Journal of International Law (Ardi Imseis, 2021)",
+          "title": "The United Nations Plan of Partition for Palestine Revisited",
+          "url": "https://law.queensu.ca/sites/lawwww/files/files/Professors/UN%20Plan%20of%20Partition%20Revisited.pdf",
+          "archive": "",
+          "quote": "the intervention in Palestine of four Arab states (Egypt, Iraq, Syria and Transjordan) on 15 May 1948",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "United Nations Security Council (cablegram S/745 of 15 May 1948 from the Secretary-General of the Arab League)",
+          "title": "Cablegram dated 15 May 1948 addressed to the Secretary-General by the Secretary-General of the League of Arab States",
+          "url": "https://www.un.org/unispal/document/auto-insert-214183/",
+          "archive": "",
+          "quote": "on the occasion of the intervention of Arab states in Palestine to restore law and order and to prevent disturbances prevailing in Palestine from spreading into their territories",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
           "publisher": "Explaining History",
           "title": "The 1948 Conflict, 1920-1948: Causes and Legacy",
           "url": "https://explaininghistory.org/the-1948-conflict-a-legacy-of-competing-narratives/",
           "archive": "",
           "quote": "the following day, armies from five Arab nations-Egypt, Transjordan (Jordan), Syria, Lebanon, and Iraq-invaded",
           "accessed": "2026-11-20",
-          "kind": "reference"
+          "kind": "other"
         },
         {
           "publisher": "War History Online",
@@ -273,7 +318,7 @@
           "archive": "",
           "quote": "early on the morning of 15 May troops from Egypt, Syria, Iraq and Lebanon, together with volunteers from Saudi Arabia and Libya, entered Palestine",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "other"
         },
         {
           "publisher": "OnWar.com",
@@ -282,7 +327,7 @@
           "archive": "",
           "quote": "on May 15, 1948, the day after an independent state of Israel was proclaimed, elements of the armies of Egypt, Iraq, Lebanon, Syria, Transjordan (as Jordan was then known) invaded Palestine",
           "accessed": "2026-11-20",
-          "kind": "reference"
+          "kind": "other"
         },
         {
           "publisher": "U.S. Department of State, Office of the Historian",
@@ -305,7 +350,7 @@
           "archive": "",
           "quote": "Israel controlled roughly 78% of historic Palestine, far more than the partition's allotment",
           "accessed": "2026-11-20",
-          "kind": "reference"
+          "kind": "other"
         },
         {
           "publisher": "Encyclopedia.com",
@@ -317,15 +362,6 @@
           "kind": "reference"
         },
         {
-          "publisher": "Fanack",
-          "title": "First Arab-Israeli War (1948-1949)",
-          "url": "https://fanack.com/arab-palestinian-israeli-conflict/history-of-the-palestinian-israeli-conflict/1948-49-war-un-resolution-242/",
-          "archive": "",
-          "quote": "which now encompassed 78 percent of the territory of the former Mandate of Palestine, 22 percent more than what the UN's partition plan had initially established",
-          "accessed": "2026-11-20",
-          "kind": "news"
-        },
-        {
           "publisher": "U.S. Department of State, Office of the Historian",
           "title": "The Arab-Israeli War of 1948",
           "url": "https://history.state.gov/milestones/1945-1952/arab-israeli-war",
@@ -333,25 +369,400 @@
           "quote": "Israel gained some territory formerly granted to Palestinian Arabs under the United Nations resolution in 1947",
           "accessed": "2026-11-20",
           "kind": "government"
+        },
+        {
+          "publisher": "Stanford Journal of International Law (Ardi Imseis, 2021)",
+          "title": "The United Nations Plan of Partition for Palestine Revisited",
+          "url": "https://law.queensu.ca/sites/lawwww/files/files/Professors/UN%20Plan%20of%20Partition%20Revisited.pdf",
+          "archive": "",
+          "quote": "israel expanded its territory to control some 78 percent of mandatory Palestine, well beyond the terms of the partition resolution",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "American Jewish Year Book / Berman Jewish Policy Archive (Sergio DellaPergola, 2003)",
+          "title": "Demographic Trends in Israel and Palestine: Prospects and Policy Implications",
+          "url": "https://www.bjpa.org/content/upload/bjpa/103d/103demographic.pdf",
+          "archive": "",
+          "quote": "israel had extended its control over some areas that, in the 1947 UN partition plan, were assigned to the would-be Arab state",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "The partition plan gave the Jewish state about 56 to 57 percent of the land. At the end of 1946 Jews were about a third of the population (608,000 of 1,846,000) and, on British records of 1945, held registered ownership of about 5.6 percent of the land.",
+      "sources": [
+        {
+          "publisher": "United Nations Special Committee on Palestine (UNSCOP)",
+          "title": "Report to the General Assembly, vol. I (A/364)",
+          "url": "https://www.un.org/unispal/document/auto-insert-179435/",
+          "archive": "",
+          "quote": "the population at the end of 1946 was estimated as follows: Arabs, 1,203,000; Jews, 608,000; others, 35,000; total, 1,846,000",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Stanford Journal of International Law (Ardi Imseis, 2021)",
+          "title": "The United Nations Plan of Partition for Palestine Revisited",
+          "url": "https://law.queensu.ca/sites/lawwww/files/files/Professors/UN%20Plan%20of%20Partition%20Revisited.pdf",
+          "archive": "",
+          "quote": "according to British records relied upon by the Ad Hoc Committee, the Jewish population possessed registered ownership of only 5.6 percent of Palestine",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "The Cairo Review of Global Affairs (Lorenzo Kamel)",
+          "title": "Framing the Partition Plan for Palestine",
+          "url": "https://www.thecairoreview.com/essays/framing-the-partition-plan-for-palestine/",
+          "archive": "",
+          "quote": "established the Jewish state on an area of approximately 14,100 square kilometers, or 56.47 percent of the total land",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "Fighting between the two communities began immediately after the 29 November 1947 vote and became a civil war that lasted until the British mandate ended in May 1948.",
+      "sources": [
+        {
+          "publisher": "American Jewish Year Book / Berman Jewish Policy Archive (Sergio DellaPergola, 2003)",
+          "title": "Demographic Trends in Israel and Palestine: Prospects and Policy Implications",
+          "url": "https://www.bjpa.org/content/upload/bjpa/103d/103demographic.pdf",
+          "archive": "",
+          "quote": "Warfare between the Arab and Jewish sides in Palestine erupted immediately after the UN partition decision-actually an extension of violence that had already been going on between the two sides",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "History Skills",
+          "title": "Understanding the 1948 Israeli-Arab War",
+          "url": "https://www.historyskills.com/classroom/modern-history/1948-palestine-war-reading/",
+          "archive": "",
+          "quote": "began immediately after the UN's partition resolution on November 29, 1947, and lasted until the official establishment of the state of Israel on May 14, 1948",
+          "accessed": "2026-11-20",
+          "kind": "other"
+        },
+        {
+          "publisher": "Israel Law Review (Cambridge University Press)",
+          "title": "1948 Refugees (conference report incl. Benny Morris's talk)",
+          "url": "https://www.cambridge.org/core/journals/israel-law-review/article/1948-refugees/1E997E364691F4379C6F77EC05BC84AD",
+          "archive": "",
+          "quote": "after four months of civil war with Arab attacks and with the prospect of a pan-Arab invasion in mid-May",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Stanford Journal of International Law (Ardi Imseis, 2021)",
+          "title": "The United Nations Plan of Partition for Palestine Revisited",
+          "url": "https://law.queensu.ca/sites/lawwww/files/files/Professors/UN%20Plan%20of%20Partition%20Revisited.pdf",
+          "archive": "",
+          "quote": "the better-equipped Zionist forces numbering 50,000, mostly under a central command, against the ill-equipped and disunited Arab forces, who numbered less than 10,000",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "On 15 May 1948 the Arab League told the UN that its states were intervening to restore law and order and that the only just solution was one united state of Palestine, not partition.",
+      "sources": [
+        {
+          "publisher": "United Nations Security Council (cablegram S/745 of 15 May 1948 from the Secretary-General of the Arab League)",
+          "title": "Cablegram dated 15 May 1948 addressed to the Secretary-General by the Secretary-General of the League of Arab States",
+          "url": "https://www.un.org/unispal/document/auto-insert-214183/",
+          "archive": "",
+          "quote": "the Arab governments find themselves compelled to intervene for the sole purpose of restoring peace and security and establishing law and order in Palestine",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "United Nations Security Council (cablegram S/745 of 15 May 1948 from the Secretary-General of the Arab League)",
+          "title": "Cablegram dated 15 May 1948 addressed to the Secretary-General by the Secretary-General of the League of Arab States",
+          "url": "https://www.un.org/unispal/document/auto-insert-214183/",
+          "archive": "",
+          "quote": "the only fair and just solution to the problem of Palestine is the creation of united state of Palestine based upon the democratic principles",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "War History Online",
+          "title": "Arab-Israeli War of 1948-9",
+          "url": "https://warhistory.org/article/arab-israeli-war-of-1948-9",
+          "archive": "",
+          "quote": "The Arab League of Arab States informed the UN Secretary-General on 15 May that their aim was to create a 'united state of Palestine' in place of the two-state UN plan",
+          "accessed": "2026-11-20",
+          "kind": "other"
+        },
+        {
+          "publisher": "Explaining History",
+          "title": "The 1948 Conflict, 1920-1948: Causes and Legacy",
+          "url": "https://explaininghistory.org/the-1948-conflict-a-legacy-of-competing-narratives/",
+          "archive": "",
+          "quote": "The stated goal of the Arab states was to prevent the partition of Palestine and defend the Arab population",
+          "accessed": "2026-11-20",
+          "kind": "other"
+        }
+      ]
+    },
+    {
+      "text": "The Arab states did not act as one: Transjordan's king Abdullah had his own aims. Shlaim argues he had an understanding with the Jewish Agency to divide Palestine between them; Karsh disputes that any such agreement existed.",
+      "sources": [
+        {
+          "publisher": "University of Michigan Press (Avi Shlaim, The Debate about 1948)",
+          "title": "The Debate about 1948",
+          "url": "https://press.umich.edu/pdf/9780472115419-ch5.pdf",
+          "archive": "",
+          "quote": "the understanding between King Abdullah and the Jewish Agency to partition Palestine between themselves and leave the Palestinians out in the cold",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Frank Cass (Efraim Karsh, Fabricating Israeli History, ch. 'The Collusion That Never Was')",
+          "title": "Fabricating Israeli History: The 'New Historians'",
+          "url": "https://duncankennedy.net/wp-content/uploads/2024/01/efraim-karsh-fabricating-israeli-history.pdf",
+          "archive": "",
+          "quote": "the alleged agreement was reached in a secret meeting on 17 November 1947 between the acting head of the Jewish Agency's political department, Golda Meir, and King Abdullah of Transjordan",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "War History Online",
+          "title": "Arab-Israeli War of 1948-9",
+          "url": "https://warhistory.org/article/arab-israeli-war-of-1948-9",
+          "archive": "",
+          "quote": "so signalling his army, the Arab Legion, to enter and occupy the area on the west bank of the river the UN had allotted to the Arab state",
+          "accessed": "2026-11-20",
+          "kind": "other"
+        }
+      ]
+    },
+    {
+      "text": "The Jewish state would have included the whole Negev desert. UNSCOP describes the Negeb proper as practically rainless and almost without life; Kamel says the Negev was inhospitable with Jews about 1 percent of its people; Imseis says 84 percent of the irrigated cultivable land would have been in the Jewish state. One advocacy source says about 60 percent of the Jewish state was desert.",
+      "sources": [
+        {
+          "publisher": "United Nations Special Committee on Palestine (UNSCOP)",
+          "title": "Report to the General Assembly, vol. I (A/364)",
+          "url": "https://www.un.org/unispal/document/auto-insert-179435/",
+          "archive": "",
+          "quote": "as the annual rainfall diminishes further to the south, this merges into the Negeb proper a wild contusion of limestone hills, practically rainless and almost without life",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "The Cairo Review of Global Affairs (Lorenzo Kamel)",
+          "title": "Framing the Partition Plan for Palestine",
+          "url": "https://www.thecairoreview.com/essays/framing-the-partition-plan-for-palestine/",
+          "archive": "",
+          "quote": "the future Jewish state included the Negev desert (known as Naqab in the ancient Egyptian texts), an inhospitable environment that could only be used after major capital investments, and where Jews constituted about 1 percent of the total population",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Stanford Journal of International Law (Ardi Imseis, 2021)",
+          "title": "The United Nations Plan of Partition for Palestine Revisited",
+          "url": "https://law.queensu.ca/sites/lawwww/files/files/Professors/UN%20Plan%20of%20Partition%20Revisited.pdf",
+          "archive": "",
+          "quote": "\"of the irrigated, cultivable areas\" of the country, \"84 per cent would be in the Jewish state and 16 per cent would be in the Arab state",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Jewish Virtual Library",
+          "title": "Myths & Facts: Partition and the War of 1948",
+          "url": "https://jewishvirtuallibrary.org/myths-facts-partition-and-the-war-of-1948",
+          "archive": "",
+          "quote": "approximately 60% of the Jewish state was to be the desert in the Negev, while the Arabs occupied most of the agricultural land",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        }
+      ]
+    },
+    {
+      "text": "Much of Palestine was neither Jewish- nor Arab-owned. On 1945 figures Jews held 1,491,699 of 26,323,023 dunams and Arabs 12,574,774 (48 percent); the remainder was public land. The mandate itself provided for Jewish settlement on state lands.",
+      "sources": [
+        {
+          "publisher": "Stanford Journal of International Law (Ardi Imseis, 2021)",
+          "title": "The United Nations Plan of Partition for Palestine Revisited",
+          "url": "https://law.queensu.ca/sites/lawwww/files/files/Professors/UN%20Plan%20of%20Partition%20Revisited.pdf",
+          "archive": "",
+          "quote": "of the 26,323,023 million dunam landmass of Palestine, the Jewish community owned only 1,491,699 million dunams to the Arab community's 12,574,774 dunams (48 percent), the remainder being publicly owned land",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "United Nations Special Committee on Palestine (UNSCOP)",
+          "title": "Report to the General Assembly, vol. I (A/364)",
+          "url": "https://www.un.org/unispal/document/auto-insert-179435/",
+          "archive": "",
+          "quote": "close settlement by Jews on the land, including state lands and waste lands not required for public purposes",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Jewish Virtual Library",
+          "title": "Myths & Facts: Partition and the War of 1948",
+          "url": "https://jewishvirtuallibrary.org/myths-facts-partition-and-the-war-of-1948",
+          "archive": "",
+          "quote": "more than 70% of the land in what would become Israel belonged to the mandatory government",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
         }
       ]
     }
   ],
   "contested": [
-    "Khalidi calls the resolution the birth certificate of Israel and says the US and USSR pushed it through; supporters of the vote say it was the best option available and that Jews, many of them Holocaust survivors, also had a claim. Whether Britain, the US and the USSR 'imposed' it or the General Assembly decided it is a question of how one reads great-power influence; this card gives the vote and the rejection and leaves the word 'imposed' to the reader.",
-    "The Zionist Congress of 1937 rejected the Peel borders but did not reject partition in principle; the UN secretariat paper says only that both sides rejected it. Sources summarise it differently.",
-    "The roughly 78 percent figure and the 56 percent allotted to the Jewish state are measured on different bases, and the figure depends on how the Negev is counted. Sources round differently (Fanack and Explaining History say 78; Encyclopedia.com gives 5,400 to 8,000 square miles); no cited page gives 77. The rest of the former mandate did not go to a Palestinian state: Fanack and the State Department page say Jordan kept the West Bank and East Jerusalem and Egypt took Gaza.",
-    "Who started the violence after the November 1947 vote is argued by both sides.",
-    "Saudi Arabia's statement to the Assembly on the day of the vote, on the UN page cited in fact 5, says 'pressure' was 'exerted on various representatives' by 'some of the big powers'. This is a statement by an interested government, not a finding.",
-    "The State Department page cited in fact 7 says Transjordan's forces intervened 'only in areas that had been designated as part of the arab state' under the plan and the Jerusalem zone. The Arab states gave their aim as preventing partition (Explaining History); Israel and its supporters call the entry an invasion.",
-    "On the 1937 Zionist Congress, the Jerusalem Post (citing Walter Laqueur) says Weizmann and Ben-Gurion argued for accepting the plan 'with reservations' and the vote in favour was 300 to 158, so the divide was real but the majority was for negotiating."
+    {
+      "text": "Whether the partition was 'imposed' by outside powers. Khalidi says the US and USSR pushed it through; Saudi Arabia told the Assembly on the day of the vote that big powers had pressured representatives.",
+      "sources": [
+        {
+          "publisher": "LBO News (Behind the News interview with Rashid Khalidi, 2024)",
+          "title": "Rashid Khalidi on settler-colonial Israel: an interview",
+          "url": "https://lbo-news.com/2024/10/08/rashid-khalidi-on-settler-colonial-israel-an-interview/",
+          "archive": "",
+          "quote": "pushing through the partition resolution, which is the birth certificate of the state of Israel, the 1947 General Assembly resolution, partitioning Palestine",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "United Nations General Assembly",
+          "title": "Future government of Palestine - verbatim record of the vote on resolution 181",
+          "url": "https://www.un.org/unispal/document/auto-insert-189596/",
+          "archive": "",
+          "quote": "we have felt, like many others, the pressure exerted on various representatives of this organization by some of the big powers in order that the vote should be in favour of partition",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "How the Zionist Congress of 1937 answered the Peel plan: it gave provisional approval as a basis for negotiation, by a vote of 300 to 158, with reservations; the borders themselves were rejected.",
+      "sources": [
+        {
+          "publisher": "Lumen Learning (SUNY HCCC, History of Western Civilization II)",
+          "title": "The Partitioning of Palestine",
+          "url": "https://courses.lumenlearning.com/suny-hccc-worldhistory2/chapter/the-partitioning-of-palestine/",
+          "archive": "",
+          "quote": "persuaded the Zionist Congress to lend provisional approval to the Peel recommendations as a basis for further negotiations",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "The Jerusalem Post",
+          "title": "The Peel Commission Report of 1937",
+          "url": "https://www.jpost.com/jerusalem-report/the-peel-commission-report-of-1937-688922",
+          "archive": "",
+          "quote": "Weizmann and Ben-Gurion argued in favor of accepting the plan, with reservations, and the vote in favor was 300-158",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "How much land Israel held in 1949 compared with the plan: the 56 percent allotted and the 78 percent held are measured on different bases, and the rest did not become a Palestinian state; Jordan kept the West Bank and Egypt Gaza.",
+      "sources": [
+        {
+          "publisher": "History Skills",
+          "title": "Why did the 1947 United Nations Partition Plan for Palestine divide the land the way it did?",
+          "url": "https://www.historyskills.com/classroom/modern-history/1947-partition-plan/",
+          "archive": "",
+          "quote": "the proposed Jewish state would cover approximately 56 percent of the territory",
+          "accessed": "2026-11-20",
+          "kind": "other"
+        },
+        {
+          "publisher": "U.S. Department of State, Office of the Historian",
+          "title": "The Arab-Israeli War of 1948",
+          "url": "https://history.state.gov/milestones/1945-1952/arab-israeli-war",
+          "archive": "",
+          "quote": "Egypt and Jordan retained control over the Gaza Strip and the West Bank respectively",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        }
+      ]
+    },
+    {
+      "text": "Who started the fighting after the vote. Morris says the Palestinians launched a civil war in which about 1,700 Jews were killed; DellaPergola calls the post-vote war an extension of violence already under way between the two sides.",
+      "sources": [
+        {
+          "publisher": "Israel Law Review (Cambridge University Press)",
+          "title": "1948 Refugees (conference report incl. Benny Morris's talk)",
+          "url": "https://www.cambridge.org/core/journals/israel-law-review/article/1948-refugees/1E997E364691F4379C6F77EC05BC84AD",
+          "archive": "",
+          "quote": "there had been a civil war between the communities before then, launched by the Palestinians, and in which some 1,700 Jews were killed",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "American Jewish Year Book / Berman Jewish Policy Archive (Sergio DellaPergola, 2003)",
+          "title": "Demographic Trends in Israel and Palestine: Prospects and Policy Implications",
+          "url": "https://www.bjpa.org/content/upload/bjpa/103d/103demographic.pdf",
+          "archive": "",
+          "quote": "an extension of violence that had already been going on between the two sides",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "What the entry of Arab armies was. Israel's side and several sources call it an invasion; the US State Department notes Transjordan's forces entered only areas the plan had assigned to the Arab state and Jerusalem; the Arab League called it intervention to restore order.",
+      "sources": [
+        {
+          "publisher": "U.S. Department of State, Office of the Historian",
+          "title": "The Arab-Israeli War of 1948",
+          "url": "https://history.state.gov/milestones/1945-1952/arab-israeli-war",
+          "archive": "",
+          "quote": "but only in areas that had been designated as part of the Arab state under the United Nations partition plan",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "United Nations Security Council (cablegram S/745 of 15 May 1948 from the Secretary-General of the Arab League)",
+          "title": "Cablegram dated 15 May 1948 addressed to the Secretary-General by the Secretary-General of the League of Arab States",
+          "url": "https://www.un.org/unispal/document/auto-insert-214183/",
+          "archive": "",
+          "quote": "the Arab governments find themselves compelled to intervene for the sole purpose of restoring peace and security and establishing law and order in Palestine",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "Whether Abdullah of Transjordan and the Jewish Agency had a deal. Shlaim says there was an understanding to partition Palestine between them; Karsh calls it a myth.",
+      "sources": [
+        {
+          "publisher": "University of Michigan Press (Avi Shlaim, The Debate about 1948)",
+          "title": "The Debate about 1948",
+          "url": "https://press.umich.edu/pdf/9780472115419-ch5.pdf",
+          "archive": "",
+          "quote": "the understanding between King Abdullah and the Jewish Agency to partition Palestine between themselves and leave the Palestinians out in the cold",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Frank Cass (Efraim Karsh, Fabricating Israeli History, ch. 'The Collusion That Never Was')",
+          "title": "Fabricating Israeli History: The 'New Historians'",
+          "url": "https://duncankennedy.net/wp-content/uploads/2024/01/efraim-karsh-fabricating-israeli-history.pdf",
+          "archive": "",
+          "quote": "According to this myth, the alleged agreement was reached in a secret meeting on 17 November 1947 between the acting head of the Jewish Agency's political department, Golda Meir, and King Abdullah of Transjordan",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    }
   ],
   "could_not_verify": [
-    "The text of the Peel report itself: the pages I tried (Avalon) did not load. Peel is cited only through reference works and a UN secretariat paper.",
-    "The Zionist Congress 1937 decision is stated plainly only by the Jewish Virtual Library (advocacy), which does not count toward the three. I did not find a readable independent page with it.",
+    "The text of the Peel report itself: the Avalon page did not load. Peel is cited only through reference works and a UN secretariat paper.",
     "The peace offer in Israel's declaration of independence: Avalon's text has it, but I found no second readable page, so I left it out of the facts.",
+    "A third reliable source for the Arab League cable's stated aims beyond the cable itself (the other two cited are a history magazine and an educational site).",
     "Claims that Jewish forces took territory beyond the plan before 15 May appear on a UN Division for Palestinian Rights page, which counts as advocacy; I found no independent readable source and omitted it.",
-    "Khalidi's book is not cited (no authorised readable copy); his 2024 interview is used for the heard claim."
+    "Khalidi's book is not cited (no authorised readable copy); his 2024 interview is used.",
+    "Dissent among Arab states beyond Transjordan (for example Egypt's and Syria's reluctance): I did not find a readable source.",
+    "The Ad Hoc Committee's sub-committee 2 report (A/AC.14/32, appendix VI) and the Survey of Palestine land tables themselves: not readable. The ownership figures are taken from Imseis's footnote to that report. The UNSCOP population table is read directly (un.org).",
+    "How much of the Jewish state was Negev: no scholarly or UN source gives a percentage that I could read. The 'about 60 percent' figure is from the Jewish Virtual Library (advocacy) and the AIJAC page (advocacy). It is attributed, not asserted.",
+    "The state-land share of Palestine: Imseis's footnote implies about 47 percent public land (the remainder after Jewish and Arab holdings); I did not compute it on the card. The Jewish Virtual Library's 70 percent refers only to land in what became Israel.",
+    "Reliable sources for facts 11 and 12 (Arab League aims, Transjordan): fact 11 has one reliable source (the UN cable itself), the other two are anonymous history sites; fact 12 has two scholarly sources. I found no third readable scholarly page.",
+    "Relabelled as 'other' (no named author or institution): History Skills, Explaining History, OnWar, Fanack, War History Online.",
+    "Facts still under three reliable sources: the Arab League cable (one reliable, the cable itself), Transjordan (two scholarly), and state land (Imseis's footnote and the mandate text via UNSCOP; the 70 percent figure is advocacy only)."
   ],
   "not_claimed": [
     "This card does not claim the UN vote made the 1948 war or the later displacement of Palestinians right, wrong or inevitable.",
@@ -363,14 +774,9 @@
   "content_approved": false,
   "answer_claims": [
     {
-      "says": "The idea of splitting Palestine came first from a British commission in 1937.",
+      "says": "The idea of splitting Palestine came first from a British commission in 1937; Arab leaders rejected it.",
       "facts": [
-        0
-      ]
-    },
-    {
-      "says": "Arab leaders rejected it; Jewish opinion was divided.",
-      "facts": [
+        0,
         1
       ]
     },
@@ -382,38 +788,37 @@
       ]
     },
     {
-      "says": "The Jewish Agency accepted.",
+      "says": "The Jewish state would have had about 56 percent of the land, including the Negev desert, when Jews were about a third of the people and held about 6 percent by registered ownership; Arabs held about 48 percent and the rest was public land.",
       "facts": [
-        4
+        9,
+        13,
+        14
       ]
     },
     {
-      "says": "Palestinian Arab leaders rejected it; the Arab states in the Assembly voted against it, and Saudi Arabia said it did not consider itself bound.",
+      "says": "The Jewish Agency accepted; Palestinian Arab leaders rejected the plan.",
       "facts": [
-        3,
+        4,
         5
       ]
     },
     {
-      "says": "Israel declared independence on 14 May 1948, and armies from Arab states entered Palestine on 15 May.",
+      "says": "Fighting began at once.",
+      "facts": [
+        10
+      ]
+    },
+    {
+      "says": "Israel declared independence on 14 May 1948, and Arab armies entered on 15 May.",
       "facts": [
         6,
         7
       ]
     },
     {
-      "says": "By the 1949 ceasefires Israel held more land than the plan had given it, about 78 percent of the former mandate.",
+      "says": "By 1949 Israel held about 78 percent of the former mandate.",
       "facts": [
         8
-      ]
-    },
-    {
-      "says": "The record shows a recommendation, one side that accepted it, one that rejected it, and a war.",
-      "facts": [
-        2,
-        4,
-        5,
-        7
       ]
     }
   ],
@@ -421,12 +826,12 @@
     "skeptic": {
       "verdict": "weakened",
       "date": "2026-11-20",
-      "notes": "Read two or more sources per fact; quotes are on the pages. Pro-Palestinian attack (the stronger one): the claim is 'imposed by outside powers'. The card gives the vote and the rejections but no fact on what the plan allotted against who lived and owned land there (about 56 percent to the Jewish state; population and land-ownership shares), nor on the fighting between November 1947 and 15 May 1948, nor on Jewish forces holding ground beyond the plan before the invasion. A reader cannot test 'imposed' or 'by force' from these facts. Pro-Israel attack: 'the Arab side rejected, the Jewish side accepted' is stated flatly, but Arab dissent is missing (Abdullah of Transjordan favoured partition in 1937 and dealt with the Jewish Agency in 1948 - not on the card), and the card does not say the Arab states' stated aim was to prevent partition. must-fix: fact 8 said '77 to 78 percent' and no cited page says 77; fixed to 'about 78'. must-fix (writer): add a sourced fact on the plan's shares and populations. should-fix: great-power pressure appears only as Khalidi's heard quote and a Saudi statement; add a fact if the answer is to address it. should-fix: fact 5 'Arab states ... refused to be bound' was carried by one government (Saudi Arabia); reworded to what the sources show, and the Israel Law Review line is a participant's 'better view', not a finding. should-fix: the 1937 Zionist Congress detail rests on the Jewish Virtual Library (advocacy) plus a Jerusalem Post piece citing Laqueur; added the 300-158 vote to contested. nit: Britannica pages could not be read live (archive quotes kept); fact 7 'invasion' wording is contested, now in contested. Independence: facts 0-4 draw on UN, EBSCO, Lumen, Britannica - separate publishers but reference works that follow the same standard narrative; no copying seen."
+      "notes": "Round three (final). Checked: the UNSCOP page, Imseis, Kamel, the cable, and the relabelling. FIXED: the shares are now primary or scholarly. UNSCOP gives the population ('at the end of 1946 ... Jews, 608,000 ... total, 1,846,000', 32.96 percent); Imseis says the plan allotted about 57 percent of the total area of Palestine and that Jews held 5.6 percent by registered ownership on British records of 1945 (percent of the whole land, Arabs 48 percent, the rest public); Kamel gives 56.47 percent of total land. The card says 'of the land' and 'registered ownership', which matches. Negev and state land are on the card. Relabelling explainer sites 'other' is right (no named author). NOT FIXED: (1) fact 11, the Arab League's aims, has one reliable source, the cable itself; the other two are 'other' sites. (2) fact 12 (Abdullah) has two reliable sources, Shlaim and Karsh, who are the two sides of the dispute; the third is an 'other' site. (3) fact 14 (public land) has two: Imseis and a UNSCOP line that only quotes the mandate's text on state lands; the 70 percent figure is Jewish Virtual Library (advocacy). (4) fact 13: the 'about 60 percent desert' share is advocacy only; UNSCOP's quote describes the Negeb's climate, not the plan's share. (5) the card leans on two authors, Imseis and Kamel, both writing from the Palestinian side, for the shares, and has no Israeli-side scholar on them; (6) nit: fact 10's Imseis quote (force numbers) does not match the fact text. Still missing: Jewish forces' gains before 15 May. Stronger attack: pro-Israel (state-land and desert context thinly sourced; 'imposed' is answered only by Saudi and Khalidi, both holders on one side); the pro-Palestinian attack is now largely answered. Contested entries are objects with real quotes from holders."
     },
     "citer": {
       "verdict": "holds",
       "date": "2026-11-20",
-      "notes": "Removed: 'Critics say the vote reflected great-power pressure and denied self-determination.' No fact on the card carries it (it lives in heard and contested only); the writer should add a fact if wanted. Reworded: 'Palestinian Arab leaders and Arab states rejected it and said they would not be bound' to what facts 3 and 5 carry (Arab states voted against; Saudi Arabia said it was not bound). Reworded '77 to 78 percent' to 'about 78 percent' (fact 8 and its sources). Every remaining sentence is tied in answer_claims. Holds for the answer as now worded; the skeptic verdict stays weakened because of the missing facts."
+      "notes": "Round three. Reworded 'much of the rest was public land' to 'Arabs held about 48 percent and the rest was public land' (fact 14, Imseis), because 'the rest' wrongly suggested that most of it was public. Everything else is tied in answer_claims; no sentence lacks a fact. Dropped from the answer by the writer: the Transjordan sentence (fact 12 still on the card). Holds for the answer as worded. Also, to meet the 150-word limit, removed the sentences on the Arab League's stated aims (fact 11 has one reliable source) and the closing summary sentence; no claim was added."
     }
   }
 }

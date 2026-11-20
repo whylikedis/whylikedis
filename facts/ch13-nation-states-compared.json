@@ -1,0 +1,685 @@
+{
+  "id": "ch13-nation-states-compared",
+  "era": 13,
+  "claim": "A Jewish state is racist by definition, and no other country is like that.",
+  "heard": [
+    {
+      "who": "Michel Warshawsky, Israeli anti-Zionist writer, 1992",
+      "url": "https://iv.redmole.org/iv/no227/israeli-state-a-jewish-state-or-a-democratic-state-how-zionism-leads-to-racism/",
+      "quote": "the Zionist enterprise and the Zionist State of Israel - as it is defined - is very, very racist.",
+      "archive": ""
+    },
+    {
+      "who": "Sari Nusseibeh, Palestinian philosopher, in Al Jazeera, 2011",
+      "url": "https://www.aljazeera.com/opinions/2011/9/30/why-israel-cant-be-a-jewish-state",
+      "quote": "recognition of Israel as a \"Jewish state\" implies that Israel is, or should be, either a theocracy (if we take the word \"Jewish\" to apply to the religion of Judaism) or an apartheid state",
+      "archive": ""
+    }
+  ],
+  "answer": "Preference for one people or faith is common. Pew counted 43 countries with an official religion and 40 more that favour one, including Denmark and the United Kingdom; Greece's constitution names Orthodoxy the prevailing religion. Germany, Greece, Ireland and Armenia give citizenship by descent or ethnic tie; Israel's Law of Return does so for Jews and their relatives, and the Palestinian Basic Law names Islam the official religion. Israel's Declaration of Independence promises complete equality; the 2018 Nation-State law says self-determination is unique to the Jewish people and does not mention equality. Scholars call Israel an ethnic democracy, an ethnocracy or a democracy, and many stress that it also rules millions of non-citizens in the West Bank. The United States limited naturalisation to free white persons in 1790, set national-origins quotas in 1924, and ended them in 1965.",
+  "facts": [
+    {
+      "text": "Preferring one religion is common: Pew counted 43 of 199 countries with an official state religion and 40 more that favour one, over 80 in all; a survey of 177 countries in 2008 found 41 with a state religion and 77 that clearly favoured certain religions.",
+      "sources": [
+        {
+          "publisher": "Pew Research Center",
+          "title": "Many Countries Favor Specific Religions, Officially or Unofficially",
+          "url": "https://www.pewresearch.org/religion/2017/10/03/many-countries-favor-specific-religions-officially-or-unofficially/",
+          "archive": "",
+          "quote": "More than 80 countries favor a specific religion, either as an official, government-endorsed religion or by affording one religion preferential treatment over other faiths",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Springer (State and Religion: An Economic Approach)",
+          "title": "State and Religion: An Economic Approach",
+          "url": "https://link.springer.com/chapter/10.1007/978-3-319-98848-1_22?code=022f75a6-b069-48f2-a6b0-b52218d1e966&error=cookies_not_supported",
+          "archive": "",
+          "quote": "77 countries (44%) clearly favored certain religions; and 41 countries (23%) endorsed one or more religions as the official state religion.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Cambridge University Press (Jonathan Fox)",
+          "title": "A World Survey of Religion and the State",
+          "url": "https://www.cambridge.org/core/books/world-survey-of-religion-and-the-state/C5239964974BAD0E9A1D3A77F9889222",
+          "archive": "",
+          "quote": "only a minority of states, including a minority of democracies, have separation of religion and state",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "Denmark's constitution makes the Evangelical Lutheran Church the established church, supported by the state; Pew lists Denmark and the United Kingdom among 13 states with Christianity as the official religion, nine of them in Europe.",
+      "sources": [
+        {
+          "publisher": "Pew Research Center",
+          "title": "Many Countries Favor Specific Religions, Officially or Unofficially",
+          "url": "https://www.pewresearch.org/religion/2017/10/03/many-countries-favor-specific-religions-officially-or-unofficially/",
+          "archive": "",
+          "quote": "Nine of these countries are in Europe, including the United Kingdom, Denmark, Monaco and Iceland.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Danish Parliament (Folketinget)",
+          "title": "Grundlovens paragraf 4",
+          "url": "https://www.ft.dk/da/dokumenter/bestil-publikationer/publikationer/mingrundlov/min-grundlov/kapitel-1/paragraf-4",
+          "archive": "",
+          "quote": "Den evangelisk-lutherske kirke er den danske folkekirke og understøttes som sådan af staten.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "UNESCO (archived)",
+          "title": "Religious Rights - Denmark",
+          "url": "https://www.unesco.org/most/rr3denm.htm",
+          "archive": "https://web.archive.org/web/20121013164527/www.unesco.org/most/rr3denm.htm",
+          "quote": "The Evangelical Lutheran Church shall be the Established Church of Denmark, and, as such, it shall be supported by the State.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "Greece's constitution declares the Eastern Orthodox Church the prevailing religion, while protecting freedom of religious conscience.",
+      "sources": [
+        {
+          "publisher": "Greek Ministry of Education and Religious Affairs",
+          "title": "The Constitution of Greece",
+          "url": "https://religiousaffairs.minedu.gov.gr/en/general-secretariat-for-religious-affairs/regulatory-framework/the-constitution-of-greece",
+          "archive": "",
+          "quote": "The prevailing religion in Greece is that of the Eastern Orthodox Church of Christ.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Hellenic Parliament",
+          "title": "Σύνταγμα, Άρθρο 3",
+          "url": "https://www.hellenicparliament.gr/el/Vouli-ton-Ellinon/To-Politevma/Syntagma/article-3/",
+          "archive": "",
+          "quote": "Eπικρατούσα θρησκεία στην Eλλάδα είναι η θρησκεία της Aνατολικής Oρθόδοξης Eκκλησίας του Xριστού.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "Saudi Arabia and Iran are different in kind: religious law is state law. Iran's constitution requires all laws and regulations to be based on Islamic criteria, and Saudi Arabia's Basic Law names the Qur'an and the Sunnah as its constitution.",
+      "sources": [
+        {
+          "publisher": "Constitute Project",
+          "title": "Iran (Islamic Republic of)'s Constitution of 1979 with Amendments through 1989",
+          "url": "https://www.constituteproject.org/constitution/Iran_1989",
+          "archive": "",
+          "quote": "all civil, penal, financial, economic, administrative, cultural, military, political, and other laws and regulations must be based on Islamic criteria",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Constitute Project",
+          "title": "Saudi Arabia's Constitution of 1992 with Amendments through 2005",
+          "url": "https://www.constituteproject.org/constitution/Saudi_Arabia_2005",
+          "archive": "",
+          "quote": "The Kingdom of Saudi Arabia is a sovereign Arab Islamic State.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Pew Research Center",
+          "title": "Key facts about government-favored religion around the world",
+          "url": "https://www.pewresearch.org/short-reads/2017/10/03/key-facts-about-government-favored-religion-around-the-world/",
+          "archive": "",
+          "quote": "including Saudi Arabia and all of its neighbors",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "Israel's Law of Return gives every Jew the right to immigrate, and since 1970 also a child, grandchild and spouse of a Jew; it defines a Jew as a person born of a Jewish mother or converted, not a member of another religion.",
+      "sources": [
+        {
+          "publisher": "Jewish Virtual Library",
+          "title": "Israel's Basic Laws: The Law of Return",
+          "url": "https://jewishvirtuallibrary.org/israel-s-law-of-return",
+          "archive": "",
+          "quote": "Every Jew has the right to come to this country as an oleh",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Immigration and Refugee Board of Canada",
+          "title": "Responses to Information Requests: Law of Return",
+          "url": "https://irb-cisr.gc.ca/en/country-information/rir/Pages/index.aspx?doc=451766",
+          "archive": "",
+          "quote": "The 1970 amendment also extends the right of return to the spouse of a Jew and to the child and grandchild of a Jew as well as their spouses",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "Israel Democracy Institute",
+          "title": "Nation-State Law Explainer",
+          "url": "https://en.idi.org.il/articles/24241",
+          "archive": "",
+          "quote": "The State of Israel will be open for Jewish immigration and for the Ingathering of the Exiles",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "Germany's Basic Law (Article 116) counts as German a person who was admitted as a refugee or expellee of German ethnic origin (Volkszugehoerigkeit), and ethnic German resettlers from the former Soviet Union and Eastern Europe are automatically awarded citizenship once recognised.",
+      "sources": [
+        {
+          "publisher": "Federal Ministry of Justice (Germany)",
+          "title": "Art 116 GG",
+          "url": "https://www.gesetze-im-internet.de/gg/art_116.html",
+          "archive": "",
+          "quote": "wer die deutsche Staatsangehörigkeit besitzt oder als Flüchtling oder Vertriebener deutscher Volkszugehörigkeit",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Library of Congress, Law Library",
+          "title": "Germany: The Development of Migration and Citizenship Law in Postwar Germany",
+          "url": "https://international.loc.gov/law/help/migration-citizenship/germany.php",
+          "archive": "",
+          "quote": "Once someone has been recognized as an \"ethnic German resettler,\" he or she is automatically awarded German citizenship.",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "Federal Agency for Civic Education (bpb), Jannis Panagiotidis",
+          "title": "Spätaussiedler, Heimkehrer, Vertriebene",
+          "url": "https://www.bpb.de/themen/migration-integration/russlanddeutsche/274597/spaetaussiedler-heimkehrer-vertriebene/",
+          "archive": "",
+          "quote": "definierte Artikel 116, Absatz 1 des Grundgesetzes einen \"Deutschen\" nicht ausschließlich über die Staatsbürgerschaft, sondern auch alternativ über die \"deutsche Volkszugehörigkeit\"",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "Greek citizenship law rests on descent (ius sanguinis) and distinguishes people of Greek descent (homogeneis) from others; people of Greek origin from the former Soviet states were granted citizenship through special procedures.",
+      "sources": [
+        {
+          "publisher": "GLOBALCIT (EUDO Citizenship Observatory)",
+          "title": "Greece country report",
+          "url": "https://globalcit.eu/wp-content/uploads/2012/02/Greece.pdf",
+          "archive": "",
+          "quote": "Greek nationality law is based on the principle of origin: Ius sanguinis",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Greek Ministry of Foreign Affairs",
+          "title": "Greek Citizenship",
+          "url": "https://www.mfa.gr/usa/en/services/citizen-services/greek-citizenship/",
+          "archive": "",
+          "quote": "Greek citizenship is primarily acquired by descent from a Greek parent.",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        }
+      ]
+    },
+    {
+      "text": "Ireland gives citizenship by descent: a person with a grandparent born on the island of Ireland can be registered as an Irish citizen through the Foreign Births Register.",
+      "sources": [
+        {
+          "publisher": "Government of Ireland (Department of Foreign Affairs)",
+          "title": "Citizenship",
+          "url": "https://www.ireland.ie/en/dfa/citizenship/",
+          "archive": "",
+          "quote": "My grandparent was born on the island of Ireland. Am I an Irish citizen?",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "Lewis Silkin",
+          "title": "Irish citizenship by descent: the popular application for foreign birth registration",
+          "url": "https://www.lewissilkin.com/en/insights/2025/09/11/irish-citizenship-by-descent-the-popular-application-for-foreign-birth-registration",
+          "archive": "",
+          "quote": "while other jurisdictions are making moves to tighten the eligibility criteria for obtaining citizenship by descent, Ireland has remained steadfast to the requirements",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "Armenia grants citizenship to ethnic Armenians without a residency or language requirement.",
+      "sources": [
+        {
+          "publisher": "Armenian government (Ministry of Diaspora)",
+          "title": "Diaspora - Citizenship by Ethnicity",
+          "url": "https://diaspora.gov.am/en/pages/119",
+          "archive": "",
+          "quote": "Ethnic Armenians qualify for citizenship without having to meet any language or residency requirements.",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "GLOBALCIT",
+          "title": "New Amendments to the Citizenship Law of Armenia",
+          "url": "https://globalcit.eu/new-amendments-to-the-citizenship-law-of-armenia/",
+          "archive": "",
+          "quote": "the three-year residency and the language proficiency requirements are waived for persons of Armenian origin",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "The Palestinian Amended Basic Law (2003) says the Palestinian people are part of the Arab nation, that Islam is the official religion with respect for other divine religions, that Islamic Shari'a is a principal source of legislation, and that Arabic is the official language.",
+      "sources": [
+        {
+          "publisher": "Supreme Constitutional Court of Palestine",
+          "title": "The Palestinian Basic Law",
+          "url": "https://www.tscc.pna.ps/en/pages?id=palestinian_basic_law",
+          "archive": "",
+          "quote": "Islam is the official religion in Palestine. Respect for the sanctity of all other divine religions shall be maintained.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Palestine Legal Databases (security-legislation.ps)",
+          "title": "The Amended Basic Law of 2003",
+          "url": "https://security-legislation.ps/ar/latest-laws/%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D9%84%D8%A3%D8%B3%D8%A7%D8%B3%D9%8A-%D8%A7%D9%84%D9%85%D8%B9%D8%AF%D9%84-%D9%84%D8%B3%D9%86%D8%A9-2003%D9%85/",
+          "archive": "",
+          "quote": "Palestine is part of the larger Arab world, and the Palestinian people are part of the Arab nation.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "Israel's 1948 Declaration of Independence promised that the state would ensure complete equality of social and political rights to all its inhabitants irrespective of religion, race or sex, and would be open to Jewish immigration.",
+      "sources": [
+        {
+          "publisher": "Yale Law School, Avalon Project",
+          "title": "Declaration of the Establishment of the State of Israel",
+          "url": "https://avalon.law.yale.edu/20th_century/israel.asp",
+          "archive": "",
+          "quote": "it will ensure complete equality of social and political rights to all its inhabitants irrespective of religion, race or sex",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Israel Democracy Institute",
+          "title": "Nation-State Law Explainer",
+          "url": "https://en.idi.org.il/articles/24241",
+          "archive": "",
+          "quote": "it will ensure complete equality of social and political rights to all its inhabitants irrespective of religion, race or sex",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Institute for National Security Studies",
+          "title": "The Ramifications of the Nation State Law: Is Israeli Democracy at Risk?",
+          "url": "https://www.inss.org.il/publication/ramifications-nation-state-law-israeli-democracy-risk/",
+          "archive": "",
+          "quote": "it will ensure complete equality of social and political rights to all its inhabitants irrespective of religion, race or sex",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "The 2018 Nation-State Basic Law says the right to exercise national self-determination in Israel is unique to the Jewish people, makes Hebrew the state language and gives Arabic a special status, and encourages Jewish settlement.",
+      "sources": [
+        {
+          "publisher": "The Times of Israel",
+          "title": "Final text of Jewish nation-state law, approved by the Knesset early on July 19",
+          "url": "https://www.timesofisrael.com/final-text-of-jewish-nation-state-bill-set-to-become-law/",
+          "archive": "",
+          "quote": "The right to exercise national self-determination in the State of Israel is unique to the Jewish people.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Middle East Eye",
+          "title": "Read in full: Israel's Nation State of the Jewish People Law",
+          "url": "https://www.middleeasteye.net/news/read-full-israels-nation-state-jewish-people-law",
+          "archive": "",
+          "quote": "The Arabic language has a special status in the state",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Freedom House",
+          "title": "Israel: Freedom in the World 2023",
+          "url": "https://freedomhouse.org/country/israel/freedom-world/2023",
+          "archive": "",
+          "quote": "views the development of Jewish settlement as a national value",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "The Nation-State Law omits any mention of equality and democracy, which critics call a break from the Declaration; the Supreme Court held in 2021 that it does not negate Israel's democratic character, and an INSS analyst found nothing in it that explicitly permits discrimination.",
+      "sources": [
+        {
+          "publisher": "The New York Times",
+          "title": "Israeli Law Declares the Country the 'Nation-State of the Jewish People'",
+          "url": "https://www.nytimes.com/2018/07/19/world/middleeast/israel-law-jews-arabic.html",
+          "archive": "",
+          "quote": "omits any mention of democracy or the principle of equality",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Israel Democracy Institute",
+          "title": "Nation-State Law Explainer",
+          "url": "https://en.idi.org.il/articles/24241",
+          "archive": "",
+          "quote": "it excludes minorities, omits equality, ignores democracy and the Declaration of Independence",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Institute for National Security Studies",
+          "title": "The Ramifications of the Nation State Law",
+          "url": "https://www.inss.org.il/publication/ramifications-nation-state-law-israeli-democracy-risk/",
+          "archive": "",
+          "quote": "there is nothing explicit in the Law that permits discrimination against those who are not Jewish.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "In Freedom House's 2026 edition Israel scores 73 of 100 (Free) while the West Bank scores 22 (Not Free); V-Dem's 2025 liberal democracy index (0 to 1) puts Israel at 0.588.",
+      "sources": [
+        {
+          "publisher": "Freedom House",
+          "title": "Freedom in the World 2026: Israel",
+          "url": "https://freedomhouse.org/country/israel/freedom-world/2026",
+          "archive": "",
+          "quote": "population 9,558,000 Global Freedom Score 73 100 Free",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Freedom House",
+          "title": "Freedom in the World 2026: Israel (West Bank)",
+          "url": "https://freedomhouse.org/country/israel/freedom-world/2026",
+          "archive": "",
+          "quote": "West Bank 22 / 100 Not Free Gaza Strip 2 / 100 Not Free",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "V-Dem Institute via Nations Inquiry",
+          "title": "V-Dem Electoral Democracy Index, 2025",
+          "url": "https://nationsinquiry.com/datasets/vdem-democracy/2025/data.csv",
+          "archive": "",
+          "quote": "Israel,ISR,0.694,0.588,0.455,0.511,0.549 Slovenia,SVN,0.692,0.589,0.506,0.612,0.604 Argentina,ARG,0.69,0.524,0.429,0.41,0.5 Croatia,HRV,0.686,0.593,0.459,0.499,0.543 Colombia,COL,0.679,0.555,0.467,0.458,0.405",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "Comparison countries in Freedom House 2026 (out of 100): Ireland 98, Denmark 97, Germany 95, United Kingdom 92, Greece 85, Armenia 54 (Partly Free), Iran 10 and Saudi Arabia 9 (Not Free); V-Dem liberal democracy index 2025: Germany 0.782, Greece 0.568, Armenia 0.371, Saudi Arabia 0.047.",
+      "sources": [
+        {
+          "publisher": "Freedom House",
+          "title": "Freedom in the World 2026: Germany",
+          "url": "https://freedomhouse.org/country/germany/freedom-world/2026",
+          "archive": "",
+          "quote": "population 83,800,000 Global Freedom Score 95 100 Free",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Freedom House",
+          "title": "Freedom in the World 2026: Greece",
+          "url": "https://freedomhouse.org/country/greece/freedom-world/2026",
+          "archive": "",
+          "quote": "population 10,430,000 Global Freedom Score 85 100 Free",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Freedom House",
+          "title": "Freedom in the World 2026: Ireland",
+          "url": "https://freedomhouse.org/country/ireland/freedom-world/2026",
+          "archive": "",
+          "quote": "population 5,127,000 Global Freedom Score 98 100 Free",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Freedom House",
+          "title": "Freedom in the World 2026: Denmark",
+          "url": "https://freedomhouse.org/country/denmark/freedom-world/2026",
+          "archive": "",
+          "quote": "population 5,903,000 Global Freedom Score 97 100 Free",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Freedom House",
+          "title": "Freedom in the World 2026: United Kingdom",
+          "url": "https://freedomhouse.org/country/united-kingdom/freedom-world/2026",
+          "archive": "",
+          "quote": "population 66,970,000 Global Freedom Score 92 100 Free",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Freedom House",
+          "title": "Freedom in the World 2026: Armenia",
+          "url": "https://freedomhouse.org/country/armenia/freedom-world/2026",
+          "archive": "",
+          "quote": "population 2,780,000 Global Freedom Score 54 100 Partly Free",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Freedom House",
+          "title": "Freedom in the World 2026: Saudi Arabia",
+          "url": "https://freedomhouse.org/country/saudi-arabia/freedom-world/2026",
+          "archive": "",
+          "quote": "population 36,410,000 Global Freedom Score 9 100 Not Free",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Freedom House",
+          "title": "Freedom in the World 2026: Iran",
+          "url": "https://freedomhouse.org/country/iran/freedom-world/2026",
+          "archive": "",
+          "quote": "population 88,550,000 Global Freedom Score 10 100 Not Free",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "V-Dem Institute via Nations Inquiry",
+          "title": "V-Dem Electoral Democracy Index, 2025",
+          "url": "https://nationsinquiry.com/datasets/vdem-democracy/2025/data.csv",
+          "archive": "",
+          "quote": "Netherlands,NLD,0.832,0.774,0.553,0.742,0.739 Germany,DEU,0.828,0.782,0.593,0.79,0.766 Portugal,PRT,0.822,0.717,0.529,0.691,0.614 Spain,ESP,0.822,0.741,0.572,0.693,0.695 Japan,JPN,0.819,0.734,0.526,0.729,0.758",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "The Naturalization Act of 1790 limited naturalisation to free white persons.",
+      "sources": [
+        {
+          "publisher": "Migration Policy Institute",
+          "title": "Major U.S. Immigration Laws, 1790 - Present",
+          "url": "https://www.migrationpolicy.org/publication/major-us-immigration-laws-1790-present",
+          "archive": "",
+          "quote": "the 1790 Naturalization Act limited citizenship to free White persons",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "George Mason University, Institute for Immigration Research",
+          "title": "Historical Timeline of Immigration Policies",
+          "url": "https://iir.gmu.edu/historical-timeline-policies",
+          "archive": "",
+          "quote": "signed into law by President George Washington, this act defined eligibility for citizenship by naturalization to \"free white persons.\"",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "National Academies Press",
+          "title": "The Integration of Immigrants into American Society",
+          "url": "https://www.nationalacademies.org/read/21746/chapter/4",
+          "archive": "",
+          "quote": "restricted naturalization to any \"free white person\"",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "In the first century after the founding the federal government did little to regulate immigration; federal restriction began with the Chinese Exclusion Act of 1882 and the 1917 Act.",
+      "sources": [
+        {
+          "publisher": "National Academies Press",
+          "title": "The Integration of Immigrants into American Society",
+          "url": "https://www.nationalacademies.org/read/21746/chapter/4",
+          "archive": "",
+          "quote": "The federal government did little to regulate immigration, citizenship, and integration in the first century after the nation's founding.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Migration Policy Institute",
+          "title": "Major U.S. Immigration Laws, 1790 - Present",
+          "url": "https://www.migrationpolicy.org/publication/major-us-immigration-laws-1790-present",
+          "archive": "",
+          "quote": "the Chinese Exclusion Acts of 1882 onward marked the first laws restricting immigration by race",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "The Immigration Act of 1924 set national-origins quotas at two percent of each nationality in the 1890 census, favouring northern and western Europe and effectively barring Asian immigration.",
+      "sources": [
+        {
+          "publisher": "U.S. Department of State, Office of the Historian",
+          "title": "The Immigration Act of 1924 (The Johnson-Reed Act)",
+          "url": "https://history.state.gov/milestones/1921-1936/immigration-act",
+          "archive": "",
+          "quote": "The quota provided immigration visas to two percent of the total number of people of each nationality in the United States as of the 1890 national census",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "George Mason University, Institute for Immigration Research",
+          "title": "Historical Timeline of Immigration Policies",
+          "url": "https://iir.gmu.edu/historical-timeline-policies",
+          "archive": "",
+          "quote": "setting quotas at two percent of populations counted in the 1890 census and barring all \"aliens ineligible for citizenship\"",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "National Academies Press",
+          "title": "The Integration of Immigrants into American Society",
+          "url": "https://www.nationalacademies.org/read/21746/chapter/4",
+          "archive": "",
+          "quote": "Established strict national origin quotas restricting large-scale immigration from eastern and southern Europe and effectively barred Asian immigration",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "The 1952 Immigration and Nationality Act removed race-based bars to naturalisation but kept national-origins quotas; the 1965 Hart-Celler Act abolished those quotas and replaced them with a preference system based mainly on family ties and skills.",
+      "sources": [
+        {
+          "publisher": "George Mason University, Institute for Immigration Research",
+          "title": "Historical Timeline of Immigration Policies",
+          "url": "https://iir.gmu.edu/historical-timeline-policies",
+          "archive": "",
+          "quote": "Although President Harry S. Truman vetoed this Act, Congress overrode his veto.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "National Academies Press",
+          "title": "The Integration of Immigrants into American Society",
+          "url": "https://www.nationalacademies.org/read/21746/chapter/4",
+          "archive": "",
+          "quote": "Abolished national origin quotas; established a preference system based primarily on family reunification",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Migration Policy Institute",
+          "title": "Major U.S. Immigration Laws, 1790 - Present",
+          "url": "https://www.migrationpolicy.org/publication/major-us-immigration-laws-1790-present",
+          "archive": "",
+          "quote": "The landmark 1965 Hart-Cellar Act abolished the national-origins quota system",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "Two models dominate the scholarly debate: Sammy Smooha classes Israel as an 'ethnic democracy' (contrary to its self-image as a Western liberal democracy, the Jews appropriate the state, yet Israel extends rights to its Arab citizens), and Oren Yiftachel as an 'ethnocracy' that promotes the expansion of the dominant group in contested territory while keeping a democratic facade.",
+      "sources": [
+        {
+          "publisher": "Nations and Nationalism (Wiley), Sammy Smooha",
+          "title": "The model of ethnic democracy: Israel as a Jewish and democratic state",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/1469-8219.00062",
+          "archive": "",
+          "quote": "Contrary to its self-image and international reputation as a Western liberal democracy, Israel is an ethnic democracy",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Public Seminar",
+          "title": "Democracy in Israel/Palestine Today",
+          "url": "https://publicseminar.org/essays/democracy-in-israel-palestine-today/",
+          "archive": "",
+          "quote": "The first model for defining Israeli democracy is proffered by Sam Smooha and Ruth Gavison's notion of \"ethnic democracy,\"",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Public Seminar",
+          "title": "Democracy in Israel/Palestine Today",
+          "url": "https://publicseminar.org/essays/democracy-in-israel-palestine-today/",
+          "archive": "",
+          "quote": "Ethnocratic regimes promote the expansion of the dominant group in contested territory and its domination of power structures while maintaining a democratic façade",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    "How to classify Israel. Sammy Smooha: an 'ethnic democracy'. Oren Yiftachel: an 'ethnocracy' that keeps a democratic facade. Others, including many Israeli scholars Yiftachel lists, call it a liberal or constitutional democracy, and indices such as Freedom House and V-Dem classify Israel inside the Green Line as a democracy with flaws. Critics who say that a state defined as Jewish is racist (Warshawsky) or that it must be a theocracy or an apartheid state (Nusseibeh) argue from the definition; defenders point to equal citizenship in law and to the Supreme Court's 2021 ruling. The card reports who uses the word and why; it does not use it as its own description of any country.",
+    "The objection that Israel's case differs from Germany's or Greece's because Israel also rules millions of Palestinians in the West Bank who are not citizens and cannot vote in its elections; Freedom House rates the West Bank separately at 22 of 100. Defenders reply that the territory's status is disputed and tied to the conflict, and that citizens inside the Green Line have equal rights in law.",
+    "Whether the Law of Return is comparable to Germany's Article 116, Greece's homogeneis or Armenia's rules. Those provide citizenship by descent or ethnic tie, as does Israel's law, but differ in scope, history (Germany's was tied to postwar expulsions) and in whether the favoured group is also the dominant one in the state. How far each is 'the same' is a judgement, not a measurement.",
+    "Whether America was 'open' from the start. The 1790 law admitted only free white persons to citizenship, yet before 1882 federal law set almost no numerical limits; historians weigh these differently. The 1965 Act is the end of national-origins quotas, not of all restriction (it added the first numerical cap on the Western Hemisphere).",
+    "Freedom House and V-Dem are independent, but each makes judgement calls; the two disagree on some rankings (for example Greece against Israel)."
+  ],
+  "could_not_verify": [
+    "A source for England's established church (Church of England) that the checker could read; the United Kingdom is counted by Pew only.",
+    "Minority-rights-specific scores from an independent index for Israel against the comparison countries: Freedom House and V-Dem pages read give overall freedom and liberal democracy scores, not a minority-rights score. V-Dem's egalitarian index sits in the same CSV but was not quoted.",
+    "Three independent non-government sources for the Greek, Irish and Armenian descent rules, and for the Law of Return text on the Knesset's own site (the Knesset pages return nothing to the checker).",
+    "A readable primary text of the 1790 and 1965 Acts (the history.state.gov page for 1965 was not found); the facts rest on three secondary sources.",
+    "Yiftachel's own paper is a PDF the checker cannot read; his view is cited from Public Seminar and a journal abstract.",
+    "Some pages blocked the checker intermittently; see the warnings."
+  ],
+  "not_claimed": [
+    "That preferring one people or religion is harmless: it can disadvantage minorities, and several of these states have been criticised for it.",
+    "That other countries' practices make any specific Israeli law just, or any other country's law just.",
+    "That Israel is, or is not, a democracy in every respect; the card gives indices and the scholarly disagreement.",
+    "That the United States has never been, or is now, closed to immigration; it states what the laws said when."
+  ],
+  "status": "draft",
+  "content_approved": false
+}

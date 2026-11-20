@@ -1,0 +1,659 @@
+{
+  "id": "ch12-one-state-or-two-and-the-numbers",
+  "era": 12,
+  "claim": "Why not one democratic state for everyone?",
+  "heard": [
+    {
+      "who": "Edward Said, Palestinian scholar, in an Atlantic interview (1999)",
+      "url": "https://reason.com/?p=103014",
+      "quote": "One person, one vote, and let's have a truth and reconciliation commission.",
+      "archive": ""
+    },
+    {
+      "who": "Peter Beinart, writer, in Jewish Currents (2020)",
+      "url": "https://portside.org/node/23332/printable/print",
+      "quote": "It is time for liberal Zionists to abandon the goal of Jewish-Palestinian separation and embrace the goal of Jewish-Palestinian equality.",
+      "archive": ""
+    }
+  ],
+  "answer": "One state with equal votes would put Jews and Arabs at or near parity. Israel counts 7.79 million Jews and 'others' and 2.16 million Arabs; the Palestinian bureau counts 5.56 million in the West Bank and Gaza, East Jerusalem's Arabs in both. Yoram Ettinger of the American-Israel Demographic Research Group calls the Palestinian count inflated; DellaPergola and Soffer reject that. In DellaPergola's long-run 2024 projection, adding the West Bank to Israel leaves Jews about 60 percent, and adding Gaza just above 50. Israeli parties such as Yashar! say they cannot risk the Jewish majority; one-state advocates such as Said and Beinart ask for equal votes. Our reading: one state with equal votes risks a Jewish majority, annexation without votes denies equal rights, and two states on the 1967 lines would keep both at the price of a border; the numbers explain the choice, they do not make it.",
+  "facts": [
+    {
+      "text": "Inside Israel's own count, the Central Bureau of Statistics reported on the eve of Independence Day 2026 a population of 10.244 million: 7.790 million Jews and 'others' (76 percent), 2.157 million Arabs (21.1 percent) and about 296,000 foreigners. 'Others' are mainly immigrants under the Law of Return who are not Jews in the population register; Arabs include Muslims, Arab Christians and Druze.",
+      "sources": [
+        {
+          "publisher": "Israel Central Bureau of Statistics",
+          "title": "Israel's Independence Day 2026",
+          "url": "https://www.cbs.gov.il/he/mediarelease/DocLib/2026/117/11_26_117e.pdf",
+          "archive": "",
+          "quote": "7.790 million Jews and Others2 (76%)",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "Ynetnews",
+          "title": "Israel's population tops 10.2M ahead of Independence Day",
+          "url": "https://www.ynetnews.com/article/rkbifqza11l",
+          "archive": "",
+          "quote": "Another 2.157 million residents (21.1%) are Arabs",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Institute for National Security Studies (Sergio DellaPergola)",
+          "title": "The Future of Israeli and Jewish Demography",
+          "url": "https://www.inss.org.il/wp-content/uploads/2024/10/DellaPergola.pdf",
+          "archive": "",
+          "quote": "within the borders of the State of Israel, by the second half of the twenty-first century there should be a substantial Jewish majority of close to 80%",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "The Palestinian Central Bureau of Statistics estimates the State of Palestine's population at 5.56 million at the end of 2025, 3.43 million in the West Bank and 2.13 million in Gaza; the UN's humanitarian office puts Gaza's population at 2.1 million; and a UN report on settlements sets 3,256,942 Palestinians in the West Bank (Palestinian statistics bureau) beside 478,600 Israeli settlers there (Israel's statistics bureau).",
+      "sources": [
+        {
+          "publisher": "WAFA (Palestinian news agency), reporting PCBS",
+          "title": "Palestinians at the end of 2025",
+          "url": "https://english.wafa.ps/Pages/Details/165780",
+          "archive": "",
+          "quote": "the total Palestinian population now estimated at 5.56 million, including 3.43 million in the West Bank and 2.13 million in Gaza",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "UN Office for the Coordination of Humanitarian Affairs",
+          "title": "Occupied Palestinian Territory",
+          "url": "https://www.unocha.org/occupied-palestinian-territory",
+          "archive": "",
+          "quote": "Nearly all of Gaza's current population of 2.1 million people has been displaced",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "United Nations (report on Israeli settlements, 2023)",
+          "title": "One-Year Report on Israeli Settlements in the occupied West Bank",
+          "url": "https://www.un.org/unispal/wp-content/uploads/2024/08/One-Year-Report-on-Israeli-Settlements-in-the-occupied-West-Bank-including-East-Jerusalem-Reporting-period-January-December-2023.pdf",
+          "archive": "",
+          "quote": "According to the ICBS, there are 478,600 settlers living in the West Bank. While according to the Palestinian Central Bureau of Statistics there are 3,256,942 Palestinians in the West Bank.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "The Jerusalem Post (via INSS archive)",
+          "title": "Experts clash over Palestinian demographic statistics",
+          "url": "https://www.inss.org.il/he/wp-content/uploads/sites/2/systemfiles/Experts%20clash%20over%20Palestinian%20demographic%20statistics%20%20-%20Quoting%20Kobi%20Michael%20in%20The%20Jerusalem%20Post.pdf",
+          "archive": "",
+          "quote": "4.62 million live in the West Bank and Gaza, 1.46 million live in Israel",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "The two bureaus overlap: Israel counts the roughly 300,000 Arab residents of East Jerusalem in its own census, and the Palestinian bureau counts them in the West Bank, so adding the two totals double-counts them; this rests on Kobi Michael of the Institute for National Security Studies, who told the Jerusalem Post in 2015 that it seemed the Palestinian bureau's report had double-counted them.",
+      "sources": [
+        {
+          "publisher": "The Jerusalem Post (via INSS archive)",
+          "title": "Experts clash over Palestinian demographic statistics",
+          "url": "https://www.inss.org.il/he/wp-content/uploads/sites/2/systemfiles/Experts%20clash%20over%20Palestinian%20demographic%20statistics%20%20-%20Quoting%20Kobi%20Michael%20in%20The%20Jerusalem%20Post.pdf",
+          "archive": "",
+          "quote": "it seems the report had double-counted the Palestinian residents of Jerusalem (around 300,000), as Israel already counts them in its own census",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "United Nations (report on Israeli settlements, 2023)",
+          "title": "One-Year Report on Israeli Settlements in the occupied West Bank",
+          "url": "https://www.un.org/unispal/wp-content/uploads/2024/08/One-Year-Report-on-Israeli-Settlements-in-the-occupied-West-Bank-including-East-Jerusalem-Reporting-period-January-December-2023.pdf",
+          "archive": "",
+          "quote": "there are around 236,000 Israelis living in 12 settlements constructed in East Jerusalem",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "The Palestinian figures are disputed. In 2005-06 a study by the American Research Initiative, presented by the Jerusalem Center for Public Affairs, said the Palestinian Authority's population was 2.4 million, not the 3.8 million the PCBS reported; Yoram Ettinger, a member of the American-Israel Demographic Research Group, said in 2015 that the PCBS overstated the West Bank by 1.1 million. Demographers Sergio DellaPergola and Arnon Soffer rejected this: DellaPergola wrote in 2007 that the American Research Initiative's case rests on 'several assumptions, including that of a hugely exaggerated Palestinian base population', and Soffer accused Ettinger of drawing conclusions to serve a right-wing agenda.",
+      "sources": [
+        {
+          "publisher": "Jerusalem Center for Public Affairs (American Research Initiative presentation)",
+          "title": "What Is the True Demographic Picture in the West Bank and Gaza?",
+          "url": "https://jcfa.org/article/what-is-the-true-demographic-picture-in-the-west-bank-and-gaza-a-presentation-and-a-critique-2/",
+          "archive": "",
+          "quote": "we come to a final figure of 1.35 million in the West Bank and 1.07 million in Gaza, for a total of 2.4 million instead of 3.8 million claimed by the PA",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        },
+        {
+          "publisher": "The Jerusalem Post (via INSS archive)",
+          "title": "Experts clash over Palestinian demographic statistics",
+          "url": "https://www.inss.org.il/he/wp-content/uploads/sites/2/systemfiles/Experts%20clash%20over%20Palestinian%20demographic%20statistics%20%20-%20Quoting%20Kobi%20Michael%20in%20The%20Jerusalem%20Post.pdf",
+          "archive": "",
+          "quote": "the Palestinian bureau had overestimated the numbers in the West Bank by 1.1 million",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Azure (Sergio DellaPergola, Winter 2007)",
+          "title": "Sergio DellaPergola vs. the authors of \"Voodoo Demographics\"",
+          "url": "https://azure.org.il/article.php?id=29",
+          "archive": "",
+          "quote": "The authors' claim of the non-existence of serious erosion in the current Jewish-Palestinian demographic balance is based on several assumptions, including that of a hugely exaggerated Palestinian base population",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Berkley Center, Georgetown University",
+          "title": "A Demographic Time Bomb in the Middle East",
+          "url": "https://berkleycenter.georgetown.edu/essays/a-demographic-time-bomb-in-the-middle-east",
+          "archive": "",
+          "quote": "Soffer accused Ettinger of not basing his work on academic research, but instead drawing conclusions to serve a right-wing political agenda.",
+          "accessed": "2026-11-20",
+          "kind": "other"
+        }
+      ]
+    },
+    {
+      "text": "On the balance of Jews and Arabs between the river and the sea, DellaPergola told the Associated Press (the page is undated; the Knesset hearing it reports concerned Israeli military population figures) that there were about 6.9 million Jews and 6.5 million Arabs and that the gap would close within 15 to 20 years; his 2024 INSS study says that adding the whole West Bank to Israel would leave a Jewish majority of about 60 percent in the long run and adding Gaza as well would leave it 'just above 50%'.",
+      "sources": [
+        {
+          "publisher": "Ynetnews (Associated Press)",
+          "title": "Israeli expert backs stats pointing to Arab-Jewish parity",
+          "url": "https://www.ynetnews.com/article/5202187",
+          "archive": "",
+          "quote": "Della Pergola said that there are currently about 6.9 million Jews in the Holy Land-including Israel and the Palestinian-controlled territories-compared to 6.5 million Arabs.",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AP"
+        },
+        {
+          "publisher": "Institute for National Security Studies (Sergio DellaPergola)",
+          "title": "The Future of Israeli and Jewish Demography",
+          "url": "https://www.inss.org.il/wp-content/uploads/2024/10/DellaPergola.pdf",
+          "archive": "",
+          "quote": "If the territory and population of the Gaza Strip are also included, the Jewish majority falls to just above 50%",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Berkley Center, Georgetown University",
+          "title": "A Demographic Time Bomb in the Middle East",
+          "url": "https://berkleycenter.georgetown.edu/essays/a-demographic-time-bomb-in-the-middle-east",
+          "archive": "",
+          "quote": "Today, the percentage of Jews is 52% and in 2024 it will be just 48%.",
+          "accessed": "2026-11-20",
+          "kind": "other"
+        }
+      ]
+    },
+    {
+      "text": "One democratic state with equal votes, in its proponents' words: Edward Said said he did not believe in two states but in one, with 'one person, one vote'; Peter Beinart wrote that liberal Zionists should abandon the goal of Jewish-Palestinian separation for the goal of Jewish-Palestinian equality, naming confederation or a democratic binational state as routes.",
+      "sources": [
+        {
+          "publisher": "The Atlantic (Edward Said interview, reprinted by Reason)",
+          "title": "Beyond Nationalism",
+          "url": "https://reason.com/?p=103014",
+          "archive": "",
+          "quote": "I don't myself believe in a two-state solution. I believe in a one-state solution.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Jewish Currents (Peter Beinart, reprinted by Portside)",
+          "title": "A Jewish Case for Equality in Israel-Palestine",
+          "url": "https://portside.org/node/23332/printable/print",
+          "archive": "",
+          "quote": "It is time for liberal Zionists to abandon the goal of Jewish-Palestinian separation and embrace the goal of Jewish-Palestinian equality.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Palestinian Center for Policy and Survey Research and Tel Aviv University",
+          "title": "Palestine/Israel Pulse, September 2024",
+          "url": "https://pcpsr.org/sites/default/files/Summary%20Report_%20English_Joint%20Poll%2012%20Sept%202024.pdf",
+          "archive": "",
+          "quote": "support a one-state solution with equal rights for Jews and Palestinians",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "Annexation of the West Bank without full citizenship, in its proponents' words: Finance Minister Bezalel Smotrich proposed in September 2025 applying Israeli sovereignty to 82 percent of the West Bank, 'maximum land, minimum Arabs', keeping 'a clear Jewish majority' while Palestinians continue to govern themselves through the Palestinian Authority; he told Reuters he has 'no interest in letting them enjoy what the state of Israel has to offer'; MK Moshe Passal proposed that Arab residents of Judea and Samaria 'should vote for the Jordanian parliament'.",
+      "sources": [
+        {
+          "publisher": "JNS",
+          "title": "Israel could destroy PA like Hamas, Smotrich warns as he announces sovereignty plan",
+          "url": "https://www.jns.org/israel-could-destroy-pa-like-hamas-smotrich-warns-as-he-announces-sovereignty-plan/",
+          "archive": "",
+          "quote": "We will maintain a clear Jewish majority and a Jewish and democratic Israel",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Global News (Reuters)",
+          "title": "Israeli far-right minister says he is drawing up West Bank annexation maps",
+          "url": "https://globalnews.ca/news/11390391/israeli-far-right-minister-west-bank-annexation-maps",
+          "archive": "",
+          "quote": "I have no interest in letting them enjoy what the state of Israel has to offer.",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "Reuters"
+        },
+        {
+          "publisher": "Israel National News",
+          "title": "Knesset members respond to Bennett's remarks",
+          "url": "https://www.israelnationalnews.com/news/429074",
+          "archive": "",
+          "quote": "the Arab residents of Judea and Samaria should vote for the Jordanian parliament",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "A confederation of two sovereign states, in its proponents' words (the Israeli-Palestinian movement A Land for All): two independent, self-governing states joined in a confederation with freedom of movement and freedom of residence across the whole land, as against the classic two-state concept of separation.",
+      "sources": [
+        {
+          "publisher": "My Jewish Learning (A Land for All)",
+          "title": "A Land for All",
+          "url": "https://www.myjewishlearning.com/2020/11/25/a-land-for-all/",
+          "archive": "",
+          "quote": "This model envisions a type of confederation between two sovereign states.",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        },
+        {
+          "publisher": "The Jerusalem Post",
+          "title": "Nevertheless, a confederation",
+          "url": "https://jpost.com/Opinion/Nevertheless-a-confederation-552456",
+          "archive": "",
+          "quote": "A confederation, or a union, must include freedom of movement and open borders.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Jewish Currents (Peter Beinart, reprinted by Portside)",
+          "title": "A Jewish Case for Equality in Israel-Palestine",
+          "url": "https://portside.org/node/23332/printable/print",
+          "archive": "",
+          "quote": "from confederation to a democratic binational state",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "The standard two-state version is two states on the 1967 lines with mutually agreed swaps: President Obama said so in 2011, the 2000 Clinton Parameters proposed a Palestinian state in 94 to 96 percent of the West Bank with swaps, and the September 2025 UN declaration endorsed 142 to 10 calls for a sovereign, viable Palestinian state.",
+      "sources": [
+        {
+          "publisher": "White House (Obama administration archive)",
+          "title": "Remarks by the President on the Middle East and North Africa",
+          "url": "https://obamawhitehouse.archives.gov/the-press-office/2011/05/19/remarks-president-middle-east-and-north-africa",
+          "archive": "",
+          "quote": "We believe the borders of Israel and Palestine should be based on the 1967 lines with mutually agreed swaps",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "Council on Foreign Relations",
+          "title": "Middle East Peace Plans: Background",
+          "url": "https://www.cfr.org/backgrounders/middle-east-peace-plans-background",
+          "archive": "",
+          "quote": "The right for 80 percent of the West Bank settlers, most of whom live near the 1967 borders, to stay put.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "UN News",
+          "title": "General Assembly endorses New York Declaration on two-State solution",
+          "url": "https://news.un.org/en/story/2025/09/1165835",
+          "archive": "",
+          "quote": "the establishment of a Palestinian State that is both viable and sovereign",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "The New York Review of Books (Robert Malley)",
+          "title": "Israel and the Arafat Question",
+          "url": "https://www.nybooks.com/articles/2004/10/07/israel-and-the-arafat-question/",
+          "archive": "",
+          "quote": "According to the \"parameters,\" Israel would withdraw from the Gaza Strip and 94 to 96 percent of the West Bank.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "Israeli parties, asked by Ynet in 2026 what they would do about the West Bank, split: Yashar!, Beyachad, Amcha Yisrael and Religious Zionism oppose a Palestinian state; Religious Zionism-Zehut backs full sovereignty over Judea and Samaria; Otzma Yehudit backs full sovereignty and 'voluntary migration'; Yisrael Beytenu backs sovereignty over Area C; the Democrats seek separation as part of a regional move; Ra'am backs a negotiated two-state solution; Likud declined to answer.",
+      "sources": [
+        {
+          "publisher": "Ynetnews",
+          "title": "Annexation, settlements or separation: where Israel's parties stand on the West Bank",
+          "url": "https://www.ynetnews.com/article/h1dpvu9cgl",
+          "archive": "",
+          "quote": "Ra'am supports advancing a negotiated two-state solution in which a Palestinian state would be established alongside Israel.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Israel National News",
+          "title": "Knesset members respond to Bennett's remarks",
+          "url": "https://www.israelnationalnews.com/news/429074",
+          "archive": "",
+          "quote": "We will lead the application of sovereignty in Judea and Samaria and the Jordan Valley, cancel the Oslo Accords",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Yahoo News (Iona Cleave)",
+          "title": "Netanyahu's three options to block a two-state solution",
+          "url": "https://www.yahoo.com/news/articles/netanyahu-three-options-block-two-191440582.html",
+          "archive": "",
+          "quote": "hard-line ministers in his coalition, whose support Mr Netanyahu depends on, are not interested in waiting",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "On the Palestinian side the Palestinian Authority's president, Mahmoud Abbas, told the UN General Assembly in September 2025 that Palestine wants 'a modern and democratic State' and that Hamas would have no role in governing Gaza; Hamas's 2017 document accepts a state on the 1967 lines only as a stage, without recognising Israel; and the one-state view is held by writers such as Said, with poll support below that for two states.",
+      "sources": [
+        {
+          "publisher": "United Nations (General Assembly press release)",
+          "title": "General Debate, 25 September 2025",
+          "url": "https://www.un.org/unispal/document/unga80-general-debate-press-release-25sep25",
+          "archive": "",
+          "quote": "We want a modern and democratic State that abides by international law",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "BBC News",
+          "title": "New Hamas policy document 'aims to soften image'",
+          "url": "https://www.bbc.com/news/world-middle-east-39744551",
+          "archive": "",
+          "quote": "The document says this does not, however, mean Hamas recognises Israel's right to exist in any part of the land or that it no longer advocates violence against Israel.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "The Guardian",
+          "title": "Hamas presents new charter accepting a Palestine based on 1967 borders",
+          "url": "https://www.theguardian.com/world/2017/may/01/hamas-new-charter-palestine-israel-1967-borders",
+          "archive": "",
+          "quote": "accepting the idea of a Palestinian state in territories occupied by Israel in the six-day war of 1967",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "The polls: in the joint Pulse of 2024, 21 percent of Israeli Jews and 40 percent of Palestinians supported two states, a quarter of Palestinians and 14 percent of Israeli Jews supported one state with equal rights, and 42 percent of Israeli Jews supported 'annexation of the West Bank without equal rights for Palestinians'; in the Peace Index of November 2025, Jewish support for two states was 20 percent and for a binational state with equal rights 9 percent; in Gallup's 2026 survey 26 percent of Israelis and 32 percent of West Bank and East Jerusalem Palestinians supported two states; in the Palestinian Center's October 2025 poll, 47 percent of Palestinians preferred two states on the 1967 borders, 18 percent a confederation and 12 percent one state with equality.",
+      "sources": [
+        {
+          "publisher": "Palestinian Center for Policy and Survey Research and Tel Aviv University",
+          "title": "Palestine/Israel Pulse, September 2024",
+          "url": "https://pcpsr.org/sites/default/files/Summary%20Report_%20English_Joint%20Poll%2012%20Sept%202024.pdf",
+          "archive": "",
+          "quote": "Support among Israeli Jews for \"annexation of the West Bank without equal rights for Palestinians,\" stands today at 42%",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Tel Aviv University and Israel Democracy Institute",
+          "title": "Peace Index, November 2025",
+          "url": "https://en-social-sciences.tau.ac.il/sites/socsci-english.tau.ac.il/files/media_server/social/peaceindex/2025-11.pdf",
+          "archive": "",
+          "quote": "Support for a binational state with equal rights for Jews and Palestinians remains lowest (9%).",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Palestinian Center for Policy and Survey Research",
+          "title": "Poll 96, October 2025",
+          "url": "https://pcpsr.org/sites/default/files/Poll%2096%20press%20release%20FINAL%20ENGLISH%2028%20Oct%202025.pdf",
+          "archive": "",
+          "quote": "12% (10% in the West Bank and 14% in the Gaza Strip) prefer the establishment of a single state with equality between the two sides.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Gallup",
+          "title": "Most Israelis, Palestinians do not want two-state solution",
+          "url": "https://news.gallup.com/poll/715202/israelis-palestinians-not-two-state-solution.aspx",
+          "archive": "",
+          "quote": "relatively few Israelis (26%) and Palestinians living in the West Bank and East Jerusalem (32%) continue to say they support a two-state solution",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "In numbers, what each outcome means for a Jewish majority and for equal rights, by DellaPergola's 2024 projection (which uses the CBS intermediate scenario): Israel alone, about 80 percent Jewish, can be Jewish and democratic; with the whole West Bank added the Jewish share falls to about 60 percent, which he says makes a 'Jewish and democratic state uncertain' before a binational reality; with Gaza too it falls to just above 50 percent, which 'would end the project of the Jewish state'. Smotrich's plan reaches a Jewish majority by leaving Palestinian population centres outside Israeli sovereignty.",
+      "sources": [
+        {
+          "publisher": "Institute for National Security Studies (Sergio DellaPergola)",
+          "title": "The Future of Israeli and Jewish Demography",
+          "url": "https://www.inss.org.il/wp-content/uploads/2024/10/DellaPergola.pdf",
+          "archive": "",
+          "quote": "If all of the area and population of the West Bank are added to the territory of the State of Israel, the Jewish majority declines to 60%.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "JNS",
+          "title": "Israel could destroy PA like Hamas, Smotrich warns as he announces sovereignty plan",
+          "url": "https://www.jns.org/israel-could-destroy-pa-like-hamas-smotrich-warns-as-he-announces-sovereignty-plan/",
+          "archive": "",
+          "quote": "Under Smotrich's plan, Jerusalem's sovereignty would be extended to 82% of the area",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Ynetnews",
+          "title": "Annexation, settlements or separation: where Israel's parties stand on the West Bank",
+          "url": "https://www.ynetnews.com/article/h1dpvu9cgl",
+          "archive": "",
+          "quote": "Yashar! opposes moves that would endanger the Jewish majority in the State of Israel, something that would lead to a binational state.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    {
+      "text": "Whether a Jewish and democratic state can hold the whole territory without either giving the vote or denying it. DellaPergola: adding the West Bank keeps a Jewish majority but 'would render the idea of a Jewish and democratic state uncertain'. Smotrich: Israel can annex most of the land, keep a clear Jewish majority and stay Jewish and democratic because Palestinians would keep governing themselves through the Palestinian Authority. Critics such as the Joint List call that institutionalised apartheid, and Beinart argues that Israeli Jews' revealed preference is already one state in which millions lack basic rights.",
+      "sources": [
+        {
+          "publisher": "Institute for National Security Studies (Sergio DellaPergola)",
+          "title": "The Future of Israeli and Jewish Demography",
+          "url": "https://www.inss.org.il/wp-content/uploads/2024/10/DellaPergola.pdf",
+          "archive": "",
+          "quote": "render the idea of a Jewish and democratic state uncertain",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "JNS",
+          "title": "Smotrich announces sovereignty plan",
+          "url": "https://www.jns.org/israel-could-destroy-pa-like-hamas-smotrich-warns-as-he-announces-sovereignty-plan/",
+          "archive": "",
+          "quote": "The Arabs will continue to govern themselves through the Palestinian Authority",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Ynetnews (Joint List)",
+          "title": "Where Israel's parties stand on the West Bank",
+          "url": "https://www.ynetnews.com/article/h1dpvu9cgl",
+          "archive": "",
+          "quote": "amount to institutionalizing apartheid and Jewish supremacy beyond the Green Line",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Jewish Currents (Peter Beinart, reprinted by Portside)",
+          "title": "A Jewish Case for Equality in Israel-Palestine",
+          "url": "https://portside.org/node/23332/printable/print",
+          "archive": "",
+          "quote": "the revealed preference of Israeli Jews is clear: one state in which millions of Palestinians lack basic rights",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Whether the Palestinian numbers are inflated. The American Research Initiative and Yoram Ettinger say they are; DellaPergola says that case rests on a 'hugely exaggerated' base assumption and that the PCBS census is basically sound; Soffer accuses Ettinger of serving a political agenda. Kobi Michael holds that the PCBS numbers 'appear to be exaggerated' but that it does not matter much because Gaza should be excluded.",
+      "sources": [
+        {
+          "publisher": "Jerusalem Center for Public Affairs (American Research Initiative)",
+          "title": "What Is the True Demographic Picture in the West Bank and Gaza?",
+          "url": "https://jcfa.org/article/what-is-the-true-demographic-picture-in-the-west-bank-and-gaza-a-presentation-and-a-critique-2/",
+          "archive": "",
+          "quote": "A 1.4 million gap emerged, with our research indicating that the PA population is closer to 2.4 million than to the 3.8 million figure reported by the PCBS.",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        },
+        {
+          "publisher": "Azure (Sergio DellaPergola)",
+          "title": "DellaPergola vs. the authors of Voodoo Demographics",
+          "url": "https://azure.org.il/article.php?id=29",
+          "archive": "",
+          "quote": "Their conclusions confirm the basic soundness of the PCBS 1997 census",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "The Jerusalem Post (via INSS archive)",
+          "title": "Experts clash over Palestinian demographic statistics",
+          "url": "https://www.inss.org.il/he/wp-content/uploads/sites/2/systemfiles/Experts%20clash%20over%20Palestinian%20demographic%20statistics%20%20-%20Quoting%20Kobi%20Michael%20in%20The%20Jerusalem%20Post.pdf",
+          "archive": "",
+          "quote": "The number of Palestinians in Gaza should be excluded from the equation, because Israel has no presence there at all",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Who counts as 'Jewish'. Israel's bureau counts 'Jews and others' together; DellaPergola reports that on the core definition, without non-Jewish members of Jewish households and foreign workers, the Jewish share across the whole former Mandate was 49.8 percent in 2010.",
+      "sources": [
+        {
+          "publisher": "Berkley Center, Georgetown University",
+          "title": "A Demographic Time Bomb in the Middle East",
+          "url": "https://berkleycenter.georgetown.edu/essays/a-demographic-time-bomb-in-the-middle-east",
+          "archive": "",
+          "quote": "in 2010 there is no majority of Jews, by the core definition, over the whole territory of the former British Mandate plus the Golan Heights",
+          "accessed": "2026-11-20",
+          "kind": "other"
+        }
+      ]
+    },
+    {
+      "text": "What the publics want. Beinart cites pollster Khalil Shikaki: in 2011 twice as many Palestinians preferred two states to one, and in 2020 the options were virtually tied; the 2024 joint Pulse found support for one state with equal rights at about a quarter of Palestinians, behind two states at 40 percent.",
+      "sources": [
+        {
+          "publisher": "Jewish Currents (Peter Beinart, reprinted by Portside)",
+          "title": "A Jewish Case for Equality in Israel-Palestine",
+          "url": "https://portside.org/node/23332/printable/print",
+          "archive": "",
+          "quote": "In 2011, according to data shared with me by the Palestinian pollster Khalil Shikaki, twice as many Palestinians in the West Bank and Gaza preferred two states to one state.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Palestinian Center for Policy and Survey Research and Tel Aviv University",
+          "title": "Palestine/Israel Pulse, September 2024",
+          "url": "https://pcpsr.org/sites/default/files/Summary%20Report_%20English_Joint%20Poll%2012%20Sept%202024.pdf",
+          "archive": "",
+          "quote": "40% of Palestinians, compared to 33% in 2022 and 43% in 2020",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    }
+  ],
+  "could_not_verify": [
+    "The Palestinian bureau's own release: pcbs.gov.ps would not load for our fetcher, so the 5.56 million figure rests on the Palestinian news agency WAFA reporting it, and UN figures only for Gaza (2.1 million) and, through a UN report, for the West Bank in 2023. We did not find the UN Population Division's own table.",
+    "A current independent audit of the Palestinian count: DellaPergola's 2024 study uses his own Palestinian projection; a peer-reviewed audit of the PCBS census was mentioned in a search summary but not read.",
+    "The American-Israel Demographic Research Group's current (2024-26) estimate: we found its 2005-06 and 2015 claims only.",
+    "Soffer's own words: read only through the Georgetown Berkley Center and the Jerusalem Post. DellaPergola's 2013 AP figures (6.9 million Jews, 6.5 million Arabs) are on an undated page.",
+    "Parties' platforms: Likud declined to answer the Ynet questionnaire and its platform was not read; Fatah's own platform and Edward Said's New York Times article were not read (we cite his Atlantic interview); Smotrich's 2017 Decisive Plan text could not be reached, so we quote his 2025 statements; Hamas's text is on the earlier card.",
+    "Whether the Palestinian Authority or Fatah supports 1967 lines with swaps in its own words: the UN page quoting Abbas does not say so; we have no read Palestinian primary document on that.",
+    "Fewer than three reliable sources: the CBS fact has two plus a government source; the Palestinian count has two plus a Palestinian government source; the double-counting fact; the confederation fact (one news, one opinion, one advocacy); the one-state and annexation facts rest on interviews and opinion pieces by the proponents themselves, which is the point of the quote but is not independent confirmation.",
+    "Pew and Gallup polls on one state: neither asks the question; only the Pulse, the Peace Index and PCPSR do.",
+    "The Israeli right's one-state proposals with citizenship for Palestinians (annexation with equal rights) are not on the card, only annexation without votes; the card has no Fatah or Palestinian Authority statement on one state versus two beyond Abbas's UN speech.",
+    "The 2014 Palestinian bureau figures (4.62 million in the West Bank and Gaza) on the INSS/Jerusalem Post page are a different year from the 2025 figures on F1 and do not support them."
+  ],
+  "not_claimed": [
+    "The numbers do not decide what is just: a population's size does not settle whether its members should have equal rights, a state of their own, or a veto over the other's.",
+    "It does not claim that parity exists: the counts range from about 48 percent Jewish to about 60 percent depending on who counts, what is included (Gaza, East Jerusalem, 'others', foreign workers) and what year.",
+    "It does not say any party's position is the position of its voters, or that polls predict what any people will accept in practice.",
+    "It does not say Smotrich's plan is the Israeli government's policy, or that Said and Beinart speak for Palestinians or for Jews.",
+    "Listing who rejects which outcome does not by itself assign blame."
+  ],
+  "status": "draft",
+  "content_approved": false,
+  "answer_claims": [
+    {
+      "says": "One state with equal votes would put Jews and Arabs at or near parity.",
+      "facts": [
+        4,
+        12
+      ]
+    },
+    {
+      "says": "Israel counts 7.79 million Jews and 'others' and 2.16 million Arabs; the Palestinian bureau counts 5.56 million in the West Bank and Gaza, East Jerusalem's Arabs in both.",
+      "facts": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "says": "Yoram Ettinger of the American-Israel Demographic Research Group calls the Palestinian count inflated; DellaPergola and Soffer reject that.",
+      "facts": [
+        3
+      ]
+    },
+    {
+      "says": "In DellaPergola's long-run 2024 projection, adding the West Bank to Israel leaves Jews about 60 percent, and adding Gaza just above 50.",
+      "facts": [
+        4,
+        12
+      ]
+    },
+    {
+      "says": "Israeli parties such as Yashar! say they cannot risk the Jewish majority; one-state advocates such as Said and Beinart ask for equal votes.",
+      "facts": [
+        5,
+        9,
+        12
+      ]
+    },
+    {
+      "says": "Our reading: one state with equal votes risks a Jewish majority, annexation without votes denies equal rights, and two states on the 1967 lines would keep both at the price of a border; the numbers explain the choice, they do not make it.",
+      "facts": [
+        5,
+        6,
+        8,
+        12
+      ]
+    }
+  ],
+  "review": {
+    "skeptic": {
+      "verdict": "weakened",
+      "date": "2026-11-20",
+      "notes": "Read at least two sources per fact in context; all 54 quotes are on their pages. Who counted what: Israel's CBS counts 7.79 million 'Jews and others' (it includes non-Jewish immigrants and household members, not only Jews) and 2.157 million Arabs; the 5.56 million is the Palestinian bureau (PCBS) figure for end-2025 and the card could read it only through WAFA, a Palestinian government agency; every Palestinian figure on the card (WAFA, UN settlements report for the West Bank) traces to PCBS, and OCHA's 2.1 million is Gaza only and appears in a sentence about displacement, so F1 has one underlying source. The Israeli figure traces to CBS (F0 has CBS, Ynet quoting CBS, and DellaPergola using CBS projections). Parity check: 7.79 versus 2.16 + 5.56 minus about 0.3-0.4 million East Jerusalem Arabs counted twice (the claim rests on one hedged line by Kobi Michael, 2015, and is not confirmed by the UN page cited beside it) gives rough parity only if 'others' are counted as Jews, which the contested note about core definition says. The 'about half of the whole area' comes from a 2013-era AP page (undated) and Soffer's old projection, while the 60 percent and 'just above 50' are DellaPergola's 2024 long-run projection, so the answer mixes a present count and a projection; reworded to say 'long-run projection'. Strongest Palestinian objection: the card's annexation case is Smotrich and an unnamed backbencher; the Israeli right's annexation-with-citizenship proposals and Fatah/PA positions are absent, so 'which parties on each side back which outcome' is incomplete for the Palestinian side (Abbas's UN line and Hamas only). Strongest Israeli objection: the Palestinian count is disputed by Ettinger and the American Research Initiative (60 percent Jewish) and the card gives their case through an advocacy page and a hedged 2015 JPost quote, while the rebuttals (DellaPergola 2007, Soffer) are older; the card does not say the PCBS counts emigrants abroad as residents (Ettinger's 400,000 claim is on the JPost page). Fixed by me: Berkley Center essay is a blog repost by two named authors originally in the National Catholic Reporter, not scholarship; relabelled other, which leaves F3 and F4 with two reliable sources each. F7 has two reliable sources (My Jewish Learning is advocacy). F0 has two reliable (CBS is government). Wire: Ynet/AP and Global News/Reuters already marked. MUST-FIX: (1) Palestinian-side parties' positions from their own documents; (2) a current PCBS or UN Population Division source for 5.56 million; (3) third reliable sources for F0, F1, F3, F4, F7; (4) a second source for the East Jerusalem overlap; (5) an Israeli-right one-state-with-citizenship source."
+    },
+    "citer": {
+      "verdict": "holds",
+      "date": "2026-11-20",
+      "notes": "Split into six sentences, each tied to facts. Removed: 'Demographers DellaPergola and Soffer put Jews at about half of the whole area' (dated 2013-era pages, no fact carries a current figure; replaced by DellaPergola's 2024 projection, which F4 and F12 carry); 'Israelis say they cannot give up a Jewish majority, Palestinians equal rights' (the Palestinian half is not carried by any fact; reworded to what F9, F12, F5 carry); 'the American-Israel Demographic Research Group says' reworded to Ettinger, a member, as F3 states; the claim that two states 'keeps both' moved inside 'Our reading' since no fact asserts it. Answer within 150 words. Holds for the answer as worded; the card stays draft because the skeptic verdict is weakened."
+    }
+  }
+}

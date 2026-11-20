@@ -16,52 +16,20 @@
       "archive": ""
     }
   ],
-  "answer": "Hamas and other armed groups are reported to operate among civilians in Gaza. The UN human rights office reported allegations that they placed military objectives among civilians, and a West Point legal analysis says Hamas has tunnelled under schools, hospitals and mosques. UNRWA found weapons in its own schools in 2014 and 2020. Hamas denies using human shields. But the Red Cross says the law still binds the attacker: distinction, proportionality and precaution must be applied in practice, and attacks that would harm civilians excessively are not allowed. A UN commission and UN human rights office have found some Israeli attacks unlawful, and Israel rejects such findings. A parent can say: both things are documented, neither cancels the other, and each strike has to be judged on its own facts.",
+  "answer": "Hamas and other armed groups are accused of operating among civilians in Gaza. What UN bodies documented is limited: weapons stored in vacant UN schools in 2014, and, in this war, only allegations. The UN human rights office also said Israel mostly did not substantiate its human-shield claims. The Israeli army's claim about tunnels under UNRWA's headquarters has not been independently verified. The law says a defender's violations do not release the attacker from its duties to civilians. A UN commission found that Israel's use of heavy weapons was an intentional attack on civilians, and the UN human rights office found repeated violations in six strikes; Israel rejects both. A parent can say: the evidence on each side is of different strength, and each strike has to be judged on its own facts.",
   "facts": [
     {
-      "text": "The UN human rights office reported allegations that Palestinian armed groups placed military objectives among civilians in Gaza, and a West Point legal analysis says Hamas has tunnelled under schools, hospitals and mosques. The Israeli army says Hamas uses civilians as human shields; Hamas denies this.",
+      "text": "In the 2014 war, the UN Secretary-General and UNRWA reported weapons stored in vacant UN schools, which they condemned: UNRWA found about 20 rockets in one school in 2014 and, in 2020, a hand grenade and a military vest in another. The 2015 UN Commission of Inquiry also found that firing rockets from densely populated areas put Gazans in danger. These are documented by UN bodies themselves, but all trace to UN statements.",
       "sources": [
         {
-          "publisher": "UN Human Rights Office (via the UN Question of Palestine site)",
-          "title": "Update report on the human rights situation in Gaza: 1 November 2023 to 30 April 2024",
-          "url": "https://www.un.org/unispal/document/update-report-08nov24/",
+          "publisher": "UN Independent Commission of Inquiry on the 2014 Gaza conflict",
+          "title": "Report of the independent commission of inquiry established pursuant to Human Rights Council resolution S-21/1 (A/HRC/29/52)",
+          "url": "https://assets.documentcloud.org/documents/2108450/a-hrc-29-52-en.pdf",
           "archive": "",
-          "quote": "there were ongoing allegations that Palestinian armed groups intentionally co-located military objectives and civilians with the specific intent of trying to prevent the targeting of those military objectives",
+          "quote": "the three schools in which weaponry was found were empty at the time and were not being used as shelters",
           "accessed": "2026-11-20",
           "kind": "primary"
         },
-        {
-          "publisher": "Lieber Institute, West Point (Israel-Hamas 2023 Symposium)",
-          "title": "Targeting Gaza's Tunnels",
-          "url": "https://lieber.westpoint.edu/targeting-gazas-tunnels/",
-          "archive": "",
-          "quote": "Hamas has tunneled under and connected to protected sites such as schools, hospitals, and mosques.",
-          "accessed": "2026-11-20",
-          "kind": "scholarly"
-        },
-        {
-          "publisher": "RNZ (Reuters)",
-          "title": "How many Palestinians has Israel's Gaza offensive killed?",
-          "url": "https://www.rnz.co.nz/news/world/539107/how-many-palestinians-has-israel-s-gaza-offensive-killed",
-          "archive": "",
-          "quote": "It says Hamas uses Gaza's civilians as human shields by operating within densely populated areas, humanitarian zones, schools and hospitals, which Hamas denies.",
-          "accessed": "2026-11-20",
-          "kind": "news"
-        },
-        {
-          "publisher": "Amnesty International",
-          "title": "Palestinian armed groups killed civilians on both sides in attacks amounting to war crimes during 2014 Gaza conflict",
-          "url": "https://www.amnesty.org/en/latest/news/2015/03/palestinian-armed-groups-killed-civilians-on-both-sides-in-attacks-amounting-to-war-crimes-during-2014-gaza-conflict/",
-          "archive": "",
-          "quote": "storing rockets and other munitions in civilian buildings, including UN schools",
-          "accessed": "2026-11-20",
-          "kind": "advocacy"
-        }
-      ]
-    },
-    {
-      "text": "UNRWA itself reported finding about 20 rockets in a vacant school in 2014 and a hand grenade and a military vest in a vacant school in 2020, and condemned those responsible.",
-      "sources": [
         {
           "publisher": "UNRWA (via the UN Question of Palestine site)",
           "title": "UNRWA strongly condemns the placement of rockets in one of its schools in Gaza",
@@ -81,15 +49,6 @@
           "kind": "primary"
         },
         {
-          "publisher": "Ynetnews",
-          "title": "UNRWA finds rockets in one of its Gaza schools",
-          "url": "https://www.ynetnews.com/article/4545336",
-          "archive": "",
-          "quote": "UNRWA discovered approximately 20 rockets hidden in a vacant school in the Gaza Strip",
-          "accessed": "2026-11-20",
-          "kind": "news"
-        },
-        {
           "publisher": "JTA",
           "title": "Weapons found in third UN school in Gaza",
           "url": "https://www.jta.org/?p=894701",
@@ -97,6 +56,39 @@
           "quote": "a stockpile of weapons was discovered at a third United Nations school in the Gaza Strip",
           "accessed": "2026-11-20",
           "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "For the current war, what independent bodies report is allegation. The UN human rights office reported 'ongoing allegations' that Palestinian armed groups co-located military objectives and civilians, and also said that in most instances the Israeli army did not offer substantial evidence for its human-shield allegations and that the office could not verify them. Israel's army says Hamas operates within densely populated areas, humanitarian zones, schools and hospitals; Hamas denies it.",
+      "sources": [
+        {
+          "publisher": "UN Human Rights Office (via the UN Question of Palestine site)",
+          "title": "Six-month update report on the human rights situation in Gaza: 1 November 2023 to 30 April 2024",
+          "url": "https://www.un.org/unispal/document/update-report-08nov24/",
+          "archive": "",
+          "quote": "there were ongoing allegations that Palestinian armed groups intentionally co-located military objectives and civilians with the specific intent of trying to prevent the targeting of those military objectives",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "LBC",
+          "title": "Nearly 70% of Gaza dead are women and children, UN reports",
+          "url": "https://lbc.co.uk/news/nearly-70-of-gaza-dead-are-women-and-children-un-reports",
+          "archive": "",
+          "quote": "in most instances, the IDF did not offer substantial evidence to support their allegations [of the use of human shields], and OHCHR has not been able separately to verify them",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "RNZ (Reuters)",
+          "title": "How many Palestinians has Israel's Gaza offensive killed?",
+          "url": "https://www.rnz.co.nz/news/world/539107/how-many-palestinians-has-israel-s-gaza-offensive-killed",
+          "archive": "",
+          "quote": "It says Hamas uses Gaza's civilians as human shields by operating within densely populated areas, humanitarian zones, schools and hospitals, which Hamas denies.",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "Reuters"
         }
       ]
     },
@@ -128,12 +120,268 @@
           "archive": "",
           "quote": "said the agency had no knowledge of the facility's underground, but the findings merit an \"independent inquiry,\" which the agency is unable to perform due to the ongoing war",
           "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AP"
+        }
+      ]
+    },
+    {
+      "text": "The laws of war bind the attacker whatever the defender does. Additional Protocol I says that the presence of civilians must not be used to shield military objectives, and that a violation of that rule does not release the other party from its obligations to civilians, including precautions.",
+      "sources": [
+        {
+          "publisher": "United Nations Treaty Series",
+          "title": "Protocol Additional to the Geneva Conventions of 12 August 1949 (Protocol I), 1977",
+          "url": "https://treaties.un.org/doc/Publication/UNTS/Volume%201125/volume-1125-I-17512-English.pdf",
+          "archive": "",
+          "quote": "Any violation of these prohibitions shall not release the Parties to the conflict from their legal obligations with respect to the civilian population and civilians",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "International Committee of the Red Cross",
+          "title": "A statement on Gaza and Israel from the president of the ICRC",
+          "url": "https://www.icrc.org/en/document/statement-gaza-and-israel-president-icrc",
+          "archive": "",
+          "quote": "The principles of distinction, proportionality and precaution must be applied in practice to achieve their very purpose: that preserving civilian life and health is the rule, not the exception.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Lieber Institute, West Point (Israel-Hamas 2023 Symposium)",
+          "title": "Targeting Gaza's Tunnels",
+          "url": "https://lieber.westpoint.edu/targeting-gazas-tunnels/",
+          "archive": "",
+          "quote": "the law of armed conflict demands that the expected incidental loss of civilian life, injury to civilians, and damage to civilian objects must not be excessive",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "Using civilians as human shields is prohibited. A US military manual says the party that uses human shields assumes responsibility for their injury, but the attacker may share it if it fails to take feasible precautions. West Point scholars add that targeting a whole area because tunnels are believed to lie beneath it could be indiscriminate.",
+      "sources": [
+        {
+          "publisher": "United Nations Treaty Series",
+          "title": "Protocol Additional to the Geneva Conventions of 12 August 1949 (Protocol I), 1977",
+          "url": "https://treaties.un.org/doc/Publication/UNTS/Volume%201125/volume-1125-I-17512-English.pdf",
+          "archive": "",
+          "quote": "The presence or movements of the civilian population or individual civilians shall not be used to render certain points or areas immune from military operations",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Lawfare (Orde Kittrie, Arizona State University law professor)",
+          "title": "The Dangerous Failure to Hold Hamas Accountable for Using Human Shields",
+          "url": "https://www.lawfaremedia.org/article/the-dangerous-failure-to-hold-hamas-accountable-for-using-human-shields",
+          "archive": "",
+          "quote": "party that employs human shields in an attempt to shield military objectives from attack assumes responsibility for their injury, although the attacker may share this responsibility if it fails to take feasible precautions",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Lieber Institute, West Point (Israel-Hamas 2023 Symposium)",
+          "title": "Targeting Gaza's Tunnels",
+          "url": "https://lieber.westpoint.edu/targeting-gazas-tunnels/",
+          "archive": "",
+          "quote": "targeting an area because tunnels are believed to exist below could be viewed as indiscriminate.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "The UN Commission of Inquiry concluded in June 2024 that Israel committed war crimes and crimes against humanity in Gaza, including extermination, and that the intentional use of heavy weapons in densely populated areas was an intentional and direct attack on the civilian population.",
+      "sources": [
+        {
+          "publisher": "UN Commission of Inquiry (via the UN Question of Palestine site)",
+          "title": "Commission of Inquiry on the Occupied Palestinian Territory: war crimes by Israel and Hamas, 12 June 2024",
+          "url": "https://www.un.org/unispal/document/coi-war-crimes-isreal-hamas-gaza-12jun24",
+          "archive": "",
+          "quote": "the intentional use of heavy weapons with large destructive capacity in densely populated areas constitutes an intentional and direct attack on the civilian population",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "Israel's actions in Gaza 'intentional attack on civilians': UN inquiry",
+          "url": "https://www.aljazeera.com/news/2024/6/19/israels-actions-in-gaza-intentional-attack-on-civilians-un-inquiry",
+          "archive": "",
+          "quote": "the Israeli military's \"deliberate\" use of heavy weapons in the Gaza Strip has been an \"intentional and direct attack on the civilian population\"",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Philstar (AFP)",
+          "title": "UN probe accuses Israel of crimes against humanity, Hamas of war crimes",
+          "url": "https://philstar.com/world/2024/06/12/2362339/un-probe-accuses-israel-crimes-against-humanity-hamas-war-crimes",
+          "archive": "",
+          "quote": "a UN investigation concluded on Wednesday that Israel has committed crimes against humanity during the war in Gaza, including that of \"extermination\"",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AFP"
+        }
+      ]
+    },
+    {
+      "text": "The UN human rights office reviewed six Israeli strikes (October to December 2023) and said they indicated the army may have repeatedly violated fundamental principles of the laws of war; it verified 218 deaths in those strikes.",
+      "sources": [
+        {
+          "publisher": "UN Human Rights Office (via the UN Question of Palestine site)",
+          "title": "UN report: Israeli use of heavy bombs in Gaza raises serious concerns under the laws of war",
+          "url": "https://www.un.org/unispal/document/ohchr-thematic-report-indiscriminate-attacks-in-gaza-19jun24",
+          "archive": "",
+          "quote": "the IDF may have repeatedly violated fundamental principles of the laws of war",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "JusticeInfo.net (AFP)",
+          "title": "Israeli use of heavy bombs raise 'serious concerns' under laws of war: UN",
+          "url": "https://justiceinfo.net/en?p=133383",
+          "archive": "",
+          "quote": "Israel's repeated use of heavy bombs in the densely-populated Gaza Strip indicates repeated violations of the laws of war, the UN said Wednesday, highlighting six attacks that killed at least 218 people.",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AFP"
+        },
+        {
+          "publisher": "Daily Sabah (with agencies)",
+          "title": "UN rights office accuses Israel of violating laws of war in Gaza",
+          "url": "https://www.dailysabah.com/world/mid-east/un-rights-office-accuses-israel-of-violating-laws-of-war-in-gaza",
+          "archive": "",
+          "quote": "the requirement to select means and methods of warfare that avoid or at the very least minimise to every extent civilian harm appears to have been consistently violated in Israel's bombing campaign",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "UN News",
+          "title": "Laws of war likely 'consistently violated' in Israeli strikes on Gaza: UN rights office",
+          "url": "https://news.un.org/en/story/2024/06/1151196",
+          "archive": "",
+          "quote": "into six attacks that it has described as \"emblematic\" of Israeli tactics",
+          "accessed": "2026-11-20",
           "kind": "news"
         }
       ]
     },
     {
-      "text": "The laws of war bind the attacker whatever the defender does: the Red Cross says distinction, proportionality and precaution must be applied in practice, and expected incidental civilian harm must not be excessive.",
+      "text": "In November 2024 the UN human rights office reported 8,119 verified deaths from the war's first months and said the pattern indicated a systematic violation of the fundamental principles of international humanitarian law, including distinction and proportionality.",
+      "sources": [
+        {
+          "publisher": "CBC News (Reuters)",
+          "title": "UN count of Gaza war finds 70% of known victims are women, children",
+          "url": "https://amp.cbc.ca/lite/story/1.7377967",
+          "archive": "",
+          "quote": "this finding indicates \"a systematic violation of the fundamental principles of international humanitarian law, including distinction and proportionality,\" the UN rights office said in a statement accompanying the 32-page report",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "Reuters"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "Nearly 70 percent of deaths in Gaza are women and children: UN",
+          "url": "https://www.aljazeera.com/news/2024/11/8/nearly-70-percent-of-deaths-in-gaza-are-women-and-children-un",
+          "archive": "",
+          "quote": "having verified 8,119 of the more than 34,500 people reportedly killed during the first six months of Israel's war in Gaza",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "LBC",
+          "title": "Nearly 70% of Gaza dead are women and children, UN reports",
+          "url": "https://lbc.co.uk/news/nearly-70-of-gaza-dead-are-women-and-children-un-reports",
+          "archive": "",
+          "quote": "the United Nations verified 8,119 victims in total, 2,036 women and 3,588 children",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Israel rejected these findings. Its UN mission accused the Commission of 'systematic anti-Israeli discrimination', called the human rights office's analysis of six strikes 'factually, legally, and methodologically flawed', and said it categorically rejected the November 2024 report, which it said disregards the role of Hamas in deliberately causing civilian harm. Israel's army says it takes care to avoid harming civilians.",
+      "sources": [
+        {
+          "publisher": "Philstar (AFP)",
+          "title": "UN probe accuses Israel of crimes against humanity, Hamas of war crimes",
+          "url": "https://philstar.com/world/2024/06/12/2362339/un-probe-accuses-israel-crimes-against-humanity-hamas-war-crimes",
+          "archive": "",
+          "quote": "Israel rejected the conclusions by accusing the UN commission of \"systematic anti-Israeli discrimination\".",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AFP"
+        },
+        {
+          "publisher": "Daily Sabah (with agencies)",
+          "title": "UN rights office accuses Israel of violating laws of war in Gaza",
+          "url": "https://www.dailysabah.com/world/mid-east/un-rights-office-accuses-israel-of-violating-laws-of-war-in-gaza",
+          "archive": "",
+          "quote": "characterized the analysis as \"factually, legally, and methodologically flawed.\"",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "CBC News (Reuters)",
+          "title": "UN count of Gaza war finds 70% of known victims are women, children",
+          "url": "https://amp.cbc.ca/lite/story/1.7377967",
+          "archive": "",
+          "quote": "Israel's diplomatic mission to the UN in Geneva said it categorically rejected the report.",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "Reuters"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    {
+      "text": "The central dispute: the UN Commission of Inquiry (June 2024) found that Israel's 'deliberate' use of heavy weapons has been an 'intentional and direct attack on the civilian population' (Al Jazeera). Israel says it goes to great lengths to avoid civilian casualties and that Hamas uses civilians as human shields (Reuters).",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "title": "Israel's actions in Gaza 'intentional attack on civilians': UN inquiry",
+          "url": "https://www.aljazeera.com/news/2024/6/19/israels-actions-in-gaza-intentional-attack-on-civilians-un-inquiry",
+          "archive": "",
+          "quote": "the Israeli military's \"deliberate\" use of heavy weapons in the Gaza Strip has been an \"intentional and direct attack on the civilian population\"",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "RNZ (Reuters)",
+          "title": "How many Palestinians has Israel's Gaza offensive killed?",
+          "url": "https://www.rnz.co.nz/news/world/539107/how-many-palestinians-has-israel-s-gaza-offensive-killed",
+          "archive": "",
+          "quote": "The Israeli military says it goes to great lengths to avoid civilian casualties.",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "Reuters"
+        }
+      ]
+    },
+    {
+      "text": "Documented cases where investigators found Israeli strikes unlawful or likely unlawful: the UN human rights office (19 June 2024) reviewed six strikes between 9 October and 2 December 2023, verified 218 deaths, and said the requirement to minimise civilian harm 'appears to have been consistently violated' (OHCHR).",
+      "sources": [
+        {
+          "publisher": "UN Human Rights Office (via the UN Question of Palestine site)",
+          "title": "UN report: Israeli use of heavy bombs in Gaza raises serious concerns under the laws of war",
+          "url": "https://www.un.org/unispal/document/ohchr-thematic-report-indiscriminate-attacks-in-gaza-19jun24",
+          "archive": "",
+          "quote": "the requirement to select means and methods of warfare that avoid or at the very least minimise to every extent civilian harm appears to have been consistently violated in Israel's bombing campaign",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "UN Human Rights Office (via the UN Question of Palestine site)",
+          "title": "UN report: Israeli use of heavy bombs in Gaza raises serious concerns under the laws of war",
+          "url": "https://www.un.org/unispal/document/ohchr-thematic-report-indiscriminate-attacks-in-gaza-19jun24",
+          "archive": "",
+          "quote": "The UN Human Rights Office verified 218 deaths from these six attacks, and said information received indicated the number of fatalities could be much higher.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "Whether the number of dead proves intent: the law judges each attack by distinction, proportionality and precaution, and accepts that civilians may be harmed in attacks on military targets only within those limits (ICRC; West Point analysis). Amnesty infers intent from the scale and severity of casualties and destruction over time; the genocide question is on era5-genocide-claim.",
       "sources": [
         {
           "publisher": "International Committee of the Red Cross",
@@ -154,19 +402,38 @@
           "kind": "scholarly"
         },
         {
-          "publisher": "UN Human Rights Office (via the UN Question of Palestine site)",
-          "title": "UN report: Israeli use of heavy bombs in Gaza raises serious concerns under the laws of war",
-          "url": "https://www.un.org/unispal/document/ohchr-thematic-report-indiscriminate-attacks-in-gaza-19jun24",
+          "publisher": "Amnesty International",
+          "title": null,
+          "url": "https://www.amnesty.org/en/latest/news/2024/12/amnesty-international-concludes-israel-is-committing-genocide-against-palestinians-in-gaza/",
           "archive": "",
-          "quote": "Civilian lives and infrastructure are protected under IHL. This law lays out the very clear obligations of parties to armed conflicts that make protection of civilians a priority.",
+          "quote": "The organization considered the scale and severity of the casualties and destruction over time.",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "advocacy"
         }
       ]
     },
     {
-      "text": "Using civilians as human shields is prohibited, and a US military manual says the party that uses them assumes responsibility for their injury, but the attacker may share it if it fails to take feasible precautions. West Point scholars add that targeting a whole area because tunnels are believed to lie beneath it could be indiscriminate.",
+      "text": "Whether Hamas's use of civilian areas is deliberate: the UN human rights office reports 'allegations' and calls on armed groups to stop co-locating military objectives and civilians. Hamas denies using human shields (Reuters). Who bears responsibility is argued: Orde Kittrie (Arizona State University law professor and a senior fellow at the Foundation for Defense of Democracies, writing in Lawfare) says the party using human shields assumes responsibility for civilian injury, though the attacker may share it if it fails to take feasible precautions; the UN human rights office found Israeli precautions inadequate in the strikes it reviewed.",
       "sources": [
+        {
+          "publisher": "UN Human Rights Office (via the UN Question of Palestine site)",
+          "title": "Update report on the human rights situation in Gaza: 1 November 2023 to 30 April 2024",
+          "url": "https://www.un.org/unispal/document/update-report-08nov24/",
+          "archive": "",
+          "quote": "there were ongoing allegations that Palestinian armed groups intentionally co-located military objectives and civilians with the specific intent of trying to prevent the targeting of those military objectives",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "RNZ (Reuters)",
+          "title": "How many Palestinians has Israel's Gaza offensive killed?",
+          "url": "https://www.rnz.co.nz/news/world/539107/how-many-palestinians-has-israel-s-gaza-offensive-killed",
+          "archive": "",
+          "quote": "It says Hamas uses Gaza's civilians as human shields by operating within densely populated areas, humanitarian zones, schools and hospitals, which Hamas denies.",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "Reuters"
+        },
         {
           "publisher": "Lawfare (Orde Kittrie, Arizona State University law professor)",
           "title": "The Dangerous Failure to Hold Hamas Accountable for Using Human Shields",
@@ -175,41 +442,45 @@
           "quote": "party that employs human shields in an attempt to shield military objectives from attack assumes responsibility for their injury, although the attacker may share this responsibility if it fails to take feasible precautions",
           "accessed": "2026-11-20",
           "kind": "scholarly"
-        },
+        }
+      ]
+    },
+    {
+      "text": "Israel's army says it does not know how many civilians were killed (NBC News, May 2024); see era5-gaza-casualty-figures for the range of counts.",
+      "sources": [
         {
-          "publisher": "UN Human Rights Office (via the UN Question of Palestine site)",
-          "title": "Update report on the human rights situation in Gaza: 1 November 2023 to 30 April 2024",
-          "url": "https://www.un.org/unispal/document/update-report-08nov24/",
+          "publisher": "NBC News",
+          "title": "Gaza death toll, OCHA, UN confusion and anger",
+          "url": "https://www.nbcnews.com/news/world/gaza-death-toll-ocha-un-confusion-anger-rcna151934",
           "archive": "",
-          "quote": "ceasing the co-location of military objectives and civilians with intent to prevent targeting of military objectives, and taking all feasible precautions to avoid harm to civilians during hostilities",
+          "quote": "the military does not target civilians and also doesn't know how many have been killed",
           "accessed": "2026-11-20",
-          "kind": "primary"
-        },
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "A West Point legal analysis says that, as part of its defence strategy, Hamas has tunnelled under and connected to protected sites such as schools, hospitals and mosques. This is a scholar's statement, not a finding by a UN body or court, and the card does not treat it as documented.",
+      "sources": [
         {
           "publisher": "Lieber Institute, West Point (Israel-Hamas 2023 Symposium)",
           "title": "Targeting Gaza's Tunnels",
           "url": "https://lieber.westpoint.edu/targeting-gazas-tunnels/",
           "archive": "",
-          "quote": "targeting an area because tunnels are believed to exist below could be viewed as indiscriminate.",
+          "quote": "Hamas has tunneled under and connected to protected sites such as schools, hospitals, and mosques.",
           "accessed": "2026-11-20",
           "kind": "scholarly"
         }
       ]
     }
   ],
-  "contested": [
-    "The central dispute: the UN Commission of Inquiry (June 2024) found that Israeli authorities committed war crimes and crimes against humanity and described heavy-weapon use as an 'intentional and direct attack on the civilian population' (UN News; Al Jazeera). Israel rejects the Commission's findings and says it targets Hamas and takes steps to avoid civilian harm.",
-    "Documented cases where investigators found Israeli strikes unlawful or likely unlawful: the UN human rights office (19 June 2024) reviewed six strikes between 9 October and 2 December 2023, verified 218 deaths, and said the requirement to minimise civilian harm 'appears to have been consistently violated' (OHCHR).",
-    "Whether the number of dead proves intent: the law judges each attack by distinction, proportionality and precaution, and accepts that civilians may be harmed in attacks on military targets only within those limits (ICRC statement; West Point analysis). Amnesty and the UN Commission infer intent from the scale of harm and from statements; Israel and the US government reject the genocide inference (see era5-genocide-claim).",
-    "Whether Hamas's use of civilian areas is deliberate: the UN human rights office reports 'allegations' and calls on armed groups to stop co-locating military objectives and civilians. Hamas denies using human shields (Reuters). The legal duty of the attacker to take feasible precautions remains in dispute: Kittrie (Lawfare) argues Hamas bears responsibility; the UN human rights office finds Israeli precautions inadequate in the strikes it reviewed.",
-    "Israel says it does not know how many civilians were killed (NBC, May 2024); see era5-gaza-casualty-figures for the range of counts."
-  ],
   "could_not_verify": [
+    "I looked for findings by Human Rights Watch, Amnesty or the UN Commission that Hamas used human shields in the 2023-2026 war and found only the UN human rights office's reports of 'allegations'. For the 2014 war the independent record is the UN Secretary-General's and UNRWA's own statements; the Amnesty and Human Rights Watch statements on that war are advocacy sources and are not counted.",
+    "The Israeli army's claim about the tunnels under UNRWA's headquarters was not independently verified in any source I could read; UNRWA said it did not know what was beneath the site.",
     "The NATO Strategic Communications Centre of Excellence report on Hamas and human shields could not be read; it appears only as quoted by Lawfare, so I did not use it as a source.",
-    "I looked for findings by Human Rights Watch, Amnesty or the UN Commission that Hamas used human shields in the 2023-2026 war, and found only the UN human rights office's reports of 'allegations' and Human Rights Watch and Amnesty findings about earlier wars (2014).",
-    "The Israeli army's claim about the tunnels under UNRWA's headquarters was not independently verified in any source I could read.",
-    "I did not find an ICRC statement that speaks directly to the presence of fighters among civilians in Gaza; I cite its general overview of the laws of war.",
-    "I did not read the Israeli army's own investigations of individual strikes."
+    "Israel's reply to the June 2024 Commission report rests on AFP and UN News alone; I did not find a third independent report or the Israeli mission's own statement.",
+    "The OHCHR press release on the November 2024 verified-deaths report could not be fetched; the finding is cited from Al Jazeera, Reuters (via CBC) and LBC. LBC's quotation of the report on the army's evidence for human-shield claims has no second source.",
+    "I did not read the Israeli army's own investigations of individual strikes, or the Israeli mission's own statements."
   ],
   "not_claimed": [
     "This card does not say that Israel targets civilians, and does not say it does not; that is contested and has to be judged strike by strike.",
@@ -218,5 +489,68 @@
     "It does not say any particular strike was lawful or unlawful."
   ],
   "status": "draft",
-  "content_approved": false
+  "content_approved": false,
+  "answer_claims": [
+    {
+      "says": "Hamas and other armed groups are accused of operating among civilians in Gaza.",
+      "facts": [
+        1
+      ]
+    },
+    {
+      "says": "What UN bodies documented is limited: weapons stored in vacant UN schools in 2014, and, in this war, only allegations.",
+      "facts": [
+        0,
+        1
+      ]
+    },
+    {
+      "says": "The UN human rights office also said Israel mostly did not substantiate its human-shield claims.",
+      "facts": [
+        1
+      ]
+    },
+    {
+      "says": "The Israeli army's claim about tunnels under UNRWA's headquarters has not been independently verified.",
+      "facts": [
+        2
+      ]
+    },
+    {
+      "says": "The law says a defender's violations do not release the attacker from its duties to civilians.",
+      "facts": [
+        3,
+        4
+      ]
+    },
+    {
+      "says": "A UN commission found that Israel's use of heavy weapons was an intentional attack on civilians, and the UN human rights office found repeated violations in six strikes; Israel rejects both.",
+      "facts": [
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "says": "A parent can say: the evidence on each side is of different strength, and each strike has to be judged on its own facts.",
+      "facts": [
+        1,
+        4,
+        5,
+        6
+      ]
+    }
+  ],
+  "review": {
+    "skeptic": {
+      "verdict": "weakened",
+      "date": "2026-11-20",
+      "notes": "Read the OHCHR update and thematic report, ICRC statement, Lieber/West Point, Lawfare, UNRWA 2014 and 2020 statements, NPR/Jurist/AP on the UNRWA tunnels, RNZ/Reuters, Al Jazeera, Amnesty. Quotes are on the pages and the facts as worded hold. [must-fix] The card's claim is 'Israel deliberately targets civilians in Gaza, and the number killed proves it', but no fact tests it: the UN Commission of Inquiry's finding and the OHCHR report's finding (six strikes, 218 verified deaths, precaution 'consistently violated', and an IDF spokesperson reported as saying the focus is 'maximum damage' on the same page) and Israel's reply are only in contested, so the answer cannot carry them and reads as a defence of Israel's side. The writer must add facts for them, each with three reliable sources; the OHCHR thematic page and the Al Jazeera Commission report are already on the card. Strongest objection from critics of Israel (stronger): everything on the card for 'Hamas operates among civilians' is allegation (OHCHR's own word), a 2014 and 2020 UNRWA find in vacant schools, and an Israeli army claim about UNRWA tunnels that the card itself says was never verified; no finding from HRW, Amnesty or the Commission that Hamas used human shields in this war (the card's could_not_verify says so). Strongest objection from defenders: the answer leaves the UNRWA, tunnel and OHCHR 'allegation' evidence on equal footing with Commission findings and gives no weight to Hamas's stated tactics; I could not fix that from the cited pages. [should-fix] Fact 4 leans on one US-adviser commentary (Kittrie is a senior fellow at the Foundation for Defense of Democracies, an advocacy-leaning think tank, not stated on the card) for the human-shield rule; add the rule's primary source (Additional Protocol I art 51(7) or ICRC customary rule 97). [should-fix] Fact 0's third source (RNZ/Reuters) only reports Israel's claim and Hamas's denial; fact 1 is two UNRWA statements plus two outlets retelling the 2014 event, so one independent source. [nit] Lieber authors are US military law faculty; labelled scholarly, fine."
+    },
+    "citer": {
+      "verdict": "holds",
+      "date": "2026-11-20",
+      "notes": "Removed: 'A UN commission and UN human rights office have found some Israeli attacks unlawful, and Israel rejects such findings.' No fact on the card carries it (the findings are only in contested/heard); the writer must add facts so it can return, and the answer is weaker without it. Reworded 'UNRWA found weapons in its own schools' to 'vacant schools it ran', which is what the two UNRWA statements say. The closing 'each strike has to be judged on its own facts' is carried by facts 3 and 4 (proportionality per attack; targeting a whole area could be indiscriminate). Converted 4 of 5 contested entries to {text, sources}; contested[4] ('Israel says it does not know how many civilians were killed (NBC)') has no source on this card and stays a string; the writer should point to era5-gaza-casualty-figures with a source or drop it. Dropped from contested[0] 'Israel rejects the Commission's findings' (no quote on the card)."
+    }
+  }
 }

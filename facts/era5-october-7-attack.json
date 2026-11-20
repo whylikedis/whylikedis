@@ -16,7 +16,7 @@
       "archive": ""
     }
   ],
-  "answer": "On 7 October 2023 Hamas-led fighters attacked southern Israel. About 1,200 people were killed, most of them civilians, and about 250 were taken to Gaza as hostages. The counts come mainly from the Israeli government. Human Rights Watch, which has also criticised Israel's conduct in Gaza, found that the attackers committed war crimes and crimes against humanity, including murder of civilians and hostage-taking. A UN commission of inquiry found the same. A UN team led by Pramila Patten found reasonable grounds to believe sexual violence took place, but its visit was not a full investigation. Hamas calls the attack a defensive act and rejects these findings. A parent can say: groups that criticise Israel agree the attack was aimed at civilians. How the war that followed was fought is a separate question.",
+  "answer": "On 7 October 2023 Hamas-led fighters attacked southern Israel. About 1,200 people were killed, most of them civilians, and about 250 were taken to Gaza as hostages. The counts come mainly from the Israeli government. Human Rights Watch found that the attackers committed war crimes and crimes against humanity, including murder of civilians and hostage-taking. A UN commission of inquiry and the UN human rights office found war crimes. A UN team led by Pramila Patten found reasonable grounds to believe sexual violence took place, but its visit was not a full investigation. Hamas says its fighters targeted soldiers and that any harm to civilians was accidental. A parent can say: Amnesty International, which accuses Israel of genocide, also condemned the attack for deliberate mass killings and hostage-taking.",
   "facts": [
     {
       "text": "Between about 1,120 and 1,220 people were killed on 7 October 2023, depending on who counts and how; sources put it at roughly 1,200, most of them civilians. The counts come mainly from the Israeli government.",
@@ -64,7 +64,8 @@
           "archive": "",
           "quote": "The war began when Hamas-led militants killed around 1,200 people, mostly civilians, in the Oct. 7 attack and abducted 251 hostages.",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "news",
+          "wire": "AP"
         }
       ]
     },
@@ -87,7 +88,8 @@
           "archive": "",
           "quote": "The war began when Hamas-led militants killed around 1,200 people, mostly civilians, in the Oct. 7 attack and abducted 251 hostages.",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "news",
+          "wire": "AP"
         },
         {
           "publisher": "CBC News (Associated Press)",
@@ -96,7 +98,8 @@
           "archive": "",
           "quote": "which left about 1,200 people dead and some 250 others taken hostage.",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "news",
+          "wire": "AP"
         },
         {
           "publisher": "RNZ (Reuters)",
@@ -105,7 +108,18 @@
           "archive": "",
           "quote": "Israel says the militants killed more than 1200 people, mostly civilians, and took some 250 people into captivity in Gaza.",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "news",
+          "wire": "Reuters"
+        },
+        {
+          "publisher": "JusticeInfo.net (AFP)",
+          "title": "Israeli use of heavy bombs raise 'serious concerns' under laws of war: UN",
+          "url": "https://justiceinfo.net/en?p=133383",
+          "archive": "",
+          "quote": "The militants also seized 251 hostages.",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AFP"
         }
       ]
     },
@@ -156,6 +170,15 @@
           "quote": "The atrocity crimes committed on 7 October 2023 by Hamas and other armed groups against Israelis and victims of other nationalities, including deliberate mass killings and hostage-taking",
           "accessed": "2026-11-20",
           "kind": "advocacy"
+        },
+        {
+          "publisher": "PBS NewsHour",
+          "title": "Hamas committed crimes against humanity, war crimes on Oct. 7, Human Rights Watch says",
+          "url": "https://www.pbs.org/newshour/show/hamas-committed-crimes-against-humanity-war-crimes-on-oct-7-human-rights-watch-says",
+          "archive": "",
+          "quote": "a new report released by Human Rights Watch concludes that Hamas and other Palestinian armed groups committed war crimes and crimes against humanity during the Oct. 7 attacks last year",
+          "accessed": "2026-11-20",
+          "kind": "news"
         }
       ]
     },
@@ -178,7 +201,8 @@
           "archive": "",
           "quote": "there are \"reasonable grounds\" to believe Hamas committed rape",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "news",
+          "wire": "AP"
         },
         {
           "publisher": "NPR",
@@ -228,7 +252,8 @@
           "archive": "",
           "quote": "the team \"found clear and convincing information\" that some women and children during their captivity were subjected to the same conflict-related sexual violence",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "news",
+          "wire": "AP"
         }
       ]
     },
@@ -260,7 +285,8 @@
           "archive": "",
           "quote": "the team's visit was not to investigate allegations of sexual violence but to gather, analyze and verify information",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "news",
+          "wire": "AP"
         },
         {
           "publisher": "Al Jazeera",
@@ -272,14 +298,180 @@
           "kind": "news"
         }
       ]
+    },
+    {
+      "text": "Hamas's own account, in its document 'Our Narrative... Operation Al-Aqsa Flood' (21 January 2024), is that the operation targeted Israeli military sites and that its fighters 'only targeted the occupation soldiers and those who carried weapons'; it says avoiding harm to civilians is a religious and moral commitment, that any targeting of civilians happened accidentally, and that 'maybe some faults happened'. The findings in the other facts on this card contradict the claim that civilians were not targeted.",
+      "sources": [
+        {
+          "publisher": "Counter Extremism Project (reproducing Hamas's document)",
+          "title": "Hamas statement, January 21, 2024",
+          "url": "https://www.counterextremism.com/content/hamas-statement-january-21-2024-2",
+          "archive": "",
+          "quote": "the Palestinian fighters only targeted the occupation soldiers and those who carried weapons against our people",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        },
+        {
+          "publisher": "The Jewish Chronicle",
+          "title": "Hamas releases new document explaining motives for October 7",
+          "url": "https://thejc.com/news/israel/hamas-releases-new-document-explaining-motives-for-october-7-y3qnfaal",
+          "archive": "https://web.archive.org/web/20261028081356/https://www.thejc.com/news/israel/hamas-releases-new-document-explaining-motives-for-october-7-y3qnfaal",
+          "quote": "claims that Hamas terrorists avoided harming civilians during the October 7 massacre",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "The Times of Israel",
+          "title": "Against all evidence, Hamas claims to oppose harming women and children",
+          "url": "https://www.timesofisrael.com/against-all-evidence-hamas-claims-to-oppose-harming-women-and-children/",
+          "archive": "https://web.archive.org/web/20260601010208/https://www.timesofisrael.com/against-all-evidence-hamas-claims-to-oppose-harming-women-and-children/",
+          "quote": "due to the rapid collapse of the Israeli security and military system, and the chaos caused along the border areas with Gaza",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Al-Monitor (AFP)",
+          "title": "Hamas eyes post-war role in Palestinian politics",
+          "url": "https://www.al-monitor.com/originals/2024/01/hamas-eyes-post-war-role-palestinian-politics",
+          "archive": "",
+          "quote": "it also admits that \"maybe some faults happened\"",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AFP"
+        }
+      ]
     }
   ],
   "contested": [
-    "Hamas rejects the findings: it called the Human Rights Watch report full of 'lies and blatant bias' (Al Jazeera, 17 July 2024) and the UN sexual-violence report 'false claims' (Dawn, March 2024).",
-    "Counts differ by source. The Israeli government reported 1,195 deaths; the UN human rights office cited more than 1,124, including 295 military personnel; AFP put the figure at 1,219 (Channels TV, September 2025) and found 815 of 1,195 to be civilians (Human Rights Watch). The Hamas-run side has not published its own figures. The UN human rights office also reported that some Israeli civilians were killed by fire from Israeli forces during the fighting.",
-    "Some people were killed in fighting with Israeli forces. Human Rights Watch says that, where it could tell, only a minority of civilian deaths came from such fighting, and that it found no evidence for the claim that most deaths came from heavy weapons only Israeli forces use.",
-    "Human Rights Watch did not conclude that rape or other sexual violence was a crime against humanity on 7 October; it called for further investigation. The Patten mission's wording was 'reasonable grounds to believe', a lower standard than a court finding, and it said it met no survivors.",
-    "Whether the attack is described as resistance is a political argument. The documents above only establish what was done to civilians and under which legal categories experts classed it."
+    {
+      "text": "Hamas rejects the findings: it called the Human Rights Watch report full of 'lies and blatant bias' (Al Jazeera, 17 July 2024) and the UN sexual-violence report 'false claims' (Dawn, March 2024).",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "title": "Hamas rejects HRW accusation of war crimes in October 7 attack",
+          "url": "https://www.aljazeera.com/news/2024/7/17/hamas-committed-numerous-crimes-against-humanity-on-oct-7-hrw",
+          "archive": "",
+          "quote": "Hamas slammed the publication, saying it is full of \"lies and blatant bias\".",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Dawn (AFP)",
+          "title": "Hamas rejects UN report on 'sexual violence' in October 7 attacks",
+          "url": "https://www.dawn.com/news/1819387",
+          "archive": "",
+          "quote": "saying the findings were simply \"false claims\"",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Counts differ by source. The Israeli government reported 1,195 deaths; the UN human rights office cited more than 1,124, including 295 military personnel; AFP, in a count described by Human Rights Watch, found 815 of the 1,195 to be civilians and did not count soldiers, police or community security teams as civilians, although some police and rapid response members are civilians under the laws of war.",
+      "sources": [
+        {
+          "publisher": "Human Rights Watch",
+          "title": "Questions and Answers: Hamas-led Armed Groups' October 7, 2023 Assault on Israel",
+          "url": "https://www.hrw.org/news/2024/07/17/questions-and-answers-hamas-led-armed-groups-october-7-2023-assault-israel",
+          "archive": "",
+          "quote": "assessed that 815 of the 1,195 were civilians, including 79 foreign nationals.",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        },
+        {
+          "publisher": "UN Human Rights Office (via the UN Question of Palestine site)",
+          "title": "Update report on the human rights situation in Gaza: 1 November 2023 to 30 April 2024",
+          "url": "https://www.un.org/unispal/document/update-report-08nov24/",
+          "archive": "",
+          "quote": "More than 1,124 people were reportedly killed in the 7 October attacks, including 295 military personnel",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "Some people were killed by Israeli forces. The UN human rights office reported that some Israeli civilians were killed by fire from Israeli forces in the course of fighting, and the UN Commission of Inquiry reported that in several locations Israeli forces applied the so-called 'Hannibal directive' and killed at least 14 Israeli civilians. Human Rights Watch says that, where it could tell, only a minority of civilian deaths came from fighting with Israeli forces, and that it found no evidence for the claim that most deaths came from heavy weapons only Israeli forces use.",
+      "sources": [
+        {
+          "publisher": "UN Human Rights Office (via the UN Question of Palestine site)",
+          "title": "Update report on the human rights situation in Gaza: 1 November 2023 to 30 April 2024",
+          "url": "https://www.un.org/unispal/document/update-report-08nov24/",
+          "archive": "",
+          "quote": "reportedly, some Israeli civilians were killed by fire from Israeli forces in the course of fighting.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "UN News",
+          "title": "Gaza: Hamas, Israel committed war crimes, claims independent rights probe",
+          "url": "https://news.un.org/en/story/2024/06/1150946",
+          "archive": "",
+          "quote": "in several locations, ISF applied the so-called 'Hannibal directive' and killed at least 14 Israeli civilians.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Human Rights Watch",
+          "title": "Questions and Answers: Hamas-led Armed Groups' October 7, 2023 Assault on Israel",
+          "url": "https://www.hrw.org/news/2024/07/17/questions-and-answers-hamas-led-armed-groups-october-7-2023-assault-israel",
+          "archive": "",
+          "quote": "only a minority of civilian deaths resulted from fighting between Israeli armed forces and Palestinian armed groups, including by Israeli forces.",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        }
+      ]
+    },
+    {
+      "text": "Some accounts of sexual violence that circulated were not borne out. The Patten mission found that some accounts could not be verified or were outright unfounded, including several publicised in media reports, while it found reasonable grounds to believe rape occurred in at least three locations.",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "title": "A U.N. report finds 'reasonable grounds to believe' attacks in Israel included rapes",
+          "url": "https://npr.org/2024/03/04/1235824305/israel-sexual-assault-rape-hamas-attack-un-report",
+          "archive": "",
+          "quote": "some accounts of sexual violence could not be verified or were outright unfounded, including several that had been publicized in media reports.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Human Rights Watch did not conclude that rape or other sexual violence was a crime against humanity on 7 October; it called for further investigation. The Patten mission's wording was 'reasonable grounds to believe', a lower standard than a court finding, and it said it met no survivors.",
+      "sources": [
+        {
+          "publisher": "Human Rights Watch",
+          "title": "Questions and Answers: Hamas-led Armed Groups' October 7, 2023 Assault on Israel",
+          "url": "https://www.hrw.org/news/2024/07/17/questions-and-answers-hamas-led-armed-groups-october-7-2023-assault-israel",
+          "archive": "",
+          "quote": "There should be further investigation of other potential crimes against humanity",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        },
+        {
+          "publisher": "UN Special Representative of the Secretary-General on Sexual Violence in Conflict (via the UN Question of Palestine site)",
+          "title": "Official visit of the Special Representative of the Secretary-General on Sexual Violence in Conflict to Israel and the occupied West Bank, 29 January - 14 February 2024",
+          "url": "https://www.un.org/unispal/?p=294365",
+          "archive": "",
+          "quote": "it did not meet with any survivor/victim of sexual violence from 7 October despite concerted efforts encouraging them to come forward",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "Hamas describes the attack as a defensive act against occupation, a right it says international law gives it. Whether the attack is described as resistance is therefore a political and legal argument; the documents above only establish what was done to civilians and under which legal categories experts classed it.",
+      "sources": [
+        {
+          "publisher": "Counter Extremism Project (reproducing a Hamas statement)",
+          "title": "Hamas statement, January 21, 2024",
+          "url": "https://www.counterextremism.com/content/hamas-statement-january-21-2024-1",
+          "archive": "",
+          "quote": "It was a defensive act in the frame of getting rid of the Israeli occupation, reclaiming the Palestinian rights",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    }
   ],
   "not_claimed": [
     "This card does not say that every claim made about 7 October is proven; the Patten mission and Human Rights Watch both called for further investigation of sexual violence.",
@@ -292,6 +484,72 @@
   "could_not_verify": [
     "The UN Commission of Inquiry's full report on 7 October (PDF) could not be read; its findings are cited from UN News and the UN human rights office update report.",
     "The OHCHR press release on the Commission's June 2024 report could not be fetched.",
-    "I looked for a single independent count of how many of the 7 October dead were killed by Israeli fire and found only the passing statements in contested; no full accounting."
-  ]
+    "I looked for a single independent count of how many of the 7 October dead were killed by Israeli fire and found only the passing statements in contested; no full accounting.",
+    "Hamas's 'Our Narrative' document itself could not be read at a Hamas or primary host; its words are taken from excerpts reproduced by the Counter Extremism Project and from the Jewish Chronicle, Times of Israel and Al-Monitor (AFP). The Jewish Chronicle and Times of Israel pieces are critical in tone; the Al-Monitor piece also quotes analysts' views."
+  ],
+  "answer_claims": [
+    {
+      "says": "On 7 October 2023 Hamas-led fighters attacked southern Israel.",
+      "facts": [
+        0,
+        2
+      ]
+    },
+    {
+      "says": "About 1,200 people were killed, most of them civilians, and about 250 were taken to Gaza as hostages.",
+      "facts": [
+        0,
+        1
+      ]
+    },
+    {
+      "says": "The counts come mainly from the Israeli government.",
+      "facts": [
+        0
+      ]
+    },
+    {
+      "says": "Human Rights Watch found that the attackers committed war crimes and crimes against humanity, including murder of civilians and hostage-taking.",
+      "facts": [
+        2
+      ]
+    },
+    {
+      "says": "A UN commission of inquiry and the UN human rights office found war crimes.",
+      "facts": [
+        2
+      ]
+    },
+    {
+      "says": "A UN team led by Pramila Patten found reasonable grounds to believe sexual violence took place, but its visit was not a full investigation.",
+      "facts": [
+        3,
+        5
+      ]
+    },
+    {
+      "says": "Hamas says its fighters targeted soldiers and that any harm to civilians was accidental.",
+      "facts": [
+        6
+      ]
+    },
+    {
+      "says": "A parent can say: Amnesty International, which accuses Israel of genocide, also condemned the attack for deliberate mass killings and hostage-taking.",
+      "facts": [
+        2
+      ]
+    }
+  ],
+  "review": {
+    "skeptic": {
+      "verdict": "holds",
+      "date": "2026-11-20",
+      "notes": "Read 2+ sources per fact in context (HRW Q&A and report, UN News, OHCHR update, Patten report, NPR, CBC/AP, Al Jazeera, PBS/AP, Dawn, CEP). Every quote is on its page and supports the fact as worded. Strongest objection from critics of Israel (stronger one): the card was silent on the counter-evidence already on its own cited pages: the UN Commission's finding that Israeli forces applied the Hannibal directive and killed at least 14 Israeli civilians, and the Patten mission's finding that some publicised accounts of sexual violence were unfounded. I added both to 'contested' from those pages. Strongest objection from defenders of Israel: the card keeps Hamas's 'defensive act' framing and 'lies' rejections in view; the answer now says plainly that the counts are Israeli-government figures. Independence: fact 1 rests on two AP stories (PBS, CBC) plus Reuters (RNZ) plus HRW's own research, so about three voices, not four; fact 0 is Israeli government figures relayed by UN, HRW, NPR and AP, as the card says. [should-fix] The first 'heard' quote is Hamas's weaker line; the page also says 'It was a defensive act in the frame of getting rid of the Israeli occupation' (now in contested). [should-fix] A fact quoting Hamas's own position, so the answer can carry it. [should-fix] The strongest form of the 'resistance' claim (the right to armed struggle against occupation) and the legal answer (humanitarian law binds armed groups) is not a fact on the card. [nit] Amnesty source for fact 2 is a page about a genocide finding; it is honest but adds little independent weight."
+    },
+    "citer": {
+      "verdict": "holds",
+      "date": "2026-11-20",
+      "notes": "Removed: 'Human Rights Watch, which has also criticised Israel's conduct in Gaza' (no fact carries it); 'A UN commission of inquiry found the same' as crimes against humanity (the Commission and OHCHR sources say war crimes, OHCHR only 'may constitute' crimes against humanity; reworded to war crimes); 'Hamas calls the attack a defensive act and rejects these findings' (the position is in heard and contested, but no fact carries it; should-fix: writer adds a fact); 'How the war that followed was fought is a separate question' (framing, not a claim any fact supports; it remains in not_claimed). Reworded the closing sentence to what fact 2's Amnesty source carries. Converted all six contested entries to {text, sources}; dropped from the counts entry the unsourced 'Hamas-run side has not published its own figures' and the AFP 1,219 figure whose page is not a source on this card (writer may restore with a source)."
+    }
+  }
 }

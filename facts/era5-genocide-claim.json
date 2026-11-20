@@ -16,7 +16,7 @@
       "archive": ""
     }
   ],
-  "answer": "Genocide is a legal term, not just a strong word. The 1948 Genocide Convention defines it as certain acts, such as killing members of a group, committed with intent to destroy that group in whole or in part. Intent is the hard part to prove. In January 2024 the International Court of Justice ordered Israel to take measures to prevent such acts and did not order a ceasefire. It found plausible the Palestinians' right to be protected from genocide; its then-president later said it did not decide that the genocide claim itself was plausible. Amnesty International (December 2024) and a UN commission of inquiry (September 2025) concluded that Israel committed genocide. Israel and the US government reject this. The court has not ruled on the merits. A parent can say: the test is intent, serious bodies disagree, and no court has decided.",
+  "answer": "Genocide is a legal term. The 1948 Genocide Convention defines it as certain acts committed with intent to destroy a national, ethnic, racial or religious group, in whole or in part. In January 2024 the International Court of Justice ordered Israel to take measures to prevent such acts and did not order a ceasefire. It found plausible the Palestinians' right to be protected from genocide; its then-president later said it did not decide that the genocide claim itself was plausible. Courts require intent to be the only reasonable inference, and scholars disagree whether that is met. Amnesty International (December 2024) and a UN commission of inquiry (September 2025) concluded that Israel committed genocide. Israel and the US reject this. The court has not ruled on the merits.",
   "facts": [
     {
       "text": "The 1948 Genocide Convention defines genocide as listed acts committed with intent to destroy, in whole or in part, a national, ethnical, racial or religious group, as such.",
@@ -124,7 +124,39 @@
       ]
     },
     {
-      "text": "The court's then-president, Joan Donoghue, said in April 2024 that the court did not decide that the claim of genocide was plausible; it found a plausible right of Palestinians to be protected from genocide.",
+      "text": "The court itself said that, at this stage, it need only decide whether the rights South Africa claims are plausible, and legal commentators note that the court has not clearly defined the threshold and that the finding has been widely misquoted as a finding of 'plausible genocide'.",
+      "sources": [
+        {
+          "publisher": "International Court of Justice",
+          "title": "Order of 26 January 2024, South Africa v. Israel",
+          "url": "https://www.icj-cij.org/node/203447",
+          "archive": "",
+          "quote": "it need only decide whether the rights claimed by South Africa, and for which it is seeking protection, are plausible",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "EJIL: Talk! (Roy Schondorf)",
+          "title": "Implausible Confusion: The Meaning of 'Plausibility' in the ICJ's Provisional Measures",
+          "url": "https://www.ejiltalk.org/implausible-confusion-the-meaning-of-plausibility-in-the-icjs-provisional-measures/",
+          "archive": "",
+          "quote": "The Court's determination on \"plausibility\" appears to have given rise to significant confusion",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Just Security (Amichai Cohen and Yuval Shany)",
+          "title": "Between Rhetoric and Effects: The ICJ Provisional Measures Order in South Africa v. Israel",
+          "url": "https://www.justsecurity.org/91728/between-rhetoric-and-effects-the-icj-provisional-measures-order-in-south-africa-v-israel/",
+          "archive": "",
+          "quote": "The Court has not clearly articulated, to date, how plausibility is defined and how is it to be applied.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "The court's then-president, Joan Donoghue, said in an April 2024 BBC interview that the court did not decide that the claim of genocide was plausible; it found a plausible right of Palestinians to be protected from genocide. These outlets report the same interview, so it counts as one source.",
       "sources": [
         {
           "publisher": "The Jerusalem Post",
@@ -132,15 +164,6 @@
           "url": "https://jpost.com/israel-hamas-war/article-798766",
           "archive": "",
           "quote": "It did not decide, and this is something where I'm correcting something that's often said in the media. It did not decide that the claim of genocide was plausible.",
-          "accessed": "2026-11-20",
-          "kind": "news"
-        },
-        {
-          "publisher": "Ynetnews",
-          "title": "ICJ did not find claim Israel commits genocide plausible, former court president says",
-          "url": "https://www.ynetnews.com/article/sj00e9bkwc",
-          "archive": "",
-          "quote": "what the court did find is that there was a plausible right to present the claim and there was a risk of irreparable harm to Palestinian civilians",
           "accessed": "2026-11-20",
           "kind": "news"
         },
@@ -183,10 +206,11 @@
           "archive": "",
           "quote": "Amnesty International accused Israel of committing genocide in the Gaza Strip during its war with Hamas",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "news",
+          "wire": "AP"
         },
         {
-          "publisher": "CBC News (Associated Press)",
+          "publisher": "CBC News",
           "title": "Amnesty report concludes Israel's actions against Palestinians in Gaza constitute genocide",
           "url": "https://amp.cbc.ca/lite/story/1.7401842",
           "archive": "",
@@ -206,25 +230,53 @@
       ]
     },
     {
-      "text": "The UN Commission of Inquiry concluded in September 2025 that Israel has committed genocide in Gaza; the Commission says it does not speak for the UN as a whole.",
+      "text": "The UN Commission of Inquiry concluded in September 2025 that Israel has committed genocide in Gaza. It applies a 'reasonable grounds to conclude' standard of proof, is not a court, and says it does not speak for the UN as a whole.",
       "sources": [
         {
-          "publisher": "Polskie Radio (AFP)",
-          "title": "UN inquiry says Israel committed genocide in Gaza, Israel calls report 'scandalous'",
-          "url": "https://www.polskieradio.pl/395/7785/artykul/3580191,un-inquiry-says-israel-committed-genocide-in-gaza-israel-calls-report-&",
+          "publisher": "UN Human Rights Office (OHCHR), via the UN Question of Palestine site",
+          "title": "Israel has committed genocide in the Gaza Strip, UN Commission finds",
+          "url": "https://www.un.org/unispal/document/israel-has-committed-genocide-in-the-gaza-strip-un-commission-finds-16sep25/",
           "archive": "",
-          "quote": "a United Nations commission of inquiry said Tuesday Israel committed genocide in Gaza and that statements by top officials showed intent",
+          "quote": "Israel has committed genocide against Palestinians in the Gaza Strip, the UN Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel said in a new report today.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "UN Commission of Inquiry on the Occupied Palestinian Territory",
+          "title": "Legal analysis of the conduct of Israel in Gaza pursuant to the Convention on the Prevention and Punishment of the Crime of Genocide (A/HRC/60/CRP.3)",
+          "url": "https://www.ohchr.org/sites/default/files/documents/hrbodies/hrcouncil/sessions-regular/session60/advance-version/a-hrc-60-crp-3.pdf",
+          "archive": "",
+          "quote": "that is, 'reasonable grounds to conclude', in assessing the factual findings and conclusions",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "NPR",
+          "title": "A U.N. inquiry accuses Israel of genocide in Gaza, joining a rising chorus",
+          "url": "https://www.npr.org/2025/09/16/g-s1-89014/israel-gaza-genocide-un-inquiry",
+          "archive": "",
+          "quote": "neither the commission nor the 47-member-country council that it works for within the U.N. system can take action against a country",
           "accessed": "2026-11-20",
           "kind": "news"
         },
         {
-          "publisher": "Dawn (AFP)",
-          "title": "Israel rejects UN probe on Gaza 'genocide' as 'distorted and false'",
-          "url": "https://www.dawn.com/news/amp/1942391",
+          "publisher": "Al Jazeera",
+          "title": "UN inquiry says Israel's war on Gaza is genocide, holds gov't responsible",
+          "url": "https://aljazeera.com/news/2025/9/16/first-head-of-united-nations-body-declares-israels-gaza-war-a-genocide",
           "archive": "",
-          "quote": "a report by the UN Independent International Commission of Inquiry which determined that Israel has since October 2023 committed \"genocide\" in Gaza",
+          "quote": "using statements of Israeli officials and evidence on the ground, a UN report finds Israel is committing genocide",
           "accessed": "2026-11-20",
           "kind": "news"
+        },
+        {
+          "publisher": "CBC News (Reuters)",
+          "title": "UN inquiry finds that Israel has committed genocide in Gaza",
+          "url": "https://www.cbc.ca/lite/story/1.7634867",
+          "archive": "",
+          "quote": "a United Nations commission of inquiry report concluded Israel has committed genocide in Gaza, a finding emphatically denied by Israeli officials",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "Reuters"
         },
         {
           "publisher": "Channels Television (AFP)",
@@ -233,16 +285,81 @@
           "archive": "",
           "quote": "which does not speak on behalf of the world body, found that \"genocide is occurring in Gaza and is continuing to occur\"",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "news",
+          "wire": "AFP"
         }
       ]
     },
     {
-      "text": "Israel rejects the genocide finding: it told the ICJ the intent to destroy the Palestinian people has not been shown and that it acts to defend itself; its foreign ministry called the Commission's report 'distorted and false'; the US State Department called Amnesty's allegation 'unfounded'.",
+      "text": "International courts require genocidal intent to be the only reasonable inference from the evidence. The ICJ said so in Bosnia v. Serbia and again in Croatia v. Serbia, and the Commission of Inquiry says it applied this test.",
+      "sources": [
+        {
+          "publisher": "UN Commission of Inquiry on the Occupied Palestinian Territory",
+          "title": "Legal analysis of the conduct of Israel in Gaza pursuant to the Convention on the Prevention and Punishment of the Crime of Genocide (A/HRC/60/CRP.3)",
+          "url": "https://www.ohchr.org/sites/default/files/documents/hrbodies/hrcouncil/sessions-regular/session60/advance-version/a-hrc-60-crp-3.pdf",
+          "archive": "",
+          "quote": "in order to infer the existence of dolus specialis from a pattern of conduct, it is necessary and sufficient that this is the only inference that could reasonably be drawn from the acts in question.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Legal Tribune Online (LTO)",
+          "title": "International Legal Experts' Opinions: Is Israel Committing Genocide in the Gaza Strip?",
+          "url": "https://www.lto.de/recht/hintergruende/h/gaza-is-israel-committing-genocide-assessments-international-law-experts",
+          "archive": "",
+          "quote": "International courts have established a high standard of proof when it comes to proving genocidal intent: it must be the \"only reasonable inference\" that can be drawn from the evidence presented in the specific case.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Notre Dame Kroc Institute, Peace Policy",
+          "title": "The International Court of Justice and Genocide in Gaza",
+          "url": "https://peacepolicy.nd.edu/2024/02/27/the-international-court-of-justice-and-genocide-in-gaza/",
+          "archive": "",
+          "quote": "Specific intent sets a high bar; it is not enough simply to establish that the actions resulted in partial or complete group destruction.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "International law scholars disagree about whether that standard is met in Gaza, and about how strictly it should apply: Stefan Talmon (University of Bonn) says it has not yet been met, because vengeance or displacement are other possible inferences; others say the evidence is mounting or that the standard is an ordinary evidentiary rule rather than a bar.",
+      "sources": [
+        {
+          "publisher": "Legal Tribune Online (LTO)",
+          "title": "International Legal Experts' Opinions: Is Israel Committing Genocide in the Gaza Strip?",
+          "url": "https://www.lto.de/recht/hintergruende/h/gaza-is-israel-committing-genocide-assessments-international-law-experts",
+          "archive": "",
+          "quote": "Stefan Talmon, professor of international law at the University of Bonn, told Der Spiegel that the \"only reasonable inference\" standard has not yet been met in Gaza",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Notre Dame Kroc Institute, Peace Policy",
+          "title": "The International Court of Justice and Genocide in Gaza",
+          "url": "https://peacepolicy.nd.edu/2024/02/27/the-international-court-of-justice-and-genocide-in-gaza/",
+          "archive": "",
+          "quote": "Nevertheless, South Africa makes a compelling case.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "EJIL: Talk!",
+          "title": "Proving Genocide",
+          "url": "https://www.ejiltalk.org/proving-genocide/",
+          "archive": "",
+          "quote": "ORI is an evidentiary rule that is not in any way specific to genocide.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "Israel told the ICJ that the specific intent to destroy the Palestinian people has not been proved and that it acts in self-defence. It strongly denies the accusation and has called it baseless.",
       "sources": [
         {
           "publisher": "International Court of Justice",
-          "title": "Order of 26 January 2024, South Africa v. Israel (summary of Israel's argument)",
+          "title": "Order of 26 January 2024, South Africa v. Israel",
           "url": "https://www.icj-cij.org/node/203447",
           "archive": "",
           "quote": "the necessary specific intent to destroy, in whole or in part, the Palestinian people as such has not been proved, even on a prima facie basis",
@@ -250,20 +367,77 @@
           "kind": "primary"
         },
         {
+          "publisher": "Just Security (Amichai Cohen and Yuval Shany)",
+          "title": "Between Rhetoric and Effects: The ICJ Provisional Measures Order in South Africa v. Israel",
+          "url": "https://www.justsecurity.org/91728/between-rhetoric-and-effects-the-icj-provisional-measures-order-in-south-africa-v-israel/",
+          "archive": "",
+          "quote": "Israel allocated large segments of its oral arguments to justify the military operation as stemming from its right to self-defence and duty to protect its citizens from future attacks by Hamas",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "NPR",
+          "title": "A top U.N. court says Gaza genocide is 'plausible' but does not order cease-fire",
+          "url": "https://www.npr.org/2024/01/26/1227078791/icj-israel-genocide-gaza-palestinians-south-africa",
+          "archive": "",
+          "quote": "Israel strongly denies the accusation of genocide and has called it \"baseless.\"",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Israel rejected the Commission's September 2025 finding: its foreign ministry called the report 'distorted and false' and asked for the Commission to be abolished, and Israel did not take part in the inquiry.",
+      "sources": [
+        {
           "publisher": "Channels Television (AFP)",
           "title": "'Distorted and false': Israel rejects UN probe accusing it of genocide",
           "url": "https://www.channelstv.com/2025/09/16/distorted-and-false-israel-rejects-un-probe-accusing-it-of-genocide/",
           "archive": "",
           "quote": "Israel categorically rejects this distorted and false report and calls for the immediate abolition of this commission of inquiry",
           "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AFP"
+        },
+        {
+          "publisher": "CBC News (Reuters)",
+          "title": "UN inquiry finds that Israel has committed genocide in Gaza",
+          "url": "https://www.cbc.ca/lite/story/1.7634867",
+          "archive": "",
+          "quote": "Israel didn't participate in inquiry; its ambassador to Geneva calls finding a 'libellous rant'",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "Reuters"
+        },
+        {
+          "publisher": "NPR",
+          "title": "A U.N. inquiry accuses Israel of genocide in Gaza, joining a rising chorus",
+          "url": "https://www.npr.org/2025/09/16/g-s1-89014/israel-gaza-genocide-un-inquiry",
+          "archive": "",
+          "quote": "Israel rejected what it called a \"distorted and false\" report.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Israel rejected Amnesty's December 2024 report: its foreign ministry called it 'entirely false', and the Israeli military said the allegations are unfounded and ignore Hamas's use of civilians as human shields.",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "title": "Amnesty International accuses Israel of committing genocide in Gaza",
+          "url": "https://www.aljazeera.com/news/2024/12/5/amnesty-international-accuses-israel-of-committing-genocide-in-gaza",
+          "archive": "",
+          "quote": "Israel dismissed the Amnesty International report as \"entirely false\" on Thursday.",
+          "accessed": "2026-11-20",
           "kind": "news"
         },
         {
-          "publisher": "The Jakarta Post (AFP)",
-          "title": "US says Amnesty charge of 'genocide' by Israel 'unfounded'",
-          "url": "https://www.thejakartapost.com/world/2024/12/06/us-says-amnesty-charge-of-genocide-by-israel-unfounded",
+          "publisher": "CBC News",
+          "title": "Amnesty report concludes Israel's actions against Palestinians in Gaza constitute genocide",
+          "url": "https://amp.cbc.ca/lite/story/1.7401842",
           "archive": "",
-          "quote": "We have said previously and continue to find that the allegations of genocide are unfounded",
+          "quote": "called the report \"entirely false\" in a statement posted Thursday by its foreign affairs ministry",
           "accessed": "2026-11-20",
           "kind": "news"
         },
@@ -273,6 +447,41 @@
           "url": "https://www.voanews.com/a/amnesty-international-says-israel-committing-genocide-in-gaza/7888167.html",
           "archive": "",
           "quote": "allegations of genocide and intentional harm are not only unfounded but also ignore Hamas' violations of international law, including its use of civilians as human shields and its deliberate targeting of Israeli civilians",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AP"
+        }
+      ]
+    },
+    {
+      "text": "The US State Department said it disagreed with Amnesty's conclusion and found the allegations of genocide unfounded.",
+      "sources": [
+        {
+          "publisher": "Voice of America (Associated Press)",
+          "title": "Amnesty International accuses Israel of committing genocide in Gaza",
+          "url": "https://www.voanews.com/a/amnesty-international-says-israel-committing-genocide-in-gaza/7888167.html",
+          "archive": "",
+          "quote": "we have said previously and continue to find that the allegations of genocide are unfounded",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AP"
+        },
+        {
+          "publisher": "The Jakarta Post (AFP)",
+          "title": "US says Amnesty charge of 'genocide' by Israel 'unfounded'",
+          "url": "https://www.thejakartapost.com/world/2024/12/06/us-says-amnesty-charge-of-genocide-by-israel-unfounded",
+          "archive": "",
+          "quote": "We have said previously and continue to find that the allegations of genocide are unfounded",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AFP"
+        },
+        {
+          "publisher": "CBC News",
+          "title": "Amnesty report concludes Israel's actions against Palestinians in Gaza constitute genocide",
+          "url": "https://amp.cbc.ca/lite/story/1.7401842",
+          "archive": "",
+          "quote": "the United States, which has provided crucial military aid to Israel, said it believes Amnesty's allegations are \"unfounded.\"",
           "accessed": "2026-11-20",
           "kind": "news"
         }
@@ -321,13 +530,143 @@
     }
   ],
   "contested": [
-    "The strongest opposing finding is Israel's: at the ICJ it argued that the specific intent to destroy the Palestinian people has not been proved, that it acted in self-defence after 7 October, and that it took steps to limit civilian harm and allow aid (ICJ order of 26 January 2024, paragraph 24). The ICJ did not decide that argument.",
-    "Intent is the hard test. The ICJ's earlier case law (Bosnia v. Serbia) asks whether genocidal intent is the only reasonable inference from the conduct; the UN Commission says it applied that standard and met it. Stefan Talmon, professor of international law at Bonn, told Der Spiegel it has not yet been met, because other inferences such as vengeance or displacement are possible (LTO, 2025).",
-    "Amnesty answers that genocidal intent can exist alongside a military goal and need not be the only intent (Amnesty, 5 December 2024). Legal experts are divided on whether the standard is met.",
-    "Amnesty and the Commission of Inquiry are not courts. Their findings are not binding and the Commission says it does not speak for the UN as a whole. Only a court, such as the ICJ in this case, can decide a state's responsibility for genocide, and the case is at the written stage.",
-    "On the provisional order itself, the first measure passed by fifteen votes to two; the judges against were Julia Sebutinde and judge ad hoc Aharon Barak (ICJ order, operative clause).",
-    "The ICJ's word 'plausible' referred to the rights South Africa claims, which is a low threshold used at the provisional stage. Donoghue said the shorthand 'plausible genocide' is not what the court decided.",
-    "Amnesty International's own Israeli branch said the report had not proved genocidal intent; the Israeli military called the allegations unfounded (NPR/AP, 5 December 2024)."
+    {
+      "text": "The strongest opposing finding is Israel's: at the ICJ it argued that the specific intent to destroy the Palestinian people has not been proved, that it acted in self-defence after 7 October, and that it took steps to limit civilian harm and allow aid (ICJ order of 26 January 2024, paragraph 24). The ICJ did not decide that argument.",
+      "sources": [
+        {
+          "publisher": "International Court of Justice",
+          "title": "Order of 26 January 2024, South Africa v. Israel",
+          "url": "https://www.icj-cij.org/node/203447",
+          "archive": "",
+          "quote": "the necessary specific intent to destroy, in whole or in part, the Palestinian people as such has not been proved, even on a prima facie basis",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "Intent is the hard test, and the two sides frame it differently. Amnesty says that, looking at the whole pattern of Israel's conduct, genocidal intent is the only reasonable conclusion. Amnesty International Israel, a local branch that did not take part in the research, said the report had not proved genocidal intent beyond a reasonable doubt (AP).",
+      "sources": [
+        {
+          "publisher": "Amnesty International",
+          "title": "Amnesty International investigation concludes Israel is committing genocide against Palestinians in Gaza",
+          "url": "https://www.amnesty.org/en/latest/news/2024/12/amnesty-international-concludes-israel-is-committing-genocide-against-palestinians-in-gaza/",
+          "archive": "",
+          "quote": "in looking at the broader picture of Israel's military campaign and the cumulative impact of its policies and acts, genocidal intent is the only reasonable conclusion",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        },
+        {
+          "publisher": "NPR (Associated Press)",
+          "title": "Amnesty International accuses Israel of genocide against Palestinians in Gaza, which Israel strongly denies",
+          "url": "https://www.npr.org/2024/12/05/nx-s1-5217774/amnesty-accuses-israel-genocide-palestinians-gaza",
+          "archive": "",
+          "quote": "Amnesty International Israel said the report had not proved genocidal intent beyond a reasonable doubt.",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AP"
+        }
+      ]
+    },
+    {
+      "text": "Amnesty answers that genocidal intent can exist alongside a military goal and need not be the only intent (Amnesty, 5 December 2024).",
+      "sources": [
+        {
+          "publisher": "Amnesty International",
+          "title": "Amnesty International investigation concludes Israel is committing genocide against Palestinians in Gaza",
+          "url": "https://www.amnesty.org/en/latest/news/2024/12/amnesty-international-concludes-israel-is-committing-genocide-against-palestinians-in-gaza/",
+          "archive": "",
+          "quote": "genocidal intent can co-exist alongside military goals and does not need to be Israel's sole intent.",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        }
+      ]
+    },
+    {
+      "text": "The UN Commission of Inquiry says it does not speak on behalf of the UN as a whole. Whether a state is responsible for genocide is the question before the ICJ, where the written phase will run until at least 2029.",
+      "sources": [
+        {
+          "publisher": "Channels Television (AFP)",
+          "title": "'Distorted and false': Israel rejects UN probe accusing it of genocide",
+          "url": "https://www.channelstv.com/2025/09/16/distorted-and-false-israel-rejects-un-probe-accusing-it-of-genocide/",
+          "archive": "",
+          "quote": "which does not speak on behalf of the world body, found that \"genocide is occurring in Gaza and is continuing to occur\"",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AFP"
+        },
+        {
+          "publisher": "Mail & Guardian",
+          "title": "ICJ sets next phase of South Africa's Gaza genocide case",
+          "url": "https://mg.co.za/2026-06-03-icj-sets-next-phase-of-south-africa-s-gaza-genocide-case/",
+          "archive": "",
+          "quote": "the court has set a new timetable that will keep proceedings before judges in the Hague until at least 2029",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "On the provisional order itself, the first, second, fifth and sixth measures passed by fifteen votes to two (judge Sebutinde and judge ad hoc Barak against); the measures on preventing and punishing incitement to genocide and on basic services and humanitarian aid passed by sixteen votes to one, with only judge Sebutinde against (ICJ order, operative clause).",
+      "sources": [
+        {
+          "publisher": "International Court of Justice",
+          "title": "Order of 26 January 2024, South Africa v. Israel",
+          "url": "https://www.icj-cij.org/node/203447",
+          "archive": "",
+          "quote": "by fifteen votes to two, the State of Israel shall, in accordance with its obligations under the convention on the Prevention and Punishment of the Crime of Genocide",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "International Court of Justice",
+          "title": "Order of 26 January 2024, South Africa v. Israel",
+          "url": "https://www.icj-cij.org/node/203447",
+          "archive": "",
+          "quote": "by sixteen votes to one, the State of Israel shall take all measures within its power to prevent and punish the direct and public incitement to commit genocide",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "The ICJ's word 'plausible' referred to the rights South Africa claims, which is a low threshold used at the provisional stage. Donoghue said the shorthand 'plausible genocide' is not what the court decided.",
+      "sources": [
+        {
+          "publisher": "JNS",
+          "title": "Former top Hague judge: media wrong to report court ruled 'plausible' claim of Israeli genocide",
+          "url": "https://www.jns.org/former-top-hague-judge-media-wrong-to-report-court-ruled-plausible-claim-of-israeli-genocide/",
+          "archive": "",
+          "quote": "the test is the plausibility of the rights that are asserted by the applicant, in this case South Africa",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Statements by senior Israeli officials are central evidence of intent for those who say genocide is occurring. The ICJ's order took note of statements by Israel's defence minister, president and an energy minister, and of 37 UN special rapporteurs who voiced alarm at 'discernibly genocidal and dehumanising rhetoric'. Israeli officials have said such statements were taken out of context or referred to their stated goal of destroying Hamas, not Palestinian civilians (AP).",
+      "sources": [
+        {
+          "publisher": "International Court of Justice",
+          "title": "Order of 26 January 2024, South Africa v. Israel",
+          "url": "https://www.icj-cij.org/node/203447",
+          "archive": "",
+          "quote": "voiced alarm over \"discernibly genocidal and dehumanising rhetoric coming from senior Israeli government officials\"",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "NPR (Associated Press)",
+          "title": "Amnesty International accuses Israel of genocide against Palestinians in Gaza, which Israel strongly denies",
+          "url": "https://www.npr.org/2024/12/05/nx-s1-5217774/amnesty-accuses-israel-genocide-palestinians-gaza",
+          "archive": "",
+          "quote": "Israeli officials have previously said that such statements were taken out of context or referred to their stated goal of destroying Hamas, not Palestinian civilians.",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AP"
+        }
+      ]
+    }
   ],
   "not_claimed": [
     "This card does not say whether Israel is or is not committing genocide. It says what the word legally requires and where the case stands.",
@@ -338,10 +677,79 @@
   "status": "draft",
   "content_approved": false,
   "could_not_verify": [
-    "Joan Donoghue's BBC HARDtalk interview itself could not be read; her words are cited from the Jerusalem Post, Ynetnews, JNS and Joshua Rozenberg's page (the last is partly paywalled and gives only the headline point).",
-    "The UN genocide-prevention and ICRC pages carrying the Convention text could not be read; Article II is cited from Yale's Avalon Project, the ICJ order and Cornell LII.",
+    "Joan Donoghue's BBC HARDtalk interview could not be read or heard; her words are cited from the Jerusalem Post, JNS and Joshua Rozenberg's page, which all report the same interview and count as one source.",
+    "The ICJ's Bosnia v. Serbia and Croatia v. Serbia judgments could not be fetched; the 'only reasonable inference' standard is cited from the Commission's report (which quotes both), Legal Tribune Online and the Notre Dame piece.",
+    "I found Stefan Talmon's view only as reported by LTO, not in Der Spiegel itself.",
     "The ICJ's own page or press release for the May 2026 timetable order could not be read; the timetable is cited from The Citizen, Mail & Guardian and JNS, with the South African Presidency as a government voice.",
-    "I found Stefan Talmon's view only as reported by LTO (German), not at its original source in Der Spiegel.",
-    "The UN Commission's own press release at ohchr.org returns HTTP 403 and its archive copy loads only intermittently, so the September 2025 finding is cited from three news reports of it (Polskie Radio, Dawn, Channels TV; all AFP-based) rather than the primary page."
-  ]
+    "The Israeli government's own statements (foreign ministry post, the written pleadings) were not read at source; Israel's replies are cited through the ICJ order and news reports."
+  ],
+  "answer_claims": [
+    {
+      "says": "Genocide is a legal term.",
+      "facts": [
+        0
+      ]
+    },
+    {
+      "says": "The 1948 Genocide Convention defines it as certain acts committed with intent to destroy a national, ethnic, racial or religious group, in whole or in part.",
+      "facts": [
+        0
+      ]
+    },
+    {
+      "says": "In January 2024 the International Court of Justice ordered Israel to take measures to prevent such acts and did not order a ceasefire.",
+      "facts": [
+        2
+      ]
+    },
+    {
+      "says": "It found plausible the Palestinians' right to be protected from genocide; its then-president later said it did not decide that the genocide claim itself was plausible.",
+      "facts": [
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "says": "Courts require intent to be the only reasonable inference, and scholars disagree whether that is met.",
+      "facts": [
+        7,
+        8
+      ]
+    },
+    {
+      "says": "Amnesty International (December 2024) and a UN commission of inquiry (September 2025) concluded that Israel committed genocide.",
+      "facts": [
+        5,
+        6
+      ]
+    },
+    {
+      "says": "Israel and the US reject this.",
+      "facts": [
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "says": "The court has not ruled on the merits.",
+      "facts": [
+        13
+      ]
+    }
+  ],
+  "review": {
+    "skeptic": {
+      "verdict": "weakened",
+      "date": "2026-11-20",
+      "notes": "Read the ICJ order in full where cited, the Amnesty release, NPR/AP, CBC/AP, Channels/AFP, Dawn/AFP, Polskie Radio/AFP, Jakarta Post/AFP, VOA/AP, JPost, Ynet, JNS, Rozenberg, Just Security, EJIL, Mail & Guardian, JNS, Citizen. Quotes are on the pages and fact 0-4, 7 stand. [must-fix] Fact 5 (UN Commission of Inquiry found genocide) rests on three AFP-based reports (Polskie Radio, Dawn, Channels TV): one source. The Polskie Radio page also says the Commission found 'reasonable grounds to find' four of the five acts, a legal standard the fact and answer do not state. The writer needs the Commission's own page or report (ohchr.org) or an independent non-wire report. [should-fix] Fact 6 mixes three claims: Israel's ICJ argument (primary), the foreign ministry's 'distorted and false' (AFP only) and the US 'unfounded' (AFP and AP); the VOA quote is the Israeli military's, not the State Department's. Split or source each. [should-fix] Fact 3 (Donoghue) is one BBC interview reported by four outlets, three of them Israeli-leaning or paywalled; the interview itself was not read; Ynet misnames her court. [should-fix] Missing counter-evidence from critics of Israel (stronger attack): the ICJ order itself notes statements by Israel's defence minister, president and an energy minister and the UN rapporteurs' alarm at 'genocidal rhetoric' (paras 51-53), and orders on incitement and aid passed 16 to 1, with Barak in favour; the answer foregrounded Donoghue's walk-back and none of this. I added the statements and the vote split to contested from the order. The ICJ's later orders in 2024 and any scholars' bodies that side with the finding (for example genocide-studies associations) are not on the card: [should-fix] add facts. Missing from defenders: the card gives Israel's strongest argument (para 24) but 'intent not proved' appears only in contested, not as a fact; the Commission is three people and Israel disputes its method; no fact. Fixed contested: removed Stefan Talmon, 'Bosnia v. Serbia only-reasonable-inference' and 'the Commission says it applied that standard' (no source on the card; the only page on the card with the 'only reasonable conclusion' wording is Amnesty's own), and 'legal experts are divided' and 'only a court can decide' (no quote supports them). Writer: re-add Talmon with the LTO or Spiegel page as a source if wanted."
+    },
+    "citer": {
+      "verdict": "holds",
+      "date": "2026-11-20",
+      "notes": "Removed: 'Intent is the hard part to prove' (no fact says it; Israel's claim that intent is not proved is in fact 6, and Amnesty's contrary view in contested). Reworded the last sentence from 'the test is intent, serious bodies disagree, and no court has decided' to what facts 0, 4, 5, 6 and 7 carry: Amnesty and the commission say the test is met, Israel and the US say not, the ICJ has not ruled on the merits (fact 7 is about the ICJ only; 'no court' was broader than any fact). The sentence on the Commission rests on fact 5, which is still one wire story; this is a must-fix for the writer, not a wording problem. Converted all eight contested entries to {text, sources}; the answer now matches answer_claims at under 150 words (shortened 'not just a strong word', which no fact carries). The card states no conclusion of its own, so no 'our reading' label is needed."
+    }
+  }
 }

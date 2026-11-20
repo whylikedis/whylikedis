@@ -1,0 +1,375 @@
+{
+  "id": "era7-hamas-in-its-own-words",
+  "era": 7,
+  "claim": "'From the river to the sea' is a call for freedom, not for erasing Israel.",
+  "heard": [
+    {
+      "who": "Rashida Tlaib, US Representative, on X, November 2023 (reported by Michigan Advance)",
+      "url": "https://michiganadvance.com/2023/11/06/tlaib-stands-by-her-defense-of-pro-palestinanian-slogan-from-the-river-to-the-sea/",
+      "quote": "From the river to the sea is an aspirational call for freedom, human rights, and peaceful coexistence, not death, destruction, or hate",
+      "archive": ""
+    },
+    {
+      "who": "Maha Nassar, historian, University of Arizona, in The Conversation, 2023",
+      "url": "https://theconversation.com/from-the-river-to-the-sea-a-palestinian-historian-explores-the-meaning-and-intent-of-scrutinized-slogan-217491",
+      "quote": "it soon also came to represent the vision of a secular democratic state with equality for all.",
+      "archive": ""
+    }
+  ],
+  "answer": "Hamas's 1988 Covenant says the land of Palestine is a waqf that may not be given up, that peaceful solutions contradict its principles, and quotes a saying about fighting Jews. Its 2017 document is milder: it accepts a state on the 1967 lines as a 'formula of national consensus' and says its conflict is with Zionism, not with Jews. But it still says there shall be no recognition of Israel and rejects any alternative to liberating Palestine 'from the river to the sea'. After 7 October 2023 a Hamas leader said it would do it 'again and again'. Our reading: Hamas uses the phrase for a claim to all the land, with no recognition of Israel.",
+  "facts": [
+    {
+      "text": "The 1988 Hamas Covenant says Palestine is an Islamic waqf that may not be given up, and that peaceful solutions and international conferences contradict the movement's principles.",
+      "sources": [
+        {
+          "publisher": "Yale Law School, Avalon Project",
+          "title": "Hamas Covenant 1988",
+          "url": "https://avalon.law.yale.edu/20th_century/hamas.asp",
+          "archive": "",
+          "quote": "the land of Palestine is an Islamic Waqf consecrated for future Moslem generations until Judgement Day. It, or any part of it, should not be squandered: it, or any part of it, should not be given up.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Yale Law School, Avalon Project",
+          "title": "Hamas Covenant 1988",
+          "url": "https://avalon.law.yale.edu/20th_century/hamas.asp",
+          "archive": "",
+          "quote": "Initiatives, and so-called peaceful solutions and international conferences, are in contradiction to the principles of the Islamic Resistance Movement.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Council on Foreign Relations (via PBS NewsHour)",
+          "title": "Backgrounder: What is Hamas?",
+          "url": "https://www.pbs.org/newshour/world/hamas-backgrounder",
+          "archive": "",
+          "quote": "its founding charter commits the group to the destruction of Israel",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Middle East Institute",
+          "title": "Hamas",
+          "url": "https://mei.edu/backgrounder/hamas/",
+          "archive": "",
+          "quote": "calling for the creation of an Islamic state throughout mandatory Palestine and for the destruction of Israel",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "The 1988 Covenant opens with a quotation that Israel will exist 'until Islam will obliterate it', and says there is no solution to the Palestinian question except through jihad.",
+      "sources": [
+        {
+          "publisher": "Yale Law School, Avalon Project",
+          "title": "Hamas Covenant 1988",
+          "url": "https://avalon.law.yale.edu/20th_century/hamas.asp",
+          "archive": "",
+          "quote": "Israel will exist and will continue to exist until Islam will obliterate it, just as it obliterated others before it",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Yale Law School, Avalon Project",
+          "title": "Hamas Covenant 1988",
+          "url": "https://avalon.law.yale.edu/20th_century/hamas.asp",
+          "archive": "",
+          "quote": "There is no solution for the Palestinian question except through Jihad.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Council on Foreign Relations (via PBS NewsHour)",
+          "title": "Backgrounder: What is Hamas?",
+          "url": "https://www.pbs.org/newshour/world/hamas-backgrounder",
+          "archive": "",
+          "quote": "Hamas published its official charter in 1988, moving decidedly away from the Brotherhood's ethos of nonviolence.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Middle East Institute",
+          "title": "Hamas",
+          "url": "https://mei.edu/backgrounder/hamas/",
+          "archive": "",
+          "quote": "the group's founding 1988 charter contained anti-Zionist and antisemitic language, framing the Israeli-Palestinian conflict as a religious struggle",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "On Jews, the 1988 Covenant (Article 7) quotes a saying that the Day of Judgement will not come until Muslims fight and kill the Jews.",
+      "sources": [
+        {
+          "publisher": "Yale Law School, Avalon Project",
+          "title": "Hamas Covenant 1988",
+          "url": "https://avalon.law.yale.edu/20th_century/hamas.asp",
+          "archive": "",
+          "quote": "The Day of Judgement will not come about until Moslems fight the Jews (killing the Jews), when the Jew will hide behind stones and trees.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Middle East Institute",
+          "title": "Hamas",
+          "url": "https://mei.edu/backgrounder/hamas/",
+          "archive": "",
+          "quote": "the group's founding 1988 charter contained anti-Zionist and antisemitic language",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Wilson Center",
+          "title": "Doctrine of Hamas",
+          "url": "https://www.wilsoncenter.org/article/doctrine-hamas",
+          "archive": "",
+          "quote": "The updated platform also lacked some of the anti-semitic language of the 1988 charter.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "The 2017 document accepts a state on the 1967 lines 'without compromising its rejection of the Zionist entity', and states that there shall be no recognition of the legitimacy of the Zionist entity.",
+      "sources": [
+        {
+          "publisher": "Middle East Eye (full text of Hamas's 2017 document)",
+          "title": "Hamas 2017 document in full",
+          "url": "https://www.middleeasteye.net/news/hamas-2017-document-full",
+          "archive": "",
+          "quote": "without compromising its rejection of the Zionist entity and without relinquishing any Palestinian rights, Hamas considers the establishment of a fully sovereign and independent Palestinian state",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Middle East Eye (full text of Hamas's 2017 document)",
+          "title": "Hamas 2017 document in full",
+          "url": "https://www.middleeasteye.net/news/hamas-2017-document-full",
+          "archive": "",
+          "quote": "There shall be no recognition of the legitimacy of the Zionist entity.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "CNN",
+          "title": "Hamas presents new charter accepting a Palestine based on 1967 borders",
+          "url": "https://amp.cnn.com/cnn/2017/05/01/middleeast/hamas-charter-palestinian-israeli",
+          "archive": "",
+          "quote": "the new document offers no recognition of the legitimacy of the \"Zionist enemy,\" the term Hamas uses for Israel",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "Hamas accepts Palestinian state with 1967 borders",
+          "url": "https://www.aljazeera.com/amp/news/2017/05/hamas-accepts-palestinian-state-1967-borders-170501114309725.html",
+          "archive": "",
+          "quote": "accepts the formation of a Palestinian state along the 1967 borders, without recognising the statehood of Israel",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "The 2017 document also says Hamas's conflict is with the Zionist project, not with Jews because of their religion, and does not mention the Muslim Brotherhood; it still rejects any alternative to liberating all of Palestine 'from the river to the sea'.",
+      "sources": [
+        {
+          "publisher": "Middle East Eye (full text of Hamas's 2017 document)",
+          "title": "Hamas 2017 document in full",
+          "url": "https://www.middleeasteye.net/news/hamas-2017-document-full",
+          "archive": "",
+          "quote": "Hamas does not wage a struggle against the Jews because they are Jewish but wages a struggle against the Zionists who occupy Palestine.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Middle East Eye (full text of Hamas's 2017 document)",
+          "title": "Hamas 2017 document in full",
+          "url": "https://www.middleeasteye.net/news/hamas-2017-document-full",
+          "archive": "",
+          "quote": "Hamas rejects any alternative to the full and complete liberation of Palestine, from the river to the sea.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "Hamas accepts Palestinian state with 1967 borders",
+          "url": "https://www.aljazeera.com/amp/news/2017/05/hamas-accepts-palestinian-state-1967-borders-170501114309725.html",
+          "archive": "",
+          "quote": "while in the 1988 charter Hamas affirmed its ties to the Muslim Brotherhood by mentioning it six times, the new document asserted Hamas strict Palestinian credentials",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Institute for National Security Studies (INSS Insight 928)",
+          "title": "Hamas's New Statement of Principles: A Political Opportunity for Israel?",
+          "url": "https://www.inss.org.il/wp-content/uploads/2017/05/No.-928-.pdf",
+          "archive": "",
+          "quote": "Hamas still rejects any alternative to the liberation of all of Palestine, from the river to the sea.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "After 7 October 2023, Hamas politburo member Ghazi Hamad told Lebanese television the attack would be repeated: 'we will do this again and again'.",
+      "sources": [
+        {
+          "publisher": "Las Vegas Review-Journal",
+          "title": "Hamas official vows to repeat Oct. 7 attack: 'Everything we do is justified'",
+          "url": "https://www.reviewjournal.com/news/nation-and-world/hamas-official-vows-to-repeat-oct-7-attack-everything-we-do-is-justified-2932235",
+          "archive": "",
+          "quote": "We must teach Israel a lesson, and we will do this again and again.",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "Newsmax"
+        },
+        {
+          "publisher": "Ynetnews",
+          "title": "Hamas official: we will repeat Oct. 7 attacks over and over again until Israel annihilated",
+          "url": "https://www.ynetnews.com/article/r1y31101m6",
+          "archive": "",
+          "quote": "Hamas will continue to repeat the October 7 'Al-Aqsa Flood' operation",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "MEMRI"
+        },
+        {
+          "publisher": "The Jerusalem Post",
+          "title": "Hamas official Ghazi Hamad, NBC interview",
+          "url": "https://www.jpost.com/middle-east/article-771509",
+          "archive": "",
+          "quote": "he said that Hamas would repeat the events of October 7 over and over again",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "RNZ (from CNN)",
+          "title": "Senior Hamas official defends 'high price' of October 7 for Palestinians, saying it created 'golden moment'",
+          "url": "https://www.rnz.co.nz/news/world/574197/senior-hamas-official-defends-high-price-of-october-7-for-palestinians-saying-it-created-golden-moment",
+          "archive": "",
+          "quote": "I think this is a golden moment for the world to change the history",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    {
+      "text": "The 2017 document was a real moderation: it accepted a state on the 1967 lines, dropped Muslim Brotherhood language, and was meant to replace the old charter in practice.",
+      "sources": [
+        {
+          "publisher": "Brookings Doha Center (Beverley Milton-Edwards)",
+          "title": "Is Hamas re-branding to orient towards Egypt?",
+          "url": "https://www.brookings.edu/blog/markaz/2017/04/09/is-hamas-re-branding-to-orient-towards-egypt/",
+          "archive": "",
+          "quote": "the revised charter represents a form of moderating influence from leaders within Hamas that have held to pragmatic political positioning",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "Hamas accepts Palestinian state with 1967 borders",
+          "url": "https://www.aljazeera.com/amp/news/2017/05/hamas-accepts-palestinian-state-1967-borders-170501114309725.html",
+          "archive": "",
+          "quote": "the new document would \"practically\" replace the group's old charter",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "The 2017 document was not a real moderation: the 1967 state is a stage, and Hamas still refuses to recognise Israel or to give up any part of Palestine.",
+      "sources": [
+        {
+          "publisher": "Institute for National Security Studies (INSS Insight 928)",
+          "title": "Hamas's New Statement of Principles: A Political Opportunity for Israel?",
+          "url": "https://www.inss.org.il/wp-content/uploads/2017/05/No.-928-.pdf",
+          "archive": "",
+          "quote": "The inescapable conclusion is that one must not recognize Israel or grant it legitimacy, not even in exchange for the establishment of a Palestinian state.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "Hamas accepts Palestinian state with 1967 borders",
+          "url": "https://www.aljazeera.com/amp/news/2017/05/hamas-accepts-palestinian-state-1967-borders-170501114309725.html",
+          "archive": "",
+          "quote": "the moderates can say they accepted a Palestinian state on the 1967 borders, but the hardliners can still say they are not recognising Israel",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    }
+  ],
+  "could_not_verify": [
+    "The 2017 document's Arabic original and Hamas's own site; the English text is quoted from Middle East Eye's full publication, which is a news site.",
+    "Whether Hamas ever formally repealed the 1988 Covenant: no source read says it did, and Azzam Tamimi says the 2017 text would only 'practically' replace it.",
+    "The original LBC interview video of Ghazi Hamad (24 October 2023, in Arabic); quotes are from English news reports that rely on MEMRI's translation.",
+    "Statements by other Hamas leaders after 7 October; one 2025 Hamad interview is cited through RNZ (from CNN).",
+    "Scholars of the 2017 document: the RAND piece and a Times of Israel analysis could not be fetched. Each position in 'contested' rests on one think-tank paper and one quoted analyst in Al Jazeera.",
+    "Who translated the English texts: the Avalon page for the 1988 Covenant and Middle East Eye's 2017 text name no translator. In the Avalon text, '(killing the Jews)' in Article 7 is a parenthesis inside the English translation, not part of the quoted saying as such; a disputed rendering that the card does not rest on.",
+    "Ghazi Hamad's own words in Arabic. The Las Vegas Review-Journal item is a Newsmax story (declared as wire) and Ynetnews carries MEMRI's clip (declared as wire): MEMRI is an advocacy organisation, so three of the four sources for fact 5 rest on one interview and probably one translation; the Jerusalem Post is the only one that reports it in its own words, and it adds that Hamad 'largely deflected' when NBC asked him to clarify a week later.",
+    "Sources for facts 0 to 2 that carry the Covenant's specific articles: the Council on Foreign Relations, Middle East Institute and Wilson Center pages support only the general description of the 1988 charter, not the waqf, 'peaceful solutions' or Article 7 wording."
+  ],
+  "not_claimed": [
+    "This card does not say that Palestinians as a people, or the PLO, hold Hamas's views; it describes Hamas's documents only.",
+    "It does not say that everyone who chants the phrase endorses Hamas.",
+    "It does not say Hamas has not changed at all: the 2017 document differs from the 1988 one, and the card lists how.",
+    "It does not quote Hamas's statements as a verdict on the war; Hamas's own leaders' words are cited as they were reported."
+  ],
+  "status": "draft",
+  "content_approved": false,
+  "answer_claims": [
+    {
+      "says": "Hamas's 1988 Covenant says the land of Palestine is a waqf that may not be given up, that peaceful solutions contradict its principles, and quotes a saying about fighting Jews.",
+      "facts": [
+        0,
+        2
+      ]
+    },
+    {
+      "says": "Its 2017 document is milder: it accepts a state on the 1967 lines as a 'formula of national consensus' and says its conflict is with Zionism, not with Jews.",
+      "facts": [
+        3,
+        4
+      ]
+    },
+    {
+      "says": "But it still says there shall be no recognition of Israel and rejects any alternative to liberating Palestine 'from the river to the sea'.",
+      "facts": [
+        3,
+        4
+      ]
+    },
+    {
+      "says": "After 7 October 2023 a Hamas leader said it would do it 'again and again'.",
+      "facts": [
+        5
+      ]
+    },
+    {
+      "says": "Our reading: Hamas uses the phrase for a claim to all the land, with no recognition of Israel.",
+      "facts": [
+        3,
+        4
+      ]
+    }
+  ],
+  "review": {
+    "skeptic": {
+      "verdict": "weakened",
+      "date": "2026-11-20",
+      "notes": "Round 1. All quotes are on their pages and in context. Strongest objection from the chanting side: the 2017 document is quoted without its tone, but the card does carry the 1967-lines state, the 'not against Jews' paragraph and the Muslim Brotherhood change, and both scholarly readings sit in contested; fair. Strongest objection from the Jewish side: fact 5 (Hamad, 'again and again') rests on one LBCI interview and one translation (MEMRI, an advocacy group; Newsmax and Ynetnews copy it), the fourth source (RNZ/CNN 'golden moment', a 2025 interview) does not support the fact at all, and JPost adds that Hamad 'largely deflected' when NBC asked him about it (must-fix: replace the RNZ source with one that supports the quote, or reword the fact to the interview alone). Declared 'wire': Newsmax (Las Vegas Review-Journal reprint) and MEMRI (Ynetnews), so the gate counts them once each. Facts 0 to 2: the Covenant wording is verified on the Avalon page (the only source of the three that carries it); CFR, MEI and Wilson Center support the general description only (should-fix: find a second source for waqf, Article 13 and Article 7). Translation: the Avalon and Middle East Eye texts are unattributed translations; noted. 'accepts a state on the 1967 lines' is Al Jazeera's and CNN's verb; the text says Hamas 'considers' it 'a formula of national consensus' (nit). Verdict weakened because of fact 5, not because a quote is false."
+    },
+    "citer": {
+      "verdict": "holds",
+      "date": "2026-11-20",
+      "notes": "Removed: 'Scholars disagree whether 2017 was real moderation' (the disagreement is in contested, which is not a fact; no fact on the card carries it) and 'So when Hamas uses the phrase, it does not mean coexistence' (an inference stronger than the document, which also says Hamas does not fight Jews because they are Jewish): replaced by an 'Our reading' sentence limited to what facts 3 and 4 say. Remaining four sentences tie to facts 0 to 5."
+    }
+  }
+}

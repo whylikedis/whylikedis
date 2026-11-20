@@ -10,13 +10,13 @@
       "archive": ""
     },
     {
-      "who": "Marwan Barghouti, Palestinian National Initiative, on the Knesset vote, as quoted by Al Jazeera",
+      "who": "Mustafa Barghouti, secretary-general of the Palestinian National Initiative, on the Knesset vote, as quoted by Al Jazeera",
       "url": "https://www.aljazeera.com/news/2024/7/18/israels-knesset-votes-to-reject-palestinian-statehood",
       "quote": "This resolution represents a rejection of peace with Palestinians and an official declaration of the death of",
       "archive": ""
     }
   ],
-  "answer": "The claim is half right. Israel's Knesset voted 68 to 9 in July 2024 against a Palestinian state west of the Jordan, and in September 2025 Prime Minister Netanyahu said there will be none, so Israel's government is not offering one. But Israel is not the only obstacle. Hamas's 2017 document accepts a state on the 1967 lines only as a stage, without recognising Israel or giving up armed struggle, and the Palestinian Authority, which has pledged to disarm Hamas and hold elections, lost Gaza to Hamas in 2007. Many countries recognised Palestine in 2024-25 and 142 states backed the UN's two-state declaration, yet Gallup finds only 26 percent of Israelis and 32 percent of West Bank Palestinians support two states. Our reading: two states remain the declared goal of the Palestinian Authority and most of the world, but neither the Israeli government nor Hamas accepts it.",
+  "answer": "Israel's Knesset voted 68 to 9 in July 2024 against a Palestinian state west of the Jordan, and in September 2025 Prime Minister Netanyahu said there will be none. Hamas's 2017 document accepts a state on the 1967 lines only as a stage, without recognising Israel or giving up armed struggle. The Palestinian Authority has pledged to disarm Hamas and hold elections. Many countries recognised Palestine in 2024-25 and 142 states backed the UN's two-state declaration, yet Gallup finds only 26 percent of Israelis and 32 percent of West Bank and East Jerusalem Palestinians support two states. Our reading: the claim is half right, since Israel is not the only obstacle; two states remain the declared goal of the Palestinian Authority and most of the world, but neither the Israeli government nor Hamas accepts it.",
   "facts": [
     {
       "text": "On 17-18 July 2024 the Knesset voted 68 to 9 for a resolution that 'firmly opposes the establishment of a Palestinian state west of the Jordan' as an existential danger; it was co-sponsored by Netanyahu's coalition and joined by Benny Gantz's centrist party, while Yair Lapid's party, which has said it favours two states, left the chamber rather than vote.",
@@ -111,6 +111,15 @@
           "quote": "our opposition to a Palestinian state in any territory has not changed",
           "accessed": "2026-11-20",
           "kind": "news"
+        },
+        {
+          "publisher": "The Irish Times",
+          "title": "One of the oddest UN resolutions in history puts Donald Trump in supreme control of Gaza",
+          "url": "https://www.irishtimes.com/world/middle-east/2025/11/18/one-of-the-oddest-un-resolutions-in-history-puts-donald-trump-in-supreme-control-of-gaza/",
+          "archive": "",
+          "quote": "conditions may be in place for a credible pathway to Palestinian self-determination and statehood",
+          "accessed": "2026-11-20",
+          "kind": "news"
         }
       ]
     },
@@ -143,6 +152,15 @@
           "quote": "to hold general elections in 2026 in which Hamas can play no part, and to demilitarize the Palestinian state",
           "accessed": "2026-11-20",
           "kind": "government"
+        },
+        {
+          "publisher": "United Nations (General Assembly press release)",
+          "title": "General Debate, 25 September 2025",
+          "url": "https://www.un.org/unispal/document/unga80-general-debate-press-release-25sep25",
+          "archive": "",
+          "quote": "Mr. Abbas condemned the 7 October 2023 Hamas attack on Israeli civilians",
+          "accessed": "2026-11-20",
+          "kind": "primary"
         }
       ]
     },
@@ -188,7 +206,8 @@
           "archive": "",
           "quote": "Spain, Norway and Ireland formally recognized a Palestinian state on Tuesday",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "news",
+          "wire": "AP"
         },
         {
           "publisher": "Al Jazeera",
@@ -198,11 +217,20 @@
           "quote": "The State of Palestine is recognised by 146 countries around the world with Norway, Spain and Ireland joining the list.",
           "accessed": "2026-11-20",
           "kind": "news"
+        },
+        {
+          "publisher": "RTE",
+          "title": "Israel, US increasingly isolated at UN as countries recognise Palestine",
+          "url": "https://www.rte.ie/news/middle-east/2024/0528/1451575-palestinian-statehood",
+          "archive": "",
+          "quote": "After the announcement last week that Spain, Norway and Ireland would recognise the state of Palestine",
+          "accessed": "2026-11-20",
+          "kind": "news"
         }
       ]
     },
     {
-      "text": "In September 2025 the United Kingdom, Canada, Australia, Portugal, then France, Belgium, Luxembourg, Malta and others recognised a Palestinian state, Canada said its move rested on Palestinian Authority commitments to reform, to hold elections without Hamas and to demilitarise, and that Israel's government was working to prevent a Palestinian state.",
+      "text": "On 21 September 2025 the United Kingdom, Canada and Australia formally recognised a Palestinian state and Portugal announced it would; France recognised it at the UN the next day, and the Guardian lists Belgium, Luxembourg and Malta as also joining. Canada said its move rested on Palestinian Authority commitments to reform, to hold elections without Hamas and to demilitarise, and that Israel's government was working to prevent a Palestinian state.",
       "sources": [
         {
           "publisher": "The Guardian",
@@ -230,6 +258,15 @@
           "quote": "The current Israeli government is working methodically to prevent the prospect of a Palestinian state from ever being established.",
           "accessed": "2026-11-20",
           "kind": "government"
+        },
+        {
+          "publisher": "NBC News",
+          "title": "Palestinian statehood condemned by Israeli officials",
+          "url": "https://www.nbcnews.com/world/middle-east/israel-palestinian-reax-two-state-solution-recognition-rcna232944",
+          "archive": "",
+          "quote": "France formally recognized Palestinian statehood at a United Nations meeting on Monday.",
+          "accessed": "2026-11-20",
+          "kind": "news"
         }
       ]
     },
@@ -257,7 +294,7 @@
       ]
     },
     {
-      "text": "Polls before and after 7 October 2023: Pew found 35 percent of Israelis in spring 2023 saying Israel and a Palestinian state could coexist peacefully, 21 percent in 2025; Gallup found 24 percent of Palestinians backing two states in July-September 2023 (restated as 26 percent in its 2026 release) and 32 percent in 2026, with Israelis at 26 percent in 2026; the Palestinian Center for Policy and Survey Research reported a rise in Palestinian support after the war began, while saying it is still a minority view.",
+      "text": "Polls before and after 7 October 2023: Pew found 35 percent of Israelis in spring 2023 saying Israel and a Palestinian state could coexist peacefully, 21 percent in 2025; Gallup found 24 percent of Palestinians backing two states in July-September 2023 (restated as 26 percent in its 2026 release) and 32 percent in 2026, with Israelis at 26 percent in 2026; the Palestinian Center for Policy and Survey Research found 45 percent of Palestinians supporting the general concept of two states and 53 percent opposed in October 2025, and reported a rise in support after the war began.",
       "sources": [
         {
           "publisher": "Pew Research Center",
@@ -303,25 +340,181 @@
           "quote": "findings show significant rise in support for the two-state solution accompanied by a drop in the preference for armed struggle",
           "accessed": "2026-11-20",
           "kind": "scholarly"
+        },
+        {
+          "publisher": "Palestinian Center for Policy and Survey Research",
+          "title": "Poll 96, October 2025",
+          "url": "https://pcpsr.org/sites/default/files/Poll%2096%20press%20release%20FINAL%20ENGLISH%2028%20Oct%202025.pdf",
+          "archive": "",
+          "quote": "45% support and 53% oppose the concept of a two-state solution",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
         }
       ]
     }
   ],
   "contested": [
-    "Whether a two-state outcome is still physically possible. The case that it is not: Avi Shlaim wrote in 2013 that settlement expansion had shrunk the area available for a Palestinian state 'to the point where a two-state solution is barely conceivable', Canada's prime minister cites 'unrelenting' settlement expansion, and in the PCPSR's 2018 poll 56 percent of Palestinians already said settlements had expanded too much for the solution to be viable. The case that it is: Peace Now counts about 14 percent of West Bank residents as settlers (2019), the Clinton Parameters in 2000 would have let Israel keep blocs holding about 80 percent of settlers, and Olmert's 2008 map annexed 4.9 percent of the West Bank (both on the other card); Israel removed about 8,000 settlers from Gaza in 2005. Peace Now also reports that in 2018 more than half of settler population growth was in settlements Israel would probably have to evacuate under the Geneva Initiative's border, which cuts the other way. The card does not choose.",
-    "Whether Palestinian leaders can deliver security. The case that they cannot: Hamas won the 2006 election and took Gaza by force in 2007, Hamas's 2017 document keeps armed struggle and non-recognition, and the Knesset resolution argues that 'it will only be a matter of a short time until Hamas takes over' a Palestinian state. The case that they can: Abbas's June 2025 letter commits to disarming Hamas, inviting Arab and international forces and holding elections, France called the pledges unprecedented, and Canada and Australia tied their recognition to such commitments. Whether the pledges will be kept is untested; the PA lost Gaza once and its own president is, by PCPSR's October 2025 summary, unpopular (a PDF we could only read in part).",
-    "What the 2024 Knesset vote means. Supporters say it states what Israelis conclude from 7 October and from Gaza after 2005; critics, including Barghouti, call it the end of Oslo. It was non-binding, and two Israeli opposition parties declined to vote for it. The February 2024 Knesset resolution, which the Times of Israel says opposed only unilateral recognition and left room for negotiated statehood, is not on this card because we could not read a page that quotes it.",
-    "Whether recognition helps. Macron and the New York Declaration present it as keeping the option alive; Netanyahu and Lapid call it a 'prize' or 'reward' for terror; the UN General Assembly declaration itself condemns Hamas.",
-    "Polls differ by pollster and by whether Gaza is included. Gallup and Pew did not poll Gaza after the war began; the Palestinian Center for Policy and Survey Research polls the West Bank and Gaza and generally finds higher support, with Gaza above the West Bank; its detailed 2025 figures are in PDFs we could not read."
+    {
+      "text": "Whether a two-state outcome is still physically possible. The case that it is not: Shlaim wrote in 2013 that settlement expansion had shrunk the area available for a Palestinian state 'to the point where a two-state solution is barely conceivable', and in the Palestinian Center's 2018 poll a majority of Palestinians already said it was no longer viable. The case that it is: Peace Now counts about 14 percent of West Bank residents as settlers (2019), the Clinton Parameters would have let Israel keep blocs holding about 80 percent of settlers, and Olmert's 2008 map annexed 4.9 percent of the West Bank. Peace Now also reports that in 2018 more than half of settler population growth was in settlements Israel would probably have to evacuate under the Geneva Initiative's border, which cuts the other way. The card does not choose.",
+      "sources": [
+        {
+          "publisher": "The Guardian (Avi Shlaim)",
+          "title": "It's now clear: the Oslo peace accords were wrecked by Netanyahu's bad faith",
+          "url": "https://www.theguardian.com/commentisfree/2013/sep/12/oslo-israel-reneged-colonial-palestine",
+          "archive": "",
+          "quote": "the area available for a Palestinian state has been steadily shrinking to the point where a two-state solution is barely conceivable",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Palestinian Center for Policy and Survey Research",
+          "title": "Palestinian-Israeli Pulse, June 2018",
+          "url": "https://pcpsr.org/en/node/731",
+          "archive": "",
+          "quote": "Among Palestinians, a majority of 56% believes the solution is no longer viable",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Peace Now",
+          "title": "New 2018 population data for Israelis in the West Bank",
+          "url": "https://peacenow.org.il/en/population-data-in-israel-and-in-the-west-bank",
+          "archive": "",
+          "quote": "About 3 million people live in the West Bank, 14% of them settlers",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        },
+        {
+          "publisher": "Council on Foreign Relations",
+          "title": "Middle East Peace Plans: Background",
+          "url": "https://www.cfr.org/backgrounders/middle-east-peace-plans-background",
+          "archive": "",
+          "quote": "The right for 80 percent of the West Bank settlers, most of whom live near the 1967 borders, to stay put.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "Whether Palestinian leaders can deliver security. The case that they cannot: Hamas won the 2006 election and took Gaza by force in 2007, Hamas's 2017 document keeps armed struggle and non-recognition, and the Knesset resolution argues that it would be a matter of a short time until Hamas takes over a Palestinian state. The case that they can: Abbas's June 2025 letter commits to disarming Hamas, inviting Arab and international forces and holding elections, France called the pledges unprecedented, and Canada tied its recognition to such commitments. Whether the pledges will be kept is untested.",
+      "sources": [
+        {
+          "publisher": "NBC News (on the Knesset resolution)",
+          "title": "Israel's Knesset votes overwhelmingly against Palestinian statehood",
+          "url": "https://www.nbcnews.com/news/world/israels-knesset-votes-overwhelmingly-palestinian-statehood-netanyahu-p-rcna162466",
+          "archive": "",
+          "quote": "only be a matter of short time until Hamas takes over the Palestinian state",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "The National (Abbas to Macron)",
+          "title": "Hamas must hand over its weapons, Mahmoud Abbas tells Emmanuel Macron",
+          "url": "https://www.thenationalnews.com/news/mena/2025/06/10/hamas-must-hand-over-its-weapons-mahmoud-abbas-tells-emmanuel-macron-in-a-letter",
+          "archive": "",
+          "quote": "Hamas will no longer rule Gaza and must hand over its weapons and military capabilities to the Palestinian security forces",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Prime Minister of Canada",
+          "title": "Statement by Prime Minister Carney on Canada's recognition of the State of Palestine",
+          "url": "https://www.pm.gc.ca/en/news/statements/2025/09/21/statement-prime-minister-carney-on-canada-recognition-state-palestine",
+          "archive": "",
+          "quote": "to hold general elections in 2026 in which Hamas can play no part, and to demilitarize the Palestinian state",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        }
+      ]
+    },
+    {
+      "text": "What the 2024 Knesset vote means. Supporters say it states what Israelis conclude from 7 October and from Gaza after 2005; critics, including Mustafa Barghouti, call it the end of Oslo. Lapid's party left the chamber rather than vote for it.",
+      "sources": [
+        {
+          "publisher": "NBC News",
+          "title": "Israel's Knesset votes overwhelmingly against Palestinian statehood",
+          "url": "https://www.nbcnews.com/news/world/israels-knesset-votes-overwhelmingly-palestinian-statehood-netanyahu-p-rcna162466",
+          "archive": "",
+          "quote": "promoting the idea of a Palestinian state at this time will be a reward for terrorism",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Al Jazeera (Mustafa Barghouti)",
+          "title": "Israel's Knesset votes to reject Palestinian statehood",
+          "url": "https://www.aljazeera.com/news/2024/7/18/israels-knesset-votes-to-reject-palestinian-statehood",
+          "archive": "",
+          "quote": "This resolution represents a rejection of peace with Palestinians and an official declaration of the death of",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Al Jazeera (Yair Lapid's party)",
+          "title": "Israel's Knesset votes to reject Palestinian statehood",
+          "url": "https://www.aljazeera.com/news/2024/7/18/israels-knesset-votes-to-reject-palestinian-statehood",
+          "archive": "",
+          "quote": "Opposition leader Yair Lapid's centre-left party left the session to avoid supporting the statement",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Whether recognition helps. Canada's prime minister says recognition is part of a coordinated effort to preserve the possibility of a two-state solution; Netanyahu says it rewards terror.",
+      "sources": [
+        {
+          "publisher": "Prime Minister of Canada",
+          "title": "Statement by Prime Minister Carney on Canada's recognition of the State of Palestine",
+          "url": "https://www.pm.gc.ca/en/news/statements/2025/09/21/statement-prime-minister-carney-on-canada-recognition-state-palestine",
+          "archive": "",
+          "quote": "Canada does so as part of a co-ordinated international effort to preserve the possibility of a two-state solution",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "Israel Ministry of Foreign Affairs (Benjamin Netanyahu)",
+          "title": "No Palestinian State, Says Prime Minister Benjamin Netanyahu",
+          "url": "https://embassies.gov.il/nepal/en/news/no-palestinian-state-says-prime-minister-benjamin-netanyahu-21092025",
+          "archive": "",
+          "quote": "You are rewarding terror with an enormous prize.",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        }
+      ]
+    },
+    {
+      "text": "What the polls mean. Gallup finds only 26 percent of Israelis and 32 percent of West Bank and East Jerusalem Palestinians supporting two states in 2026; the Palestinian Center for Policy and Survey Research, which polls Gaza as well, finds 45 percent of Palestinians supporting the concept in October 2025, with Gaza more supportive than the West Bank.",
+      "sources": [
+        {
+          "publisher": "Gallup",
+          "title": "Most Israelis, Palestinians do not want two-state solution",
+          "url": "https://news.gallup.com/poll/715202/israelis-palestinians-not-two-state-solution.aspx",
+          "archive": "",
+          "quote": "relatively few Israelis (26%) and Palestinians living in the West Bank and East Jerusalem (32%) continue to say they support a two-state solution",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Palestinian Center for Policy and Survey Research",
+          "title": "Poll 96, October 2025",
+          "url": "https://pcpsr.org/sites/default/files/Poll%2096%20press%20release%20FINAL%20ENGLISH%2028%20Oct%202025.pdf",
+          "archive": "",
+          "quote": "support in the Gaza Stirp for this solution, with its various conditions, is almost twice in the Gaza Strip compared to the West Bank",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    }
   ],
   "could_not_verify": [
-    "Anything after November 2025. The Israeli government's current position after the 2026 election cycle, any change in the PA's election plans, and the status of Resolution 2803 in 2026 were not verified; the card reflects statements through November 2025.",
+    "Anything after November 2025. The Israeli government's current position after the 2026 election cycle (the party answers on the other card are from a Ynet survey in 2026), any change in the PA's election plans, and the status of Resolution 2803 in 2026 were not verified; this card reflects statements through November 2025.",
     "The text of Hamas's 2017 document itself: we rely on the Guardian, BBC and CFR. The 1988 charter's text and Hamas statements since 7 October 2023 on a state were not read.",
-    "The Times of Israel, Reuters and AP pages on the Knesset vote and the UN vote would not load; the UN press release listing the September 2025 recognitions would not load; the Saudi-French joint statement would not load.",
-    "Fewer than three reliable sources: the Netanyahu statement (two news pages plus an Israeli government page), the PA's letter (two news pages plus a Canadian government page), the 2024 recognitions (two news pages), the UN General Assembly vote (UN News and the Guardian), Resolution 2803 (the UN and NBC).",
+    "The Times of Israel, Reuters and AP pages on the Knesset vote and the UN vote would not load; the UN press release listing the September 2025 recognitions and the Saudi-French joint statement would not load, so the September 2025 recognitions rest on The Guardian, CNN, NBC and a Canadian government page.",
+    "Fewer than three reliable sources: the Netanyahu statement (two news pages plus an Israeli government page), the UN General Assembly vote (UN News and the Guardian), the 2024 recognitions (PBS/AP, Al Jazeera and RTE are three news pages but the AP story and Al Jazeera count are close in content).",
     "Which countries recognise Palestine today: the Guardian's count of 147 UN states in September 2025 is before the wave of recognitions that day; we did not find a reliable page giving the post-September total.",
     "The Palestinian Authority's stated position on Israel's right to exist and on payments to prisoners' families: not read, so not stated.",
-    "A reliable HTML page for PCPSR's October 2025 poll and the Pulse polls of 2020-2022: PDF only. The PCPSR listing page is cited for one sentence."
+    "The Israeli-government coalition guidelines and the Likud platform on a Palestinian state were not read; Likud declined to answer Ynet's questionnaire.",
+    "Palestinian wrongs the claim's defenders would raise and the card does not carry: that the Palestinian Authority has held no national election since 2006, its payments to prisoners and their families, and its position on recognising Israel as a Jewish state. No page on the card states them; they need new sources. The Palestinian Authority's loss of Gaza to Hamas in 2007 is mentioned on the Ynet, National and Guardian pages cited but is not in any fact's text."
   ],
   "not_claimed": [
     "Listing who said no to what does not by itself assign blame: a government can refuse for security reasons, domestic politics, or principle, and the card does not rank the refusals.",
@@ -331,5 +524,58 @@
     "It does not claim the PA's 2025 pledges have been carried out."
   ],
   "status": "draft",
-  "content_approved": false
+  "content_approved": false,
+  "answer_claims": [
+    {
+      "says": "Israel's Knesset voted 68 to 9 in July 2024 against a Palestinian state west of the Jordan, and in September 2025 Prime Minister Netanyahu said there will be none.",
+      "facts": [
+        0,
+        1
+      ]
+    },
+    {
+      "says": "Hamas's 2017 document accepts a state on the 1967 lines only as a stage, without recognising Israel or giving up armed struggle.",
+      "facts": [
+        4
+      ]
+    },
+    {
+      "says": "The Palestinian Authority has pledged to disarm Hamas and hold elections.",
+      "facts": [
+        3
+      ]
+    },
+    {
+      "says": "Many countries recognised Palestine in 2024-25 and 142 states backed the UN's two-state declaration, yet Gallup finds only 26 percent of Israelis and 32 percent of West Bank and East Jerusalem Palestinians support two states.",
+      "facts": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "says": "Our reading: the claim is half right, since Israel is not the only obstacle; two states remain the declared goal of the Palestinian Authority and most of the world, but neither the Israeli government nor Hamas accepts it.",
+      "facts": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        7
+      ]
+    }
+  ],
+  "review": {
+    "skeptic": {
+      "verdict": "weakened",
+      "date": "2026-11-20",
+      "notes": "Read at least two sources per fact in context; all 48 quotes are on their pages. Misattribution fixed by me: the Al Jazeera quote on the Knesset vote is by Mustafa Barghouti (Palestinian National Initiative), not Marwan Barghouti (heard[1], contested, publisher label). Also fixed: F6 said Belgium, Luxembourg and Malta 'recognised'; the Guardian page says they were joining on the day and the NBC page confirms only France, so reworded. The answer's clause that the PA 'lost Gaza to Hamas in 2007' is on the cited pages but in no fact's text (removed). Strongest Palestinian objection: the card gives Netanyahu's 'no Palestinian state' in his own words and Canada's accusation, but F6's rationale and the Knesset resolution are Israeli government statements read mostly through news; the Palestinian side of 'only Israel blocks it' is answered with Hamas's 2017 document and Abbas's pledges, which are promises not acts, and the card correctly says untested. Strongest Israeli objection: the card omits documented Palestinian wrongs on this point: no PA national election since 2006, prisoner payments, no recognition of Israel as a Jewish state (cannot add without new sources, logged in could_not_verify); and Hamas's 2017 'stage towards liberation' wording is on the BBC page but the answer states it only as 'a stage'. Independence: F1 (Israeli MFA government, NBC, CNN: two reliable), F2 (UN primary, NBC counted twice as one origin, Irish Times: three origins but NBC supplies two quotes), F3 (The National, Ynet, UN: three but Canada's page is government), F5 (PBS is AP wire, marked; Al Jazeera; RTE: three), F7 (Guardian, UN News: two reliable), F8 fine. Contested holders: contested[0] CFR and Peace Now are data not holders; contested[2] Lapid entry is Al Jazeera reporting, not his words (nit). 'It was non-binding' removed from contested: the CNN page says so of the February resolution, not July's. MUST-FIX: (1) third reliable source for F1, F2, F7; (2) a source for PA election gap and prisoner payments or a note why they are out; (3) holders for contested[0]."
+    },
+    "citer": {
+      "verdict": "holds",
+      "date": "2026-11-20",
+      "notes": "Split into five sentences, each tied to facts. Removed: 'The claim is half right' and 'But Israel is not the only obstacle' (verdicts; folded into the closing 'Our reading' sentence); 'so Israel's government is not offering one' (an inference; Netanyahu's words are kept); 'lost Gaza to Hamas in 2007' (no fact states it); 'West Bank Palestinians' corrected to 'West Bank and East Jerusalem' as Gallup's page says. Answer within 150 words. Holds for the answer as worded; the card stays draft because the skeptic verdict is weakened."
+    }
+  }
 }
