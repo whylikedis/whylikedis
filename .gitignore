@@ -3,3 +3,6 @@ __pycache__/
 .DS_Store
 # Local-only working files. Anything about a person or a plan belongs in the private ventures repo, not here.
 private/
+# The built preview site, and the waiting-list page until both founders approve it (it lives in the private repo).
+site/dist/
+site/landing.html
