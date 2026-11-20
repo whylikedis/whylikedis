@@ -16,7 +16,7 @@
       "archive": ""
     }
   ],
-  "answer": "In the West Bank about 3 million Palestinians live under Israeli military law, while roughly 500,000 Israeli settlers living beside them are under Israeli civil law. Under the 1995 Oslo II accord the territory is split into Areas A, B and C; Israel keeps security control throughout and full control of Area C, about 60 percent. The International Court of Justice said in 2004 and again in July 2024 that the territory is occupied and that the settlements breach international law; in 2024 it called Israel's presence unlawful, by eleven votes to four. Israel says the land is disputed, not occupied, and points to the second intifada, when suicide attacks peaked at 60 in 2002; they fell sharply by 2005, after the barrier and army operations. Our reading: security can explain the occupation, not the settlements or the two legal systems.",
+  "answer": "In the West Bank about 3 million Palestinians live under Israeli military law, while roughly 500,000 Israeli settlers living beside them are under Israeli civil law. Under the 1995 Oslo II accord, Israel keeps security control throughout and full control of Area C, about 60 percent. The International Court of Justice said in 2004 and again in July 2024 that the territory is occupied and that the settlements breach international law; in 2024 it called Israel's presence unlawful, by eleven votes to four. Israel says the land is disputed, not occupied. The second intifada cost over 1,000 Israeli lives, and by the Shin Bet's count suicide attacks fell from 60 in 2002 to six in the year to September 2005, after the barrier and army operations. Our reading: security does not reach the settlements, which the ICJ found unlawful, or the barrier's route, which it doubted was necessary.",
   "facts": [
     {
       "text": "About 3 million to 3.3 million Palestinians and roughly 500,000 Israeli settlers live in the West Bank. Counts differ on who is included: settler figures of about 500,000 leave out East Jerusalem, which Israel annexed and where more than 200,000 settlers live; the UN counted about 465,000 settlers in the West Bank and 230,000 in East Jerusalem in 2023.",
@@ -331,7 +331,7 @@
       ]
     },
     {
-      "text": "Israel's stated security reason is the second intifada: from September 2000 to July 2007 at least 5,848 people were killed in the conflict (4,228 Palestinians, 1,024 Israelis, 63 foreigners, per the UN's OCHA), and Israeli sources count more than 1,000 Israelis killed by attacks that included suicide bombings.",
+      "text": "The security background is the second intifada: OCHA counted at least 5,848 people killed in the conflict, directly or as an indirect consequence, from September 2000 to July 2007, and lists 4,228 Palestinians, 1,024 Israelis and 63 foreign citizens among those killed (the listed groups do not add up to the total); Israeli sources count more than 1,000 Israelis killed by attacks that included suicide bombings.",
       "sources": [
         {
           "publisher": "United Nations OCHA (via UNISPAL)",
@@ -381,7 +381,8 @@
           "archive": "",
           "quote": "In 2002, the year that marked the intifada's zenith, 60 suicide attacks hit the country",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "news",
+          "wire": "Shin Bet"
         },
         {
           "publisher": "Journal of Quantitative Criminology (Hebrew University record)",
@@ -418,7 +419,7 @@
           "quote": "that year, Palestinian militants killed 426 Israelis, including 211 in 60 suicide bombings",
           "accessed": "2026-11-20",
           "kind": "news",
-          "wire": "AP"
+          "wire": "Shin Bet"
         }
       ]
     },
@@ -528,7 +529,9 @@
     "The percentages of Areas A, B and C (18, 21 and about 60) come from Al Jazeera and Anera; I did not find an official or World Bank page I could read, and sources vary by a point or two.",
     "I found no readable official count of military-court conviction rates; the 'nearly 100 percent' figure is cited from The National, which itself cites Haaretz and says the army would not comment, and Israel's Justice Ministry did not provide a civilian comparison.",
     "I did not read the full Perry et al. paper (paywalled); only the Hebrew University abstract. The Washington Institute and Israeli Foreign Ministry pages on attack counts could not be read.",
-    "The ICJ 2024 opinion's own page (node 204160) and the 2004 overview page load, but the separate-opinion pages load only through the Wayback Machine."
+    "The ICJ 2024 opinion's own page (node 204160) and the 2004 overview page load, but the separate-opinion pages load only through the Wayback Machine.",
+    "Reviewer: the 5,848 total in the OCHA report includes indirect deaths and is larger than the sum of its listed groups (5,315); the report's own text does not reconcile them, so the fact now says so.",
+    "Orchestrator check, 2026-11-20: the percentages for Areas A, B and C (about 18, 21 and 60 percent) are carried by one news source. The other two reliable sources on that fact are two hosts of the same accord text, which gives no percentages. The card goes back to draft until the percentages have independent support (for example UN OCHA, the World Bank or B'Tselem's maps), then to the reviewer again."
   ],
   "not_claimed": [
     "This card does not say the West Bank is Israeli territory or Palestinian territory; it says what the law, the court and the two sides say.",
@@ -538,5 +541,61 @@
     "It does not say the West Bank regime is apartheid. That is contested, and this card is the evidence on which the contest turns."
   ],
   "status": "draft",
-  "content_approved": false
+  "content_approved": false,
+  "answer_claims": [
+    {
+      "says": "In the West Bank about 3 million Palestinians live under Israeli military law, while roughly 500,000 Israeli settlers living beside them are under Israeli civil law.",
+      "facts": [
+        0,
+        1
+      ]
+    },
+    {
+      "says": "Under the 1995 Oslo II accord, Israel keeps security control throughout and full control of Area C, about 60 percent.",
+      "facts": [
+        2,
+        3
+      ]
+    },
+    {
+      "says": "The International Court of Justice said in 2004 and again in July 2024 that the territory is occupied and that the settlements breach international law; in 2024 it called Israel's presence unlawful, by eleven votes to four.",
+      "facts": [
+        5,
+        6
+      ]
+    },
+    {
+      "says": "Israel says the land is disputed, not occupied.",
+      "facts": [
+        4
+      ]
+    },
+    {
+      "says": "The second intifada cost over 1,000 Israeli lives, and by the Shin Bet's count suicide attacks fell from 60 in 2002 to six in the year to September 2005, after the barrier and army operations.",
+      "facts": [
+        8,
+        9
+      ]
+    },
+    {
+      "says": "Our reading: security does not reach the settlements, which the ICJ found unlawful, or the barrier's route, which it doubted was necessary.",
+      "facts": [
+        5,
+        6,
+        10
+      ]
+    }
+  ],
+  "review": {
+    "skeptic": {
+      "verdict": "holds",
+      "date": "2026-11-20",
+      "notes": "Read the ICJ 2024 text (paras 224-229, 285: 11-4 on the unlawful presence; 14-1 on settlements and reparation; 'excessive use of force' and 465,000/230,000 settlers are on the page), the 2004 case page, ASIL, VOA/GlobalSecurity, the Perry et al. abstract, Siboni (INSS), Ynet/Shin Bet, the AP/NZ Herald piece, OCHA, Al Jazeera, The National, IDI on the Levy committee. Barrier study: Perry, Apel, Newman and Clarke (J. Quantitative Criminology, 2017) use 1999-2011 attack data by location and say the barrier 'together with associated security activities' was effective, that 'changes in terrorist behavior likely resulted from the construction of the barrier, not from other external factors', so the study does attribute the fall to the barrier; the card says that and keeps Siboni's rival account (Defensive Shield, army in West Bank cities, effect by mid-2005). The 60 attacks in 2002 and six from October 2004 are Shin Bet figures, carried by Ynet and the AP (one dataset; wire added); the 2004 infiltration remark is the Shin Bet chief via JTA only. [must-fix, fixed] Fact 8 presented 5,848 as the total with 4,228 + 1,024 + 63 beside it, which add to 5,315; OCHA says the 5,848 includes indirect deaths. Reworded to say so. The 'Israel's stated security reason' framing had no source quoting Israel; now 'security background'. [should-fix] Palestinian lawyer: the card does carry the ICJ's systematic failure to punish settler attacks, land confiscation and induced departure, and the 80 percent of settlers enclosed by the barrier; I found no softened wrong, but the barrier's costs to Palestinians (separation from land, movement) beyond the ICJ finding are not on the card. [should-fix] Israeli lawyer: the opinions are advisory; the card says Israel rejected the 2024 opinion but not that the 2004 and 2024 opinions are non-binding; and the conviction-rate claim rests on The National citing Haaretz (the army would not comment), with no Israeli account of plea bargains. The Perry abstract also says terrorists adapted in some places with more opportunistic attacks, so 'little apparent displacement' is the study's wording, not a claim of none. [nit] The Palestinian population figure comes from The Week and Peace Now; no PCBS page could be read."
+    },
+    "citer": {
+      "verdict": "holds",
+      "date": "2026-11-20",
+      "notes": "Six answer sentences, each tied to facts (answer_claims). Removed 'and points to the second intifada': no fact quotes Israel making that argument, so the sentence now says what the casualty facts carry (over 1,000 Israeli lives) and names the Shin Bet as the source of the attack counts. Rewrote the closing 'Our reading' from 'security can explain the occupation, not the settlements or the two legal systems' to a claim the facts carry: the ICJ found the settlements unlawful and was not convinced the barrier's route was needed for security; no fact on the card says security cannot explain the two legal systems, so that part was removed."
+    }
+  }
 }

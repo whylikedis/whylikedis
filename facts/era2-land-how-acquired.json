@@ -10,19 +10,37 @@
       "quote": "one of the major institutions that was involved in taking over land from Palestinians"
     }
   ],
-  "answer": "Before 1948 Jews bought land; they did not seize it. By the Mandate government's own count Jewish-owned land was about 1.5 to 1.7 million dunams, roughly 6 to 7 percent of the country (the total includes desert and state land). Most purchases were from large landowners, many of them absentee, and a Jewish National Fund policy held the land as the Jewish people's inalienable property. But the sales cost Arab tenant farmers their holdings: in 1930 the Hope Simpson report found that of 688 farming families on land bought in the Jezreel valley, 309 had joined the landless. The Shaw Commission and the British appointed official then examined the landlessness, and in 1940 Britain restricted sales. Historians dispute how many were displaced and who was to blame.",
+  "answer": "Before 1948 most Jewish-held land was bought: of 1,731,300 dunams at the end of 1944, the Survey of Palestine counts 1,556,700 as purchased and 174,600 as government concessions. That is 6.6 percent of Palestine's area; other counts run from about 1.49 to 2 million dunams, by date and definition. The share is of the whole country, nearly half of it desert (the Survey puts the Beersheba desert at about 12,077 of 26,320 square kilometres), and some land was state land, not Arab-owned. Most purchases were from large landowners, many of them absentee, and the Jewish National Fund held its land as inalienable Jewish property. But sales displaced Arab tenant farmers: in 1930 Hope Simpson concluded that of 688 tenant families on Jezreel-valley land Jews had bought, 309 had joined the landless, and area officers counted 1,270 farmers displaced. In 1940 Britain restricted sales.",
   "facts": [
     {
-      "text": "By the Mandate government's own figures, land owned by Jews was about 1.49 million dunams in April 1945 and about 1.73 million (6.6 percent of Palestine's area) at the end of 1944 when government concessions are included; later estimates for 1947 run to about 2 million dunams.",
+      "text": "Counts of Jewish-owned land differ by source, date and definition, so they are not a trend: 1,731,300 dunams at the end of 1944 (the Survey of Palestine), of which 1,556,700 were purchased and 174,600 were government concessions, 6.6 percent of Palestine's area; about 1,588,000 dunams registered in Jewish names at the end of 1945 (also the Survey, which assumes 650,000 dunams were owned before 1920 and excludes land held by Jews as tenants but not registered); 1,514,247 dunams on 1 April 1943 (Survey, vol. II); 1,491,699 dunams on 1 April 1945 (Village Statistics, as quoted by a UN study; it is lower than the Survey's 1943 figure for reasons the sources do not give); and about 2 million dunams by May 1948 (Stein's estimate: his text calls it purchased, his table heads it 'total land accumulated to date from all sources'). The 6.6 percent is a share of the whole land area, including desert and state land; it is not a share of farmland or of privately owned land.",
       "sources": [
         {
-          "publisher": "Government of Palestine, A Survey of Palestine (1946), copy on palestineremembered.com",
-          "title": "A Survey of Palestine, vol. I, p. 376, Table 4",
-          "url": "https://www.palestineremembered.com/Articles/A-Survey-of-Palestine/Story6817.html",
+          "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
+          "title": "A Survey of Palestine, vol. I, ch. VIII-IX",
+          "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20I.pdf",
           "archive": "",
-          "quote": "This total area of Jewish land represents 6.6% of the total area of Palestine.",
+          "quote": "this total area of Jewish land represents 6.6% of the total area of Palestine",
           "accessed": "2026-11-20",
-          "kind": "government"
+          "kind": "primary"
+        },
+        {
+          "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
+          "title": "A Survey of Palestine, vol. I, ch. VIII",
+          "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20I.pdf",
+          "archive": "",
+          "quote": "the total area now owned by them may, therefore, be put at about 1,588,000 dunums",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
+          "title": "A Survey of Palestine, vol. II, ch. XIV, table 2",
+          "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20II.pdf",
+          "archive": "",
+          "quote": "total area : 24,670,455 1,514,247 26,184,702",
+          "accessed": "2026-11-20",
+          "kind": "primary"
         },
         {
           "publisher": "United Nations (UNISPAL, DPR study)",
@@ -35,42 +53,124 @@
         },
         {
           "publisher": "Kenneth W. Stein, Emory University",
-          "title": "Zionist Land Acquisition: a core element in establishing Israel",
-          "url": "https://ismi.emory.edu/documents/Zionist%20Land%20Aquisition.pdf",
+          "title": "The Jewish National Fund: Land Purchase Methods and Priorities, 1924-1939 (Middle Eastern Studies, 1984)",
+          "url": "https://ismi.emory.edu/documents/stein-publications/website%20docs%202011-2004/website%20docs%202000%20and%20earlier/JNF-Stein1984.pdf",
           "archive": "",
-          "quote": "Zionists purchased 2 million dunams of land in Palestine or 2023.45 square km",
+          "quote": "by May 1948 Jews acquired approximately two million of Palestine's 26 million dunams",
           "accessed": "2026-11-20",
           "kind": "scholarly"
         }
       ]
     },
     {
-      "text": "These shares are of the whole country, including desert and state land. The Mandate figures count about 13 million dunams as Arab-owned and about 1.5 million as Jewish-owned; the remainder was public land (government, municipal) or land whose title had not been settled, notably in the Beersheba (Negev) area.",
+      "text": "Palestine's total land area was about 26,320 square kilometres, of which about 12,077 square kilometres lay in the desert of Beersheba (the Negev); the Survey elsewhere gives 13,743 for the rest, which sums to 25,820, a 500 square kilometre inconsistency in the Survey itself. The Survey adds that there may be private claims to over 2,000 square kilometres of that desert, cultivated from time to time. The UN committee called the Negev south of latitude 31 desert land of little agricultural value, and Stein notes the land Jews bought was not south of Beersheba. So 6.6 percent is a share of a country nearly half of which was desert.",
       "sources": [
         {
-          "publisher": "United Nations (UNISPAL, DPR study)",
-          "title": "Acquisition of land in Palestine",
-          "url": "https://www.un.org/unispal/document/auto-insert-208638/",
+          "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
+          "title": "A Survey of Palestine, vol. I, ch. III",
+          "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20I.pdf",
           "archive": "",
-          "quote": "compared with about 13 million dunams owned by Arabs in Palestine",
+          "quote": "the total land area of Palestine is estimated at 26.320 square kms",
           "accessed": "2026-11-20",
-          "kind": "government"
+          "kind": "primary"
+        },
+        {
+          "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
+          "title": "A Survey of Palestine, vol. I, ch. VIII",
+          "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20I.pdf",
+          "archive": "",
+          "quote": "some 12,077 square kilometres lie in the deserts of Beersheba",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "United Nations (UNISPAL), UNSCOP Report to the General Assembly, vol. 1",
+          "title": "Question of Palestine/Majority plan (Partition), Minority plan (Federal State)",
+          "url": "https://www.un.org/unispal/document/auto-insert-179435/",
+          "archive": "",
+          "quote": "The Negeb south of latitude 31, though included in the Jewish state, is desert land of little agricultural value",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Kenneth W. Stein, Emory University",
+          "title": "The Jewish National Fund: Land Purchase Methods and Priorities, 1924-1939 (Middle Eastern Studies, 1984)",
+          "url": "https://ismi.emory.edu/documents/stein-publications/website%20docs%202011-2004/website%20docs%202000%20and%20earlier/JNF-Stein1984.pdf",
+          "archive": "",
+          "quote": "they were neither in the hill regions of the West Bank/Judea-Samaria regions nor south of Beersheba",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "The land not owned by Jews was not all Arab-owned. The Survey of Palestine's ownership table lumps 'Arabs and other non-Jews' together, so government (state, municipal) land is in that column. In the settled areas the Survey found over 660 square kilometres of public land (of nearly 4,500 whose ownership had been settled), with about 900 more probably government property; registered state domain was 616,000 dunums settled and 927,000 claimed (a different count and date); much of the desert was never settled for title.",
+      "sources": [
+        {
+          "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
+          "title": "A Survey of Palestine, vol. II, ch. XIV, table 2",
+          "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20II.pdf",
+          "archive": "",
+          "quote": "share of Jews a n d Arabs ( i n c l u d i n g other non-Jews) as at 1st a p r i l , 1943",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
+          "title": "A Survey of Palestine, vol. I, ch. VIII",
+          "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20I.pdf",
+          "archive": "",
+          "quote": "over 660 square kilometres has been found to be public land",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
+          "title": "A Survey of Palestine, vol. I, ch. IV",
+          "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20I.pdf",
+          "archive": "",
+          "quote": "state domain (settled, 616,000 dunums; claimed 927,000 dunums)",
+          "accessed": "2026-11-20",
+          "kind": "primary"
         },
         {
           "publisher": "Sami Hadawi (reprint of the Government of Palestine's Village Statistics 1945, PLO Research Center)",
-          "title": "Village Statistics 1945: A Classification of Land and Area Ownership in Palestine",
+          "title": "Village Statistics 1945",
           "url": "https://www.sabil.me/files/original/175626/175627/Hadawi_Sami-1970-09-00-Village_Statistics_1945.pdf",
           "archive": "",
           "quote": "Made up of lands registered in Land Registers in name of 'The High Commissioner for the time being in trust for the Palestine Government,' municipalities and local councils",
           "accessed": "2026-11-20",
           "kind": "advocacy"
+        }
+      ]
+    },
+    {
+      "text": "Read the other way, the Jewish share was larger in the productive categories: the Survey's 1943 table gives Jewish ownership of 141,188 of 286,760 dunums of citrus land and 814,102 of 6,317,285 dunums of taxable cereal land, against 298,523 of 17,224,328 dunums of uncultivable land (columns read in the table's order: urban, citrus, bananas, rural built-on, plantations, taxable cereal, untaxed cereal, uncultivable).",
+      "sources": [
+        {
+          "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
+          "title": "A Survey of Palestine, vol. II, ch. XIV, table 2",
+          "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20II.pdf",
+          "archive": "",
+          "quote": "76,662 145,572 2,300 36,851 1,079,788 5,503,183 900,294 16,925,805 70,111 141,188 1,430 42,330 95,514 814,102 51,049 298,523",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
+          "title": "A Survey of Palestine, vol. II, ch. XIV, table 2",
+          "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20II.pdf",
+          "archive": "",
+          "quote": "146,773 286,760 3,730 79,181 1,175,302 6,317,285 951,343 17,224,328",
+          "accessed": "2026-11-20",
+          "kind": "primary"
         },
         {
           "publisher": "Kenneth W. Stein, Emory University",
-          "title": "Zionist Land Acquisition: a core element in establishing Israel",
-          "url": "https://ismi.emory.edu/documents/Zionist%20Land%20Aquisition.pdf",
+          "title": "The Jewish National Fund: Land Purchase Methods and Priorities, 1924-1939 (Middle Eastern Studies, 1984)",
+          "url": "https://ismi.emory.edu/documents/stein-publications/website%20docs%202011-2004/website%20docs%202000%20and%20earlier/JNF-Stein1984.pdf",
           "archive": "",
-          "quote": "Jewish land purchased was a relatively small sum of all available registered lands in Palestine",
+          "quote": "purchased dunams were among the most cultivable. They were neither in the hill regions of the West Bank/Judea-Samaria regions",
           "accessed": "2026-11-20",
           "kind": "scholarly"
         }
@@ -109,7 +209,7 @@
       ]
     },
     {
-      "text": "Most land Jews acquired was bought from large landowners, many of them absentee: in the 1920s more than 60 percent of the land Jews bought came from Arab landlords living outside Palestine, and the Jewish institutions dealt mainly with big Arab landowners.",
+      "text": "Most land Jews acquired was bought from large landowners, many of them absentee: in the 1920s more than 60 percent of the land Jews bought came from Arab landlords living outside Palestine, and the Sursock family's sale of large areas in the Jezreel valley was the best-known case.",
       "sources": [
         {
           "publisher": "Kenneth W. Stein, Emory University",
@@ -130,6 +230,15 @@
           "kind": "primary"
         },
         {
+          "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
+          "title": "A Survey of Palestine, vol. I, ch. VIII",
+          "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20I.pdf",
+          "archive": "",
+          "quote": "large tracts of which were being sold by absentee Arab landowners",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
           "publisher": "United Nations (UNISPAL, DPR study)",
           "title": "Acquisition of land in Palestine",
           "url": "https://www.un.org/unispal/document/auto-insert-208638/",
@@ -141,7 +250,7 @@
       ]
     },
     {
-      "text": "Smaller landowners also sold: Arab offers to sell came from large and small owners alike, from political leaders and from peasants, according to the historian Kenneth Stein, who says purchases still came mostly from large holdings.",
+      "text": "Smaller and resident owners also sold: Stein finds Arab offers to sell came from large and small landowners alike, but that purchases were mostly of large holdings from relatively few owners. On debt, Stein reports that the JNF buyer Yehoshua Hankin told Hope Simpson in 1930 that 90 percent of the sellers were in debt (a buyer's statement), and Stein himself writes that for most Arabs their sagging economic condition forced them to sell.",
       "sources": [
         {
           "publisher": "Kenneth W. Stein, Emory University",
@@ -149,6 +258,15 @@
           "url": "https://ismi.emory.edu/documents/Zionist%20Land%20Aquisition.pdf",
           "archive": "",
           "quote": "Arab offers to sell emanated from landowners who resided inside and outside the boundaries of Palestine, from large and small landowners alike",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Kenneth W. Stein, Emory University",
+          "title": "The Jewish National Fund: Land Purchase Methods and Priorities, 1924-1939 (Middle Eastern Studies, 1984)",
+          "url": "https://ismi.emory.edu/documents/stein-publications/website%20docs%202011-2004/website%20docs%202000%20and%20earlier/JNF-Stein1984.pdf",
+          "archive": "",
+          "quote": "90 percent of the sellers were immersed in debt and were seeking relief by selling their lands",
           "accessed": "2026-11-20",
           "kind": "scholarly"
         },
@@ -162,27 +280,36 @@
           "kind": "scholarly"
         },
         {
-          "publisher": "University of North Carolina Press",
-          "title": "The Land Question in Palestine, 1917-1939 (publisher's summary)",
-          "url": "https://uncpress.org/9780807841785/the-land-question-in-palestine-1917-1939/",
+          "publisher": "League of Nations (Peel Commission report summary), via UNISPAL",
+          "title": "Summary of the Palestine Royal Commission (Peel) Report, League of Nations C.495.M.336.1937.VI",
+          "url": "https://unispal.un.org/pdfs/08E38A718201458B052565700072B358.pdf",
           "archive": "",
-          "quote": "many sales were made by Arab politicians who publicly opposed Zionism",
+          "quote": "many Arab landowners have benefited from the sale of land and the profitable investment of the purchase money",
           "accessed": "2026-11-20",
-          "kind": "reference"
+          "kind": "primary"
         }
       ]
     },
     {
-      "text": "The Jewish National Fund (founded 1901) bought land to be held as the inalienable property of the Jewish people, and its role in buying and planning grew in the 1940s.",
+      "text": "The Jewish National Fund (founded 1901) bought land to be held in perpetuity as the inalienable property of the Jewish people; Stein counts its holdings at 928,240 of about 2,000,000 dunums, 46.4 percent, in May 1948.",
       "sources": [
         {
-          "publisher": "Government of Palestine, A Survey of Palestine (1946), copy on palestineremembered.com",
-          "title": "A Survey of Palestine, vol. I, p. 376",
-          "url": "https://www.palestineremembered.com/Articles/A-Survey-of-Palestine/Story6817.html",
+          "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
+          "title": "A Survey of Palestine, vol. I, ch. IX",
+          "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20I.pdf",
           "archive": "",
-          "quote": "The object of the Jewish National Fund is to acquire land to be held in perpetuity as the inalienable property of the Jewish people",
+          "quote": "to be held in perpetuity as the inalienable property of the Jewish people and to lease it for agriculture and urban development",
           "accessed": "2026-11-20",
-          "kind": "government"
+          "kind": "primary"
+        },
+        {
+          "publisher": "Kenneth W. Stein, Emory University",
+          "title": "The Jewish National Fund: Land Purchase Methods and Priorities, 1924-1939 (Middle Eastern Studies, 1984)",
+          "url": "https://ismi.emory.edu/documents/stein-publications/website%20docs%202011-2004/website%20docs%202000%20and%20earlier/JNF-Stein1984.pdf",
+          "archive": "",
+          "quote": "may 15, 1948 2,000,000 (estimated) 928,240 46.4",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
         },
         {
           "publisher": "Kenneth W. Stein, Emory University",
@@ -196,7 +323,7 @@
       ]
     },
     {
-      "text": "Purchases from large owners cost Arab tenant farmers their holdings. In 1930 the Hope Simpson report found that of 688 Arab families who farmed villages in the Jezreel (Esdraelon) valley bought by Jewish buyers, only 379 still farmed and 309 had joined the landless classes; the government's own officers counted 1,270 farmers displaced from those villages.",
+      "text": "Purchases from large owners cost Arab tenant farmers their holdings. In 1930 Hope Simpson, reading the Jewish Agency's own list of 688 Arab tenants of the Jezreel (Esdraelon) valley villages bought by Jewish buyers, concluded that only 379 families still farmed and 309 had joined the landless classes; the government's own area officers counted 1,270 farmers displaced from those villages. The Agency's memorandum had said very few of those traced were landless, and Hope Simpson wrote that the Jewish authorities paid high prices and the duty to protect the tenants lay with the government.",
       "sources": [
         {
           "publisher": "UK Government (Sir John Hope Simpson), via United Nations UNISPAL",
@@ -224,11 +351,61 @@
           "quote": "many of them had been dispossessed of their estates by Jewish land purchases",
           "accessed": "2026-11-20",
           "kind": "scholarly"
+        },
+        {
+          "publisher": "League of Nations (official summary of the Peel Commission report), via UNISPAL",
+          "title": "Summary of the Palestine Royal Commission (Peel) Report, League of Nations C.495.M.336.1937.VI",
+          "url": "https://unispal.un.org/pdfs/08E38A718201458B052565700072B358.pdf",
+          "archive": "",
+          "quote": "the greatest care must now be exercised to see that in the event of further sales of land by Arabs to Jews the rights of any Arab tenants or cultivators are preserved",
+          "accessed": "2026-11-20",
+          "kind": "primary"
         }
       ]
     },
     {
-      "text": "The Shaw Commission (1930) found that Arabs feared 'by Jewish immigration and land purchases they may be deprived of their livelihood', and Britain sent Lewis French in 1931 to draw up a register of 'landless Arabs' and a scheme to resettle them.",
+      "text": "Britain created an official register of 'landless Arabs' in 1931 (Lewis French, Director of Development); by 1 January 1936 it had admitted 664 of 3,271 applicants and disallowed 2,607. The register excluded, among others, persons displaced by purchases by non-Jews, persons who were not tenant cultivators at the time of sale (owners who let their land, ploughmen, those already become labourers), and persons who had found other land or permanent employment.",
+      "sources": [
+        {
+          "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
+          "title": "A Survey of Palestine, vol. I, ch. VIII",
+          "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20I.pdf",
+          "archive": "",
+          "quote": "only 664 had been admitted to the register, while 2,607 had been disallowed",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
+          "title": "A Survey of Palestine, vol. I, ch. VIII",
+          "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20I.pdf",
+          "archive": "",
+          "quote": "mr. french presented a report in december, 1931, and a supplementary report in april, 1932",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
+          "title": "A Survey of Palestine, vol. I, ch. VIII",
+          "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20I.pdf",
+          "archive": "",
+          "quote": "3,271 applications for re-settlement had been received from landless Arabs",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "UK Government (Sir John Hope Simpson), via United Nations UNISPAL",
+          "title": "Palestine: Report on Immigration, Land Settlement and Development (Hope Simpson, 1930)",
+          "url": "https://www.un.org/unispal/document/auto-insert-194707/",
+          "archive": "",
+          "quote": "ascertainment of the number of landless Arabs",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "The Shaw Commission (1930), sent after the 1929 violence, is reported by three summaries (the Encyclopaedia Judaica, Shira Klein's COJS essay and an Emory Center for Israel Education timeline; the report itself was not read) to have found that the Arabs' sense of insecurity was caused by the Jewish national home, and particularly by Jewish immigration and land settlement. The Encyclopaedia Judaica quotes the report: the Arabs feared that by 'Jewish immigration and land purchases they may be deprived of their livelihood and placed under the economic domination of the Jews'; it also quotes the report's fundamental cause as 'the Arab feeling of animosity and hostility towards the Jews consequent upon the disappointment of their political and national aspirations and fear for their economic future'.",
       "sources": [
         {
           "publisher": "Encyclopaedia Judaica (via Encyclopedia.com)",
@@ -240,16 +417,16 @@
           "kind": "reference"
         },
         {
-          "publisher": "Government of Palestine, A Survey of Palestine (1946), copy on palestineremembered.com",
-          "title": "A Survey of Palestine, vol. I, p. 295",
-          "url": "https://www.palestineremembered.com/Articles/A-Survey-of-Palestine/Story6736.html",
+          "publisher": "Center for Online Judaic Studies (Shira Klein)",
+          "title": "The Shaw Commission and British Disillusionment with Zionism",
+          "url": "https://cojs.org/the_shaw_commission_and_british_disillusionment_with_zionism-_shira_klein-_cojs/",
           "archive": "",
-          "quote": "To prepare a register of \"landless Arabs\"",
+          "quote": "particularly by the Jewish immigration and land settlement",
           "accessed": "2026-11-20",
-          "kind": "government"
+          "kind": "scholarly"
         },
         {
-          "publisher": "Emory University (Israel and the Middle East timeline)",
+          "publisher": "Emory University (Center for Israel Education)",
           "title": "Shaw Commission report issued, 28 February 1930",
           "url": "https://israeled.org/timeline/shaw-commission-report-issued/",
           "archive": "",
@@ -260,7 +437,7 @@
       ]
     },
     {
-      "text": "The 1939 White Paper gave the High Commissioner powers 'to prohibit and regulate transfers of land'; the Land Transfer Regulations of 1940 divided the country into zones, banning or restricting land sales to Jews in the zones that covered 95 percent of the area. Jewish buyers largely got around them.",
+      "text": "The 1939 White Paper gave the High Commissioner powers 'to prohibit and regulate transfers of land'; the Land Transfer Regulations of 1940 divided the country into zones (A about 16,680, B about 8,348 and a 'free' zone of about 1,292 square kilometres), prohibiting transfers by Palestinian Arabs to others in A and restricting them in B, 95 percent of the area. Stein, the only source on this point, says the regulations were rigorously circumvented by legal ruses.",
       "sources": [
         {
           "publisher": "Yale Law School, Avalon Project",
@@ -281,6 +458,15 @@
           "kind": "primary"
         },
         {
+          "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
+          "title": "A Survey of Palestine, vol. I, ch. VIII",
+          "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20I.pdf",
+          "archive": "",
+          "quote": "the areas of the three zones are approximately as follows : zone 'a' : 16,680 zone 'b' : 8,348",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
           "publisher": "Kenneth W. Stein, Emory University",
           "title": "Zionist Land Acquisition: a core element in establishing Israel",
           "url": "https://ismi.emory.edu/documents/Zionist%20Land%20Aquisition.pdf",
@@ -294,7 +480,7 @@
   ],
   "contested": [
     {
-      "text": "Whether the land was bought or taken depends on the period. Khalidi describes the Jewish Colonization Agency as taking over land from Palestinians. Stein, an American historian, finds the core of the future state was bought from willing Arab sellers, many of them leading Arab politicians. Both agree on the facts that purchases happened and tenants were displaced; they differ on blame.",
+      "text": "Whether the land was bought or taken depends on the period. Khalidi describes the Jewish Colonization Agency as 'one of the major institutions that was involved in taking over land from Palestinians'. Stein, an American historian, finds the core of the future state was provided by Arab sellers, many of them leading Arab politicians. This card covers purchases before 1948; the land taken in the 1948 war is another card.",
       "sources": [
         {
           "publisher": "LBO News (interview with Rashid Khalidi)",
@@ -317,7 +503,7 @@
       ]
     },
     {
-      "text": "How many tenants were displaced is disputed. Hope Simpson's officers counted 1,270 farmers displaced from the Esdraelon villages. Stein says that on the 200,000 dunams of Sursock land fewer than 700 Arab tenants worked, perhaps 5,000 people in all, and that other large purchases, such as the Wadi Hawarith, displaced more.",
+      "text": "How much of the displacement purchases caused is disputed. Hope Simpson (1930) concluded, from the Jewish Agency's own list, that 309 of 688 tenant families on the Esdraelon villages had joined the landless, and reported the area officers' count of 1,270 farmers displaced; the Agency's memorandum, which he quotes, said very few of those traced were landless. Stein says that on the 200,000 dunams of Sursock land fewer than 700 Arab tenants worked, perhaps 5,000 people in all, but the same passage records 900 Arabs living on 14,000 dunams at Shatta and 1,200 Bedouin families at Wadi Hawarith when the JNF bought those lands in 1929-1930. In its official 1937 summary the Peel Commission judged that the shortage of land was due less to purchase by Jews than to the increase in the Arab population, while urging care for tenants. The 1936 register of landless Arabs admitted 664 applicants under a strict definition.",
       "sources": [
         {
           "publisher": "UK Government (Sir John Hope Simpson), via United Nations UNISPAL",
@@ -336,24 +522,144 @@
           "quote": "in the purchase of the 200,000 dunams of the Sursock lands, there were less than 700 Arab tenants working there or perhaps no more than 5,000 people total",
           "accessed": "2026-11-20",
           "kind": "scholarly"
+        },
+        {
+          "publisher": "League of Nations (official summary of the Peel Commission report), via UNISPAL",
+          "title": "Summary of the Palestine Royal Commission (Peel) Report, League of Nations C.495.M.336.1937.VI",
+          "url": "https://unispal.un.org/pdfs/08E38A718201458B052565700072B358.pdf",
+          "archive": "",
+          "quote": "the shortage of land is due less to purchase by Jews than to the increase in the Arab population",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Kenneth W. Stein, Emory University",
+          "title": "Zionist Land Acquisition: a core element in establishing Israel",
+          "url": "https://ismi.emory.edu/documents/Zionist%20Land%20Aquisition.pdf",
+          "archive": "",
+          "quote": "when the JNF purchased Shatta village lands in the Beisan area in 1929-1930 from the Ra'is and Abyad families in Haifa, there were 900 Arabs living on 14,000 dunams",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Jewish Agency memorandum, as quoted in Hope Simpson's report (via UNISPAL)",
+          "title": "Palestine: Report on Immigration, Land Settlement and Development (Hope Simpson, 1930)",
+          "url": "https://www.un.org/unispal/document/auto-insert-194707/",
+          "archive": "",
+          "quote": "very few traced belong to the landless class",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "The share bought from small farmers is disputed. A 1938 statistical digest (Gurevich and Gertz, Jerusalem) tabulated that only 9.4 percent of Jewish acquisitions came from Arab peasants; Stein says that table is incorrect. This card therefore gives no single percentage for sales by absentee owners, resident large owners and peasants.",
+      "sources": [
+        {
+          "publisher": "Kenneth W. Stein, Emory University",
+          "title": "The Jewish National Fund: Land Purchase Methods and Priorities, 1924-1939 (Middle Eastern Studies, 1984)",
+          "url": "https://ismi.emory.edu/documents/stein-publications/website%20docs%202011-2004/website%20docs%202000%20and%20earlier/JNF-Stein1984.pdf",
+          "archive": "",
+          "quote": "the table incorrectly states that only 9.4 percent of all Jewish acquisition came from Arab peasants",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "Who bore responsibility for tenants displaced by lawful purchases is disputed. Hope Simpson, writing for the British government, said the Jewish authorities 'have nothing with which to reproach themselves in the matter of the Sursock lands' and that the duty of protecting the Arabs' position lay with the government, not the buyers. Khalidi (above) and the Shaw summaries reported on this card describe Arab views that land purchase and immigration threatened Arab livelihoods.",
+      "sources": [
+        {
+          "publisher": "UK Government (Sir John Hope Simpson), via United Nations UNISPAL",
+          "title": "Palestine: Report on Immigration, Land Settlement and Development (Hope Simpson, 1930)",
+          "url": "https://www.un.org/unispal/document/auto-insert-194707/",
+          "archive": "",
+          "quote": "the Jewish authorities have nothing with which to reproach themselves in the matter of the Sursock lands",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "UK Government (Sir John Hope Simpson), via United Nations UNISPAL",
+          "title": "Palestine: Report on Immigration, Land Settlement and Development (Hope Simpson, 1930)",
+          "url": "https://www.un.org/unispal/document/auto-insert-194707/",
+          "archive": "",
+          "quote": "it was not their business, but the business of the Government to see to it that the position of the Arabs was not adversely affected by the transaction",
+          "accessed": "2026-11-20",
+          "kind": "primary"
         }
       ]
     }
   ],
   "could_not_verify": [
-    "The Shaw Commission's own words on a 'landless and discontented class' appear on a scholarly page (Charles Anderson, Middle Eastern Studies) that I could not read here; I did not quote them.",
-    "Lewis French's reports (1931-32) are described only by their terms of reference in the Mandate government's Survey of Palestine; I could not read a page giving his findings on landlessness.",
-    "The Survey of Palestine and the Village Statistics are cited from copies on palestineremembered.com and the PLO Research Center reprint; those sites are advocacy, so the copies count as government/advocacy. I found no readable copy of the original on a neutral site.",
-    "I found no reliable page giving the share of land bought from small owners or peasants; the 9.4 percent figure (Granott) appears on the Lehn paper, which was not readable in the last check.",
-    "The public (state) share of Palestine's land: I found only the explanation of what 'public' land included, not a reliable single percentage; the Village Statistics reprint carries the table.",
-    "Figures for Jewish-owned land differ (1.49, 1.73, 1.85 and 2.0 million dunams) by date and by whether concessions and undivided shares count; I could not reconcile them from the pages I read."
+    "The shares bought from absentee owners, from resident large owners and from small farmers: I found only Stein's 'more than 60 percent from absentee landlords in the 1920s' and his rejection of the 9.4 percent peasant figure. The Granott breakdown (52.6, 24.6, 13.4 and 9.4 percent) and Porath's work are not on any readable page I found, so they are not quoted.",
+    "The Shaw Commission's own words on a 'landless and discontented class' appear only on a page I could not read (a Middle Eastern Studies article); I cite what the Shaw Commission is reported to have found by two readable scholarly summaries instead.",
+    "Lewis French's report itself (1931-32) was not found; his work is described through the Survey of Palestine, which counts the registered landless at 664.",
+    "Share of land that was state land: the Survey gives public land in settled areas (over 660 square kilometres) and state domain in dunams, not a single percentage of the whole country; the table that has Jewish land separately lumps all non-Jews. I could not find a reliable single figure for state land.",
+    "The state-land fact has three reliable sites only if one counts the two volumes of the Survey as one; the Village Statistics reprint is advocacy and not counted.",
+    "Figures for Jewish-owned land differ (1.49, 1.51, 1.59, 1.73 and 2.0 million dunams): the card says which source gives which, but I could not tell from the pages whether Stein's 2 million is purchases or holdings, or whether Jewish totals before 1920 (650,000 assumed) are firm.",
+    "The Survey of Palestine is cited from the Berman Jewish Policy Archive's scan of a 1946 British government publication; I found no archive.org copy readable here.",
+    "Reviewer: no Palestinian or Bedouin scholar on tenant displacement or on Bedouin land claims in the Beersheba area is quoted; Khalidi appears in one line. The card leans on Stein and on British government documents.",
+    "Reviewer: Hope Simpson also criticised JNF lease terms (no Arab labour); that is in the cited report but not carried as a fact."
   ],
   "not_claimed": [
-    "This card does not say the land was 'empty' or that all sellers were willing; Hope Simpson and Shaw document displacement and fear.",
+    "This card does not say the land was 'empty' or that all sellers were willing; Hope Simpson and the Peel report document displacement and its limits.",
     "It does not say purchases were illegal; they were legal under the Mandate, and restricted from 1940.",
     "It does not cover the land that changed hands in and after 1948.",
-    "It does not say 6.6 percent is the share of cultivable land; the cultivated or cultivable share was higher."
+    "It does not say 6.6 percent is the share of cultivable land; the Survey's own table shows Jewish ownership of cultivable categories was larger."
   ],
   "status": "draft",
-  "content_approved": false
+  "content_approved": false,
+  "answer_claims": [
+    {
+      "says": "Before 1948 most Jewish-held land was bought: of 1,731,300 dunams at the end of 1944, the Survey of Palestine counts 1,556,700 as purchased and 174,600 as government concessions.",
+      "facts": [
+        0
+      ]
+    },
+    {
+      "says": "That is 6.6 percent of Palestine's area; other counts run from about 1.49 to 2 million dunams, by date and definition.",
+      "facts": [
+        0
+      ]
+    },
+    {
+      "says": "The share is of the whole country, nearly half of it desert (the Survey puts the Beersheba desert at about 12,077 of 26,320 square kilometres), and some land was state land, not Arab-owned.",
+      "facts": [
+        1,
+        2
+      ]
+    },
+    {
+      "says": "Most purchases were from large landowners, many of them absentee, and the Jewish National Fund held its land as inalienable Jewish property.",
+      "facts": [
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "says": "But sales displaced Arab tenant farmers: in 1930 Hope Simpson concluded that of 688 tenant families on Jezreel-valley land Jews had bought, 309 had joined the landless, and area officers counted 1,270 farmers displaced.",
+      "facts": [
+        8
+      ]
+    },
+    {
+      "says": "In 1940 Britain restricted sales.",
+      "facts": [
+        11
+      ]
+    }
+  ],
+  "review": {
+    "skeptic": {
+      "verdict": "weakened",
+      "date": "2026-11-20",
+      "notes": "Read 2+ sources for every fact (12) in context, including both volumes of the Survey. Figures check out against the Survey. Five Jewish-owned totals: all five are on their pages; they differ by date and definition (concessions, registered vs held, assumption of 650,000 before 1920, Stein's 'all sources'); the 1,491,699 for April 1945 is lower than the 1,514,247 for April 1943 and the sources do not say why; the fact now says so and says they are not a trend. 6.6 percent is the Survey's share of total land area (1,731,300 of 26,320 km2); the fact now says it is not of farmland or private land. [must-fix] Old answer began 'Jews bought land; they did not seize it' but 174,600 dunams (10 percent of the 1944 total) were government concessions, and the UN study on the card says the rest not bought came by Mandatory cessions or from religious charities; reworded to 'most ... was bought'. [must-fix] Contested[0] said 'both agree tenants were displaced; they differ on blame' with no quote from Khalidi or Stein saying so; removed. Added a blame entry from Hope Simpson (the Jewish authorities 'have nothing with which to reproach themselves'; the duty was the government's), which the card omitted and which the Israeli side would cite. [must-fix] Palestinian side: Stein's 'fewer than 700 tenants, perhaps 5,000 people' (Sursock) was quoted while the same passage records 900 Arabs on 14,000 dunams (Shatta) and 1,200 Bedouin families on 30,000 dunams (Wadi Hawarith); added. Hope Simpson's 309 of 688 is his reading of the Jewish Agency's own list, which said 'very few' were landless; both now shown. [must-fix] Fact 10 (Shaw) rests on three summaries, none of which is the report; now said in the text, with the report's stated primary cause (political and national aspirations) alongside the economic fear. [should-fix] Fact 2 (state land): the two Survey volumes and a PLO-reprint (advocacy) are one origin; 660 km2 and 616,000 dunums are different counts; no whole-country state-land figure exists on the card. Fact 6: the 90 percent debt figure is JNF buyer Hankin's claim to Hope Simpson, not Stein's finding; fixed. Fact 11: 'got around them' rests on Stein alone; said. Fact 1: Survey internal inconsistency (12,077 + 13,743 = 25,820, not 26,320) and the Survey's 2,000 km2 of possible private claims in the Negev are now on the card. Stein's 2 million: 'purchased' in text, 'from all sources' in his table. [should-fix] Missing: JNF lease terms (Hope Simpson), the Peel finding that tenants were displaced, and any Bedouin-side source. Stein supplies five facts and three of the contested entries: one scholar. 'heard' (Khalidi on the Jewish Colonization Agency) is a weak form of the claim; the stronger one, 1948, is deferred to another card. Strongest objections: Palestinian side, tenant displacement and Bedouin claims thinly sourced; Israeli side, concessions and Hope Simpson's 'nothing to reproach' were missing."
+    },
+    "citer": {
+      "verdict": "holds",
+      "date": "2026-11-20",
+      "notes": "6 answer sentences, each tied to facts. Removed/reworded: 'they did not seize it' (no fact says nothing was seized; concessions are in fact 0); 'roughly 6 to 7 percent' (the Survey says 6.6; the 2 million estimate is 7.6 percent of 26.3 million, outside the range) replaced by the Survey's own 6.6 and 'other counts run from 1.49 to 2 million'; 'sales cost Arab tenant farmers their holdings' now rests on the Esdraelon evidence stated; 'Historians dispute how many were displaced and who was to blame' removed from the answer (only contested carries it); 'state land is part of the rest' reworded (the Negev is largely state or unsettled land too). The cultivable-land fact (3) is not used by the answer; should-fix: say that Jewish share of citrus land was about half and of taxable cereal land about 13 percent, so 6.6 percent is not the share of farmland."
+    }
+  }
 }

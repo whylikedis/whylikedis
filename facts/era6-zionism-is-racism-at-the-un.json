@@ -16,7 +16,7 @@
       "archive": ""
     }
   ],
-  "answer": "On 10 November 1975 the UN General Assembly voted 72 to 35, with 32 abstentions, that Zionism is a form of racism. The Soviet bloc, Arab and Muslim states and many African and non-aligned states carried it, in the middle of the Cold War; the United States, Western Europe and Israel voted no. Israel's ambassador Chaim Herzog and US ambassador Daniel Patrick Moynihan denounced it that day. On 16 December 1991 the Assembly revoked it, 111 to 25, with 13 abstentions, after the Soviet bloc collapsed. The UN is still lopsided on Israel: the Assembly has passed more resolutions on Israel than on all other countries together, and the Human Rights Council keeps a permanent agenda item on it, though the count is mostly UN Watch's, and most of the resolutions concern the occupation.",
+  "answer": "On 10 November 1975 the UN General Assembly voted 72 to 35, with 32 abstentions, that Zionism is a form of racism. The UN roll call lists the Soviet bloc, China, Arab and Muslim states, India, and also Brazil, Mexico, Portugal and Malta voting yes; the United States, Israel and most Western European states voted no. Israel's ambassador Chaim Herzog and US ambassador Daniel Patrick Moynihan denounced it that day. On 16 December 1991 the Assembly revoked it, 111 to 25, with 13 abstentions, as the Soviet bloc collapsed. Today, by UN Watch's count, the Assembly passed 173 resolutions on Israel against 80 on all other countries together from 2015 to 2024, and the Human Rights Council keeps a standing agenda item on Israel; the UN keeps no official count, and a fact check says such counts do not by themselves prove bias.",
   "facts": [
     {
       "text": "On 10 November 1975 the General Assembly adopted Resolution 3379 (XXX), which determines that Zionism is a form of racism and racial discrimination, by 72 votes to 35 with 32 abstentions.",
@@ -28,7 +28,8 @@
           "archive": "",
           "quote": "Draft resolution III was adopted by 72 votes to 35, with 32 abstentions",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Cambridge University Press (Undeclared Wars with Israel)",
@@ -48,7 +49,8 @@
           "accessed": "2026-11-20",
           "kind": "news"
         }
-      ]
+      ],
+      "record": true
     },
     {
       "text": "The text's preamble recalls the General Assembly's 1973 condemnation of 'the unholy alliance between South African racism and Zionism' and the 1975 Lima declaration of non-aligned states, which called on all countries to oppose Zionism as a racist and imperialist ideology.",
@@ -60,7 +62,8 @@
           "archive": "",
           "quote": "the unholy alliance between South African racism and Zionism",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Jewish Virtual Library (text of the resolution)",
@@ -80,37 +83,40 @@
           "accessed": "2026-11-20",
           "kind": "reference"
         }
-      ]
+      ],
+      "record": true
     },
     {
-      "text": "Cold War setting: the resolution was introduced by Somalia and carried by Soviet-bloc, Arab, Muslim, about half the African and some Asian states; the United States, Israel and most Western European states voted no, and East Germany voted yes while West Germany voted no.",
+      "text": "The roll call recorded in the UN's text of Resolution 3379 shows who voted how. In favour (72): the Soviet Union, the Ukrainian and Byelorussian republics, Poland, Hungary, Czechoslovakia, Bulgaria, East Germany, Albania, Mongolia, Cuba and Yugoslavia; China; the Arab states that voted, among them Egypt, Algeria, Iraq, Jordan, Kuwait, Lebanon, Libya, Oman, Qatar, Saudi Arabia, Syria, Tunisia, Morocco and Yemen; Iran, Pakistan, Indonesia, Turkey, India and Sri Lanka; and Brazil, Mexico, Portugal, Malta and Cyprus. Against (35): the United States, Israel, the United Kingdom, France, West Germany, Italy, the Netherlands, Belgium, Austria, Canada, Australia, New Zealand, the five Nordic states, Ireland and Luxembourg, and several Latin American and African states (among them Haiti, Honduras, Nicaragua, Panama, Costa Rica, El Salvador, Uruguay, Ivory Coast, Liberia and Malawi). Abstaining (32): among them Greece, Japan, Argentina, Chile, Colombia, Venezuela, Peru, Philippines, Thailand, Singapore, Kenya and Ethiopia.",
+      "record": true,
       "sources": [
         {
-          "publisher": "EBSCO Research Starters",
-          "title": "U.N. Resolution Denounces Zionism",
-          "url": "https://www.ebsco.com/research-starters/history/un-resolution-denounces-zionism",
+          "publisher": "United Nations (resolution text and roll call, via Ruhr University Bochum)",
+          "title": "UN Resolution 3379, 1975",
+          "url": "https://www.ruhr-uni-bochum.de/gna/Quellensammlung/11/11_unresolution_1975",
           "archive": "",
-          "quote": "a resolution introduced by Somalia in the General Assembly",
+          "quote": "union of soviet socialist republics, united arab emirates, united republic of cameroon, united republic of tanzania, yemen, yugoslavia, afghanistan, albania, algeria, bahrain, bangladesh, brazil",
           "accessed": "2026-11-20",
-          "kind": "reference"
+          "kind": "primary",
+          "is_record": true
+        },
+        {
+          "publisher": "United Nations (resolution text and roll call, via Ruhr University Bochum)",
+          "title": "UN Resolution 3379, 1975",
+          "url": "https://www.ruhr-uni-bochum.de/gna/Quellensammlung/11/11_unresolution_1975",
+          "archive": "",
+          "quote": "against: haiti, honduras, iceland, ireland, israel, italy, ivory coast, liberia, luxembourg, malawi, netherlands, new zealand, nicaragua, norway, panama",
+          "accessed": "2026-11-20",
+          "kind": "primary"
         },
         {
           "publisher": "Cambridge University Press (Undeclared Wars with Israel)",
           "title": "United Nations 'Zionism is Racism' Resolution of November 10, 1975",
           "url": "https://cambridge.org/core/books/undeclared-wars-with-israel/united-nations-zionism-is-racism-resolution-of-november-10-1975/5BEFC91A685911C71607F460666BD190",
           "archive": "",
-          "quote": "it was the most important victory to date for the PLO and its Soviet-bloc, Arab, and third-world state supporters",
+          "quote": "East Germany supported the resolution; West Germany voted against it",
           "accessed": "2026-11-20",
           "kind": "scholarly"
-        },
-        {
-          "publisher": "Time",
-          "title": "Zionism: a vote to revoke (30 December 1991)",
-          "url": "https://content.time.com/time/magazine/article/0,9171,974574,00.html",
-          "archive": "",
-          "quote": "the resolution was devised in 1975 by the U.S.S.R. to win Arab fealty against the U.S. in the superpower struggle for dominance in the Middle East",
-          "accessed": "2026-11-20",
-          "kind": "news"
         },
         {
           "publisher": "Center for Israel Education",
@@ -156,7 +162,8 @@
       ]
     },
     {
-      "text": "The US ambassador, Daniel Patrick Moynihan, told the Assembly that a great evil had been loosed upon the world and that the abomination of antisemitism had been given the appearance of international sanction.",
+      "text": "The US ambassador, Daniel Patrick Moynihan, told the Assembly that day that 'a great evil has been loosed upon the world'.",
+      "record": true,
       "sources": [
         {
           "publisher": "American Rhetoric (transcript of Moynihan's address)",
@@ -165,39 +172,42 @@
           "archive": "",
           "quote": "a great evil has been loosed upon the world",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
-          "publisher": "Oxford University Press blog",
-          "title": "10 November 1975: Daniel Patrick Moynihan addresses the UN on Zionism",
-          "url": "https://blog.oup.com/2012/11/10-november-1975-daniel-patrick-moynihan-addresses-the-un-on-zionism/",
+          "publisher": "The Marginalia Review of Books (James Loeffler on Gil Troy)",
+          "title": "Moynihan's Moment: America's Fight Against Zionism as Racism",
+          "url": "https://themarginaliareview.com/?p=4110",
           "archive": "",
-          "quote": "historian Gil Troy chronicles Moynihan's fiery response to that resolution",
+          "quote": "a great evil has been loosed upon the world",
           "accessed": "2026-11-20",
           "kind": "scholarly"
         },
         {
-          "publisher": "EBSCO Research Starters",
-          "title": "U.N. Resolution Denounces Zionism",
-          "url": "https://www.ebsco.com/research-starters/history/un-resolution-denounces-zionism",
+          "publisher": "The Algemeiner",
+          "title": "Daniel Patrick Moynihan and the Courage to Name Evil",
+          "url": "https://www.algemeiner.com/2025/11/17/daniel-patrick-moynihan-courage-name-evil/",
           "archive": "",
-          "quote": "daniel patrick moynihan delivered memorable speeches on the floor",
+          "quote": "a great evil has been loosed upon the world",
           "accessed": "2026-11-20",
-          "kind": "reference"
+          "kind": "news"
         }
       ]
     },
     {
-      "text": "On 16 December 1991 the General Assembly revoked the determination in Resolution 3379 by Resolution 46/86, by 111 votes to 25 with 13 abstentions. The text was one sentence. The vote came as the Soviet bloc collapsed.",
+      "text": "The UN's index of General Assembly resolutions records A/RES/46/86 as adopted in plenary on 16 December 1991 by 111 votes to 25 with 13 abstentions; it revoked the determination in Resolution 3379 in one sentence, as the Soviet bloc was collapsing.",
+      "record": true,
       "sources": [
         {
-          "publisher": "Center for Israel Education",
-          "title": "Revocation of UNGA Resolution 3379, 1991",
-          "url": "https://israeled.org/revocation-of-unga-resolution-3379-1991",
+          "publisher": "United Nations Dag Hammarskjold Library (index of General Assembly resolutions, 46th session)",
+          "title": "Resolutions adopted by the General Assembly, 46th session",
+          "url": "https://research.un.org/en/docs/ga/quick/regular/46",
           "archive": "",
-          "quote": "The General Assembly decides to revoke the determination contained in its resolution 3379 (XXX) of 10 November 1975",
+          "quote": "A/RES/46/86 plenary 92 A/46/PV.74 16 Dec. 1991 111-25-13",
           "accessed": "2026-11-20",
-          "kind": "reference"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Jewish Telegraphic Agency",
@@ -218,11 +228,11 @@
           "kind": "news"
         },
         {
-          "publisher": "Security Council Report",
-          "title": "A/RES/46/86",
-          "url": "https://www.securitycouncilreport.org/un-documents/document/IP-ARES46-86.php?print=true",
+          "publisher": "Center for Israel Education",
+          "title": "Revocation of UNGA Resolution 3379, 1991",
+          "url": "https://israeled.org/revocation-of-unga-resolution-3379-1991",
           "archive": "",
-          "quote": "this resolution revoked the resolution which described Zionism as racism",
+          "quote": "The General Assembly decides to revoke the determination contained in its resolution 3379 (XXX) of 10 November 1975",
           "accessed": "2026-11-20",
           "kind": "reference"
         }
@@ -238,7 +248,8 @@
           "archive": "",
           "quote": "the UN General Assembly has adopted 140 resolutions on Israel and 68 on other countries",
           "accessed": "2026-11-20",
-          "kind": "advocacy"
+          "kind": "advocacy",
+          "wire": "UN Watch"
         },
         {
           "publisher": "Scripps News (Fact Check Team)",
@@ -247,7 +258,8 @@
           "archive": "",
           "quote": "the General Assembly adopted 173 resolutions concerning Israel from 2015 through 2024, compared with 80 concerning all other countries combined",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "news",
+          "wire": "UN Watch"
         },
         {
           "publisher": "CBC News",
@@ -256,7 +268,8 @@
           "archive": "",
           "quote": "Israel faced 15 such resolutions, according to UN Watch",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "news",
+          "wire": "UN Watch"
         },
         {
           "publisher": "Hoover Institution (Rosa Freedman, working paper)",
@@ -312,7 +325,7 @@
       ]
     },
     {
-      "text": "Many of the resolutions concern the occupation, which is a cost to Palestinians and not only a grievance of states: on 18 September 2024 the Assembly voted 124 to 14, with 43 abstentions, to demand that Israel end its unlawful presence in the occupied territory within a year, citing the ICJ's advisory opinion. Israel's ambassador called it a shameful decision.",
+      "text": "The occupation is a documented cost to Palestinians, and some Assembly resolutions address it: on 18 September 2024 the Assembly voted 124 to 14, with 43 abstentions, to demand that Israel end its unlawful presence in the occupied territory within a year, citing the ICJ's advisory opinion. Israel's ambassador called it a shameful decision.",
       "sources": [
         {
           "publisher": "Euronews",
@@ -321,7 +334,8 @@
           "archive": "",
           "quote": "demanding that Israel end its \"unlawful presence\" in Gaza and the occupied West Bank within a year",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "news",
+          "wire": "AP"
         },
         {
           "publisher": "Daily Sabah",
@@ -348,7 +362,8 @@
           "archive": "",
           "quote": "denounced the vote as \"a shameful decision that backs the Palestinian Authority's diplomatic terrorism.\"",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "news",
+          "wire": "AP"
         }
       ]
     }
@@ -408,11 +423,14 @@
   ],
   "could_not_verify": [
     "The list of sponsors of the 1975 text. The Third Committee records and the UN Digital Library documents that list co-sponsors could not be read; I could confirm only that Somalia introduced the resolution (EBSCO) and that it was 'Arab-sponsored' (JTA).",
-    "The UN's own page for A/RES/46/86 returns an error; the 1991 vote is cited from the Center for Israel Education, JTA, Time and Security Council Report, and the 111-25-13 breakdown was not read on a UN page.",
     "I found no count of General Assembly or Human Rights Council resolutions from the UN's own records or from a peer-reviewed study. Every count of Assembly resolutions traces to UN Watch (advocacy); the AP count of 233 Council resolutions is from 2016 and the AP does not say how it counted. The three non-advocacy sources on the Assembly count (Scripps, CBC, Hoover) mostly repeat or build on UN Watch's numbers, so they are not independent counts, and the card says so.",
     "Ban Ki-moon's statement is quoted only as cited in the Hoover working paper; I did not read his remarks at the Security Council directly.",
     "The sentence that the resolution passed 'in the middle of the Cold War' and 'most of the resolutions concern the occupation' rests on the sources above; I did not classify the resolutions myself.",
-    "The arguments that delegates gave for 3379 (for example that Zionism resembles South African apartheid) could not be read from a primary record; only the preamble is quoted."
+    "The arguments that delegates gave for 3379 (for example that Zionism resembles South African apartheid) could not be read from a primary record; only the preamble is quoted.",
+    "Fact 6 (Assembly resolution counts) is short: every count traces to UN Watch's database, an advocacy group; the Scripps fact check and CBC repeat it, and the Hoover paper gives no total. I looked for a count from the UN's own records or a peer-reviewed study and found none, so it is UN Watch's count and the card says so.",
+    "The 1991 resolution's own text could not be read from a UN page; the UN's index of 46th-session resolutions (research.un.org) records the number, date and vote.",
+    "The Euronews page gives '124-12' in one paragraph and '124-14' in another; Daily Sabah and the Italian outlet give 124 in favour, and the 14 against comes from Euronews and Daily Sabah. I did not read the vote on a UN page.",
+    "The Moynihan words are quoted from the American Rhetoric transcript (the Congressional Record text could not be read); the Marginalia Review and the Algemeiner quote the same line."
   ],
   "not_claimed": [
     "This card does not say the United Nations is biased against Israel, and it does not say it is not.",
@@ -421,5 +439,51 @@
     "It does not rest on UN Watch's counts as neutral data; they are labelled advocacy and come with the fact-checkers' caveat."
   ],
   "status": "draft",
-  "content_approved": false
+  "content_approved": false,
+  "answer_claims": [
+    {
+      "says": "On 10 November 1975 the UN General Assembly voted 72 to 35, with 32 abstentions, that Zionism is a form of racism.",
+      "facts": [
+        0
+      ]
+    },
+    {
+      "says": "The UN roll call lists the Soviet bloc, China, Arab and Muslim states, India, and also Brazil, Mexico, Portugal and Malta voting yes; the United States, Israel and most Western European states voted no.",
+      "facts": [
+        2
+      ]
+    },
+    {
+      "says": "Israel's ambassador Chaim Herzog and US ambassador Daniel Patrick Moynihan denounced it that day.",
+      "facts": [
+        3,
+        4
+      ]
+    },
+    {
+      "says": "On 16 December 1991 the Assembly revoked it, 111 to 25, with 13 abstentions, as the Soviet bloc collapsed.",
+      "facts": [
+        5
+      ]
+    },
+    {
+      "says": "Today, by UN Watch's count, the Assembly passed 173 resolutions on Israel against 80 on all other countries together from 2015 to 2024, and the Human Rights Council keeps a standing agenda item on Israel; the UN keeps no official count, and a fact check says such counts do not by themselves prove bias.",
+      "facts": [
+        6,
+        7
+      ]
+    }
+  ],
+  "review": {
+    "skeptic": {
+      "verdict": "weakened",
+      "date": "2026-11-20",
+      "notes": "Read the Bochum roll call (adds the full yes/no/abstain lists), the Herzog and Moynihan transcripts, JTA on the shredding and the 1991 repeal, Scripps, CBC, the UN Watch page, the Hoover working paper, Euronews, Daily Sabah, La Voce. The 72-35-32 and 111-25-13 votes, the Herzog and Moynihan words, and the preamble are on the pages. [must-fix] Fact 6 is short: Scripps (173 v 80), CBC (15 in a year) and UN Watch itself are one dataset, and Scripps says so ('according to UN Watch's database'); I added wire 'UN Watch' to all three, leaving only the Hoover paper (which gives no total) as independent. It needs a count from UN records or a peer-reviewed study. Fact 7's 233-resolution AP figure and UN Watch's 99 (2006-2022) are unreconciled and the AP piece does not say how it counted; the same page also lists Syria 41, Iran 13, Russia 4, which the fact leaves out. [must-fix, fixed] Fact 8 opened 'Many of the resolutions concern the occupation' with one resolution as support; reworded. The two Euronews entries are one AP-bylined story (wire added). [should-fix] Palestinian/non-Soviet counter-fact: the roll call shows yes votes from Brazil, Mexico, Cuba, India, Yugoslavia, Portugal, Malta and Cyprus, and abstentions from Greece and Japan; 'Cold War setting' and 'Soviet product' (Time, Center for Israel Education) explain the Soviet role but under-describe who voted yes. The Cambridge source's 'PLO victory' is on the card; the delegates' own arguments (comparison with South African apartheid beyond the preamble) are not. [should-fix] Israeli lawyer: the card has no source on why the Council has a standing Item 7 or on whether Israel's exclusion from a regional group explains the counts; the Scripps fact check is the only caveat. [nit] Fact 4: only the American Rhetoric transcript contains the quoted words. 'Time' is a 1991 magazine article cited for 1975."
+    },
+    "citer": {
+      "verdict": "holds",
+      "date": "2026-11-20",
+      "notes": "Five answer sentences, each tied to facts. Removed: 'The UN is still lopsided on Israel' (a verdict the card's own not_claimed says it does not make); 'though the count is mostly UN Watch's' reworded to 'by UN Watch's count' with the fact-check caveat; and 'most of the resolutions concern the occupation', which no source supports (only one 2024 resolution is on the card). Reworded the Cold War sentence to what fact 2 and the roll call carry: 'many African and non-aligned states' became 'about half the African states and some Asian states', and 'Western Europe' became 'most Western European states' (Portugal and Malta voted yes, Greece abstained). I could not support the word 'non-aligned' in the vote."
+    }
+  }
 }

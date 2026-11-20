@@ -10,10 +10,10 @@
       "quote": "they expelled three-quarters of a million Palestinians stole their land, refused to allow them to return"
     }
   ],
-  "answer": "Nobody counted carefully before the British. Ottoman figures are estimates; for 1914 they run from about 690,000 people in all, with Jews put at 60,000 to about 85,000. The British census of 1922 found 757,182 people, 83,794 of them Jews; the last census, in 1931, found about 1,035,000. By the end of 1946 the UN committee estimated about 1,846,000: 1,203,000 Arabs and 608,000 Jews. About 376,000 Jewish immigrants were recorded from 1920 to 1946, most of the Jewish growth. The British and UN inquiries said the Arab growth was almost entirely births exceeding deaths. A minority view says unrecorded Arab immigration mattered more; the best-known book making that case was heavily criticised. So the land was inhabited, mostly by Arabs, and the Jewish share rose from 11 to about 33 percent.",
+  "answer": "Before the British there was no modern census, only Ottoman counts of another kind. For 1914 a Turkish estimate gave about 689,000 people in all; Jews are put at 60,000 to 85,000. The British census of 1922 found 757,182 people, 83,794 of them Jews; the last census, in 1931, found about 1,035,000. By the end of 1946 the UN committee estimated the settled population at about 1,846,000: 1,203,000 Arabs and 608,000 Jews. About 376,000 Jewish immigrants were recorded from 1920 to 1946, most of the Jewish growth. The British and UN inquiries put Arab growth almost entirely down to births over deaths, but Arab immigration was not fully recorded, and a minority view says it mattered more. So the land was inhabited, mostly by Arabs: Jews were about 11 percent of the 1922 census count and a third of the 1946 settled-population estimate (not exactly the same footing).",
   "facts": [
     {
-      "text": "Before the British censuses Palestine's population is known only from Ottoman registers and outside estimates, and scholars and the Mandate's own statisticians say these are unreliable.",
+      "text": "Before the British censuses Palestine's population is known only from Ottoman registers and outside estimates. The Mandate's Survey says no data are available on the size of the population before the British occupation; the American Jewish Year Book says Ottoman enumerations were not organised like a modern census; and a Cambridge article re-examining an actual 1849 Ottoman count of Nablus (20,000, against the 8,000-9,000 usually cited) says it raises serious doubts about commonly accepted figures. The earlier figures are therefore uncertain, and may err in either direction.",
       "sources": [
         {
           "publisher": "International Journal of Middle East Studies (Cambridge University Press)",
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "text": "Estimates for 1914 differ: a Turkish estimate put the whole population at about 689,000; the Jewish part is given as about 60,000 (8 percent) by one source, 84,660 by the Mandate government's survey, and the American Jewish Year Book estimated 70,000 in 1900.",
+      "text": "Estimates for 1914 differ: a Turkish estimate put the whole population at about 689,000. For the Jewish part the Imperial War Museums give around 60,000 (8 percent), the Mandate government's Survey 84,660 in its text (86,000 in its own table), and the American Jewish Year Book about 85,000.",
       "sources": [
         {
           "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
@@ -70,14 +70,14 @@
           "title": "Statistics of Jews, 1945-46",
           "url": "https://www.bjpa.org/content/upload/bjpa/1945/1945_1946_13_Statistics.pdf",
           "archive": "",
-          "quote": "in 1880, 35,000; in 1900, 70,000",
+          "quote": "the outbreak of World War I, about 85,000",
           "accessed": "2026-11-20",
           "kind": "reference"
         }
       ]
     },
     {
-      "text": "The first British census, on 23 October 1922, counted 757,182 people: 590,890 Muslims, 83,794 Jews and 73,024 Christians (about 78, 11 and 10 percent).",
+      "text": "The first British census, on 23 October 1922, counted 757,182 people: 590,890 Muslims, 83,794 Jews and 73,024 Christians (78, 11 and 9.6 percent), plus 9,474 others.",
       "sources": [
         {
           "publisher": "Palestine Government, Report on Palestine Administration 1922 (League of Nations), hosted by Emory University",
@@ -118,7 +118,7 @@
       ]
     },
     {
-      "text": "The second census, on 18 November 1931, was the last the British took. It counted about 1,035,000 people, of whom 174,610 (17 percent) were Jews.",
+      "text": "The second census, on 18 November 1931, was the last the British took. It counted about 1,035,000 people (1,035,821 in the census report as quoted by Emory's Center for Israel Education and the ECF database; 1,035,154 in the Survey of Palestine's chronology, a difference the sources do not explain), of whom 174,610 (17 percent) were Jews.",
       "sources": [
         {
           "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
@@ -200,7 +200,7 @@
       ]
     },
     {
-      "text": "The UN Special Committee on Palestine estimated the settled population at the end of 1946 at about 1,846,000: 1,203,000 Arabs, 608,000 Jews and 35,000 others, and warned that such estimates carry a margin of error that grows as the census year recedes.",
+      "text": "The UN Special Committee on Palestine (UNSCOP) estimated the settled population at the end of 1946 at about 1,846,000: 1,203,000 Arabs, 608,000 Jews and 35,000 others, and warned that such estimates carry a margin of error that grows as the census year recedes. Its vital records cover the whole population except the small Bedouin group living as nomads. Its own table gives the Jewish share as 12.91 percent in 1922 and 32.96 percent in 1946, on a 1922 total of 649,048 that differs from the census count of 757,182, so the 1922 census figure and the 1946 estimate are not on exactly the same footing. The figures come from the Mandate government's statistician, so UNSCOP, the Survey and the Anglo-American Committee repeat one set of British statistics rather than confirming it independently.",
       "sources": [
         {
           "publisher": "United Nations (UNISPAL), UNSCOP Report to the General Assembly, vol. 1",
@@ -328,7 +328,7 @@
       ]
     },
     {
-      "text": "The Arab population also grew fast, and the official inquiries attributed the growth almost entirely to natural increase: the Anglo-American Committee counted only 19,000 of the Muslim population's growth of 472,000 (1922 to 1944) as immigration.",
+      "text": "The Arab population also grew fast, and the official inquiries attributed the growth almost entirely to natural increase: the Anglo-American Committee counted only 19,000 of the Muslim population's growth of 472,000 (1922 to 1944) as immigration. The historian Yehoshua Porath reached the same view, but on this card his words are quoted second-hand, in a letter by Ronald Sanders who defends the opposite thesis.",
       "sources": [
         {
           "publisher": "United Nations (UNISPAL), UNSCOP Report to the General Assembly, vol. 1",
@@ -349,13 +349,13 @@
           "kind": "primary"
         },
         {
-          "publisher": "The New York Review of Books (exchange with Yehoshua Porath)",
+          "publisher": "The New York Review of Books (letter by Ronald Sanders, quoting Yehoshua Porath's review)",
           "title": "Mrs. Peters's Palestine: An Exchange",
           "url": "https://www.nybooks.com/articles/1986/03/27/mrs-peterss-palestine-an-exchange/",
           "archive": "",
           "quote": "one cannot escape the conclusion that most of the growth of the Palestinian Arab community resulted from a process of natural increase",
           "accessed": "2026-11-20",
-          "kind": "scholarly"
+          "kind": "news"
         }
       ]
     },
@@ -392,7 +392,7 @@
       ]
     },
     {
-      "text": "The official migration counts are incomplete: the Survey's statisticians made no allowance for illegal immigration before 1939, and the demographer Roberto Bachi wrote that he was unable to even guess the size of total immigration.",
+      "text": "The official migration counts are incomplete: the Survey's statisticians made no allowance for illegal immigration before 1939, and name illegal immigration, mainly from neighbouring countries, as a source of error for Muslims. The demographer Roberto Bachi, quoted by the economist Fred Gottheil (Middle East Quarterly), wrote of Muslim immigration that he was unable to even guess the size of total immigration; this is second-hand. A letter by Ronald Sanders in the New York Review of Books, written in defence of Joan Peters's thesis, says the British kept thorough records of Jewish immigration but none for Arabs migrating overland.",
       "sources": [
         {
           "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
@@ -404,56 +404,56 @@
           "kind": "primary"
         },
         {
-          "publisher": "Middle East Quarterly (Fred M. Gottheil, quoting Roberto Bachi)",
+          "publisher": "Middle East Quarterly, published by the Middle East Forum (Fred M. Gottheil, quoting Roberto Bachi)",
           "title": "The Smoking Gun: Arab Immigration into Palestine, 1922-1931",
           "url": "https://www.meforum.org/middle-east-quarterly/the-smoking-gun-arab-immigration-into-palestine",
           "archive": "",
           "quote": "in the present state of knowledge, we have been unable to even guess the size of total immigration",
           "accessed": "2026-11-20",
-          "kind": "scholarly"
+          "kind": "advocacy"
         },
         {
-          "publisher": "The New York Review of Books (Ronald Sanders, letter)",
+          "publisher": "The New York Review of Books (letter by Ronald Sanders)",
           "title": "Mrs. Peters's Palestine: An Exchange",
           "url": "https://www.nybooks.com/articles/1986/03/27/mrs-peterss-palestine-an-exchange/",
           "archive": "",
           "quote": "unfortunately, the British, while keeping thorough records of Jewish immigration, did not",
           "accessed": "2026-11-20",
-          "kind": "scholarly"
+          "kind": "news"
         }
       ]
     }
   ],
   "contested": [
     {
-      "text": "Joan Peters's 1984 book argued that much Arab growth was illegal immigration drawn by Zionist prosperity. Most reviewers rejected it. Yehoshua Porath, an Israeli historian, wrote that most of the growth was natural increase, as the British and UN inquiries had found. Daniel Pipes, who had praised the book, conceded serious faults yet held that no reviewer had refuted its central thesis. The economist Fred Gottheil argues that unrecorded illegal immigration from 1922 to 1931 mattered. Our reading: the large majority of the growth was natural increase; some immigration and movement within the country happened but cannot be measured.",
+      "text": "Joan Peters's 1984 book argued that much Arab growth was illegal immigration drawn by Zionist prosperity. Later reviewers stressed its technical, historical and literary faults; Daniel Pipes, who had praised it, does not dispute the faults but holds that neither Yehoshua Porath nor any other reviewer has refuted its central thesis. Porath, an Israeli historian (quoted here second-hand, in a letter by Ronald Sanders), held that most of the growth was natural increase, as the British and UN inquiries had found. The economist Fred Gottheil argues that unrecorded illegal immigration from 1922 to 1931 mattered. Our reading: the large majority of the growth was natural increase; some immigration and movement within the country happened but cannot be measured.",
       "sources": [
         {
-          "publisher": "Daniel Pipes (letter in The New York Review of Books, 1986)",
+          "publisher": "Daniel Pipes (letter in The New York Review of Books, 1986, hosted on his own website)",
           "title": "Mrs. Peters's Palestine",
           "url": "https://www.danielpipes.org/19124/mrs-peters-palestine",
           "archive": "",
           "quote": "the book presents a thesis that neither Professor Porath nor any other reviewer has so far succeeded in refuting",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "other"
         },
         {
-          "publisher": "Middle East Quarterly (Fred M. Gottheil)",
+          "publisher": "Middle East Quarterly, published by the Middle East Forum (Fred M. Gottheil)",
           "title": "The Smoking Gun: Arab Immigration into Palestine, 1922-1931",
           "url": "https://www.meforum.org/middle-east-quarterly/the-smoking-gun-arab-immigration-into-palestine",
           "archive": "",
           "quote": "it provides strong circumstantial evidence that the illegal Arab immigration into Palestine, like that within Palestine, was of consequence as well",
           "accessed": "2026-11-20",
-          "kind": "scholarly"
+          "kind": "advocacy"
         },
         {
-          "publisher": "The New York Review of Books (exchange with Yehoshua Porath)",
+          "publisher": "The New York Review of Books (letter by Ronald Sanders, quoting Yehoshua Porath's review)",
           "title": "Mrs. Peters's Palestine: An Exchange",
           "url": "https://www.nybooks.com/articles/1986/03/27/mrs-peterss-palestine-an-exchange/",
           "archive": "",
           "quote": "one cannot escape the conclusion that most of the growth of the Palestinian Arab community resulted from a process of natural increase",
           "accessed": "2026-11-20",
-          "kind": "scholarly"
+          "kind": "news"
         }
       ]
     }
@@ -465,7 +465,9 @@
     "The 1931 census report is an unreadable scan here; its figures come from the Survey, ECF, Emory's quotation and the news item.",
     "The Survey of Palestine and the Anglo-American report give the Jewish and Arab counts but differ in total (1,765,000 vs 1,727,786 in the American Jewish Year Book) because of how they count forces and nomads; I did not resolve it.",
     "UNSCOP's own table of religions gives a 1922 Muslim figure (486,177) that does not match the census (590,890); I cite only its prose paragraphs.",
-    "I did not find a readable page by a demographer arguing that Arab growth from 1922 to 1946 was mostly immigration other than Gottheil on 1922-1931."
+    "I did not find a readable page by a demographer arguing that Arab growth from 1922 to 1946 was mostly immigration other than Gottheil on 1922-1931.",
+    "Reviewer: the best scholarly counter to Gottheil, Justin McCarthy's demographic study of Palestine's population, is only reached through Gottheil's critique of it, so it is not carried; no first-hand page for it was read.",
+    "Reviewer: nomads and the 1922 census scope: no page I could read says whether the 757,182 includes the Bedouin; UNSCOP's own table uses 649,048 for 1922."
   ],
   "not_claimed": [
     "This card does not say there was no Arab immigration into Palestine, only that the official inquiries put it at a small share of the growth.",
@@ -474,5 +476,64 @@
     "It does not say the land was 'empty' or 'full': counts alone do not settle that."
   ],
   "status": "draft",
-  "content_approved": false
+  "content_approved": false,
+  "answer_claims": [
+    {
+      "says": "Before the British there was no modern census, only Ottoman counts of another kind.",
+      "facts": [
+        0
+      ]
+    },
+    {
+      "says": "For 1914 a Turkish estimate gave about 689,000 people in all; Jews are put at 60,000 to 85,000.",
+      "facts": [
+        1
+      ]
+    },
+    {
+      "says": "The British census of 1922 found 757,182 people, 83,794 of them Jews; the last census, in 1931, found about 1,035,000.",
+      "facts": [
+        2,
+        3
+      ]
+    },
+    {
+      "says": "By the end of 1946 the UN committee estimated the settled population at about 1,846,000: 1,203,000 Arabs and 608,000 Jews.",
+      "facts": [
+        5
+      ]
+    },
+    {
+      "says": "About 376,000 Jewish immigrants were recorded from 1920 to 1946, most of the Jewish growth.",
+      "facts": [
+        7
+      ]
+    },
+    {
+      "says": "The British and UN inquiries put Arab growth almost entirely down to births over deaths, but Arab immigration was not fully recorded, and a minority view says it mattered more.",
+      "facts": [
+        9,
+        11
+      ]
+    },
+    {
+      "says": "So the land was inhabited, mostly by Arabs: Jews were about 11 percent of the 1922 census count and a third of the 1946 settled-population estimate (not exactly the same footing).",
+      "facts": [
+        2,
+        5
+      ]
+    }
+  ],
+  "review": {
+    "skeptic": {
+      "verdict": "weakened",
+      "date": "2026-11-20",
+      "notes": "Read 2+ sources for every fact (12). Checked every figure in its paragraph. Figures are accurate, but: [must-fix] Independence: from 1922 on, every count (census, Survey, Hansard, Anglo-American Committee, UNSCOP) is the Mandate government's own statistics, so the gate's three sites are one dataset. Facts 0, 1, 4, 11 have only two origins (the American Jewish Year Book and the Survey are both bjpa.org). Fact 5 has two UN pages for one UNSCOP report. Fact 6's numbers rest on one Hansard answer (government). The card cannot be called three-source on this basis. [must-fix] The old answer's last sentence mixed bases: 11 percent is of the 1922 census total, 33 percent is of the 1946 settled-population estimate; UNSCOP's own table gives 12.91 and 32.96 on a different 1922 total. Fixed in the answer and fact 5. [must-fix] Fact 0 said the Mandate statisticians called the older figures 'unreliable'; the Survey says only that no data are available. Reworded. The Cambridge article found Nablus about twice the size usually cited, so the old guesses may be too low, which matters for the Palestinian side. [must-fix] Fact 1 listed a 1900 figure under 1914 estimates and the answer called the 60,000-85,000 'Ottoman figures'; the 60,000 is an IWM video narration and 84,660 is the Survey's estimate. Reworded; the year-book quote now reads about 85,000 for 1914. [should-fix] Second-hand: Porath is quoted inside Ronald Sanders's letter, and Bachi inside Gottheil's article (about Muslim immigration, not total); both now said so in the facts and contested. Gottheil's host is the Middle East Forum (relabelled advocacy); Pipes's letter is hosted on his own site (other). 'Most reviewers rejected it' had no source; replaced. [should-fix] The 1931 total is 1,035,821 in the census report and 1,035,154 in the Survey; now shown. Fact 8's My Jewish Learning quote does not carry the numbers (only bpb and the Survey do). 'heard' (Khalidi on 1948) is not about population. Strongest objections: Palestinian side, no first-hand scholar (e.g. McCarthy) on Arab population and the Ottoman undercount; Israeli side, the Jewish share is given as 11 percent without the 1922 base problem being visible until fixed."
+    },
+    "citer": {
+      "verdict": "holds",
+      "date": "2026-11-20",
+      "notes": "7 answer sentences, each tied to facts. Removed: 'the best-known book making that case was heavily criticised' (only the contested field carries it, not a fact). Reworded: 'Nobody counted carefully' (Ottoman counts exist); 'Ottoman figures ... run from about 690,000' (one Turkish estimate, not a range, and the Jewish figures are not Ottoman); '1,846,000' now 'settled population'; the 11-to-33-percent sentence now names both bases; the minority-view sentence now rests on fact 11 (incomplete records) and says 'a minority view'. Facts 6, 8, 10 are not used by the answer."
+    }
+  }
 }

@@ -49,13 +49,36 @@
           "kind": "scholarly"
         },
         {
-          "publisher": "Party Politics (SAGE)",
-          "title": "The Israeli parties' positions in comparative perspective (Zur and Bakker)",
-          "url": "https://doi.org/10.1177/13540688231218917",
+          "publisher": "Israel Democracy Institute",
+          "title": "The Israeli Democracy Index 2022",
+          "url": "https://en.idi.org.il/media/19697/the-israeli-democracy-index-2022.pdf",
           "archive": "",
-          "quote": "Israeli parties' positions are structured firstly around the conflict, then around cultural issues, and only then around economic issues.",
+          "quote": "whereas in the past it was crystal clear what Right and Left meant, since the distinction was based mainly on opinions about the Israeli-Palestinian conflict",
           "accessed": "2026-11-20",
           "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "The Israel Democracy Institute says Right and Left once meant mainly views on the Israeli-Palestinian conflict, but that today the division between the two camps is more reminiscent of Democrats against Republicans: opposing sets of opinions on Zionism, religion and state, women's rights, the status of Arab citizens and the conflict.",
+      "sources": [
+        {
+          "publisher": "Israel Democracy Institute",
+          "title": "The Israeli Democracy Index 2022",
+          "url": "https://en.idi.org.il/media/19697/the-israeli-democracy-index-2022.pdf",
+          "archive": "",
+          "quote": "today the division between the two camps is more reminiscent of that between the Democrats and the Republicans in the United States.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "The New Yorker",
+          "title": "What Americans Against Trump Can Learn from the Failures of the Israeli Opposition",
+          "url": "https://www.newyorker.com/news/news-desk/what-americans-against-trump-can-learn-from-the-failures-of-the-israeli-opposition",
+          "archive": "",
+          "quote": "The Israeli left, like American Democrats, has assumed that the poorest voters could be appealed to as a class with social-democratic promises.",
+          "accessed": "2026-11-20",
+          "kind": "news"
         }
       ]
     },
@@ -92,16 +115,16 @@
       ]
     },
     {
-      "text": "The economy is the weakest dividing line, yet it matters to voters: in an Israel Democracy Institute survey Jewish voters named foreign policy and security (20%), religion and state (19%) and the economy and cost of living (19%) as the top issues behind their choice of party.",
+      "text": "The economy is the weakest dividing line: the Israel Democracy Institute finds that on economic issues the differences between the political camps in Israel are small, and a 2026 analysis says economic and social policy cut across the camps rather than define them.",
       "sources": [
         {
-          "publisher": "The Times of Israel",
-          "title": "Most Israelis feel no political party fully represents their views, poll finds",
-          "url": "https://www.timesofisrael.com/most-israelis-feel-there-is-no-political-party-that-represents-their-views-poll/",
+          "publisher": "Israel Democracy Institute",
+          "title": "The Israeli Democracy Index 2022",
+          "url": "https://en.idi.org.il/media/19697/the-israeli-democracy-index-2022.pdf",
           "archive": "",
-          "quote": "the top issues influencing choice of party come down to positions on foreign policy and security (20%), religion and state (19%), and the economy and the high cost of living (19%)",
+          "quote": "on economic issues, for example, and in several other areas, the differences between the political camps in Israel are small",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "scholarly"
         },
         {
           "publisher": "Al Jazeera",
@@ -115,16 +138,25 @@
       ]
     },
     {
-      "text": "Most Israeli Jews place themselves on the right, and that share has grown: 62% right, 24% centre and 11% left in 2022, up from 46% right in 2019; in 2007 it was 52% right, 26% centre and 22% left.",
+      "text": "Most Israeli Jews place themselves on the right, and that share has grown: 62% right, 24% centre and 11% left in 2022 (multi-year average 49.5% right); in 2007 it was 52% right, 26% centre and 22% left.",
       "sources": [
         {
-          "publisher": "The Times of Israel",
-          "title": "Jewish Israeli voters have moved significantly rightward in recent years, data shows",
-          "url": "https://www.timesofisrael.com/israeli-jewish-voters-moved-significantly-rightward-in-recent-years-data-shows/",
+          "publisher": "Israel Democracy Institute",
+          "title": "The Israeli Democracy Index 2022",
+          "url": "https://en.idi.org.il/media/19697/the-israeli-democracy-index-2022.pdf",
           "archive": "",
-          "quote": "Israel's right-wing Jewish voter base has grown from 46 percent before the April 2019 election to 62% now",
+          "quote": "In fact, today the Right (at 62%) is almost twice the size of the Center (24%) and Left (11%) combined",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Israel Democracy Institute",
+          "title": "The Israeli Democracy Index 2022",
+          "url": "https://en.idi.org.il/media/19697/the-israeli-democracy-index-2022.pdf",
+          "archive": "",
+          "quote": "the Jewish public in Israel identifies largely with the Right (multiyear average, 49.5%)",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
         },
         {
           "publisher": "Israel Democracy Institute",
@@ -134,6 +166,15 @@
           "quote": "52% of the population defined themselves as rightists; of them, 25% saw themselves as belonging to the extreme Right. Twenty-six percent saw themselves as centrists, and 22% defined themselves as leftist",
           "accessed": "2026-11-20",
           "kind": "scholarly"
+        },
+        {
+          "publisher": "Israel Votes (election explainer, no named author)",
+          "title": "The American lens",
+          "url": "https://www.israelvotes.org/american-lens",
+          "archive": "",
+          "quote": "Israeli Jews have also moved right on their own placement: 62% put themselves on the right in 2022, up from 46% in 2019.",
+          "accessed": "2026-11-20",
+          "kind": "other"
         }
       ]
     },
@@ -170,7 +211,7 @@
       ]
     },
     {
-      "text": "Israeli Arab citizens are far less pessimistic than Israeli Jews about a two-state outcome (40% against 16% in Pew's 2025 survey), and the Israel Democracy Institute notes that many Arab citizens see themselves as identified with the left (its annual Index treats Arab respondents as a separate camp).",
+      "text": "Israeli Arab citizens are far less pessimistic than Israeli Jews about a two-state outcome (40% against 16% in Pew's 2025 survey); the IDI's Index treats the Arab public as a separate political camp, outside the right-left scale used for Jews, while an IDI analysis notes that many Arab citizens see themselves as identified with the left.",
       "sources": [
         {
           "publisher": "Pew Research Center",
@@ -196,6 +237,15 @@
           "url": "https://en.idi.org.il/articles/45854",
           "archive": "",
           "quote": "many Arabs see themselves as identified with the left.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Israel Democracy Institute",
+          "title": "The Israeli Democracy Index 2022",
+          "url": "https://en.idi.org.il/media/19697/the-israeli-democracy-index-2022.pdf",
+          "archive": "",
+          "quote": "the Arab public, which does not identify with this fundamental Jewish Israeli ethos, to constitute a separate political camp.",
           "accessed": "2026-11-20",
           "kind": "scholarly"
         }
@@ -290,21 +340,75 @@
     }
   ],
   "contested": [
-    "How much the American parallel holds. The Israel Democracy Institute's 2022 Index says that Right and Left once meant mainly views on the conflict, and that today the divide is closer to Democrats against Republicans: a bundle of identity, religion and state, and the status of Arab citizens as well. Other scholars (Zur and Bakker) still find that party positions are structured first by the conflict. The card cannot settle this; the IDI wording comes from a PDF the checker cannot read.",
-    "Whether the economy matters as little as the scholarly literature says. Voters themselves name it as often as security in some surveys.",
-    "Poll wording differs: Pew asks whether a way can be found for Israel and a Palestinian state to coexist; Gallup asks whether people favour establishing a Palestinian state. The worked example compares two different questions and is an illustration, not a measurement of the same thing."
+    {
+      "text": "How far the American parallel holds. The IDI says the Israeli divide now looks like Democrats against Republicans; a 2026 analysis says the terms no longer describe two mirror camps, and scholars still find party positions structured first by the conflict.",
+      "sources": [
+        {
+          "publisher": "Israel Democracy Institute",
+          "title": "The Israeli Democracy Index 2022",
+          "url": "https://en.idi.org.il/media/19697/the-israeli-democracy-index-2022.pdf",
+          "archive": "",
+          "quote": "today the division between the two camps is more reminiscent of that between the Democrats and the Republicans in the United States.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "What 'right' and 'left' mean in Israel today",
+          "url": "https://www.aljazeera.com/news/2026/9/9/what-right-and-left-mean-in-israel-today",
+          "archive": "",
+          "quote": "The Israeli left and right still exist. But the terms no longer describe two mirror camps competing over the same list of questions.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "European Council on Foreign Relations",
+          "title": "The ideas of Israel",
+          "url": "https://ecfr.eu/special/the-ideas-of-israel/",
+          "archive": "",
+          "quote": "rather than sitting on any traditional left-right axis, these camps cut across three ideological axes: economic, security and identity.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "Whether the economy matters as little as the scholarly literature says: the IDI finds small economic differences between the camps, while an IDI survey summarised on an election explainer found Jewish respondents naming the economy and cost of living nearly as often as foreign affairs and security.",
+      "sources": [
+        {
+          "publisher": "Israel Democracy Institute",
+          "title": "The Israeli Democracy Index 2022",
+          "url": "https://en.idi.org.il/media/19697/the-israeli-democracy-index-2022.pdf",
+          "archive": "",
+          "quote": "on economic issues, for example, and in several other areas, the differences between the political camps in Israel are small",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Israel Votes (election explainer, no named author)",
+          "title": "The American lens",
+          "url": "https://www.israelvotes.org/american-lens",
+          "archive": "",
+          "quote": "Jewish respondents chose foreign affairs and security (39%), the economy and cost of living (38%) and conscription (27%).",
+          "accessed": "2026-11-20",
+          "kind": "other"
+        }
+      ]
+    }
   ],
   "could_not_verify": [
-    "Israel Democracy Institute self-placement figures for 2023 to 2025 (after 7 October) and for Arab citizens on a left-right scale: the IDI Index is published as PDF and the HTML pages found carry no such figure.",
-    "The IDI 2022 Index sentence that the right-left divide now resembles Democrats against Republicans appears only in a PDF, so it is described in contested but not quoted.",
-    "Pew's 2022 and 2024 US surveys on the best outcome (two states) could not be read by the checker (HTML blocked), so the US half of the worked example rests on Gallup 2025 and a news report of it.",
-    "A source that states, in so many words, that the economy is the weakest dimension of Israeli left-right placement, beyond the Zur and Bakker study."
+    "A second, independent source for the 2022 self-placement figures (62% right, 24% centre, 11% left): the Times of Israel and Channel 12 reports blocked the checker, so those figures and the 46% right in 2019 are not on this card as checked quotes.",
+    "IDI self-placement figures for 2023 to 2025, after 7 October: none found in a page the checker can read.",
+    "Zur and Bakker (Party Politics, 2023), the study that places party positions first on the conflict, then culture, then the economy: the SAGE page blocks the checker; the claim rests on the IDI, Al Jazeera and ECFR pages.",
+    "The Times of Israel report of an IDI survey in which Jewish voters named security (20%), religion and state (19%) and the economy (19%) as top issues: blocked; the nearest readable figure is the 2026 explainer in contested.",
+    "Pew's 2022 and 2024 US surveys on the best outcome (two states) could not be read by the checker, so the US half of the worked example rests on Gallup 2025 and two news reports of it."
   ],
   "not_claimed": [
     "That Israeli and American politics are unrelated: the IDI itself sees a growing resemblance.",
     "That Israeli voters ignore the economy, religion or identity.",
     "That any one party or camp is right about the conflict.",
-    "That the worked example is a real person or a forecast."
+    "That the worked example is a real person or a forecast.",
+    "That Pew and Gallup measure the same thing: Pew asks whether a way can be found for Israel and a Palestinian state to coexist; Gallup asks whether people favour establishing a Palestinian state."
   ],
   "status": "draft",
   "content_approved": false

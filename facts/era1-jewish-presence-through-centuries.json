@@ -10,7 +10,7 @@
       "quote": "The truth that we should spread to the world is that European Jews are not Semites. They have nothing to do with Semitism"
     }
   ],
-  "answer": "After the Roman wars Jews went from a majority to a minority of the land's people, and most Jewish residents dispersed. Jews were about 13,000 of 340,000 people in 1850, and still a tiny minority in 1917. But they did not all leave. After 135 the centre of Jewish life moved to the Galilee, where the Jerusalem Talmud was compiled about 400. Jewish communities are recorded under Byzantine, early Islamic, Crusader, Mamluk and Ottoman rule, above all Safed in the 16th century. Jerusalem had almost no Jews in 1267 and about seventy families in 1488. By the 1850s to 1860s Jews were the largest single group in Jerusalem. By the Central Bureau of Statistics (own or father's birthplace), 28% of Israel's Jews in 2021 were of European or American origin and 22% of Asian or African; a survey tracing grandparents found 45% Mizrahi and 32% Ashkenazi.",
+  "answer": "Jews went from a majority in the first century to a minority by the fifth: one source says most dispersed after the Roman wars, another accepts about 580,000 Jewish dead in 132-135. Jews were about 13,000 of 340,000 people in 1850, and a tiny minority in 1917. But not all left: after 135 the centre of Jewish life moved to the Galilee, where the Jerusalem Talmud was compiled about 400. Jewish communities are recorded under Byzantine, early Islamic, Crusader, Mamluk and Ottoman rule, above all Safed in the 16th century. Jerusalem had almost no Jews in 1267. By the 1850s to 1860s Jews were the largest single group in Jerusalem. By the Central Bureau of Statistics (own or father's birthplace), 28% of Israel's Jews in 2021 were of European or American origin and 22% of Asian or African; a survey tracing grandparents found 45% Mizrahi and 32% Ashkenazi.",
   "facts": [
     {
       "text": "After the Roman wars (70 and 132-135 CE) the centre of Jewish life moved north to the Galilee, where the Jerusalem Talmud, produced in the Galilean academies (above all Tiberias), was compiled about 400 CE; the Mishnah dates to about 200 CE.",
@@ -205,7 +205,7 @@
       ]
     },
     {
-      "text": "After the Roman wars Jews went from the majority of the land's population to a minority: Sergio DellaPergola's estimates, built on Roberto Bachi's, show a Jewish majority in the first century and a Christian majority from the 2nd to the 6th centuries; My Jewish Learning says conditions after the revolts convinced most Jewish residents to disperse (DellaPergola's table gives the shares, not the cause).",
+      "text": "Jews fell from a majority of the land's population to a minority over the first centuries of the Common Era. Sergio DellaPergola's rough estimates show a Jewish majority in the first century and a Christian majority from the 2nd to the 6th centuries; the Center for Online Judaic Studies says the Jews of Palestine were already a minority in their own land under Constantine and that Christians became the majority in the fifth century. Neither says how much of the fall was death, flight or conversion.",
       "sources": [
         {
           "publisher": "IUSSP (Sergio DellaPergola, paper for the 2001 General Population Conference)",
@@ -226,11 +226,20 @@
           "kind": "scholarly"
         },
         {
-          "publisher": "My Jewish Learning",
-          "title": "Life in Palestine (Jeremy Moses)",
-          "url": "https://www.myjewishlearning.com/article/life-in-palestine/",
+          "publisher": "Center for Online Judaic Studies",
+          "title": "Under Byzantine Christianity",
+          "url": "https://cojs.org/under_byzantine_christianity/",
           "archive": "",
-          "quote": "grave enough to convince most residents to disperse around the globe",
+          "quote": "the Jews of Palestine, already a minority in their own land, soon faced the process of its christianization",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Center for Online Judaic Studies",
+          "title": "Under Byzantine Christianity",
+          "url": "https://cojs.org/under_byzantine_christianity/",
+          "archive": "",
+          "quote": "in the fifth century Christians finally became the majority of the country's population",
           "accessed": "2026-11-20",
           "kind": "reference"
         }
@@ -304,6 +313,29 @@
           "url": "https://archive.org/stream/100yearswarpalestine/The_Hundred_Years_War_on_Palestine_A_History_of_Settler_Colonial_Conquest_and_Resistance_UK_Edition_Rashid_Khalidi_djvu.txt",
           "archive": "",
           "quote": "at a time when Jews constituted a tiny minority of the population",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "After the revolts against Rome, conditions convinced most Jewish residents to disperse, according to My Jewish Learning, which adds that no decree ordered them to leave; an archaeological study (Raviv, 2021) judges Cassius Dio's figure of 580,000 Jewish victims of the Bar Kokhba war (132-135) a reasonable account of the total. The two sources describe different things (dispersal; deaths) and do not say how they divide.",
+      "sources": [
+        {
+          "publisher": "My Jewish Learning",
+          "title": "Life in Palestine (Jeremy Moses)",
+          "url": "https://www.myjewishlearning.com/article/life-in-palestine/",
+          "archive": "",
+          "quote": "grave enough to convince most residents to disperse around the globe",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Journal of Roman Archaeology (Cambridge University Press), Uri Raviv",
+          "title": "Cassius Dio's figures for the demographic consequences of the Bar Kokhba War: exaggeration or reliable account?",
+          "url": "https://www.cambridge.org/core/journals/journal-of-roman-archaeology/article/cassius-dios-figures-for-the-demographic-consequences-of-the-bar-kokhba-war-exaggeration-or-reliable-account/2D9838573C499EFC816F5E1569E63B58",
+          "archive": "",
+          "quote": "it seems reasonable that Dio's figure of 580,000 represents the total number of Jewish victims of the war",
           "accessed": "2026-11-20",
           "kind": "scholarly"
         }
@@ -404,7 +436,7 @@
       ]
     },
     {
-      "text": "The 'no mass exile' position holds that the Romans did not deport the Jews of Judea, that many Judeans stayed, converted over the centuries to Christianity and then Islam, and are among the ancestors of today's Palestinians. Shlomo Sand argues this and says the early Zionists believed it; he cites Yitzhak Ben-Zvi, later Israel's second president, writing in 1929 that the peasant farmers came largely from earlier Jewish farmers. Sand is quoted from an interview and a book review, not his book; no historian who rejects his view is quoted here. Population-genetics reviews report that Jewish populations of Europe, North Africa and the Middle East form a cluster distinct from their non-Jewish neighbours, with Palestinians among the nearest non-Jewish neighbours, and that Khazar admixture in Ashkenazi Jews is speculative.",
+      "text": "The 'no mass exile' position holds that the Romans did not deport the Jews of Judea, that many Judeans stayed, converted over the centuries to Christianity and then Islam, and are among the ancestors of today's Palestinians. Shlomo Sand argues this and says the early Zionists believed it; he cites Yitzhak Ben-Zvi, later Israel's second president, writing in 1929 that the peasant farmers came largely from earlier Jewish farmers. Population-genetics reviews report that Jewish populations of Europe, North Africa and the Middle East form a cluster distinct from their non-Jewish neighbours, with Palestinians among the nearest non-Jewish neighbours, and that Khazar admixture in Ashkenazi Jews is speculative. Sand's position here is taken from an interview (Consortium News) and a review of his book (AlterNet), not from his book. The historian Robert Wistrich, reviewing Sand in The Jerusalem Post, wrote that Sand 'has failed to demolish the myths on which the history of the Jewish people has been constructed' (a headline summary; the review text was not readable).",
       "sources": [
         {
           "publisher": "Consortium News (interview with Shlomo Sand)",
@@ -450,16 +482,28 @@
           "quote": "This may be the signal of much-speculated Khazar admixture with Ashkenazi Jews, although the admixture may have occurred with Ukrainians, Poles or Russians",
           "accessed": "2026-11-20",
           "kind": "scholarly"
+        },
+        {
+          "publisher": "The Jerusalem Post (Robert Wistrich, Hebrew University historian)",
+          "title": "A polemic written in Sand (review of Shlomo Sand, The Invention of the Jewish People)",
+          "url": "https://www.jpost.com/jerusalem-report/arts-and-culture/article-202012",
+          "archive": "",
+          "quote": "Shlomo Sand has failed to demolish the \"myths\" on which the history of the Jewish people has been constructed.",
+          "accessed": "2026-11-20",
+          "kind": "news"
         }
       ]
     }
   ],
   "could_not_verify": [
     "Sources saying that most Jews outside the land outnumbered those in it, century by century: none read; the card says only that most Jewish residents dispersed after the revolts (My Jewish Learning) and gives population shares.",
-    "A third reliable source on the dispersal after the Roman wars: only My Jewish Learning and DellaPergola's estimates were read; scholarship dating the large decline to the Byzantine period (as DellaPergola's table implies) was not found in a quotable page.",
     "Dated evidence for Hebron's Jewish community through the centuries on three independent readable pages: only Encyclopaedia Judaica and Teach Jewish History (advocacy) were readable.",
     "The source of the Prussian consul's 1845 count (about 7,000 Jews of about 16,000): not found on a readable independent page.",
-    "Quotes from Shlomo Sand's own book: only press accounts of him were read; and no reply by a historian who defends the exile narrative was found on a readable page (Israel Bartal's is in Haaretz, behind a paywall)."
+    "Sand's own book: only an interview (Consortium News) and a review (AlterNet) were read. The only historian quoted against his thesis is Wistrich, from the standfirst of a review whose text was not readable; Israel Bartal's reply is in Haaretz behind a paywall.",
+    "A source stating why Jews became a minority: the third source for that fact (Raviv) concerns the Bar Kokhba casualties only; scholarship tying the decline to the Byzantine period was not found in a quotable page.",
+    "Three independent sources for each of: Jews a majority in the 1st century and a minority by the 5th (now DellaPergola and COJS, two); most Jewish residents dispersed after the revolts (only My Jewish Learning); Jewish dead in 132-135 (only Raviv). Fact 6 is now split so each claim stands on its own sources: fact 6 (the shift to a minority) has two reliable sources, fact 9 (dispersal, and the 580,000 dead) has two, one for each clause. A person should read a scholarly history of Roman and Byzantine Palestine (for example Schwartz, Imperialism and Jewish Society, or Cambridge's Jews in Late Antiquity) for each clause.",
+    "The Israeli Central Bureau of Statistics table on origin (fact 7) is read as a government source; the three reliable sources on that fact report survey and census data on ethnic origin, not the same CBS figures, so it is not reworded as a record fact. A person should look for a reliable reader of CBS table 2.9.",
+    "The McCarthy figures for 1850-51 and 1914-15 (fact 8) are his corrected estimates from Ottoman registers, which were not read; the fact is attributed to him and to Khalidi."
   ],
   "not_claimed": [
     "That Jewish presence gives Jews a right to the land or settles any modern political question.",
@@ -471,27 +515,20 @@
   "content_approved": false,
   "answer_claims": [
     {
-      "says": "After the Roman wars Jews went from a majority to a minority of the land's people, and most Jewish residents dispersed.",
+      "says": "Jews went from a majority in the first century to a minority by the fifth: one source says most dispersed after the Roman wars, another accepts about 580,000 Jewish dead in 132-135.",
       "facts": [
-        6
+        6,
+        9
       ]
     },
     {
-      "says": "Jews were about 13,000 of 340,000 people in 1850, and still a tiny minority in 1917.",
+      "says": "Jews were about 13,000 of 340,000 people in 1850, and a tiny minority in 1917.",
       "facts": [
         8
       ]
     },
     {
-      "says": "But they did not all leave.",
-      "facts": [
-        1,
-        2,
-        4
-      ]
-    },
-    {
-      "says": "After 135 the centre of Jewish life moved to the Galilee, where the Jerusalem Talmud was compiled about 400.",
+      "says": "But not all left: after 135 the centre of Jewish life moved to the Galilee, where the Jerusalem Talmud was compiled about 400.",
       "facts": [
         0
       ]
@@ -506,7 +543,7 @@
       ]
     },
     {
-      "says": "Jerusalem had almost no Jews in 1267 and about seventy families in 1488.",
+      "says": "Jerusalem had almost no Jews in 1267.",
       "facts": [
         2
       ]
@@ -528,12 +565,12 @@
     "skeptic": {
       "verdict": "weakened",
       "date": "2026-11-20",
-      "notes": "ROUND TWO. Re-read the new sources in context. FIXED by the writer (checked): the Crusader ban now has three sources that say it (Encyclopaedia Judaica, Kollek and Pearlman via COJS, My Jewish Learning); the origins fact uses the CBS table (I recomputed from the PDF: 3,479.7 / 637.8 / 886.2 / 1,979.0 of 6,982.6 thousand = 49.8 / 9.1 / 12.7 / 28.3 percent, 31 Dec 2021; 'Israeli origin' means father born in Israel) plus Lewin-Epstein, Pew and The Conversation; DellaPergola's table supports majority to minority; the 'no mass exile' entry is in contested with Sand (interview, review) and Ostrer and Skorecki, and is labelled press-account. FIXED by me: (a) fact 7 said The Conversation gives 'similar shares of the whole population'; its 40-45% and 32% are shares of the whole population (about 57% and 43% of Jews), so they are not like the survey's; reworded. (b) The answer's CBS sentence read '50% Israeli origin' with no hint that it only says the father was born in Israel, which hides descent and left the Abbas claim unanswered; reworded and the survey added. (c) not_claimed still said 'about half of Israel's Jews descend from Europe'; corrected to the figures. (d) contested[4] said historians reject Sand but quotes none; clause removed. STILL OPEN: fact 6 has only two reliable sites (IUSSP, My Jewish Learning), and nothing quoted says why Jews became a minority: DellaPergola gives shares and My Jewish Learning is an educational site, while its own page adds that Jews 'were not given a decree to leave'; Sand's own text is unread, so what 'Sand argues' rests on an interview and a review. NEW PROBLEM: none introduced beyond (a) and (b). Strongest objection from a Palestinian reader: 'most Jewish residents dispersed' rests on one educational site; the answer lists Jewish communities and says little of the Muslim and Christian majority. From a Jewish reader: the answer's first sentence puts a Jewish minority before the Jewish communities that stayed, with Sand's thesis in contested but not in the answer."
+      "notes": "ROUND THREE. Fact 6 re-read against its four quotes: DellaPergola's text and table support only 'Jewish majority in the 1st century, Christian majority 2nd-6th'; My Jewish Learning supports 'most residents dispersed' (its page adds no decree to leave was given); Raviv supports only that Dio's 580,000 is a reasonable total of Jewish dead in 132-135 (he puts Judea's population at 500,000-650,000). So each clause has one source, and Raviv's figure points to death, not dispersal. The sentence as worded did not carry; I reworded the fact and the answer to what each source says and added that none says how the decline divided between death, flight and conversion. The gate's three-site count is a floor and is not met in substance, so fact 6 is marked thin and not verified. Wistrich's quote is from a review standfirst (the card says so) and Sand is read through an interview and a review (the card says so; the answer does not use Sand). Other facts unchanged from round two. Strongest objection from a Palestinian reader: the card still has no scholar saying Judeans stayed and converted beyond a press interview. From a Jewish reader: 'majority to minority by the fifth century' rests on one demographer's rough estimate."
     },
     "citer": {
       "verdict": "holds",
       "date": "2026-11-20",
-      "notes": "ROUND TWO. Redid answer_claims: 8 sentences, each tied to facts, 150 words or fewer. CHANGED: the CBS sentence now says what is counted and adds the grandparent survey (fact 7); sentences 1-2 now cite facts 6 and 8 (DellaPergola, McCarthy, Khalidi). The new 'Israeli origin' and survey figures came from facts the writer added; no sentence is unsupported. Not verified because fact 6 is short of three reliable sites and the skeptic verdict is weakened."
+      "notes": "ROUND THREE. Redid answer_claims: 8 sentences, each tied to facts, 150 words or fewer. CHANGED: sentence 1 (was 'went from a majority to a minority, and most dispersed after the Roman wars') now says only what fact 6's sources carry, with the one-source attribution; the 1897 clause was dropped earlier for length. No sentence is unsupported as worded."
     }
   }
 }

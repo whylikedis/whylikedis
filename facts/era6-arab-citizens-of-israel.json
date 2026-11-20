@@ -16,7 +16,7 @@
       "archive": ""
     }
   ],
-  "answer": "Inside Israel's pre-1967 lines the picture is mixed, and both halves are true. Arabs are about a fifth of the population; those with citizenship vote, sit in the Knesset, serve as ministers and as Supreme Court justices, and in 2021 an Arab party joined the governing coalition. They also lived under military rule until 1966, and today they face documented gaps: poverty about two and a half times the Jewish rate, unequal municipal services found by the State Comptroller, a record 252 killings in 2025, a 2018 law reserving national self-determination to Jews, and a law that bars Palestinian spouses from joining them. Our reading: this is unequal citizenship in a democracy, a serious wrong that Israelis themselves audit and litigate, not the legal crime of apartheid.",
+  "answer": "Inside Israel's pre-1967 lines the record shows both rights and gaps. Arabs are about a fifth of the population; those with citizenship vote, sit in the Knesset, have served as ministers and as a Supreme Court justice, and in 2021 an Arab party joined the governing coalition. They also lived under military rule until 1966, and today they face documented gaps: poverty about two and a half times the Jewish rate (National Insurance Institute, 2023), unequal municipal services found by the State Comptroller, a record 252 killings in 2025 by the Abraham Initiatives' count, a 2018 law reserving national self-determination to Jews, and a law that bars Palestinian spouses from joining them. Our reading: this is unequal citizenship in a democracy, a serious wrong that Israeli institutions themselves audit and litigate, and not, in our view, the legal crime of apartheid; Amnesty and Human Rights Watch say otherwise (see era6-apartheid-in-law).",
   "facts": [
     {
       "text": "Arabs are about 21 percent of Israel's population (2.157 million of 10.244 million in April 2026). About 17.2 percent of the population are Arab citizens; the rest of the 21 percent are mainly East Jerusalem residents, who are permanent residents and mostly not citizens.",
@@ -232,8 +232,19 @@
       ]
     },
     {
-      "text": "Poverty is more than twice as high in Arab society as in Jewish society: in 2023, 38.4 percent of Arab families and 48.8 percent of Arab children were poor, against 15.4 percent of Jewish families and 21.3 percent of Jewish children (National Insurance Institute data). The rate has been falling for a decade.",
+      "text": "The National Insurance Institute's 2024 poverty report recorded poverty among Arab families at 37.6 percent in 2024, down from 38.1 percent in 2023, and said that Arab and Haredi people are 65.1 percent of the poor, almost twice their share of the population. For 2023 the Institute's data, as read by the Israel Democracy Institute, put Arab family poverty at 38.4 percent against 15.4 percent for Jewish families.",
+      "record": true,
       "sources": [
+        {
+          "publisher": "National Insurance Institute of Israel",
+          "title": "Poverty and social gaps report for 2024 (press release)",
+          "url": "https://www.btl.gov.il/English%20Homepage/About/PressReleases/Pages/dohoni2024.aspx",
+          "archive": "",
+          "quote": "the incidence of poverty decreased among Arab and Haredi families from 38.1% to 37.6% and from 33.0% to 32.8%, respectively",
+          "accessed": "2026-11-20",
+          "kind": "government",
+          "is_record": true
+        },
         {
           "publisher": "Israel Democracy Institute",
           "title": "Statistical Report on Arab Society in Israel 2024: Selected Findings",
@@ -242,15 +253,6 @@
           "quote": "poverty rates in Arab society are still more than twice as high as those in Jewish society for both families (15.4%) and children (21.3%)",
           "accessed": "2026-11-20",
           "kind": "scholarly"
-        },
-        {
-          "publisher": "Council on Foreign Relations",
-          "title": "What to Know About Arab Citizens of Israel",
-          "url": "https://www.cfr.org/backgrounder/what-know-about-arab-citizens-israel",
-          "archive": "",
-          "quote": "More than half of the country's Arab families were considered poor in 2020, compared to 40 percent of Jewish families",
-          "accessed": "2026-11-20",
-          "kind": "reference"
         },
         {
           "publisher": "The Jerusalem Post",
@@ -314,57 +316,60 @@
       ]
     },
     {
-      "text": "Violence in Arab communities is at record levels: the Abraham Initiatives counted 252 Arab citizens killed in 218 incidents of violence and crime in 2025, up from 230 in 2024.",
+      "text": "Killings in Arab communities have roughly doubled since 2022, and the counts differ by who counts: the Taub Center counted 220 homicides in the Arab population in 2024 (109 in 2022), the Israel Democracy Institute 239 victims in 2024, and the Abraham Initiatives 252 in 2025, which it called the deadliest year on record. The Israel Police said the Abraham Initiatives' data includes cases in which police thwarted planned murders; the Institute says most such cases are not solved by the police.",
       "sources": [
         {
-          "publisher": "The Jerusalem Post",
-          "title": "2025 deadliest year on record for Arab society in Israel, Abraham Initiatives report finds",
-          "url": "https://www.jpost.com/israel-news/crime-in-israel/article-881593",
+          "publisher": "Taub Center for Social Policy Studies in Israel",
+          "title": "Homicides in Arab society continue to climb",
+          "url": "https://www.taubcenter.org.il/en/homicide-rates-update/",
           "archive": "",
-          "quote": "252 Arab citizens lost their lives in 218 incidents of violence and crime this year, an increase compared to 2024, when 230 people were murdered",
+          "quote": "the number of homicides in the Arab population stood at 220 in 2024, compared to only 109 in 2022",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "scholarly"
         },
         {
-          "publisher": "Yahoo News (Jerusalem Post)",
-          "title": "2025 deadliest year on record for Arab society in Israel",
-          "url": "https://www.yahoo.com/news/articles/2025-deadliest-record-arab-society-160445129.html",
+          "publisher": "Israel Democracy Institute",
+          "title": "Statistical Report on Arab Society in Israel 2024: Selected Findings",
+          "url": "https://en.idi.org.il/media/31409/idi-arab-shnaton-2024.pdf",
           "archive": "",
-          "quote": "2025 marked the deadliest year ever for Arab society in Israel, with 252 Arab citizens losing their lives",
+          "quote": "in 2024, the elevated levels observed in 2023 persisted, with 239 victims",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "scholarly"
         },
         {
-          "publisher": "All Israel News",
-          "title": "Violence in Israel's Arab communities reaches record high in 2025",
+          "publisher": "All Israel News (on the Abraham Initiatives report)",
+          "title": "Violence in Israel's Arab communities reaches record high in 2025 with over 250 killed",
           "url": "https://allisraelnews.com/violence-in-israels-arab-communities-reaches-record-high-in-2025-with-over-250-killed",
           "archive": "",
           "quote": "the year 2025 was the bloodiest year ever in Arab society, with 252 civilians killed",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "news",
+          "wire": "Abraham Initiatives"
         },
         {
-          "publisher": "All Israel News",
-          "title": "Violence in Israel's Arab communities reaches record high in 2025",
+          "publisher": "All Israel News (on the Israel Police response)",
+          "title": "Violence in Israel's Arab communities reaches record high in 2025 with over 250 killed",
           "url": "https://allisraelnews.com/violence-in-israels-arab-communities-reaches-record-high-in-2025-with-over-250-killed",
           "archive": "",
-          "quote": "the year 2025 was the bloodiest year ever in Arab society, with 252 civilians killed",
+          "quote": "the murder data in the article also includes those cases in which police officers thwarted planned murders",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "news",
+          "wire": "Abraham Initiatives"
         }
       ]
     },
     {
-      "text": "The Nation-State Law of 2018 declares that the right to national self-determination in Israel is exclusive to the Jewish people, makes Hebrew the language of the state, and gives Arabic a special status; the Knesset passed it by 62 to 55. The government said it enshrines what was already integral to Israel's character; Arab citizens, about 20 percent of the population, see it as akin to establishing apartheid.",
+      "text": "The Nation-State Law of 2018 says that the actualization of the right of national self-determination in Israel is unique (in the Knesset's translation, 'exclusive') to the Jewish people, that Hebrew is the language of the state, and that Arabic has a special status. The Knesset passed it by 62 to 55. The government said it enshrines what was already integral to Israel's character; Arab citizens, about 20 percent of the population, see it as akin to establishing apartheid.",
       "sources": [
         {
-          "publisher": "The Knesset",
-          "title": "Basic Law: Israel as the Nation-State of the Jewish People",
-          "url": "https://main.knesset.gov.il/EN/activity/Documents/BasicLawsPDF/BasicLawNationState.pdf",
+          "publisher": "Jewish Virtual Library (English translation of the law)",
+          "title": "Israel's Basic Laws: Israel - The Nation State of the Jewish People",
+          "url": "https://www.jewishvirtuallibrary.org/israel-s-basic-laws-the-israel-nation-state-law",
           "archive": "",
-          "quote": "The realization of the right to national selfdetermination in the State of Israel is exclusive to the Jewish people",
+          "quote": "the actualization of the right of national self-determination in the State of Israel is unique to the Jewish people",
           "accessed": "2026-11-20",
-          "kind": "government"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "NPR (Scott Neuman)",
@@ -411,7 +416,8 @@
           "accessed": "2026-11-20",
           "kind": "advocacy"
         }
-      ]
+      ],
+      "record": true
     },
     {
       "text": "The Citizenship and Entry into Israel Law (2003, temporary, renewed repeatedly) bars Palestinians from the West Bank and Gaza from receiving Israeli citizenship or residency through marriage; it mainly affects Arab citizens and their spouses. The Supreme Court upheld it 6 to 5 in 2006 and again in 2012. The Knesset failed to renew it in a 59-59 vote in July 2021, and passed it again in March 2022.",
@@ -470,13 +476,13 @@
           "kind": "advocacy"
         },
         {
-          "publisher": "Jurist",
-          "title": "Israel Supreme Court upholds citizenship law",
-          "url": "https://www.jurist.org/news/2012/01/israel-supreme-court-upholds-citizenship-law",
+          "publisher": "Human Rights Watch",
+          "title": "Israel: High Court Rulings Undermine Human Rights",
+          "url": "https://www.hrw.org/news/2012/01/30/israel-high-court-rulings-undermine-human-rights",
           "archive": "",
-          "quote": "a law that prevents Palestinians who marry Israelis from obtaining Israeli citizenship",
+          "quote": "the ruling upheld the blanket ban on the basis that Palestinian spouses of Israeli citizens were potential security risks because some had carried out attacks on Israeli civilians",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "advocacy"
         }
       ]
     },
@@ -504,16 +510,43 @@
       ]
     },
     {
-      "text": "Whether Joubran's career shows equality or is a token. The Jerusalem Post reports that Israel has held him up as proof of equal treatment.",
+      "text": "Why killings in Arab communities are rising, and who is responsible. The Abraham Initiatives report says most deaths are criminal violence, often fights between crime organisations or revenge killings, that the toll has risen sharply under the current government and its national security minister, and that 12 of the 2025 deaths were at the hands of the police; the Israel Democracy Institute reports that most such cases are not solved by the police and counts 239 victims in 2024, not 230.",
       "sources": [
         {
-          "publisher": "The Jerusalem Post",
-          "title": "The legacy of Israel's first Arab Supreme Court judge",
-          "url": "https://jpost.com/international/the-legacy-of-israels-first-arab-supreme-court-judge-501567",
+          "publisher": "All Israel News (on the Abraham Initiatives report)",
+          "title": "Violence in Israel's Arab communities reaches record high in 2025 with over 250 killed",
+          "url": "https://allisraelnews.com/violence-in-israels-arab-communities-reaches-record-high-in-2025-with-over-250-killed",
           "archive": "",
-          "quote": "Joubran has been paraded by Israel as an example of the country treating Arab-Israelis equally",
+          "quote": "Most of the deaths are related to criminal violence, often cases of fighting between crime organizations or revenge killings",
           "accessed": "2026-11-20",
           "kind": "news"
+        },
+        {
+          "publisher": "All Israel News (on the Abraham Initiatives report)",
+          "title": "Violence in Israel's Arab communities reaches record high in 2025 with over 250 killed",
+          "url": "https://allisraelnews.com/violence-in-israels-arab-communities-reaches-record-high-in-2025-with-over-250-killed",
+          "archive": "",
+          "quote": "particularly under the supervision of National Security Minister Itamar Ben Gvir, the number of deaths in the Arab sector has risen sharply compared to previous governments",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Israel Democracy Institute",
+          "title": "Statistical Report on Arab Society in Israel 2024: Selected Findings",
+          "url": "https://en.idi.org.il/media/31409/idi-arab-shnaton-2024.pdf",
+          "archive": "",
+          "quote": "despite the steady increase in the number of deaths and injuries, the majority of such cases and files are not solved by the Israel Police",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Israel Democracy Institute",
+          "title": "Statistical Report on Arab Society in Israel 2024: Selected Findings",
+          "url": "https://en.idi.org.il/media/31409/idi-arab-shnaton-2024.pdf",
+          "archive": "",
+          "quote": "in 2024, the elevated levels observed in 2023 persisted, with 239 victims",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
         }
       ]
     }
@@ -523,7 +556,9 @@
     "I did not find an official source I could read comparing Arab and Jewish local-authority budgets per resident or land allocation per resident; the Comptroller's planning audit and the mixed-cities audit are the closest. Land ownership is cited only as the Comptroller's 93 percent figure for state, Development Authority and JNF land, which is not a split by group.",
     "The current (2026) Knesset's count of Arab members could not be confirmed; the card uses the 2022 election. A current status of the Citizenship and Entry Law after March 2022 (renewals in 2023 and 2024 reported) was not read from a primary page.",
     "Cabinet-level and Supreme Court history beyond Joubran and the 2007 and 2021 ministers was not checked; I did not verify the 2022 appointment of a second Arab justice.",
-    "The Knesset page for the Nation-State Law and the Times of Israel page for Joubran load only intermittently for the checker; both were read through fetch."
+    "The Knesset page for the Nation-State Law and the Times of Israel page for Joubran load only intermittently for the checker; both were read through fetch.",
+    "Reviewer: no source on the card quotes anyone calling Salim Joubran's career a token, only the Jerusalem Post saying Israel has held him up as proof of equal treatment; that 'contested' entry was removed (a position with no quoted holder). The Jurist page body could not be read by the checker; its quote was replaced in the Citizenship Law dispute by an HRW sentence that is on the page.",
+    "The Knesset's own English PDF of the Nation-State Law cannot be read by the checker (HTTP 474, no archive copy loads); the law's text is cited from the Jewish Virtual Library's English translation, which says 'unique' where the Knesset translation says 'exclusive'."
   ],
   "not_claimed": [
     "This card does not say Arab citizens have full equality, and it does not say they live under apartheid.",
@@ -532,5 +567,65 @@
     "It does not attribute crime figures to any cause; the sources say 88 percent of 2025 victims were shot and describe a loss of basic security, not a cause."
   ],
   "status": "draft",
-  "content_approved": false
+  "content_approved": false,
+  "answer_claims": [
+    {
+      "says": "Inside Israel's pre-1967 lines the record shows both rights and gaps.",
+      "facts": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10
+      ]
+    },
+    {
+      "says": "Arabs are about a fifth of the population; those with citizenship vote, sit in the Knesset, have served as ministers and as a Supreme Court justice, and in 2021 an Arab party joined the governing coalition.",
+      "facts": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "says": "They also lived under military rule until 1966, and today they face documented gaps: poverty about two and a half times the Jewish rate (National Insurance Institute, 2023), unequal municipal services found by the State Comptroller, a record 252 killings in 2025 by the Abraham Initiatives' count, a 2018 law reserving national self-determination to Jews, and a law that bars Palestinian spouses from joining them.",
+      "facts": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "says": "Our reading: this is unequal citizenship in a democracy, a serious wrong that Israeli institutions themselves audit and litigate, and not, in our view, the legal crime of apartheid; Amnesty and Human Rights Watch say otherwise (see era6-apartheid-in-law).",
+      "facts": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        10
+      ]
+    }
+  ],
+  "review": {
+    "skeptic": {
+      "verdict": "weakened",
+      "date": "2026-11-20",
+      "notes": "Read CBS (21.1%, April 2026), the IDI Arab-society report, CFR, the Jerusalem Post and All Israel News pages on the 2025 killings, the State Comptroller 2024 audit, NPR on the Nation-State Law, HRW 2006 and 2012, PBS/AP, JNS, Forward. [must-fix] Fact 8: the 252 figure is one NGO's count (Abraham Initiatives) repeated by the Jerusalem Post, its Yahoo copy and All Israel News (the same URL was listed twice); I added a wire field so the gate counts one origin. The fact is short and now fails the two-site gate check; it needs an independent count (police, or the IDI report) or a rewrite as 'the Abraham Initiatives counted'. [must-fix] Fact 8 hides a second count: the IDI report on the card gives 239 victims in 2024, not 230. Now in contested. [must-fix] Fact 6: the CFR source says 'more than half' of Arab families were poor in 2020 against 40 percent of Jewish families, which contradicts 'more than twice as high' and is not the figure the fact states; it supports nothing here and should be replaced. The IDI and Jerusalem Post sources both repeat National Insurance Institute data (wire added). The 38.4/15.4 figures and the downward decade trend are in the IDI report. [must-fix, fixed] Knesset source for the Nation-State Law refuses the checker (http 474), so the quote failed online; I added the Wayback copy. Contested Joubran entry removed (no quoted holder of the 'token' view); contested Citizenship Law entry now carries HRW's sentence that the 2012 ruling rested on security risk, in place of a Jurist line that did not say so. [should-fix] Palestinian lawyer: the IDI report on the card says only 36 of the huge numbers of murder and injury cases were solved and the majority are unsolved, and the Abraham Initiatives say 12 of 2025's deaths were at police hands and the toll rose under the current minister; none of this was on the card (now in contested). HRW 2006 also quotes then-PM Sharon: 'There is no need to hide behind security arguments. There is a need for the existence of a Jewish state' on the spouse law; the card omits it. The 2022 Comptroller audit and 49% budget use are real but there is no per-resident budget figure. [should-fix] Israeli lawyer: the 21% figure includes about 3.7% East Jerusalem permanent residents (card says so); the CBS count, the IDI report and Ynet all rest on CBS data, one dataset in three years. [nit] 'Suspended and resumed its membership' for Ra'am is supported only by Dawn if at all; Voice of America does not say it. Only one Arab justice (Joubran) is on the card; the answer no longer says 'justices'."
+    },
+    "citer": {
+      "verdict": "holds",
+      "date": "2026-11-20",
+      "notes": "Four answer sentences, each tied to facts (see answer_claims). Changed 'Supreme Court justices' to 'a Supreme Court justice' (only Joubran is verified; the writer admits a second was not). Added the sources of two numbers to the answer (National Insurance Institute 2023; Abraham Initiatives' count) so the reader sees who counted. Removed 'both halves are true' as a verdict and replaced it with a plain statement. The closing sentence is marked 'our reading' and now notes that Amnesty and HRW disagree; the old claim that this is 'not the legal crime of apartheid' stated flatly was not carried by any fact on this card. Removed nothing else."
+    }
+  }
 }

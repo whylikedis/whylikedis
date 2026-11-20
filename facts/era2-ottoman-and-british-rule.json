@@ -10,7 +10,7 @@
       "quote": "none of them made any bones about the fact that they were doing this as part of a settler colonial process"
     }
   ],
-  "answer": "For about 400 years the land was Ottoman. It was never one province: the south was the district of Jerusalem and the north was split between the provinces of Beirut and Syria, and no province was called Palestine. British forces took Jerusalem in December 1917. The Balfour Declaration (November 1917) backed a Jewish national home and promised not to prejudice the rights of the 'existing non-Jewish communities'. The League of Nations confirmed a British Mandate in 1922 that recited the Jewish people's historical connection to the land, and Transjordan was excluded from the national-home clauses. Britain's 1939 White Paper then limited Jewish immigration. Whether Britain had earlier promised Palestine to the Arabs is disputed. So the land was ruled by empires, not Zionists, until 1948.",
+  "answer": "For about 400 years the land was Ottoman. It was never one province: the south was the district of Jerusalem, the north was split between the provinces of Beirut and Syria, and none was called Palestine. British forces took Jerusalem in December 1917. The Balfour Declaration (November 1917) favoured a Jewish national home and said nothing should prejudice the 'civil and religious rights of existing non-Jewish communities', without mentioning their political rights. The League of Nations confirmed a British Mandate in 1922 that recited the Jewish people's historical connection to the land, and Transjordan was excluded from the national-home clauses. Britain's 1939 White Paper then limited Jewish immigration. In 1915 Britain's High Commissioner in Egypt offered Arab independence except for some districts of Syria; whether that left Palestine out is disputed. In the years these facts cover, sovereignty lay with the Ottoman Empire and then with Britain as Mandatory.",
   "facts": [
     {
       "text": "Under Ottoman rule no province was named Palestine. The south was the independent sanjak (Mutasarrifate) of Jerusalem, answering directly to Istanbul; the north belonged to the vilayet of Beirut (the sanjaks of Acre and Nablus) and, before 1888, to the vilayet of Syria (Damascus).",
@@ -162,16 +162,16 @@
           "kind": "primary"
         },
         {
-          "publisher": "US Department of State, Office of the Historian (FRUS 1939)",
+          "publisher": "US Department of State, Office of the Historian (FRUS 1939): a US despatch reproducing The Times of 15 February 1939, which quotes McMahon's letter",
           "title": "Foreign Relations of the United States 1939, vol. IV, document 770",
           "url": "https://history.state.gov/historicaldocuments/frus1939v04/d770",
           "archive": "",
           "quote": "The districts of Mersina and Alexandretta and portions of Syria lying to the west of the districts of Damascus, Hama, Horns, and Aleppo cannot be said to be purely Arab",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "news"
         },
         {
-          "publisher": "Commonweal",
+          "publisher": "Commonweal (Joseph D. Becker, 2011 review of Jonathan Schneer's 'The Balfour Declaration')",
           "title": "Ambiguous Promises",
           "url": "https://www.commonwealmagazine.org/ambiguous-promises",
           "archive": "",
@@ -303,7 +303,7 @@
           "title": "Mandate for Palestine - Report of the Mandatory to the League of Nations",
           "url": "https://www.un.org/unispal/document/auto-insert-195974/",
           "archive": "",
-          "quote": "a resolution was passed by the Council of the League to exclude Transjordan from the Articles of the Mandate",
+          "quote": "to exclude Transjordan from the Articles of the Mandate which concern the holy places and the measures to be taken in concert with the Jewish Agency for the establishment of a Jewish national home",
           "accessed": "2026-11-20",
           "kind": "primary"
         }
@@ -331,20 +331,20 @@
           "kind": "news"
         },
         {
-          "publisher": "US Department of State, Office of the Historian (FRUS 1939)",
+          "publisher": "US Department of State, Office of the Historian (FRUS 1939): US memorandum of 15 May 1939 summarising the final British decisions (a summary, not the White Paper's own words)",
           "title": "Foreign Relations of the United States 1939, vol. IV, document 811",
           "url": "https://history.state.gov/historicaldocuments/frus1939v04/d811",
           "archive": "",
           "quote": "After five years, no further Jewish immigration will be permitted",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "reference"
         }
       ]
     }
   ],
   "contested": [
     {
-      "text": "Whether McMahon's 1915 promise covered Palestine is disputed. The British government's 1939 review held that the whole of Palestine west of the Jordan was excluded from the pledge. The Arab representatives argued Palestine was included, since the Sharif's proposed western boundary was the Mediterranean and Palestine is not named in the exclusion. A magazine survey notes it has been argued that the Arabic translation led Hussein to read 'districts' more widely. Historians still differ; this card reports the dispute, not a verdict.",
+      "text": "Whether McMahon's 1915 promise covered Palestine is disputed. The British government's 1939 White Paper held that the whole of Palestine west of the Jordan was excluded from the pledge. But the 1939 committee report records that the British representatives themselves told the Arab side that its case 'has greater force than has appeared hitherto' and that the language of exclusion was 'not so specific and unmistakable as it was thought to be at the time', while still maintaining that on a proper construction Palestine was excluded. The Arab representatives argued that Palestine was in fact and in intention included in the area of promised Arab independence, and that reading 'district' as 'vilayet' was untenable. A 2011 Commonweal review of a book by Jonathan Schneer notes it has been argued that the Arabic translation led Hussein to read 'districts' more widely; that line is a reviewer's summary, not a historian's own words. Historians still differ; this card reports the dispute, not a verdict.",
       "sources": [
         {
           "publisher": "Yale Law School, Avalon Project",
@@ -365,13 +365,22 @@
           "kind": "government"
         },
         {
-          "publisher": "Commonweal",
+          "publisher": "Commonweal (Joseph D. Becker, 2011 review of Jonathan Schneer's 'The Balfour Declaration')",
           "title": "Ambiguous Promises",
           "url": "https://www.commonwealmagazine.org/ambiguous-promises",
           "archive": "",
           "quote": "it has been argued that the translation given to Hussein led him to believe McMahon was referring to districts in a larger Arabic sense, covering, in part at least, Palestine",
           "accessed": "2026-11-20",
           "kind": "news"
+        },
+        {
+          "publisher": "UK Government (1939 Committee report), hosted by Emory University",
+          "title": "Report of a Committee Set Up To Consider Certain Correspondence Between Sir Henry McMahon and the Sharif of Mecca",
+          "url": "https://israeled.org/wp-content/uploads/2012/08/1939-HMG-H-M-Corres-Review.pdf",
+          "archive": "",
+          "quote": "But they agree that the language in which its exclusion was expressed was not so specific and unmistakable as it was thought to be at the time.",
+          "accessed": "2026-11-20",
+          "kind": "government"
         }
       ]
     },
@@ -404,7 +413,9 @@
     "The Palestine Royal Commission report (1937) states the Ottoman divisions and the McMahon dispute, but I could not read a copy from this machine, so it is not cited.",
     "The exact date the Ottomans took the region (1516-17) is not on any page I could read for this card; the card says 'about 400 years' instead.",
     "I did not find a readable page by a historian who argues the Arab reading of McMahon's letter in his own words; the Arab case is quoted from the British 1939 committee report and a magazine summary.",
-    "Three sources from three different sites for the Ottoman districts: the fourth (a UN committee study) is labelled government and does not count."
+    "Three sources from three different sites for the Ottoman districts: the fourth (a UN committee study) is labelled government and does not count.",
+    "Reviewer: the Palquest and Library of Congress pages for the Transjordan exclusion (fact 8) returned http 403 here and in the archive, so I read that fact only from the UNISPAL report; the quoted lines come from the earlier lock.",
+    "Reviewer: no card fact quotes Article 6 of the Mandate (Jewish immigration and 'close settlement ... on the land, including State lands'); it is on the land card. A reader of this card alone does not see it."
   ],
   "not_claimed": [
     "This card does not say Palestine was empty or that no people with a claim lived there before 1917; chapter 2's population card gives the counts.",
@@ -413,5 +424,72 @@
     "It does not say the White Paper stopped Jewish immigration entirely; it set a quota."
   ],
   "status": "draft",
-  "content_approved": false
+  "content_approved": false,
+  "answer_claims": [
+    {
+      "says": "For about 400 years the land was Ottoman.",
+      "facts": [
+        1
+      ]
+    },
+    {
+      "says": "It was never one province: the south was the district of Jerusalem, the north was split between the provinces of Beirut and Syria, and none was called Palestine.",
+      "facts": [
+        0
+      ]
+    },
+    {
+      "says": "British forces took Jerusalem in December 1917.",
+      "facts": [
+        1
+      ]
+    },
+    {
+      "says": "The Balfour Declaration (November 1917) favoured a Jewish national home and said nothing should prejudice the 'civil and religious rights of existing non-Jewish communities', without mentioning their political rights.",
+      "facts": [
+        2,
+        3
+      ]
+    },
+    {
+      "says": "The League of Nations confirmed a British Mandate in 1922 that recited the Jewish people's historical connection to the land, and Transjordan was excluded from the national-home clauses.",
+      "facts": [
+        5,
+        7,
+        8
+      ]
+    },
+    {
+      "says": "Britain's 1939 White Paper then limited Jewish immigration.",
+      "facts": [
+        9
+      ]
+    },
+    {
+      "says": "In 1915 Britain's High Commissioner in Egypt offered Arab independence except for some districts of Syria; whether that left Palestine out is disputed.",
+      "facts": [
+        4
+      ]
+    },
+    {
+      "says": "In the years these facts cover, sovereignty lay with the Ottoman Empire and then with Britain as Mandatory.",
+      "facts": [
+        1,
+        5,
+        6
+      ]
+    }
+  ],
+  "review": {
+    "skeptic": {
+      "verdict": "weakened",
+      "date": "2026-11-20",
+      "notes": "Read 2+ sources per fact (all 10) with the paragraph around each quote. Quotes are accurate. [must-fix] contested[0] said the British 1939 review 'held' Palestine was excluded and left out that the same report records the British delegation conceding the Arab case had 'greater force' and the exclusion language was 'not so specific and unmistakable'; a Palestinian historian would call that minimising. I added the concession (from the report already cited). [must-fix] The card has no fact on Mandate Article 6 (facilitate Jewish immigration, close settlement on State and waste lands) or Article 4 (Jewish Agency as public body); without them 'ruled by empires, not Zionists' is one-sided. Needs new fact(s) from the Avalon text: cannot be added by the reviewer. [must-fix] Facts 5-7: the three hosts (Avalon, Fordham, UNISPAL) reproduce one document, so each is one source for what the Mandate says; I counted it as one strong primary source, not three. Fact 5's preamble clause is read in none of the quotes except Avalon's. [should-fix] Fact 8: the quote was cut so that it read as exclusion from 'the Articles of the Mandate'; I extended it to the clause the report actually states. Palquest and LOC pages were unreadable (403). [should-fix] Fact 9: the FRUS page is a US memorandum summarising the White Paper, and fact 4's FRUS page is a US despatch quoting The Times; both relabelled as summaries. Fact 4 third source is a 2011 book review, now labelled. [should-fix] 'heard' (Khalidi) carries the 'colonial' half of the claim only; nothing on the card answers 'stole the land'. [nit] Answer quoted 'existing non-Jewish communities' as if the promise covered all rights; reworded to 'civil and religious'. Strongest objections: Palestinian side, the missing Art. 6 and the minimised British concession; Israeli side, none found (the Mandate preamble and Art. 2 are quoted in full)."
+    },
+    "citer": {
+      "verdict": "holds",
+      "date": "2026-11-20",
+      "notes": "Split the answer into 8 sentences, each tied to facts. Removed: 'So the land was ruled by empires, not Zionists, until 1948' (no fact covers 1948 and Art. 4 gives the Jewish Agency a role the card does not show); replaced by a sentence limited to Ottoman then British sovereignty (facts 1, 5, 6). Reworded the Balfour sentence from 'the rights' to 'civil and religious rights' and added the no-political-rights point (fact 3). Replaced 'Whether Britain had earlier promised Palestine to the Arabs is disputed' with the McMahon offer it rests on (fact 4); the dispute itself lives in contested. Verdict covers the answer's tie to the facts; the weaknesses above are in the facts and the missing Art. 6."
+    }
+  }
 }

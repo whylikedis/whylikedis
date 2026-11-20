@@ -16,7 +16,7 @@
       "quote": "what the Palestinians suffered was not an actual catastrophe, but rather ethnic cleansing, which is a clear policy motivated by clear ideology"
     }
   ],
-  "answer": "About 700,000 Palestinian Arabs left or were driven from their homes in 1947 to 1949; Britannica says the figure likely exceeded 700,000. It happened inside a civil war and then a war with Arab armies. Morris documents expulsions from Lydda and Ramle in July 1948; many others fled in fear, and the UN mediator in 1948 named panic, rumours of terror and expulsion. Historians weigh the causes differently: Morris finds no master plan but writes of a 'partial ethnic cleansing'; Khalidi calls it expulsion; Pappe, planned ethnic cleansing; Karsh blames mainly Arab leaders. In places such as Haifa, local Arab leaders ordered or advised leaving. Imseis says an Israeli cabinet decision of June 1948 barred return. Our reading: a fair answer does not deny expulsions or call them the only cause.",
+  "answer": "About 700,000 Palestinian Arabs left or were driven from their homes in 1947 to 1949; Britannica says the figure likely exceeded 700,000. It happened inside a civil war and then a war with Arab armies. Morris documents expulsions from Lydda and Ramle in July 1948; many others fled in fear, and the UN mediator in 1948 named panic, rumours of terror and expulsion. Some wealthier families left from December 1947, before the main fighting. Historians weigh the causes differently: Morris finds no master plan but has himself used the words 'partial ethnic cleansing'; Khalidi calls it expulsion; Pappe, planned ethnic cleansing; Karsh blames mainly Arab leaders. In places such as Haifa, local Arab leaders ordered or advised leaving. Imseis says an Israeli cabinet decision of June 1948 barred return. Our reading: a fair answer does not deny expulsions or call them the only cause.",
   "facts": [
     {
       "text": "About 700,000 Palestinian Arabs were displaced in 1947 to 1949. Estimates range from about 520,000 to 1,000,000; the figure most often given is around 700,000 or a little more.",
@@ -69,7 +69,7 @@
       ]
     },
     {
-      "text": "UN relief counts changed over time: 472,000 refugees needing aid in late 1948, about 500,000 qualifying for relief when UNRWA began in 1950, and UNRWA's own description of about 750,000 refugees in its first year.",
+      "text": "UN records give different counts of the refugees: the Acting Mediator's report of 1948 put them at 472,000 and expected slightly over 500,000; UNRWA says it responded to about 750,000 Palestine refugees when it began in 1950; Britannica says about 500,000 qualified for relief; and a speaker at an international workshop reports that the UN in 1949-50 concluded the figure was just over 700,000.",
       "sources": [
         {
           "publisher": "United Nations (Acting Mediator for Palestine)",
@@ -78,7 +78,8 @@
           "archive": "",
           "quote": "the figure for Arab refugees must now be revised upwards to 472,000",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Encyclopaedia Britannica",
@@ -96,9 +97,20 @@
           "archive": "",
           "quote": "When the agency began operations in 1950, it was responding to the needs of about 750,000 Palestine refugees",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
+        },
+        {
+          "publisher": "Israel Law Review (Cambridge University Press)",
+          "title": "1948 Refugees (conference report incl. Benny Morris's talk)",
+          "url": "https://www.cambridge.org/core/journals/israel-law-review/article/1948-refugees/1E997E364691F4379C6F77EC05BC84AD",
+          "archive": "",
+          "quote": "the United Nations (UN) in 1949-50 concluded that the real figure was just over 700,000",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
         }
-      ]
+      ],
+      "record": true
     },
     {
       "text": "In July 1948 Israeli forces expelled the Arab populations of Lydda and Ramle. Morris counts 50,000 to 60,000 in his article and 40,000 to 50,000 in a conference talk.",
@@ -220,6 +232,15 @@
           "quote": "there was no record of Arab radio broadcasts calling on the Palestinians to leave, there were numerous appeals from Palestinian and Arab officials telling the Palestinians to stay put",
           "accessed": "2026-11-20",
           "kind": "advocacy"
+        },
+        {
+          "publisher": "Haaretz (Ari Shavit, interview with Benny Morris, \"Survival of the Fittest\", 2004; Wayback Machine copy)",
+          "title": "Survival of the Fittest",
+          "url": "https://web.archive.org/web/2004/http://www.haaretzdaily.com/hasen/pages/ShArt.jhtml?itemNo=380986",
+          "archive": "https://web.archive.org/web/2004/http://www.haaretzdaily.com/hasen/pages/ShArt.jhtml?itemNo=380986",
+          "quote": "there was a series of orders issued by the Arab Higher Committee and by the Palestinian intermediate levels to remove children, women and the elderly from the villages",
+          "accessed": "2026-11-20",
+          "kind": "news"
         }
       ]
     },
@@ -256,7 +277,7 @@
       ]
     },
     {
-      "text": "Historians divide on cause and intent: Morris finds no master plan but real expulsions; Karsh finds no Jewish grand design and blames Arab leaders; Khalidi and Pappe call it expulsion or ethnic cleansing, and Pappe says it was a planned strategy. Morris also writes of a 'partial ethnic cleansing'.",
+      "text": "Historians divide on cause and intent: Morris finds no master plan but real expulsions; Karsh finds no Jewish grand design and blames Arab leaders; Khalidi and Pappe call it expulsion or ethnic cleansing, and Pappe says it was a planned strategy.",
       "sources": [
         {
           "publisher": "History News Network (reprinting Benny Morris, Los Angeles Times, 26 Jan 2004)",
@@ -291,15 +312,6 @@
           "url": "https://www.aljazeera.com/news/2023/4/9/the-deir-yassin-massacre-why-it-still-matters-75-years-later",
           "archive": "",
           "quote": "depopulating Palestine was not a consequential war event, but a carefully planned strategy, otherwise known as Plan Dalet",
-          "accessed": "2026-11-20",
-          "kind": "news"
-        },
-        {
-          "publisher": "History News Network (reprinting Benny Morris, Los Angeles Times, 26 Jan 2004)",
-          "title": "Benny Morris: In '48, Israel Did What It Had to Do",
-          "url": "https://www.historynewsnetwork.org/article/benny-morris-in-48-israel-did-what-it-had-to-do",
-          "archive": "",
-          "quote": "the partial ethnic cleansing that rid Israel of the majority of its Arab inhabitants at the very moment of its birth",
           "accessed": "2026-11-20",
           "kind": "news"
         }
@@ -388,7 +400,8 @@
       ]
     },
     {
-      "text": "Refugees were not allowed to return after the war. In September 1948 the UN mediator said denying them return would offend elemental justice; in December 1948 the General Assembly called for repatriation at the earliest practicable date; Imseis says the Israeli cabinet had barred return in June 1948.",
+      "record": true,
+      "text": "The UN mediator's report of September 1948 said that denying the refugees the right to return to their homes would offend 'the principles of elemental justice', and General Assembly Resolution 194 (III) of 11 December 1948 resolved that refugees wishing to return and live at peace 'should be permitted to do so at the earliest practicable date'.",
       "sources": [
         {
           "publisher": "United Nations (Mediator for Palestine, Count Folke Bernadotte)",
@@ -397,34 +410,153 @@
           "archive": "",
           "quote": "it would be an offence against the principles of elemental justice if these innocent victims of the conflict were denied the right to return to their homes",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
-          "publisher": "Fanack",
-          "title": "First Arab-Israeli War (1948-1949)",
-          "url": "https://fanack.com/arab-palestinian-israeli-conflict/history-of-the-palestinian-israeli-conflict/1948-49-war-un-resolution-242/",
+          "publisher": "United Nations General Assembly",
+          "title": "Resolution 194 (III) of 11 December 1948",
+          "url": "https://www.un.org/unispal/document/auto-insert-177019/",
           "archive": "",
-          "quote": "by failing to implement the above mentioned UNGA Resolution 194 of December 1948 concerning the right of the Palestinian refugees to return to their homeland and to receive compensation, Israel did not honour the obligations it had accepted",
+          "quote": "the refugees wishing to return to their homes and live at peace with their neighbours should be permitted to do so at the earliest practicable date",
           "accessed": "2026-11-20",
-          "kind": "other"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Israel Law Review (Cambridge University Press)",
           "title": "1948 Refugees (conference report incl. Benny Morris's talk)",
           "url": "https://www.cambridge.org/core/journals/israel-law-review/article/1948-refugees/1E997E364691F4379C6F77EC05BC84AD",
           "archive": "",
-          "quote": "it was Israel that had expelled them and prevented them from returning to live in their homes",
+          "quote": "the return of the refugees is mentioned in article 11 of the resolution",
           "accessed": "2026-11-20",
           "kind": "scholarly"
         },
         {
           "publisher": "Stanford Journal of International Law (Ardi Imseis, 2021)",
-          "title": "The United Nations Plan of Partition for Palestine Revisited",
+          "title": "The UN Plan of Partition Revisited",
+          "url": "https://law.queensu.ca/sites/lawwww/files/files/Professors/UN%20Plan%20of%20Partition%20Revisited.pdf",
+          "archive": "",
+          "quote": "the General Assembly passed Resolution 194(III) on 11 December 1948, calling on Israel to repatriate the refugees \"at the earliest practicable date.\"",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "Many middle- and upper-class Arab families left before the main fighting reached their cities and before the Arab armies entered. Morris says that in Haifa many had left from December 1947, months before the battle of 21-22 April 1948, and that the departures of such families from Haifa, Tiberias, Acre and Jaffa began the exodus; Karsh cites a British intelligence note of October 1947 that leading Arabs had already evacuated their families.",
+      "sources": [
+        {
+          "publisher": "Palestine-Israel Journal (Benny Morris, conversation)",
+          "title": "The Palestinian Exodus 1948",
+          "url": "https://pij.org/articles/597",
+          "archive": "",
+          "quote": "a lot of middle- and upper-class Arabs had left the town already from December 1947 onwards and closed their businesses",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "The Christian Science Monitor (review of Benny Morris, The Birth of the Palestinian Refugee Problem, 1988)",
+          "title": "A heavy-duty 'primer' on the Palestinian refugee problem",
+          "url": "https://csmonitor.com/1988/0801/dbpale.html",
+          "archive": "",
+          "quote": "the departure of middle- and upper-class families from Haifa, Tiberius, Acre, and Jaffa",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Israel Law Review (Cambridge University Press)",
+          "title": "1948 Refugees (conference report incl. Benny Morris's talk)",
+          "url": "https://www.cambridge.org/core/journals/israel-law-review/article/1948-refugees/1E997E364691F4379C6F77EC05BC84AD",
+          "archive": "",
+          "quote": "most of the Palestinian elite - much of the middle and upper classes - fled to neighbouring countries or to the area which later became known as the West Bank",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Commentary (Efraim Karsh)",
+          "title": "Were the Palestinians Expelled?",
+          "url": "https://www.commentary.org/articles/efraim-karsh/were-the-palestinians-expelled/",
+          "archive": "",
+          "quote": "leading Arab personalities are acting on the assumption that disturbances are near at hand, and have already evacuated their families to neighboring Arab countries",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "record": true,
+      "text": "Benny Morris has himself used the term ethnic cleansing of 1948. In a January 2004 Los Angeles Times article he called the expulsions from Lydda and Ramle 'an element of the partial ethnic cleansing' that rid Israel of most of its Arab inhabitants; in his Haaretz interview that month, asked whether the expulsions were ethnic cleansing, he said 'there are circumstances in history that justify ethnic cleansing'.",
+      "sources": [
+        {
+          "publisher": "History News Network (reprint of Benny Morris, Los Angeles Times, 26 January 2004)",
+          "title": "Benny Morris: In '48, Israel Did What It Had to Do",
+          "url": "https://www.historynewsnetwork.org/article/benny-morris-in-48-israel-did-what-it-had-to-do",
+          "archive": "",
+          "quote": "the expulsions, conducted under orders from then-Lt. Col. Yitzhak Rabin, were an element of the partial ethnic cleansing that rid Israel of the majority of its Arab inhabitants at the very moment of its birth",
+          "accessed": "2026-11-20",
+          "kind": "primary",
+          "is_record": true
+        },
+        {
+          "publisher": "Jewish Journal (Ari Shavit, interview with Benny Morris, Haaretz, January 2004, as reprinted)",
+          "title": "Interview with Benny Morris",
+          "url": "https://jewishjournal.com/news/worldwide/9077/",
+          "archive": "",
+          "quote": "there are circumstances in history that justify ethnic cleansing. I know that this term is completely negative in the discourse of the 21st century",
+          "accessed": "2026-11-20",
+          "kind": "primary",
+          "is_record": true
+        },
+        {
+          "publisher": "Reason",
+          "title": "What Benny Morris Said",
+          "url": "https://reason.com/2004/01/24/what-benny-morris-said/",
+          "archive": "",
+          "quote": "they perpetrated ethnic cleansing. Morris: There are circumstances in history that justify ethnic cleansing.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "The New York Review of Books (Henry Siegman, letter in \"Israel: The Threat from Within\", 2004)",
+          "title": "Israel: The Threat from Within: An Exchange",
+          "url": "https://www.nybooks.com/articles/2004/04/08/israel-the-threat-from-within-an-exchange/",
+          "archive": "",
+          "quote": "there was no choice but to expel the population. It was necessary to cleanse the hinterland and cleanse the border areas and cleanse the main roads.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "The refugees were not allowed to return after the war. Imseis says repatriation was barred by a wartime decision of the Israeli cabinet in June 1948; a UN secretariat survey records that in 1949 Israel's government told the Conciliation Commission the refugee problem should be solved in general peace negotiations, and offered at Lausanne to name a total number it would be ready to repatriate.",
+      "sources": [
+        {
+          "publisher": "Stanford Journal of International Law (Ardi Imseis, 2021)",
+          "title": "The UN Plan of Partition Revisited",
           "url": "https://law.queensu.ca/sites/lawwww/files/files/Professors/UN%20Plan%20of%20Partition%20Revisited.pdf",
           "archive": "",
           "quote": "repatriation was barred, however, by a war-time decision of the Israeli cabinet in June 1948",
           "accessed": "2026-11-20",
           "kind": "scholarly"
+        },
+        {
+          "publisher": "United Nations (Conciliation Commission for Palestine, Secretariat working paper)",
+          "title": "Historical Survey of Efforts of the United Nations Conciliation Commission for Palestine to Secure the Implementation of Paragraph 11 of General Assembly Resolution 194 (III)",
+          "url": "https://www.un.org/unispal/document/auto-insert-210691/",
+          "archive": "",
+          "quote": "the Government of Israel considered the refugee problem as one of those which should be examined and solved during the general negotiations for the establishment of peace in Palestine",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "United Nations (Conciliation Commission for Palestine, Secretariat working paper)",
+          "title": "Historical Survey of Efforts of the United Nations Conciliation Commission for Palestine to Secure the Implementation of Paragraph 11 of General Assembly Resolution 194 (III)",
+          "url": "https://www.un.org/unispal/document/auto-insert-210691/",
+          "archive": "",
+          "quote": "the Israel delegation would he prepared to convey to the Commission and to the Arab delegations the total figure of refugees which the Government of Israel would he ready to repatriate",
+          "accessed": "2026-11-20",
+          "kind": "primary"
         }
       ]
     }
@@ -596,7 +728,7 @@
       ]
     },
     {
-      "text": "Whether the early departure of wealthier Palestinians was a cause. Morris's talk (as summarised) says most of the elite left between December 1947 and March 1948 and set an example; Karsh cites a British intelligence note of October 1947 that leading Arabs had evacuated their families. This was a separate fact on an earlier draft and was cut for having two sources; it stays here with both quotes.",
+      "text": "Whether the early departure of wealthier Palestinians was a cause of the later exodus. Morris's talk (as summarised) says most of the elite left between December 1947 and March 1948 and set an example; Karsh cites a British intelligence note of October 1947 that leading Arabs had evacuated their families. The departures themselves are a fact on the card; their effect is the dispute.",
       "sources": [
         {
           "publisher": "Israel Law Review (Cambridge University Press)",
@@ -631,20 +763,44 @@
           "kind": "scholarly"
         }
       ]
+    },
+    {
+      "text": "What Morris meant by it. In a letter to the New York Review of Books he says the Haaretz interviewer did not quote him in full and that no systematic policy of expulsion was ever adopted; Siegman answers that the interview shows Morris explaining the 'ethnic cleansing' as necessary.",
+      "sources": [
+        {
+          "publisher": "The New York Review of Books (Benny Morris, letter in \"Israel: The Threat from Within\", 2004)",
+          "title": "Israel: The Threat from Within: An Exchange",
+          "url": "https://www.nybooks.com/articles/2004/04/08/israel-the-threat-from-within-an-exchange/",
+          "archive": "",
+          "quote": "no systematic policy of expulsion was ever adopted or implemented",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "The New York Review of Books (Henry Siegman, letter in \"Israel: The Threat from Within\", 2004)",
+          "title": "Israel: The Threat from Within: An Exchange",
+          "url": "https://www.nybooks.com/articles/2004/04/08/israel-the-threat-from-within-an-exchange/",
+          "archive": "",
+          "quote": "Morris callously explains the ethnic cleansing with the observation",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
     }
   ],
   "could_not_verify": [
     "A readable page with Erskine Childers's 1961 finding on Arab radio broadcasts, other than MERIP (advocacy). Not counted.",
     "Pappe's 2006 Journal of Palestine Studies article: the PDF is blocked. His words are taken from a 2024 interview and an Al Jazeera quotation.",
-    "Morris's 1988 book: no readable page. His own words come from a 2004 article reprinted by HNN, and a conference summary.",
-    "Operation Hiram in detail: the scholarly chapter (Luminos) and the Journal of Palestine Studies article on a Galilean village were not readable (403). The autumn 1948 fact rests on the Israel Law Review summary of Morris and a Palestinian historian, a NYRB letter quoting Morris's interview, and Britannica.",
+    "Morris's 1988 book and his 'Birth ... Revisited': no authorised readable copy. His own words come from the 2004 Los Angeles Times article (History News Network reprint), the 2004 Haaretz interview (first page read in a Wayback copy; the 'ethnic cleansing' exchange read in the Jewish Journal's reprint), his NYRB letter, and conference summaries.",
+    "Morris's phrase 'partial ethnic cleansing' (restored as a fact): the phrase itself appears only in the Los Angeles Times article, so only that record carries it. The Haaretz interview, the Reason piece and the NYRB exchange report that he accepted the term ('there are circumstances in history that justify ethnic cleansing') and say 'partial' only of expulsion; they do not repeat the phrase. Morris says the interviewer did not quote him in full; a person should read the whole Haaretz interview (Haaretz archive) and decide how it should be summarised. Contested keeps his reply.",
+    "Departures before the fighting reached people (restored as a fact): four sources (Morris in the Palestine-Israel Journal, a Christian Science Monitor review of his book, the Israel Law Review workshop summary, Karsh), but three carry Morris's own account; Karsh is the independent reading. The effect on later flight is contested, not asserted. A person should read Morris, The Birth of the Palestinian Refugee Problem Revisited, ch. 3, and the UN mediator's progress report on the early months.",
+    "The UN refugee office's counts: the Acting Mediator's report (472,000) and UNRWA's own page are the records read; Britannica and the Israel Law Review summary are the readers. The UN Conciliation Commission's own 1949-50 count is read only via the Israel Law Review summary.",
+    "Fact on the refugees' return: the UN mediator's report and Resolution 194 are records read directly, with the Israel Law Review and Imseis as readers. That the refugees were then not allowed back rests on Imseis alone (an Israeli cabinet decision of June 1948); I found no second readable source and no readable source for Israel's stated reasons (security, the Arab states' refusal of peace, the 1949 Lausanne offers). A person should read Morris on the cabinet decision and Israeli government statements of 1948-49.",
+    "Operation Hiram in detail: the scholarly chapter (Luminos) and the Journal of Palestine Studies article on a Galilean village were not readable (403). The autumn 1948 fact rests on the Israel Law Review summary of Morris and a Palestinian historian, Britannica and Imseis.",
     "Whether the top-down expulsion order at Lydda is disputed by named historians: I did not find a readable page, so I did not claim it.",
-    "The UN Conciliation Commission's own 1949-50 count: only via the Israel Law Review summary.",
     "Primary documents for the Lydda and Ramle order (Rabin and Ben-Gurion diaries): no readable page.",
-    "Cut: the fact that wealthier families left early (Morris's talk and Karsh only; no independent third source). Karsh's British-intelligence quote and the talk summary remain on the page for readers but are not a fact.",
-    "Cut as a separate fact: Morris's 'partial ethnic cleansing' (a single readable page, the HNN reprint; the NYRB letter quotes a different line). It stays in contested with the quote and in the answer.",
-    "Israel's own stated reasons for refusing return (security, the Arab states' refusal of peace, the 1949 Lausanne offers): no readable page with a quote, so the return fact gives the UN and scholarly side only.",
-    "Relabelled as 'other' (no named author or institution): History Skills."
+    "Relabelled as 'other' (no named author or institution): History Skills.",
+    "Facts that do not meet the gate's source rule: the cabinet decision that barred return (one scholar)."
   ],
   "not_claimed": [
     "This card does not deny that expulsions happened. It says they happened in specific places.",
@@ -658,7 +814,8 @@
     {
       "says": "About 700,000 Palestinian Arabs left or were driven from their homes in 1947 to 1949; Britannica says the figure likely exceeded 700,000.",
       "facts": [
-        0
+        0,
+        1
       ]
     },
     {
@@ -675,10 +832,17 @@
       ]
     },
     {
-      "says": "Historians weigh the causes differently: Morris finds no master plan but writes of a 'partial ethnic cleansing'; Khalidi calls it expulsion; Pappe, planned ethnic cleansing; Karsh blames mainly Arab leaders.",
+      "says": "Some wealthier families left from December 1947, before the main fighting.",
+      "facts": [
+        10
+      ]
+    },
+    {
+      "says": "Historians weigh the causes differently: Morris finds no master plan but has himself used the words 'partial ethnic cleansing'; Khalidi calls it expulsion; Pappe, planned ethnic cleansing; Karsh blames mainly Arab leaders.",
       "facts": [
         5,
-        6
+        6,
+        11
       ]
     },
     {
@@ -690,7 +854,7 @@
     {
       "says": "Imseis says an Israeli cabinet decision of June 1948 barred return.",
       "facts": [
-        9
+        12
       ]
     },
     {
@@ -700,7 +864,7 @@
         3,
         4,
         6,
-        7
+        10
       ]
     }
   ],

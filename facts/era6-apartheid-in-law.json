@@ -16,7 +16,7 @@
       "archive": ""
     }
   ],
-  "answer": "Apartheid is a legal term, not only an insult. The 1973 Apartheid Convention and the Rome Statute define it as inhuman acts committed to maintain domination by one racial group over another. Human Rights Watch, Amnesty International, B'Tselem and a UN Special Rapporteur say Israel does this, most clearly in the West Bank, where Palestinians live under military law and settlers under Israeli civil law. In July 2024 the International Court of Justice found that Israel's separation of settlers and Palestinians breaches the treaty ban on racial segregation and apartheid, but did not define apartheid, and its judges differed on what that means. The United States, Germany and the United Kingdom reject the word. Our reading: the charge fits the West Bank far better than it fits Israel inside its pre-1967 lines.",
+  "answer": "Apartheid is a legal term, not only an insult. The 1973 Apartheid Convention and the Rome Statute define it as inhuman acts committed to maintain domination by one racial group over another. Human Rights Watch, Amnesty International and B'Tselem say Israel does this; a UN Special Rapporteur says so of the territory occupied in 1967. In July 2024 the International Court of Justice found that Israel's near-complete separation of settlers and Palestinians breaches Article 3 of the racial-discrimination convention, which names segregation and apartheid, and found systemic discrimination. By eleven votes to four it held Israel's presence unlawful, though the opinion is advisory, its judges read Article 3 differently, and Israel rejected it. After the 2021-22 reports the United States, Germany and the United Kingdom each rejected the word. Our reading: the charge fits the West Bank far better than it fits Israel inside its pre-1967 lines.",
   "facts": [
     {
       "text": "The 1973 Apartheid Convention defines the crime of apartheid as inhuman acts committed for the purpose of establishing and maintaining domination by one racial group over another and systematically oppressing them.",
@@ -124,7 +124,7 @@
       ]
     },
     {
-      "text": "Human Rights Watch (April 2021) concluded that Israeli authorities are committing the crimes against humanity of apartheid and persecution, against Palestinians in the occupied territory and, in its analysis, inside Israel; its report presents the present-day reality of one authority ruling the area between the river and the sea.",
+      "text": "Human Rights Watch (April 2021) concluded that Israeli authorities are committing the crimes against humanity of apartheid and persecution. It rests the finding chiefly on policy in the occupied territory, where it says repression is most severe, and describes less severe but still institutional discrimination inside Israel's pre-1967 borders; its report presents the present-day reality of one authority ruling the area between the river and the sea.",
       "sources": [
         {
           "publisher": "Human Rights Watch",
@@ -187,15 +187,6 @@
           "wire": "AP"
         },
         {
-          "publisher": "The Irish Times",
-          "title": "Israel accused of apartheid and crimes against humanity by NGO",
-          "url": "https://www.irishtimes.com/news/world/middle-east/israel-accused-of-apartheid-and-crimes-against-humanity-by-ngo-1.4549252",
-          "archive": "",
-          "quote": "Israel strongly denies apartheid accusations, saying its Arab minority, which makes up almost 20 per cent of the population, enjoys full civil rights",
-          "accessed": "2026-11-20",
-          "kind": "news"
-        },
-        {
           "publisher": "The Jerusalem Post",
           "title": "UK: we do not agree with Amnesty's terminology",
           "url": "https://www.jpost.com/israel-news/article-695546",
@@ -203,6 +194,26 @@
           "quote": "the 211-page report by the London-based international human rights group accusing Israel of the crime of apartheid",
           "accessed": "2026-11-20",
           "kind": "news"
+        },
+        {
+          "publisher": "Dawn (AFP)",
+          "title": "Amnesty terms Israel 'apartheid' state",
+          "url": "https://www.dawn.com/news/1672725",
+          "archive": "",
+          "quote": "Amnesty International on Tuesday labelled Israel an \"apartheid\" state that treats Palestinians as \"an inferior racial group\"",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AFP"
+        },
+        {
+          "publisher": "Euronews (Reuters)",
+          "title": "Amnesty accuses Israel of enforcing 'apartheid' on Palestinians",
+          "url": "https://www.euronews.com/2022/02/02/us-israel-palestinians-rights",
+          "archive": "",
+          "quote": "Amnesty International accused Israel on Tuesday of subjecting Palestinians to a system of apartheid",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "Reuters"
         }
       ]
     },
@@ -335,6 +346,106 @@
           "kind": "news"
         }
       ]
+    },
+    {
+      "text": "The ICJ's advisory opinion of 19 July 2024 says the Court is of the view that the regime of comprehensive restrictions Israel imposes on Palestinians in the occupied territory constitutes systemic discrimination based on race, religion or ethnic origin, in violation of the ICCPR, the ICESCR and Article 2 of the racial-discrimination convention. This is separate from its finding under Article 3.",
+      "record": true,
+      "sources": [
+        {
+          "publisher": "International Court of Justice",
+          "title": "Advisory Opinion of 19 July 2024, paragraph 223",
+          "url": "https://www.icj-cij.org/node/204160",
+          "archive": "",
+          "quote": "the régime of comprehensive restrictions imposed by Israel on Palestinians in the Occupied Palestinian Territory constitutes systemic discrimination based on, inter alia, race, religion or ethnic origin",
+          "accessed": "2026-11-20",
+          "kind": "primary",
+          "is_record": true
+        },
+        {
+          "publisher": "Verfassungsblog",
+          "title": "Apartheid or systemic discrimination?",
+          "url": "https://verfassungsblog.de/apartheid-or-systemic-discrimination/",
+          "archive": "",
+          "quote": "the expression \"systemic discrimination\", which the Court referred to in paragraph 223 of the advisory opinion",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "NBC News",
+          "title": "Israeli settlements violate international law, U.N.'s top court says in a landmark opinion",
+          "url": "https://www.nbcnews.com/news/world/icj-united-nations-israel-settlement-violate-international-law-rcna162667",
+          "archive": "",
+          "quote": "it further said that Israel systematically discriminated against Palestinians and branded the occupation of the territories",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "The operative clause of the same opinion records that the Court decided to comply with the request for an advisory opinion by fourteen votes to one, and that it is of the opinion, by eleven votes to four, that Israel's continued presence in the occupied territory is unlawful. Vice-President Sebutinde voted against both; Judges Tomka, Abraham and Aurescu voted against the second. An advisory opinion is not legally binding.",
+      "record": true,
+      "sources": [
+        {
+          "publisher": "International Court of Justice",
+          "title": "Advisory Opinion of 19 July 2024, paragraph 285",
+          "url": "https://www.icj-cij.org/node/204160",
+          "archive": "",
+          "quote": "by fourteen votes to one, decides to comply with the request for an advisory opinion",
+          "accessed": "2026-11-20",
+          "kind": "primary",
+          "is_record": true
+        },
+        {
+          "publisher": "Jurist",
+          "title": "ICJ rules Israel's settlements and presence in Palestinian territory illegal",
+          "url": "https://www.jurist.org/news/2024/07/icj-rules-israels-presence-in-palestinian-territory-illegal/",
+          "archive": "",
+          "quote": "the questions posed by the UN General Assembly's request for an advisory opinion \"present a clear distortion of the history and present reality of the Israeli-Palestinian conflict.\"",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "NBC News",
+          "title": "Israeli settlements violate international law, U.N.'s top court says in a landmark opinion",
+          "url": "https://www.nbcnews.com/news/world/icj-united-nations-israel-settlement-violate-international-law-rcna162667",
+          "archive": "",
+          "quote": "the court's advisory opinion is not legally binding",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Israel rejected the opinion: Prime Minister Netanyahu said the Jewish people are not occupiers in their own land and that no false decision in The Hague would distort that, and the same day called the ruling absurd.",
+      "sources": [
+        {
+          "publisher": "Ynetnews",
+          "title": "Netanyahu rejects ICJ opinion: A perversion of history",
+          "url": "https://www.ynetnews.com/article/bk62txdoc",
+          "archive": "",
+          "quote": "PM says Jews are not occupiers in their historic homeland and no decision in The Hague would change that",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "The Jerusalem Post",
+          "title": "ICJ rules Israel's presence in the occupied territories is illegal",
+          "url": "https://jpost.com/breaking-news/article-811059",
+          "archive": "",
+          "quote": "no false decision in the Hague will distort this historical truth",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "The Algemeiner",
+          "title": "Netanyahu blasts 'absurd' UN court ruling on Israeli settlements",
+          "url": "https://www.algemeiner.com/2024/07/19/netanyahu-blasts-absurd-un-court-ruling-israeli-settlements-jews-cant-be-occupiers-own-land/",
+          "archive": "",
+          "quote": "Netanyahu blasts 'absurd' UN court ruling on Israeli settlements",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
     }
   ],
   "contested": [
@@ -441,7 +552,8 @@
     "The ICJ's full advisory-opinion PDF and the separate opinions of Judges Salam, Tladi and Nolte could not be read directly; the judges' positions are cited from Verfassungsblog and EJIL: Talk!, and the Court's own words from the ICJ page for the opinion and Judge Iwasawa's opinion.",
     "Britannica's page on apartheid could not be read; South African facts rest on History.com, South African History Online and Lumen Learning.",
     "The UK and German governments' own statements could not be read; they are cited from Reuters/Ynetnews and the Jerusalem Post. I did not find the United Kingdom's or Germany's position after the July 2024 ICJ opinion.",
-    "I found only one study (Karpe and Jikeli, via the Jerusalem Post) as a scholarly rejection of the charge; the full study could not be read. The Special Rapporteur's mandate report (A/HRC/49/87) was fetched from UNISPAL but its quoted statement is the press statement."
+    "I found only one study (Karpe and Jikeli, via the Jerusalem Post) as a scholarly rejection of the charge; the full study could not be read. The Special Rapporteur's mandate report (A/HRC/49/87) was fetched from UNISPAL but its quoted statement is the press statement.",
+    "Reviewer: the Irish Times article cited for the Amnesty fact is about the April 2021 Human Rights Watch report and never mentions Amnesty; it was removed from that fact. It stays under 'contested' for Israel's denial."
   ],
   "not_claimed": [
     "This card does not say Israel is an apartheid state, and it does not say the charge is baseless.",
@@ -451,5 +563,71 @@
     "It does not rest on the NGOs' reports being neutral; they are advocacy groups and are labelled so."
   ],
   "status": "draft",
-  "content_approved": false
+  "content_approved": false,
+  "answer_claims": [
+    {
+      "says": "Apartheid is a legal term, not only an insult.",
+      "facts": [
+        0,
+        1
+      ]
+    },
+    {
+      "says": "The 1973 Apartheid Convention and the Rome Statute define it as inhuman acts committed to maintain domination by one racial group over another.",
+      "facts": [
+        0,
+        1
+      ]
+    },
+    {
+      "says": "Human Rights Watch, Amnesty International and B'Tselem say Israel does this; a UN Special Rapporteur says so of the territory occupied in 1967.",
+      "facts": [
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "says": "In July 2024 the International Court of Justice found that Israel's near-complete separation of settlers and Palestinians breaches Article 3 of the racial-discrimination convention, which names segregation and apartheid, and found systemic discrimination.",
+      "facts": [
+        7,
+        9
+      ]
+    },
+    {
+      "says": "By eleven votes to four it held Israel's presence unlawful, though the opinion is advisory, its judges read Article 3 differently, and Israel rejected it.",
+      "facts": [
+        7,
+        10,
+        11
+      ]
+    },
+    {
+      "says": "After the 2021-22 reports the United States, Germany and the United Kingdom each rejected the word.",
+      "facts": [
+        8
+      ]
+    },
+    {
+      "says": "Our reading: the charge fits the West Bank far better than it fits Israel inside its pre-1967 lines.",
+      "facts": [
+        3,
+        6,
+        7
+      ]
+    }
+  ],
+  "review": {
+    "skeptic": {
+      "verdict": "weakened",
+      "date": "2026-11-20",
+      "notes": "Read the ICJ opinion text (paras 223-229 and the operative paragraph 285), Verfassungsblog, HRW, the UN statement on Lynk, Amnesty-related news pages and the South African history pages. Checked: the Court found Israel's legislation and measures in the West Bank and East Jerusalem 'constitute a breach of article 3 of CERD' (para 229), which names segregation and apartheid, and did not say which; the card says exactly that and does not claim a finding of apartheid. The Article 3 finding is in the reasoning, not a separate numbered vote; the 11-4 vote in the operative part is on the unlawfulness of Israel's presence. The card does not claim a vote on Article 3, good. [must-fix] Fact 4: the Irish Times source is an HRW story and does not mention Amnesty (removed by the reviewer); the fact now has only two reliable sources (AP via PBS, Jerusalem Post), so it cannot be verified until a third independent report of Amnesty's finding is added. [must-fix, fixed] Fact 3 said HRW found apartheid 'inside Israel' too; HRW's own page says the level of repression is most severe in the occupied territory and less severe, though still institutional discrimination, inside the pre-1967 borders. Reworded. [should-fix] Palestinian lawyer: the card omits that the Court also found, at para 223, that Israel's regime of comprehensive restrictions on Palestinians in the occupied territory is 'systemic discrimination' violating the ICCPR, ICESCR and Article 2 of CERD, and that Israel's presence is unlawful (11-4). Add a fact from the same ICJ page. Verfassungsblog reads 'systemic discrimination' as a possible synonym for apartheid. [should-fix] Israeli lawyer: nothing on the card says the opinion is advisory and not binding, that Israel rejected it, or that Vice-President Sebutinde dissented on jurisdiction and the merits; that needs a source. The US, UK and German rejections date from 2021-22; none after July 2024 was found. [should-fix] Facts 3, 4 and 5 state what an NGO concluded and rest on news reports of the same report; this is attribution, which the news sources do support, but the sources are not independent confirmation of the finding itself. Fact 5 B'Tselem's own page was not read. [nit] Fact 2: 'ten homelands' rests on History.com only; South African History Online says the 1959 Act announced eight ethnic groups. The Lynk quote in 'heard' is the press office's summary, not his own words. The Israel Hayom page returns 403, so that quote cannot be found online and the card cannot be verified yet."
+    },
+    "citer": {
+      "verdict": "holds",
+      "date": "2026-11-20",
+      "notes": "Split the answer into six sentences and tied each to facts (see answer_claims). Reworded the HRW/Amnesty/B'Tselem/Rapporteur sentence: the old 'most clearly in the West Bank, where Palestinians live under military law and settlers under Israeli civil law' was not carried by any fact on this card (military versus civil law is on the West Bank card), and Amnesty and B'Tselem say the system covers all areas, so it now says what each source says. Reworded the ICJ sentence to name Article 3 and say the Court did not say which of segregation or apartheid. Changed 'The United States, Germany and the United Kingdom reject the word' to the past tense with its dates, because no source after 2022 was read. The closing 'Our reading' sentence is marked as opinion and rests on facts 3, 6 and 7 (HRW calls it less severe inside Israel; the Rapporteur's mandate and the ICJ finding both cover the territory occupied in 1967)."
+    }
+  }
 }

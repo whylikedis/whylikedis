@@ -16,7 +16,7 @@
       "quote": "this talk about 'Jewish refugees who were expelled from Arab countries' as opposed to 'Arab refugees who were expelled from the land of Israel' was grating to our journalistic ears"
     }
   ],
-  "answer": "Some Jews who left Arab countries did go out of Zionist conviction, and Shlomo Hillel, who led the Iraqi Zionist underground's escape operation, does not call it a refugee flight. But the Palestinians were not the only people displaced in these years. About 800,000 Jews are estimated to have lived in Arab countries around 1948 (DellaPergola counts 945,000 for the Middle East and North Africa), and most left over the next two decades. Reasons differed: Egypt after 1956 saw expulsions, and Iraq let Jews leave only if they gave up their citizenship. Iraq's Jews had also suffered the Farhud pogrom in 1941, seven years before. A 1957 press report said the UN refugee chief had ruled that Jews exiled from Egypt were refugees eligible for UN protection. Scholars differ on the word refugee. These figures are estimates; whether the two cases cancel out these facts do not settle.",
+  "answer": "Some Jews who left Arab countries went out of Zionist conviction, and Shlomo Hillel, who led the Iraqi Zionist underground's escape operation, does not call it a refugee flight. But the Palestinians were not the only people displaced in these years. About 800,000 Jews are estimated to have lived in Arab countries around 1948 (DellaPergola counts 945,000 for the Middle East and North Africa), and most left within two decades. Reasons differed: Egypt after 1956 saw expulsions, and Iraq let Jews leave only if they gave up their citizenship. Iraq's Jews had also suffered the Farhud pogrom in 1941. In January 1957 the UN High Commissioner for Refugees said refugees from Egypt without their government's protection fell under his mandate; the press reported it as covering Jews. Scholars differ on the word refugee. These figures are estimates; whether the two cases cancel out these facts do not settle.",
   "facts": [
     {
       "text": "Estimates put the Jewish population of Arab and Muslim countries around 1948 at about 800,000 to 850,000; the demographer Sergio DellaPergola gives 945,000 for the wider Middle East and North Africa.",
@@ -133,7 +133,7 @@
       ]
     },
     {
-      "text": "The word refugee is disputed. Hillel rejects it for the Iraqi exodus; Shenhav calls the description not unreasonable given post-war usage; DellaPergola says most Jews who immigrated to Israel would qualify as refugees; in January 1957 the UN High Commissioner ruled that refugees from Egypt who could not rely on their own government fell under his mandate (the press reported it as covering Jews exiled from Egypt).",
+      "text": "The word refugee is disputed. Hillel rejects it for the Iraqi exodus; the K. review says the official Israeli narrative held that the Jews could not be refugees since they were returning to their homeland; Shenhav calls the description not unreasonable given post-war usage; DellaPergola says most Jews who immigrated to Israel would qualify as refugees.",
       "sources": [
         {
           "publisher": "British Journal of Middle Eastern Studies (Yehouda Shenhav, 2002)",
@@ -145,13 +145,13 @@
           "kind": "scholarly"
         },
         {
-          "publisher": "Jewish Virtual Library",
-          "title": "Fact Sheet: Jewish Refugees from Arab Countries",
-          "url": "https://www.jewishvirtuallibrary.org/anti-semitism-wing/in-the-arabmuslim-world/historical-context-of-anti-semitism-2/jewish-refugees-from-arab-countries",
+          "publisher": "British Journal of Middle Eastern Studies (Yehouda Shenhav, 2002)",
+          "title": "Jews from Arab Countries and the Palestinian Right for Return",
+          "url": "https://prrn.mcgill.ca/prrn/papers/shenhav2.htm",
           "archive": "",
-          "quote": "the Jews of the Arab world fled their homes as refugees",
+          "quote": "I do not regard the exodus of Jews from Arab countries as refugees. I do not accept that.",
           "accessed": "2026-11-20",
-          "kind": "advocacy"
+          "kind": "scholarly"
         },
         {
           "publisher": "American Jewish Year Book / Berman Jewish Policy Archive (Sergio DellaPergola, 2003)",
@@ -163,13 +163,22 @@
           "kind": "scholarly"
         },
         {
-          "publisher": "Jewish Telegraphic Agency",
-          "title": "Jews Expelled from Egypt Are Eligible for United Nations Protection (6 February 1957)",
-          "url": "https://www.jta.org/archive/jews-expelled-from-egypt-are-eligible-for-united-nations-protection",
+          "publisher": "K. Jews, Europe, 21st Century",
+          "title": "The Jewish exodus from Arab lands, 1948-1967: about the IMA exhibition",
+          "url": "https://k-larevue.com/en/2022/01/13/the-jewish-exodus-from-arab-lands-1948-1967-about-the-imas-exhibition/",
           "archive": "",
-          "quote": "the United Nations High Commissioner for Refugees has ruled that Jews exiled from Egypt are refugees eligible for UN protection",
+          "quote": "even if there had been uprooting, the Jews could not be considered refugees since they were returning to their homeland",
           "accessed": "2026-11-20",
           "kind": "news"
+        },
+        {
+          "publisher": "Jewish Virtual Library",
+          "title": "Fact Sheet: Jewish Refugees from Arab Countries",
+          "url": "https://www.jewishvirtuallibrary.org/anti-semitism-wing/in-the-arabmuslim-world/historical-context-of-anti-semitism-2/jewish-refugees-from-arab-countries",
+          "archive": "",
+          "quote": "the Jews of the Arab world fled their homes as refugees",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
         }
       ]
     },
@@ -275,6 +284,40 @@
           "quote": "many Muslims had indeed protected their Jewish neighbors during Farhud",
           "accessed": "2026-11-20",
           "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "record": true,
+      "text": "On 29 January 1957 the UN High Commissioner for Refugees told the executive committee of the UN Refugee Fund that refugees from Egypt who could not or would not rely on their own government's protection fell under his mandate. The Jewish Telegraphic Agency reported this as a ruling covering Jews exiled from Egypt, and at the Economic and Social Council in July 1957 a delegate said the High Commissioner had assumed responsibility for Jewish refugees expelled from Egypt.",
+      "sources": [
+        {
+          "publisher": "United Nations (Report of the United Nations High Commissioner for Refugees, A/3585/Rev.1, annex: fourth session of the UNREF Executive Committee, 27th meeting)",
+          "title": "Report of the United Nations High Commissioner for Refugees",
+          "url": "https://digitallibrary.un.org/record/712993/files/A_3585_Rev-1-EN.pdf",
+          "archive": "",
+          "quote": "those refugees from Egypt who are not able, or not willing, to avail themselves of the protection of the governm ~nt of their nationality fall under the manda 4 e of my office",
+          "accessed": "2026-11-20",
+          "kind": "primary",
+          "is_record": true
+        },
+        {
+          "publisher": "United Nations Economic and Social Council (summary record of the 988th meeting, 24 July 1957)",
+          "title": "Economic and Social Council, 988th meeting",
+          "url": "https://digitallibrary.un.org/record/824704/files/E_SR.988-EN.pdf",
+          "archive": "",
+          "quote": "the High Commissioner had assumed responsibility for Jewish refugees expelled from Egypt at the beginning of the year",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Jewish Telegraphic Agency",
+          "title": "Jews expelled from Egypt are eligible for United Nations protection",
+          "url": "https://www.jta.org/archive/jews-expelled-from-egypt-are-eligible-for-united-nations-protection",
+          "archive": "",
+          "quote": "the United Nations High Commissioner for Refugees has ruled that Jews exiled from Egypt are refugees eligible for UN protection",
+          "accessed": "2026-11-20",
+          "kind": "news"
         }
       ]
     }
@@ -444,15 +487,38 @@
           "kind": "news"
         }
       ]
+    },
+    {
+      "text": "Why Jews left Egypt in 1956-57. At the Economic and Social Council in July 1957 Egypt's delegate said the Egyptian government had been obliged to ask some stateless Jews to leave for activities inimical to state security; the High Commissioner's statement and the Israeli delegate's, recorded in the UN report, treat those who left as refugees.",
+      "sources": [
+        {
+          "publisher": "United Nations Economic and Social Council (summary record of the 988th meeting, 24 July 1957; Mr Safwat, Egypt)",
+          "title": "Economic and Social Council, 988th meeting",
+          "url": "https://digitallibrary.un.org/record/824704/files/E_SR.988-EN.pdf",
+          "archive": "",
+          "quote": "the Egyptian Government had been obliged to ask some of those stateless Jews to leave the country because they had been engaging in activities inimical to the security of the State",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "United Nations (Report of the United Nations High Commissioner for Refugees, A/3585/Rev.1; statement of Israel's representative)",
+          "title": "Report of the United Nations High Commissioner for Refugees",
+          "url": "https://digitallibrary.un.org/record/712993/files/A_3585_Rev-1-EN.pdf",
+          "archive": "",
+          "quote": "his country alone had admitted to its territory, since November 1956, nearly 15,000 Egyptian Jewish refugees",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
     }
   ],
   "could_not_verify": [
-    "An independent demographic total for departures (as opposed to population stock): DellaPergola's population figure is cited, but he is an Israeli demographer, so every figure here still comes from Israeli or Jewish scholarship or encyclopedias; I found no Arab, UN or non-Israeli demographic count I could read.",
+    "An independent demographic total for departures (as opposed to population stock): DellaPergola's population figure is cited, but he is an Israeli demographer, so every figure here still comes from Israeli or Jewish scholarship or encyclopedias; I found no Arab, UN or non-Israeli demographic count I could read. A 1951 report submitted to the UN (H. Dewey Anderson, via the Center for Israel Education) gives counts but is an advocacy tract by a private author, not a UN count; I did not use it. A person should read the national censuses of Iraq (1947) and Egypt (1947) and Morocco, and any UN demographic study.",
     "Moshe Sicron's arrivals-by-country table counts arrivals in Israel only, so it is not cited for departures.",
     "Country-by-country breakdowns beyond Iraq, Morocco and Egypt from a source other than Encyclopedia.com.",
-    "Cut as a separate fact: the UNHCR's 1957 statement on refugees from Egypt. The UNREF report and the UN Digital Library record (A/AC.79/SR.27) did not load (403/202), and Refworld and UNHCR pages were blocked. The statement now appears inside the 'refugee' fact, carried by a JTA report (news) and the World Jewish Congress (advocacy). A person with access should read the UNREF fourth-session report (29 January 1957).",
+    "The UN refugee office's 1957 statement (now a record fact): read in the High Commissioner's report A/3585/Rev.1 (the High Commissioner's statement at the 27th meeting, 29 January 1957, and Israel's delegate's reply) and in the Economic and Social Council record of 24 July 1957; the Jewish Telegraphic Agency reported it as a ruling on Jews. The High Commissioner's own words do not name Jews; the UN record names them only in the Israeli and ECOSOC delegates' words. I did not find the UNREF fourth-session report as a separate document (UNHCR pages were blocked); a person should read the 27th meeting's summary record (UN Digital Library) and the UNHCR archive.",
     "Whether anyone readable says in so many words that only Palestinians were refugees: I found no such quote. The claim is therefore stated as what is said: that these Jews were not refugees but came by choice or Zionist conviction (Hillel; Yated Ne'eman).",
-    "A UN or non-Israeli count of Jewish departures from Arab countries: none readable."
+    "Facts that do not meet the gate's source rule: none by count (the 1957 record fact has the record plus two readers, one of them the Jewish Telegraphic Agency), but every number on the card is Israeli or Jewish in origin, as above."
   ],
   "not_claimed": [
     "This card does not say Jewish displacement cancels out Palestinian displacement, or that one makes the other acceptable.",
@@ -464,7 +530,7 @@
   "content_approved": false,
   "answer_claims": [
     {
-      "says": "Some Jews who left Arab countries did go out of Zionist conviction, and Shlomo Hillel, who led the Iraqi Zionist underground's escape operation, does not call it a refugee flight.",
+      "says": "Some Jews who left Arab countries went out of Zionist conviction, and Shlomo Hillel, who led the Iraqi Zionist underground's escape operation, does not call it a refugee flight.",
       "facts": [
         2,
         3
@@ -478,7 +544,7 @@
       ]
     },
     {
-      "says": "About 800,000 Jews are estimated to have lived in Arab countries around 1948 (DellaPergola counts 945,000 for the Middle East and North Africa), and most left over the next two decades.",
+      "says": "About 800,000 Jews are estimated to have lived in Arab countries around 1948 (DellaPergola counts 945,000 for the Middle East and North Africa), and most left within two decades.",
       "facts": [
         0,
         1
@@ -491,15 +557,15 @@
       ]
     },
     {
-      "says": "Iraq's Jews had also suffered the Farhud pogrom in 1941, seven years before.",
+      "says": "Iraq's Jews had also suffered the Farhud pogrom in 1941.",
       "facts": [
         6
       ]
     },
     {
-      "says": "A 1957 press report said the UN refugee chief had ruled that Jews exiled from Egypt were refugees eligible for UN protection.",
+      "says": "In January 1957 the UN High Commissioner for Refugees said refugees from Egypt without their government's protection fell under his mandate; the press reported it as covering Jews.",
       "facts": [
-        3
+        7
       ]
     },
     {

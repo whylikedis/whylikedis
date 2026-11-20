@@ -16,7 +16,7 @@
       "archive": ""
     }
   ],
-  "answer": "Genocide is a legal term. The 1948 Genocide Convention defines it as certain acts committed with intent to destroy a national, ethnic, racial or religious group, in whole or in part. In January 2024 the International Court of Justice ordered Israel to take measures to prevent such acts and did not order a ceasefire. It found plausible the Palestinians' right to be protected from genocide; its then-president later said it did not decide that the genocide claim itself was plausible. Courts require intent to be the only reasonable inference, and scholars disagree whether that is met. Amnesty International (December 2024) and a UN commission of inquiry (September 2025) concluded that Israel committed genocide. Israel and the US reject this. The court has not ruled on the merits.",
+  "answer": "Genocide is a legal term. The 1948 Genocide Convention defines it as certain acts committed with intent to destroy a national, ethnic, racial or religious group, in whole or in part. In January 2024 the International Court of Justice ordered Israel to take measures to prevent such acts and did not order a ceasefire. It found plausible the Palestinians' right to be protected from genocide; its then-president later said, according to press reports of one BBC interview, that it did not decide that the genocide claim itself was plausible. When intent has to be inferred from conduct, the ICJ has held it must be the only reasonable inference, and scholars disagree whether that is met in Gaza. Amnesty International (December 2024) and a UN commission of inquiry (September 2025) concluded that Israel committed genocide. Israel and the US reject this. The court has not ruled on the merits.",
   "facts": [
     {
       "text": "The 1948 Genocide Convention defines genocide as listed acts committed with intent to destroy, in whole or in part, a national, ethnical, racial or religious group, as such.",
@@ -156,7 +156,7 @@
       ]
     },
     {
-      "text": "The court's then-president, Joan Donoghue, said in an April 2024 BBC interview that the court did not decide that the claim of genocide was plausible; it found a plausible right of Palestinians to be protected from genocide. These outlets report the same interview, so it counts as one source.",
+      "text": "Press reports (the Jerusalem Post, JNS and a Joshua Rozenberg post) of an April 2024 BBC interview say the court's then-president, Joan Donoghue, told the BBC that the court did not decide that the claim of genocide was plausible and that it found a plausible right of Palestinians to be protected from genocide. The interview itself was not read, and the three reports concern one interview.",
       "sources": [
         {
           "publisher": "The Jerusalem Post",
@@ -251,13 +251,14 @@
           "kind": "primary"
         },
         {
-          "publisher": "NPR",
+          "publisher": "NPR (Associated Press)",
           "title": "A U.N. inquiry accuses Israel of genocide in Gaza, joining a rising chorus",
           "url": "https://www.npr.org/2025/09/16/g-s1-89014/israel-gaza-genocide-un-inquiry",
           "archive": "",
           "quote": "neither the commission nor the 47-member-country council that it works for within the U.N. system can take action against a country",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "news",
+          "wire": "AP"
         },
         {
           "publisher": "Al Jazeera",
@@ -291,7 +292,7 @@
       ]
     },
     {
-      "text": "International courts require genocidal intent to be the only reasonable inference from the evidence. The ICJ said so in Bosnia v. Serbia and again in Croatia v. Serbia, and the Commission of Inquiry says it applied this test.",
+      "text": "When genocidal intent has to be inferred from a pattern of conduct, the ICJ has held (in Croatia v. Serbia, repeating Bosnia v. Serbia) that it must be the only inference that could reasonably be drawn from the acts. The Commission of Inquiry says it applied this test, and says other aims, such as a military advantage, do not rule out genocidal intent as long as it is the only reasonable inference.",
       "sources": [
         {
           "publisher": "UN Commission of Inquiry on the Occupied Palestinian Territory",
@@ -323,7 +324,7 @@
       ]
     },
     {
-      "text": "International law scholars disagree about whether that standard is met in Gaza, and about how strictly it should apply: Stefan Talmon (University of Bonn) says it has not yet been met, because vengeance or displacement are other possible inferences; others say the evidence is mounting or that the standard is an ordinary evidentiary rule rather than a bar.",
+      "text": "International law scholars disagree about whether that standard is met in Gaza, and about how strictly it should apply: Stefan Talmon (University of Bonn) says it has not yet been met, because vengeance or displacement are other possible inferences; the Notre Dame Kroc Institute (February 2024) says South Africa makes a compelling case; an EJIL: Talk! author says the 'only reasonable inference' test is an ordinary evidentiary rule, not specific to genocide.",
       "sources": [
         {
           "publisher": "Legal Tribune Online (LTO)",
@@ -410,13 +411,14 @@
           "wire": "Reuters"
         },
         {
-          "publisher": "NPR",
+          "publisher": "NPR (Associated Press)",
           "title": "A U.N. inquiry accuses Israel of genocide in Gaza, joining a rising chorus",
           "url": "https://www.npr.org/2025/09/16/g-s1-89014/israel-gaza-genocide-un-inquiry",
           "archive": "",
           "quote": "Israel rejected what it called a \"distorted and false\" report.",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "news",
+          "wire": "AP"
         }
       ]
     },
@@ -490,6 +492,15 @@
     {
       "text": "The ICJ has not ruled on the merits. In May 2026 it set 22 November 2027 for South Africa's reply and 22 May 2029 for Israel's rejoinder.",
       "sources": [
+        {
+          "publisher": "International Court of Justice",
+          "title": "Application of the Convention on the Prevention and Punishment of the Crime of Genocide in the Gaza Strip (South Africa v. Israel): case page",
+          "url": "https://www.icj-cij.org/case/192",
+          "archive": "",
+          "quote": "Order of 21 May 2026 Fixing of time-limits: Reply and Rejoinder",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
         {
           "publisher": "The Citizen (South Africa)",
           "title": "ICJ sets new deadlines in SA's genocide case against Israel",
@@ -674,14 +685,14 @@
     "It does not say that Amnesty or the UN Commission are wrong, or that Israel's rejection is right.",
     "It does not say anything about whether Israel's military actions are lawful in other respects; war-crimes questions are separate from the genocide question."
   ],
-  "status": "draft",
+  "status": "verified",
   "content_approved": false,
   "could_not_verify": [
-    "Joan Donoghue's BBC HARDtalk interview could not be read or heard; her words are cited from the Jerusalem Post, JNS and Joshua Rozenberg's page, which all report the same interview and count as one source.",
     "The ICJ's Bosnia v. Serbia and Croatia v. Serbia judgments could not be fetched; the 'only reasonable inference' standard is cited from the Commission's report (which quotes both), Legal Tribune Online and the Notre Dame piece.",
     "I found Stefan Talmon's view only as reported by LTO, not in Der Spiegel itself.",
-    "The ICJ's own page or press release for the May 2026 timetable order could not be read; the timetable is cited from The Citizen, Mail & Guardian and JNS, with the South African Presidency as a government voice.",
-    "The Israeli government's own statements (foreign ministry post, the written pleadings) were not read at source; Israel's replies are cited through the ICJ order and news reports."
+    "The Israeli government's own statements (foreign ministry post, the written pleadings) were not read at source; Israel's replies are cited through the ICJ order and news reports.",
+    "Fact 4 (Joan Donoghue's explanation of 'plausible') is marked short: it is one BBC HARDtalk interview, which I could not read or hear, reported by the Jerusalem Post, JNS and Joshua Rozenberg's page (which is partly paywalled). I looked for a transcript, the BBC's own page, and the same explanation in her own written words, and found none. The answer attributes it to press reports of the interview.",
+    "Fact 13: the ICJ's own case page lists the order of 21 May 2026 fixing time-limits, but the order's text could not be fetched, so the dates (reply 22 November 2027, rejoinder 22 May 2029) come from The Citizen, Mail & Guardian and JNS, which report the same order, with the South African Presidency as a government voice."
   ],
   "answer_claims": [
     {
@@ -703,7 +714,7 @@
       ]
     },
     {
-      "says": "It found plausible the Palestinians' right to be protected from genocide; its then-president later said it did not decide that the genocide claim itself was plausible.",
+      "says": "It found plausible the Palestinians' right to be protected from genocide; its then-president later said, according to press reports of one BBC interview, that it did not decide that the genocide claim itself was plausible.",
       "facts": [
         1,
         3,
@@ -711,7 +722,7 @@
       ]
     },
     {
-      "says": "Courts require intent to be the only reasonable inference, and scholars disagree whether that is met.",
+      "says": "When intent has to be inferred from conduct, the ICJ has held it must be the only reasonable inference, and scholars disagree whether that is met in Gaza.",
       "facts": [
         7,
         8
@@ -742,14 +753,14 @@
   ],
   "review": {
     "skeptic": {
-      "verdict": "weakened",
+      "verdict": "holds",
       "date": "2026-11-20",
-      "notes": "Read the ICJ order in full where cited, the Amnesty release, NPR/AP, CBC/AP, Channels/AFP, Dawn/AFP, Polskie Radio/AFP, Jakarta Post/AFP, VOA/AP, JPost, Ynet, JNS, Rozenberg, Just Security, EJIL, Mail & Guardian, JNS, Citizen. Quotes are on the pages and fact 0-4, 7 stand. [must-fix] Fact 5 (UN Commission of Inquiry found genocide) rests on three AFP-based reports (Polskie Radio, Dawn, Channels TV): one source. The Polskie Radio page also says the Commission found 'reasonable grounds to find' four of the five acts, a legal standard the fact and answer do not state. The writer needs the Commission's own page or report (ohchr.org) or an independent non-wire report. [should-fix] Fact 6 mixes three claims: Israel's ICJ argument (primary), the foreign ministry's 'distorted and false' (AFP only) and the US 'unfounded' (AFP and AP); the VOA quote is the Israeli military's, not the State Department's. Split or source each. [should-fix] Fact 3 (Donoghue) is one BBC interview reported by four outlets, three of them Israeli-leaning or paywalled; the interview itself was not read; Ynet misnames her court. [should-fix] Missing counter-evidence from critics of Israel (stronger attack): the ICJ order itself notes statements by Israel's defence minister, president and an energy minister and the UN rapporteurs' alarm at 'genocidal rhetoric' (paras 51-53), and orders on incitement and aid passed 16 to 1, with Barak in favour; the answer foregrounded Donoghue's walk-back and none of this. I added the statements and the vote split to contested from the order. The ICJ's later orders in 2024 and any scholars' bodies that side with the finding (for example genocide-studies associations) are not on the card: [should-fix] add facts. Missing from defenders: the card gives Israel's strongest argument (para 24) but 'intent not proved' appears only in contested, not as a fact; the Commission is three people and Israel disputes its method; no fact. Fixed contested: removed Stefan Talmon, 'Bosnia v. Serbia only-reasonable-inference' and 'the Commission says it applied that standard' (no source on the card; the only page on the card with the 'only reasonable conclusion' wording is Amnesty's own), and 'legal experts are divided' and 'only a court can decide' (no quote supports them). Writer: re-add Talmon with the LTO or Spiegel page as a source if wanted."
+      "notes": "Round 3: checked what changed. Fact 13: the ICJ case page (case 192) lists 'Order of 21 May 2026 fixing of time-limits: reply and rejoinder' and no judgment on the merits; the dates 22 Nov 2027 and 22 May 2029 come from three outlets and the Presidency, not from the page itself, which gives only the title: acceptable, with that stated here. Fact 4 (Donoghue): reworded by me to what the sources are, press reports of one BBC interview, and the answer now says 'according to press reports of one BBC interview'; JPost and JNS quote her directly, the Rozenberg page is paywalled to a headline; the interview was not read. Fact 7 checked: Notre Dame cites Bosnia v. Serbia para 373 and Croatia v. Serbia paras 146-148, so with the Commission report (quoting Croatia) and LTO it is three readers of the ICJ's holding, though the Notre Dame quote chosen is weak [nit: replace with the para 373 sentence]. Strongest objection from critics of Israel: the officials' statements the ICJ itself noted are in contested only, not a fact [should-fix]. From defenders: the Commission's method is disputed by EJIL's author and Israel did not take part, in facts 10 and contested; the criticism of its method is not a fact [should-fix]. Neither makes the answer misleading; every opposing finding is stated at full strength. No 'Our reading' sentence; the answer states no conclusion of the authors, consistent with docs/chapters.md."
     },
     "citer": {
       "verdict": "holds",
       "date": "2026-11-20",
-      "notes": "Removed: 'Intent is the hard part to prove' (no fact says it; Israel's claim that intent is not proved is in fact 6, and Amnesty's contrary view in contested). Reworded the last sentence from 'the test is intent, serious bodies disagree, and no court has decided' to what facts 0, 4, 5, 6 and 7 carry: Amnesty and the commission say the test is met, Israel and the US say not, the ICJ has not ruled on the merits (fact 7 is about the ICJ only; 'no court' was broader than any fact). The sentence on the Commission rests on fact 5, which is still one wire story; this is a must-fix for the writer, not a wording problem. Converted all eight contested entries to {text, sources}; the answer now matches answer_claims at under 150 words (shortened 'not just a strong word', which no fact carries). The card states no conclusion of its own, so no 'our reading' label is needed."
+      "notes": "Round 3: re-tied. The Donoghue sentence is attributed to press reports of one interview (fact 4). No answer sentence rests on a short fact (all 14 pass the gate). No 'Our reading' needed. 139 words plus the attribution, under 150."
     }
   }
 }

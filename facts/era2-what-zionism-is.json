@@ -10,7 +10,7 @@
       "quote": "Zionism is a settler colonial movement and Israel is a settler colonial state. This is not an insult; it is a statement of fact."
     }
   ],
-  "answer": "Zionism's founding text, the Basel Program of 1897, says its aim is 'a home in Palestine secured by public law' for the Jewish people, to be reached partly by settling Jewish farmers and workers there. Herzl called it the restoration of the Jewish state, and he and his successors used the word 'colonization'. But Zionism was never one thing: political, labour, religious, cultural and revisionist Zionists differed, and bi-nationalists such as Brit Shalom wanted Jews and Arabs to share the country. Many Jews opposed it: the Bund, Reform rabbis, and the Orthodox Agudat Israel. Scholars disagree whether 'settler colonialism' describes it. Khalidi, Wolfe and Veracini say yes; Dowty says there was no mother country and the settlers were largely refugees.",
+  "answer": "Zionism's founding text, the Basel Program of 1897, says its aim is 'a home in Palestine secured by public law' for the Jewish people, to be reached partly by promoting the settlement of Jewish farmers and workers there (one English translation says 'colonization', others 'settlement'). Herzl called the idea the restoration of the Jewish state. But Zionism was never one thing: political, labour, religious, cultural and revisionist Zionists differed, and bi-nationalists such as Brit Shalom wanted Jews and Arabs to share the country. Many Jews opposed it: the Bund, Reform rabbis, and the Orthodox Agudat Israel.",
   "facts": [
     {
       "text": "The Basel Program of the First Zionist Congress (1897) states: 'The aim of Zionism is to create for the Jewish people a home in Palestine secured by public law.'",
@@ -54,7 +54,7 @@
       ]
     },
     {
-      "text": "The Basel Program's first means was 'the promotion, on suitable lines, of the colonization of Palestine by Jewish agricultural and industrial workers'; the word 'colonization' (or 'settlement', in other translations) was the movement's own.",
+      "text": "The first of the Basel Program's means was promoting Jewish settlement in Palestine by farmers and workers. The English translation on the COJS and Posen Library pages renders it 'the promotion, on suitable lines, of the colonization of Palestine by Jewish agricultural and industrial workers'; the Encyclopaedia Judaica renders it 'settlement' (so does the Jewish Encyclopedia). The German original was not read, so this card does not say that 'colonization' was the movement's own word in 1897.",
       "sources": [
         {
           "publisher": "Center for Online Judaic Studies",
@@ -79,7 +79,7 @@
           "title": "The Basel Program (First Zionist Congress, 1897)",
           "url": "https://www.posenlibrary.com/node/8897",
           "archive": "",
-          "quote": "The congress contemplates the following means to the attainment of this end",
+          "quote": "The promotion, on suitable lines, of the colonization of Palestine by Jewish agricultural and industrial workers.",
           "accessed": "2026-11-20",
           "kind": "primary"
         }
@@ -121,13 +121,13 @@
       "text": "Zionism was never a single doctrine. Historians distinguish political (Herzl), labour, revisionist, religious and cultural schools; Ahad Ha'am, for example, wanted the land to be a 'spiritual center' for the Jewish people, not a refuge for the masses.",
       "sources": [
         {
-          "publisher": "Unpacked (educational media), summarising Gil Troy, The Zionist Ideas",
+          "publisher": "Unpacked (educational media, no institution named on the page), summarising Gil Troy, The Zionist Ideas",
           "title": "What is Zionism? 6 different types of Zionist thinking",
           "url": "https://unpacked.media/theres-no-one-way-to-be-a-zionist-six-different-types-of-zionism/",
           "archive": "",
           "quote": "six schools of Zionist thought: political, labor, revisionist, religious, cultural and Diaspora Zionism",
           "accessed": "2026-11-20",
-          "kind": "reference"
+          "kind": "other"
         },
         {
           "publisher": "Encyclopaedia Judaica (via Encyclopedia.com)",
@@ -150,7 +150,7 @@
       ]
     },
     {
-      "text": "Some Zionists wanted a state shared by Jews and Arabs. Berit Shalom, founded in Jerusalem in 1925, proposed a bi-national solution with Jews and Arabs having an equal share in the administration regardless of their numbers; it never had more than 200 members, and Martin Buber and Judah Magnes were its best-known supporters.",
+      "text": "Some Zionists wanted a state shared by Jews and Arabs. Berit Shalom, founded in Jerusalem in 1925, proposed a bi-national solution with Jews and Arabs having an equal share in the administration regardless of their numbers; it never had more than 200 members. Martin Buber's philosophy influenced its members, and Judah Magnes advocated bi-nationalism but was never a member. The Marxist Ha-Shomer Ha-Tsair also defined a bi-national state of parity as its version of Zionism's aim.",
       "sources": [
         {
           "publisher": "Encyclopaedia Judaica (via Encyclopedia.com)",
@@ -182,7 +182,7 @@
       ]
     },
     {
-      "text": "Many Jews opposed Zionism before 1948: the secular socialist Bund was 'uncompromisingly anti-Zionist', the Reform rabbis' conference said Jews were 'at home' wherever they lived, and the Orthodox Agudat Israel opposed any attempt to revive Jewish nationhood in the land by human action.",
+      "text": "Many Jews opposed Zionism before 1948; each example rests on one source: the secular socialist Bund was 'uncompromisingly anti-Zionist' (JSTOR Daily); the Central Conference of American (Reform) Rabbis, after the Balfour Declaration, said there was no need for a Jewish national homeland and that Jews were 'at home' wherever they lived (Smithsonian Magazine); the Orthodox Agudat Israel was created partly by groups that opposed any attempt to revive Jewish nationhood in the land through human agency (Encyclopaedia Judaica).",
       "sources": [
         {
           "publisher": "JSTOR Daily",
@@ -212,11 +212,43 @@
           "kind": "reference"
         }
       ]
+    },
+    {
+      "text": "Jewish opposition to Zionism continues: Satmar Hasidim and Neturei Karta do not recognise the modern state of Israel on religious grounds, though Satmar's leaders and most other Haredim distance themselves from Neturei Karta's protests.",
+      "sources": [
+        {
+          "publisher": "My Jewish Learning (Prof. Aviezer Ravitzky)",
+          "title": "Ultra-Orthodox & Anti-Zionist",
+          "url": "https://www.myjewishlearning.com/article/ultra-orthodox-anti-zionist/",
+          "archive": "",
+          "quote": "groups like Neturei Karta and the Satmar Hasidim do not recognize the modern state of Israel",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "The Forward",
+          "title": "What is Neturei Karta, the Orthodox group at all the pro-Palestinian protests?",
+          "url": "https://forward.com/culture/570974/neturei-karta-orthodox-jewish-israel-palestine-protests/",
+          "archive": "",
+          "quote": "The fringe Haredi sect is staunchly anti-Zionist, but far from beloved by other Jews",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "The Jerusalem Post",
+          "title": "'Terrible desecration of God's name:' Satmar rebbe slams anti-Israel protesters",
+          "url": "https://m.jpost.com/diaspora/article-773037",
+          "archive": "",
+          "quote": "Satmar, a major hasidic group, is known for its extreme conservatism and anti-Zionism",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
     }
   ],
   "contested": [
     {
-      "text": "Position: Zionism is settler colonialism. Rashid Khalidi says the early Zionists used the language of colonisation themselves and that the movement took over land from Palestinians. Lorenzo Veracini says the lack of a single mother country shows only that Zionism was not 'colonial' in the imperial sense, not that it was not settler colonial. Patrick Wolfe's general theory, which writers such as Khalidi and Veracini apply to Zionism, is that settler colonizers come to stay, so that invasion is a structure and not an event.",
+      "text": "Position: Zionism is settler colonialism. Rashid Khalidi says the early Zionists used the language of colonisation themselves and that the movement took over land from Palestinians. Lorenzo Veracini says the lack of a single mother country shows only that Zionism was not 'colonial' in the imperial sense, not that it was not settler colonial; his interview draws on Patrick Wolfe's concept of a 'logic of elimination'. Wolfe's own general statement of the theory, quoted here, is that settler colonizers come to stay, so that invasion is a structure and not an event; his words on Zionism were not read.",
       "sources": [
         {
           "publisher": "LBO News (interview with Rashid Khalidi)",
@@ -269,15 +301,63 @@
           "kind": "scholarly"
         }
       ]
+    },
+    {
+      "text": "Position: both frames are needed, and comparison is a tool, not a verdict. This is second-hand on this card: a student newspaper, The Dartmouth, reports Derek Penslar, a Harvard historian of Zionism, as saying in 2025 that he has seen the word 'colonialism' used so often that it loses meaning and that the purpose of comparison is to highlight differences; and a sociologist, Ezra Zuckerman Sivan, summarises Penslar's 2023 book as arguing that one cannot understand Jewish emotional orientations to Zionism without a nationalist frame, nor those of many of Israel's critics without a settler-colonial frame. Penslar's own words were not read.",
+      "sources": [
+        {
+          "publisher": "The Dartmouth (Sohum Desai), reporting Derek Penslar's remarks",
+          "title": "Professors explore if Zionism is settler colonialism",
+          "url": "https://www.thedartmouth.com/article/2025/05/professors-explore-if-zionism-is-settler-colonialism",
+          "archive": "",
+          "quote": "I've seen the word 'colonialism' used so often that it simply loses meaning",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "The Dartmouth (Sohum Desai), reporting Derek Penslar's remarks",
+          "title": "Professors explore if Zionism is settler colonialism",
+          "url": "https://www.thedartmouth.com/article/2025/05/professors-explore-if-zionism-is-settler-colonialism",
+          "archive": "",
+          "quote": "The purpose of comparison is to highlight differences.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Ezra Zuckerman Sivan (MIT), Sociological Imaginaries (Substack), on Penslar's Zionism: An Emotional State",
+          "title": "To Lump or Split? Lessons from Penslar vs. Wolfe's Use of Settler Colonialism to Analyze Zionism",
+          "url": "https://ezrazuckermansivan.substack.com/p/to-lump-or-split-lessons-from-penslar?r=gfu2g",
+          "archive": "",
+          "quote": "Penslar argues that whereas one cannot understand Jewish emotional orientations to Zionism without a nationalist frame, one cannot understand the emotional orientation to Zionism by many of Israel's critics without a SC frame",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "Position: the framework explains a real double pattern. Arnon Degani, in a peer-reviewed article (abstract on the Ben-Gurion University research portal), applies the settler-colonial framework to Zionism to explain two simultaneous trends in the same movement: aggressive ethnonationalism affecting Palestinians today, and a historical drive toward Jewish-Arab parity and integration.",
+      "sources": [
+        {
+          "publisher": "Ben-Gurion University research portal (Arnon Degani, peer-reviewed article)",
+          "title": "Zionism's Flipside: A Reconsideration of Settler Colonialism in Israel/Palestine",
+          "url": "https://cris.bgu.ac.il/en/publications/zionisms-flipside-a-reconsideration-of-settler-colonialism-in-isr/",
+          "archive": "",
+          "quote": "this article applies a settler-colonial framework to Zionism to explain two simultaneous trends",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
     }
   ],
   "could_not_verify": [
-    "Jewish opposition to Zionism 'now' (for example Haredi groups such as Satmar, or Jewish Voice for Peace): I found no reliable readable page and cover only the pre-1948 opposition.",
-    "Derek Penslar's position (Zionism as a hybrid of colonial, anti-colonial and national movement) and Troen's: I found only summaries of them, not their words on a readable page, so they are not quoted.",
+    "Jewish opposition to Zionism today: I found readable pages on the Haredi groups (Satmar, Neturei Karta) only; I did not find reliable readable pages on secular or liberal Jewish anti-Zionism today (for example Jewish Voice for Peace), which is advocacy at best.",
+    "Derek Penslar in his own writing: his 2001 article and the openDemocracy and Times of Israel interviews were not readable; his words come from a news report of a 2025 panel and a colleague's summary of his 2023 book. Troen's position was not found on a readable page.",
     "Avalon's text of the Basel Program did not load; the quote is from other sites, and the translations differ in small ways ('public law', 'publicly and legally assured').",
     "The word 'colonization' in the Basel Program is in the COJS translation; the Encyclopaedia Judaica gives 'settlement'. I did not find the German original on a readable page.",
     "Herzl's own use of the word 'colony' and the Jewish Colonization Association: Khalidi mentions it but I found no readable primary page.",
-    "Wolfe's own application of his theory to Zionism (his book Traces of History) was not readable; I quote only his general statement of the theory."
+    "Wolfe's own application of his theory to Zionism (his book Traces of History) was not readable; I quote only his general statement of the theory.",
+    "Reviewer: the JTA page cited in fact 4 returned http 404 here and in the archive; I could not read it, so that fact rests on Encyclopaedia Judaica pages I did read (one site).",
+    "Reviewer: Dowty's article also says the early Zionists treated the Arab population as 'a major inconvenience' they tried to ignore, and that most did not recognise Arabs as a people with collective claims; the card does not carry this part of the source that cuts against his own conclusion."
   ],
   "not_claimed": [
     "This card does not decide whether 'settler colonialism' is the right label; it gives both sides.",
@@ -286,5 +366,45 @@
     "It does not claim the opposition to Zionism among Jews was only religious or only socialist; the sources named give three kinds."
   ],
   "status": "draft",
-  "content_approved": false
+  "content_approved": false,
+  "answer_claims": [
+    {
+      "says": "Zionism's founding text, the Basel Program of 1897, says its aim is 'a home in Palestine secured by public law' for the Jewish people, to be reached partly by promoting the settlement of Jewish farmers and workers there (one English translation says 'colonization', others 'settlement').",
+      "facts": [
+        0,
+        1
+      ]
+    },
+    {
+      "says": "Herzl called the idea the restoration of the Jewish state.",
+      "facts": [
+        2
+      ]
+    },
+    {
+      "says": "But Zionism was never one thing: political, labour, religious, cultural and revisionist Zionists differed, and bi-nationalists such as Brit Shalom wanted Jews and Arabs to share the country.",
+      "facts": [
+        3,
+        4
+      ]
+    },
+    {
+      "says": "Many Jews opposed it: the Bund, Reform rabbis, and the Orthodox Agudat Israel.",
+      "facts": [
+        5
+      ]
+    }
+  ],
+  "review": {
+    "skeptic": {
+      "verdict": "weakened",
+      "date": "2026-11-20",
+      "notes": "Read 2+ sources for facts 0-6 and every contested entry. Veracini (heard) and Dowty are quoted accurately. [must-fix] Fact 1 said 'colonization' was the movement's own word. The pages show it is one translator's choice (COJS, Posen) while the Encyclopaedia Judaica and Jewish Encyclopedia say 'settlement', and the German was not read; the Posen quote did not even contain the word. Corrected in text and quote. The old answer's 'he and his successors used the word colonization' had no source and is removed. [must-fix] Old answer said 'Khalidi, Wolfe and Veracini say yes': no quote has Wolfe applying his theory to Zionism (the card admits it). Removed. Fact 5 rests on three claims each with one source (Bund; Reform rabbis; Agudat); fact 3 now has one reliable origin (Unpacked has no institution named, relabelled other; the other two quotes are one Encyclopaedia Judaica page); fact 4's JTA page was unreadable (404). [must-fix] Penslar (contested[2]) is known only through a student-paper report of a panel and a colleague's summary; the text now says so; his own words are needed. [should-fix] Fact 4: Magnes was never a Berit Shalom member (Encyclopaedia Judaica) and the card called him a supporter; fixed. Fact 5: the Reform resolution is a 1917 reaction to Balfour, later reversed; not on the card. Fact 6 and could_not_verify: only Haredi anti-Zionism is carried. Dowty's text that early Zionists treated the Arabs as 'a major inconvenience' to be ignored is omitted though it is in the cited article (the Palestinian side would cite it). [nit] 'Historian at Ben-Gurion University' for Degani is not on the portal page. 'heard' (Veracini) states the 'colonial' half; nothing here answers 'stole the land'. Strongest objections: Palestinian side, the card omits Dowty's own concession and says nothing on the Arabs of Palestine in the founding texts (not_claimed says so); Israeli side, none beyond Dowty's included case."
+    },
+    "citer": {
+      "verdict": "weakened",
+      "date": "2026-11-20",
+      "notes": "4 answer sentences remain. Removed: 'he and his successors used the word colonization' (no fact; fact 1 now shows it is a translation); 'Scholars disagree whether settler colonialism describes it. Khalidi, Wolfe and Veracini say yes; Dowty says there was no mother country' (supported only by the contested field, not by any fact; Wolfe is not quoted on Zionism). The remaining answer no longer says anything on the 'colonial' label, which is the claim being tested. To fix: turn the scholarly dispute into a fact with two sources per side (Veracini and Dowty, first-hand, dated), then restore a sentence tied to it. Also reworded the Basel sentence to say the translations differ."
+    }
+  }
 }

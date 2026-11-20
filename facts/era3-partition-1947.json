@@ -10,7 +10,7 @@
       "quote": "pushing through the partition resolution, which is the birth certificate of the state of Israel, the 1947 General Assembly resolution, partitioning Palestine"
     }
   ],
-  "answer": "The idea of splitting Palestine came first from a British commission in 1937; Arab leaders rejected it. On 29 November 1947 the UN General Assembly recommended a Jewish state and an Arab state, by 33 votes to 13. The Jewish state would have had about 56 percent of the land, including the Negev desert, when Jews were about a third of the people and held about 6 percent by registered ownership; Arabs held about 48 percent and the rest was public land. The Jewish Agency accepted; Palestinian Arab leaders rejected the plan. Fighting began at once. Israel declared independence on 14 May 1948, and Arab armies entered on 15 May. By 1949 Israel held about 78 percent of the former mandate.",
+  "answer": "The idea of splitting Palestine came first from a British commission in 1937; Arab leaders rejected it. On 29 November 1947 the UN General Assembly recommended a Jewish state and an Arab state, by 33 votes to 13. The Jewish state would have had about 56 percent of the land, including the Negev desert, when Jews were about a third of the people and held about 6 percent by Mandate-government ownership figures; Imseis reads them as Arabs owning 48 percent and the rest public. The Jewish Agency accepted; Palestinian Arab leaders rejected the plan. Fighting began at once. Israel declared independence on 14 May 1948, and Arab armies entered on 15 May. By 1949 Israel held about 78 percent of the former mandate.",
   "facts": [
     {
       "text": "In 1937 the British Peel Commission was the first to propose partitioning Palestine into an Arab state and a Jewish state.",
@@ -95,7 +95,8 @@
           "archive": "",
           "quote": "recommends to the United Kingdom, as the mandatory Power for Palestine, and to all other Members of the United Nations the adoption and implementation, with regard to the future government of Palestine, of the plan of partition with economic union",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Encyclopaedia Britannica",
@@ -115,10 +116,11 @@
           "accessed": "2026-11-20",
           "kind": "reference"
         }
-      ]
+      ],
+      "record": true
     },
     {
-      "text": "The resolution passed with 33 votes in favour, 13 against and 10 abstentions.",
+      "text": "The UN's record of the General Assembly vote of 29 November 1947 shows the resolution adopted by 33 votes to 13, with 10 abstentions.",
       "sources": [
         {
           "publisher": "United Nations General Assembly",
@@ -127,7 +129,8 @@
           "archive": "",
           "quote": "The report was adopted by 33 votes to 13, with 10 abstentions.",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Encyclopaedia Britannica",
@@ -147,7 +150,8 @@
           "accessed": "2026-11-20",
           "kind": "reference"
         }
-      ]
+      ],
+      "record": true
     },
     {
       "text": "The Jewish Agency accepted the plan.",
@@ -391,23 +395,14 @@
       ]
     },
     {
-      "text": "The partition plan gave the Jewish state about 56 to 57 percent of the land. At the end of 1946 Jews were about a third of the population (608,000 of 1,846,000) and, on British records of 1945, held registered ownership of about 5.6 percent of the land.",
+      "text": "The partition plan gave the Jewish state about 56 to 57 percent of the land of Palestine.",
       "sources": [
-        {
-          "publisher": "United Nations Special Committee on Palestine (UNSCOP)",
-          "title": "Report to the General Assembly, vol. I (A/364)",
-          "url": "https://www.un.org/unispal/document/auto-insert-179435/",
-          "archive": "",
-          "quote": "the population at the end of 1946 was estimated as follows: Arabs, 1,203,000; Jews, 608,000; others, 35,000; total, 1,846,000",
-          "accessed": "2026-11-20",
-          "kind": "primary"
-        },
         {
           "publisher": "Stanford Journal of International Law (Ardi Imseis, 2021)",
           "title": "The United Nations Plan of Partition for Palestine Revisited",
           "url": "https://law.queensu.ca/sites/lawwww/files/files/Professors/UN%20Plan%20of%20Partition%20Revisited.pdf",
           "archive": "",
-          "quote": "according to British records relied upon by the Ad Hoc Committee, the Jewish population possessed registered ownership of only 5.6 percent of Palestine",
+          "quote": "under the plan the Jewish state was allotted approximately 57 percent of the total area of Palestine",
           "accessed": "2026-11-20",
           "kind": "scholarly"
         },
@@ -419,6 +414,15 @@
           "quote": "established the Jewish state on an area of approximately 14,100 square kilometers, or 56.47 percent of the total land",
           "accessed": "2026-11-20",
           "kind": "scholarly"
+        },
+        {
+          "publisher": "Encyclopaedia Britannica",
+          "title": "1948 Arab-Israeli War",
+          "url": "https://www.britannica.com/event/1948-Arab-Israeli-War",
+          "archive": "",
+          "quote": "a substantial expansion on the 56 percent allocated to the Jewish state in the UN partition plan",
+          "accessed": "2026-11-20",
+          "kind": "reference"
         }
       ]
     },
@@ -464,7 +468,7 @@
       ]
     },
     {
-      "text": "On 15 May 1948 the Arab League told the UN that its states were intervening to restore law and order and that the only just solution was one united state of Palestine, not partition.",
+      "text": "The Arab League's cablegram to the UN of 15 May 1948 said the Arab states were intervening 'for the sole purpose of restoring peace and security and establishing law and order in Palestine', and that the only just solution was a united state of Palestine, not partition.",
       "sources": [
         {
           "publisher": "United Nations Security Council (cablegram S/745 of 15 May 1948 from the Secretary-General of the Arab League)",
@@ -473,7 +477,8 @@
           "archive": "",
           "quote": "the Arab governments find themselves compelled to intervene for the sole purpose of restoring peace and security and establishing law and order in Palestine",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "United Nations Security Council (cablegram S/745 of 15 May 1948 from the Secretary-General of the Arab League)",
@@ -482,7 +487,8 @@
           "archive": "",
           "quote": "the only fair and just solution to the problem of Palestine is the creation of united state of Palestine based upon the democratic principles",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "War History Online",
@@ -502,7 +508,8 @@
           "accessed": "2026-11-20",
           "kind": "other"
         }
-      ]
+      ],
+      "record": true
     },
     {
       "text": "The Arab states did not act as one: Transjordan's king Abdullah had his own aims. Shlaim argues he had an understanding with the Jewish Agency to divide Palestine between them; Karsh disputes that any such agreement existed.",
@@ -537,8 +544,17 @@
       ]
     },
     {
-      "text": "The Jewish state would have included the whole Negev desert. UNSCOP describes the Negeb proper as practically rainless and almost without life; Kamel says the Negev was inhospitable with Jews about 1 percent of its people; Imseis says 84 percent of the irrigated cultivable land would have been in the Jewish state. One advocacy source says about 60 percent of the Jewish state was desert.",
+      "text": "The Jewish state would have included the whole Negev desert. UNSCOP's report puts the whole Beersheba sub-district, which includes the Negeb, in the Jewish state, and describes the Negeb proper as practically rainless and almost without life; Kamel says the Negev was inhospitable with Jews about 1 percent of its people; Imseis says 84 percent of the irrigated cultivable land would have been in the Jewish state.",
       "sources": [
+        {
+          "publisher": "United Nations Special Committee on Palestine (UNSCOP)",
+          "title": "Report to the General Assembly, vol. I (A/364)",
+          "url": "https://www.un.org/unispal/document/auto-insert-179435/",
+          "archive": "",
+          "quote": "the Beersheba area includes the whole of the Beersheba sub-district, which includes the Negeb",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
         {
           "publisher": "United Nations Special Committee on Palestine (UNSCOP)",
           "title": "Report to the General Assembly, vol. I (A/364)",
@@ -565,47 +581,90 @@
           "quote": "\"of the irrigated, cultivable areas\" of the country, \"84 per cent would be in the Jewish state and 16 per cent would be in the Arab state",
           "accessed": "2026-11-20",
           "kind": "scholarly"
-        },
-        {
-          "publisher": "Jewish Virtual Library",
-          "title": "Myths & Facts: Partition and the War of 1948",
-          "url": "https://jewishvirtuallibrary.org/myths-facts-partition-and-the-war-of-1948",
-          "archive": "",
-          "quote": "approximately 60% of the Jewish state was to be the desert in the Negev, while the Arabs occupied most of the agricultural land",
-          "accessed": "2026-11-20",
-          "kind": "advocacy"
         }
       ]
     },
     {
-      "text": "Much of Palestine was neither Jewish- nor Arab-owned. On 1945 figures Jews held 1,491,699 of 26,323,023 dunams and Arabs 12,574,774 (48 percent); the remainder was public land. The mandate itself provided for Jewish settlement on state lands.",
+      "record": true,
+      "text": "The Mandate government's Village Statistics, as of 1 April 1945, recorded Jewish-owned land at 1,491,699 of 26,323,023 dunams, 5.67 percent of the land; Imseis reads the same figures as Arabs owning 12,574,774 dunams (48 percent), with the remainder publicly owned.",
       "sources": [
+        {
+          "publisher": "Government of Palestine, Village Statistics 1945 (as reprinted and analysed by Sami Hadawi, PLO Research Center, 1970)",
+          "title": "Village Statistics 1945: A Classification of Land and Area Ownership in Palestine",
+          "url": "https://www.sabil.me/files/original/175626/175627/Hadawi_Sami-1970-09-00-Village_Statistics_1945.pdf",
+          "archive": "",
+          "quote": "these holdings as on April 1, 1945, amounted to 1,491,699 dunums, comprising 5.67 per cent of the total land area of Palestine",
+          "accessed": "2026-11-20",
+          "kind": "government",
+          "is_record": true
+        },
         {
           "publisher": "Stanford Journal of International Law (Ardi Imseis, 2021)",
           "title": "The United Nations Plan of Partition for Palestine Revisited",
           "url": "https://law.queensu.ca/sites/lawwww/files/files/Professors/UN%20Plan%20of%20Partition%20Revisited.pdf",
           "archive": "",
-          "quote": "of the 26,323,023 million dunam landmass of Palestine, the Jewish community owned only 1,491,699 million dunams to the Arab community's 12,574,774 dunams (48 percent), the remainder being publicly owned land",
+          "quote": "as of 1945, of the 26,323,023 million dunam landmass of Palestine, the Jewish community owned only 1,491,699 million dunams to the Arab community's 12,574,774 dunams (48 percent), the remainder being publicly owned land",
           "accessed": "2026-11-20",
           "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "record": true,
+      "text": "UNSCOP's report of 1947 estimated the settled population of Palestine at the end of 1946 at 1,846,000: 1,203,000 Arabs, 608,000 Jews (about a third) and 35,000 others.",
+      "sources": [
+        {
+          "publisher": "United Nations Special Committee on Palestine (UNSCOP)",
+          "title": "Report to the General Assembly, vol. I (A/364)",
+          "url": "https://www.un.org/unispal/document/auto-insert-179435/",
+          "archive": "",
+          "quote": "the population at the end of 1946 was estimated as follows: Arabs, 1,203,000; Jews, 608,000; others, 35,000; total, 1,846,000",
+          "accessed": "2026-11-20",
+          "kind": "primary",
+          "is_record": true
+        },
+        {
+          "publisher": "Stanford Journal of International Law (Ardi Imseis, 2021)",
+          "title": "The United Nations Plan of Partition for Palestine Revisited",
+          "url": "https://law.queensu.ca/sites/lawwww/files/files/Professors/UN%20Plan%20of%20Partition%20Revisited.pdf",
+          "archive": "",
+          "quote": "according to UNSCOP, the total \"settled population\" of Palestine was 1,846,000 of which 1,203,000 were Arabs and 608,000 were Jews",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "record": true,
+      "text": "Article 6 of the Mandate told Britain to encourage 'close settlement by Jews on the land, including State lands and waste lands not required for public purposes'.",
+      "sources": [
+        {
+          "publisher": "Yale Law School, Avalon Project",
+          "title": "The Palestine Mandate",
+          "url": "https://avalon.law.yale.edu/20th_century/palmanda.asp",
+          "archive": "",
+          "quote": "close settlement by Jews on the land, including State lands and waste lands not required for public purposes",
+          "accessed": "2026-11-20",
+          "kind": "primary",
+          "is_record": true
+        },
+        {
+          "publisher": "Fordham University, Internet Modern History Sourcebook",
+          "title": "The Palestine Mandate",
+          "url": "https://sourcebooks.web.fordham.edu/mod/1922mandate.asp",
+          "archive": "",
+          "quote": "State lands and waste lands not required for public purposes",
+          "accessed": "2026-11-20",
+          "kind": "primary"
         },
         {
           "publisher": "United Nations Special Committee on Palestine (UNSCOP)",
           "title": "Report to the General Assembly, vol. I (A/364)",
           "url": "https://www.un.org/unispal/document/auto-insert-179435/",
           "archive": "",
-          "quote": "close settlement by Jews on the land, including state lands and waste lands not required for public purposes",
+          "quote": "close settlement by Jews on the land, including State lands and waste lands not required for public purposes",
           "accessed": "2026-11-20",
           "kind": "primary"
-        },
-        {
-          "publisher": "Jewish Virtual Library",
-          "title": "Myths & Facts: Partition and the War of 1948",
-          "url": "https://jewishvirtuallibrary.org/myths-facts-partition-and-the-war-of-1948",
-          "archive": "",
-          "quote": "more than 70% of the land in what would become Israel belonged to the mandatory government",
-          "accessed": "2026-11-20",
-          "kind": "advocacy"
         }
       ]
     }
@@ -748,21 +807,50 @@
           "kind": "scholarly"
         }
       ]
+    },
+    {
+      "text": "How much of the land was state land. The Village Statistics and Imseis show public land as a large share of Palestine; one advocacy source says more than 70 percent of the land in what became Israel belonged to the mandatory government. We read that figure only there and do not assert it.",
+      "sources": [
+        {
+          "publisher": "Jewish Virtual Library",
+          "title": "Myths and Facts: Partition and the War of 1948",
+          "url": "https://jewishvirtuallibrary.org/myths-facts-partition-and-the-war-of-1948",
+          "archive": "",
+          "quote": "more than 70% of the land in what would become Israel belonged to the mandatory government",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        }
+      ]
+    },
+    {
+      "text": "How much of the Jewish state was desert. One advocacy source says about 60 percent of the Jewish state was the Negev desert; UNSCOP gives no such share, and we do not assert it.",
+      "sources": [
+        {
+          "publisher": "Jewish Virtual Library",
+          "title": "Myths and Facts: Partition and the War of 1948",
+          "url": "https://jewishvirtuallibrary.org/myths-facts-partition-and-the-war-of-1948",
+          "archive": "",
+          "quote": "approximately 60% of the Jewish state was to be the desert in the Negev, while the Arabs occupied most of the agricultural land",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        }
+      ]
     }
   ],
   "could_not_verify": [
     "The text of the Peel report itself: the Avalon page did not load. Peel is cited only through reference works and a UN secretariat paper.",
     "The peace offer in Israel's declaration of independence: Avalon's text has it, but I found no second readable page, so I left it out of the facts.",
-    "A third reliable source for the Arab League cable's stated aims beyond the cable itself (the other two cited are a history magazine and an educational site).",
+    "Fact on the Arab League cable (15 May 1948): worded as what the cable says, with the cable itself as the record. I looked for a reliable reader of it (Imseis, the Israel Law Review report, Britannica, Shlaim's chapter, the US State Department's milestone page, FRUS 1948 vol. V d281) and found none that reports its content in a readable form; the US telegram (FRUS d281) summarises it but is a government source. A person should read a monograph on the 1948 war (Morris, 1948; Rogan and Shlaim, The War for Palestine) on what the cable said, and the Security Council record of 20 and 26 May 1948.",
+    "Transjordan's dissent (Abdullah's understanding with the Jewish Agency): still rests on Shlaim and Karsh, who are the two sides of the dispute. Britannica's Abdullah and Jordan pages did not load. A person should read Rogan and Shlaim, The War for Palestine, and Morris, 1948.",
+    "Population at end of 1946 (record fact): the record is UNSCOP's report and Imseis cites it in a footnote; I found no second reliable reader.",
+    "Land ownership (record fact): the record is the Mandate government's Village Statistics of 1945, read in Sami Hadawi's 1970 reprint (PLO Research Center), because I found no readable copy of the original; Imseis is the only reliable reader. Hadawi's own table puts Arab ownership at 48.5 percent but public land at about 40 percent, which does not match Imseis's 'the remainder'; the table is garbled in the text I could read. A person should read the Survey of Palestine vol. I and the Ad Hoc Committee's sub-committee 2 report (A/AC.14/32, appendix VI) and settle the public-land share.",
+    "How much of the Jewish state was the Negev: no scholarly or UN source I could read gives a percentage. UNSCOP's report puts the whole Beersheba sub-district in the Jewish state and calls it semidesert and nearly half of Palestine, but the resolution's final boundaries differ in detail. The 'about 60 percent' figure is advocacy and stays in contested. A person should measure the Resolution 181 maps.",
+    "The 70 percent state-land figure (Jewish Virtual Library) refers only to land in what became Israel; I found no reliable source for it and it stays in contested.",
     "Claims that Jewish forces took territory beyond the plan before 15 May appear on a UN Division for Palestinian Rights page, which counts as advocacy; I found no independent readable source and omitted it.",
     "Khalidi's book is not cited (no authorised readable copy); his 2024 interview is used.",
     "Dissent among Arab states beyond Transjordan (for example Egypt's and Syria's reluctance): I did not find a readable source.",
-    "The Ad Hoc Committee's sub-committee 2 report (A/AC.14/32, appendix VI) and the Survey of Palestine land tables themselves: not readable. The ownership figures are taken from Imseis's footnote to that report. The UNSCOP population table is read directly (un.org).",
-    "How much of the Jewish state was Negev: no scholarly or UN source gives a percentage that I could read. The 'about 60 percent' figure is from the Jewish Virtual Library (advocacy) and the AIJAC page (advocacy). It is attributed, not asserted.",
-    "The state-land share of Palestine: Imseis's footnote implies about 47 percent public land (the remainder after Jewish and Arab holdings); I did not compute it on the card. The Jewish Virtual Library's 70 percent refers only to land in what became Israel.",
-    "Reliable sources for facts 11 and 12 (Arab League aims, Transjordan): fact 11 has one reliable source (the UN cable itself), the other two are anonymous history sites; fact 12 has two scholarly sources. I found no third readable scholarly page.",
     "Relabelled as 'other' (no named author or institution): History Skills, Explaining History, OnWar, Fanack, War History Online.",
-    "Facts still under three reliable sources: the Arab League cable (one reliable, the cable itself), Transjordan (two scholarly), and state land (Imseis's footnote and the mandate text via UNSCOP; the 70 percent figure is advocacy only)."
+    "Facts that do not meet the gate's source rule: the Arab League cable (the record, no reliable reader), Transjordan (two scholars on opposite sides), the 1946 population (the record plus one reader), the 1945 land ownership (the record plus one reader)."
   ],
   "not_claimed": [
     "This card does not claim the UN vote made the 1948 war or the later displacement of Palestinians right, wrong or inevitable.",
@@ -788,11 +876,12 @@
       ]
     },
     {
-      "says": "The Jewish state would have had about 56 percent of the land, including the Negev desert, when Jews were about a third of the people and held about 6 percent by registered ownership; Arabs held about 48 percent and the rest was public land.",
+      "says": "The Jewish state would have had about 56 percent of the land, including the Negev desert, when Jews were about a third of the people and held about 6 percent by Mandate-government ownership figures; Imseis reads them as Arabs owning 48 percent and the rest public.",
       "facts": [
         9,
         13,
-        14
+        14,
+        15
       ]
     },
     {

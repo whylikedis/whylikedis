@@ -16,7 +16,7 @@
       "archive": ""
     }
   ],
-  "answer": "Hamas and other armed groups are accused of operating among civilians in Gaza. What UN bodies documented is limited: weapons stored in vacant UN schools in 2014, and, in this war, only allegations. The UN human rights office also said Israel mostly did not substantiate its human-shield claims. The Israeli army's claim about tunnels under UNRWA's headquarters has not been independently verified. The law says a defender's violations do not release the attacker from its duties to civilians. A UN commission found that Israel's use of heavy weapons was an intentional attack on civilians, and the UN human rights office found repeated violations in six strikes; Israel rejects both. A parent can say: the evidence on each side is of different strength, and each strike has to be judged on its own facts.",
+  "answer": "Hamas and other armed groups are accused of operating among civilians in Gaza. UN bodies documented weapons in vacant UN schools in 2014 and 2020; in this war they report only allegations. The UN human rights office said Israel's army mostly did not substantiate its human-shield claims about hospitals and schools, and could not verify them. The army's claim about tunnels under UNRWA's headquarters is unverified. The ICRC says the duty to respect the laws of war does not depend on reciprocity, so a defender's violations do not release the attacker. A UN commission found that Israel's use of heavy weapons was an intentional attack on civilians, and the UN human rights office found repeated violations in six strikes; Israel rejects both. Our reading: the UN has documented more about Israeli strikes than about Hamas's use of civilian areas; each strike must be judged on its own facts.",
   "facts": [
     {
       "text": "In the 2014 war, the UN Secretary-General and UNRWA reported weapons stored in vacant UN schools, which they condemned: UNRWA found about 20 rockets in one school in 2014 and, in 2020, a hand grenade and a military vest in another. The 2015 UN Commission of Inquiry also found that firing rockets from densely populated areas put Gazans in danger. These are documented by UN bodies themselves, but all trace to UN statements.",
@@ -60,25 +60,25 @@
       ]
     },
     {
-      "text": "For the current war, what independent bodies report is allegation. The UN human rights office reported 'ongoing allegations' that Palestinian armed groups co-located military objectives and civilians, and also said that in most instances the Israeli army did not offer substantial evidence for its human-shield allegations and that the office could not verify them. Israel's army says Hamas operates within densely populated areas, humanitarian zones, schools and hospitals; Hamas denies it.",
+      "text": "For the current war, what independent bodies report is allegation. The UN human rights office reported 'ongoing allegations' that Palestinian armed groups co-located military objectives and civilians. In its report on the war's first six months it also said that Israel's army alleged human-shield use (for example in more than 27 statements about the Al-Shifa medical complex), that in most instances the army did not offer substantial evidence, and that the office could not separately verify the allegations. Israel's army says Hamas operates within densely populated areas, humanitarian zones, schools and hospitals; Hamas denies it.",
       "sources": [
         {
-          "publisher": "UN Human Rights Office (via the UN Question of Palestine site)",
+          "publisher": "UN Human Rights Office (OHCHR)",
           "title": "Six-month update report on the human rights situation in Gaza: 1 November 2023 to 30 April 2024",
-          "url": "https://www.un.org/unispal/document/update-report-08nov24/",
+          "url": "https://www.ohchr.org/sites/default/files/documents/countries/opt/20241106-Gaza-Update-Report-OPT.pdf",
           "archive": "",
           "quote": "there were ongoing allegations that Palestinian armed groups intentionally co-located military objectives and civilians with the specific intent of trying to prevent the targeting of those military objectives",
           "accessed": "2026-11-20",
           "kind": "primary"
         },
         {
-          "publisher": "LBC",
-          "title": "Nearly 70% of Gaza dead are women and children, UN reports",
-          "url": "https://lbc.co.uk/news/nearly-70-of-gaza-dead-are-women-and-children-un-reports",
+          "publisher": "UN Human Rights Office (OHCHR)",
+          "title": "Six-month update report on the human rights situation in Gaza: 1 November 2023 to 30 April 2024",
+          "url": "https://www.ohchr.org/sites/default/files/documents/countries/opt/20241106-Gaza-Update-Report-OPT.pdf",
           "archive": "",
-          "quote": "in most instances, the IDF did not offer substantial evidence to support their allegations [of the use of human shields], and OHCHR has not been able separately to verify them",
+          "quote": "In most instances, the IDF did not offer substantial evidence to support their allegations, and OHCHR has not been able separately to verify them.",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "primary"
         },
         {
           "publisher": "RNZ (Reuters)",
@@ -126,7 +126,7 @@
       ]
     },
     {
-      "text": "The laws of war bind the attacker whatever the defender does. Additional Protocol I says that the presence of civilians must not be used to shield military objectives, and that a violation of that rule does not release the other party from its obligations to civilians, including precautions.",
+      "text": "The laws of war bind the attacker whatever the defender does. Israel is not a party to Additional Protocol I, but the UN human rights office notes that it accepts that some of its provisions reflect customary law. The ICRC's customary-law study lists, as rules for all parties, the prohibition on human shields (Rule 97), the duty to take precautions to spare civilians (Rule 15), and the rule that respect for the law does not depend on reciprocity (Rule 140). Protocol I itself says a violation of the human-shield prohibition does not release the other party from its obligations to civilians.",
       "sources": [
         {
           "publisher": "United Nations Treaty Series",
@@ -138,6 +138,33 @@
           "kind": "primary"
         },
         {
+          "publisher": "UN Human Rights Office (OHCHR)",
+          "title": "Six-month update report on the human rights situation in Gaza: 1 November 2023 to 30 April 2024",
+          "url": "https://www.ohchr.org/sites/default/files/documents/countries/opt/20241106-Gaza-Update-Report-OPT.pdf",
+          "archive": "",
+          "quote": "Israel is not a party to the API but accepts that some of its provisions accurately reflect customary international law",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "International Committee of the Red Cross (J.-M. Henckaerts)",
+          "title": "Study on customary international humanitarian law: list of customary rules",
+          "url": "https://www.icrc.org/en/doc/assets/files/other/customary-law-rules.pdf",
+          "archive": "",
+          "quote": "Rule 140. The obligation to respect and ensure respect for international humanitarian law does not depend on reciprocity.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "International Committee of the Red Cross (J.-M. Henckaerts)",
+          "title": "Study on customary international humanitarian law: list of customary rules",
+          "url": "https://www.icrc.org/en/doc/assets/files/other/customary-law-rules.pdf",
+          "archive": "",
+          "quote": "Rule 15. In the conduct of military operations, constant care must be taken to spare the civilian population, civilians and civilian objects.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
           "publisher": "International Committee of the Red Cross",
           "title": "A statement on Gaza and Israel from the president of the ICRC",
           "url": "https://www.icrc.org/en/document/statement-gaza-and-israel-president-icrc",
@@ -145,15 +172,6 @@
           "quote": "The principles of distinction, proportionality and precaution must be applied in practice to achieve their very purpose: that preserving civilian life and health is the rule, not the exception.",
           "accessed": "2026-11-20",
           "kind": "primary"
-        },
-        {
-          "publisher": "Lieber Institute, West Point (Israel-Hamas 2023 Symposium)",
-          "title": "Targeting Gaza's Tunnels",
-          "url": "https://lieber.westpoint.edu/targeting-gazas-tunnels/",
-          "archive": "",
-          "quote": "the law of armed conflict demands that the expected incidental loss of civilian life, injury to civilians, and damage to civilian objects must not be excessive",
-          "accessed": "2026-11-20",
-          "kind": "scholarly"
         }
       ]
     },
@@ -166,6 +184,15 @@
           "url": "https://treaties.un.org/doc/Publication/UNTS/Volume%201125/volume-1125-I-17512-English.pdf",
           "archive": "",
           "quote": "The presence or movements of the civilian population or individual civilians shall not be used to render certain points or areas immune from military operations",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "International Committee of the Red Cross (J.-M. Henckaerts)",
+          "title": "Study on customary international humanitarian law: list of customary rules",
+          "url": "https://www.icrc.org/en/doc/assets/files/other/customary-law-rules.pdf",
+          "archive": "",
+          "quote": "Rule 97. The use of human shields is prohibited.",
           "accessed": "2026-11-20",
           "kind": "primary"
         },
@@ -251,7 +278,8 @@
           "archive": "",
           "quote": "the requirement to select means and methods of warfare that avoid or at the very least minimise to every extent civilian harm appears to have been consistently violated in Israel's bombing campaign",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "news",
+          "wire": "AFP"
         },
         {
           "publisher": "UN News",
@@ -265,17 +293,25 @@
       ]
     },
     {
-      "text": "In November 2024 the UN human rights office reported 8,119 verified deaths from the war's first months and said the pattern indicated a systematic violation of the fundamental principles of international humanitarian law, including distinction and proportionality.",
+      "text": "The UN human rights office's own six-month update report (1 November 2023 to 30 April 2024) said that the high number of fatalities per attack was due to the Israeli army's use of weapons with wide area effects in densely populated areas, although some deaths may have come from Palestinian projectiles falling short. It said the death toll and the killing of entire families raised concerns that, even where military objectives were targeted, such attacks violated the principle of proportionality. It reported 8,119 killings verified by 2 September 2024, each confirmed by at least three independent sources.",
       "sources": [
         {
-          "publisher": "CBC News (Reuters)",
-          "title": "UN count of Gaza war finds 70% of known victims are women, children",
-          "url": "https://amp.cbc.ca/lite/story/1.7377967",
+          "publisher": "UN Human Rights Office (OHCHR)",
+          "title": "Six-month update report on the human rights situation in Gaza: 1 November 2023 to 30 April 2024",
+          "url": "https://www.ohchr.org/sites/default/files/documents/countries/opt/20241106-Gaza-Update-Report-OPT.pdf",
           "archive": "",
-          "quote": "this finding indicates \"a systematic violation of the fundamental principles of international humanitarian law, including distinction and proportionality,\" the UN rights office said in a statement accompanying the 32-page report",
+          "quote": "the high number of fatalities per attack was due to the IDF's use of weapons with wide area effects in densely-populated areas, although some of the fatalities may have been the result of errant projectiles from PAGs dropping short",
           "accessed": "2026-11-20",
-          "kind": "news",
-          "wire": "Reuters"
+          "kind": "primary"
+        },
+        {
+          "publisher": "UN Human Rights Office (OHCHR)",
+          "title": "Six-month update report on the human rights situation in Gaza: 1 November 2023 to 30 April 2024",
+          "url": "https://www.ohchr.org/sites/default/files/documents/countries/opt/20241106-Gaza-Update-Report-OPT.pdf",
+          "archive": "",
+          "quote": "even where legitimate military objectives were targeted, such attacks violated the IHL principle of proportionality",
+          "accessed": "2026-11-20",
+          "kind": "primary"
         },
         {
           "publisher": "Al Jazeera",
@@ -283,15 +319,6 @@
           "url": "https://www.aljazeera.com/news/2024/11/8/nearly-70-percent-of-deaths-in-gaza-are-women-and-children-un",
           "archive": "",
           "quote": "having verified 8,119 of the more than 34,500 people reportedly killed during the first six months of Israel's war in Gaza",
-          "accessed": "2026-11-20",
-          "kind": "news"
-        },
-        {
-          "publisher": "LBC",
-          "title": "Nearly 70% of Gaza dead are women and children, UN reports",
-          "url": "https://lbc.co.uk/news/nearly-70-of-gaza-dead-are-women-and-children-un-reports",
-          "archive": "",
-          "quote": "the United Nations verified 8,119 victims in total, 2,036 women and 3,588 children",
           "accessed": "2026-11-20",
           "kind": "news"
         }
@@ -317,7 +344,8 @@
           "archive": "",
           "quote": "characterized the analysis as \"factually, legally, and methodologically flawed.\"",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "news",
+          "wire": "AFP"
         },
         {
           "publisher": "CBC News (Reuters)",
@@ -328,6 +356,24 @@
           "accessed": "2026-11-20",
           "kind": "news",
           "wire": "Reuters"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "Nearly 70 percent of deaths in Gaza are women and children: UN",
+          "url": "https://www.aljazeera.com/news/2024/11/8/nearly-70-percent-of-deaths-in-gaza-are-women-and-children-un",
+          "archive": "",
+          "quote": "Israel's diplomatic mission in Geneva said it \"categorically rejects\" the report and accused the UN of relying on \"unverified information\"",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "UN News",
+          "title": "Gaza: Hamas, Israel committed war crimes, claims independent rights probe",
+          "url": "https://news.un.org/en/story/2024/06/1150946",
+          "archive": "",
+          "quote": "Israel rejected the findings of the independent Commission",
+          "accessed": "2026-11-20",
+          "kind": "news"
         }
       ]
     }
@@ -478,9 +524,12 @@
     "I looked for findings by Human Rights Watch, Amnesty or the UN Commission that Hamas used human shields in the 2023-2026 war and found only the UN human rights office's reports of 'allegations'. For the 2014 war the independent record is the UN Secretary-General's and UNRWA's own statements; the Amnesty and Human Rights Watch statements on that war are advocacy sources and are not counted.",
     "The Israeli army's claim about the tunnels under UNRWA's headquarters was not independently verified in any source I could read; UNRWA said it did not know what was beneath the site.",
     "The NATO Strategic Communications Centre of Excellence report on Hamas and human shields could not be read; it appears only as quoted by Lawfare, so I did not use it as a source.",
-    "Israel's reply to the June 2024 Commission report rests on AFP and UN News alone; I did not find a third independent report or the Israeli mission's own statement.",
-    "The OHCHR press release on the November 2024 verified-deaths report could not be fetched; the finding is cited from Al Jazeera, Reuters (via CBC) and LBC. LBC's quotation of the report on the army's evidence for human-shield claims has no second source.",
-    "I did not read the Israeli army's own investigations of individual strikes, or the Israeli mission's own statements."
+    "I did not read the Israeli army's own investigations of individual strikes, or the Israeli mission's own statements.",
+    "Fact 1 has two independent origins: the UN human rights office's own report (read in full) and Reuters on the Israeli army's claim and Hamas's denial. LBC was removed because its page misstates the UN's view. I found no third source for what the UN office said about the army's evidence.",
+    "Fact 6: the UN human rights office and UN News are one organisation, and AFP and Daily Sabah (with AFP's text) are one wire, so it has two independent origins; I found no third report that is neither.",
+    "Fact 7: the UN report's own words are quoted; Al Jazeera's account of the 8,119 figure is the same report. News reports differ on the period the 8,119 covers; the report says verified by 2 September 2024.",
+    "Fact 8: Israel's rejections each have one or two sources (AFP, Reuters, Al Jazeera, UN News); I did not read the Israeli mission's own statements.",
+    "I did not find a source stating the United States' position on Additional Protocol I; the US military manual's human-shield rule is cited only as quoted by Lawfare (author is a senior fellow at an advocacy think tank, noted in contested)."
   ],
   "not_claimed": [
     "This card does not say that Israel targets civilians, and does not say it does not; that is contested and has to be judged strike by strike.",
@@ -498,26 +547,26 @@
       ]
     },
     {
-      "says": "What UN bodies documented is limited: weapons stored in vacant UN schools in 2014, and, in this war, only allegations.",
+      "says": "UN bodies documented weapons in vacant UN schools in 2014 and 2020; in this war they report only allegations.",
       "facts": [
         0,
         1
       ]
     },
     {
-      "says": "The UN human rights office also said Israel mostly did not substantiate its human-shield claims.",
+      "says": "The UN human rights office said Israel's army mostly did not substantiate its human-shield claims about hospitals and schools, and could not verify them.",
       "facts": [
         1
       ]
     },
     {
-      "says": "The Israeli army's claim about tunnels under UNRWA's headquarters has not been independently verified.",
+      "says": "The army's claim about tunnels under UNRWA's headquarters is unverified.",
       "facts": [
         2
       ]
     },
     {
-      "says": "The law says a defender's violations do not release the attacker from its duties to civilians.",
+      "says": "The ICRC says the duty to respect the laws of war does not depend on reciprocity, so a defender's violations do not release the attacker.",
       "facts": [
         3,
         4
@@ -528,13 +577,15 @@
       "facts": [
         5,
         6,
-        7
+        8
       ]
     },
     {
-      "says": "A parent can say: the evidence on each side is of different strength, and each strike has to be judged on its own facts.",
+      "says": "Our reading: the UN has documented more about Israeli strikes than about Hamas's use of civilian areas; each strike must be judged on its own facts.",
       "facts": [
+        0,
         1,
+        3,
         4,
         5,
         6
@@ -545,12 +596,12 @@
     "skeptic": {
       "verdict": "weakened",
       "date": "2026-11-20",
-      "notes": "Read the OHCHR update and thematic report, ICRC statement, Lieber/West Point, Lawfare, UNRWA 2014 and 2020 statements, NPR/Jurist/AP on the UNRWA tunnels, RNZ/Reuters, Al Jazeera, Amnesty. Quotes are on the pages and the facts as worded hold. [must-fix] The card's claim is 'Israel deliberately targets civilians in Gaza, and the number killed proves it', but no fact tests it: the UN Commission of Inquiry's finding and the OHCHR report's finding (six strikes, 218 verified deaths, precaution 'consistently violated', and an IDF spokesperson reported as saying the focus is 'maximum damage' on the same page) and Israel's reply are only in contested, so the answer cannot carry them and reads as a defence of Israel's side. The writer must add facts for them, each with three reliable sources; the OHCHR thematic page and the Al Jazeera Commission report are already on the card. Strongest objection from critics of Israel (stronger): everything on the card for 'Hamas operates among civilians' is allegation (OHCHR's own word), a 2014 and 2020 UNRWA find in vacant schools, and an Israeli army claim about UNRWA tunnels that the card itself says was never verified; no finding from HRW, Amnesty or the Commission that Hamas used human shields in this war (the card's could_not_verify says so). Strongest objection from defenders: the answer leaves the UNRWA, tunnel and OHCHR 'allegation' evidence on equal footing with Commission findings and gives no weight to Hamas's stated tactics; I could not fix that from the cited pages. [should-fix] Fact 4 leans on one US-adviser commentary (Kittrie is a senior fellow at the Foundation for Defense of Democracies, an advocacy-leaning think tank, not stated on the card) for the human-shield rule; add the rule's primary source (Additional Protocol I art 51(7) or ICRC customary rule 97). [should-fix] Fact 0's third source (RNZ/Reuters) only reports Israel's claim and Hamas's denial; fact 1 is two UNRWA statements plus two outlets retelling the 2014 event, so one independent source. [nit] Lieber authors are US military law faculty; labelled scholarly, fine."
+      "notes": "Round 3: checked the OHCHR report itself: para 22 says the IDF released more than 27 statements on Al-Shifa alleging human-shield use and that in most instances it did not offer substantial evidence; OHCHR could not verify them. That context is hospitals and schools, so I narrowed the answer to 'about hospitals and schools'. Para on proportionality ('raise further concerns that ... violated the principle of proportionality') matches fact 7. Customary-law basis (ICRC Rules 15, 97, 140; OHCHR noting Israel accepts some AP I provisions as customary) fixes fact 3; the US position is still not sourced. Still short, so not verified: [must-fix] fact 1 (human-shield evidence in this war): OHCHR report is the record, read first-hand; the only other source (Reuters) covers the army's claim, not the report: add a second reader of OHCHR's paragraph 22, or split the army's claim into its own fact and record-flag the OHCHR one. [must-fix] fact 7 (OHCHR six-month report): record read; only Al Jazeera reads it; add e.g. CBC/Reuters https://amp.cbc.ca/lite/story/1.7377967 (cited on fact 8) as a second reader and set record true. Fact 6 passes the gate with UN twice and AFP twice, i.e. two origins: [should-fix] add an independent report of the 19 June 2024 report. [nit] the six-strike rejection (fact 8) is one AFP text. The answer leans on fact 1 (short), so it cannot be verified. 'Our reading' sentence: 'the UN has documented more about Israeli strikes than about Hamas's use of civilian areas' states what has been documented, not what happened, labelled as the authors' reading per docs/chapters.md; I judge it fair to both directions and carried by facts 0, 1, 5, 6."
     },
     "citer": {
       "verdict": "holds",
       "date": "2026-11-20",
-      "notes": "Removed: 'A UN commission and UN human rights office have found some Israeli attacks unlawful, and Israel rejects such findings.' No fact on the card carries it (the findings are only in contested/heard); the writer must add facts so it can return, and the answer is weaker without it. Reworded 'UNRWA found weapons in its own schools' to 'vacant schools it ran', which is what the two UNRWA statements say. The closing 'each strike has to be judged on its own facts' is carried by facts 3 and 4 (proportionality per attack; targeting a whole area could be indiscriminate). Converted 4 of 5 contested entries to {text, sources}; contested[4] ('Israel says it does not know how many civilians were killed (NBC)') has no source on this card and stays a string; the writer should point to era5-gaza-casualty-figures with a source or drop it. Dropped from contested[0] 'Israel rejects the Commission's findings' (no quote on the card)."
+      "notes": "Round 3: re-tied; sentence 6 rests on facts 5, 6, 8, the closing 'Our reading' sentence on facts 0, 1, 3, 4, 5, 6. Sentences 1 to 3 rest on fact 1, which is short (see skeptic). 148 words."
     }
   }
 }

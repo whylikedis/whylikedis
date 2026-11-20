@@ -10,7 +10,7 @@
       "quote": "Palestine is not the (Jewish) Promised Land or the land of the (Jewish) forefathers"
     }
   ],
-  "answer": "In the Quran 5:21 Moses tells his people to enter the holy land God assigned them; in 5:22-26 they refuse and it is forbidden to them for forty years. 7:137 and 10:93 say God made the oppressed people heirs of blessed lands and settled them in one; 17:104 says to dwell in the land and that He will bring them together at the Hereafter's promise, read by al-Jalalayn as the Hour. None names the land; classical commentators say Syria or Jerusalem. Muslim scholars differ: Atiyyah Saqr of Al-Azhar held the promise lapsed with disobedience, though his fatwa also predicts the Jews will not remain; al-Hussaini and the Jordanian Sheikh al-Adwan hold it unbroken, while Spencer says most Muslims cite other verses against it. Genesis 17:8 gives Canaan to Abraham's descendants 'for an everlasting possession'. Jerusalem and al-Aqsa are sacred in Islam: the Night Journey, the first direction of prayer.",
+  "answer": "In the Quran 5:21 Moses tells his people to enter the holy land God assigned them; in 5:22-26 they refuse and it is forbidden to them for forty years. 7:137 and 10:93 say God made the oppressed people heirs of blessed lands and settled them in one; 17:104 says to dwell in the land and that He will bring them together at the Hereafter's promise, read by al-Jalalayn as the Hour. None names the land; commentators say Syria, Palestine or Jerusalem. Muslim scholars differ: Atiyyah Saqr of Al-Azhar and Sheikh Ahmad Saad held the promise lapsed with disobedience (Saqr's fatwa also predicts the Jews will not remain); al-Hussaini holds it unbroken. Genesis 17:8 gives Canaan to Abraham's descendants 'for an everlasting possession' (17:21 places the covenant with Isaac). Jerusalem and al-Aqsa are sacred in Islam: the Night Journey, the first direction of prayer.",
   "facts": [
     {
       "text": "Quran 5:21 has Moses tell his people to enter the holy land that God has assigned to them.",
@@ -22,7 +22,8 @@
           "archive": "",
           "quote": "O my people! Enter the holy land which Allah has destined for you",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Quranx",
@@ -42,7 +43,8 @@
           "accessed": "2026-11-20",
           "kind": "primary"
         }
-      ]
+      ],
+      "record": true
     },
     {
       "text": "Quran 7:137 says that God made the people who had been oppressed heirs of the eastern and western lands He had blessed, and that His good word was fulfilled for the Children of Israel.",
@@ -54,7 +56,8 @@
           "archive": "",
           "quote": "we made the oppressed people successors of the eastern and western lands, which We had showered with blessings",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Quranx",
@@ -74,7 +77,8 @@
           "accessed": "2026-11-20",
           "kind": "primary"
         }
-      ]
+      ],
+      "record": true
     },
     {
       "text": "Quran 10:93 says God settled the Children of Israel in a blessed land.",
@@ -86,7 +90,8 @@
           "archive": "",
           "quote": "Indeed, We settled the Children of Israel in a blessed land, and granted them good, lawful provisions.",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Quranx",
@@ -106,7 +111,8 @@
           "accessed": "2026-11-20",
           "kind": "primary"
         }
-      ]
+      ],
+      "record": true
     },
     {
       "text": "Quran 17:104 has God tell the Children of Israel, after Pharaoh, to dwell in the land, and says that when the promise of the Hereafter comes He will bring them together (translators render this 'in one gathering', 'a mixed crowd' or 'a rabble').",
@@ -118,7 +124,8 @@
           "archive": "",
           "quote": "and we said to the Children of Israel after Pharaoh, \"Reside in the land, but when the promise of the Hereafter comes to pass, 1 we will bring you all together.\"",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Quranx",
@@ -138,7 +145,8 @@
           "accessed": "2026-11-20",
           "kind": "primary"
         }
-      ]
+      ],
+      "record": true
     },
     {
       "text": "In Quran 5:22-24 the Israelites answer Moses that there is a powerful people in the land and that they will never enter it as long as those people remain: 'go, you and your Lord, and fight; we are staying right here'.",
@@ -150,7 +158,8 @@
           "archive": "",
           "quote": "we will never enter as long as they remain there. So go-both you and your Lord-and fight; we are staying right here!",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Quranx",
@@ -170,7 +179,8 @@
           "accessed": "2026-11-20",
           "kind": "primary"
         }
-      ]
+      ],
+      "record": true
     },
     {
       "text": "In Quran 5:26 God says the land will be forbidden to the Israelites for forty years while they wander.",
@@ -182,7 +192,8 @@
           "archive": "",
           "quote": "forbidden to them for forty years, during which they will wander through the land.",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Quranic Arabic Corpus, University of Leeds",
@@ -202,10 +213,11 @@
           "accessed": "2026-11-20",
           "kind": "primary"
         }
-      ]
+      ],
+      "record": true
     },
     {
-      "text": "Classical commentary on 7:137: Ibn Kathir (citing al-Hasan al-Basri and Qatadah) says the blessed lands are the Sham area, Greater Syria; al-Jalalayn says the blessed land was Syria.",
+      "text": "Classical commentary on 7:137, from three different commentaries: Ibn Kathir (citing al-Hasan al-Basri and Qatadah) says the blessed lands are the Sham area, Greater Syria; al-Jalalayn says the blessed land was Syria; Tanwir al-Miqbas (attributed to Ibn Abbas) says the land of Jerusalem, Palestine, Jordan and Egypt.",
       "sources": [
         {
           "publisher": "Quran.com (Quran Foundation)",
@@ -217,27 +229,27 @@
           "kind": "primary"
         },
         {
-          "publisher": "Alim.org",
-          "title": "Tafsir Ibn Kathir on Surah 7:137",
-          "url": "https://www.alim.org/quran/tafsir/ibn-kathir/surah/7/137/",
+          "publisher": "AlTafsir.com (Royal Aal al-Bayt Institute for Islamic Thought)",
+          "title": "Tafsir al-Jalalayn on 7:137 (trans. Feras Hamza)",
+          "url": "https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=74&tSoraNo=7&tAyahNo=137&tDisplay=yes&UserProfile=0&LanguageId=2",
           "archive": "",
-          "quote": "refers to the Sham area (Greater Syria)",
+          "quote": "'which we had blessed' is an adjectival qualification of al-ard 'the land' and this was Syria",
           "accessed": "2026-11-20",
           "kind": "primary"
         },
         {
           "publisher": "Quranx",
-          "title": "Tafsirs for Quran 7.137 (Jalalayn)",
+          "title": "Tanwir al-Miqbas (attributed to Ibn Abbas) on 7.137",
           "url": "https://quranx.com/Tafsirs/7.137",
           "archive": "",
-          "quote": "'which we had blessed' is an adjectival qualification of al-ard 'the land' and this was Syria",
+          "quote": "to inherit the eastern parts of the land) the land of Jerusalem, Palestine, Jordan and Egypt",
           "accessed": "2026-11-20",
           "kind": "primary"
         }
       ]
     },
     {
-      "text": "Classical commentary on 10:93: Ibn Kathir says the 'honorable dwelling place' means Egypt and Syria around Jerusalem, 'as it was said by some'; al-Jalalayn says Syria and Egypt.",
+      "text": "Classical commentary on 10:93, from three different commentaries: Ibn Kathir says the 'honorable dwelling place' means Egypt and Syria around Jerusalem, 'as it was said by some'; al-Jalalayn says Syria and Egypt; Tanwir al-Miqbas (attributed to Ibn Abbas) says Jordan and Palestine.",
       "sources": [
         {
           "publisher": "Quran.com (Quran Foundation)",
@@ -249,32 +261,32 @@
           "kind": "primary"
         },
         {
-          "publisher": "Alim.org",
-          "title": "Tafsir Ibn Kathir on Surah 10:93",
-          "url": "https://www.alim.org/quran/tafsir/ibn-kathir/surah/10/93/",
+          "publisher": "AlTafsir.com (Royal Aal al-Bayt Institute for Islamic Thought)",
+          "title": "Tafsir al-Jalalayn on 10:93 (trans. Feras Hamza)",
+          "url": "https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=74&tSoraNo=10&tAyahNo=93&tDisplay=yes&UserProfile=0&LanguageId=2",
           "archive": "",
-          "quote": "means in Egypt and Syria, around Jerusalem, as it was said by some",
+          "quote": "an excellent abode a noble place of residence namely Syria and Egypt",
           "accessed": "2026-11-20",
           "kind": "primary"
         },
         {
           "publisher": "Quranx",
-          "title": "Tafsirs for Quran 10.93 (Jalalayn)",
+          "title": "Tanwir al-Miqbas (attributed to Ibn Abbas) on 10.93",
           "url": "https://quranx.com/Tafsirs/10.93",
           "archive": "",
-          "quote": "an excellent abode a noble place of residence namely Syria and Egypt",
+          "quote": "the children of Israel a fixed abode) a noble land: Jordan and Palestine",
           "accessed": "2026-11-20",
           "kind": "primary"
         }
       ]
     },
     {
-      "text": "Classical commentary on 17:104: al-Jalalayn reads 'the promise of the hereafter' as the Hour and the gathering as 'you and them' together; Ibn Kathir (citing Ibn Abbas, Qatadah and ad-Dahhak) says it means all of you, you and your enemies, together.",
+      "text": "Classical commentary on 17:104, from three different commentaries: al-Jalalayn reads 'the promise of the hereafter' as the Hour and the gathering as 'you and them' together; Ibn Kathir (citing Ibn Abbas, Qatadah and ad-Dahhak) says it means all of you, you and your enemies, together; Tanwir al-Miqbas (attributed to Ibn Abbas) says 'dwell in the land' means the land of Jordan and Palestine and that the promise of the hereafter is the resurrection or the descent of Jesus.",
       "sources": [
         {
-          "publisher": "Quranx",
-          "title": "Tafsirs for Quran 17.104 (Jalalayn)",
-          "url": "https://quranx.com/Tafsirs/17.104",
+          "publisher": "AlTafsir.com (Royal Aal al-Bayt Institute for Islamic Thought)",
+          "title": "Tafsir al-Jalalayn on 17:104 (trans. Feras Hamza)",
+          "url": "https://www.altafsir.com/Tafasir.asp?tMadhNo=0&tTafsirNo=74&tSoraNo=17&tAyahNo=104&tDisplay=yes&UserProfile=0&LanguageId=2",
           "archive": "",
           "quote": "namely the Hour comes to pass we shall bring you gathered in mixed company' all together you and them",
           "accessed": "2026-11-20",
@@ -290,11 +302,11 @@
           "kind": "primary"
         },
         {
-          "publisher": "Alim.org",
-          "title": "Tafsir Ibn Kathir on Surah 17:104",
-          "url": "https://www.alim.org/quran/tafsir/ibn-kathir/surah/17/104/",
+          "publisher": "Quranx",
+          "title": "Tanwir al-Miqbas (attributed to Ibn Abbas) on 17.104",
+          "url": "https://quranx.com/Tafsirs/17.104",
           "archive": "",
-          "quote": "meaning, all of you, you and your",
+          "quote": "(dwell in the land) the land of Jordan and Palestine; (but when the promise of the hereafter) when resurrection after death",
           "accessed": "2026-11-20",
           "kind": "primary"
         }
@@ -333,7 +345,7 @@
       ]
     },
     {
-      "text": "Two Muslim voices hold that the Israelites' claim was conditional on obedience or has passed away. Atiyyah Saqr (former head of the Al-Azhar fatwa committee) writes that it stands only while the people obey God; the same fatwa also says that the Jews 'have occupied Palestine, they will never remain there forever' and hopes for 'another defeat and severe blow' at Muslim hands, citing Quran 7:167. An article by Noah Ali Salman on the Jordanian General Iftaa' Department site says the Children of Israel were stripped of 'the honor of the trust' because of their sins and that the earth's 'final outcome belongs to the righteous'; it is framed as seeking clarity on 'the end of the battle between us and the Jews'. A survey by Ersin Çelik finds some contemporary commentators call the land a temporary dwelling during the exodus, not an eternal homeland.",
+      "text": "Three Muslim voices hold that the Israelites' claim was conditional on obedience or has passed away. Atiyyah Saqr (former head of the Al-Azhar fatwa committee) writes that it stands only while the people obey God; the same fatwa also says that the Jews 'have occupied Palestine, they will never remain there forever' and hopes for 'another defeat and severe blow' at Muslim hands, citing Quran 7:167. An article by Noah Ali Salman on the Jordanian General Iftaa' Department site says the Children of Israel were stripped of 'the honor of the trust' because of their sins and that the earth's 'final outcome belongs to the righteous'; it is framed as seeking clarity on 'the end of the battle between us and the Jews'. Sheikh Ahmad Saad, answering a reader on About Islam, says that 'as soon as they deviated, the holy land was not theirs anymore because they are no longer fulfilling Allah's law'. A survey by Ersin Çelik finds some contemporary commentators call the land a temporary dwelling during the exodus, not an eternal homeland.",
       "sources": [
         {
           "publisher": "About Islam",
@@ -363,6 +375,15 @@
           "kind": "primary"
         },
         {
+          "publisher": "About Islam",
+          "title": "Sheikh Ahmad Saad, A Holy Land for Whom? (2021)",
+          "url": "https://aboutislam.net/counseling/ask-about-islam/a-holy-land-for-whom/",
+          "archive": "",
+          "quote": "As soon as they deviated, the Holy Land was not theirs anymore because they are no longer fulfilling Allah's law.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
           "publisher": "Journal of Eskişehir Osmangazi University Faculty of Theology",
           "title": "Ersin Çelik, The Issue of the Promised Land from the Perspective of Classical and Modern Commentators (2025)",
           "url": "https://dergipark.org.tr/en/pub/esoguifd/issue/90533/1574827",
@@ -374,7 +395,7 @@
       ]
     },
     {
-      "text": "At least two Muslim voices read the Quran as granting the land to the Jews lastingly: Muhammad al-Hussaini says 'there are no grounds in religious law to entertain the conceit that God's promise to the Children of Israel has been broken', and the Jordanian Sheikh Ahmad al-Adwan, in an interview relayed by The Algemeiner, says 'I recognize their sovereignty over their land' and cites Quran 5:21.",
+      "text": "Three Muslim voices are reported to read the Quran as granting the land to the Jews lastingly, but only the first is read in his own words. Muhammad al-Hussaini, in his own Middle East Quarterly essay, says 'there are no grounds in religious law to entertain the conceit that God's promise to the Children of Israel has been broken'. The Jordanian Sheikh Ahmad al-Adwan, in an interview with Mida magazine as relayed by The Algemeiner (we read the relay, not the interview), says 'I recognize their sovereignty over their land' and cites Quran 5:21. The Italian imam Abdul Hadi Palazzi argues in an essay in Tablet that the Quran supports the biblical claim; we read only First Things' summary of it, not the essay.",
       "sources": [
         {
           "publisher": "Middle East Quarterly (Middle East Forum)",
@@ -386,15 +407,6 @@
           "kind": "scholarly"
         },
         {
-          "publisher": "Middle East Quarterly (Middle East Forum)",
-          "title": "Robert Spencer, The Qur'an: Israel Is Not for the Jews (quoting al-Hussaini)",
-          "url": "https://www.meforum.org/middle-east-quarterly/the-quran-israel-not-for-jews",
-          "archive": "",
-          "quote": "the traditional commentators from the eighth and ninth century onwards have uniformly interpreted the Koran to say explicitly that Eretz Yisrael",
-          "accessed": "2026-11-20",
-          "kind": "scholarly"
-        },
-        {
           "publisher": "The Algemeiner",
           "title": "Jordan's 'Zionist Sheikh' Cites Quranic Sources for Islam-Jewish Relations (relaying an interview in Mida magazine)",
           "url": "https://www.algemeiner.com/2014/03/07/jordans-zionist-sheikh-cites-quranic-sources-for-islam-jewish-relations/",
@@ -402,38 +414,15 @@
           "quote": "Indeed, I recognize their sovereignty over their land. I believe in the Holy Koran, and this fact is stated many times in the book.",
           "accessed": "2026-11-20",
           "kind": "news"
-        }
-      ]
-    },
-    {
-      "text": "Robert Spencer argues the opposite: that most Muslims cite other verses and hadith against a Jewish claim and that the Hamas charter, which calls Palestine an Islamic waqf (religious endowment) 'consecrated for future Moslem generations until Judgement Day', is a mainstream view.",
-      "sources": [
-        {
-          "publisher": "Middle East Quarterly (Middle East Forum)",
-          "title": "Robert Spencer, The Qur'an: Israel Is Not for the Jews",
-          "url": "https://www.meforum.org/middle-east-quarterly/the-quran-israel-not-for-jews",
-          "archive": "",
-          "quote": "the majority cite other Qur'anic verses and passages from the hadith",
-          "accessed": "2026-11-20",
-          "kind": "scholarly"
         },
         {
-          "publisher": "Yale Law School, Avalon Project",
-          "title": "Hamas Covenant 1988, Article Eleven",
-          "url": "https://avalon.law.yale.edu/20th_century/hamas.asp",
+          "publisher": "First Things (Joe Carter, summarising Sheikh Abdul Hadi Palazzi's Tablet essay)",
+          "title": "Allah Is a Zionist",
+          "url": "https://firstthings.com/allah-is-a-zionist/",
           "archive": "",
-          "quote": "the land of Palestine is an Islamic Waqf consecrated for future Moslem generations until Judgement Day",
+          "quote": "supports the biblical claim that the land of Israel was given to the Jews by God",
           "accessed": "2026-11-20",
-          "kind": "primary"
-        },
-        {
-          "publisher": "Middle East Quarterly (Middle East Forum)",
-          "title": "Robert Spencer, The Qur'an: Israel Is Not for the Jews (on the charter)",
-          "url": "https://www.meforum.org/middle-east-quarterly/the-quran-israel-not-for-jews",
-          "archive": "",
-          "quote": "the charter is not unique: it represents a mainstream view among Muslims today",
-          "accessed": "2026-11-20",
-          "kind": "scholarly"
+          "kind": "news"
         }
       ]
     },
@@ -470,7 +459,7 @@
       ]
     },
     {
-      "text": "Jewish scripture states the tie to the land directly: Genesis 17:8 has God give Abraham and his descendants 'all the land of Canaan, for an everlasting possession'.",
+      "text": "Jewish scripture states the tie to the land directly: Genesis 17:8 has God give Abraham and his descendants 'all the land of Canaan, for an everlasting possession'. The same chapter (17:21) says God's covenant will be established with Isaac, not Ishmael.",
       "sources": [
         {
           "publisher": "Mechon Mamre (Hebrew-English Tanakh, JPS 1917)",
@@ -479,7 +468,8 @@
           "archive": "",
           "quote": "all the land of Canaan, for an everlasting possession; and I will be their God.",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "BibleGateway (King James Version)",
@@ -498,8 +488,18 @@
           "quote": "the land where you are traveling, all the land of Canaan, for an everlasting possession. I will be their God.",
           "accessed": "2026-11-20",
           "kind": "primary"
+        },
+        {
+          "publisher": "Mechon Mamre (Hebrew-English Tanakh, JPS 1917)",
+          "title": "Genesis 17:21 (the covenant with Isaac)",
+          "url": "https://www.mechon-mamre.org/p/pt/pt0117.htm",
+          "archive": "",
+          "quote": "but My covenant will I establish with Isaac, whom Sarah shall bear unto thee at this set time in the next year.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
         }
-      ]
+      ],
+      "record": true
     }
   ],
   "contested": [
@@ -536,7 +536,7 @@
       ]
     },
     {
-      "text": "Spencer's position and al-Hussaini's are opposite readings of the same texts: Spencer says the majority of Muslims cite other verses and hadith against a Jewish claim and that the Hamas charter's waqf view is mainstream; al-Hussaini says no religious-law ground exists to think God's promise was broken. Both essays were commissioned by the Middle East Quarterly, whose publisher takes a position on the conflict.",
+      "text": "Spencer's position and al-Hussaini's are opposite readings of the same texts. Spencer says the majority of Muslims cite other verses and hadith against a Jewish claim, and that the Hamas charter, which calls Palestine an Islamic waqf (religious endowment) consecrated for future Muslim generations until Judgement Day, represents a mainstream view; this is Spencer's account, not a survey. Al-Hussaini says no religious-law ground exists to think God's promise was broken. Both essays were commissioned by the Middle East Quarterly, whose publisher takes a position on the conflict.",
       "sources": [
         {
           "publisher": "Middle East Quarterly (Middle East Forum)",
@@ -544,6 +544,24 @@
           "url": "https://www.meforum.org/middle-east-quarterly/the-quran-israel-not-for-jews",
           "archive": "",
           "quote": "the majority cite other Qur'anic verses and passages from the hadith",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Yale Law School, Avalon Project",
+          "title": "Hamas Covenant 1988, Article Eleven",
+          "url": "https://avalon.law.yale.edu/20th_century/hamas.asp",
+          "archive": "",
+          "quote": "the land of Palestine is an Islamic Waqf consecrated for future Moslem generations until Judgement Day",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Middle East Quarterly (Middle East Forum)",
+          "title": "Robert Spencer, The Qur'an: Israel Is Not for the Jews (on the charter)",
+          "url": "https://www.meforum.org/middle-east-quarterly/the-quran-israel-not-for-jews",
+          "archive": "",
+          "quote": "the charter is not unique: it represents a mainstream view among Muslims today",
           "accessed": "2026-11-20",
           "kind": "scholarly"
         },
@@ -586,10 +604,15 @@
     "Whether some Muslims dispute identifying the 'farthest mosque' of 17:1 with Jerusalem: no Muslim source making that argument was found; only the Middle East Quarterly editors' statement that it is 'generally interpreted' as Jerusalem is quoted.",
     "A survey or poll of how many Muslim scholars read the promise as lapsed or as lasting: none found; the card names the scholars it quotes and does not say what share hold either view.",
     "Muhammad Asad and Wahbah al-Zuhayli on 5:21: no readable page found, so not cited. Sayyid Qutb's commentary (read) says the land was 'forbidden to that particular generation' on 'the weightier view'; that is not quoted because it does not address whether the promise lapsed.",
-    "The Hamas charter and Spencer's reading of it come from two sites only (Avalon Project and Middle East Quarterly).",
     "The Quran's counter-verses that Saqr cites (21:105, 7:167) and that Jewish readers may expect (7:168) are not quoted from the verse pages.",
-    "Al-Hussaini's own essay and Spencer's quotation of him are on one site (Middle East Forum); the second voice, al-Adwan, is known through a news report of an interview, not his own text.",
-    "Independent corroboration of Ibn Kathir's reading of 7:137, 10:93 and 17:104: quran.com and alim.org reproduce one abridged text."
+    "Spencer's claim that most Muslims reject a Jewish claim, and the Hamas charter's reading, are in a contested entry because no survey or second source for 'most Muslims' was found.",
+    "Palazzi's own Tablet essay (403 to the reader) was not read; only First Things' summary of it, which is a blog note, and al-Adwan's interview is read only through The Algemeiner's relay of a Mida magazine interview.",
+    "Muslim commentaries beyond the three used per verse (Ibn Kathir, al-Jalalayn, Tanwir al-Miqbas): al-Tabari, al-Qurtubi and al-Razi on 7:137, 10:93 and 17:104 were not found in readable English.",
+    "Which Muslim voice on the lapsed reading addresses 5:21 directly beyond Saqr and Saad: the Jordanian Iftaa' article does not discuss 5:21 and is cited only for the Israelites losing 'the honor of the trust'.",
+    "First-hand texts for al-Adwan (the Mida interview) and Palazzi (his Tablet essay): the card holds a news relay and a blurb.",
+    "Scripture facts (Quran 5:21, 5:22-24, 5:26, 7:137, 10:93, 17:104; Genesis 17:8 and 17:21) are worded as what the text says, with the text itself as the record. The 'readers' are other editions or translations of the same text (Quranx, the Quranic Arabic Corpus, BibleGateway, eBible), which confirm that we copied it correctly; they are not independent opinions. Which reading of the text is right is not a fact on this card and belongs to contested.",
+    "The answer does not rest on al-Adwan or Palazzi: both are read only second-hand (The Algemeiner's relay of a Mida magazine interview; First Things' summary of a Tablet essay whose page could not be read, including through the Wayback Machine). Fact 11 keeps them, marked as reported. A person should read Palazzi's essay 'Allah Is a Zionist' (Tablet, 18 March 2010) and the Mida interview with al-Adwan.",
+    "Facts that do not meet the gate's source rule: none by count. Fact 11 (the 'lasting' reading) has one first-hand voice (al-Hussaini); the other two are second-hand and the gate counts their relays."
   ],
   "not_claimed": [
     "That scripture settles a modern political question: who should govern the land, or what borders, is not answered by the verses quoted.",
@@ -618,35 +641,31 @@
       ]
     },
     {
-      "says": "None names the land; classical commentators say Syria or Jerusalem.",
+      "says": "None names the land; commentators say Syria, Palestine or Jerusalem.",
       "facts": [
-        0,
-        1,
-        2,
-        3,
         6,
         7,
+        8,
         9
       ]
     },
     {
-      "says": "Muslim scholars differ: Atiyyah Saqr of Al-Azhar held the promise lapsed with disobedience, though his fatwa also predicts the Jews will not remain; al-Hussaini and the Jordanian Sheikh al-Adwan hold it unbroken, while Spencer says most Muslims cite other verses against it.",
+      "says": "Muslim scholars differ: Atiyyah Saqr of Al-Azhar and Sheikh Ahmad Saad held the promise lapsed with disobedience (Saqr's fatwa also predicts the Jews will not remain); al-Hussaini holds it unbroken.",
       "facts": [
         10,
-        11,
-        12
+        11
       ]
     },
     {
-      "says": "Genesis 17:8 gives Canaan to Abraham's descendants 'for an everlasting possession'.",
+      "says": "Genesis 17:8 gives Canaan to Abraham's descendants 'for an everlasting possession' (17:21 places the covenant with Isaac).",
       "facts": [
-        14
+        13
       ]
     },
     {
       "says": "Jerusalem and al-Aqsa are sacred in Islam: the Night Journey, the first direction of prayer.",
       "facts": [
-        13
+        12
       ]
     }
   ],
@@ -654,12 +673,12 @@
     "skeptic": {
       "verdict": "weakened",
       "date": "2026-11-20",
-      "notes": "ROUND TWO. Re-read every new quote with the verses before and after. FIXED by the writer (checked): 5:24 refusal is quoted (the 'powerful people' of 5:22 is not; nit); tafsir on 7:137, 10:93 and 17:104 added and read correctly (Ibn Kathir: Sham; Ibn Kathir/al-Jalalayn: Egypt and Syria; Jalalayn: the Hour, 'all together you and them'); Genesis 17:8 quoted from three translations; Saqr's prediction ('will never remain there forever', 'another defeat') is on the card; Spencer, the Hamas charter, al-Hussaini's own essay and al-Adwan's interview are quoted; the method note left contested. STILL OPEN: (1) facts 11 and 12 have only two sites each (Middle East Forum counted once; Algemeiner; Avalon) so the card is short of three reliable sources, and al-Adwan is known through a news relay of a magazine interview. (2) Facts 6, 7, 8: quran.com and alim.org carry the same abridged Ibn Kathir text, so there are two commentaries (Ibn Kathir, al-Jalalayn), not three independent ones; the gate counts three sites. (3) Fact 10 headline said 'the promise lapsed' for the Jordanian Iftaa' article, which speaks of the Israelites losing 'the honor of the trust' (carrying the message) and the earth's 'final outcome' going to the righteous; it never discusses 5:21. I reworded the headline to 'conditional on obedience or has passed away'; a better second voice that addresses the land promise is still needed. (4) contested[2]: the quote 'Jerusalem isn't actually mentioned by name' reaches us only through Spencer; I changed the text to say so; al-Hussaini's own essay does not contain it. NEW PROBLEM: the answer still told 17:104 as 'dwell in the land' with no gathering clause, repeating the cut I found in round one; fixed by me. SHOULD-FIX: Genesis 17:8 says 'descendants' with no note that 17:19-21 places the covenant with Isaac, which a Muslim reader will raise; the card's counter-verses (21:105, 7:167-168) are still not quoted from verse pages. Strongest objection from Muslims: two of the three scholars quoted for the lasting reading and the lapsed reading come from the same two sites, and no majority statement from a Muslim source exists (Spencer, a non-Muslim, supplies 'most Muslims'). From Jewish readers: the quoted Muslim voices for the lapsed view are more numerous than for the lasting view."
+      "notes": "ROUND THREE. Read each commentary on its page for 7:137, 10:93, 17:104: Ibn Kathir (quran.com), al-Jalalayn (AlTafsir, Hamza translation) and Tanwir al-Miqbas (Quranx) are three different works and the card states what each says and where they differ (Sham; Egypt and Syria; Jerusalem, Palestine, Jordan and Egypt; Jordan and Palestine; the Hour or the descent of Jesus); the duplicate alim.org site is gone, so first-round and round-two doubts on facts 6-8 are closed. Fact 13 (Genesis 17:8, 17:21) checked in context and fair. Saad's attribution and words checked on the About Islam page. Moving Spencer and the Hamas charter to contested is honest: it is Spencer's own claim, quoted, the entry says it is his account and not a survey, and the answer no longer asserts it; it was not a way round the count. STILL THIN: fact 11 holds one first-hand voice (al-Hussaini); al-Adwan is read only through The Algemeiner's relay of a magazine interview, and Palazzi only through a First Things blurb that states his position in the blurb writer's words, so the fact text and the answer now say 'reported'. Fact 10: Saqr and Saad are both on About Islam and the Jordanian article never discusses 5:21, so directly on 5:21 the lapsed reading has two voices from one site; the gate counts three sites. Gate floor is met (14 of 14) but fact 11 is not three independent sources, so not verified. Strongest objection from Muslims: the card's 'lasting' voices are mostly second-hand and one runs through a pro-Israel outlet, while no survey says which reading is commoner. From Jewish readers: Saqr's fatwa predicts the Jews' defeat and is the card's main lapsed voice."
     },
     "citer": {
       "verdict": "holds",
       "date": "2026-11-20",
-      "notes": "ROUND TWO. Redid answer_claims: 6 sentences, each tied to facts, 150 words or fewer (the opening 'The Quran speaks of the Children of Israel and a holy land' was cut for length; facts 0-3 still carry it). CHANGED: 17:104 sentence now carries the Hereafter-gathering clause and al-Jalalayn's reading (fact 8); 'none names it' is tied to the verse and commentary facts; Spencer added (fact 12) so the answer shows the 'most Muslims' claim next to the two lasting-reading voices. No sentence is unsupported. Not verified because the gate finds facts 11 and 12 short."
+      "notes": "ROUND THREE. Redid answer_claims: 6 sentences, each tied to facts, 150 words or fewer. CHANGED: the commentary sentence now ties to facts 6-9 (three works, not one); Saad added (fact 10); the 'unbroken' sentence says al-Adwan and Palazzi are only reported, so the answer does not rest on second-hand voices as if first-hand; Spencer is not in the answer because he is in contested, not a fact. No sentence is unsupported."
     }
   }
 }

@@ -14,13 +14,28 @@
       "url": "https://www.aljazeera.com/news/2024/11/21/us-senate-votes-down-effort-to-withhold-weapons-to-israel-amid-gaza-war",
       "quote": "there is a moral obligation for them to stop arming a genocide .",
       "archive": ""
+    },
+    {
+      "who": "Senator Bernie Sanders, on the Senate floor, April 2026 (reported by CQ Roll Call)",
+      "url": "https://rollcall.com/2026/04/15/sanders-effort-to-block-arms-sales-to-israel-falls-short-in-senate/",
+      "quote": "The time is now to end all U.S. military aid to the extremist Netanyahu government, and a yes vote is an important way forward.",
+      "archive": ""
     }
   ],
-  "answer": "Mostly the money is spent in the United States, on American-made weapons. Under the earlier agreement Israel could spend 26.3 percent of the yearly grant at home; the 2016 agreement ends that by fiscal 2028. For fiscal 2025, $450 million of $3.3 billion was set aside for that: roughly 14 percent by our arithmetic. The US co-developed David's Sling and Arrow. US law allows arms sales only for purposes such as legitimate self-defence. A May 2024 State Department report found it reasonable to assess that US arms were used in ways inconsistent with humanitarian law, and Israel's assurances credible. Senate votes to block sales failed, with 18 yes votes in November 2024, 15 in April 2025, and 36 and 40 in April 2026. Opinion is shifting: Gallup finds 65 percent of Democrats side more with Palestinians, and a third of Americans say the US gives Israel too much military aid.",
+  "answer": "Mostly the money is spent in the United States, on American-made weapons. Under the 2007 agreement Israel could spend 26.3 percent of the yearly grant at home; the 2016 agreement ends that by fiscal 2028. For fiscal 2025, $450 million of $3.3 billion was set aside for it: roughly 14 percent by our arithmetic. The US co-developed David's Sling and Arrow. US law allows arms sales only for purposes such as legitimate self-defence. A May 2024 State Department report found it reasonable to assess that US arms were used in ways inconsistent with humanitarian law; the memorandum that required it, NSM-20, was rescinded in February 2025. Senate votes to block sales failed: 17 to 19 yes in November 2024, 15 in April 2025, 36 and 40 in April 2026. A third of Americans say the US gives Israel too much military aid.",
   "facts": [
     {
-      "text": "Under the agreement before 2016, Israel was uniquely allowed to spend 26.3 percent of its annual military grant inside Israel ('off-shore procurement'); the 2016 agreement phases this out and it ends in fiscal 2028, so all the grant is to be spent on American products.",
+      "text": "Under the 2007 memorandum (fiscal years 2009 to 2018) Israel was explicitly permitted to spend up to 26.3 percent of the US military grant on Israeli-made equipment ('off-shore procurement'); the 2016 memorandum (fiscal years 2019 to 2028) decreases this slowly until fiscal 2024, then phases it out more steeply over its last five years, ending in fiscal 2028. The AP reported that the 2016 deal eventually requires all of the funds to be spent on American military industries.",
       "sources": [
+        {
+          "publisher": "Congressional Research Service (via EveryCRSReport)",
+          "title": "U.S. Foreign Aid to Israel: Overview and Developments since October 7, 2023 (RL33222, May 2025)",
+          "url": "https://www.everycrsreport.com/reports/RL33222.html",
+          "archive": "",
+          "quote": "Israel was explicitly permitted to continue spending up to 26.3% of U.S. assistance on Israeli-manufactured equipment",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
         {
           "publisher": "White House (Obama administration archive)",
           "title": "Fact Sheet: Memorandum of Understanding Reached with Israel",
@@ -31,9 +46,9 @@
           "kind": "government"
         },
         {
-          "publisher": "Congressional Research Service (via Federation of American Scientists)",
+          "publisher": "Congressional Research Service (via EveryCRSReport)",
           "title": "U.S. Foreign Aid to Israel: Overview and Developments since October 7, 2023 (RL33222, May 2025)",
-          "url": "https://sgp.fas.org/crs/mideast/RL33222.pdf",
+          "url": "https://www.everycrsreport.com/reports/RL33222.html",
           "archive": "",
           "quote": "OSP was to decrease slowly until FY2024, and then phase out more dramatically over the MOU's last five years, ending entirely in FY2028",
           "accessed": "2026-11-20",
@@ -71,12 +86,12 @@
       ]
     },
     {
-      "text": "In fiscal 2025 Congress appropriated a $3.3 billion military grant (P.L. 119-4, per the CRS) and specified $450.3 million of it for off-shore procurement, spent in Israel: about 14 percent, by our own arithmetic (450.3 divided by 3,300). The April 2024 supplemental allowed up to $769.3 million of its $3.5 billion in grants to be spent in Israel (about 22 percent, also our arithmetic).",
+      "text": "In fiscal 2025 Congress appropriated a $3.3 billion military grant (P.L. 119-4, per the CRS) and specified $450.3 million of it for off-shore procurement, spent in Israel: about 14 percent, by our own arithmetic (450.3 divided by 3,300). The April 2024 supplemental allowed up to $769.3 million of its $3.5 billion in grants to be spent in Israel (about 22 percent, also our arithmetic). The FY2025 act itself (P.L. 119-4, section 11206) substitutes $450,300,000 for $725,300,000 in section 7041(d); the CRS identifies that line as the off-shore procurement figure.",
       "sources": [
         {
-          "publisher": "Congressional Research Service (via Federation of American Scientists)",
+          "publisher": "Congressional Research Service (via EveryCRSReport)",
           "title": "U.S. Foreign Aid to Israel: Overview and Developments since October 7, 2023 (RL33222, May 2025)",
-          "url": "https://sgp.fas.org/crs/mideast/RL33222.pdf",
+          "url": "https://www.everycrsreport.com/reports/RL33222.html",
           "archive": "",
           "quote": "specifies FY2025 FMF for off-shore procurement for Israel (per the terms of the MOU) at $450.3 million",
           "accessed": "2026-11-20",
@@ -99,6 +114,15 @@
           "quote": "a benefit not granted to other recipients of U.S. military aid, which are required to buy from American firms",
           "accessed": "2026-11-20",
           "kind": "reference"
+        },
+        {
+          "publisher": "U.S. Government Publishing Office (Public Law 119-4)",
+          "title": "Public Law 119-4, full-year continuing appropriations and extensions act, 2025",
+          "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ4/html/PLAW-119publ4.htm",
+          "archive": "",
+          "quote": "in section 7041(d), ``$450,300,000'' for ``$725,300,000''",
+          "accessed": "2026-11-20",
+          "kind": "primary"
         }
       ]
     },
@@ -115,18 +139,18 @@
           "kind": "reference"
         },
         {
-          "publisher": "Congressional Research Service (via Federation of American Scientists)",
+          "publisher": "Congressional Research Service (via EveryCRSReport)",
           "title": "U.S. Foreign Aid to Israel: Overview and Developments since October 7, 2023 (RL33222, May 2025)",
-          "url": "https://sgp.fas.org/crs/mideast/RL33222.pdf",
+          "url": "https://www.everycrsreport.com/reports/RL33222.html",
           "archive": "",
-          "quote": "the MOU stipulated that 50% or greater of annual procurement/coproduction funds must be spent in the United States",
+          "quote": "the MOU stipulated that 50% or greater of annual procurement/co-production funds must be spent in the United States",
           "accessed": "2026-11-20",
           "kind": "government"
         },
         {
-          "publisher": "Congressional Research Service (via Federation of American Scientists)",
+          "publisher": "Congressional Research Service (via EveryCRSReport)",
           "title": "U.S. Foreign Aid to Israel: Overview and Developments since October 7, 2023 (RL33222, May 2025)",
-          "url": "https://sgp.fas.org/crs/mideast/RL33222.pdf",
+          "url": "https://www.everycrsreport.com/reports/RL33222.html",
           "archive": "",
           "quote": "at least $100 million a year is then spent on missile defense funding inside the United States by either U.S. firms or American-based",
           "accessed": "2026-11-20",
@@ -156,9 +180,9 @@
           "kind": "reference"
         },
         {
-          "publisher": "Congressional Research Service (via Federation of American Scientists)",
+          "publisher": "Congressional Research Service (via EveryCRSReport)",
           "title": "U.S. Foreign Aid to Israel: Overview and Developments since October 7, 2023 (RL33222, May 2025)",
-          "url": "https://sgp.fas.org/crs/mideast/RL33222.pdf",
+          "url": "https://www.everycrsreport.com/reports/RL33222.html",
           "archive": "",
           "quote": "it has been developed jointly by Rafael Advanced Defense Systems and RTX.",
           "accessed": "2026-11-20",
@@ -172,11 +196,29 @@
           "quote": "the 11-month lease of US Army Iron Domes to Israel could be extended",
           "accessed": "2026-11-20",
           "kind": "news"
+        },
+        {
+          "publisher": "Center for Strategic and International Studies, Missile Defense Project",
+          "title": "Iron Dome",
+          "url": "https://missilethreat.csis.org/defsys/iron-dome/",
+          "archive": "",
+          "quote": "In March 2014, Israel signed a co-production agreement with the United States, allowing U.S. manufacture of system components and increased access to Iron Dome's technology.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Center for Strategic and International Studies, Missile Defense Project",
+          "title": "David's Sling",
+          "url": "https://missilethreat.csis.org/defsys/davids-sling/",
+          "archive": "",
+          "quote": "Co-developed with the United States, David's Sling occupies a middle tier in its missile defense architecture",
+          "accessed": "2026-11-20",
+          "kind": "reference"
         }
       ]
     },
     {
-      "text": "US law limits what the aid can be used for: arms sales are authorised 'solely for internal security, for legitimate self-defense' and similar purposes, and the Leahy law bars aid to a security-force unit when there is credible information of a gross violation of human rights.",
+      "text": "US law limits what the aid can be used for: arms sales are authorised 'solely for internal security, for legitimate self-defense' and similar purposes, and the Leahy law bars aid to a security-force unit when there is credible information of a gross violation of human rights. The memorandum described next was not their source: Just Security lists these laws, with sections 502B and 620I of the Foreign Assistance Act, as pre-existing conditions that may independently require suspending transfers.",
       "sources": [
         {
           "publisher": "U.S. Government Publishing Office (22 U.S.C. 2754, Arms Export Control Act)",
@@ -213,16 +255,25 @@
           "quote": "some legal scholars and other critics have alleged that the United States has not applied the Leahy law with regard to Israel as it has with other Middle Eastern countries",
           "accessed": "2026-11-20",
           "kind": "reference"
+        },
+        {
+          "publisher": "Just Security",
+          "title": "Key Takeaways from Biden Administration Report on Israeli Use of US Weapons",
+          "url": "https://www.justsecurity.org/95583/israel-weapons-hamas-us-report-takeaways/",
+          "archive": "",
+          "quote": "several pre-existing laws and policy frameworks impose conditions on arms transfers and security assistance",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
         }
       ]
     },
     {
-      "text": "In February 2024 President Biden issued National Security Memorandum 20, requiring written assurances before arms transfers, and the State Department's May 2024 report said it was reasonable to assess that US arms had been used in ways inconsistent with humanitarian law, while finding Israel's assurances 'credible and reliable'.",
+      "text": "In February 2024 President Biden issued National Security Memorandum 20, requiring written assurances before arms transfers; the State Department's May 2024 report said it was reasonable to assess that US arms had been used in ways inconsistent with humanitarian law, while finding Israel's assurances 'credible and reliable'. This memorandum no longer applies (see the next fact).",
       "sources": [
         {
-          "publisher": "Congressional Research Service (via Federation of American Scientists)",
+          "publisher": "Congressional Research Service (via EveryCRSReport)",
           "title": "U.S. Foreign Aid to Israel: Overview and Developments since October 7, 2023 (RL33222, May 2025)",
-          "url": "https://sgp.fas.org/crs/mideast/RL33222.pdf",
+          "url": "https://www.everycrsreport.com/reports/RL33222.html",
           "archive": "",
           "quote": "requiring that prior to the transfer of any U.S. defense article, the Departments of State and Defense must obtain \"credible and reliable\" written assurances",
           "accessed": "2026-11-20",
@@ -258,8 +309,101 @@
       ]
     },
     {
-      "text": "Senate votes to block or condition arms sales have failed: 18 yes votes against 79 in November 2024, 15 yes in April 2025, and 36 and 40 yes in April 2026.",
+      "text": "The memorandum was rescinded on 21 February 2025, by an order of the national security adviser reported by the Washington Post; Reuters could not confirm the order itself but two US officials and another source said the directive was revoked. Its requirements (written assurances and reports to Congress) therefore no longer apply; the statutes above are what remains in law.",
       "sources": [
+        {
+          "publisher": "Congressional Research Service (via EveryCRSReport)",
+          "title": "U.S. Foreign Aid to Israel: Overview and Developments since October 7, 2023 (RL33222, May 2025)",
+          "url": "https://www.everycrsreport.com/reports/RL33222.html",
+          "archive": "",
+          "quote": "on February 21, 2025 then-National Security Adviser Michael Waltz rescinded President Biden's NSM-20.",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "The Times of Israel (Reuters)",
+          "title": "Trump rips up Biden memo aimed at Israel on rights abuses using US arms",
+          "url": "https://www.timesofisrael.com/trump-rips-up-biden-memo-aimed-at-israel-on-rights-abuses-using-us-arms/",
+          "archive": "",
+          "quote": "The Trump administration has rescinded a Biden-era order aimed at Israel that required the government to report potential violations of international law involving US-supplied weapons by allies",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "REUTERS"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "US scraps order linking arms sales to international law",
+          "url": "https://www.aljazeera.com/news/2025/2/25/us-scraps-order-linking-arms-sales-to-international-law",
+          "archive": "",
+          "quote": "National Security Memorandum-20, signed by Biden in February 2024, required assurances that US weapons would not be used in violation of international humanitarian law.",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "Washington Post"
+        },
+        {
+          "publisher": "JNS",
+          "title": "Trump rescinds Biden-era rule linking arms sales and human rights",
+          "url": "https://www.jns.org/u.s.-news/trump-rescinds-biden-era-rule-linking-arms-sales-and-human-rights",
+          "archive": "",
+          "quote": "The White House repealed the Feb. 8, 2024 national security memorandum (NSM-20)",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "Washington Post"
+        },
+        {
+          "publisher": "Arms Control Association (Arms Control Today)",
+          "title": "Trump rescinds Biden's arms transfers policy",
+          "url": "https://www.armscontrol.org/node/14561",
+          "archive": "",
+          "quote": "Trump also revoked National Security Memorandum 20 (NSM-20) Feb. 21.",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        }
+      ]
+    },
+    {
+      "text": "Senate votes to block or condition arms sales have failed (all motions to discharge the Foreign Relations Committee, not final votes): in November 2024, 18 yes against 79 on S.J.Res. 111 (S.J.Res. 113 drew 19 and S.J.Res. 115 drew 17 the same day); 15 yes on S.J.Res. 26 and 15 on S.J.Res. 33 in April 2025; 36 and 40 yes in April 2026. The Senate's own roll-call lists are the record.",
+      "sources": [
+        {
+          "publisher": "U.S. Senate (roll call vote menu, 118th Congress, 2nd session)",
+          "title": "Roll call votes, 118th Congress, 2nd session",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_118_2.xml",
+          "archive": "",
+          "quote": "S.J.Res. 111 On the Motion to Discharge Rejected 18 79",
+          "accessed": "2026-11-20",
+          "kind": "primary",
+          "is_record": true
+        },
+        {
+          "publisher": "U.S. Senate (roll call vote menu, 119th Congress, 1st session)",
+          "title": "Roll call votes, 119th Congress, 1st session",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_1.xml",
+          "archive": "",
+          "quote": "S.J.Res. 26 On the Motion to Discharge Rejected 15 83",
+          "accessed": "2026-11-20",
+          "kind": "primary",
+          "is_record": true
+        },
+        {
+          "publisher": "U.S. Senate (roll call vote menu, 119th Congress, 2nd session)",
+          "title": "Roll call votes, 119th Congress, 2nd session",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.xml",
+          "archive": "",
+          "quote": "S.J.Res. 138 On the Motion to Discharge Rejected 36 63",
+          "accessed": "2026-11-20",
+          "kind": "primary",
+          "is_record": true
+        },
+        {
+          "publisher": "U.S. Senate (roll call vote menu, 119th Congress, 2nd session)",
+          "title": "Roll call votes, 119th Congress, 2nd session",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.xml",
+          "archive": "",
+          "quote": "S.J.Res. 32 On the Motion to Discharge Rejected 40 59",
+          "accessed": "2026-11-20",
+          "kind": "primary",
+          "is_record": true
+        },
         {
           "publisher": "Al Jazeera",
           "title": "US Senate votes down effort to withhold weapons to Israel amid Gaza war",
@@ -286,20 +430,12 @@
           "quote": "voted 40-59 to reject a motion to discharge the first measure from the Foreign Relations Committee and 36-63 to reject a similar motion for the second measure",
           "accessed": "2026-11-20",
           "kind": "news"
-        },
-        {
-          "publisher": "Congressional Research Service (via Federation of American Scientists)",
-          "title": "U.S. Foreign Aid to Israel: Overview and Developments since October 7, 2023 (RL33222, May 2025)",
-          "url": "https://sgp.fas.org/crs/mideast/RL33222.pdf",
-          "archive": "",
-          "quote": "the Senate voted against discharging the Senate Foreign Relations Committee from further consideration of two JRDs (S.J.Res.26 and S.J.Res.33) by votes of 15-83 and 15-82",
-          "accessed": "2026-11-20",
-          "kind": "government"
         }
-      ]
+      ],
+      "record": true
     },
     {
-      "text": "Americans' sympathies have shifted: Gallup's February 2026 poll found 65 percent of Democrats and 53 percent of 18-to-34-year-olds more sympathetic to Palestinians, while 70 percent of Republicans were more sympathetic to Israelis.",
+      "text": "Americans' sympathies have shifted: Gallup's February 2026 poll found 41 percent more sympathetic to Palestinians and 36 percent to Israelis overall, 65 percent of Democrats and 53 percent of 18-to-34-year-olds more sympathetic to Palestinians, and 70 percent of Republicans more sympathetic to Israelis.",
       "sources": [
         {
           "publisher": "Gallup",
@@ -308,7 +444,8 @@
           "archive": "",
           "quote": "Currently, 65% of Democrats say their sympathies lie more with the Palestinians, while 17% say they sympathize more with the Israelis.",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Gallup",
@@ -317,7 +454,8 @@
           "archive": "",
           "quote": "Seven in 10 Republicans (70%) say they sympathize more with the Israelis, compared with 13% who sympathize more with the Palestinians.",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Gallup",
@@ -326,7 +464,8 @@
           "archive": "",
           "quote": "Among those aged 18 to 34, 53% say they sympathize more with the Palestinians",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "KSAT (Associated Press)",
@@ -337,11 +476,21 @@
           "accessed": "2026-11-20",
           "kind": "news",
           "wire": "AP"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "US citizens' support for Israel at historic low, Gallup poll reveals",
+          "url": "https://aljazeera.com/news/2026/2/27/us-citizens-support-for-israel-at-historic-low-over-gaza-genocide-poll",
+          "archive": "",
+          "quote": "41 percent of Americans now say they sympathise more with Palestinians, while 36 percent remain more favourable to the Israelis",
+          "accessed": "2026-11-20",
+          "kind": "news"
         }
-      ]
+      ],
+      "record": true
     },
     {
-      "text": "On military aid, Pew's September 2025 survey found a third of Americans say the US gives Israel too much, including 42 percent of those under 30 and 24 percent of those 65 and older, and about half of Democrats.",
+      "text": "On military aid, Pew's report of 3 October 2025 found a third of Americans say the US gives Israel too much, including 42 percent of those under 30 and 24 percent of those 65 and older, and about half of Democrats.",
       "sources": [
         {
           "publisher": "Pew Research Center",
@@ -403,11 +552,20 @@
           "quote": "why are you funding the starvation of children in Gaza right now?",
           "accessed": "2026-11-20",
           "kind": "news"
+        },
+        {
+          "publisher": "CQ Roll Call",
+          "title": "Sanders effort to block arms sales to Israel falls short in Senate",
+          "url": "https://rollcall.com/2026/04/15/sanders-effort-to-block-arms-sales-to-israel-falls-short-in-senate/",
+          "archive": "",
+          "quote": "The time is now to end all U.S. military aid to the extremist Netanyahu government, and a yes vote is an important way forward.",
+          "accessed": "2026-11-20",
+          "kind": "news"
         }
       ]
     },
     {
-      "text": "That the aid serves American interests: it is spent mostly in the US, supports American jobs, and gives the US missile defence and technology it also uses.",
+      "text": "That the aid serves American interests: it is spent mostly in the US, supports American jobs, and gives the US missile defence and technology it also uses. Senator Lindsey Graham calls the money 'a great investment for our national security'; the AJC makes the spending-in-the-US case.",
       "sources": [
         {
           "publisher": "American Jewish Committee",
@@ -426,6 +584,15 @@
           "quote": "Almost all of it is spent in the U.S., where weapons are manufactured based on technology developed in Israel.",
           "accessed": "2026-11-20",
           "kind": "advocacy"
+        },
+        {
+          "publisher": "Jewish Insider",
+          "title": "After Netanyahu says he wants to phase out U.S. aid, Lindsey Graham says he'll expedite the process",
+          "url": "https://jewishinsider.com/2026/01/after-netanyahu-says-he-wants-to-phase-out-u-s-aid-sen-graham-says-hell-expedite-the-process/",
+          "archive": "",
+          "quote": "The investment we've made into the IDF has been a great investment for our national security.",
+          "accessed": "2026-11-20",
+          "kind": "news"
         }
       ]
     }
@@ -438,7 +605,10 @@
     "Three reliable sources for fact 4 (joint development) and fact 5 (US law): only two independent sites each.",
     "The text of National Security Memorandum 20 and the State Department's May 2024 report: the White House and State Department pages would not load, so both are described through the CRS, Lawfare, Just Security and Al Jazeera.",
     "Three reliable sources for facts 8 and 9 (polls): the poll owners (Gallup, Pew) plus one news or think-tank report each. Pew's party-by-age breakdown of the military-aid question and Gallup's Republicans-by-age figures were not read.",
-    "Whether National Security Memorandum 20 is still in force: the CRS report cited on this card says that on 21 February 2025, according to the Washington Post, the national security adviser rescinded it. Fact 5 describes it as issued in February 2024 and does not say so; the answer says only what the May 2024 report said."
+    "The rescission order itself: it was not published; it is known from the Washington Post (via the CRS, Al Jazeera and a Reuters report) and Reuters could not confirm the order's existence independently, though officials said the directive was revoked. Whether the 2025 conventional arms transfer policy review replaced it was not read.",
+    "The month of Pew's survey: the cited Pew page is dated 3 October 2025 and does not state the field dates, so 'September 2025' in fact 9 is not confirmed on it.",
+    "Still short of three independent reliable sources (news, scholarly or reference): the amounts spent in Israel (CRS, two public laws and the CFR; the laws are one site), where the grants go (CFR and CRS only; the 2016 memorandum itself is not published), US law (statute text, which is primary, plus the CFR and Just Security), the rescission of NSM-20 (Al Jazeera, Reuters via the Times of Israel and JNS all rest on one Washington Post report; the Arms Control Association is advocacy and is not counted), and Pew's military-aid question (Pew, plus Brookings on a different Pew item). We searched for more and did not find them.",
+    "Round three: Al Jazeera and JNS both repeat the Washington Post's report of the rescission (and the CRS cites it too), so they are declared one source; only Reuters (two US officials and another source) is separate. Fact 8 carries the 'record' flag for Gallup's own poll page; AP and Al Jazeera report its headline numbers (41 and 36 percent, and 65 percent of Democrats in Al Jazeera) but not the Republican and age figures, which are on the Gallup page only."
   ],
   "not_claimed": [
     "This card does not say the aid should continue, or end.",
@@ -457,13 +627,13 @@
       ]
     },
     {
-      "says": "Under the earlier agreement Israel could spend 26.3 percent of the yearly grant at home; the 2016 agreement ends that by fiscal 2028.",
+      "says": "Under the 2007 agreement Israel could spend 26.3 percent of the yearly grant at home; the 2016 agreement ends that by fiscal 2028.",
       "facts": [
         0
       ]
     },
     {
-      "says": "For fiscal 2025, $450 million of $3.3 billion was set aside for that: roughly 14 percent by our arithmetic.",
+      "says": "For fiscal 2025, $450 million of $3.3 billion was set aside for it: roughly 14 percent by our arithmetic.",
       "facts": [
         1
       ]
@@ -481,22 +651,22 @@
       ]
     },
     {
-      "says": "A May 2024 State Department report found it reasonable to assess that US arms were used in ways inconsistent with humanitarian law, and Israel's assurances credible.",
+      "says": "A May 2024 State Department report found it reasonable to assess that US arms were used in ways inconsistent with humanitarian law; the memorandum that required it, NSM-20, was rescinded in February 2025.",
       "facts": [
-        5
-      ]
-    },
-    {
-      "says": "Senate votes to block sales failed, with 18 yes votes in November 2024, 15 in April 2025, and 36 and 40 in April 2026.",
-      "facts": [
+        5,
         6
       ]
     },
     {
-      "says": "Opinion is shifting: Gallup finds 65 percent of Democrats side more with Palestinians, and a third of Americans say the US gives Israel too much military aid.",
+      "says": "Senate votes to block sales failed: 17 to 19 yes in November 2024, 15 in April 2025, 36 and 40 in April 2026.",
       "facts": [
-        7,
-        8
+        7
+      ]
+    },
+    {
+      "says": "A third of Americans say the US gives Israel too much military aid.",
+      "facts": [
+        9
       ]
     }
   ],
@@ -504,12 +674,12 @@
     "skeptic": {
       "verdict": "weakened",
       "date": "2026-11-20",
-      "notes": "Round 1. Quotes are on their pages and in context. Percentage recomputed: 450.3 / 3,300 = 13.6 percent, 'about 14' is fair; the card now says 'our own arithmetic' in fact 1 as well as the answer, with the $3.3bn base named (CRS, P.L. 119-4), and the $769.3m/$3.5bn = 22 percent figure for the supplemental is shown the same way. Both are appropriated amounts; the 26.3 percent is a ceiling, not a measured spend. Must-fix found: fact 0 said the 26.3 percent was 'under the 2016 agreement'; the White House page says it was the earlier ('current', in 2016) MOU that allowed it, and the 2016 one phases it out (text fixed). Must-fix for the writer: the card describes NSM-20 (Feb 2024) but its own CRS source says it was rescinded 21 Feb 2025; the fact and the card are silent (needs the fact reworded with a source; recorded in could_not_verify). Strongest objection from critics: 'mostly spent in the US' says nothing about whether the aid funds the war; the card answers where, not whether (contested says so, fine). From the pro-aid side: AJC's 'almost all of it is spent in the U.S.' sits in contested as advocacy; CRS's own figures (about 14 to 22 percent in Israel) do not support 'almost all' only as an annual ceiling. Pew's 35 percent 'unsure' and 8 percent 'not enough' are not on the card; the third is 'too much', fair but not the whole picture (should-fix). Senate votes are motions to discharge (and two 2025 resolutions), not final passage votes; 15 yes in April 2025 matches CRS 15-83 and 15-82 and JTA 82-15. Lawfare relabelled reference to news. Only facts 4 (partly), 6, 7 and 8 reach three reliable sources; facts 0 to 3 and 5 do not, so the card stays draft."
+      "notes": "Round three (the last). Changed since round two and re-read: joint development has Breaking Defense and two CSIS pages besides the CFR; the CRS is cited from EveryCRSReport (450.3m, 3.3bn, 26.3 percent, 769.3m, 50 percent / $100m all present); fact 1 adds that P.L. 119-4 section 11206 substitutes $450,300,000 for $725,300,000 (the law text is on its page; the CRS says that line is off-shore procurement); the survey date is now 'the report of 3 October 2025'. Senate counts checked against senate.gov: S.J.Res. 111 18-79, 113 19-78, 115 17-80 (November 2024), S.J.Res. 26 15-83 and 33 15-82 (April 2025), S.J.Res. 138 36-63 and 32 40-59 (April 2026); I added the other two November 2024 votes to the fact because the answer's '18' hid them. Percentages recomputed: 450.3/3,300 = 13.6, 769.3/3,500 = 22.0, both labelled our arithmetic. Applied the 'record' flag to fact 7 (roll calls, with Al Jazeera, JTA and Roll Call reporting them) and fact 8 (Gallup's page, with AP and Al Jazeera reporting its headline). Not flagged: fact 1 (law text and CRS have no two outlets reporting the same amounts), fact 2, fact 6, fact 9. Fact 6: AL Jazeera and JNS only repeat the Washington Post, so I declared them one source: two independent sources remain (Post, Reuters). Contested now quotes Senator Graham (Jewish Insider). Still blocking verified: fact 1 (appropriated amounts spent in Israel), fact 2 (where grants go), fact 6 (rescission), fact 9 (Pew). Person: fact 1 needs two outlets or scholars reporting the FY2025 $450.3m off-shore procurement and the $769.3m (e.g. a CRS-citing think tank like CSIS or CFR on OSP amounts, or Defense News); fact 2 a second source that most FMF is spent on US equipment (e.g. DSCA or Brookings); fact 6 a third independent report of the rescission, ideally the White House or NSC document or Politico/Axios; fact 9 two outlets reporting Pew's October 2025 military-aid question, or the question's topline."
     },
     "citer": {
       "verdict": "holds",
       "date": "2026-11-20",
-      "notes": "Removed: 'but sales went on' (no fact says sales continued; the CRS says NSM-20 assurances were judged 'credible and reliable so as to allow' sales to continue, which fact 5 now carries as 'calling Israel's assurances credible and reliable'), 'Until recently' and 'that share shrinks each year' (fact 0 says phased out, ending in fiscal 2028), '15 to 19 yes votes' (the card carries 18, 15, 36 and 40; 'fewer than 20' is on the Al Jazeera page but not in a fact), and 'up to 40' (stated as the two votes). Reworded the opinion sentence from the single largest Pew figure (42 percent of under-30s) to the whole-population figure plus the Gallup finding, tied to facts 7 and 8. Also dropped 'with Israel' from the co-development sentence (fact 3 says the US developed them jointly; Iron Dome was Israeli) and shortened others to fit the 150-word limit."
+      "notes": "Round three: answer_claims redone after the fact numbering and wording changed. The votes sentence now says 17 to 19 yes in November 2024 (fact 7 lists all three); the memorandum sentence is tied to facts 5 and 6; the opinion sentence rests only on fact 9. No sentence relies on a fact outside its text."
     }
   }
 }

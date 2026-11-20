@@ -22,10 +22,10 @@
       "archive": ""
     }
   ],
-  "answer": "The phrase has been used for different things. The PLO's 1968 charter claimed all of Mandatory Palestine, and Hamas's 2017 document uses the phrase in a sentence rejecting any alternative to liberating all of Palestine. Israel's Likud platform of 1977 claimed the same land for Israel alone. Some who use it today, such as a US congresswoman and 65 Northwestern student groups, say they mean freedom, human rights and coexistence. Jewish organisations say it calls for the end of Israel, and in April 2024 the US House called it 'outrightly antisemitic'. The Meta Oversight Board found that it has many meanings. Our reading: a parent should ask the speaker what they mean, and should know that in the Hamas, Likud and 1968 PLO documents cited here, the land is claimed for one side.",
+  "answer": "The phrase has been used for different things. The PLO's 1968 charter claimed all of Mandatory Palestine; the PLO recognised Israel in 1993 and voted in 1996 and 1998 to cancel the articles denying it, though Israel disputed that the charter was formally changed. Hamas's 2017 document uses the phrase in a sentence rejecting any alternative to liberating all of Palestine, then treats a 1967-lines state as 'a formula of national consensus' while rejecting the 'Zionist entity'. Likud's 1977 platform claimed the same land for Israel alone. Some who use it today, such as Rep. Rashida Tlaib and 65 Northwestern student groups, say they mean freedom and coexistence. Jewish organisations say it calls for the end of Israel, and in April 2024 the US House called it 'outrightly antisemitic'. Meta's Oversight Board found three posts using it did not break Meta's rules; German courts differ.",
   "facts": [
     {
-      "text": "The 1968 Palestinian National Charter treated Palestine within its Mandate boundaries as one indivisible unit and called the 1947 partition and Israel's establishment illegal.",
+      "text": "The 1968 Palestinian National Charter (English text as published by Yale's Avalon Project, translator not named) treated Palestine within its Mandate boundaries as one indivisible unit and called the 1947 partition and Israel's establishment illegal.",
       "sources": [
         {
           "publisher": "Yale Law School, Avalon Project",
@@ -66,7 +66,7 @@
       ]
     },
     {
-      "text": "The 1968 charter also said that Jews who had normally lived in Palestine before the 'Zionist invasion' would be considered Palestinians, and by 1969 the Palestinian National Council spoke of a 'Palestinian democratic state' free of religious discrimination.",
+      "text": "The 1968 charter (same Avalon text) also said that Jews who had normally lived in Palestine before the 'Zionist invasion' would be considered Palestinians, and by 1969 the Palestinian National Council spoke of a 'Palestinian democratic state' free of religious discrimination.",
       "sources": [
         {
           "publisher": "Yale Law School, Avalon Project",
@@ -98,14 +98,83 @@
       ]
     },
     {
-      "text": "Hamas's 2017 'Document of General Principles and Policies' uses the phrase in the sentence that rejects any alternative to liberating all of Palestine.",
+      "text": "The PLO later changed its stated position: in a letter to Prime Minister Rabin on 9 September 1993 it recognised Israel's right to exist in peace and security; on 24 April 1996 the Palestinian National Council voted 504 to 54 (14 abstaining) to amend the charter by cancelling the articles contrary to the 1993 letters; and on 14 December 1998, with President Clinton present, council members voted again in Gaza. Whether this formally amended the charter was disputed at the time, including by Israel's government, and we found no published revised text.",
+      "sources": [
+        {
+          "publisher": "United Nations, Question of Palestine (exchange of letters, Rabin and Arafat, 9-10 September 1993)",
+          "title": "Israel-PLO recognition: exchange of letters between PM Rabin and Chairman Arafat",
+          "url": "https://www.un.org/unispal/document/auto-insert-205528",
+          "archive": "",
+          "quote": "The PLO recognizes the right of the State of Israel to exist in peace and security.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "United Nations, Question of Palestine (letter from Israel's Permanent Representative, 27 July 1998)",
+          "title": "Mideast situation/Palestinian National Covenant: letter from Israel",
+          "url": "https://www.un.org/unispal/document/auto-insert-188240",
+          "archive": "",
+          "quote": "adopted a resolution concerning the Covenant by a vote of 504 to 54 with 14 abstentions",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "Deseret News (Associated Press)",
+          "title": "Clinton says Palestinians can choose destiny (14 December 1998)",
+          "url": "https://www.deseret.com/1998/12/14/19417895/clinton-says-palestinians-can-choose-destiny",
+          "archive": "",
+          "quote": "he then witnessed a Palestine National Council vote annulling parts of the Palestinian charter that deny Israel's right to exist",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AP"
+        },
+        {
+          "publisher": "The Christian Science Monitor",
+          "title": "Palestinians' tough call: end to anti-Israel words (10 December 1998)",
+          "url": "https://csmonitor.com/1998/1210/121098.intl.intl.1.html",
+          "archive": "",
+          "quote": "questions remain on what constitute official changes in the charter and whether a vote will be taken on them",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "U.S. Government Publishing Office (Public Papers of the Presidents, Clinton 1998)",
+          "title": "Remarks to the Palestinian National Council and other Palestinian organizations in Gaza City",
+          "url": "https://www.govinfo.gov/content/pkg/PPP-1998-book2/html/PPP-1998-book2-doc-pg2175.htm",
+          "archive": "",
+          "quote": "rejection fully, finally, and forever of the passages in the Palestinian Charter calling for the destruction of Israel",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        }
+      ]
+    },
+    {
+      "text": "Hamas's 2017 'Document of General Principles and Policies' (English text as published by Middle East Eye; translator not named) uses the phrase in a sentence that rejects any alternative to liberating all of Palestine; the next sentence says that, without compromising its rejection of the 'Zionist entity', Hamas considers a state on the lines of 4 June 1967 'a formula of national consensus'.",
       "sources": [
         {
           "publisher": "Middle East Eye (full text of Hamas's 2017 document)",
           "title": "Hamas 2017 document in full",
           "url": "https://www.middleeasteye.net/news/hamas-2017-document-full",
           "archive": "",
-          "quote": "Hamas rejects any alternative to the full and complete liberation of Palestine, from the river to the sea.",
+          "quote": "Hamas rejects any alternative to the full and complete liberation of Palestine, from the river to the sea. However, without compromising its rejection of the Zionist entity",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Middle East Eye (full text of Hamas's 2017 document)",
+          "title": "Hamas 2017 document in full",
+          "url": "https://www.middleeasteye.net/news/hamas-2017-document-full",
+          "archive": "",
+          "quote": "and without relinquishing any Palestinian rights, Hamas considers the establishment of a fully sovereign and independent Palestinian state, with Jerusalem as its capital along the lines of the 4th of June 1967",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Middle East Eye (full text of Hamas's 2017 document)",
+          "title": "Hamas 2017 document in full",
+          "url": "https://www.middleeasteye.net/news/hamas-2017-document-full",
+          "archive": "",
+          "quote": "with the return of the refugees and the displaced to their homes from which they were expelled, to be a formula of national consensus",
           "accessed": "2026-11-20",
           "kind": "primary"
         },
@@ -139,7 +208,7 @@
       ]
     },
     {
-      "text": "Israelis used the same geography too: the Likud platform of 1977 said that between the Sea and the Jordan there would be only Israeli sovereignty.",
+      "text": "Israelis used the same geography too: the Likud platform of 1977 (English text as published by the Jewish Virtual Library, an advocacy publisher; translator not named, and confirmed by a 1977 JTA summary) said that between the Sea and the Jordan there would be only Israeli sovereignty.",
       "sources": [
         {
           "publisher": "Jewish Virtual Library (American-Israeli Cooperative Enterprise)",
@@ -292,7 +361,7 @@
           "kind": "news"
         },
         {
-          "publisher": "Yahoo News",
+          "publisher": "Yahoo News (article by Marc Rod)",
           "title": "Forty-four House members vote against resolution declaring 'river to the sea' slogan antisemitic",
           "url": "https://www.yahoo.com/news/forty-four-house-members-vote-004009100.html",
           "archive": "",
@@ -398,9 +467,8 @@
     "A US court or a US university ruling on the slogan: none found readable. The Berlin, Mannheim and Duesseldorf courts and the Meta Oversight Board are cited instead; only Harvard's president is cited from a university, as a statement and not a ruling.",
     "ADL's own page on the slogan could not be loaded; ABC News and the AJC page are used for the Jewish-organisation reading. Hillel's national statements were not read.",
     "The wording of the Berlin court's written reasons: only reports about it (LTO, JNS) were read.",
-    "Who translated the English texts. The Avalon pages for the 1968 PLO charter and the 1988 Hamas Covenant, Middle East Eye's 2017 Hamas document and the Jewish Virtual Library's Likud platform do not say who translated them; none is an official or agreed translation, and readings of single words (for example the date in Article 6 of the charter) are disputed. The Jewish Virtual Library is an advocacy publisher and is labelled so.",
-    "That the PLO later recognised Israel (1993) and its National Council voted in 1996 to cancel the charter articles that contradict that recognition: not on this card, so the 1968 charter is shown without its later revision.",
-    "The next sentence of Hamas's 2017 article 20, which treats a state on the 1967 lines as 'a formula of national consensus', is on the card era7-hamas-in-its-own-words and not here."
+    "Who translated the English texts. The Avalon pages for the 1968 PLO charter, Middle East Eye's 2017 Hamas document and the Jewish Virtual Library's Likud platform name no translator; none is an official or agreed translation, and readings of single words (for example the date in Article 6 of the charter) are disputed. The Jewish Virtual Library is an advocacy publisher and is labelled so.",
+    "A published, revised text of the PLO charter: none was found. The 1996 vote is quoted from Israel's letter to the United Nations (a government source) and the 1998 vote from the Associated Press and the Christian Science Monitor; Arafat's 1998 letter listing the cancelled articles was read only on the Jewish Virtual Library (advocacy) and is not cited. Israel's government held that the charter was never legally amended; the card records the dispute and does not settle it."
   ],
   "not_claimed": [
     "This card does not say the slogan is antisemitic, or that it is not. It records what the documents say and what each side says it means.",
@@ -408,73 +476,68 @@
     "It does not defend Hamas's document, the PLO's 1968 charter, or the Likud platform; it quotes them.",
     "It does not say Likud's 1977 line and Hamas's line are morally the same; it says both claimed the same land for one side."
   ],
-  "status": "draft",
+  "status": "verified",
   "content_approved": false,
   "answer_claims": [
     {
       "says": "The phrase has been used for different things.",
       "facts": [
         0,
-        2,
         3,
         4,
-        5
+        5,
+        6
       ]
     },
     {
-      "says": "The PLO's 1968 charter claimed all of Mandatory Palestine, and Hamas's 2017 document uses the phrase in a sentence rejecting any alternative to liberating all of Palestine.",
+      "says": "The PLO's 1968 charter claimed all of Mandatory Palestine; the PLO recognised Israel in 1993 and voted in 1996 and 1998 to cancel the articles denying it, though Israel disputed that the charter was formally changed.",
       "facts": [
         0,
         2
       ]
     },
     {
-      "says": "Israel's Likud platform of 1977 claimed the same land for Israel alone.",
+      "says": "Hamas's 2017 document uses the phrase in a sentence rejecting any alternative to liberating all of Palestine, then treats a 1967-lines state as 'a formula of national consensus' while rejecting the 'Zionist entity'.",
       "facts": [
         3
       ]
     },
     {
-      "says": "Some who use it today, such as a US congresswoman and 65 Northwestern student groups, say they mean freedom, human rights and coexistence.",
+      "says": "Likud's 1977 platform claimed the same land for Israel alone.",
       "facts": [
         4
       ]
     },
     {
-      "says": "Jewish organisations say it calls for the end of Israel, and in April 2024 the US House called it 'outrightly antisemitic'.",
+      "says": "Some who use it today, such as Rep. Rashida Tlaib and 65 Northwestern student groups, say they mean freedom and coexistence.",
       "facts": [
-        5,
-        6
+        5
       ]
     },
     {
-      "says": "The Meta Oversight Board found that it has many meanings.",
+      "says": "Jewish organisations say it calls for the end of Israel, and in April 2024 the US House called it 'outrightly antisemitic'.",
       "facts": [
-        2,
+        6,
         7
       ]
     },
     {
-      "says": "Our reading: a parent should ask the speaker what they mean, and should know that in the Hamas, Likud and 1968 PLO documents cited here, the land is claimed for one side.",
+      "says": "Meta's Oversight Board found three posts using it did not break Meta's rules; German courts differ.",
       "facts": [
-        0,
-        2,
-        3,
-        4,
-        5
+        8
       ]
     }
   ],
   "review": {
     "skeptic": {
-      "verdict": "weakened",
+      "verdict": "holds",
       "date": "2026-11-20",
-      "notes": "Round 1. Read two or more sources per fact; every quote is on its page. Strongest objection from the chanting side: the 1968 charter is shown without its later revision (PLO recognition of Israel 1993, charter articles cancelled 1996); the 1969 'democratic state' line is there but the card is silent on the revision (should-fix, needs a new source). From the Jewish side: Hamas's 2017 sentence is quoted without the next sentence (a 1967-lines state, 'formula of national consensus'), which cuts both ways (should-fix); fact 2 would be fairer with it. Found and fixed: fact 5 said 'some universities' but only Harvard's president is cited (now narrowed); fact 4 said 'people' and 'equality' but its sources are one Tlaib tweet (NBC, Axios, Michigan Advance report the same tweet: one voice, not three) and one student letter that does not say 'equality' (narrowed to those two speakers). Must-fix for the writer: none blocks the facts as now worded. Translations: Avalon's charter, Middle East Eye's Hamas text and the Jewish Virtual Library's Likud text name no translator; recorded in could_not_verify. JVL is advocacy (already labelled). Responsible Statecraft is a think-tank magazine, labelled news; borderline, left. Oversight Board is 'primary' only for its own ruling; its Likud and Hamas lines are its description, corroborated by JTA and the Hamas text. H.Res. 883 is cited as introduced; the passed text was not read (should-fix). Axios returns 403 to the checker (archive copy used). Quotes: verified online below. Status stays draft until the revision of the charter and the 1967 sentence are added with sources."
+      "notes": "Round three (the last): the only change since round two was the publisher of the Yahoo item. The Yahoo page names the reporter, Marc Rod, but nowhere says Jewish Insider, so I set the publisher to what the page shows (Yahoo News, article by Marc Rod); the quote 377-44-1 is on the page and the origin, yahoo.com, is a different site from Fox, so the fact still has three reliable sources. Nothing else changed. Round two (after the writer's rework). Checked what changed, not the writer's account. New fact 2 (PLO letter to Rabin 9 Sep 1993, PNC vote 504-54-14 on 24 Apr 1996, Gaza vote 14 Dec 1998): each quote is on its page (UN letters, AP via Deseret, CSM, Clinton's remarks); the UN letter from Israel's representative says the pivotal problem is that the resolution 'did not change the covenant', and a PLO official is quoted there as saying the charter is 'frozen, not cancelled', so the card's 'disputed, including by Israel' is accurate and the card says it found no revised text. Reliable sources: UN primary, AP, CSM. Fact 3 now quotes the Hamas sentence together with the next one (the 1967-lines state as 'a formula of national consensus'), so both sides' strongest reading is present. Translator or publisher is named in facts 0, 1, 3 and 4 (none names a translator; the Jewish Virtual Library is advocacy). H.Res. 883: the engrossed text, which I read, carries the same 'outrightly antisemitic' wording as the introduced text cited. Strongest objection now (chanting side): the Tlaib sources are three outlets reporting one tweet, so the 'positive meaning' evidence is two voices; the fact is worded as exactly that and I accept it (nit). Strongest objection (Jewish side): the Oversight Board is labelled primary though its Likud and Hamas lines are its description; each is corroborated by another source (nit). Responsible Statecraft is a think-tank magazine labelled news, consistent with how this repo labels think tanks (nit). No must-fix left."
     },
     "citer": {
       "verdict": "holds",
       "date": "2026-11-20",
-      "notes": "Split the answer into seven sentences, each tied to facts. Removed: 'Both halves are true, because...' (the 'halves' were never defined and no fact says either half is true); 'Jewish organisations and the US House say it calls for the end of Israel' (fact 6 carries 'outrightly antisemitic', not 'end of Israel': reworded); 'Many people who chant it' (facts carry named speakers only: now 'Some ... such as'); 'where the phrase appears in official documents' (the PLO charter and Likud platform do not contain the phrase: now names the three documents). Every remaining sentence rests on the cited facts."
+      "notes": "Round three: no change to the answer or its claims. Round two: the writer rewrote the answer and the fact order shifted, so answer_claims were stale and are redone against the nine facts. Reworded two sentences down to what facts carry: the 1993, 1996 and 1998 sentence now says Israel disputed whether the charter was formally changed (fact 2 says so; the answer did not); 'The Meta Oversight Board found that it has many meanings' is not in any fact (only in contested), so it is replaced by what fact 8 carries, that three posts did not break Meta's rules and German courts differ; 'accepts a state on the 1967 lines' is replaced by the document's own wording. Seven sentences, each tied to facts."
     }
   }
 }

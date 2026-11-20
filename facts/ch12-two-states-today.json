@@ -16,7 +16,7 @@
       "archive": ""
     }
   ],
-  "answer": "Israel's Knesset voted 68 to 9 in July 2024 against a Palestinian state west of the Jordan, and in September 2025 Prime Minister Netanyahu said there will be none. Hamas's 2017 document accepts a state on the 1967 lines only as a stage, without recognising Israel or giving up armed struggle. The Palestinian Authority has pledged to disarm Hamas and hold elections. Many countries recognised Palestine in 2024-25 and 142 states backed the UN's two-state declaration, yet Gallup finds only 26 percent of Israelis and 32 percent of West Bank and East Jerusalem Palestinians support two states. Our reading: the claim is half right, since Israel is not the only obstacle; two states remain the declared goal of the Palestinian Authority and most of the world, but neither the Israeli government nor Hamas accepts it.",
+  "answer": "Israel's Knesset voted 68 to 9 in July 2024 against a Palestinian state west of the Jordan, and in September 2025 Prime Minister Netanyahu said there will be none. Hamas's 2017 document accepts a state on the 1967 lines only as a stage, without recognising Israel or giving up armed struggle. The Palestinian Authority has pledged to disarm Hamas and hold elections, but has held no national election since 2006. Many countries recognised Palestine in 2024-25 and 142 states backed the UN's two-state declaration, yet Gallup finds only 26 percent of Israelis and 32 percent of West Bank and East Jerusalem Palestinians support two states. Our reading: the claim is half right, since Israel is not the only obstacle; two states remain the declared goal of the Palestinian Authority and most of the world, but neither the Israeli government nor Hamas accepts it.",
   "facts": [
     {
       "text": "On 17-18 July 2024 the Knesset voted 68 to 9 for a resolution that 'firmly opposes the establishment of a Palestinian state west of the Jordan' as an existential danger; it was co-sponsored by Netanyahu's coalition and joined by Benny Gantz's centrist party, while Yair Lapid's party, which has said it favours two states, left the chamber rather than vote.",
@@ -83,7 +83,40 @@
       ]
     },
     {
-      "text": "On 17 November 2025 the UN Security Council adopted Resolution 2803 on Gaza, 13 to none with two abstentions, whose text says that once Palestinian Authority reforms are carried out and Gaza's redevelopment has advanced, conditions 'may be in place for a credible pathway to Palestinian self-determination and statehood'; Netanyahu responded that 'our opposition to a Palestinian state in any territory has not changed'.",
+      "text": "Israeli officials and the Knesset on a state, in their own words or the vote itself: on 18 January 2024 Netanyahu said Israel 'needs security control over all territory west of the Jordan River', which 'collides with the idea of sovereignty'; on 22 October 2025 the Knesset gave a bill applying Israeli sovereignty to the West Bank a preliminary reading by 25 votes to 24, against the prime minister's opposition, the first of four votes it needs to become law.",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "title": "Israel's Netanyahu reiterates rejection of Palestinian state after Gaza war",
+          "url": "https://www.aljazeera.com/news/2024/1/18/israels-netanyahu-reiterates-rejection-of-palestinian-state-after-gaza-war",
+          "archive": "",
+          "quote": "In any future arrangement … Israel needs security control over all territory west of the Jordan River",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "NPR",
+          "title": "Netanyahu says he told the U.S. that he opposes a postwar Palestinian state",
+          "url": "https://www.npr.org/2024/01/19/1225574007/netanyahu-says-he-told-u-s-that-he-opposes-palestinian-state-in-any-postwar-scen",
+          "archive": "",
+          "quote": "must have security control over the entire territory west of the Jordan River",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AP"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "Israel's parliament advances bill to annex occupied West Bank",
+          "url": "https://www.aljazeera.com/news/2025/10/22/israels-parliament-advances-bill-to-annex-occupied-west-bank",
+          "archive": "",
+          "quote": "The bill passed 25-24, despite opposition from PM Netanyahu, in the first of four votes it will face to become law.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "On 17 November 2025 the UN Security Council adopted Resolution 2803 on Gaza, 13 to none with two abstentions, whose text says that once Palestinian Authority reforms are carried out and Gaza's redevelopment has advanced, conditions 'may be in place for a credible pathway to Palestinian self-determination and statehood'; on 16 November, the day before the vote, under pressure from his far-right partners over the draft's wording, Netanyahu said 'our opposition to a Palestinian state in any territory has not changed' (NBC).",
       "sources": [
         {
           "publisher": "United Nations (Security Council meeting coverage)",
@@ -124,7 +157,7 @@
       ]
     },
     {
-      "text": "In a June 2025 letter to President Macron, Palestinian Authority president Abbas condemned the 7 October attack, said Hamas must hand over its weapons and no longer rule Gaza, offered to invite Arab and international forces, and committed to elections; Canada's prime minister cited PA commitments to hold elections in 2026 in which Hamas can play no part and to demilitarise a Palestinian state.",
+      "text": "In a June 2025 letter to President Macron, Palestinian Authority president Abbas condemned the 7 October attack, said Hamas must hand over its weapons and no longer rule Gaza, offered to invite Arab and international forces, and committed to elections; Canada's prime minister cited PA commitments to hold elections in 2026 in which Hamas can play no part and to demilitarise a Palestinian state. The letter itself was not published: The National and Ynet both report it as quoted by the Elysee Palace, so these are one source for its wording.",
       "sources": [
         {
           "publisher": "The National",
@@ -142,7 +175,8 @@
           "archive": "",
           "quote": "What Hamas did on October, killing and taking civilians hostages, is unacceptable and condemnable",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "news",
+          "wire": "AFP"
         },
         {
           "publisher": "Prime Minister of Canada",
@@ -161,6 +195,62 @@
           "quote": "Mr. Abbas condemned the 7 October 2023 Hamas attack on Israeli civilians",
           "accessed": "2026-11-20",
           "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "The Palestinian Authority has held no national election since 2006: Al Jazeera reports that the last parliamentary elections in the Palestinian territories were in 2006, when Hamas defeated Fatah; Abbas won the last presidential election in 2005, his term should have ended in 2009, and he has ruled by decree since; in October 2026 he postponed the legislative elections set for November 2026 to September 2027, jointly with a presidential vote, after Fatah and other factions agreed to a national dialogue first (Al Jazeera, citing AFP).",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "title": "Abbas postpones Palestinian legislative elections to September 2027",
+          "url": "https://www.aljazeera.com/news/2026/10/10/abbas-postpones-palestinian-legislative-elections-to-september-2027",
+          "archive": "",
+          "quote": "The last parliamentary elections held in the Palestinian territories were in 2006, when Hamas defeated Fatah, which dominates the PA.",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AFP"
+        },
+        {
+          "publisher": "Council on Foreign Relations",
+          "title": "What Is Hamas?",
+          "url": "https://www.cfr.org/backgrounder/what-hamas",
+          "archive": "",
+          "quote": "It took over the Gaza Strip after defeating its rival political party, Fatah, in elections in 2006.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "The Palestinian Authority paid allowances to prisoners and the families of those killed or wounded, which the US dubbed 'pay for slay'; on 10 February 2025 Abbas issued a decree revoking those laws, saying families would get welfare on the same standards as others (the PA's news agency WAFA, as quoted by The Algemeiner); Al Jazeera notes it is not clear whether the allowances would stop at once or continue in a new form, and Israel's Foreign Ministry called the decree a 'new fraudulent trick' that would keep paying through other channels; Hamas condemned it.",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "title": "PA's Abbas ends programme of allowances to families of slain Palestinians",
+          "url": "https://www.aljazeera.com/news/2025/2/10/pas-abbas-overhauls-payments-for-families-of-slain-and-jailed-palestinians",
+          "archive": "",
+          "quote": "it is not clear whether the allowances would stop immediately or continue under a new form",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "The Algemeiner",
+          "title": "Palestinian Authority Restructures 'Pay-for-Slay' System, but Questions Remain About Whether Move Is Genuine",
+          "url": "https://www.algemeiner.com/2025/02/10/palestinian-authority-restructures-pay-slay-system-questions-remain-whether-move-genuine/",
+          "archive": "",
+          "quote": "All families that benefited from previous laws, legislation, and regulations are subject to the same standards applied without discrimination",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "The Algemeiner (statement of Israel's Foreign Ministry)",
+          "title": "Palestinian Authority Restructures 'Pay-for-Slay' System",
+          "url": "https://www.algemeiner.com/2025/02/10/palestinian-authority-restructures-pay-slay-system-questions-remain-whether-move-genuine/",
+          "archive": "",
+          "quote": "This is a new fraudulent trick by the Palestinian Authority, which intends to continue making payments to terrorists and their families through other payment channels.",
+          "accessed": "2026-11-20",
+          "kind": "news"
         }
       ]
     },
@@ -355,7 +445,7 @@
   ],
   "contested": [
     {
-      "text": "Whether a two-state outcome is still physically possible. The case that it is not: Shlaim wrote in 2013 that settlement expansion had shrunk the area available for a Palestinian state 'to the point where a two-state solution is barely conceivable', and in the Palestinian Center's 2018 poll a majority of Palestinians already said it was no longer viable. The case that it is: Peace Now counts about 14 percent of West Bank residents as settlers (2019), the Clinton Parameters would have let Israel keep blocs holding about 80 percent of settlers, and Olmert's 2008 map annexed 4.9 percent of the West Bank. Peace Now also reports that in 2018 more than half of settler population growth was in settlements Israel would probably have to evacuate under the Geneva Initiative's border, which cuts the other way. The card does not choose.",
+      "text": "Whether a two-state outcome is still physically possible. The case that it is not: Shlaim wrote in 2013 that settlement expansion had shrunk the area available for a Palestinian state 'to the point where a two-state solution is barely conceivable', and in the Palestinian Center's 2018 poll a majority of Palestinians already said it was no longer viable. The case that it is: Peace Now counts about 14 percent of West Bank residents as settlers (2019), the Clinton Parameters would have let Israel keep blocs holding about 80 percent of settlers, and Olmert's 2008 map annexed 4.9 percent of the West Bank. Peace Now also reports that in 2018 more than half of settler population growth was in settlements Israel would probably have to evacuate under the Geneva Initiative's border, which cuts the other way. The card does not choose. Canada's prime minister and Abbas hold that the option is still alive; Shlaim and the Palestinian poll hold that it is not.",
       "sources": [
         {
           "publisher": "The Guardian (Avi Shlaim)",
@@ -392,6 +482,25 @@
           "quote": "The right for 80 percent of the West Bank settlers, most of whom live near the 1967 borders, to stay put.",
           "accessed": "2026-11-20",
           "kind": "reference"
+        },
+        {
+          "publisher": "Prime Minister of Canada (Mark Carney)",
+          "title": "Statement on Canada's recognition of the State of Palestine",
+          "url": "https://www.pm.gc.ca/en/news/statements/2025/09/21/statement-prime-minister-carney-on-canada-recognition-state-palestine",
+          "archive": "",
+          "quote": "Canada does so as part of a co-ordinated international effort to preserve the possibility of a two-state solution",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "PBS NewsHour (Associated Press; Abbas)",
+          "title": "Abbas addresses the UN General Assembly",
+          "url": "https://www.pbs.org/newshour/world/watch-live-palestinian-authoritys-mahmoud-abbas-addresses-u-n-general-assembly",
+          "archive": "",
+          "quote": "lay out his continued vision for a Palestinian state in the West Bank and Gaza alongside Israel",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AP"
         }
       ]
     },
@@ -514,7 +623,10 @@
     "Which countries recognise Palestine today: the Guardian's count of 147 UN states in September 2025 is before the wave of recognitions that day; we did not find a reliable page giving the post-September total.",
     "The Palestinian Authority's stated position on Israel's right to exist and on payments to prisoners' families: not read, so not stated.",
     "The Israeli-government coalition guidelines and the Likud platform on a Palestinian state were not read; Likud declined to answer Ynet's questionnaire.",
-    "Palestinian wrongs the claim's defenders would raise and the card does not carry: that the Palestinian Authority has held no national election since 2006, its payments to prisoners and their families, and its position on recognising Israel as a Jewish state. No page on the card states them; they need new sources. The Palestinian Authority's loss of Gaza to Hamas in 2007 is mentioned on the Ynet, National and Guardian pages cited but is not in any fact's text."
+    "Palestinian wrongs the claim's defenders would raise and the card does not carry: that the Palestinian Authority has held no national election since 2006, its payments to prisoners and their families, and its position on recognising Israel as a Jewish state. No page on the card states them; they need new sources. The Palestinian Authority's loss of Gaza to Hamas in 2007 is mentioned on the Ynet, National and Guardian pages cited but is not in any fact's text.",
+    "The Knesset's own record: the text of the 18 July 2024 resolution is quoted through NBC's quotation of the Knesset website; the Knesset page and the coalition guidelines of 2022 (the 37th government's guidelines on the right of the Jewish people to the land) could not be read, so Israeli government positions rest on the prime minister's own words as reported by Al Jazeera and NPR and an Israeli foreign ministry page, not the Knesset record.",
+    "The Palestinian Authority's prisoner payments: whether the February 2025 decree ended them is disputed between the Authority, Israel and Hamas; we did not find a reliable report of later payments, nor the PA's pre-2025 explanation in its own words, nor the Axios report (page would not load).",
+    "The PA's election record has one news source for the postponement (Al Jazeera, citing AFP) and one reference source for the 2006 vote; the 2026 decrees themselves were not read."
   ],
   "not_claimed": [
     "Listing who said no to what does not by itself assign blame: a government can refuse for security reasons, domestic politics, or principle, and the card does not rank the refusals.",
@@ -536,22 +648,23 @@
     {
       "says": "Hamas's 2017 document accepts a state on the 1967 lines only as a stage, without recognising Israel or giving up armed struggle.",
       "facts": [
-        4
+        7
       ]
     },
     {
-      "says": "The Palestinian Authority has pledged to disarm Hamas and hold elections.",
+      "says": "The Palestinian Authority has pledged to disarm Hamas and hold elections, but has held no national election since 2006.",
       "facts": [
-        3
+        4,
+        5
       ]
     },
     {
       "says": "Many countries recognised Palestine in 2024-25 and 142 states backed the UN's two-state declaration, yet Gallup finds only 26 percent of Israelis and 32 percent of West Bank and East Jerusalem Palestinians support two states.",
       "facts": [
-        5,
-        6,
-        7,
-        8
+        8,
+        9,
+        10,
+        11
       ]
     },
     {
@@ -559,10 +672,10 @@
       "facts": [
         0,
         1,
-        3,
         4,
-        6,
-        7
+        7,
+        9,
+        10
       ]
     }
   ],
@@ -570,12 +683,12 @@
     "skeptic": {
       "verdict": "weakened",
       "date": "2026-11-20",
-      "notes": "Read at least two sources per fact in context; all 48 quotes are on their pages. Misattribution fixed by me: the Al Jazeera quote on the Knesset vote is by Mustafa Barghouti (Palestinian National Initiative), not Marwan Barghouti (heard[1], contested, publisher label). Also fixed: F6 said Belgium, Luxembourg and Malta 'recognised'; the Guardian page says they were joining on the day and the NBC page confirms only France, so reworded. The answer's clause that the PA 'lost Gaza to Hamas in 2007' is on the cited pages but in no fact's text (removed). Strongest Palestinian objection: the card gives Netanyahu's 'no Palestinian state' in his own words and Canada's accusation, but F6's rationale and the Knesset resolution are Israeli government statements read mostly through news; the Palestinian side of 'only Israel blocks it' is answered with Hamas's 2017 document and Abbas's pledges, which are promises not acts, and the card correctly says untested. Strongest Israeli objection: the card omits documented Palestinian wrongs on this point: no PA national election since 2006, prisoner payments, no recognition of Israel as a Jewish state (cannot add without new sources, logged in could_not_verify); and Hamas's 2017 'stage towards liberation' wording is on the BBC page but the answer states it only as 'a stage'. Independence: F1 (Israeli MFA government, NBC, CNN: two reliable), F2 (UN primary, NBC counted twice as one origin, Irish Times: three origins but NBC supplies two quotes), F3 (The National, Ynet, UN: three but Canada's page is government), F5 (PBS is AP wire, marked; Al Jazeera; RTE: three), F7 (Guardian, UN News: two reliable), F8 fine. Contested holders: contested[0] CFR and Peace Now are data not holders; contested[2] Lapid entry is Al Jazeera reporting, not his words (nit). 'It was non-binding' removed from contested: the CNN page says so of the February resolution, not July's. MUST-FIX: (1) third reliable source for F1, F2, F7; (2) a source for PA election gap and prisoner payments or a note why they are out; (3) holders for contested[0]."
+      "notes": "ROUND 2 (after the writer's rework). Rechecked new and changed facts. Knesset vote (F0): 68 to 9 on the night of 17-18 July 2024 is in Al Jazeera, NBC (quoting the Knesset's website for the text) and CNN; the Knesset's own record was not read. The 25 to 24 preliminary vote of 22 October 2025 (F2) is in Al Jazeera ('Tim Hume and news agencies', agency not named so no wire field can be set; one source). Netanyahu: 18 January 2024 words are in Al Jazeera and the NPR/AP copy; 21 September 2025 statement is the Foreign Ministry's text; 'no Palestinian state' wording exact. Fixed: F3 said Netanyahu 'responded' to Resolution 2803, but NBC dates his words to Sunday 16 November, before the 17 November vote; date and occasion added. Wire: NPR 19 January 2024 is Associated Press copy (marked AP, so F2 counts it once with nothing else AP), Ynet's letter story is by Itamar Eichner and AFP (AFP), Al Jazeera's 10 October 2026 piece is by Al Jazeera staff, AFP and AP (marked AFP, both named on the page), PBS's Abbas piece is AP (AP). F4 (Abbas letter): The National and Ynet report only what the Elysee Palace quoted, so one source; text now says so. F5: no national election since 2006 is stated by Al Jazeera and CFR; 2005 presidential and rule by decree are Al Jazeera's words, attributed. F6 prisoner payments: the same Algemeiner page is cited twice (one site), Al Jazeera is the second; Algemeiner is a pro-Israel outlet and the Israeli Foreign Ministry statement is quoted as that ministry's words. No motive is read into Netanyahu, Abbas or Hamas statements. Round-one removals ('lost Gaza in 2007', 'half right' as a bare verdict) have not come back as claims; 'half right' now sits inside 'Our reading'. Blocking facts (missing sources a person could find): F1 (CNN, NBC; Israeli MFA is government), F2 (Al Jazeera and NPR/AP; the Knesset's record and a second 2025 vote source), F5 (Al Jazeera, CFR; the PA's own election-commission page), F6 (Al Jazeera, Algemeiner; needs a non-Israeli-leaning second source or the Taylor Force Act text), F10 (UN News, Guardian), and F4 which has the count of origins but one underlying source."
     },
     "citer": {
       "verdict": "holds",
       "date": "2026-11-20",
-      "notes": "Split into five sentences, each tied to facts. Removed: 'The claim is half right' and 'But Israel is not the only obstacle' (verdicts; folded into the closing 'Our reading' sentence); 'so Israel's government is not offering one' (an inference; Netanyahu's words are kept); 'lost Gaza to Hamas in 2007' (no fact states it); 'West Bank Palestinians' corrected to 'West Bank and East Jerusalem' as Gallup's page says. Answer within 150 words. Holds for the answer as worded; the card stays draft because the skeptic verdict is weakened."
+      "notes": "ROUND 2 (after the writer's rework). Answer_claims rebuilt for five sentences with the new fact numbers. The writer's added clause 'has held no national election since 2006' is supported by F5. 'Lost Gaza 2007' and 'Israel's government is not offering one' have not returned. Answer 143 words. Holds as worded; card stays draft because the skeptic verdict is weakened."
     }
   }
 }

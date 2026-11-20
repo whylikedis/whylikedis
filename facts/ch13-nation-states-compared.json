@@ -63,20 +63,43 @@
           "kind": "primary"
         },
         {
-          "publisher": "Danish Parliament (Folketinget)",
-          "title": "Grundlovens paragraf 4",
-          "url": "https://www.ft.dk/da/dokumenter/bestil-publikationer/publikationer/mingrundlov/min-grundlov/kapitel-1/paragraf-4",
-          "archive": "",
-          "quote": "Den evangelisk-lutherske kirke er den danske folkekirke og understøttes som sådan af staten.",
-          "accessed": "2026-11-20",
-          "kind": "primary"
-        },
-        {
           "publisher": "UNESCO (archived)",
           "title": "Religious Rights - Denmark",
           "url": "https://www.unesco.org/most/rr3denm.htm",
           "archive": "https://web.archive.org/web/20121013164527/www.unesco.org/most/rr3denm.htm",
           "quote": "The Evangelical Lutheran Church shall be the Established Church of Denmark, and, as such, it shall be supported by the State.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "The Church of England is the legally established church in England, with the monarch as supreme governor and automatic seats for some senior bishops in the House of Lords; Pew counts the United Kingdom among states with a Christian official religion.",
+      "sources": [
+        {
+          "publisher": "Religion Media Centre",
+          "title": "Factsheet: The Church of England",
+          "url": "https://religionmediacentre.org.uk/factsheets/factsheet-the-church-of-england/",
+          "archive": "",
+          "quote": "the Church of England remains the legally established church, with the monarch as its supreme governor and the automatic right for some of its most senior bishops to have seats in the House of Lords.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "UCL Constitution Unit",
+          "title": "Church and State in the UK (Constitution Unit paper)",
+          "url": "https://www.ucl.ac.uk/constitution-unit/sites/constitution_unit/files/133.pdf",
+          "archive": "",
+          "quote": "it is often accepted that both the Church of England and the Church of Scotland are 'established' churches",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Pew Research Center",
+          "title": "Many Countries Favor Specific Religions, Officially or Unofficially",
+          "url": "https://www.pewresearch.org/religion/2017/10/03/many-countries-favor-specific-religions-officially-or-unofficially/",
+          "archive": "",
+          "quote": "Nine of these countries are in Europe, including the United Kingdom, Denmark, Monaco and Iceland.",
           "accessed": "2026-11-20",
           "kind": "primary"
         }
@@ -95,11 +118,11 @@
           "kind": "primary"
         },
         {
-          "publisher": "Hellenic Parliament",
-          "title": "Σύνταγμα, Άρθρο 3",
-          "url": "https://www.hellenicparliament.gr/el/Vouli-ton-Ellinon/To-Politevma/Syntagma/article-3/",
+          "publisher": "Constitute Project",
+          "title": "Greece's Constitution of 1975 with Amendments through 2008",
+          "url": "https://www.constituteproject.org/constitution/Greece_2008",
           "archive": "",
-          "quote": "Eπικρατούσα θρησκεία στην Eλλάδα είναι η θρησκεία της Aνατολικής Oρθόδοξης Eκκλησίας του Xριστού.",
+          "quote": "The prevailing religion in Greece is that of the Eastern Orthodox Church of Christ.",
           "accessed": "2026-11-20",
           "kind": "primary"
         }
@@ -170,7 +193,7 @@
       ]
     },
     {
-      "text": "Germany's Basic Law (Article 116) counts as German a person who was admitted as a refugee or expellee of German ethnic origin (Volkszugehoerigkeit), and ethnic German resettlers from the former Soviet Union and Eastern Europe are automatically awarded citizenship once recognised.",
+      "text": "Germany's Basic Law (Article 116) counts as German a person admitted as a refugee or expellee of German ethnic origin (deutsche Volkszugehörigkeit), including late emigrants (Spätaussiedler) of German ethnicity from the former Soviet Union and Eastern Europe, who acquire citizenship on admission.",
       "sources": [
         {
           "publisher": "Federal Ministry of Justice (Germany)",
@@ -182,15 +205,6 @@
           "kind": "primary"
         },
         {
-          "publisher": "Library of Congress, Law Library",
-          "title": "Germany: The Development of Migration and Citizenship Law in Postwar Germany",
-          "url": "https://international.loc.gov/law/help/migration-citizenship/germany.php",
-          "archive": "",
-          "quote": "Once someone has been recognized as an \"ethnic German resettler,\" he or she is automatically awarded German citizenship.",
-          "accessed": "2026-11-20",
-          "kind": "government"
-        },
-        {
           "publisher": "Federal Agency for Civic Education (bpb), Jannis Panagiotidis",
           "title": "Spätaussiedler, Heimkehrer, Vertriebene",
           "url": "https://www.bpb.de/themen/migration-integration/russlanddeutsche/274597/spaetaussiedler-heimkehrer-vertriebene/",
@@ -198,6 +212,15 @@
           "quote": "definierte Artikel 116, Absatz 1 des Grundgesetzes einen \"Deutschen\" nicht ausschließlich über die Staatsbürgerschaft, sondern auch alternativ über die \"deutsche Volkszugehörigkeit\"",
           "accessed": "2026-11-20",
           "kind": "scholarly"
+        },
+        {
+          "publisher": "MTH Partner (law firm)",
+          "title": "Art. 116, Para. 1 of the Basic Law: Who is a German within the meaning of the Basic Law?",
+          "url": "https://www.mth-partner.de/en/art-116-paragraph-1-gc-who-is-a-german-citizen/",
+          "archive": "",
+          "quote": "through admission to Germany as a refugee, displaced person, or late emigrant of German ethnicity",
+          "accessed": "2026-11-20",
+          "kind": "reference"
         }
       ]
     },
@@ -214,25 +237,43 @@
           "kind": "scholarly"
         },
         {
-          "publisher": "Greek Ministry of Foreign Affairs",
-          "title": "Greek Citizenship",
-          "url": "https://www.mfa.gr/usa/en/services/citizen-services/greek-citizenship/",
+          "publisher": "Federal Agency for Civic Education (bpb)",
+          "title": "Citizenship and Integration Policies: Greece",
+          "url": "https://www.bpb.de/gesellschaft/migration/laenderprofile/186466/citizenship-and-integration-policies",
           "archive": "",
-          "quote": "Greek citizenship is primarily acquired by descent from a Greek parent.",
+          "quote": "the predominant conception of the Greek nation: Greeks are all people of Greek descent.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Greek Ministry of the Interior",
+          "title": "How can I become a Greek citizen?",
+          "url": "https://www.ypes.gr/UserFiles/f0ff9297-f516-40ff-a70e-eca84e2ec9b9/HowCanIBecomeAGreekCitizen.pdf",
+          "archive": "",
+          "quote": "co-ethnic Greeks from Albania, Turkey, and successor states of the former USSR, who hold a special identity card",
           "accessed": "2026-11-20",
           "kind": "government"
         }
       ]
     },
     {
-      "text": "Ireland gives citizenship by descent: a person with a grandparent born on the island of Ireland can be registered as an Irish citizen through the Foreign Births Register.",
+      "text": "Ireland lets people who derive citizenship through an Irish-born parent or grandparent register on its Foreign Births Register, so descent abroad can lead to Irish citizenship.",
       "sources": [
         {
-          "publisher": "Government of Ireland (Department of Foreign Affairs)",
-          "title": "Citizenship",
-          "url": "https://www.ireland.ie/en/dfa/citizenship/",
+          "publisher": "Irish Statute Book",
+          "title": "Irish Nationality and Citizenship Act 1956, section 27",
+          "url": "https://www.irishstatutebook.ie/eli/1956/act/26/section/27/enacted/en/html",
           "archive": "",
-          "quote": "My grandparent was born on the island of Ireland. Am I an Irish citizen?",
+          "quote": "the birth outside Ireland of a person deriving citizenship through a father or mother born outside Ireland may be registered, in accordance with the foreign births regulations",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Immigration Service Delivery (Ireland)",
+          "title": "Apply for Irish citizenship by Irish descent or Irish associations",
+          "url": "https://www.irishimmigration.ie/apply-for-irish-citizenship-by-irish-descent-or-irish-associations/",
+          "archive": "",
+          "quote": "Birth certificates linking you to an Irish citizen (for example, your parent's or grandparent's)",
           "accessed": "2026-11-20",
           "kind": "government"
         },
@@ -254,7 +295,7 @@
           "publisher": "Armenian government (Ministry of Diaspora)",
           "title": "Diaspora - Citizenship by Ethnicity",
           "url": "https://diaspora.gov.am/en/pages/119",
-          "archive": "",
+          "archive": "https://web.archive.org/web/2/https://diaspora.gov.am/en/pages/119",
           "quote": "Ethnic Armenians qualify for citizenship without having to meet any language or residency requirements.",
           "accessed": "2026-11-20",
           "kind": "government"
@@ -274,9 +315,9 @@
       "text": "The Palestinian Amended Basic Law (2003) says the Palestinian people are part of the Arab nation, that Islam is the official religion with respect for other divine religions, that Islamic Shari'a is a principal source of legislation, and that Arabic is the official language.",
       "sources": [
         {
-          "publisher": "Supreme Constitutional Court of Palestine",
-          "title": "The Palestinian Basic Law",
-          "url": "https://www.tscc.pna.ps/en/pages?id=palestinian_basic_law",
+          "publisher": "Central Elections Commission, Palestine",
+          "title": "The Amended Basic Law (promulgated 18 March 2003)",
+          "url": "https://www.elections.ps/Portals/0/pdf/The_Amended_Basic_Law_2003_EN.pdf",
           "archive": "",
           "quote": "Islam is the official religion in Palestine. Respect for the sanctity of all other divine religions shall be maintained.",
           "accessed": "2026-11-20",
@@ -329,13 +370,13 @@
       "text": "The 2018 Nation-State Basic Law says the right to exercise national self-determination in Israel is unique to the Jewish people, makes Hebrew the state language and gives Arabic a special status, and encourages Jewish settlement.",
       "sources": [
         {
-          "publisher": "The Times of Israel",
-          "title": "Final text of Jewish nation-state law, approved by the Knesset early on July 19",
-          "url": "https://www.timesofisrael.com/final-text-of-jewish-nation-state-bill-set-to-become-law/",
+          "publisher": "Middle East Eye",
+          "title": "Read in full: Israel's Nation State of the Jewish People Law",
+          "url": "https://www.middleeasteye.net/news/read-full-israels-nation-state-jewish-people-law",
           "archive": "",
           "quote": "The right to exercise national self-determination in the State of Israel is unique to the Jewish people.",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "news"
         },
         {
           "publisher": "Middle East Eye",
@@ -343,6 +384,15 @@
           "url": "https://www.middleeasteye.net/news/read-full-israels-nation-state-jewish-people-law",
           "archive": "",
           "quote": "The Arabic language has a special status in the state",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "CNN",
+          "title": "Israel passes controversial 'nation-state' bill into law",
+          "url": "https://www.cnn.com/2018/07/19/middleeast/israel-nation-state-legislation-intl",
+          "archive": "",
+          "quote": "declares that the Jewish people \"have an exclusive right to national self-determination\" in Israel",
           "accessed": "2026-11-20",
           "kind": "news"
         },
@@ -361,11 +411,11 @@
       "text": "The Nation-State Law omits any mention of equality and democracy, which critics call a break from the Declaration; the Supreme Court held in 2021 that it does not negate Israel's democratic character, and an INSS analyst found nothing in it that explicitly permits discrimination.",
       "sources": [
         {
-          "publisher": "The New York Times",
-          "title": "Israeli Law Declares the Country the 'Nation-State of the Jewish People'",
-          "url": "https://www.nytimes.com/2018/07/19/world/middleeast/israel-law-jews-arabic.html",
+          "publisher": "CNN",
+          "title": "Israel passes controversial 'nation-state' bill into law",
+          "url": "https://www.cnn.com/2018/07/19/middleeast/israel-nation-state-legislation-intl",
           "archive": "",
-          "quote": "omits any mention of democracy or the principle of equality",
+          "quote": "Making no mention of the values of equality and democracy, Israel has passed into law a highly controversial bill",
           "accessed": "2026-11-20",
           "kind": "news"
         },
@@ -411,13 +461,13 @@
           "kind": "reference"
         },
         {
-          "publisher": "V-Dem Institute via Nations Inquiry",
+          "publisher": "Nations Inquiry (aggregator of V-Dem data; no named author)",
           "title": "V-Dem Electoral Democracy Index, 2025",
           "url": "https://nationsinquiry.com/datasets/vdem-democracy/2025/data.csv",
           "archive": "",
           "quote": "Israel,ISR,0.694,0.588,0.455,0.511,0.549 Slovenia,SVN,0.692,0.589,0.506,0.612,0.604 Argentina,ARG,0.69,0.524,0.429,0.41,0.5 Croatia,HRV,0.686,0.593,0.459,0.499,0.543 Colombia,COL,0.679,0.555,0.467,0.458,0.405",
           "accessed": "2026-11-20",
-          "kind": "scholarly"
+          "kind": "other"
         }
       ]
     },
@@ -497,13 +547,13 @@
           "kind": "reference"
         },
         {
-          "publisher": "V-Dem Institute via Nations Inquiry",
+          "publisher": "Nations Inquiry (aggregator of V-Dem data; no named author)",
           "title": "V-Dem Electoral Democracy Index, 2025",
           "url": "https://nationsinquiry.com/datasets/vdem-democracy/2025/data.csv",
           "archive": "",
           "quote": "Netherlands,NLD,0.832,0.774,0.553,0.742,0.739 Germany,DEU,0.828,0.782,0.593,0.79,0.766 Portugal,PRT,0.822,0.717,0.529,0.691,0.614 Spain,ESP,0.822,0.741,0.572,0.693,0.695 Japan,JPN,0.819,0.734,0.526,0.729,0.758",
           "accessed": "2026-11-20",
-          "kind": "scholarly"
+          "kind": "other"
         }
       ]
     },
@@ -532,7 +582,7 @@
           "publisher": "National Academies Press",
           "title": "The Integration of Immigrants into American Society",
           "url": "https://www.nationalacademies.org/read/21746/chapter/4",
-          "archive": "",
+          "archive": "https://web.archive.org/web/2/https://www.nationalacademies.org/read/21746/chapter/4",
           "quote": "restricted naturalization to any \"free white person\"",
           "accessed": "2026-11-20",
           "kind": "scholarly"
@@ -546,7 +596,7 @@
           "publisher": "National Academies Press",
           "title": "The Integration of Immigrants into American Society",
           "url": "https://www.nationalacademies.org/read/21746/chapter/4",
-          "archive": "",
+          "archive": "https://web.archive.org/web/2/https://www.nationalacademies.org/read/21746/chapter/4",
           "quote": "The federal government did little to regulate immigration, citizenship, and integration in the first century after the nation's founding.",
           "accessed": "2026-11-20",
           "kind": "scholarly"
@@ -587,7 +637,7 @@
           "publisher": "National Academies Press",
           "title": "The Integration of Immigrants into American Society",
           "url": "https://www.nationalacademies.org/read/21746/chapter/4",
-          "archive": "",
+          "archive": "https://web.archive.org/web/2/https://www.nationalacademies.org/read/21746/chapter/4",
           "quote": "Established strict national origin quotas restricting large-scale immigration from eastern and southern Europe and effectively barred Asian immigration",
           "accessed": "2026-11-20",
           "kind": "scholarly"
@@ -610,7 +660,7 @@
           "publisher": "National Academies Press",
           "title": "The Integration of Immigrants into American Society",
           "url": "https://www.nationalacademies.org/read/21746/chapter/4",
-          "archive": "",
+          "archive": "https://web.archive.org/web/2/https://www.nationalacademies.org/read/21746/chapter/4",
           "quote": "Abolished national origin quotas; established a preference system based primarily on family reunification",
           "accessed": "2026-11-20",
           "kind": "scholarly"
@@ -630,11 +680,11 @@
       "text": "Two models dominate the scholarly debate: Sammy Smooha classes Israel as an 'ethnic democracy' (contrary to its self-image as a Western liberal democracy, the Jews appropriate the state, yet Israel extends rights to its Arab citizens), and Oren Yiftachel as an 'ethnocracy' that promotes the expansion of the dominant group in contested territory while keeping a democratic facade.",
       "sources": [
         {
-          "publisher": "Nations and Nationalism (Wiley), Sammy Smooha",
+          "publisher": "Nations and Nationalism, Sammy Smooha (copy on archive.org)",
           "title": "The model of ethnic democracy: Israel as a Jewish and democratic state",
-          "url": "https://onlinelibrary.wiley.com/doi/10.1111/1469-8219.00062",
+          "url": "https://dn720005.ca.archive.org/0/items/the-model-of-ethnic-democracy-israel-as-a-jewish-a/The_Model_of_Ethnic_Democracy_Israel_as_a_Jewish_a.pdf",
           "archive": "",
-          "quote": "Contrary to its self-image and international reputation as a Western liberal democracy, Israel is an ethnic democracy",
+          "quote": "Contrary to its self-image and international reputation as a Western liberal democracy, Israel is an ethnic democracy in which the Jews appropriate the state",
           "accessed": "2026-11-20",
           "kind": "scholarly"
         },
@@ -660,19 +710,124 @@
     }
   ],
   "contested": [
-    "How to classify Israel. Sammy Smooha: an 'ethnic democracy'. Oren Yiftachel: an 'ethnocracy' that keeps a democratic facade. Others, including many Israeli scholars Yiftachel lists, call it a liberal or constitutional democracy, and indices such as Freedom House and V-Dem classify Israel inside the Green Line as a democracy with flaws. Critics who say that a state defined as Jewish is racist (Warshawsky) or that it must be a theocracy or an apartheid state (Nusseibeh) argue from the definition; defenders point to equal citizenship in law and to the Supreme Court's 2021 ruling. The card reports who uses the word and why; it does not use it as its own description of any country.",
-    "The objection that Israel's case differs from Germany's or Greece's because Israel also rules millions of Palestinians in the West Bank who are not citizens and cannot vote in its elections; Freedom House rates the West Bank separately at 22 of 100. Defenders reply that the territory's status is disputed and tied to the conflict, and that citizens inside the Green Line have equal rights in law.",
-    "Whether the Law of Return is comparable to Germany's Article 116, Greece's homogeneis or Armenia's rules. Those provide citizenship by descent or ethnic tie, as does Israel's law, but differ in scope, history (Germany's was tied to postwar expulsions) and in whether the favoured group is also the dominant one in the state. How far each is 'the same' is a judgement, not a measurement.",
-    "Whether America was 'open' from the start. The 1790 law admitted only free white persons to citizenship, yet before 1882 federal law set almost no numerical limits; historians weigh these differently. The 1965 Act is the end of national-origins quotas, not of all restriction (it added the first numerical cap on the Western Hemisphere).",
-    "Freedom House and V-Dem are independent, but each makes judgement calls; the two disagree on some rankings (for example Greece against Israel)."
+    {
+      "text": "How to classify Israel. Sammy Smooha: an 'ethnic democracy'. Oren Yiftachel: an 'ethnocracy' with a democratic facade. Critics of a Jewish state as such argue from its definition (Warshawsky calls the state 'very, very racist'; Nusseibeh says recognising a 'Jewish state' implies a theocracy or an apartheid state); an INSS analyst replies that nothing in the Nation-State Law explicitly permits discrimination. The card reports who uses the word; it does not use it as its own description of any country.",
+      "sources": [
+        {
+          "publisher": "Nations and Nationalism, Sammy Smooha (copy on archive.org)",
+          "title": "The model of ethnic democracy",
+          "url": "https://dn720005.ca.archive.org/0/items/the-model-of-ethnic-democracy-israel-as-a-jewish-a/The_Model_of_Ethnic_Democracy_Israel_as_a_Jewish_a.pdf",
+          "archive": "",
+          "quote": "Contrary to its self-image and international reputation as a Western liberal democracy, Israel is an ethnic democracy in which the Jews appropriate the state",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Public Seminar",
+          "title": "Democracy in Israel/Palestine Today",
+          "url": "https://publicseminar.org/essays/democracy-in-israel-palestine-today/",
+          "archive": "",
+          "quote": "Ethnocratic regimes promote the expansion of the dominant group in contested territory and its domination of power structures while maintaining a democratic façade",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Internationalist Viewpoint, Michel Warshawsky",
+          "title": "Israeli State: A Jewish State or a Democratic State? How Zionism Leads to Racism",
+          "url": "https://iv.redmole.org/iv/no227/israeli-state-a-jewish-state-or-a-democratic-state-how-zionism-leads-to-racism/",
+          "archive": "",
+          "quote": "the Zionist enterprise and the Zionist State of Israel - as it is defined - is very, very racist.",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        },
+        {
+          "publisher": "Al Jazeera, Sari Nusseibeh",
+          "title": "Why Israel can't be a 'Jewish State'",
+          "url": "https://www.aljazeera.com/opinions/2011/9/30/why-israel-cant-be-a-jewish-state",
+          "archive": "",
+          "quote": "recognition of Israel as a \"Jewish State\" implies that Israel is, or should be, either a theocracy",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Institute for National Security Studies",
+          "title": "The Ramifications of the Nation State Law",
+          "url": "https://www.inss.org.il/publication/ramifications-nation-state-law-israeli-democracy-risk/",
+          "archive": "",
+          "quote": "there is nothing explicit in the Law that permits discrimination against those who are not Jewish.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "The objection that Israel's case differs because it also rules millions of Palestinians in the West Bank who are not citizens: Freedom House rates Israel and the West Bank separately, at 73 and 22 of 100.",
+      "sources": [
+        {
+          "publisher": "Freedom House",
+          "title": "Israel: Freedom in the World 2026",
+          "url": "https://freedomhouse.org/country/israel/freedom-world/2026",
+          "archive": "",
+          "quote": "population 9,558,000 Global Freedom Score 73 100 Free",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Freedom House",
+          "title": "Israel: Freedom in the World 2026",
+          "url": "https://freedomhouse.org/country/israel/freedom-world/2026",
+          "archive": "",
+          "quote": "West Bank 22 / 100 Not Free Gaza Strip 2 / 100 Not Free",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "Whether other states' preference for a state religion is comparable: Nusseibeh argues that many states, among them Greece, Jordan and Egypt, have an official religion yet grant equal civil rights, and that Israel could do the same.",
+      "sources": [
+        {
+          "publisher": "Al Jazeera, Sari Nusseibeh",
+          "title": "Why Israel can't be a 'Jewish State'",
+          "url": "https://www.aljazeera.com/opinions/2011/9/30/why-israel-cant-be-a-jewish-state",
+          "archive": "",
+          "quote": "Many states (including Israel's neighbours Jordan and Egypt, and countries such as Greece) have their official religion as Christianity or Islam (but grant equal civil rights to all citizens)",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Whether America was open to immigration from its founding: the National Academies note the first century's lack of federal oversight of immigration, while the 1790 law limited naturalisation to free white persons.",
+      "sources": [
+        {
+          "publisher": "National Academies Press",
+          "title": "The Integration of Immigrants into American Society",
+          "url": "https://www.nationalacademies.org/read/21746/chapter/4",
+          "archive": "https://web.archive.org/web/2/https://www.nationalacademies.org/read/21746/chapter/4",
+          "quote": "The federal government did little to regulate immigration, citizenship, and integration in the first century after the nation's founding.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "George Mason University, Institute for Immigration Research",
+          "title": "Historical Timeline of Immigration Policies",
+          "url": "https://iir.gmu.edu/historical-timeline-policies",
+          "archive": "",
+          "quote": "signed into law by President George Washington, this act defined eligibility for citizenship by naturalization to \"free white persons.\"",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    }
   ],
   "could_not_verify": [
-    "A source for England's established church (Church of England) that the checker could read; the United Kingdom is counted by Pew only.",
-    "Minority-rights-specific scores from an independent index for Israel against the comparison countries: Freedom House and V-Dem pages read give overall freedom and liberal democracy scores, not a minority-rights score. V-Dem's egalitarian index sits in the same CSV but was not quoted.",
-    "Three independent non-government sources for the Greek, Irish and Armenian descent rules, and for the Law of Return text on the Knesset's own site (the Knesset pages return nothing to the checker).",
-    "A readable primary text of the 1790 and 1965 Acts (the history.state.gov page for 1965 was not found); the facts rest on three secondary sources.",
-    "Yiftachel's own paper is a PDF the checker cannot read; his view is cited from Public Seminar and a journal abstract.",
-    "Some pages blocked the checker intermittently; see the warnings."
+    "A V-Dem figure from v-dem.net itself: the Democracy Report PDF reads but its country table is garbled, so the V-Dem rows come from an aggregator (Nations Inquiry, kind other, never counted).",
+    "Minority-rights-specific scores for Israel against the comparison countries: the Freedom House and V-Dem pages read give overall scores, not a minority-rights score.",
+    "A third independent source for the Greek, Irish, Armenian and German descent rules: the law's official text or a government page plus one scholarly or reference page is what was readable.",
+    "The text of the Law of Return and the Nation-State Law on the Knesset's own site (nothing readable); the texts come from Jewish Virtual Library and Middle East Eye, which say they reproduce the Knesset text.",
+    "The Times of Israel and New York Times pages on the Nation-State Law, the Greek Parliament and Library of Congress pages, the Wiley page of Smooha (2002), Yiftachel's own paper and Britannica's Church of England page blocked the checker; each was replaced by a readable page or removed.",
+    "A readable primary text of the 1790 and 1965 Acts: the facts rest on three secondary sources."
   ],
   "not_claimed": [
     "That preferring one people or religion is harmless: it can disadvantage minorities, and several of these states have been criticised for it.",

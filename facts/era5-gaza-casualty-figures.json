@@ -16,7 +16,7 @@
       "archive": ""
     }
   ],
-  "answer": "Many civilians, including thousands of children, have been killed in Gaza. Nobody has published an independent count of how many of the dead were fighters. The main total comes from the Gaza Health Ministry, part of the Hamas-run government, which counts bodies reaching hospitals and does not separate civilians from fighters. The UN treats the total as reliable overall. In May 2024 the UN broke down only the fully identified dead: 7,797 children and 4,959 women by 30 April 2024. Two Lancet studies estimated the ministry undercounted. Israel says it killed more than 20,000 militants, without evidence. A parent can say: tens of thousands have been killed, the share who were civilians is disputed, and no count is settled.",
+  "answer": "Many civilians, including thousands of children, have been killed in Gaza. No count here has been independently verified as separating fighters from civilians. The main total comes from the Gaza Health Ministry, part of the Hamas-run government, which mainly counts bodies reaching hospitals and does not separate civilians from fighters. The UN treats the total as reliable overall. In May 2024 the UN broke down only the fully identified dead: 7,797 children and 4,959 women by 30 April 2024. Two Lancet studies estimated the ministry undercounted. Israel says it killed more than 20,000 militants, without evidence. A parent can say: tens of thousands have been killed, no verified count separates civilians from fighters, and the ministry's total is disputed by some and treated as reliable by the UN.",
   "facts": [
     {
       "text": "The Gaza Health Ministry, part of Gaza's Hamas-run government, counts deaths from the bodies that reach hospitals and morgues, supplemented since the early months with media reports and first responders. Its totals never distinguish between civilians and combatants.",
@@ -195,33 +195,41 @@
       ]
     },
     {
-      "text": "The UN human rights office verified 8,119 deaths from the first months of the war, each with at least three sources; 44 percent were children and 26 percent women. This is a verified subset of the ministry's reported toll, not a full count and not a split between fighters and civilians.",
+      "text": "In its six-month update report (covering 1 November 2023 to 30 April 2024) the UN human rights office said it had verified 8,119 killings in Gaza by 2 September 2024, including 2,036 women and 3,588 children. 'Verified' there means confirmed by at least three independent sources, so it counts only what the office could confirm; it is not a total and not a split between fighters and civilians. Of the 8,119, 7,607 were killed in residential buildings or similar housing, and of those 44 percent were children, 26 percent women and 30 percent men. The report adds that the large share killed in residential buildings is partly explained by its verification method.",
       "sources": [
+        {
+          "publisher": "UN Human Rights Office (OHCHR)",
+          "title": "Six-month update report on the human rights situation in Gaza: 1 November 2023 to 30 April 2024",
+          "url": "https://www.ohchr.org/sites/default/files/documents/countries/opt/20241106-Gaza-Update-Report-OPT.pdf",
+          "archive": "",
+          "quote": "the number of killings verified by OHCHR by 2 September 2024 standing at 8,119 Palestinians in Gaza, including 2,036 women and 3,588 children",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "UN Human Rights Office (OHCHR)",
+          "title": "Six-month update report on the human rights situation in Gaza: 1 November 2023 to 30 April 2024",
+          "url": "https://www.ohchr.org/sites/default/files/documents/countries/opt/20241106-Gaza-Update-Report-OPT.pdf",
+          "archive": "",
+          "quote": "OHCHR's verification methodology, which requires at least three independent sources",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "UN Human Rights Office (OHCHR)",
+          "title": "Six-month update report on the human rights situation in Gaza: 1 November 2023 to 30 April 2024",
+          "url": "https://www.ohchr.org/sites/default/files/documents/countries/opt/20241106-Gaza-Update-Report-OPT.pdf",
+          "archive": "",
+          "quote": "out of which 44 per cent were children, 26 per cent women and 30 per cent men",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
         {
           "publisher": "Al Jazeera",
           "title": "Nearly 70 percent of deaths in Gaza are women and children: UN",
           "url": "https://www.aljazeera.com/news/2024/11/8/nearly-70-percent-of-deaths-in-gaza-are-women-and-children-un",
           "archive": "",
           "quote": "having verified 8,119 of the more than 34,500 people reportedly killed during the first six months of Israel's war in Gaza",
-          "accessed": "2026-11-20",
-          "kind": "news"
-        },
-        {
-          "publisher": "CBC News (Reuters)",
-          "title": "UN count of Gaza war finds 70% of known victims are women, children",
-          "url": "https://amp.cbc.ca/lite/story/1.7377967",
-          "archive": "",
-          "quote": "The UN tally of the Israel-Hamas war includes only fatalities it has managed to verify with three sources, and counting continues.",
-          "accessed": "2026-11-20",
-          "kind": "news",
-          "wire": "Reuters"
-        },
-        {
-          "publisher": "LBC",
-          "title": "Nearly 70% of Gaza dead are women and children, UN reports",
-          "url": "https://lbc.co.uk/news/nearly-70-of-gaza-dead-are-women-and-children-un-reports",
-          "archive": "",
-          "quote": "the United Nations verified 8,119 victims in total, 2,036 women and 3,588 children",
           "accessed": "2026-11-20",
           "kind": "news"
         }
@@ -405,27 +413,27 @@
     "I looked for an independent count of fighters among the dead and found none. The closest are the UN human rights office's verified subset (age and sex only) and a Guardian, +972 Magazine and Local Call report of a leaked Israeli database, which I could only read through CBC and Middle East Eye (the original was not readable) and which is not independently verified.",
     "I could not find a reliable outlet or academic paper that examined Wyner's method in reply; the other scholarly checks (UNRWA staff comparison, capture-recapture, household survey) test the same question but are not direct replies to him. Jerusalem Post, JNS and Jewish Exponent pieces on Wyner repeat the Tablet article and are not counted as separate sources.",
     "The Huynh, Chin and Spiegel Lancet letter of December 2023 (UNRWA staff deaths compared with the ministry's) could not be read; it is cited only through Khatib, McKee and Yusuf.",
-    "The OHCHR press release or report on the 8,119 verified deaths could not be fetched; it is cited from Al Jazeera, Reuters (via CBC) and LBC.",
-    "The method behind Israel's fighter counts (17,000-18,000 or 20,000) was not found in any source."
+    "The method behind Israel's fighter counts (17,000-18,000 or 20,000) was not found in any source.",
+    "Fact 5 now rests on the UN human rights office's own report (read in full); Al Jazeera's account of it is the same document, so the fact has one independent origin. News reports of this figure differ on the period (six months, seven months, eleven months) and some apply the 44 percent and 26 percent shares to all 8,119 deaths; the report itself applies them only to the 7,607 killed in residential buildings or similar housing.",
+    "Fact 6 (the leaked Israeli database of named fighters) is one Guardian, +972 Magazine and Local Call investigation seen through CBC and Middle East Eye; neither outlet saw the data and I could not read the original. I found no independent confirmation, so the fact is marked short and the answer no longer uses it.",
+    "LBC was removed as a source on this card: its page misstates the UN's view of the ministry's figures."
   ],
   "answer_claims": [
     {
       "says": "Many civilians, including thousands of children, have been killed in Gaza.",
       "facts": [
-        1,
-        5
+        1
       ]
     },
     {
-      "says": "Nobody has published an independent count of how many of the dead were fighters.",
+      "says": "No count here has been independently verified as separating fighters from civilians.",
       "facts": [
-        0,
-        5,
-        6
+        3,
+        4
       ]
     },
     {
-      "says": "The main total comes from the Gaza Health Ministry, part of the Hamas-run government, which counts bodies reaching hospitals and does not separate civilians from fighters.",
+      "says": "The main total comes from the Gaza Health Ministry, part of the Hamas-run government, which mainly counts bodies reaching hospitals and does not separate civilians from fighters.",
       "facts": [
         0
       ]
@@ -445,8 +453,7 @@
     {
       "says": "Two Lancet studies estimated the ministry undercounted.",
       "facts": [
-        3,
-        7
+        3
       ]
     },
     {
@@ -456,13 +463,13 @@
       ]
     },
     {
-      "says": "A parent can say: tens of thousands have been killed, the share who were civilians is disputed, and no count is settled.",
+      "says": "A parent can say: tens of thousands have been killed, no verified count separates civilians from fighters, and the ministry's total is disputed by some and treated as reliable by the UN.",
       "facts": [
         1,
+        2,
         3,
         4,
-        5,
-        6
+        7
       ]
     }
   ],
@@ -470,12 +477,12 @@
     "skeptic": {
       "verdict": "weakened",
       "date": "2026-11-20",
-      "notes": "Read 2+ sources per fact in context (CBC/AP, PBS/AP, RNZ/Reuters, OPB/NPR, OCHA, CBC, Al Jazeera, VOA, NBC, JNS, JPost). Quotes are on the pages. Fixed: fact 3 said the Lancet estimate was '41 percent above the ministry's figure'; 64,260 is about 70 percent above 37,877, and the 41 percent is the ministry's shortfall as a share of the estimate; reworded. Fact 0 said the total comes from hospital and morgue records only; the PBS page also names the Red Crescent and the Lancet reports a family survey; reworded and added that Hamas controls the ministry (page says so). Independence: [must-fix] fact 5 (Wyner) is three outlets (JPost, JNS, Jewish Exponent) all reporting one Tablet article, i.e. one source; the writer could not read Tablet. [should-fix] fact 0 and fact 2 are AP twice (CBC, PBS) plus one other (Reuters, NPR), so two independent sources, not three. Strongest objection from critics of Israel (stronger): the card gives Israel's '20,000 militants / 1 to 1' claims a fact but omits any independent breakdown of the dead into fighters and civilians (the card's own could_not_verify says none was found; I did not search beyond the cited pages for a report on Israel's internal records, which the writer should do); I could only add proxies from pages already cited (Lancet 59.1 percent women, children and elderly; UN analysis of 8,000 verified deaths, 44 percent children) to contested. Strongest objection from defenders: the ministry is run under Hamas control and its figures were disputed early (Israel said it inflated a hospital-explosion toll; US intelligence gave a lower figure): added to contested from the PBS page already cited. Both numbers are labelled by who counted. No graphic content. [should-fix] Add a fact for the AP 'women and children share fell' finding (one source today) and for Israel's own fighter database if a reliable report exists. [nit] contested[1] and [5] (AP proxy; L'Orient Today) are plain strings because their pages are not sources on this card."
+      "notes": "Round 3: checked the 8,119 fact against the OHCHR six-month update report itself (para 12): 'verified by OHCHR by 2 September 2024 standing at 8,119 ... including 2,036 women and 3,588 children'; of these 7,607 were killed in residential buildings, 44% children, 26% women, 30% men (of the 7,607, not of the 8,119); footnote 19: the residential share is partly explained by its method of at least three independent sources. Period: the report covers 1 Nov 2023 to 30 Apr 2024 but counts verified to 2 Sept 2024; the fact says so. All correct; I added the footnote 19 caveat. The misleading outlet is gone and the answer no longer uses the database. The answer sentences no longer rest on a short fact (facts 5 and 6 removed from answer_claims). Still short, so not verified: [must-fix] fact 5 has the record (OHCHR, read first-hand) and one reader (Al Jazeera); the record flag needs two readers and is_record on the OHCHR source. Add a second report of the same content, for example CBC/Reuters https://amp.cbc.ca/lite/story/1.7377967 (already on era5-hamas-and-civilian-areas), then set record true. [must-fix] fact 6 (Israeli database): one Guardian/+972/Local Call investigation seen through CBC and Middle East Eye, neither saw the data; fix only by the original investigation (theguardian.com or 972mag.com, August 2025) or a third outlet that saw the documents. Strongest objections: critics of Israel, no independent fighter/civilian split exists on the card; defenders, the ministry is Hamas-controlled. Both are stated."
     },
     "citer": {
       "verdict": "holds",
       "date": "2026-11-20",
-      "notes": "Every sentence now ties to a fact. Changed only the last sentence: 'the share who were civilians is disputed, and no single count is settled' was not carried by a fact (fact 4 gives only Israel's unevidenced claim and nothing on the card gives a civilian share); it now says the ministry does not say how many were civilians and Israel's fighter figure has no evidence shown. Fact 0 now carries 'part of the Hamas-run government'. 'Many civilians, including thousands of children' rests on fact 1 (ministry-identified deaths, counted by OCHA); that is a ministry count, and the answer names the ministry. Converted 4 of 6 contested entries to {text, sources}; contested[1] (AP 'best available proxy', PBS June 2024) and [5] (L'Orient Today) have no source on this card, so they stay strings and block verification. Dropped from contested[0] the Sept 2025 figure (Channels TV, not a source here) and from [2] Omar Shakir (no page)."
+      "notes": "Round 3: re-tied. Facts 5 and 6 removed from answer_claims (short); sentences now rest on facts 0 to 4 and 7. The database sentence is out of the answer. No 'Our reading' sentence on this card. Answer 147 words."
     }
   }
 }
