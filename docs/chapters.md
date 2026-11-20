@@ -36,8 +36,9 @@ When an answer gives our conclusion and not only facts, it says "our reading".
 | 11  | The flag, the movement and its allies    | Where do the Palestinian flag and its colours come from, and what do they stand for? What does "resistance" mean in the movement's own documents, and in law? Which groups in the West support the cause, by the polls, and how has that changed? What is the record on the rights of women and gay people under the Palestinian Authority and Hamas?                                     |
 
 | 12 | Attempts at peace and two states | Every serious proposal from 1937 to today: who offered what, who accepted, who refused, in their own words. What pressure each side was under, from outside and from within. Where each side did wrong during the peace years. Where both publics stand now, by the polls. |
+| 13 | Israeli politics, and left and right in Israel and America | What do "left" and "right" mean in Israel, and how is that different from America? Who are the parties and blocs in the Knesset, where does each come from, and where does each stand on the conflict and on religion and state? How does a state built around one people compare with other such states, and with a state built around immigration, on specific, countable features: state religion, immigration by descent, the rights of minorities? |
 
-## Rules for chapters 9 to 11
+## Rules for chapters 9 to 13
 
 These chapters are where a fact base most easily turns into an argument. So:
 
@@ -46,3 +47,6 @@ These chapters are where a fact base most easily turns into an argument. So:
 - Chapter 10 reports amounts, owners and dates from public filings. It does not infer motives or
   effects that no source documents.
 - Chapter 11 describes people's stated reasons in their own words. It does not diagnose them.
+- Chapter 12 lists refusals and wrongs by each side. It does not turn a list into a verdict.
+- Chapter 13 compares countries feature by feature, with a source for each cell. It does not use
+  one word, such as "racist" or "democratic", to stand for a whole country.
