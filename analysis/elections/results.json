@@ -1,941 +1,4595 @@
 {
-  "files": {
-    "locality": {
-      "rows": 1216,
-      "encoding": "utf-8-sig"
+  "2022": {
+    "national_check": {
+      "rows": [
+        {
+          "letters": "מחל",
+          "name": "Likud",
+          "seats": 32,
+          "locality_file": 1115336,
+          "ballot_box_file": 1115336,
+          "official": 1115336,
+          "match": true
+        },
+        {
+          "letters": "פה",
+          "name": "Yesh Atid",
+          "seats": 24,
+          "locality_file": 847435,
+          "ballot_box_file": 847435,
+          "official": 847435,
+          "match": true
+        },
+        {
+          "letters": "ט",
+          "name": "Religious Zionism + Otzma Yehudit",
+          "seats": 14,
+          "locality_file": 516470,
+          "ballot_box_file": 516470,
+          "official": 516470,
+          "match": true
+        },
+        {
+          "letters": "כן",
+          "name": "National Unity",
+          "seats": 12,
+          "locality_file": 432482,
+          "ballot_box_file": 432482,
+          "official": 432482,
+          "match": true
+        },
+        {
+          "letters": "שס",
+          "name": "Shas",
+          "seats": 11,
+          "locality_file": 392964,
+          "ballot_box_file": 392964,
+          "official": 392964,
+          "match": true
+        },
+        {
+          "letters": "ג",
+          "name": "United Torah Judaism",
+          "seats": 7,
+          "locality_file": 280194,
+          "ballot_box_file": 280194,
+          "official": 280194,
+          "match": true
+        },
+        {
+          "letters": "ל",
+          "name": "Yisrael Beiteinu",
+          "seats": 6,
+          "locality_file": 213687,
+          "ballot_box_file": 213687,
+          "official": 213687,
+          "match": true
+        },
+        {
+          "letters": "עם",
+          "name": "Ra'am",
+          "seats": 5,
+          "locality_file": 194047,
+          "ballot_box_file": 194047,
+          "official": 194047,
+          "match": true
+        },
+        {
+          "letters": "ום",
+          "name": "Hadash-Ta'al",
+          "seats": 5,
+          "locality_file": 178735,
+          "ballot_box_file": 178735,
+          "official": 178735,
+          "match": true
+        },
+        {
+          "letters": "אמת",
+          "name": "Labor",
+          "seats": 4,
+          "locality_file": 175992,
+          "ballot_box_file": 175992,
+          "official": 175992,
+          "match": true
+        },
+        {
+          "letters": "מרצ",
+          "name": "Meretz",
+          "seats": 0,
+          "locality_file": 150793,
+          "ballot_box_file": 150793,
+          "official": 150793,
+          "match": true
+        },
+        {
+          "letters": "ד",
+          "name": "Balad",
+          "seats": 0,
+          "locality_file": 138617,
+          "ballot_box_file": 138617,
+          "official": 138617,
+          "match": true
+        },
+        {
+          "letters": "ב",
+          "name": "The Jewish Home",
+          "seats": 0,
+          "locality_file": 56775,
+          "ballot_box_file": 56775,
+          "official": 56775,
+          "match": true
+        },
+        {
+          "letters": "אצ",
+          "name": "חופש כלכלי בראשות אביר קארה",
+          "seats": 0,
+          "locality_file": 15801,
+          "ballot_box_file": 15801,
+          "official": 15801,
+          "match": true
+        },
+        {
+          "letters": "קץ",
+          "name": "באומץ בשבילך",
+          "seats": 0,
+          "locality_file": 14694,
+          "ballot_box_file": 14694,
+          "official": 14694,
+          "match": true
+        },
+        {
+          "letters": "יז",
+          "name": "הכלכלית החדשה בראשות פרופסור ירון זליכה",
+          "seats": 0,
+          "locality_file": 13920,
+          "ballot_box_file": 13920,
+          "official": 13920,
+          "match": true
+        },
+        {
+          "letters": "צ",
+          "name": "צעירים בוערים בהנהגת הדר מוכתר",
+          "seats": 0,
+          "locality_file": 8800,
+          "ballot_box_file": 8800,
+          "official": 8800,
+          "match": true
+        },
+        {
+          "letters": "ף",
+          "name": "הפיראטים- הכי טוב לדעתי אני רוצה להיות שם",
+          "seats": 0,
+          "locality_file": 1728,
+          "ballot_box_file": 1728,
+          "official": 1728,
+          "match": true
+        },
+        {
+          "letters": "ק",
+          "name": "קול הסביבה והחי",
+          "seats": 0,
+          "locality_file": 1618,
+          "ballot_box_file": 1618,
+          "official": 1618,
+          "match": true
+        },
+        {
+          "letters": "ת",
+          "name": "דעת טוב ורע וברית שבט אברהם-עלה ירוק ואוסרת אל איס",
+          "seats": 0,
+          "locality_file": 1524,
+          "ballot_box_file": 1524,
+          "official": 1524,
+          "match": true
+        },
+        {
+          "letters": "ני",
+          "name": "נתיב - נחיה תמיד יחד בכבוד",
+          "seats": 0,
+          "locality_file": 1354,
+          "ballot_box_file": 1354,
+          "official": 1354,
+          "match": true
+        },
+        {
+          "letters": "קנ",
+          "name": "כל קול קובע נועם קולמן ולירון עופרי לראשות הממשלה",
+          "seats": 0,
+          "locality_file": 1292,
+          "ballot_box_file": 1292,
+          "official": 1292,
+          "match": true
+        },
+        {
+          "letters": "נק",
+          "name": "יש כיוון בראשות עמוס דב סילבר",
+          "seats": 0,
+          "locality_file": 1215,
+          "ballot_box_file": 1215,
+          "official": 1215,
+          "match": true
+        },
+        {
+          "letters": "י",
+          "name": "ישראל חופשית דמוקרטית בראשות אלי אבידר",
+          "seats": 0,
+          "locality_file": 1157,
+          "ballot_box_file": 1157,
+          "official": 1157,
+          "match": true
+        },
+        {
+          "letters": "קך",
+          "name": "סדר חדש- למען האזרחים הותיקים בישראל",
+          "seats": 0,
+          "locality_file": 1078,
+          "ballot_box_file": 1078,
+          "official": 1078,
+          "match": true
+        },
+        {
+          "letters": "נץ",
+          "name": "העצמאים החדשים בראשות יורם מועלמי",
+          "seats": 0,
+          "locality_file": 1020,
+          "ballot_box_file": 1020,
+          "official": 1020,
+          "match": true
+        },
+        {
+          "letters": "ץ",
+          "name": "מנהיגות חברתית",
+          "seats": 0,
+          "locality_file": 988,
+          "ballot_box_file": 988,
+          "official": 988,
+          "match": true
+        },
+        {
+          "letters": "רז",
+          "name": "רשימת שלושים\\ארבעים בראשות סטלה ויינשטיין",
+          "seats": 0,
+          "locality_file": 939,
+          "ballot_box_file": 939,
+          "official": 939,
+          "match": true
+        },
+        {
+          "letters": "ך",
+          "name": "אני ואתה",
+          "seats": 0,
+          "locality_file": 746,
+          "ballot_box_file": 746,
+          "official": 746,
+          "match": true
+        },
+        {
+          "letters": "ז",
+          "name": "שחר כוח חברתי בראשות וג`די טאהר",
+          "seats": 0,
+          "locality_file": 430,
+          "ballot_box_file": 430,
+          "official": 430,
+          "match": true
+        },
+        {
+          "letters": "קי",
+          "name": "הלב היהודי בראשות אלי יוסף",
+          "seats": 0,
+          "locality_file": 415,
+          "ballot_box_file": 415,
+          "official": 415,
+          "match": true
+        },
+        {
+          "letters": "יק",
+          "name": "מפלגת הגוש התנ\"כי",
+          "seats": 0,
+          "locality_file": 411,
+          "ballot_box_file": 411,
+          "official": 411,
+          "match": true
+        },
+        {
+          "letters": "נז",
+          "name": "כבוד האדם בראשות עו\"ד ארקדי פוגץ`",
+          "seats": 0,
+          "locality_file": 350,
+          "ballot_box_file": 350,
+          "official": 350,
+          "match": true
+        },
+        {
+          "letters": "נר",
+          "name": "\"אנחנו\" - בראשות עו\"ד מוש חוג`ה",
+          "seats": 0,
+          "locality_file": 334,
+          "ballot_box_file": 334,
+          "official": 334,
+          "match": true
+        },
+        {
+          "letters": "זץ",
+          "name": "צומת בראשות משה גרין דרכו של רפול",
+          "seats": 0,
+          "locality_file": 292,
+          "ballot_box_file": 292,
+          "official": 292,
+          "match": true
+        },
+        {
+          "letters": "יץ",
+          "name": "צו השעה",
+          "seats": 0,
+          "locality_file": 262,
+          "ballot_box_file": 262,
+          "official": 262,
+          "match": true
+        },
+        {
+          "letters": "נף",
+          "name": "מפלגת שמע בראשות נפתלי גולדמן",
+          "seats": 0,
+          "locality_file": 255,
+          "ballot_box_file": 255,
+          "official": 255,
+          "match": true
+        },
+        {
+          "letters": "ינ",
+          "name": "איחוד בני הברית -בראשות רב חובל בשארה שליאן",
+          "seats": 0,
+          "locality_file": 234,
+          "ballot_box_file": 234,
+          "official": 234,
+          "match": true
+        },
+        {
+          "letters": "זך",
+          "name": "קמ\"ה - קידום מעמד הפרט",
+          "seats": 0,
+          "locality_file": 205,
+          "ballot_box_file": 205,
+          "official": 205,
+          "match": true
+        },
+        {
+          "letters": "זנ",
+          "name": "כח להשפיע בראשות בני אלבז",
+          "seats": 0,
+          "locality_file": 153,
+          "ballot_box_file": 153,
+          "official": 153,
+          "match": true
+        }
+      ],
+      "info": {
+        "valid_votes_locality_file": 4764742,
+        "valid_votes_ballot_box_file": 4764742,
+        "valid_votes_on_page": true,
+        "page_lists": 40,
+        "page_vote_sum": 4764742,
+        "letters_with_votes_not_on_page": [],
+        "seats_on_page": 120
+      },
+      "all_match": true
     },
-    "ballot_box": {
-      "rows": 12545,
-      "encoding": "utf-8-sig"
-    }
-  },
-  "national_check": {
-    "parties": {
-      "Likud": {
-        "locality_file": 1115336,
-        "ballot_box_file": 1115336,
-        "official": 1115336,
-        "match": true
+    "main": {
+      "election": "25th Knesset, 1 November 2022",
+      "variant": "main",
+      "blocs": {
+        "Likud": [
+          "מחל"
+        ],
+        "Opposition": [
+          "פה",
+          "כן",
+          "אמת",
+          "מרצ",
+          "ל"
+        ],
+        "Haredi": [
+          "שס",
+          "ג"
+        ],
+        "Arab": [
+          "עם",
+          "ום",
+          "ד"
+        ],
+        "Religious Zionism": [
+          "ט"
+        ]
       },
-      "Yesh Atid": {
-        "locality_file": 847435,
-        "ballot_box_file": 847435,
-        "official": 847435,
-        "match": true
+      "files": {
+        "locality": {
+          "rows": 1216,
+          "encoding": "utf-8-sig"
+        },
+        "ballot_box": {
+          "rows": 12545,
+          "encoding": "utf-8-sig"
+        }
       },
-      "Religious Zionism": {
-        "locality_file": 516470,
-        "ballot_box_file": 516470,
-        "official": 516470,
-        "match": true
+      "double_envelopes": {
+        "rows": 838,
+        "valid_votes": 458714,
+        "total_valid_votes": 4764742,
+        "share": 0.0963
       },
-      "National Unity": {
-        "locality_file": 432482,
-        "ballot_box_file": 432482,
-        "official": 432482,
-        "match": true
+      "units": {
+        "localities": 1215,
+        "stations": 11707,
+        "stations_dropped_by_filter": 0,
+        "valid_votes": 4306028
       },
-      "Shas": {
-        "locality_file": 392964,
-        "ballot_box_file": 392964,
-        "official": 392964,
-        "match": true
-      },
-      "United Torah Judaism": {
-        "locality_file": 280194,
-        "ballot_box_file": 280194,
-        "official": 280194,
-        "match": true
-      },
-      "Yisrael Beiteinu": {
-        "locality_file": 213687,
-        "ballot_box_file": 213687,
-        "official": 213687,
-        "match": true
-      },
-      "Ra'am": {
-        "locality_file": 194047,
-        "ballot_box_file": 194047,
-        "official": 194047,
-        "match": true
-      },
-      "Hadash-Ta'al": {
-        "locality_file": 178735,
-        "ballot_box_file": 178735,
-        "official": 178735,
-        "match": true
-      },
-      "Labor": {
-        "locality_file": 175992,
-        "ballot_box_file": 175992,
-        "official": 175992,
-        "match": true
-      },
-      "Meretz": {
-        "locality_file": 150793,
-        "ballot_box_file": 150793,
-        "official": 150793,
-        "match": true
-      },
-      "Balad": {
-        "locality_file": 138617,
-        "ballot_box_file": 138617,
-        "official": 138617,
-        "match": true
-      },
-      "The Jewish Home": {
-        "locality_file": 56775,
-        "ballot_box_file": 56775,
-        "official": 56775,
-        "match": true
-      },
-      "Economic Freedom": {
-        "locality_file": 15801,
-        "ballot_box_file": 15801,
-        "official": 15801,
-        "match": true
-      },
-      "Brave for You": {
-        "locality_file": 14694,
-        "ballot_box_file": 14694,
-        "official": 14694,
-        "match": true
-      },
-      "New Economy": {
-        "locality_file": 13920,
-        "ballot_box_file": 13920,
-        "official": 13920,
-        "match": true
-      }
-    },
-    "all_match": true
-  },
-  "double_envelopes": {
-    "rows": 838,
-    "valid_votes": 458714,
-    "total_valid_votes": 4764742,
-    "share": 0.0963
-  },
-  "units": {
-    "localities": 1215,
-    "stations": 11707,
-    "valid_votes": 4306028
-  },
-  "bloc_vote_shares": {
-    "Likud": 0.234,
-    "Opposition": 0.3785,
-    "Haredi": 0.1451,
-    "Arab": 0.1134,
-    "Religious Zionism": 0.1035,
-    "Other": 0.0256
-  },
-  "dissimilarity_vs_all_others": {
-    "Likud": {
-      "locality": 0.3,
-      "station": 0.3694,
-      "station_random_floor": 0.0487
-    },
-    "Opposition": {
-      "locality": 0.4305,
-      "station": 0.4983,
-      "station_random_floor": 0.0425
-    },
-    "Haredi": {
-      "locality": 0.5288,
-      "station": 0.6192,
-      "station_random_floor": 0.0586
-    },
-    "Arab": {
-      "locality": 0.8839,
-      "station": 0.9338,
-      "station_random_floor": 0.0645
-    },
-    "Religious Zionism": {
-      "locality": 0.3061,
-      "station": 0.3717,
-      "station_random_floor": 0.0677
-    },
-    "Other": {
-      "locality": 0.1921,
-      "station": 0.2929,
-      "station_random_floor": 0.131
-    }
-  },
-  "dissimilarity_likud_vs_bloc": {
-    "Opposition": {
-      "locality": 0.3123,
-      "station": 0.3736
-    },
-    "Haredi": {
-      "locality": 0.4787,
-      "station": 0.5691
-    },
-    "Arab": {
-      "locality": 0.8768,
-      "station": 0.9378
-    },
-    "Religious Zionism": {
-      "locality": 0.2318,
-      "station": 0.2745
-    },
-    "Other": {
-      "locality": 0.2587,
-      "station": 0.3409
-    }
-  },
-  "exposure_station": {
-    "Likud": {
-      "Likud": 0.3338,
-      "Opposition": 0.382,
-      "Haredi": 0.1129,
-      "Arab": 0.0153,
-      "Religious Zionism": 0.1281,
-      "Other": 0.028
-    },
-    "Opposition": {
-      "Likud": 0.2361,
-      "Opposition": 0.5738,
-      "Haredi": 0.0579,
-      "Arab": 0.0233,
-      "Religious Zionism": 0.0806,
-      "Other": 0.0282
-    },
-    "Haredi": {
-      "Likud": 0.1821,
-      "Opposition": 0.1512,
-      "Haredi": 0.536,
-      "Arab": 0.0068,
-      "Religious Zionism": 0.1083,
-      "Other": 0.0157
-    },
-    "Arab": {
-      "Likud": 0.0315,
-      "Opposition": 0.0779,
-      "Haredi": 0.0086,
-      "Arab": 0.8653,
-      "Religious Zionism": 0.0078,
-      "Other": 0.0089
-    },
-    "Religious Zionism": {
-      "Likud": 0.2897,
-      "Opposition": 0.2948,
-      "Haredi": 0.1519,
-      "Arab": 0.0085,
-      "Religious Zionism": 0.2183,
-      "Other": 0.0369
-    },
-    "Other": {
-      "Likud": 0.2555,
-      "Opposition": 0.4176,
-      "Haredi": 0.0887,
-      "Arab": 0.0395,
-      "Religious Zionism": 0.1491,
-      "Other": 0.0495
-    }
-  },
-  "exposure_locality": {
-    "Likud": {
-      "Likud": 0.3066,
-      "Opposition": 0.3907,
-      "Haredi": 0.1313,
-      "Arab": 0.0221,
-      "Religious Zionism": 0.1218,
-      "Other": 0.0275
-    },
-    "Opposition": {
-      "Likud": 0.2415,
-      "Opposition": 0.5318,
-      "Haredi": 0.0845,
-      "Arab": 0.0283,
-      "Religious Zionism": 0.0864,
-      "Other": 0.0275
-    },
-    "Haredi": {
-      "Likud": 0.2117,
-      "Opposition": 0.2204,
-      "Haredi": 0.4183,
-      "Arab": 0.0145,
-      "Religious Zionism": 0.115,
-      "Other": 0.02
-    },
-    "Arab": {
-      "Likud": 0.0457,
-      "Opposition": 0.0946,
-      "Haredi": 0.0186,
-      "Arab": 0.8184,
-      "Religious Zionism": 0.0133,
-      "Other": 0.0095
-    },
-    "Religious Zionism": {
-      "Likud": 0.2755,
-      "Opposition": 0.3159,
-      "Haredi": 0.1612,
-      "Arab": 0.0146,
-      "Religious Zionism": 0.1976,
-      "Other": 0.0352
-    },
-    "Other": {
-      "Likud": 0.2509,
-      "Opposition": 0.407,
-      "Haredi": 0.1133,
-      "Arab": 0.042,
-      "Religious Zionism": 0.1423,
-      "Other": 0.0445
-    }
-  },
-  "exposure_ratio_station": {
-    "Likud": {
-      "Likud": 1.4268,
-      "Opposition": 1.0091,
-      "Haredi": 0.7783,
-      "Arab": 0.1345,
-      "Religious Zionism": 1.2381,
-      "Other": 1.0921
-    },
-    "Opposition": {
-      "Likud": 1.0091,
-      "Opposition": 1.5159,
-      "Haredi": 0.3994,
-      "Arab": 0.2058,
-      "Religious Zionism": 0.7788,
-      "Other": 1.1033
-    },
-    "Haredi": {
-      "Likud": 0.7783,
-      "Opposition": 0.3994,
-      "Haredi": 3.6949,
-      "Arab": 0.0595,
-      "Religious Zionism": 1.047,
-      "Other": 0.6116
-    },
-    "Arab": {
-      "Likud": 0.1345,
-      "Opposition": 0.2058,
-      "Haredi": 0.0595,
-      "Arab": 7.6314,
-      "Religious Zionism": 0.0749,
-      "Other": 0.3488
-    },
-    "Religious Zionism": {
-      "Likud": 1.2381,
-      "Opposition": 0.7788,
-      "Haredi": 1.047,
-      "Arab": 0.0749,
-      "Religious Zionism": 2.1094,
-      "Other": 1.4407
-    },
-    "Other": {
-      "Likud": 1.0921,
-      "Opposition": 1.1033,
-      "Haredi": 0.6116,
-      "Arab": 0.3488,
-      "Religious Zionism": 1.4407,
-      "Other": 1.9347
-    }
-  },
-  "cities": {
-    "Jerusalem": {
-      "stations": 706,
-      "valid_votes": 264700,
-      "vote_shares": {
-        "Likud": 0.1911,
-        "Opposition": 0.1984,
-        "Haredi": 0.4211,
-        "Arab": 0.0189,
-        "Religious Zionism": 0.1422,
-        "Other": 0.0284
-      },
-      "likud_voter_exposure": {
-        "Likud": 0.2936,
-        "Opposition": 0.266,
-        "Haredi": 0.2171,
-        "Arab": 0.0113,
-        "Religious Zionism": 0.1756,
-        "Other": 0.0364
-      },
-      "opposition_voter_exposure": {
-        "Likud": 0.2563,
-        "Opposition": 0.3855,
-        "Haredi": 0.1483,
-        "Arab": 0.0174,
-        "Religious Zionism": 0.1466,
-        "Other": 0.046
-      },
-      "dissimilarity_likud_vs": {
-        "Opposition": 0.313,
-        "Haredi": 0.6807,
-        "Arab": 0.7177,
-        "Religious Zionism": 0.2585,
-        "Other": 0.3323
-      },
-      "dissimilarity_vs_all_others": {
-        "Likud": 0.4037,
-        "Opposition": 0.5088,
-        "Haredi": 0.6666,
-        "Arab": 0.7219,
-        "Religious Zionism": 0.2832,
-        "Other": 0.3799
-      }
-    },
-    "Tel Aviv-Yafo": {
-      "stations": 736,
-      "valid_votes": 265796,
-      "vote_shares": {
-        "Likud": 0.1701,
-        "Opposition": 0.6734,
-        "Haredi": 0.0513,
-        "Arab": 0.0375,
-        "Religious Zionism": 0.045,
-        "Other": 0.0226
-      },
-      "likud_voter_exposure": {
-        "Likud": 0.2356,
-        "Opposition": 0.5622,
-        "Haredi": 0.0876,
-        "Arab": 0.0261,
-        "Religious Zionism": 0.0656,
-        "Other": 0.0229
-      },
-      "opposition_voter_exposure": {
-        "Likud": 0.142,
-        "Opposition": 0.7427,
-        "Haredi": 0.0296,
-        "Arab": 0.0278,
-        "Religious Zionism": 0.0353,
-        "Other": 0.0226
-      },
-      "dissimilarity_likud_vs": {
-        "Opposition": 0.3636,
-        "Haredi": 0.3474,
-        "Arab": 0.6408,
-        "Religious Zionism": 0.1531,
-        "Other": 0.2862
-      },
-      "dissimilarity_vs_all_others": {
-        "Likud": 0.3013,
-        "Opposition": 0.409,
-        "Haredi": 0.5792,
-        "Arab": 0.6039,
-        "Religious Zionism": 0.3361,
-        "Other": 0.1672
-      }
-    },
-    "Haifa": {
-      "stations": 424,
-      "valid_votes": 139764,
-      "vote_shares": {
-        "Likud": 0.2094,
-        "Opposition": 0.5393,
-        "Haredi": 0.0693,
-        "Arab": 0.0933,
-        "Religious Zionism": 0.0629,
-        "Other": 0.0259
-      },
-      "likud_voter_exposure": {
-        "Likud": 0.254,
-        "Opposition": 0.5393,
-        "Haredi": 0.0557,
-        "Arab": 0.0503,
-        "Religious Zionism": 0.0739,
-        "Other": 0.0268
-      },
-      "opposition_voter_exposure": {
-        "Likud": 0.2093,
-        "Opposition": 0.6148,
-        "Haredi": 0.0369,
-        "Arab": 0.0575,
-        "Religious Zionism": 0.055,
-        "Other": 0.0264
-      },
-      "dissimilarity_likud_vs": {
-        "Opposition": 0.2466,
-        "Haredi": 0.6286,
-        "Arab": 0.7384,
-        "Religious Zionism": 0.2412,
-        "Other": 0.2647
-      },
-      "dissimilarity_vs_all_others": {
-        "Likud": 0.2421,
-        "Opposition": 0.3292,
-        "Haredi": 0.6482,
-        "Arab": 0.7335,
-        "Religious Zionism": 0.3044,
-        "Other": 0.2226
-      }
-    },
-    "Rishon LeZion": {
-      "stations": 344,
-      "valid_votes": 139546,
-      "vote_shares": {
-        "Likud": 0.3235,
-        "Opposition": 0.4973,
-        "Haredi": 0.0563,
-        "Arab": 0.0012,
-        "Religious Zionism": 0.0972,
-        "Other": 0.0245
-      },
-      "likud_voter_exposure": {
-        "Likud": 0.3367,
-        "Opposition": 0.4762,
-        "Haredi": 0.0606,
-        "Arab": 0.0012,
-        "Religious Zionism": 0.1012,
-        "Other": 0.0242
-      },
-      "opposition_voter_exposure": {
-        "Likud": 0.3097,
-        "Opposition": 0.5236,
-        "Haredi": 0.0491,
-        "Arab": 0.0013,
-        "Religious Zionism": 0.0914,
-        "Other": 0.0248
-      },
-      "dissimilarity_likud_vs": {
-        "Opposition": 0.1721,
-        "Haredi": 0.1969,
-        "Arab": 0.6682,
-        "Religious Zionism": 0.1058,
-        "Other": 0.1883
-      },
-      "dissimilarity_vs_all_others": {
-        "Likud": 0.1262,
-        "Opposition": 0.1815,
-        "Haredi": 0.2514,
-        "Arab": 0.6615,
-        "Religious Zionism": 0.1417,
-        "Other": 0.1563
-      }
-    },
-    "Petah Tikva": {
-      "stations": 320,
-      "valid_votes": 133437,
-      "vote_shares": {
-        "Likud": 0.2843,
-        "Opposition": 0.405,
-        "Haredi": 0.1336,
-        "Arab": 0.0013,
-        "Religious Zionism": 0.1377,
-        "Other": 0.0382
-      },
-      "likud_voter_exposure": {
-        "Likud": 0.3067,
-        "Opposition": 0.4096,
-        "Haredi": 0.1136,
-        "Arab": 0.0013,
-        "Religious Zionism": 0.1322,
-        "Other": 0.0365
-      },
-      "opposition_voter_exposure": {
-        "Likud": 0.2876,
-        "Opposition": 0.4741,
-        "Haredi": 0.0893,
-        "Arab": 0.0014,
-        "Religious Zionism": 0.1116,
-        "Other": 0.0359
-      },
-      "dissimilarity_likud_vs": {
-        "Opposition": 0.1964,
-        "Haredi": 0.3961,
-        "Arab": 0.6236,
-        "Religious Zionism": 0.2734,
-        "Other": 0.2711
-      },
-      "dissimilarity_vs_all_others": {
-        "Likud": 0.1595,
-        "Opposition": 0.2785,
-        "Haredi": 0.4008,
-        "Arab": 0.6309,
-        "Religious Zionism": 0.2539,
-        "Other": 0.2129
-      }
-    },
-    "Ashdod": {
-      "stations": 302,
-      "valid_votes": 116294,
-      "vote_shares": {
-        "Likud": 0.2892,
-        "Opposition": 0.3115,
-        "Haredi": 0.2914,
-        "Arab": 0.0007,
-        "Religious Zionism": 0.0899,
-        "Other": 0.0172
-      },
-      "likud_voter_exposure": {
-        "Likud": 0.3475,
-        "Opposition": 0.3528,
-        "Haredi": 0.1759,
-        "Arab": 0.0007,
+      "bloc_vote_shares": {
+        "Likud": 0.234,
+        "Opposition": 0.3785,
+        "Haredi": 0.1451,
+        "Arab": 0.1134,
         "Religious Zionism": 0.1035,
-        "Other": 0.0197
-      },
-      "opposition_voter_exposure": {
-        "Likud": 0.3275,
-        "Opposition": 0.4094,
-        "Haredi": 0.1444,
-        "Arab": 0.0008,
-        "Religious Zionism": 0.0973,
-        "Other": 0.0206
-      },
-      "dissimilarity_likud_vs": {
-        "Opposition": 0.1933,
-        "Haredi": 0.5752,
-        "Arab": 0.8027,
-        "Religious Zionism": 0.1219,
-        "Other": 0.197
+        "Other": 0.0256
       },
       "dissimilarity_vs_all_others": {
-        "Likud": 0.2589,
-        "Opposition": 0.3189,
-        "Haredi": 0.5837,
-        "Arab": 0.8027,
-        "Religious Zionism": 0.1931,
-        "Other": 0.2411
-      }
-    },
-    "Netanya": {
-      "stations": 319,
-      "valid_votes": 113043,
-      "vote_shares": {
-        "Likud": 0.3551,
-        "Opposition": 0.354,
-        "Haredi": 0.1498,
-        "Arab": 0.001,
-        "Religious Zionism": 0.1139,
-        "Other": 0.0263
+        "Likud": {
+          "locality": 0.3,
+          "station": 0.3694,
+          "station_random_floor": 0.0487
+        },
+        "Opposition": {
+          "locality": 0.4305,
+          "station": 0.4983,
+          "station_random_floor": 0.0425
+        },
+        "Haredi": {
+          "locality": 0.5288,
+          "station": 0.6192,
+          "station_random_floor": 0.0586
+        },
+        "Arab": {
+          "locality": 0.8839,
+          "station": 0.9338,
+          "station_random_floor": 0.0645
+        },
+        "Religious Zionism": {
+          "locality": 0.3061,
+          "station": 0.3717,
+          "station_random_floor": 0.0677
+        },
+        "Other": {
+          "locality": 0.1921,
+          "station": 0.2929,
+          "station_random_floor": 0.131
+        }
       },
-      "likud_voter_exposure": {
-        "Likud": 0.3704,
-        "Opposition": 0.3438,
-        "Haredi": 0.1432,
-        "Arab": 0.001,
-        "Religious Zionism": 0.1152,
-        "Other": 0.0264
+      "dissimilarity_likud_vs_bloc": {
+        "Opposition": {
+          "locality": 0.3123,
+          "station": 0.3736
+        },
+        "Haredi": {
+          "locality": 0.4787,
+          "station": 0.5691
+        },
+        "Arab": {
+          "locality": 0.8768,
+          "station": 0.9378
+        },
+        "Religious Zionism": {
+          "locality": 0.2318,
+          "station": 0.2745
+        },
+        "Other": {
+          "locality": 0.2587,
+          "station": 0.3409
+        }
       },
-      "opposition_voter_exposure": {
-        "Likud": 0.3449,
-        "Opposition": 0.4141,
-        "Haredi": 0.1092,
-        "Arab": 0.001,
-        "Religious Zionism": 0.1038,
-        "Other": 0.027
+      "exposure_station": {
+        "Likud": {
+          "Likud": 0.3338,
+          "Opposition": 0.382,
+          "Haredi": 0.1129,
+          "Arab": 0.0153,
+          "Religious Zionism": 0.1281,
+          "Other": 0.028
+        },
+        "Opposition": {
+          "Likud": 0.2361,
+          "Opposition": 0.5738,
+          "Haredi": 0.0579,
+          "Arab": 0.0233,
+          "Religious Zionism": 0.0806,
+          "Other": 0.0282
+        },
+        "Haredi": {
+          "Likud": 0.1821,
+          "Opposition": 0.1512,
+          "Haredi": 0.536,
+          "Arab": 0.0068,
+          "Religious Zionism": 0.1083,
+          "Other": 0.0157
+        },
+        "Arab": {
+          "Likud": 0.0315,
+          "Opposition": 0.0779,
+          "Haredi": 0.0086,
+          "Arab": 0.8653,
+          "Religious Zionism": 0.0078,
+          "Other": 0.0089
+        },
+        "Religious Zionism": {
+          "Likud": 0.2897,
+          "Opposition": 0.2948,
+          "Haredi": 0.1519,
+          "Arab": 0.0085,
+          "Religious Zionism": 0.2183,
+          "Other": 0.0369
+        },
+        "Other": {
+          "Likud": 0.2555,
+          "Opposition": 0.4176,
+          "Haredi": 0.0887,
+          "Arab": 0.0395,
+          "Religious Zionism": 0.1491,
+          "Other": 0.0495
+        }
       },
-      "dissimilarity_likud_vs": {
-        "Opposition": 0.2186,
-        "Haredi": 0.3247,
-        "Arab": 0.7111,
-        "Religious Zionism": 0.1578,
-        "Other": 0.2069
+      "exposure_locality": {
+        "Likud": {
+          "Likud": 0.3066,
+          "Opposition": 0.3907,
+          "Haredi": 0.1313,
+          "Arab": 0.0221,
+          "Religious Zionism": 0.1218,
+          "Other": 0.0275
+        },
+        "Opposition": {
+          "Likud": 0.2415,
+          "Opposition": 0.5318,
+          "Haredi": 0.0845,
+          "Arab": 0.0283,
+          "Religious Zionism": 0.0864,
+          "Other": 0.0275
+        },
+        "Haredi": {
+          "Likud": 0.2117,
+          "Opposition": 0.2204,
+          "Haredi": 0.4183,
+          "Arab": 0.0145,
+          "Religious Zionism": 0.115,
+          "Other": 0.02
+        },
+        "Arab": {
+          "Likud": 0.0457,
+          "Opposition": 0.0946,
+          "Haredi": 0.0186,
+          "Arab": 0.8184,
+          "Religious Zionism": 0.0133,
+          "Other": 0.0095
+        },
+        "Religious Zionism": {
+          "Likud": 0.2755,
+          "Opposition": 0.3159,
+          "Haredi": 0.1612,
+          "Arab": 0.0146,
+          "Religious Zionism": 0.1976,
+          "Other": 0.0352
+        },
+        "Other": {
+          "Likud": 0.2509,
+          "Opposition": 0.407,
+          "Haredi": 0.1133,
+          "Arab": 0.042,
+          "Religious Zionism": 0.1423,
+          "Other": 0.0445
+        }
       },
-      "dissimilarity_vs_all_others": {
-        "Likud": 0.133,
-        "Opposition": 0.274,
-        "Haredi": 0.3702,
-        "Arab": 0.7136,
-        "Religious Zionism": 0.1715,
-        "Other": 0.1964
-      }
-    },
-    "Be'er Sheva": {
-      "stations": 283,
-      "valid_votes": 100204,
-      "vote_shares": {
-        "Likud": 0.403,
-        "Opposition": 0.3034,
-        "Haredi": 0.1042,
-        "Arab": 0.0084,
-        "Religious Zionism": 0.1567,
-        "Other": 0.0244
+      "exposure_ratio_station": {
+        "Likud": {
+          "Likud": 1.4268,
+          "Opposition": 1.0091,
+          "Haredi": 0.7783,
+          "Arab": 0.1345,
+          "Religious Zionism": 1.2381,
+          "Other": 1.0921
+        },
+        "Opposition": {
+          "Likud": 1.0091,
+          "Opposition": 1.5159,
+          "Haredi": 0.3994,
+          "Arab": 0.2058,
+          "Religious Zionism": 0.7788,
+          "Other": 1.1033
+        },
+        "Haredi": {
+          "Likud": 0.7783,
+          "Opposition": 0.3994,
+          "Haredi": 3.6949,
+          "Arab": 0.0595,
+          "Religious Zionism": 1.047,
+          "Other": 0.6116
+        },
+        "Arab": {
+          "Likud": 0.1345,
+          "Opposition": 0.2058,
+          "Haredi": 0.0595,
+          "Arab": 7.6314,
+          "Religious Zionism": 0.0749,
+          "Other": 0.3488
+        },
+        "Religious Zionism": {
+          "Likud": 1.2381,
+          "Opposition": 0.7788,
+          "Haredi": 1.047,
+          "Arab": 0.0749,
+          "Religious Zionism": 2.1094,
+          "Other": 1.4407
+        },
+        "Other": {
+          "Likud": 1.0921,
+          "Opposition": 1.1033,
+          "Haredi": 0.6116,
+          "Arab": 0.3488,
+          "Religious Zionism": 1.4407,
+          "Other": 1.9347
+        }
       },
-      "likud_voter_exposure": {
-        "Likud": 0.4098,
-        "Opposition": 0.2988,
-        "Haredi": 0.1026,
-        "Arab": 0.0084,
-        "Religious Zionism": 0.1562,
-        "Other": 0.0242
+      "cities": {
+        "Jerusalem": {
+          "stations": 706,
+          "valid_votes": 264700,
+          "vote_shares": {
+            "Likud": 0.1911,
+            "Opposition": 0.1984,
+            "Haredi": 0.4211,
+            "Arab": 0.0189,
+            "Religious Zionism": 0.1422,
+            "Other": 0.0284
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.2936,
+            "Opposition": 0.266,
+            "Haredi": 0.2171,
+            "Arab": 0.0113,
+            "Religious Zionism": 0.1756,
+            "Other": 0.0364
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.313,
+            "Haredi": 0.6807,
+            "Arab": 0.7177,
+            "Religious Zionism": 0.2585,
+            "Other": 0.3323
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.4037,
+            "Opposition": 0.5088,
+            "Haredi": 0.6666,
+            "Arab": 0.7219,
+            "Religious Zionism": 0.2832,
+            "Other": 0.3799
+          }
+        },
+        "Tel Aviv-Yafo": {
+          "stations": 736,
+          "valid_votes": 265796,
+          "vote_shares": {
+            "Likud": 0.1701,
+            "Opposition": 0.6734,
+            "Haredi": 0.0513,
+            "Arab": 0.0375,
+            "Religious Zionism": 0.045,
+            "Other": 0.0226
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.2356,
+            "Opposition": 0.5622,
+            "Haredi": 0.0876,
+            "Arab": 0.0261,
+            "Religious Zionism": 0.0656,
+            "Other": 0.0229
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.3636,
+            "Haredi": 0.3474,
+            "Arab": 0.6408,
+            "Religious Zionism": 0.1531,
+            "Other": 0.2862
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.3013,
+            "Opposition": 0.409,
+            "Haredi": 0.5792,
+            "Arab": 0.6039,
+            "Religious Zionism": 0.3361,
+            "Other": 0.1672
+          }
+        },
+        "Haifa": {
+          "stations": 424,
+          "valid_votes": 139764,
+          "vote_shares": {
+            "Likud": 0.2094,
+            "Opposition": 0.5393,
+            "Haredi": 0.0693,
+            "Arab": 0.0933,
+            "Religious Zionism": 0.0629,
+            "Other": 0.0259
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.254,
+            "Opposition": 0.5393,
+            "Haredi": 0.0557,
+            "Arab": 0.0503,
+            "Religious Zionism": 0.0739,
+            "Other": 0.0268
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.2466,
+            "Haredi": 0.6286,
+            "Arab": 0.7384,
+            "Religious Zionism": 0.2412,
+            "Other": 0.2647
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.2421,
+            "Opposition": 0.3292,
+            "Haredi": 0.6482,
+            "Arab": 0.7335,
+            "Religious Zionism": 0.3044,
+            "Other": 0.2226
+          }
+        },
+        "Rishon LeZion": {
+          "stations": 344,
+          "valid_votes": 139546,
+          "vote_shares": {
+            "Likud": 0.3235,
+            "Opposition": 0.4973,
+            "Haredi": 0.0563,
+            "Arab": 0.0012,
+            "Religious Zionism": 0.0972,
+            "Other": 0.0245
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.3367,
+            "Opposition": 0.4762,
+            "Haredi": 0.0606,
+            "Arab": 0.0012,
+            "Religious Zionism": 0.1012,
+            "Other": 0.0242
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.1721,
+            "Haredi": 0.1969,
+            "Arab": 0.6682,
+            "Religious Zionism": 0.1058,
+            "Other": 0.1883
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.1262,
+            "Opposition": 0.1815,
+            "Haredi": 0.2514,
+            "Arab": 0.6615,
+            "Religious Zionism": 0.1417,
+            "Other": 0.1563
+          }
+        },
+        "Petah Tikva": {
+          "stations": 320,
+          "valid_votes": 133437,
+          "vote_shares": {
+            "Likud": 0.2843,
+            "Opposition": 0.405,
+            "Haredi": 0.1336,
+            "Arab": 0.0013,
+            "Religious Zionism": 0.1377,
+            "Other": 0.0382
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.3067,
+            "Opposition": 0.4096,
+            "Haredi": 0.1136,
+            "Arab": 0.0013,
+            "Religious Zionism": 0.1322,
+            "Other": 0.0365
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.1964,
+            "Haredi": 0.3961,
+            "Arab": 0.6236,
+            "Religious Zionism": 0.2734,
+            "Other": 0.2711
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.1595,
+            "Opposition": 0.2785,
+            "Haredi": 0.4008,
+            "Arab": 0.6309,
+            "Religious Zionism": 0.2539,
+            "Other": 0.2129
+          }
+        },
+        "Ashdod": {
+          "stations": 302,
+          "valid_votes": 116294,
+          "vote_shares": {
+            "Likud": 0.2892,
+            "Opposition": 0.3115,
+            "Haredi": 0.2914,
+            "Arab": 0.0007,
+            "Religious Zionism": 0.0899,
+            "Other": 0.0172
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.3475,
+            "Opposition": 0.3528,
+            "Haredi": 0.1759,
+            "Arab": 0.0007,
+            "Religious Zionism": 0.1035,
+            "Other": 0.0197
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.1933,
+            "Haredi": 0.5752,
+            "Arab": 0.8027,
+            "Religious Zionism": 0.1219,
+            "Other": 0.197
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.2589,
+            "Opposition": 0.3189,
+            "Haredi": 0.5837,
+            "Arab": 0.8027,
+            "Religious Zionism": 0.1931,
+            "Other": 0.2411
+          }
+        },
+        "Netanya": {
+          "stations": 319,
+          "valid_votes": 113043,
+          "vote_shares": {
+            "Likud": 0.3551,
+            "Opposition": 0.354,
+            "Haredi": 0.1498,
+            "Arab": 0.001,
+            "Religious Zionism": 0.1139,
+            "Other": 0.0263
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.3704,
+            "Opposition": 0.3438,
+            "Haredi": 0.1432,
+            "Arab": 0.001,
+            "Religious Zionism": 0.1152,
+            "Other": 0.0264
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.2186,
+            "Haredi": 0.3247,
+            "Arab": 0.7111,
+            "Religious Zionism": 0.1578,
+            "Other": 0.2069
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.133,
+            "Opposition": 0.274,
+            "Haredi": 0.3702,
+            "Arab": 0.7136,
+            "Religious Zionism": 0.1715,
+            "Other": 0.1964
+          }
+        },
+        "Be'er Sheva": {
+          "stations": 283,
+          "valid_votes": 100204,
+          "vote_shares": {
+            "Likud": 0.403,
+            "Opposition": 0.3034,
+            "Haredi": 0.1042,
+            "Arab": 0.0084,
+            "Religious Zionism": 0.1567,
+            "Other": 0.0244
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.4098,
+            "Opposition": 0.2988,
+            "Haredi": 0.1026,
+            "Arab": 0.0084,
+            "Religious Zionism": 0.1562,
+            "Other": 0.0242
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.1467,
+            "Haredi": 0.2095,
+            "Arab": 0.4489,
+            "Religious Zionism": 0.1223,
+            "Other": 0.1682
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.0956,
+            "Opposition": 0.1565,
+            "Haredi": 0.2243,
+            "Arab": 0.4518,
+            "Religious Zionism": 0.1238,
+            "Other": 0.1519
+          }
+        },
+        "Bnei Brak": {
+          "stations": 187,
+          "valid_votes": 87692,
+          "vote_shares": {
+            "Likud": 0.0339,
+            "Opposition": 0.018,
+            "Haredi": 0.8996,
+            "Arab": 0.0002,
+            "Religious Zionism": 0.0443,
+            "Other": 0.004
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.0879,
+            "Opposition": 0.0521,
+            "Haredi": 0.7809,
+            "Arab": 0.0004,
+            "Religious Zionism": 0.0705,
+            "Other": 0.0083
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.2508,
+            "Haredi": 0.4723,
+            "Arab": 0.8309,
+            "Religious Zionism": 0.2829,
+            "Other": 0.3753
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.4485,
+            "Opposition": 0.5554,
+            "Haredi": 0.3998,
+            "Arab": 0.8994,
+            "Religious Zionism": 0.2937,
+            "Other": 0.4726
+          }
+        },
+        "Holon": {
+          "stations": 259,
+          "valid_votes": 101811,
+          "vote_shares": {
+            "Likud": 0.3467,
+            "Opposition": 0.4127,
+            "Haredi": 0.1136,
+            "Arab": 0.0013,
+            "Religious Zionism": 0.102,
+            "Other": 0.0237
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.3527,
+            "Opposition": 0.4045,
+            "Haredi": 0.1151,
+            "Arab": 0.0012,
+            "Religious Zionism": 0.103,
+            "Other": 0.0235
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.1394,
+            "Haredi": 0.2086,
+            "Arab": 0.6259,
+            "Religious Zionism": 0.098,
+            "Other": 0.1737
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.0893,
+            "Opposition": 0.1605,
+            "Haredi": 0.2435,
+            "Arab": 0.6181,
+            "Religious Zionism": 0.1072,
+            "Other": 0.1553
+          }
+        }
       },
-      "opposition_voter_exposure": {
-        "Likud": 0.3969,
-        "Opposition": 0.3238,
-        "Haredi": 0.0941,
-        "Arab": 0.0082,
-        "Religious Zionism": 0.1524,
-        "Other": 0.0246
+      "correlation_with_likud_share": {
+        "stations_unweighted": {
+          "Opposition": 0.0188,
+          "Haredi": -0.1363,
+          "Arab": -0.5502,
+          "Religious Zionism": 0.3482,
+          "Other": 0.1293
+        },
+        "stations_weighted": {
+          "Opposition": 0.0135,
+          "Haredi": -0.2065,
+          "Arab": -0.51,
+          "Religious Zionism": 0.3355,
+          "Other": 0.1329
+        },
+        "localities_weighted": {
+          "Opposition": 0.0898,
+          "Haredi": -0.1243,
+          "Arab": -0.5786,
+          "Religious Zionism": 0.3324,
+          "Other": 0.1487
+        },
+        "min_station_valid_votes": 50
       },
-      "dissimilarity_likud_vs": {
-        "Opposition": 0.1467,
-        "Haredi": 0.2095,
-        "Arab": 0.4489,
-        "Religious Zionism": 0.1223,
-        "Other": 0.1682
-      },
-      "dissimilarity_vs_all_others": {
-        "Likud": 0.0956,
-        "Opposition": 0.1565,
-        "Haredi": 0.2243,
-        "Arab": 0.4518,
-        "Religious Zionism": 0.1238,
-        "Other": 0.1519
-      }
-    },
-    "Bnei Brak": {
-      "stations": 187,
-      "valid_votes": 87692,
-      "vote_shares": {
-        "Likud": 0.0339,
-        "Opposition": 0.018,
-        "Haredi": 0.8996,
-        "Arab": 0.0002,
-        "Religious Zionism": 0.0443,
-        "Other": 0.004
-      },
-      "likud_voter_exposure": {
-        "Likud": 0.0879,
-        "Opposition": 0.0521,
-        "Haredi": 0.7809,
-        "Arab": 0.0004,
-        "Religious Zionism": 0.0705,
-        "Other": 0.0083
-      },
-      "opposition_voter_exposure": {
-        "Likud": 0.0978,
-        "Opposition": 0.0707,
-        "Haredi": 0.7428,
-        "Arab": 0.0005,
-        "Religious Zionism": 0.078,
-        "Other": 0.0102
-      },
-      "dissimilarity_likud_vs": {
-        "Opposition": 0.2508,
-        "Haredi": 0.4723,
-        "Arab": 0.8309,
-        "Religious Zionism": 0.2829,
-        "Other": 0.3753
-      },
-      "dissimilarity_vs_all_others": {
-        "Likud": 0.4485,
-        "Opposition": 0.5554,
-        "Haredi": 0.3998,
-        "Arab": 0.8994,
-        "Religious Zionism": 0.2937,
-        "Other": 0.4726
-      }
-    },
-    "Holon": {
-      "stations": 259,
-      "valid_votes": 101811,
-      "vote_shares": {
-        "Likud": 0.3467,
-        "Opposition": 0.4127,
-        "Haredi": 0.1136,
-        "Arab": 0.0013,
-        "Religious Zionism": 0.102,
-        "Other": 0.0237
-      },
-      "likud_voter_exposure": {
-        "Likud": 0.3527,
-        "Opposition": 0.4045,
-        "Haredi": 0.1151,
-        "Arab": 0.0012,
-        "Religious Zionism": 0.103,
-        "Other": 0.0235
-      },
-      "opposition_voter_exposure": {
-        "Likud": 0.3397,
-        "Opposition": 0.4347,
-        "Haredi": 0.101,
-        "Arab": 0.0014,
-        "Religious Zionism": 0.0988,
-        "Other": 0.0244
-      },
-      "dissimilarity_likud_vs": {
-        "Opposition": 0.1394,
-        "Haredi": 0.2086,
-        "Arab": 0.6259,
-        "Religious Zionism": 0.098,
-        "Other": 0.1737
-      },
-      "dissimilarity_vs_all_others": {
-        "Likud": 0.0893,
-        "Opposition": 0.1605,
-        "Haredi": 0.2435,
-        "Arab": 0.6181,
-        "Religious Zionism": 0.1072,
-        "Other": 0.1553
+      "locality_type": {
+        "official_type_in_files": false,
+        "note": "Classes are derived from votes and size, not official types.",
+        "classes": {
+          "Arab parties won over half the votes": {
+            "localities": 125,
+            "stations": 1450,
+            "valid_votes": 446860,
+            "vote_shares": {
+              "Likud": 0.0132,
+              "Opposition": 0.0438,
+              "Haredi": 0.0041,
+              "Arab": 0.9308,
+              "Religious Zionism": 0.001,
+              "Other": 0.0071
+            },
+            "likud_voter_exposure_station": {
+              "Likud": 0.0414,
+              "Opposition": 0.0869,
+              "Haredi": 0.0049,
+              "Arab": 0.857,
+              "Religious Zionism": 0.0014,
+              "Other": 0.0084
+            },
+            "dissimilarity_likud_vs_opposition_station": 0.461,
+            "dissimilarity_likud_vs_opposition_locality": 0.3157,
+            "correlation_likud_vs_opposition_station": 0.3609
+          },
+          "Haredi parties won over half the votes": {
+            "localities": 20,
+            "stations": 508,
+            "valid_votes": 228775,
+            "vote_shares": {
+              "Likud": 0.0569,
+              "Opposition": 0.0249,
+              "Haredi": 0.8257,
+              "Arab": 0.0002,
+              "Religious Zionism": 0.0844,
+              "Other": 0.008
+            },
+            "likud_voter_exposure_station": {
+              "Likud": 0.2435,
+              "Opposition": 0.1088,
+              "Haredi": 0.4697,
+              "Arab": 0.0006,
+              "Religious Zionism": 0.1558,
+              "Other": 0.0217
+            },
+            "dissimilarity_likud_vs_opposition_station": 0.2551,
+            "dissimilarity_likud_vs_opposition_locality": 0.0878,
+            "correlation_likud_vs_opposition_station": 0.8554
+          },
+          "Other places, 80,000+ valid votes": {
+            "localities": 10,
+            "stations": 3919,
+            "valid_votes": 1464937,
+            "vote_shares": {
+              "Likud": 0.2579,
+              "Opposition": 0.4334,
+              "Haredi": 0.1623,
+              "Arab": 0.0205,
+              "Religious Zionism": 0.0998,
+              "Other": 0.0261
+            },
+            "likud_voter_exposure_station": {
+              "Likud": 0.3179,
+              "Opposition": 0.4121,
+              "Haredi": 0.1182,
+              "Arab": 0.0103,
+              "Religious Zionism": 0.1143,
+              "Other": 0.0272
+            },
+            "dissimilarity_likud_vs_opposition_station": 0.3228,
+            "dissimilarity_likud_vs_opposition_locality": 0.2382,
+            "correlation_likud_vs_opposition_station": -0.2104
+          },
+          "Other places, 30,000-79,999 valid votes": {
+            "localities": 16,
+            "stations": 1926,
+            "valid_votes": 750682,
+            "vote_shares": {
+              "Likud": 0.2957,
+              "Opposition": 0.4598,
+              "Haredi": 0.0917,
+              "Arab": 0.0199,
+              "Religious Zionism": 0.1056,
+              "Other": 0.0274
+            },
+            "likud_voter_exposure_station": {
+              "Likud": 0.3427,
+              "Opposition": 0.4009,
+              "Haredi": 0.1023,
+              "Arab": 0.0104,
+              "Religious Zionism": 0.1173,
+              "Other": 0.0263
+            },
+            "dissimilarity_likud_vs_opposition_station": 0.3477,
+            "dissimilarity_likud_vs_opposition_locality": 0.2857,
+            "correlation_likud_vs_opposition_station": -0.6449
+          },
+          "Other places, 10,000-29,999 valid votes": {
+            "localities": 43,
+            "stations": 1965,
+            "valid_votes": 751634,
+            "vote_shares": {
+              "Likud": 0.3299,
+              "Opposition": 0.3802,
+              "Haredi": 0.1235,
+              "Arab": 0.0225,
+              "Religious Zionism": 0.119,
+              "Other": 0.0249
+            },
+            "likud_voter_exposure_station": {
+              "Likud": 0.3761,
+              "Opposition": 0.3381,
+              "Haredi": 0.1203,
+              "Arab": 0.012,
+              "Religious Zionism": 0.1294,
+              "Other": 0.024
+            },
+            "dissimilarity_likud_vs_opposition_station": 0.3398,
+            "dissimilarity_likud_vs_opposition_locality": 0.2891,
+            "correlation_likud_vs_opposition_station": -0.5052
+          },
+          "Other places, under 10,000 valid votes": {
+            "localities": 1001,
+            "stations": 1939,
+            "valid_votes": 663140,
+            "vote_shares": {
+              "Likud": 0.2123,
+              "Opposition": 0.5109,
+              "Haredi": 0.052,
+              "Arab": 0.0158,
+              "Religious Zionism": 0.1673,
+              "Other": 0.0418
+            },
+            "likud_voter_exposure_station": {
+              "Likud": 0.3084,
+              "Opposition": 0.386,
+              "Haredi": 0.074,
+              "Arab": 0.0079,
+              "Religious Zionism": 0.1827,
+              "Other": 0.0409
+            },
+            "dissimilarity_likud_vs_opposition_station": 0.4966,
+            "dissimilarity_likud_vs_opposition_locality": 0.4831,
+            "correlation_likud_vs_opposition_station": -0.6097
+          }
+        }
       }
     }
   },
-  "correlation_with_likud_share": {
-    "stations_unweighted": {
-      "Opposition": 0.0188,
-      "Haredi": -0.1363,
-      "Arab": -0.5502,
-      "Religious Zionism": 0.3482,
-      "Other": 0.1293
-    },
-    "stations_weighted": {
-      "Opposition": 0.0135,
-      "Haredi": -0.2065,
-      "Arab": -0.51,
-      "Religious Zionism": 0.3355,
-      "Other": 0.1329
-    },
-    "localities_weighted": {
-      "Opposition": 0.0898,
-      "Haredi": -0.1243,
-      "Arab": -0.5786,
-      "Religious Zionism": 0.3324,
-      "Other": 0.1487
-    },
-    "min_station_valid_votes": 50
-  },
-  "locality_type": {
-    "official_type_in_files": false,
-    "note": "Classes below are derived from votes and size, not official types.",
-    "classes": {
-      "Arab parties won over half the votes": {
-        "localities": 125,
-        "stations": 1450,
-        "valid_votes": 446860,
-        "vote_shares": {
-          "Likud": 0.0132,
-          "Opposition": 0.0438,
-          "Haredi": 0.0041,
-          "Arab": 0.9308,
-          "Religious Zionism": 0.001,
-          "Other": 0.0071
+  "2026": {
+    "national_check": {
+      "rows": [
+        {
+          "letters": "מחל",
+          "name": "Likud",
+          "seats": 27,
+          "locality_file": 1167591,
+          "ballot_box_file": 1167591,
+          "official": 1167591,
+          "match": true
         },
-        "likud_voter_exposure_station": {
-          "Likud": 0.0414,
-          "Opposition": 0.0869,
-          "Haredi": 0.0049,
-          "Arab": 0.857,
-          "Religious Zionism": 0.0014,
-          "Other": 0.0084
+        {
+          "letters": "דרך",
+          "name": "Yashar",
+          "seats": 21,
+          "locality_file": 913629,
+          "ballot_box_file": 913629,
+          "official": 913629,
+          "match": true
         },
-        "dissimilarity_likud_vs_opposition_station": 0.461,
-        "dissimilarity_likud_vs_opposition_locality": 0.3157,
-        "correlation_likud_vs_opposition_station": 0.3609
+        {
+          "letters": "רק",
+          "name": "Together",
+          "seats": 12,
+          "locality_file": 532018,
+          "ballot_box_file": 532018,
+          "official": 532018,
+          "match": true
+        },
+        {
+          "letters": "ודם",
+          "name": "Joint List",
+          "seats": 11,
+          "locality_file": 500755,
+          "ballot_box_file": 500755,
+          "official": 500755,
+          "match": true
+        },
+        {
+          "letters": "אמת",
+          "name": "The Democrats",
+          "seats": 8,
+          "locality_file": 366278,
+          "ballot_box_file": 366278,
+          "official": 366278,
+          "match": true
+        },
+        {
+          "letters": "עם",
+          "name": "Ra'am",
+          "seats": 8,
+          "locality_file": 337720,
+          "ballot_box_file": 337720,
+          "official": 337720,
+          "match": true
+        },
+        {
+          "letters": "ל",
+          "name": "Yisrael Beiteinu",
+          "seats": 7,
+          "locality_file": 337450,
+          "ballot_box_file": 337450,
+          "official": 337450,
+          "match": true
+        },
+        {
+          "letters": "ב",
+          "name": "Otzma Yehudit",
+          "seats": 7,
+          "locality_file": 326793,
+          "ballot_box_file": 326793,
+          "official": 326793,
+          "match": true
+        },
+        {
+          "letters": "ג",
+          "name": "United Torah Judaism",
+          "seats": 7,
+          "locality_file": 312632,
+          "ballot_box_file": 312632,
+          "official": 312632,
+          "match": true
+        },
+        {
+          "letters": "שס",
+          "name": "Shas",
+          "seats": 6,
+          "locality_file": 299533,
+          "ballot_box_file": 299533,
+          "official": 299533,
+          "match": true
+        },
+        {
+          "letters": "ט",
+          "name": "Religious Zionism",
+          "seats": 6,
+          "locality_file": 290549,
+          "ballot_box_file": 290549,
+          "official": 290549,
+          "match": true
+        },
+        {
+          "letters": "די",
+          "name": "Reservists",
+          "seats": 0,
+          "locality_file": 155199,
+          "ballot_box_file": 155199,
+          "official": 155199,
+          "match": true
+        },
+        {
+          "letters": "ך",
+          "name": "Am Yisrael",
+          "seats": 0,
+          "locality_file": 95764,
+          "ballot_box_file": 95764,
+          "official": 95764,
+          "match": true
+        },
+        {
+          "letters": "נר",
+          "name": "צבע שחור - מגן עולם התורה",
+          "seats": 0,
+          "locality_file": 11271,
+          "ballot_box_file": 11271,
+          "official": 11271,
+          "match": true
+        },
+        {
+          "letters": "זך",
+          "name": "הציבור החרדי בראשות מוטי ליטנר",
+          "seats": 0,
+          "locality_file": 10604,
+          "ballot_box_file": 10604,
+          "official": 10604,
+          "match": true
+        },
+        {
+          "letters": "ני",
+          "name": "נעם לישראל למען עתיד הילדים בראשות אבי מעוז",
+          "seats": 0,
+          "locality_file": 9928,
+          "ballot_box_file": 9928,
+          "official": 9928,
+          "match": true
+        },
+        {
+          "letters": "בי",
+          "name": "צומת בית ישראל",
+          "seats": 0,
+          "locality_file": 5713,
+          "ballot_box_file": 5713,
+          "official": 5713,
+          "match": true
+        },
+        {
+          "letters": "ד",
+          "name": "השותפות לכולם",
+          "seats": 0,
+          "locality_file": 4077,
+          "ballot_box_file": 4077,
+          "official": 4077,
+          "match": true
+        },
+        {
+          "letters": "צדק",
+          "name": "שרשר לאהבה ואחדות העם",
+          "seats": 0,
+          "locality_file": 2086,
+          "ballot_box_file": 2086,
+          "official": 2086,
+          "match": true
+        },
+        {
+          "letters": "בד",
+          "name": "מפלגת ביחד נצליח - רשימה משותפת ערבית יהודית בראשות אבי שקד",
+          "seats": 0,
+          "locality_file": 1438,
+          "ballot_box_file": 1438,
+          "official": 1438,
+          "match": true
+        },
+        {
+          "letters": "צף",
+          "name": "הפיראטים - צפים לטוב",
+          "seats": 0,
+          "locality_file": 1049,
+          "ballot_box_file": 1049,
+          "official": 1049,
+          "match": true
+        },
+        {
+          "letters": "י",
+          "name": "ישראל תחילה בראשות שרן השכל",
+          "seats": 0,
+          "locality_file": 933,
+          "ballot_box_file": 933,
+          "official": 933,
+          "match": true
+        },
+        {
+          "letters": "קך",
+          "name": "סדר-חדש לכינון חוקה, להפרדת רשויות ובחירות אישיות",
+          "seats": 0,
+          "locality_file": 918,
+          "ballot_box_file": 918,
+          "official": 918,
+          "match": true
+        },
+        {
+          "letters": "פה",
+          "name": "אני ואתה מפלגת העם הישראלית",
+          "seats": 0,
+          "locality_file": 871,
+          "ballot_box_file": 871,
+          "official": 871,
+          "match": true
+        },
+        {
+          "letters": "קץ",
+          "name": "משפט צדק",
+          "seats": 0,
+          "locality_file": 778,
+          "ballot_box_file": 778,
+          "official": 778,
+          "match": true
+        },
+        {
+          "letters": "נקי",
+          "name": "התיקון לשיטת הבחירות והממשל",
+          "seats": 0,
+          "locality_file": 761,
+          "ballot_box_file": 761,
+          "official": 761,
+          "match": true
+        },
+        {
+          "letters": "בקר",
+          "name": "אורות השחר בראשות ניסים לוק",
+          "seats": 0,
+          "locality_file": 747,
+          "ballot_box_file": 747,
+          "official": 747,
+          "match": true
+        },
+        {
+          "letters": "קה",
+          "name": "קול הנשים",
+          "seats": 0,
+          "locality_file": 712,
+          "ballot_box_file": 712,
+          "official": 712,
+          "match": true
+        },
+        {
+          "letters": "רץ",
+          "name": "הקהל - מפלגה כלל חרדית שנציגיה נבחרים על ידי הציבור בראשות הרב שלמה אלבוים",
+          "seats": 0,
+          "locality_file": 580,
+          "ballot_box_file": 580,
+          "official": 580,
+          "match": true
+        },
+        {
+          "letters": "ק",
+          "name": "תקומה",
+          "seats": 0,
+          "locality_file": 569,
+          "ballot_box_file": 569,
+          "official": 569,
+          "match": true
+        },
+        {
+          "letters": "נף",
+          "name": "שמע בראשות נפתלי גולדמן",
+          "seats": 0,
+          "locality_file": 524,
+          "ballot_box_file": 524,
+          "official": 524,
+          "match": true
+        },
+        {
+          "letters": "ז",
+          "name": "בטח - בטחון חברתי בראשות סמיון גרפמן",
+          "seats": 0,
+          "locality_file": 501,
+          "ballot_box_file": 501,
+          "official": 501,
+          "match": true
+        },
+        {
+          "letters": "נץ",
+          "name": "ביטחון אישי",
+          "seats": 0,
+          "locality_file": 482,
+          "ballot_box_file": 482,
+          "official": 482,
+          "match": true
+        },
+        {
+          "letters": "יק",
+          "name": "גה\"ת - גוש התנ\"כי",
+          "seats": 0,
+          "locality_file": 399,
+          "ballot_box_file": 399,
+          "official": 399,
+          "match": true
+        },
+        {
+          "letters": "ה",
+          "name": "גן עדן בראשות ישוע ישראל בן דוד",
+          "seats": 0,
+          "locality_file": 322,
+          "ballot_box_file": 322,
+          "official": 322,
+          "match": true
+        },
+        {
+          "letters": "זץ",
+          "name": "ברית עולם לגאולת ישראל",
+          "seats": 0,
+          "locality_file": 252,
+          "ballot_box_file": 252,
+          "official": 252,
+          "match": true
+        },
+        {
+          "letters": "כן",
+          "name": "כחול לבן בראשות בני גנץ",
+          "seats": 0,
+          "locality_file": 0,
+          "ballot_box_file": 0,
+          "official": 0,
+          "match": true
+        },
+        {
+          "letters": "צבי",
+          "name": "תנועת אחי תנועתו של הרב יורם אברג'ל זצ\"ל",
+          "seats": 0,
+          "locality_file": 0,
+          "ballot_box_file": 0,
+          "official": 0,
+          "match": true
+        }
+      ],
+      "info": {
+        "valid_votes_locality_file": 5691426,
+        "valid_votes_ballot_box_file": 5691426,
+        "valid_votes_on_page": true,
+        "page_lists": 38,
+        "page_vote_sum": 5691426,
+        "letters_with_votes_not_on_page": [],
+        "seats_on_page": 120
       },
-      "Haredi parties won over half the votes": {
-        "localities": 20,
-        "stations": 508,
-        "valid_votes": 228775,
-        "vote_shares": {
-          "Likud": 0.0569,
-          "Opposition": 0.0249,
-          "Haredi": 0.8257,
-          "Arab": 0.0002,
-          "Religious Zionism": 0.0844,
-          "Other": 0.008
-        },
-        "likud_voter_exposure_station": {
-          "Likud": 0.2435,
-          "Opposition": 0.1088,
-          "Haredi": 0.4697,
-          "Arab": 0.0006,
-          "Religious Zionism": 0.1558,
-          "Other": 0.0217
-        },
-        "dissimilarity_likud_vs_opposition_station": 0.2551,
-        "dissimilarity_likud_vs_opposition_locality": 0.0878,
-        "correlation_likud_vs_opposition_station": 0.8554
+      "all_match": true
+    },
+    "main": {
+      "election": "26th Knesset, 27 October 2026",
+      "variant": "main",
+      "blocs": {
+        "Likud": [
+          "מחל"
+        ],
+        "Opposition": [
+          "אמת",
+          "ל"
+        ],
+        "Yashar": [
+          "דרך"
+        ],
+        "Together": [
+          "רק"
+        ],
+        "Reservists": [
+          "די"
+        ],
+        "Haredi": [
+          "שס",
+          "ג"
+        ],
+        "Arab": [
+          "ודם",
+          "עם"
+        ],
+        "Religious Zionism + Otzma": [
+          "ט",
+          "ב"
+        ]
       },
-      "Other places, 80,000+ valid votes": {
-        "localities": 10,
-        "stations": 3919,
-        "valid_votes": 1464937,
-        "vote_shares": {
-          "Likud": 0.2579,
-          "Opposition": 0.4334,
-          "Haredi": 0.1623,
-          "Arab": 0.0205,
-          "Religious Zionism": 0.0998,
-          "Other": 0.0261
+      "files": {
+        "locality": {
+          "rows": 1225,
+          "encoding": "utf-8-sig"
         },
-        "likud_voter_exposure_station": {
-          "Likud": 0.3179,
-          "Opposition": 0.4121,
-          "Haredi": 0.1182,
-          "Arab": 0.0103,
-          "Religious Zionism": 0.1143,
-          "Other": 0.0272
-        },
-        "dissimilarity_likud_vs_opposition_station": 0.3228,
-        "dissimilarity_likud_vs_opposition_locality": 0.2382,
-        "correlation_likud_vs_opposition_station": -0.2104
+        "ballot_box": {
+          "rows": 12929,
+          "encoding": "utf-8-sig"
+        }
       },
-      "Other places, 30,000-79,999 valid votes": {
-        "localities": 16,
-        "stations": 1926,
-        "valid_votes": 750682,
-        "vote_shares": {
-          "Likud": 0.2957,
-          "Opposition": 0.4598,
-          "Haredi": 0.0917,
-          "Arab": 0.0199,
-          "Religious Zionism": 0.1056,
+      "double_envelopes": {
+        "rows": 911,
+        "valid_votes": 450074,
+        "total_valid_votes": 5691426,
+        "share": 0.0791
+      },
+      "units": {
+        "localities": 1224,
+        "stations": 12018,
+        "stations_dropped_by_filter": 0,
+        "valid_votes": 5241352
+      },
+      "bloc_vote_shares": {
+        "Likud": 0.2067,
+        "Opposition": 0.1241,
+        "Yashar": 0.1614,
+        "Together": 0.0899,
+        "Reservists": 0.0263,
+        "Haredi": 0.1091,
+        "Arab": 0.1549,
+        "Religious Zionism + Otzma": 0.1023,
+        "Other": 0.0254
+      },
+      "dissimilarity_vs_all_others": {
+        "Likud": {
+          "locality": 0.3469,
+          "station": 0.4172,
+          "station_random_floor": 0.0464
+        },
+        "Opposition": {
+          "locality": 0.3116,
+          "station": 0.3853,
+          "station_random_floor": 0.0575
+        },
+        "Yashar": {
+          "locality": 0.3691,
+          "station": 0.4138,
+          "station_random_floor": 0.051
+        },
+        "Together": {
+          "locality": 0.3479,
+          "station": 0.3964,
+          "station_random_floor": 0.0672
+        },
+        "Reservists": {
+          "locality": 0.2532,
+          "station": 0.3183,
+          "station_random_floor": 0.1193
+        },
+        "Haredi": {
+          "locality": 0.6028,
+          "station": 0.7004,
+          "station_random_floor": 0.0614
+        },
+        "Arab": {
+          "locality": 0.8877,
+          "station": 0.9385,
+          "station_random_floor": 0.0528
+        },
+        "Religious Zionism + Otzma": {
+          "locality": 0.3372,
+          "station": 0.3994,
+          "station_random_floor": 0.0623
+        },
+        "Other": {
+          "locality": 0.2282,
+          "station": 0.2942,
+          "station_random_floor": 0.119
+        }
+      },
+      "dissimilarity_likud_vs_bloc": {
+        "Opposition": {
+          "locality": 0.348,
+          "station": 0.427
+        },
+        "Yashar": {
+          "locality": 0.3408,
+          "station": 0.409
+        },
+        "Together": {
+          "locality": 0.3413,
+          "station": 0.4146
+        },
+        "Reservists": {
+          "locality": 0.1758,
+          "station": 0.2553
+        },
+        "Haredi": {
+          "locality": 0.5528,
+          "station": 0.6638
+        },
+        "Arab": {
+          "locality": 0.8833,
+          "station": 0.9456
+        },
+        "Religious Zionism + Otzma": {
+          "locality": 0.2533,
+          "station": 0.2969
+        },
+        "Other": {
+          "locality": 0.299,
+          "station": 0.3685
+        }
+      },
+      "exposure_station": {
+        "Likud": {
+          "Likud": 0.3274,
+          "Opposition": 0.1229,
+          "Yashar": 0.1674,
+          "Together": 0.0939,
+          "Reservists": 0.0346,
+          "Haredi": 0.0784,
+          "Arab": 0.0152,
+          "Religious Zionism + Otzma": 0.1329,
           "Other": 0.0274
         },
-        "likud_voter_exposure_station": {
-          "Likud": 0.3427,
-          "Opposition": 0.4009,
-          "Haredi": 0.1023,
-          "Arab": 0.0104,
-          "Religious Zionism": 0.1173,
-          "Other": 0.0263
+        "Opposition": {
+          "Likud": 0.2048,
+          "Opposition": 0.2085,
+          "Yashar": 0.2392,
+          "Together": 0.1302,
+          "Reservists": 0.0309,
+          "Haredi": 0.0374,
+          "Arab": 0.0493,
+          "Religious Zionism + Otzma": 0.0771,
+          "Other": 0.0227
         },
-        "dissimilarity_likud_vs_opposition_station": 0.3477,
-        "dissimilarity_likud_vs_opposition_locality": 0.2857,
-        "correlation_likud_vs_opposition_station": -0.6449
-      },
-      "Other places, 10,000-29,999 valid votes": {
-        "localities": 43,
-        "stations": 1965,
-        "valid_votes": 751634,
-        "vote_shares": {
-          "Likud": 0.3299,
-          "Opposition": 0.3802,
-          "Haredi": 0.1235,
-          "Arab": 0.0225,
-          "Religious Zionism": 0.119,
-          "Other": 0.0249
+        "Yashar": {
+          "Likud": 0.2144,
+          "Opposition": 0.1839,
+          "Yashar": 0.2658,
+          "Together": 0.1414,
+          "Reservists": 0.0338,
+          "Haredi": 0.0351,
+          "Arab": 0.0198,
+          "Religious Zionism + Otzma": 0.0825,
+          "Other": 0.0234
         },
-        "likud_voter_exposure_station": {
-          "Likud": 0.3761,
-          "Opposition": 0.3381,
-          "Haredi": 0.1203,
+        "Together": {
+          "Likud": 0.2158,
+          "Opposition": 0.1796,
+          "Yashar": 0.2538,
+          "Together": 0.1508,
+          "Reservists": 0.0354,
+          "Haredi": 0.0364,
+          "Arab": 0.0117,
+          "Religious Zionism + Otzma": 0.091,
+          "Other": 0.0255
+        },
+        "Reservists": {
+          "Likud": 0.2724,
+          "Opposition": 0.146,
+          "Yashar": 0.2076,
+          "Together": 0.1211,
+          "Reservists": 0.0388,
+          "Haredi": 0.0545,
           "Arab": 0.012,
-          "Religious Zionism": 0.1294,
+          "Religious Zionism + Otzma": 0.1189,
+          "Other": 0.0287
+        },
+        "Haredi": {
+          "Likud": 0.1486,
+          "Opposition": 0.0425,
+          "Yashar": 0.052,
+          "Together": 0.03,
+          "Reservists": 0.0131,
+          "Haredi": 0.5654,
+          "Arab": 0.0053,
+          "Religious Zionism + Otzma": 0.1098,
+          "Other": 0.0332
+        },
+        "Arab": {
+          "Likud": 0.0202,
+          "Opposition": 0.0395,
+          "Yashar": 0.0206,
+          "Together": 0.0068,
+          "Reservists": 0.002,
+          "Haredi": 0.0037,
+          "Arab": 0.8925,
+          "Religious Zionism + Otzma": 0.0062,
+          "Other": 0.0084
+        },
+        "Religious Zionism + Otzma": {
+          "Likud": 0.2684,
+          "Opposition": 0.0935,
+          "Yashar": 0.1301,
+          "Together": 0.0799,
+          "Reservists": 0.0305,
+          "Haredi": 0.1171,
+          "Arab": 0.0094,
+          "Religious Zionism + Otzma": 0.2323,
+          "Other": 0.0387
+        },
+        "Other": {
+          "Likud": 0.2235,
+          "Opposition": 0.1109,
+          "Yashar": 0.1487,
+          "Together": 0.0906,
+          "Reservists": 0.0298,
+          "Haredi": 0.1429,
+          "Arab": 0.0513,
+          "Religious Zionism + Otzma": 0.156,
+          "Other": 0.0465
+        }
+      },
+      "exposure_locality": {
+        "Likud": {
+          "Likud": 0.2952,
+          "Opposition": 0.1275,
+          "Yashar": 0.172,
+          "Together": 0.0973,
+          "Reservists": 0.0332,
+          "Haredi": 0.0967,
+          "Arab": 0.025,
+          "Religious Zionism + Otzma": 0.126,
+          "Other": 0.0272
+        },
+        "Opposition": {
+          "Likud": 0.2124,
+          "Opposition": 0.1842,
+          "Yashar": 0.2283,
+          "Together": 0.1232,
+          "Reservists": 0.0305,
+          "Haredi": 0.0607,
+          "Arab": 0.0544,
+          "Religious Zionism + Otzma": 0.0832,
+          "Other": 0.0232
+        },
+        "Yashar": {
+          "Likud": 0.2203,
+          "Opposition": 0.1755,
+          "Yashar": 0.2462,
+          "Together": 0.1322,
+          "Reservists": 0.0329,
+          "Haredi": 0.056,
+          "Arab": 0.026,
+          "Religious Zionism + Otzma": 0.0871,
+          "Other": 0.0237
+        },
+        "Together": {
+          "Likud": 0.2236,
+          "Opposition": 0.17,
+          "Yashar": 0.2372,
+          "Together": 0.1375,
+          "Reservists": 0.0339,
+          "Haredi": 0.0589,
+          "Arab": 0.0189,
+          "Religious Zionism + Otzma": 0.0946,
+          "Other": 0.0254
+        },
+        "Reservists": {
+          "Likud": 0.261,
+          "Opposition": 0.1439,
+          "Yashar": 0.2024,
+          "Together": 0.1162,
+          "Reservists": 0.0356,
+          "Haredi": 0.077,
+          "Arab": 0.0192,
+          "Religious Zionism + Otzma": 0.1166,
+          "Other": 0.0281
+        },
+        "Haredi": {
+          "Likud": 0.1832,
+          "Opposition": 0.069,
+          "Yashar": 0.0829,
+          "Together": 0.0486,
+          "Reservists": 0.0185,
+          "Haredi": 0.4244,
+          "Arab": 0.0193,
+          "Religious Zionism + Otzma": 0.1193,
+          "Other": 0.0347
+        },
+        "Arab": {
+          "Likud": 0.0334,
+          "Opposition": 0.0436,
+          "Yashar": 0.0271,
+          "Together": 0.011,
+          "Reservists": 0.0033,
+          "Haredi": 0.0136,
+          "Arab": 0.8465,
+          "Religious Zionism + Otzma": 0.0123,
+          "Other": 0.0093
+        },
+        "Religious Zionism + Otzma": {
+          "Likud": 0.2546,
+          "Opposition": 0.1009,
+          "Yashar": 0.1373,
+          "Together": 0.0831,
+          "Reservists": 0.0299,
+          "Haredi": 0.1272,
+          "Arab": 0.0186,
+          "Religious Zionism + Otzma": 0.2117,
+          "Other": 0.0366
+        },
+        "Other": {
+          "Likud": 0.2213,
+          "Opposition": 0.1134,
+          "Yashar": 0.1509,
+          "Together": 0.0901,
+          "Reservists": 0.0291,
+          "Haredi": 0.1492,
+          "Arab": 0.0568,
+          "Religious Zionism + Otzma": 0.1476,
+          "Other": 0.0415
+        }
+      },
+      "exposure_ratio_station": {
+        "Likud": {
+          "Likud": 1.5838,
+          "Opposition": 0.9908,
+          "Yashar": 1.0371,
+          "Together": 1.0441,
+          "Reservists": 1.3178,
+          "Haredi": 0.7189,
+          "Arab": 0.0979,
+          "Religious Zionism + Otzma": 1.2985,
+          "Other": 1.0813
+        },
+        "Opposition": {
+          "Likud": 0.9908,
+          "Opposition": 1.6808,
+          "Yashar": 1.482,
+          "Together": 1.4474,
+          "Reservists": 1.1765,
+          "Haredi": 0.3426,
+          "Arab": 0.3182,
+          "Religious Zionism + Otzma": 0.7538,
+          "Other": 0.8938
+        },
+        "Yashar": {
+          "Likud": 1.0371,
+          "Opposition": 1.482,
+          "Yashar": 1.647,
+          "Together": 1.5728,
+          "Reservists": 1.2865,
+          "Haredi": 0.322,
+          "Arab": 0.1276,
+          "Religious Zionism + Otzma": 0.8065,
+          "Other": 0.9213
+        },
+        "Together": {
+          "Likud": 1.0441,
+          "Opposition": 1.4474,
+          "Yashar": 1.5728,
+          "Together": 1.6765,
+          "Reservists": 1.347,
+          "Haredi": 0.3341,
+          "Arab": 0.0758,
+          "Religious Zionism + Otzma": 0.889,
+          "Other": 1.0072
+        },
+        "Reservists": {
+          "Likud": 1.3178,
+          "Opposition": 1.1765,
+          "Yashar": 1.2865,
+          "Together": 1.347,
+          "Reservists": 1.477,
+          "Haredi": 0.4995,
+          "Arab": 0.0777,
+          "Religious Zionism + Otzma": 1.1621,
+          "Other": 1.1328
+        },
+        "Haredi": {
+          "Likud": 0.7189,
+          "Opposition": 0.3426,
+          "Yashar": 0.322,
+          "Together": 0.3341,
+          "Reservists": 0.4995,
+          "Haredi": 5.1843,
+          "Arab": 0.0341,
+          "Religious Zionism + Otzma": 1.0735,
+          "Other": 1.3103
+        },
+        "Arab": {
+          "Likud": 0.0979,
+          "Opposition": 0.3182,
+          "Yashar": 0.1276,
+          "Together": 0.0758,
+          "Reservists": 0.0777,
+          "Haredi": 0.0341,
+          "Arab": 5.7603,
+          "Religious Zionism + Otzma": 0.0608,
+          "Other": 0.3308
+        },
+        "Religious Zionism + Otzma": {
+          "Likud": 1.2985,
+          "Opposition": 0.7538,
+          "Yashar": 0.8065,
+          "Together": 0.889,
+          "Reservists": 1.1621,
+          "Haredi": 1.0735,
+          "Arab": 0.0608,
+          "Religious Zionism + Otzma": 2.2708,
+          "Other": 1.5243
+        },
+        "Other": {
+          "Likud": 1.0813,
+          "Opposition": 0.8938,
+          "Yashar": 0.9213,
+          "Together": 1.0072,
+          "Reservists": 1.1328,
+          "Haredi": 1.3103,
+          "Arab": 0.3308,
+          "Religious Zionism + Otzma": 1.5243,
+          "Other": 1.8331
+        }
+      },
+      "cities": {
+        "Jerusalem": {
+          "stations": 735,
+          "valid_votes": 299423,
+          "vote_shares": {
+            "Likud": 0.1692,
+            "Opposition": 0.0777,
+            "Yashar": 0.0818,
+            "Together": 0.0473,
+            "Reservists": 0.0184,
+            "Haredi": 0.3721,
+            "Arab": 0.0456,
+            "Religious Zionism + Otzma": 0.1414,
+            "Other": 0.0467
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.2701,
+            "Opposition": 0.0938,
+            "Yashar": 0.1103,
+            "Together": 0.0625,
+            "Reservists": 0.0278,
+            "Haredi": 0.1952,
+            "Arab": 0.0127,
+            "Religious Zionism + Otzma": 0.1796,
+            "Other": 0.0481
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.4026,
+            "Yashar": 0.3201,
+            "Together": 0.3416,
+            "Reservists": 0.2339,
+            "Haredi": 0.6865,
+            "Arab": 0.8395,
+            "Religious Zionism + Otzma": 0.2471,
+            "Other": 0.3865
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.4088,
+            "Opposition": 0.4728,
+            "Yashar": 0.4354,
+            "Together": 0.4362,
+            "Reservists": 0.4034,
+            "Haredi": 0.6678,
+            "Arab": 0.8349,
+            "Religious Zionism + Otzma": 0.2776,
+            "Other": 0.2319
+          }
+        },
+        "Tel Aviv-Yafo": {
+          "stations": 766,
+          "valid_votes": 309041,
+          "vote_shares": {
+            "Likud": 0.1414,
+            "Opposition": 0.2643,
+            "Yashar": 0.2744,
+            "Together": 0.1689,
+            "Reservists": 0.0228,
+            "Haredi": 0.0298,
+            "Arab": 0.0405,
+            "Religious Zionism + Otzma": 0.043,
+            "Other": 0.0149
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.2278,
+            "Opposition": 0.208,
+            "Yashar": 0.2301,
+            "Together": 0.1385,
+            "Reservists": 0.0263,
+            "Haredi": 0.0609,
+            "Arab": 0.0282,
+            "Religious Zionism + Otzma": 0.064,
+            "Other": 0.0161
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.4214,
+            "Yashar": 0.4002,
+            "Together": 0.4112,
+            "Reservists": 0.2762,
+            "Haredi": 0.3567,
+            "Arab": 0.6877,
+            "Religious Zionism + Otzma": 0.1503,
+            "Other": 0.3133
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.3566,
+            "Opposition": 0.193,
+            "Yashar": 0.1881,
+            "Together": 0.1751,
+            "Reservists": 0.1906,
+            "Haredi": 0.6171,
+            "Arab": 0.6715,
+            "Religious Zionism + Otzma": 0.2903,
+            "Other": 0.2116
+          }
+        },
+        "Haifa": {
+          "stations": 437,
+          "valid_votes": 164847,
+          "vote_shares": {
+            "Likud": 0.1815,
+            "Opposition": 0.2044,
+            "Yashar": 0.2233,
+            "Together": 0.1229,
+            "Reservists": 0.0249,
+            "Haredi": 0.0538,
+            "Arab": 0.1089,
+            "Religious Zionism + Otzma": 0.0598,
+            "Other": 0.0204
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.233,
+            "Opposition": 0.1978,
+            "Yashar": 0.2215,
+            "Together": 0.1223,
+            "Reservists": 0.0284,
+            "Haredi": 0.0421,
+            "Arab": 0.0593,
+            "Religious Zionism + Otzma": 0.0727,
+            "Other": 0.0228
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.289,
+            "Yashar": 0.2936,
+            "Together": 0.2882,
+            "Reservists": 0.2141,
+            "Haredi": 0.7066,
+            "Arab": 0.7069,
+            "Religious Zionism + Otzma": 0.2481,
+            "Other": 0.2355
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.2665,
+            "Opposition": 0.2087,
+            "Yashar": 0.2659,
+            "Together": 0.2252,
+            "Reservists": 0.2297,
+            "Haredi": 0.7365,
+            "Arab": 0.6943,
+            "Religious Zionism + Otzma": 0.3024,
+            "Other": 0.2178
+          }
+        },
+        "Rishon LeZion": {
+          "stations": 361,
+          "valid_votes": 159205,
+          "vote_shares": {
+            "Likud": 0.2939,
+            "Opposition": 0.1368,
+            "Yashar": 0.2396,
+            "Together": 0.1386,
+            "Reservists": 0.0456,
+            "Haredi": 0.0326,
+            "Arab": 0.0012,
+            "Religious Zionism + Otzma": 0.0897,
+            "Other": 0.022
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.3149,
+            "Opposition": 0.1278,
+            "Yashar": 0.226,
+            "Together": 0.1302,
+            "Reservists": 0.0457,
+            "Haredi": 0.0371,
+            "Arab": 0.0012,
+            "Religious Zionism + Otzma": 0.095,
+            "Other": 0.022
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.2445,
+            "Yashar": 0.1982,
+            "Together": 0.2087,
+            "Reservists": 0.161,
+            "Haredi": 0.2184,
+            "Arab": 0.6498,
+            "Religious Zionism + Otzma": 0.1043,
+            "Other": 0.1978
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.1506,
+            "Opposition": 0.1873,
+            "Yashar": 0.1434,
+            "Together": 0.1352,
+            "Reservists": 0.1258,
+            "Haredi": 0.2809,
+            "Arab": 0.6414,
+            "Religious Zionism + Otzma": 0.1418,
+            "Other": 0.1666
+          }
+        },
+        "Petah Tikva": {
+          "stations": 327,
+          "valid_votes": 149996,
+          "vote_shares": {
+            "Likud": 0.2543,
+            "Opposition": 0.1258,
+            "Yashar": 0.1867,
+            "Together": 0.1243,
+            "Reservists": 0.0388,
+            "Haredi": 0.0991,
+            "Arab": 0.0015,
+            "Religious Zionism + Otzma": 0.1333,
+            "Other": 0.0362
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.2826,
+            "Opposition": 0.1267,
+            "Yashar": 0.1829,
+            "Together": 0.1193,
+            "Reservists": 0.0403,
+            "Haredi": 0.0836,
+            "Arab": 0.0015,
+            "Religious Zionism + Otzma": 0.1287,
+            "Other": 0.0345
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.2254,
+            "Yashar": 0.2391,
+            "Together": 0.257,
+            "Reservists": 0.1689,
+            "Haredi": 0.4678,
+            "Arab": 0.5767,
+            "Religious Zionism + Otzma": 0.2891,
+            "Other": 0.2725
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.1804,
+            "Opposition": 0.2158,
+            "Yashar": 0.2188,
+            "Together": 0.2178,
+            "Reservists": 0.1586,
+            "Haredi": 0.4723,
+            "Arab": 0.5793,
+            "Religious Zionism + Otzma": 0.2665,
+            "Other": 0.2074
+          }
+        },
+        "Ashdod": {
+          "stations": 312,
+          "valid_votes": 127122,
+          "vote_shares": {
+            "Likud": 0.302,
+            "Opposition": 0.1358,
+            "Yashar": 0.1125,
+            "Together": 0.0709,
+            "Reservists": 0.0297,
+            "Haredi": 0.2253,
+            "Arab": 0.0008,
+            "Religious Zionism + Otzma": 0.1009,
+            "Other": 0.0221
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.361,
+            "Opposition": 0.143,
+            "Yashar": 0.1325,
+            "Together": 0.0807,
+            "Reservists": 0.0341,
+            "Haredi": 0.1122,
+            "Arab": 0.0009,
+            "Religious Zionism + Otzma": 0.1134,
+            "Other": 0.0223
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.3024,
+            "Yashar": 0.1722,
+            "Together": 0.2127,
+            "Reservists": 0.1647,
+            "Haredi": 0.6899,
+            "Arab": 0.7708,
+            "Religious Zionism + Otzma": 0.1206,
+            "Other": 0.2473
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.2626,
+            "Opposition": 0.347,
+            "Yashar": 0.269,
+            "Together": 0.2746,
+            "Reservists": 0.2245,
+            "Haredi": 0.6945,
+            "Arab": 0.7786,
+            "Religious Zionism + Otzma": 0.1652,
+            "Other": 0.1897
+          }
+        },
+        "Netanya": {
+          "stations": 335,
+          "valid_votes": 129557,
+          "vote_shares": {
+            "Likud": 0.3552,
+            "Opposition": 0.1164,
+            "Yashar": 0.154,
+            "Together": 0.0938,
+            "Reservists": 0.0373,
+            "Haredi": 0.0983,
+            "Arab": 0.0012,
+            "Religious Zionism + Otzma": 0.1175,
+            "Other": 0.0263
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.3778,
+            "Opposition": 0.1144,
+            "Yashar": 0.1475,
+            "Together": 0.0883,
+            "Reservists": 0.0376,
+            "Haredi": 0.0878,
+            "Arab": 0.0012,
+            "Religious Zionism + Otzma": 0.1194,
+            "Other": 0.0261
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.2275,
+            "Yashar": 0.2338,
+            "Together": 0.2689,
+            "Reservists": 0.1907,
+            "Haredi": 0.4149,
+            "Arab": 0.6229,
+            "Religious Zionism + Otzma": 0.1668,
+            "Other": 0.2285
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.1583,
+            "Opposition": 0.2107,
+            "Yashar": 0.2159,
+            "Together": 0.2315,
+            "Reservists": 0.1691,
+            "Haredi": 0.4458,
+            "Arab": 0.6156,
+            "Religious Zionism + Otzma": 0.1736,
+            "Other": 0.2038
+          }
+        },
+        "Be'er Sheva": {
+          "stations": 289,
+          "valid_votes": 113940,
+          "vote_shares": {
+            "Likud": 0.3923,
+            "Opposition": 0.1194,
+            "Yashar": 0.1273,
+            "Together": 0.0727,
+            "Reservists": 0.0343,
+            "Haredi": 0.0545,
+            "Arab": 0.0159,
+            "Religious Zionism + Otzma": 0.1561,
+            "Other": 0.0275
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.3999,
+            "Opposition": 0.1169,
+            "Yashar": 0.1254,
+            "Together": 0.0713,
+            "Reservists": 0.0343,
+            "Haredi": 0.0524,
+            "Arab": 0.0162,
+            "Religious Zionism + Otzma": 0.1564,
+            "Other": 0.0273
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.2184,
+            "Yashar": 0.1683,
+            "Together": 0.1782,
+            "Reservists": 0.1653,
+            "Haredi": 0.2583,
+            "Arab": 0.4168,
+            "Religious Zionism + Otzma": 0.1136,
+            "Other": 0.1796
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.0961,
+            "Opposition": 0.2227,
+            "Yashar": 0.1553,
+            "Together": 0.1618,
+            "Reservists": 0.1566,
+            "Haredi": 0.2698,
+            "Arab": 0.4234,
+            "Religious Zionism + Otzma": 0.1206,
+            "Other": 0.1631
+          }
+        },
+        "Bnei Brak": {
+          "stations": 198,
+          "valid_votes": 97462,
+          "vote_shares": {
+            "Likud": 0.0341,
+            "Opposition": 0.0061,
+            "Yashar": 0.008,
+            "Together": 0.0048,
+            "Reservists": 0.0025,
+            "Haredi": 0.8552,
+            "Arab": 0.0003,
+            "Religious Zionism + Otzma": 0.0488,
+            "Other": 0.0403
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.0783,
+            "Opposition": 0.0168,
+            "Yashar": 0.0207,
+            "Together": 0.0117,
+            "Reservists": 0.0062,
+            "Haredi": 0.7458,
+            "Arab": 0.0007,
+            "Religious Zionism + Otzma": 0.0786,
+            "Other": 0.0413
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.339,
+            "Yashar": 0.2884,
+            "Together": 0.3581,
+            "Reservists": 0.4029,
+            "Haredi": 0.4543,
+            "Arab": 0.7804,
+            "Religious Zionism + Otzma": 0.2448,
+            "Other": 0.4501
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.4266,
+            "Opposition": 0.5858,
+            "Yashar": 0.5437,
+            "Together": 0.5651,
+            "Reservists": 0.5664,
+            "Haredi": 0.3047,
+            "Arab": 0.8993,
+            "Religious Zionism + Otzma": 0.3037,
+            "Other": 0.1886
+          }
+        },
+        "Holon": {
+          "stations": 260,
+          "valid_votes": 111064,
+          "vote_shares": {
+            "Likud": 0.3273,
+            "Opposition": 0.1152,
+            "Yashar": 0.2068,
+            "Together": 0.1104,
+            "Reservists": 0.0417,
+            "Haredi": 0.0778,
+            "Arab": 0.0017,
+            "Religious Zionism + Otzma": 0.099,
+            "Other": 0.0202
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.336,
+            "Opposition": 0.1117,
+            "Yashar": 0.2007,
+            "Together": 0.1074,
+            "Reservists": 0.0415,
+            "Haredi": 0.0806,
+            "Arab": 0.0017,
+            "Religious Zionism + Otzma": 0.1005,
+            "Other": 0.0201
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.1801,
+            "Yashar": 0.1653,
+            "Together": 0.1659,
+            "Reservists": 0.1567,
+            "Haredi": 0.2439,
+            "Arab": 0.5271,
+            "Religious Zionism + Otzma": 0.1025,
+            "Other": 0.1702
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.0996,
+            "Opposition": 0.1479,
+            "Yashar": 0.1404,
+            "Together": 0.1368,
+            "Reservists": 0.1355,
+            "Haredi": 0.2836,
+            "Arab": 0.5202,
+            "Religious Zionism + Otzma": 0.1098,
+            "Other": 0.1508
+          }
+        }
+      },
+      "correlation_with_likud_share": {
+        "stations_unweighted": {
+          "Opposition": -0.0655,
+          "Yashar": -0.0084,
+          "Together": -0.001,
+          "Reservists": 0.4978,
+          "Haredi": -0.1852,
+          "Arab": -0.5056,
+          "Religious Zionism + Otzma": 0.3046,
+          "Other": 0.0788
+        },
+        "stations_weighted": {
+          "Opposition": -0.0181,
+          "Yashar": 0.0556,
+          "Together": 0.0648,
+          "Reservists": 0.5453,
+          "Haredi": -0.1796,
+          "Arab": -0.5376,
+          "Religious Zionism + Otzma": 0.3385,
+          "Other": 0.1066
+        },
+        "localities_weighted": {
+          "Opposition": 0.0604,
+          "Yashar": 0.1384,
+          "Together": 0.1706,
+          "Reservists": 0.6649,
+          "Haredi": -0.1021,
+          "Arab": -0.6062,
+          "Religious Zionism + Otzma": 0.3414,
+          "Other": 0.1343
+        },
+        "min_station_valid_votes": 50
+      },
+      "locality_type": {
+        "official_type_in_files": false,
+        "note": "Classes are derived from votes and size, not official types.",
+        "classes": {
+          "Arab parties won over half the votes": {
+            "localities": 129,
+            "stations": 1372,
+            "valid_votes": 738355,
+            "vote_shares": {
+              "Likud": 0.0045,
+              "Opposition": 0.0282,
+              "Yashar": 0.0077,
+              "Together": 0.001,
+              "Reservists": 0.0003,
+              "Haredi": 0.0008,
+              "Arab": 0.9499,
+              "Religious Zionism + Otzma": 0.0005,
+              "Other": 0.0071
+            },
+            "likud_voter_exposure_station": {
+              "Likud": 0.0295,
+              "Opposition": 0.0885,
+              "Yashar": 0.0432,
+              "Together": 0.004,
+              "Reservists": 0.0012,
+              "Haredi": 0.0009,
+              "Arab": 0.8199,
+              "Religious Zionism + Otzma": 0.004,
+              "Other": 0.0089
+            },
+            "dissimilarity_likud_vs_opposition_station": 0.4419,
+            "dissimilarity_likud_vs_opposition_locality": 0.3048,
+            "correlation_likud_vs_opposition_station": 0.5195
+          },
+          "Haredi parties won over half the votes": {
+            "localities": 17,
+            "stations": 552,
+            "valid_votes": 266002,
+            "vote_shares": {
+              "Likud": 0.0564,
+              "Opposition": 0.0077,
+              "Yashar": 0.0099,
+              "Together": 0.007,
+              "Reservists": 0.0045,
+              "Haredi": 0.7813,
+              "Arab": 0.0003,
+              "Religious Zionism + Otzma": 0.0925,
+              "Other": 0.0403
+            },
+            "likud_voter_exposure_station": {
+              "Likud": 0.2336,
+              "Opposition": 0.0347,
+              "Yashar": 0.0431,
+              "Together": 0.0244,
+              "Reservists": 0.0187,
+              "Haredi": 0.4406,
+              "Arab": 0.0007,
+              "Religious Zionism + Otzma": 0.1594,
+              "Other": 0.0447
+            },
+            "dissimilarity_likud_vs_opposition_station": 0.3335,
+            "dissimilarity_likud_vs_opposition_locality": 0.0924,
+            "correlation_likud_vs_opposition_station": 0.8069
+          },
+          "Other places, 80,000+ valid votes": {
+            "localities": 12,
+            "stations": 4468,
+            "valid_votes": 1850972,
+            "vote_shares": {
+              "Likud": 0.2442,
+              "Opposition": 0.1536,
+              "Yashar": 0.1852,
+              "Together": 0.1112,
+              "Reservists": 0.0311,
+              "Haredi": 0.1202,
+              "Arab": 0.0259,
+              "Religious Zionism + Otzma": 0.1018,
+              "Other": 0.0268
+            },
+            "likud_voter_exposure_station": {
+              "Likud": 0.3152,
+              "Opposition": 0.1363,
+              "Yashar": 0.1721,
+              "Together": 0.1017,
+              "Reservists": 0.0357,
+              "Haredi": 0.0824,
+              "Arab": 0.0108,
+              "Religious Zionism + Otzma": 0.119,
+              "Other": 0.0269
+            },
+            "dissimilarity_likud_vs_opposition_station": 0.3883,
+            "dissimilarity_likud_vs_opposition_locality": 0.2739,
+            "correlation_likud_vs_opposition_station": -0.3192
+          },
+          "Other places, 30,000-79,999 valid votes": {
+            "localities": 19,
+            "stations": 1987,
+            "valid_votes": 865605,
+            "vote_shares": {
+              "Likud": 0.2697,
+              "Opposition": 0.1436,
+              "Yashar": 0.2134,
+              "Together": 0.1227,
+              "Reservists": 0.033,
+              "Haredi": 0.0568,
+              "Arab": 0.0386,
+              "Religious Zionism + Otzma": 0.0976,
+              "Other": 0.0247
+            },
+            "likud_voter_exposure_station": {
+              "Likud": 0.3369,
+              "Opposition": 0.1261,
+              "Yashar": 0.1785,
+              "Together": 0.1003,
+              "Reservists": 0.0347,
+              "Haredi": 0.0653,
+              "Arab": 0.0187,
+              "Religious Zionism + Otzma": 0.1139,
+              "Other": 0.0255
+            },
+            "dissimilarity_likud_vs_opposition_station": 0.3653,
+            "dissimilarity_likud_vs_opposition_locality": 0.2852,
+            "correlation_likud_vs_opposition_station": -0.4407
+          },
+          "Other places, 10,000-29,999 valid votes": {
+            "localities": 42,
+            "stations": 1802,
+            "valid_votes": 785119,
+            "vote_shares": {
+              "Likud": 0.3052,
+              "Opposition": 0.1232,
+              "Yashar": 0.1667,
+              "Together": 0.0946,
+              "Reservists": 0.033,
+              "Haredi": 0.0925,
+              "Arab": 0.0276,
+              "Religious Zionism + Otzma": 0.1315,
+              "Other": 0.0257
+            },
+            "likud_voter_exposure_station": {
+              "Likud": 0.3649,
+              "Opposition": 0.1079,
+              "Yashar": 0.1464,
+              "Together": 0.081,
+              "Reservists": 0.0337,
+              "Haredi": 0.0829,
+              "Arab": 0.0149,
+              "Religious Zionism + Otzma": 0.1426,
+              "Other": 0.0257
+            },
+            "dissimilarity_likud_vs_opposition_station": 0.3792,
+            "dissimilarity_likud_vs_opposition_locality": 0.3231,
+            "correlation_likud_vs_opposition_station": -0.4281
+          },
+          "Other places, under 10,000 valid votes": {
+            "localities": 1005,
+            "stations": 1837,
+            "valid_votes": 735299,
+            "vote_shares": {
+              "Likud": 0.1903,
+              "Opposition": 0.166,
+              "Yashar": 0.2435,
+              "Together": 0.1121,
+              "Reservists": 0.0328,
+              "Haredi": 0.0259,
+              "Arab": 0.0105,
+              "Religious Zionism + Otzma": 0.1837,
+              "Other": 0.0352
+            },
+            "likud_voter_exposure_station": {
+              "Likud": 0.3035,
+              "Opposition": 0.1107,
+              "Yashar": 0.1856,
+              "Together": 0.0896,
+              "Reservists": 0.0349,
+              "Haredi": 0.0427,
+              "Arab": 0.0065,
+              "Religious Zionism + Otzma": 0.1928,
+              "Other": 0.0338
+            },
+            "dissimilarity_likud_vs_opposition_station": 0.5662,
+            "dissimilarity_likud_vs_opposition_locality": 0.541,
+            "correlation_likud_vs_opposition_station": -0.5432
+          }
+        }
+      }
+    },
+    "broad_opposition": {
+      "election": "26th Knesset, 27 October 2026",
+      "variant": "broad_opposition",
+      "blocs": {
+        "Likud": [
+          "מחל"
+        ],
+        "Opposition": [
+          "אמת",
+          "ל",
+          "דרך",
+          "רק",
+          "די"
+        ],
+        "Haredi": [
+          "שס",
+          "ג"
+        ],
+        "Arab": [
+          "ודם",
+          "עם"
+        ],
+        "Religious Zionism + Otzma": [
+          "ט",
+          "ב"
+        ]
+      },
+      "files": {
+        "locality": {
+          "rows": 1225,
+          "encoding": "utf-8-sig"
+        },
+        "ballot_box": {
+          "rows": 12929,
+          "encoding": "utf-8-sig"
+        }
+      },
+      "double_envelopes": {
+        "rows": 911,
+        "valid_votes": 450074,
+        "total_valid_votes": 5691426,
+        "share": 0.0791
+      },
+      "units": {
+        "localities": 1224,
+        "stations": 12018,
+        "stations_dropped_by_filter": 0,
+        "valid_votes": 5241352
+      },
+      "bloc_vote_shares": {
+        "Likud": 0.2067,
+        "Opposition": 0.4016,
+        "Haredi": 0.1091,
+        "Arab": 0.1549,
+        "Religious Zionism + Otzma": 0.1023,
+        "Other": 0.0254
+      },
+      "dissimilarity_vs_all_others": {
+        "Likud": {
+          "locality": 0.3469,
+          "station": 0.4172,
+          "station_random_floor": 0.0469
+        },
+        "Opposition": {
+          "locality": 0.4652,
+          "station": 0.5247,
+          "station_random_floor": 0.0389
+        },
+        "Haredi": {
+          "locality": 0.6028,
+          "station": 0.7004,
+          "station_random_floor": 0.0605
+        },
+        "Arab": {
+          "locality": 0.8877,
+          "station": 0.9385,
+          "station_random_floor": 0.0528
+        },
+        "Religious Zionism + Otzma": {
+          "locality": 0.3372,
+          "station": 0.3994,
+          "station_random_floor": 0.0626
+        },
+        "Other": {
+          "locality": 0.2282,
+          "station": 0.2942,
+          "station_random_floor": 0.1208
+        }
+      },
+      "dissimilarity_likud_vs_bloc": {
+        "Opposition": {
+          "locality": 0.3215,
+          "station": 0.3862
+        },
+        "Haredi": {
+          "locality": 0.5528,
+          "station": 0.6638
+        },
+        "Arab": {
+          "locality": 0.8833,
+          "station": 0.9456
+        },
+        "Religious Zionism + Otzma": {
+          "locality": 0.2533,
+          "station": 0.2969
+        },
+        "Other": {
+          "locality": 0.299,
+          "station": 0.3685
+        }
+      },
+      "exposure_station": {
+        "Likud": {
+          "Likud": 0.3274,
+          "Opposition": 0.4188,
+          "Haredi": 0.0784,
+          "Arab": 0.0152,
+          "Religious Zionism + Otzma": 0.1329,
+          "Other": 0.0274
+        },
+        "Opposition": {
+          "Likud": 0.2155,
+          "Opposition": 0.6114,
+          "Haredi": 0.0374,
+          "Arab": 0.0266,
+          "Religious Zionism + Otzma": 0.0851,
           "Other": 0.024
         },
-        "dissimilarity_likud_vs_opposition_station": 0.3398,
-        "dissimilarity_likud_vs_opposition_locality": 0.2891,
-        "correlation_likud_vs_opposition_station": -0.5052
+        "Haredi": {
+          "Likud": 0.1486,
+          "Opposition": 0.1376,
+          "Haredi": 0.5654,
+          "Arab": 0.0053,
+          "Religious Zionism + Otzma": 0.1098,
+          "Other": 0.0332
+        },
+        "Arab": {
+          "Likud": 0.0202,
+          "Opposition": 0.0689,
+          "Haredi": 0.0037,
+          "Arab": 0.8925,
+          "Religious Zionism + Otzma": 0.0062,
+          "Other": 0.0084
+        },
+        "Religious Zionism + Otzma": {
+          "Likud": 0.2684,
+          "Opposition": 0.3341,
+          "Haredi": 0.1171,
+          "Arab": 0.0094,
+          "Religious Zionism + Otzma": 0.2323,
+          "Other": 0.0387
+        },
+        "Other": {
+          "Likud": 0.2235,
+          "Opposition": 0.3799,
+          "Haredi": 0.1429,
+          "Arab": 0.0513,
+          "Religious Zionism + Otzma": 0.156,
+          "Other": 0.0465
+        }
       },
-      "Other places, under 10,000 valid votes": {
-        "localities": 1001,
-        "stations": 1939,
-        "valid_votes": 663140,
-        "vote_shares": {
-          "Likud": 0.2123,
-          "Opposition": 0.5109,
-          "Haredi": 0.052,
-          "Arab": 0.0158,
-          "Religious Zionism": 0.1673,
-          "Other": 0.0418
+      "exposure_locality": {
+        "Likud": {
+          "Likud": 0.2952,
+          "Opposition": 0.43,
+          "Haredi": 0.0967,
+          "Arab": 0.025,
+          "Religious Zionism + Otzma": 0.126,
+          "Other": 0.0272
         },
-        "likud_voter_exposure_station": {
-          "Likud": 0.3084,
-          "Opposition": 0.386,
-          "Haredi": 0.074,
-          "Arab": 0.0079,
-          "Religious Zionism": 0.1827,
-          "Other": 0.0409
+        "Opposition": {
+          "Likud": 0.2213,
+          "Opposition": 0.5728,
+          "Haredi": 0.0595,
+          "Arab": 0.0328,
+          "Religious Zionism + Otzma": 0.0895,
+          "Other": 0.0242
         },
-        "dissimilarity_likud_vs_opposition_station": 0.4966,
-        "dissimilarity_likud_vs_opposition_locality": 0.4831,
-        "correlation_likud_vs_opposition_station": -0.6097
+        "Haredi": {
+          "Likud": 0.1832,
+          "Opposition": 0.2191,
+          "Haredi": 0.4244,
+          "Arab": 0.0193,
+          "Religious Zionism + Otzma": 0.1193,
+          "Other": 0.0347
+        },
+        "Arab": {
+          "Likud": 0.0334,
+          "Opposition": 0.0849,
+          "Haredi": 0.0136,
+          "Arab": 0.8465,
+          "Religious Zionism + Otzma": 0.0123,
+          "Other": 0.0093
+        },
+        "Religious Zionism + Otzma": {
+          "Likud": 0.2546,
+          "Opposition": 0.3513,
+          "Haredi": 0.1272,
+          "Arab": 0.0186,
+          "Religious Zionism + Otzma": 0.2117,
+          "Other": 0.0366
+        },
+        "Other": {
+          "Likud": 0.2213,
+          "Opposition": 0.3836,
+          "Haredi": 0.1492,
+          "Arab": 0.0568,
+          "Religious Zionism + Otzma": 0.1476,
+          "Other": 0.0415
+        }
+      },
+      "exposure_ratio_station": {
+        "Likud": {
+          "Likud": 1.5838,
+          "Opposition": 1.0427,
+          "Haredi": 0.7189,
+          "Arab": 0.0979,
+          "Religious Zionism + Otzma": 1.2985,
+          "Other": 1.0813
+        },
+        "Opposition": {
+          "Likud": 1.0427,
+          "Opposition": 1.5223,
+          "Haredi": 0.3427,
+          "Arab": 0.1716,
+          "Religious Zionism + Otzma": 0.8319,
+          "Other": 0.9459
+        },
+        "Haredi": {
+          "Likud": 0.7189,
+          "Opposition": 0.3427,
+          "Haredi": 5.1843,
+          "Arab": 0.0341,
+          "Religious Zionism + Otzma": 1.0735,
+          "Other": 1.3103
+        },
+        "Arab": {
+          "Likud": 0.0979,
+          "Opposition": 0.1716,
+          "Haredi": 0.0341,
+          "Arab": 5.7603,
+          "Religious Zionism + Otzma": 0.0608,
+          "Other": 0.3308
+        },
+        "Religious Zionism + Otzma": {
+          "Likud": 1.2985,
+          "Opposition": 0.8319,
+          "Haredi": 1.0735,
+          "Arab": 0.0608,
+          "Religious Zionism + Otzma": 2.2708,
+          "Other": 1.5243
+        },
+        "Other": {
+          "Likud": 1.0813,
+          "Opposition": 0.9459,
+          "Haredi": 1.3103,
+          "Arab": 0.3308,
+          "Religious Zionism + Otzma": 1.5243,
+          "Other": 1.8331
+        }
+      },
+      "cities": {
+        "Jerusalem": {
+          "stations": 735,
+          "valid_votes": 299423,
+          "vote_shares": {
+            "Likud": 0.1692,
+            "Opposition": 0.2251,
+            "Haredi": 0.3721,
+            "Arab": 0.0456,
+            "Religious Zionism + Otzma": 0.1414,
+            "Other": 0.0467
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.2701,
+            "Opposition": 0.2943,
+            "Haredi": 0.1952,
+            "Arab": 0.0127,
+            "Religious Zionism + Otzma": 0.1796,
+            "Other": 0.0481
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.3308,
+            "Haredi": 0.6865,
+            "Arab": 0.8395,
+            "Religious Zionism + Otzma": 0.2471,
+            "Other": 0.3865
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.4088,
+            "Opposition": 0.5147,
+            "Haredi": 0.6678,
+            "Arab": 0.8349,
+            "Religious Zionism + Otzma": 0.2776,
+            "Other": 0.2319
+          }
+        },
+        "Tel Aviv-Yafo": {
+          "stations": 766,
+          "valid_votes": 309041,
+          "vote_shares": {
+            "Likud": 0.1414,
+            "Opposition": 0.7304,
+            "Haredi": 0.0298,
+            "Arab": 0.0405,
+            "Religious Zionism + Otzma": 0.043,
+            "Other": 0.0149
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.2278,
+            "Opposition": 0.603,
+            "Haredi": 0.0609,
+            "Arab": 0.0282,
+            "Religious Zionism + Otzma": 0.064,
+            "Other": 0.0161
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.3978,
+            "Haredi": 0.3567,
+            "Arab": 0.6877,
+            "Religious Zionism + Otzma": 0.1503,
+            "Other": 0.3133
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.3566,
+            "Opposition": 0.4178,
+            "Haredi": 0.6171,
+            "Arab": 0.6715,
+            "Religious Zionism + Otzma": 0.2903,
+            "Other": 0.2116
+          }
+        },
+        "Haifa": {
+          "stations": 437,
+          "valid_votes": 164847,
+          "vote_shares": {
+            "Likud": 0.1815,
+            "Opposition": 0.5755,
+            "Haredi": 0.0538,
+            "Arab": 0.1089,
+            "Religious Zionism + Otzma": 0.0598,
+            "Other": 0.0204
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.233,
+            "Opposition": 0.57,
+            "Haredi": 0.0421,
+            "Arab": 0.0593,
+            "Religious Zionism + Otzma": 0.0727,
+            "Other": 0.0228
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.2646,
+            "Haredi": 0.7066,
+            "Arab": 0.7069,
+            "Religious Zionism + Otzma": 0.2481,
+            "Other": 0.2355
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.2665,
+            "Opposition": 0.3448,
+            "Haredi": 0.7365,
+            "Arab": 0.6943,
+            "Religious Zionism + Otzma": 0.3024,
+            "Other": 0.2178
+          }
+        },
+        "Rishon LeZion": {
+          "stations": 361,
+          "valid_votes": 159205,
+          "vote_shares": {
+            "Likud": 0.2939,
+            "Opposition": 0.5606,
+            "Haredi": 0.0326,
+            "Arab": 0.0012,
+            "Religious Zionism + Otzma": 0.0897,
+            "Other": 0.022
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.3149,
+            "Opposition": 0.5297,
+            "Haredi": 0.0371,
+            "Arab": 0.0012,
+            "Religious Zionism + Otzma": 0.095,
+            "Other": 0.022
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.1868,
+            "Haredi": 0.2184,
+            "Arab": 0.6498,
+            "Religious Zionism + Otzma": 0.1043,
+            "Other": 0.1978
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.1506,
+            "Opposition": 0.1879,
+            "Haredi": 0.2809,
+            "Arab": 0.6414,
+            "Religious Zionism + Otzma": 0.1418,
+            "Other": 0.1666
+          }
+        },
+        "Petah Tikva": {
+          "stations": 327,
+          "valid_votes": 149996,
+          "vote_shares": {
+            "Likud": 0.2543,
+            "Opposition": 0.4756,
+            "Haredi": 0.0991,
+            "Arab": 0.0015,
+            "Religious Zionism + Otzma": 0.1333,
+            "Other": 0.0362
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.2826,
+            "Opposition": 0.4691,
+            "Haredi": 0.0836,
+            "Arab": 0.0015,
+            "Religious Zionism + Otzma": 0.1287,
+            "Other": 0.0345
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.2122,
+            "Haredi": 0.4678,
+            "Arab": 0.5767,
+            "Religious Zionism + Otzma": 0.2891,
+            "Other": 0.2725
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.1804,
+            "Opposition": 0.2825,
+            "Haredi": 0.4723,
+            "Arab": 0.5793,
+            "Religious Zionism + Otzma": 0.2665,
+            "Other": 0.2074
+          }
+        },
+        "Ashdod": {
+          "stations": 312,
+          "valid_votes": 127122,
+          "vote_shares": {
+            "Likud": 0.302,
+            "Opposition": 0.3489,
+            "Haredi": 0.2253,
+            "Arab": 0.0008,
+            "Religious Zionism + Otzma": 0.1009,
+            "Other": 0.0221
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.361,
+            "Opposition": 0.3903,
+            "Haredi": 0.1122,
+            "Arab": 0.0009,
+            "Religious Zionism + Otzma": 0.1134,
+            "Other": 0.0223
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.1931,
+            "Haredi": 0.6899,
+            "Arab": 0.7708,
+            "Religious Zionism + Otzma": 0.1206,
+            "Other": 0.2473
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.2626,
+            "Opposition": 0.3268,
+            "Haredi": 0.6945,
+            "Arab": 0.7786,
+            "Religious Zionism + Otzma": 0.1652,
+            "Other": 0.1897
+          }
+        },
+        "Netanya": {
+          "stations": 335,
+          "valid_votes": 129557,
+          "vote_shares": {
+            "Likud": 0.3552,
+            "Opposition": 0.4014,
+            "Haredi": 0.0983,
+            "Arab": 0.0012,
+            "Religious Zionism + Otzma": 0.1175,
+            "Other": 0.0263
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.3778,
+            "Opposition": 0.3877,
+            "Haredi": 0.0878,
+            "Arab": 0.0012,
+            "Religious Zionism + Otzma": 0.1194,
+            "Other": 0.0261
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.2116,
+            "Haredi": 0.4149,
+            "Arab": 0.6229,
+            "Religious Zionism + Otzma": 0.1668,
+            "Other": 0.2285
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.1583,
+            "Opposition": 0.2535,
+            "Haredi": 0.4458,
+            "Arab": 0.6156,
+            "Religious Zionism + Otzma": 0.1736,
+            "Other": 0.2038
+          }
+        },
+        "Be'er Sheva": {
+          "stations": 289,
+          "valid_votes": 113940,
+          "vote_shares": {
+            "Likud": 0.3923,
+            "Opposition": 0.3537,
+            "Haredi": 0.0545,
+            "Arab": 0.0159,
+            "Religious Zionism + Otzma": 0.1561,
+            "Other": 0.0275
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.3999,
+            "Opposition": 0.3479,
+            "Haredi": 0.0524,
+            "Arab": 0.0162,
+            "Religious Zionism + Otzma": 0.1564,
+            "Other": 0.0273
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.1376,
+            "Haredi": 0.2583,
+            "Arab": 0.4168,
+            "Religious Zionism + Otzma": 0.1136,
+            "Other": 0.1796
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.0961,
+            "Opposition": 0.1468,
+            "Haredi": 0.2698,
+            "Arab": 0.4234,
+            "Religious Zionism + Otzma": 0.1206,
+            "Other": 0.1631
+          }
+        },
+        "Bnei Brak": {
+          "stations": 198,
+          "valid_votes": 97462,
+          "vote_shares": {
+            "Likud": 0.0341,
+            "Opposition": 0.0213,
+            "Haredi": 0.8552,
+            "Arab": 0.0003,
+            "Religious Zionism + Otzma": 0.0488,
+            "Other": 0.0403
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.0783,
+            "Opposition": 0.0554,
+            "Haredi": 0.7458,
+            "Arab": 0.0007,
+            "Religious Zionism + Otzma": 0.0786,
+            "Other": 0.0413
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.254,
+            "Haredi": 0.4543,
+            "Arab": 0.7804,
+            "Religious Zionism + Otzma": 0.2448,
+            "Other": 0.4501
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.4266,
+            "Opposition": 0.5379,
+            "Haredi": 0.3047,
+            "Arab": 0.8993,
+            "Religious Zionism + Otzma": 0.3037,
+            "Other": 0.1886
+          }
+        },
+        "Holon": {
+          "stations": 260,
+          "valid_votes": 111064,
+          "vote_shares": {
+            "Likud": 0.3273,
+            "Opposition": 0.4741,
+            "Haredi": 0.0778,
+            "Arab": 0.0017,
+            "Religious Zionism + Otzma": 0.099,
+            "Other": 0.0202
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.336,
+            "Opposition": 0.4613,
+            "Haredi": 0.0806,
+            "Arab": 0.0017,
+            "Religious Zionism + Otzma": 0.1005,
+            "Other": 0.0201
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.1467,
+            "Haredi": 0.2439,
+            "Arab": 0.5271,
+            "Religious Zionism + Otzma": 0.1025,
+            "Other": 0.1702
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.0996,
+            "Opposition": 0.1632,
+            "Haredi": 0.2836,
+            "Arab": 0.5202,
+            "Religious Zionism + Otzma": 0.1098,
+            "Other": 0.1508
+          }
+        }
+      },
+      "correlation_with_likud_share": {
+        "stations_unweighted": {
+          "Opposition": 0.0056,
+          "Haredi": -0.1852,
+          "Arab": -0.5056,
+          "Religious Zionism + Otzma": 0.3046,
+          "Other": 0.0788
+        },
+        "stations_weighted": {
+          "Opposition": 0.0723,
+          "Haredi": -0.1796,
+          "Arab": -0.5376,
+          "Religious Zionism + Otzma": 0.3385,
+          "Other": 0.1066
+        },
+        "localities_weighted": {
+          "Opposition": 0.1646,
+          "Haredi": -0.1021,
+          "Arab": -0.6062,
+          "Religious Zionism + Otzma": 0.3414,
+          "Other": 0.1343
+        },
+        "min_station_valid_votes": 50
+      },
+      "locality_type": {
+        "official_type_in_files": false,
+        "note": "Classes are derived from votes and size, not official types.",
+        "classes": {
+          "Arab parties won over half the votes": {
+            "localities": 129,
+            "stations": 1372,
+            "valid_votes": 738355,
+            "vote_shares": {
+              "Likud": 0.0045,
+              "Opposition": 0.0372,
+              "Haredi": 0.0008,
+              "Arab": 0.9499,
+              "Religious Zionism + Otzma": 0.0005,
+              "Other": 0.0071
+            },
+            "likud_voter_exposure_station": {
+              "Likud": 0.0295,
+              "Opposition": 0.1368,
+              "Haredi": 0.0009,
+              "Arab": 0.8199,
+              "Religious Zionism + Otzma": 0.004,
+              "Other": 0.0089
+            },
+            "dissimilarity_likud_vs_opposition_station": 0.4081,
+            "dissimilarity_likud_vs_opposition_locality": 0.2697,
+            "correlation_likud_vs_opposition_station": 0.6354
+          },
+          "Haredi parties won over half the votes": {
+            "localities": 17,
+            "stations": 552,
+            "valid_votes": 266002,
+            "vote_shares": {
+              "Likud": 0.0564,
+              "Opposition": 0.0292,
+              "Haredi": 0.7813,
+              "Arab": 0.0003,
+              "Religious Zionism + Otzma": 0.0925,
+              "Other": 0.0403
+            },
+            "likud_voter_exposure_station": {
+              "Likud": 0.2336,
+              "Opposition": 0.1209,
+              "Haredi": 0.4406,
+              "Arab": 0.0007,
+              "Religious Zionism + Otzma": 0.1594,
+              "Other": 0.0447
+            },
+            "dissimilarity_likud_vs_opposition_station": 0.2542,
+            "dissimilarity_likud_vs_opposition_locality": 0.0838,
+            "correlation_likud_vs_opposition_station": 0.844
+          },
+          "Other places, 80,000+ valid votes": {
+            "localities": 12,
+            "stations": 4468,
+            "valid_votes": 1850972,
+            "vote_shares": {
+              "Likud": 0.2442,
+              "Opposition": 0.4811,
+              "Haredi": 0.1202,
+              "Arab": 0.0259,
+              "Religious Zionism + Otzma": 0.1018,
+              "Other": 0.0268
+            },
+            "likud_voter_exposure_station": {
+              "Likud": 0.3152,
+              "Opposition": 0.4458,
+              "Haredi": 0.0824,
+              "Arab": 0.0108,
+              "Religious Zionism + Otzma": 0.119,
+              "Other": 0.0269
+            },
+            "dissimilarity_likud_vs_opposition_station": 0.3442,
+            "dissimilarity_likud_vs_opposition_locality": 0.242,
+            "correlation_likud_vs_opposition_station": -0.2756
+          },
+          "Other places, 30,000-79,999 valid votes": {
+            "localities": 19,
+            "stations": 1987,
+            "valid_votes": 865605,
+            "vote_shares": {
+              "Likud": 0.2697,
+              "Opposition": 0.5127,
+              "Haredi": 0.0568,
+              "Arab": 0.0386,
+              "Religious Zionism + Otzma": 0.0976,
+              "Other": 0.0247
+            },
+            "likud_voter_exposure_station": {
+              "Likud": 0.3369,
+              "Opposition": 0.4397,
+              "Haredi": 0.0653,
+              "Arab": 0.0187,
+              "Religious Zionism + Otzma": 0.1139,
+              "Other": 0.0255
+            },
+            "dissimilarity_likud_vs_opposition_station": 0.3665,
+            "dissimilarity_likud_vs_opposition_locality": 0.3242,
+            "correlation_likud_vs_opposition_station": -0.6217
+          },
+          "Other places, 10,000-29,999 valid votes": {
+            "localities": 42,
+            "stations": 1802,
+            "valid_votes": 785119,
+            "vote_shares": {
+              "Likud": 0.3052,
+              "Opposition": 0.4176,
+              "Haredi": 0.0925,
+              "Arab": 0.0276,
+              "Religious Zionism + Otzma": 0.1315,
+              "Other": 0.0257
+            },
+            "likud_voter_exposure_station": {
+              "Likud": 0.3649,
+              "Opposition": 0.3689,
+              "Haredi": 0.0829,
+              "Arab": 0.0149,
+              "Religious Zionism + Otzma": 0.1426,
+              "Other": 0.0257
+            },
+            "dissimilarity_likud_vs_opposition_station": 0.3507,
+            "dissimilarity_likud_vs_opposition_locality": 0.3073,
+            "correlation_likud_vs_opposition_station": -0.5061
+          },
+          "Other places, under 10,000 valid votes": {
+            "localities": 1005,
+            "stations": 1837,
+            "valid_votes": 735299,
+            "vote_shares": {
+              "Likud": 0.1903,
+              "Opposition": 0.5545,
+              "Haredi": 0.0259,
+              "Arab": 0.0105,
+              "Religious Zionism + Otzma": 0.1837,
+              "Other": 0.0352
+            },
+            "likud_voter_exposure_station": {
+              "Likud": 0.3035,
+              "Opposition": 0.4207,
+              "Haredi": 0.0427,
+              "Arab": 0.0065,
+              "Religious Zionism + Otzma": 0.1928,
+              "Other": 0.0338
+            },
+            "dissimilarity_likud_vs_opposition_station": 0.4895,
+            "dissimilarity_likud_vs_opposition_locality": 0.4731,
+            "correlation_likud_vs_opposition_station": -0.5748
+          }
+        }
+      }
+    },
+    "sensitivity_station_extra_columns": {
+      "election": "26th Knesset, 27 October 2026",
+      "variant": "main",
+      "blocs": {
+        "Likud": [
+          "מחל"
+        ],
+        "Opposition": [
+          "אמת",
+          "ל"
+        ],
+        "Yashar": [
+          "דרך"
+        ],
+        "Together": [
+          "רק"
+        ],
+        "Reservists": [
+          "די"
+        ],
+        "Haredi": [
+          "שס",
+          "ג"
+        ],
+        "Arab": [
+          "ודם",
+          "עם"
+        ],
+        "Religious Zionism + Otzma": [
+          "ט",
+          "ב"
+        ]
+      },
+      "files": {
+        "locality": {
+          "rows": 1225,
+          "encoding": "utf-8-sig"
+        },
+        "ballot_box": {
+          "rows": 12929,
+          "encoding": "utf-8-sig"
+        }
+      },
+      "double_envelopes": {
+        "rows": 911,
+        "valid_votes": 450074,
+        "total_valid_votes": 5691426,
+        "share": 0.0791
+      },
+      "units": {
+        "localities": 1224,
+        "stations": 10918,
+        "stations_dropped_by_filter": 1100,
+        "valid_votes": 4847235
+      },
+      "bloc_vote_shares": {
+        "Likud": 0.2064,
+        "Opposition": 0.1236,
+        "Yashar": 0.1614,
+        "Together": 0.09,
+        "Reservists": 0.0263,
+        "Haredi": 0.1055,
+        "Arab": 0.1647,
+        "Religious Zionism + Otzma": 0.0978,
+        "Other": 0.0244
+      },
+      "dissimilarity_vs_all_others": {
+        "Likud": {
+          "locality": 0.3469,
+          "station": 0.4192,
+          "station_random_floor": 0.0466
+        },
+        "Opposition": {
+          "locality": 0.3116,
+          "station": 0.3822,
+          "station_random_floor": 0.0572
+        },
+        "Yashar": {
+          "locality": 0.3691,
+          "station": 0.4151,
+          "station_random_floor": 0.051
+        },
+        "Together": {
+          "locality": 0.3479,
+          "station": 0.3987,
+          "station_random_floor": 0.0665
+        },
+        "Reservists": {
+          "locality": 0.2532,
+          "station": 0.3208,
+          "station_random_floor": 0.1186
+        },
+        "Haredi": {
+          "locality": 0.6028,
+          "station": 0.6967,
+          "station_random_floor": 0.0616
+        },
+        "Arab": {
+          "locality": 0.8877,
+          "station": 0.9412,
+          "station_random_floor": 0.0507
+        },
+        "Religious Zionism + Otzma": {
+          "locality": 0.3372,
+          "station": 0.3948,
+          "station_random_floor": 0.0634
+        },
+        "Other": {
+          "locality": 0.2282,
+          "station": 0.288,
+          "station_random_floor": 0.1211
+        }
+      },
+      "dissimilarity_likud_vs_bloc": {
+        "Opposition": {
+          "locality": 0.348,
+          "station": 0.4225
+        },
+        "Yashar": {
+          "locality": 0.3408,
+          "station": 0.4068
+        },
+        "Together": {
+          "locality": 0.3413,
+          "station": 0.4114
+        },
+        "Reservists": {
+          "locality": 0.1758,
+          "station": 0.2529
+        },
+        "Haredi": {
+          "locality": 0.5528,
+          "station": 0.6571
+        },
+        "Arab": {
+          "locality": 0.8833,
+          "station": 0.9488
+        },
+        "Religious Zionism + Otzma": {
+          "locality": 0.2533,
+          "station": 0.278
+        },
+        "Other": {
+          "locality": 0.299,
+          "station": 0.3566
+        }
+      },
+      "exposure_station": {
+        "Likud": {
+          "Likud": 0.3279,
+          "Opposition": 0.1234,
+          "Yashar": 0.1683,
+          "Together": 0.0948,
+          "Reservists": 0.0348,
+          "Haredi": 0.0777,
+          "Arab": 0.0153,
+          "Religious Zionism + Otzma": 0.1308,
+          "Other": 0.0269
+        },
+        "Opposition": {
+          "Likud": 0.2062,
+          "Opposition": 0.2066,
+          "Yashar": 0.2387,
+          "Together": 0.1298,
+          "Reservists": 0.031,
+          "Haredi": 0.0371,
+          "Arab": 0.0517,
+          "Religious Zionism + Otzma": 0.0765,
+          "Other": 0.0224
+        },
+        "Yashar": {
+          "Likud": 0.2152,
+          "Opposition": 0.1827,
+          "Yashar": 0.2664,
+          "Together": 0.142,
+          "Reservists": 0.034,
+          "Haredi": 0.0348,
+          "Arab": 0.0202,
+          "Religious Zionism + Otzma": 0.0817,
+          "Other": 0.023
+        },
+        "Together": {
+          "Likud": 0.2175,
+          "Opposition": 0.1783,
+          "Yashar": 0.2547,
+          "Together": 0.1515,
+          "Reservists": 0.0356,
+          "Haredi": 0.0362,
+          "Arab": 0.0115,
+          "Religious Zionism + Otzma": 0.0897,
+          "Other": 0.0251
+        },
+        "Reservists": {
+          "Likud": 0.2739,
+          "Opposition": 0.146,
+          "Yashar": 0.2087,
+          "Together": 0.1221,
+          "Reservists": 0.039,
+          "Haredi": 0.0542,
+          "Arab": 0.012,
+          "Religious Zionism + Otzma": 0.1162,
+          "Other": 0.0279
+        },
+        "Haredi": {
+          "Likud": 0.152,
+          "Opposition": 0.0434,
+          "Yashar": 0.0533,
+          "Together": 0.0308,
+          "Reservists": 0.0135,
+          "Haredi": 0.5587,
+          "Arab": 0.0054,
+          "Religious Zionism + Otzma": 0.1096,
+          "Other": 0.0333
+        },
+        "Arab": {
+          "Likud": 0.0191,
+          "Opposition": 0.0388,
+          "Yashar": 0.0198,
+          "Together": 0.0063,
+          "Reservists": 0.0019,
+          "Haredi": 0.0034,
+          "Arab": 0.8968,
+          "Religious Zionism + Otzma": 0.0057,
+          "Other": 0.0082
+        },
+        "Religious Zionism + Otzma": {
+          "Likud": 0.2761,
+          "Opposition": 0.0966,
+          "Yashar": 0.1348,
+          "Together": 0.0825,
+          "Reservists": 0.0312,
+          "Haredi": 0.1182,
+          "Arab": 0.0096,
+          "Religious Zionism + Otzma": 0.2147,
+          "Other": 0.0363
+        },
+        "Other": {
+          "Likud": 0.2274,
+          "Opposition": 0.1132,
+          "Yashar": 0.1521,
+          "Together": 0.0922,
+          "Reservists": 0.03,
+          "Haredi": 0.1439,
+          "Arab": 0.0555,
+          "Religious Zionism + Otzma": 0.145,
+          "Other": 0.0406
+        }
+      },
+      "exposure_locality": {
+        "Likud": {
+          "Likud": 0.2952,
+          "Opposition": 0.1275,
+          "Yashar": 0.172,
+          "Together": 0.0973,
+          "Reservists": 0.0332,
+          "Haredi": 0.0967,
+          "Arab": 0.025,
+          "Religious Zionism + Otzma": 0.126,
+          "Other": 0.0272
+        },
+        "Opposition": {
+          "Likud": 0.2124,
+          "Opposition": 0.1842,
+          "Yashar": 0.2283,
+          "Together": 0.1232,
+          "Reservists": 0.0305,
+          "Haredi": 0.0607,
+          "Arab": 0.0544,
+          "Religious Zionism + Otzma": 0.0832,
+          "Other": 0.0232
+        },
+        "Yashar": {
+          "Likud": 0.2203,
+          "Opposition": 0.1755,
+          "Yashar": 0.2462,
+          "Together": 0.1322,
+          "Reservists": 0.0329,
+          "Haredi": 0.056,
+          "Arab": 0.026,
+          "Religious Zionism + Otzma": 0.0871,
+          "Other": 0.0237
+        },
+        "Together": {
+          "Likud": 0.2236,
+          "Opposition": 0.17,
+          "Yashar": 0.2372,
+          "Together": 0.1375,
+          "Reservists": 0.0339,
+          "Haredi": 0.0589,
+          "Arab": 0.0189,
+          "Religious Zionism + Otzma": 0.0946,
+          "Other": 0.0254
+        },
+        "Reservists": {
+          "Likud": 0.261,
+          "Opposition": 0.1439,
+          "Yashar": 0.2024,
+          "Together": 0.1162,
+          "Reservists": 0.0356,
+          "Haredi": 0.077,
+          "Arab": 0.0192,
+          "Religious Zionism + Otzma": 0.1166,
+          "Other": 0.0281
+        },
+        "Haredi": {
+          "Likud": 0.1832,
+          "Opposition": 0.069,
+          "Yashar": 0.0829,
+          "Together": 0.0486,
+          "Reservists": 0.0185,
+          "Haredi": 0.4244,
+          "Arab": 0.0193,
+          "Religious Zionism + Otzma": 0.1193,
+          "Other": 0.0347
+        },
+        "Arab": {
+          "Likud": 0.0334,
+          "Opposition": 0.0436,
+          "Yashar": 0.0271,
+          "Together": 0.011,
+          "Reservists": 0.0033,
+          "Haredi": 0.0136,
+          "Arab": 0.8465,
+          "Religious Zionism + Otzma": 0.0123,
+          "Other": 0.0093
+        },
+        "Religious Zionism + Otzma": {
+          "Likud": 0.2546,
+          "Opposition": 0.1009,
+          "Yashar": 0.1373,
+          "Together": 0.0831,
+          "Reservists": 0.0299,
+          "Haredi": 0.1272,
+          "Arab": 0.0186,
+          "Religious Zionism + Otzma": 0.2117,
+          "Other": 0.0366
+        },
+        "Other": {
+          "Likud": 0.2213,
+          "Opposition": 0.1134,
+          "Yashar": 0.1509,
+          "Together": 0.0901,
+          "Reservists": 0.0291,
+          "Haredi": 0.1492,
+          "Arab": 0.0568,
+          "Religious Zionism + Otzma": 0.1476,
+          "Other": 0.0415
+        }
+      },
+      "exposure_ratio_station": {
+        "Likud": {
+          "Likud": 1.5886,
+          "Opposition": 0.9991,
+          "Yashar": 1.0427,
+          "Together": 1.054,
+          "Reservists": 1.327,
+          "Haredi": 0.7365,
+          "Arab": 0.0927,
+          "Religious Zionism + Otzma": 1.3378,
+          "Other": 1.1019
+        },
+        "Opposition": {
+          "Likud": 0.9991,
+          "Opposition": 1.6723,
+          "Yashar": 1.479,
+          "Together": 1.4427,
+          "Reservists": 1.1818,
+          "Haredi": 0.3515,
+          "Arab": 0.3138,
+          "Religious Zionism + Otzma": 0.7822,
+          "Other": 0.9161
+        },
+        "Yashar": {
+          "Likud": 1.0427,
+          "Opposition": 1.479,
+          "Yashar": 1.6507,
+          "Together": 1.5781,
+          "Reservists": 1.2933,
+          "Haredi": 0.3301,
+          "Arab": 0.1225,
+          "Religious Zionism + Otzma": 0.8352,
+          "Other": 0.9426
+        },
+        "Together": {
+          "Likud": 1.054,
+          "Opposition": 1.4427,
+          "Yashar": 1.5781,
+          "Together": 1.6833,
+          "Reservists": 1.3572,
+          "Haredi": 0.3427,
+          "Arab": 0.0699,
+          "Religious Zionism + Otzma": 0.9174,
+          "Other": 1.0251
+        },
+        "Reservists": {
+          "Likud": 1.327,
+          "Opposition": 1.1818,
+          "Yashar": 1.2933,
+          "Together": 1.3572,
+          "Reservists": 1.4852,
+          "Haredi": 0.5135,
+          "Arab": 0.0728,
+          "Religious Zionism + Otzma": 1.1883,
+          "Other": 1.142
+        },
+        "Haredi": {
+          "Likud": 0.7365,
+          "Opposition": 0.3515,
+          "Yashar": 0.3301,
+          "Together": 0.3427,
+          "Reservists": 0.5135,
+          "Haredi": 5.2948,
+          "Arab": 0.0326,
+          "Religious Zionism + Otzma": 1.1206,
+          "Other": 1.3641
+        },
+        "Arab": {
+          "Likud": 0.0927,
+          "Opposition": 0.3138,
+          "Yashar": 0.1225,
+          "Together": 0.0699,
+          "Reservists": 0.0728,
+          "Haredi": 0.0326,
+          "Arab": 5.4453,
+          "Religious Zionism + Otzma": 0.0581,
+          "Other": 0.3368
+        },
+        "Religious Zionism + Otzma": {
+          "Likud": 1.3378,
+          "Opposition": 0.7822,
+          "Yashar": 0.8352,
+          "Together": 0.9174,
+          "Reservists": 1.1883,
+          "Haredi": 1.1206,
+          "Arab": 0.0581,
+          "Religious Zionism + Otzma": 2.1954,
+          "Other": 1.4829
+        },
+        "Other": {
+          "Likud": 1.1019,
+          "Opposition": 0.9161,
+          "Yashar": 0.9426,
+          "Together": 1.0251,
+          "Reservists": 1.142,
+          "Haredi": 1.3641,
+          "Arab": 0.3368,
+          "Religious Zionism + Otzma": 1.4829,
+          "Other": 1.6625
+        }
+      },
+      "cities": {
+        "Jerusalem": {
+          "stations": 572,
+          "valid_votes": 240058,
+          "vote_shares": {
+            "Likud": 0.1717,
+            "Opposition": 0.0747,
+            "Yashar": 0.0803,
+            "Together": 0.0457,
+            "Reservists": 0.0181,
+            "Haredi": 0.3719,
+            "Arab": 0.0511,
+            "Religious Zionism + Otzma": 0.1412,
+            "Other": 0.0454
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.2759,
+            "Opposition": 0.0911,
+            "Yashar": 0.1092,
+            "Together": 0.0611,
+            "Reservists": 0.0277,
+            "Haredi": 0.1943,
+            "Arab": 0.0122,
+            "Religious Zionism + Otzma": 0.1821,
+            "Other": 0.0464
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.3955,
+            "Yashar": 0.318,
+            "Together": 0.3376,
+            "Reservists": 0.2319,
+            "Haredi": 0.6904,
+            "Arab": 0.8676,
+            "Religious Zionism + Otzma": 0.2455,
+            "Other": 0.3948
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.4182,
+            "Opposition": 0.4698,
+            "Yashar": 0.4376,
+            "Together": 0.4381,
+            "Reservists": 0.4066,
+            "Haredi": 0.6709,
+            "Arab": 0.8622,
+            "Religious Zionism + Otzma": 0.2858,
+            "Other": 0.2282
+          }
+        },
+        "Tel Aviv-Yafo": {
+          "stations": 647,
+          "valid_votes": 266299,
+          "vote_shares": {
+            "Likud": 0.1447,
+            "Opposition": 0.2588,
+            "Yashar": 0.2752,
+            "Together": 0.1672,
+            "Reservists": 0.0227,
+            "Haredi": 0.0313,
+            "Arab": 0.042,
+            "Religious Zionism + Otzma": 0.0433,
+            "Other": 0.0148
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.2323,
+            "Opposition": 0.2037,
+            "Yashar": 0.229,
+            "Together": 0.1365,
+            "Reservists": 0.0261,
+            "Haredi": 0.0632,
+            "Arab": 0.0283,
+            "Religious Zionism + Otzma": 0.0648,
+            "Other": 0.0162
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.4243,
+            "Yashar": 0.4087,
+            "Together": 0.4172,
+            "Reservists": 0.2767,
+            "Haredi": 0.3526,
+            "Arab": 0.7046,
+            "Religious Zionism + Otzma": 0.1484,
+            "Other": 0.3102
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.3606,
+            "Opposition": 0.1947,
+            "Yashar": 0.1978,
+            "Together": 0.1805,
+            "Reservists": 0.1898,
+            "Haredi": 0.6159,
+            "Arab": 0.6975,
+            "Religious Zionism + Otzma": 0.2955,
+            "Other": 0.2103
+          }
+        },
+        "Haifa": {
+          "stations": 399,
+          "valid_votes": 151926,
+          "vote_shares": {
+            "Likud": 0.1814,
+            "Opposition": 0.2033,
+            "Yashar": 0.2248,
+            "Together": 0.1234,
+            "Reservists": 0.025,
+            "Haredi": 0.0507,
+            "Arab": 0.1131,
+            "Religious Zionism + Otzma": 0.0579,
+            "Other": 0.0203
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.2331,
+            "Opposition": 0.1974,
+            "Yashar": 0.2235,
+            "Together": 0.123,
+            "Reservists": 0.0287,
+            "Haredi": 0.04,
+            "Arab": 0.0608,
+            "Religious Zionism + Otzma": 0.071,
+            "Other": 0.0225
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.2903,
+            "Yashar": 0.2936,
+            "Together": 0.292,
+            "Reservists": 0.2099,
+            "Haredi": 0.704,
+            "Arab": 0.7104,
+            "Religious Zionism + Otzma": 0.2342,
+            "Other": 0.2332
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.2691,
+            "Opposition": 0.2077,
+            "Yashar": 0.264,
+            "Together": 0.228,
+            "Reservists": 0.2276,
+            "Haredi": 0.7344,
+            "Arab": 0.6959,
+            "Religious Zionism + Otzma": 0.2949,
+            "Other": 0.2112
+          }
+        },
+        "Rishon LeZion": {
+          "stations": 349,
+          "valid_votes": 154110,
+          "vote_shares": {
+            "Likud": 0.2931,
+            "Opposition": 0.1369,
+            "Yashar": 0.2397,
+            "Together": 0.1388,
+            "Reservists": 0.0458,
+            "Haredi": 0.0328,
+            "Arab": 0.0012,
+            "Religious Zionism + Otzma": 0.0897,
+            "Other": 0.0221
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.314,
+            "Opposition": 0.1279,
+            "Yashar": 0.2258,
+            "Together": 0.1304,
+            "Reservists": 0.0459,
+            "Haredi": 0.0375,
+            "Arab": 0.0012,
+            "Religious Zionism + Otzma": 0.0951,
+            "Other": 0.0221
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.2435,
+            "Yashar": 0.1985,
+            "Together": 0.2074,
+            "Reservists": 0.1602,
+            "Haredi": 0.2195,
+            "Arab": 0.6535,
+            "Religious Zionism + Otzma": 0.1053,
+            "Other": 0.1986
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.15,
+            "Opposition": 0.1865,
+            "Yashar": 0.1438,
+            "Together": 0.1347,
+            "Reservists": 0.1255,
+            "Haredi": 0.2834,
+            "Arab": 0.6433,
+            "Religious Zionism + Otzma": 0.1431,
+            "Other": 0.1675
+          }
+        },
+        "Petah Tikva": {
+          "stations": 306,
+          "valid_votes": 141513,
+          "vote_shares": {
+            "Likud": 0.2535,
+            "Opposition": 0.1252,
+            "Yashar": 0.1877,
+            "Together": 0.1257,
+            "Reservists": 0.0389,
+            "Haredi": 0.0977,
+            "Arab": 0.0014,
+            "Religious Zionism + Otzma": 0.1337,
+            "Other": 0.0363
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.2816,
+            "Opposition": 0.1258,
+            "Yashar": 0.1835,
+            "Together": 0.1204,
+            "Reservists": 0.0404,
+            "Haredi": 0.0831,
+            "Arab": 0.0015,
+            "Religious Zionism + Otzma": 0.1291,
+            "Other": 0.0345
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.2236,
+            "Yashar": 0.2388,
+            "Together": 0.2566,
+            "Reservists": 0.1701,
+            "Haredi": 0.4648,
+            "Arab": 0.5863,
+            "Religious Zionism + Otzma": 0.2887,
+            "Other": 0.2743
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.1786,
+            "Opposition": 0.2125,
+            "Yashar": 0.2182,
+            "Together": 0.218,
+            "Reservists": 0.1585,
+            "Haredi": 0.4697,
+            "Arab": 0.5875,
+            "Religious Zionism + Otzma": 0.2673,
+            "Other": 0.213
+          }
+        },
+        "Ashdod": {
+          "stations": 300,
+          "valid_votes": 122824,
+          "vote_shares": {
+            "Likud": 0.3065,
+            "Opposition": 0.1378,
+            "Yashar": 0.115,
+            "Together": 0.0723,
+            "Reservists": 0.0302,
+            "Haredi": 0.2133,
+            "Arab": 0.0008,
+            "Religious Zionism + Otzma": 0.102,
+            "Other": 0.0222
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.3621,
+            "Opposition": 0.1432,
+            "Yashar": 0.1337,
+            "Together": 0.0813,
+            "Reservists": 0.0343,
+            "Haredi": 0.1086,
+            "Arab": 0.0009,
+            "Religious Zionism + Otzma": 0.1137,
+            "Other": 0.0223
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.3056,
+            "Yashar": 0.1702,
+            "Together": 0.2114,
+            "Reservists": 0.1634,
+            "Haredi": 0.6826,
+            "Arab": 0.7794,
+            "Religious Zionism + Otzma": 0.1186,
+            "Other": 0.242
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.2527,
+            "Opposition": 0.3443,
+            "Yashar": 0.2587,
+            "Together": 0.2654,
+            "Reservists": 0.216,
+            "Haredi": 0.6886,
+            "Arab": 0.785,
+            "Religious Zionism + Otzma": 0.162,
+            "Other": 0.187
+          }
+        },
+        "Netanya": {
+          "stations": 311,
+          "valid_votes": 123501,
+          "vote_shares": {
+            "Likud": 0.3541,
+            "Opposition": 0.1154,
+            "Yashar": 0.1548,
+            "Together": 0.094,
+            "Reservists": 0.0372,
+            "Haredi": 0.0986,
+            "Arab": 0.0012,
+            "Religious Zionism + Otzma": 0.1182,
+            "Other": 0.0266
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.3767,
+            "Opposition": 0.1134,
+            "Yashar": 0.1483,
+            "Together": 0.0885,
+            "Reservists": 0.0374,
+            "Haredi": 0.0879,
+            "Arab": 0.0013,
+            "Religious Zionism + Otzma": 0.1202,
+            "Other": 0.0264
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.2271,
+            "Yashar": 0.234,
+            "Together": 0.2693,
+            "Reservists": 0.1889,
+            "Haredi": 0.4139,
+            "Arab": 0.6163,
+            "Religious Zionism + Otzma": 0.1672,
+            "Other": 0.2284
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.1587,
+            "Opposition": 0.2103,
+            "Yashar": 0.2166,
+            "Together": 0.233,
+            "Reservists": 0.1668,
+            "Haredi": 0.4467,
+            "Arab": 0.6091,
+            "Religious Zionism + Otzma": 0.1755,
+            "Other": 0.2033
+          }
+        },
+        "Be'er Sheva": {
+          "stations": 244,
+          "valid_votes": 98867,
+          "vote_shares": {
+            "Likud": 0.3916,
+            "Opposition": 0.12,
+            "Yashar": 0.1269,
+            "Together": 0.0721,
+            "Reservists": 0.0345,
+            "Haredi": 0.0551,
+            "Arab": 0.0133,
+            "Religious Zionism + Otzma": 0.1586,
+            "Other": 0.0279
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.3985,
+            "Opposition": 0.118,
+            "Yashar": 0.1254,
+            "Together": 0.0713,
+            "Reservists": 0.0346,
+            "Haredi": 0.0525,
+            "Arab": 0.0135,
+            "Religious Zionism + Otzma": 0.1585,
+            "Other": 0.0277
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.2143,
+            "Yashar": 0.1644,
+            "Together": 0.1662,
+            "Reservists": 0.1621,
+            "Haredi": 0.2654,
+            "Arab": 0.4069,
+            "Religious Zionism + Otzma": 0.1141,
+            "Other": 0.1765
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.0924,
+            "Opposition": 0.2218,
+            "Yashar": 0.1535,
+            "Together": 0.153,
+            "Reservists": 0.1584,
+            "Haredi": 0.2779,
+            "Arab": 0.4143,
+            "Religious Zionism + Otzma": 0.1183,
+            "Other": 0.1612
+          }
+        },
+        "Bnei Brak": {
+          "stations": 171,
+          "valid_votes": 85115,
+          "vote_shares": {
+            "Likud": 0.0342,
+            "Opposition": 0.0061,
+            "Yashar": 0.008,
+            "Together": 0.0047,
+            "Reservists": 0.0026,
+            "Haredi": 0.854,
+            "Arab": 0.0003,
+            "Religious Zionism + Otzma": 0.0487,
+            "Other": 0.0414
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.0781,
+            "Opposition": 0.0168,
+            "Yashar": 0.0206,
+            "Together": 0.0119,
+            "Reservists": 0.0064,
+            "Haredi": 0.747,
+            "Arab": 0.0006,
+            "Religious Zionism + Otzma": 0.0769,
+            "Other": 0.0419
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.3333,
+            "Yashar": 0.2898,
+            "Together": 0.3458,
+            "Reservists": 0.3995,
+            "Haredi": 0.4543,
+            "Arab": 0.7886,
+            "Religious Zionism + Otzma": 0.2526,
+            "Other": 0.4578
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.4268,
+            "Opposition": 0.584,
+            "Yashar": 0.5472,
+            "Together": 0.5646,
+            "Reservists": 0.5642,
+            "Haredi": 0.3007,
+            "Arab": 0.8943,
+            "Religious Zionism + Otzma": 0.2951,
+            "Other": 0.1861
+          }
+        },
+        "Holon": {
+          "stations": 247,
+          "valid_votes": 106172,
+          "vote_shares": {
+            "Likud": 0.3277,
+            "Opposition": 0.1149,
+            "Yashar": 0.2068,
+            "Together": 0.1105,
+            "Reservists": 0.0419,
+            "Haredi": 0.0772,
+            "Arab": 0.0017,
+            "Religious Zionism + Otzma": 0.0992,
+            "Other": 0.0201
+          },
+          "likud_voter_exposure": {
+            "Likud": 0.3366,
+            "Opposition": 0.1114,
+            "Yashar": 0.2006,
+            "Together": 0.1075,
+            "Reservists": 0.0417,
+            "Haredi": 0.0799,
+            "Arab": 0.0017,
+            "Religious Zionism + Otzma": 0.1007,
+            "Other": 0.02
+          },
+          "dissimilarity_likud_vs": {
+            "Opposition": 0.1809,
+            "Yashar": 0.1667,
+            "Together": 0.1672,
+            "Reservists": 0.1562,
+            "Haredi": 0.2468,
+            "Arab": 0.5312,
+            "Religious Zionism + Otzma": 0.1026,
+            "Other": 0.1688
+          },
+          "dissimilarity_vs_all_others": {
+            "Likud": 0.101,
+            "Opposition": 0.1482,
+            "Yashar": 0.141,
+            "Together": 0.1376,
+            "Reservists": 0.1344,
+            "Haredi": 0.2865,
+            "Arab": 0.5236,
+            "Religious Zionism + Otzma": 0.109,
+            "Other": 0.1499
+          }
+        }
+      },
+      "correlation_with_likud_share": {
+        "stations_unweighted": {
+          "Opposition": -0.0528,
+          "Yashar": -0.0004,
+          "Together": 0.0142,
+          "Reservists": 0.5106,
+          "Haredi": -0.1692,
+          "Arab": -0.5292,
+          "Religious Zionism + Otzma": 0.3661,
+          "Other": 0.1198
+        },
+        "stations_weighted": {
+          "Opposition": -0.0053,
+          "Yashar": 0.0641,
+          "Together": 0.0796,
+          "Reservists": 0.5556,
+          "Haredi": -0.1656,
+          "Arab": -0.5573,
+          "Religious Zionism + Otzma": 0.3934,
+          "Other": 0.1483
+        },
+        "localities_weighted": {
+          "Opposition": 0.0604,
+          "Yashar": 0.1384,
+          "Together": 0.1706,
+          "Reservists": 0.6649,
+          "Haredi": -0.1021,
+          "Arab": -0.6062,
+          "Religious Zionism + Otzma": 0.3414,
+          "Other": 0.1343
+        },
+        "min_station_valid_votes": 50
+      },
+      "locality_type": {
+        "official_type_in_files": false,
+        "note": "Classes are derived from votes and size, not official types.",
+        "classes": {
+          "Arab parties won over half the votes": {
+            "localities": 129,
+            "stations": 1353,
+            "valid_votes": 730770,
+            "vote_shares": {
+              "Likud": 0.0045,
+              "Opposition": 0.0284,
+              "Yashar": 0.0078,
+              "Together": 0.001,
+              "Reservists": 0.0003,
+              "Haredi": 0.0008,
+              "Arab": 0.9496,
+              "Religious Zionism + Otzma": 0.0005,
+              "Other": 0.0071
+            },
+            "likud_voter_exposure_station": {
+              "Likud": 0.0295,
+              "Opposition": 0.0887,
+              "Yashar": 0.0433,
+              "Together": 0.004,
+              "Reservists": 0.0012,
+              "Haredi": 0.0009,
+              "Arab": 0.8196,
+              "Religious Zionism + Otzma": 0.004,
+              "Other": 0.0088
+            },
+            "dissimilarity_likud_vs_opposition_station": 0.4415,
+            "dissimilarity_likud_vs_opposition_locality": 0.3048,
+            "correlation_likud_vs_opposition_station": 0.5188
+          },
+          "Haredi parties won over half the votes": {
+            "localities": 17,
+            "stations": 491,
+            "valid_votes": 239224,
+            "vote_shares": {
+              "Likud": 0.0541,
+              "Opposition": 0.0074,
+              "Yashar": 0.0096,
+              "Together": 0.007,
+              "Reservists": 0.0044,
+              "Haredi": 0.7836,
+              "Arab": 0.0003,
+              "Religious Zionism + Otzma": 0.0921,
+              "Other": 0.0416
+            },
+            "likud_voter_exposure_station": {
+              "Likud": 0.2187,
+              "Opposition": 0.0332,
+              "Yashar": 0.0414,
+              "Together": 0.0243,
+              "Reservists": 0.0185,
+              "Haredi": 0.4562,
+              "Arab": 0.0007,
+              "Religious Zionism + Otzma": 0.1601,
+              "Other": 0.0469
+            },
+            "dissimilarity_likud_vs_opposition_station": 0.3314,
+            "dissimilarity_likud_vs_opposition_locality": 0.0924,
+            "correlation_likud_vs_opposition_station": 0.8346
+          },
+          "Other places, 80,000+ valid votes": {
+            "localities": 12,
+            "stations": 3985,
+            "valid_votes": 1677900,
+            "vote_shares": {
+              "Likud": 0.2489,
+              "Opposition": 0.1521,
+              "Yashar": 0.1866,
+              "Together": 0.1117,
+              "Reservists": 0.0317,
+              "Haredi": 0.1146,
+              "Arab": 0.0261,
+              "Religious Zionism + Otzma": 0.102,
+              "Other": 0.0263
+            },
+            "likud_voter_exposure_station": {
+              "Likud": 0.3173,
+              "Opposition": 0.1355,
+              "Yashar": 0.1728,
+              "Together": 0.102,
+              "Reservists": 0.0361,
+              "Haredi": 0.0807,
+              "Arab": 0.0102,
+              "Religious Zionism + Otzma": 0.1188,
+              "Other": 0.0265
+            },
+            "dissimilarity_likud_vs_opposition_station": 0.3798,
+            "dissimilarity_likud_vs_opposition_locality": 0.2739,
+            "correlation_likud_vs_opposition_station": -0.3272
+          },
+          "Other places, 30,000-79,999 valid votes": {
+            "localities": 19,
+            "stations": 1887,
+            "valid_votes": 826818,
+            "vote_shares": {
+              "Likud": 0.2694,
+              "Opposition": 0.1437,
+              "Yashar": 0.2128,
+              "Together": 0.1231,
+              "Reservists": 0.033,
+              "Haredi": 0.0566,
+              "Arab": 0.0393,
+              "Religious Zionism + Otzma": 0.0974,
+              "Other": 0.0247
+            },
+            "likud_voter_exposure_station": {
+              "Likud": 0.3361,
+              "Opposition": 0.1266,
+              "Yashar": 0.1787,
+              "Together": 0.1011,
+              "Reservists": 0.0347,
+              "Haredi": 0.0647,
+              "Arab": 0.0187,
+              "Religious Zionism + Otzma": 0.1138,
+              "Other": 0.0255
+            },
+            "dissimilarity_likud_vs_opposition_station": 0.3619,
+            "dissimilarity_likud_vs_opposition_locality": 0.2852,
+            "correlation_likud_vs_opposition_station": -0.4317
+          },
+          "Other places, 10,000-29,999 valid votes": {
+            "localities": 42,
+            "stations": 1640,
+            "valid_votes": 725515,
+            "vote_shares": {
+              "Likud": 0.3004,
+              "Opposition": 0.1247,
+              "Yashar": 0.1682,
+              "Together": 0.0969,
+              "Reservists": 0.0333,
+              "Haredi": 0.0928,
+              "Arab": 0.0288,
+              "Religious Zionism + Otzma": 0.1296,
+              "Other": 0.0254
+            },
+            "likud_voter_exposure_station": {
+              "Likud": 0.36,
+              "Opposition": 0.1096,
+              "Yashar": 0.1474,
+              "Together": 0.0832,
+              "Reservists": 0.034,
+              "Haredi": 0.0837,
+              "Arab": 0.0152,
+              "Religious Zionism + Otzma": 0.1415,
+              "Other": 0.0254
+            },
+            "dissimilarity_likud_vs_opposition_station": 0.3765,
+            "dissimilarity_likud_vs_opposition_locality": 0.3231,
+            "correlation_likud_vs_opposition_station": -0.4245
+          },
+          "Other places, under 10,000 valid votes": {
+            "localities": 1005,
+            "stations": 1562,
+            "valid_votes": 647008,
+            "vote_shares": {
+              "Likud": 0.1945,
+              "Opposition": 0.1728,
+              "Yashar": 0.2523,
+              "Together": 0.1148,
+              "Reservists": 0.0329,
+              "Haredi": 0.0263,
+              "Arab": 0.0111,
+              "Religious Zionism + Otzma": 0.1637,
+              "Other": 0.0315
+            },
+            "likud_voter_exposure_station": {
+              "Likud": 0.3117,
+              "Opposition": 0.1121,
+              "Yashar": 0.1872,
+              "Together": 0.0898,
+              "Reservists": 0.0349,
+              "Haredi": 0.0437,
+              "Arab": 0.0065,
+              "Religious Zionism + Otzma": 0.1823,
+              "Other": 0.0317
+            },
+            "dissimilarity_likud_vs_opposition_station": 0.5696,
+            "dissimilarity_likud_vs_opposition_locality": 0.541,
+            "correlation_likud_vs_opposition_station": -0.5928
+          }
+        }
       }
     }
   }
