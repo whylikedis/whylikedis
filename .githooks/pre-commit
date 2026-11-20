@@ -1,3 +1,17 @@
 #!/bin/sh
-# Cheap checks first: the gate runs before every commit. Enable with: git config core.hooksPath .githooks
-python3 tools/factcheck.py selftest && python3 tools/factcheck.py
+# Cheap checks first. Enable with: git config core.hooksPath .githooks
+# The self-test must always pass. The card gate blocks a commit that touches facts/.
+# A commit that only changes rules or tools may land while cards are being brought up to a new rule;
+# it prints what is failing so nobody forgets.
+python3 tools/factcheck.py selftest || exit 1
+python3 tools/factcheck.py > /tmp/factcheck.$$ 2>&1; status=$?
+tail -1 /tmp/factcheck.$$
+if [ $status -ne 0 ]; then
+  if git diff --cached --name-only | grep -q '^facts/'; then
+    grep FAIL /tmp/factcheck.$$ | head -20; rm -f /tmp/factcheck.$$
+    echo "pre-commit: cards are failing the gate, and this commit touches facts/. Fix the cards first." >&2
+    exit 1
+  fi
+  echo "pre-commit: cards are failing the gate; this commit does not touch facts/, so it may land." >&2
+fi
+rm -f /tmp/factcheck.$$

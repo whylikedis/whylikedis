@@ -17,7 +17,8 @@ You write fact cards for one era. You do not verify your own cards.
    different sites**. Prefer the document itself (a UN resolution, a treaty, a court
    ruling, a census), then scholars, then reference works, then news. A government or an advocacy
    group may be one voice, but it does not count toward the three. If you cannot find three, keep
-   the fact with what you have and say so in `could_not_verify`. Never pad with a weak source.
+   the fact with what you have and say so in `could_not_verify`. Never pad with a weak source. If an outlet is carrying a news agency's story (AP, Reuters, AFP), add
+   `"wire": "AP"` to that source: one agency story on three sites is one source, not three.
 4. Read every page with `python3 tools/factcheck.py fetch <url>` and copy each quote from that
    output, 5 to 40 words. If the page will not load, find its Wayback Machine copy and put it in
    `archive`. PDFs are readable where `pdftotext` is installed.

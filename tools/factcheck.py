@@ -62,6 +62,16 @@ def fetch(url):
         return getattr(e, "code", 0) or 0, ""
 
 
+WIRES = {"associated press": "ap", "ap": "ap", "reuters": "reuters", "afp": "afp", "agence france-presse": "afp"}
+WIRE_IN_NAME = re.compile(r"\((?:via |from )?(associated press|ap|reuters|afp|agence france-presse)\)", re.I)
+
+
+def origin(s):
+    """Where a source's words come from. Outlets that carry the same news agency's story are one source."""
+    wire = (s.get("wire") or "").strip().lower()
+    return "wire:" + WIRES.get(wire, wire) if wire else urlparse(s.get("url", "")).netloc.removeprefix("www.")
+
+
 def key(url, quote):
     return hashlib.sha256(f"{url}\n{norm(quote)}".encode()).hexdigest()[:16]
 
@@ -121,8 +131,8 @@ def check_card(card, name, lock):
         src = f.get("sources") or []
         if not f.get("text"):
             e.append(f"facts[{i}]: no text")
-        if len({urlparse(s.get("url", "")).netloc.removeprefix("www.") for s in src}) < 2:
-            e.append(f"facts[{i}]: needs two sources from different sites")
+        if len({origin(s) for s in src}) < 2:
+            e.append(f"facts[{i}]: needs two sources from different sites (one agency story on two sites is one source)")
         if src and all(s.get("kind") in PARTISAN for s in src):
             e.append(f"facts[{i}]: every source is a government or an advocacy group; add an independent one")
         for j, s in enumerate(src):
@@ -131,6 +141,9 @@ def check_card(card, name, lock):
                 e.append(f"{w}: kind must be one of {sorted(KINDS)}")
             if not s.get("publisher") or not s.get("title"):
                 e.append(f"{w}: publisher and title are required")
+            m = WIRE_IN_NAME.search(s.get("publisher", ""))
+            if m and not s.get("wire"):
+                e.append(f'{w}: the publisher names a news agency; add "wire": "{WIRES[m.group(1).lower()].upper()}" so it is not counted twice')
             try:
                 date.fromisoformat(s.get("accessed", ""))
             except ValueError:
@@ -152,10 +165,10 @@ def check_card(card, name, lock):
             if (review.get(who) or {}).get("verdict") != "holds":
                 e.append(f"verified needs review.{who}.verdict = holds, from an agent that did not write the card")
         for i, f in enumerate(card["facts"]):
-            sites = {urlparse(s.get("url", "")).netloc.removeprefix("www.") for s in f.get("sources") or [] if s.get("kind") in RELIABLE}
+            sites = {origin(s) for s in f.get("sources") or [] if s.get("kind") in RELIABLE}
             if len(sites) < 3:
-                e.append(f"facts[{i}]: verified needs three reliable sources from three sites (has {len(sites)}); "
-                         "governments and advocacy groups do not count toward the three")
+                e.append(f"facts[{i}]: verified needs three reliable, independent sources (has {len(sites)}); governments and "
+                         "advocacy groups do not count, and one agency story on several sites counts once")
         for i, c in enumerate(card["contested"]):
             if not (isinstance(c, dict) and c.get("text") and c.get("sources")):
                 e.append(f"contested[{i}]: verified needs each disputed position as {{text, sources}}, quoted from "
@@ -220,8 +233,7 @@ def run(folder=FACTS, online=False, out=print, prefix=""):
     mine = [c for name, c in cards(folder) if name.startswith(prefix) and "_broken" not in c]
     verified = sum(c.get("status") == "verified" for c in mine)
     facts = [f for c in mine for f in c.get("facts") or []]
-    three = sum(len({urlparse(s.get("url", "")).netloc.removeprefix("www.") for s in f.get("sources") or []
-                     if s.get("kind") in RELIABLE}) >= 3 for f in facts)
+    three = sum(len({origin(s) for s in f.get("sources") or [] if s.get("kind") in RELIABLE}) >= 3 for f in facts)
     out(f"{'FAILED' if failed else 'ok'}: {n} cards, {verified} verified, {failed} failing; "
         f"{three} of {len(facts)} facts have three reliable sources")
     return failed
@@ -273,6 +285,8 @@ def selftest():
     lock = {key(u, q): {"result": "found"} for _, u, q, _ in quoted(ver)}
     assert check_card(ver, "good", lock) == [], check_card(ver, "good", lock)
     bad_ver = {
+        "one agency story on three sites": lambda c: [s.update(wire="AP") for s in c["facts"][0]["sources"]],
+        "an agency named in the publisher but not declared": lambda c: c["facts"][0]["sources"][0].update(publisher="PBS NewsHour (Associated Press)"),
         "two reliable sources": lambda c: c["facts"][0].update(sources=[src("a.org"), src("b.org"), src("c.org", "advocacy")]),
         "one reader": lambda c: c["review"].pop("citer"),
         "skeptic says weakened": lambda c: c["review"]["skeptic"].update(verdict="weakened"),

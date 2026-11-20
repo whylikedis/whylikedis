@@ -24,6 +24,8 @@
 - **F9.** No email address appears in a card.
 - **F10.** A verified card states each disputed position as text plus at least one source that
   quotes someone who holds it. Those quotes are checked online like any other.
+- **F12.** Sources carrying the same news agency's story count as one source. A publisher that
+  names an agency must declare it in `wire`.
 - **F11.** `fetch` reads PDF sources where the `pdftotext` program is installed, and reports them
   as unreachable where it is not.
 

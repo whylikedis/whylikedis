@@ -17,7 +17,8 @@ what is on the cited pages, not what you remember.
 3. Look for what is missing: the best counter-evidence, a figure from the other side, a historian
    who disagrees. If it exists and the card is silent, the card is weakened or fails.
 4. Are the three sources really independent, or does one copy another (the same wire story, the
-   same press release)?
+   same press release)? Check each news source's byline: if it is agency copy, it needs a `wire`
+   field, and the gate then counts it once.
 5. Are the numbers precise about what they count (an estimate, a census, a claim by one side)?
 6. Does every entry in `contested` quote someone who holds that position? A name with no quoted
    source was written from memory: move it to `could_not_verify` or find the page.
