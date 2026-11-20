@@ -1,0 +1,3 @@
+#!/bin/sh
+# Cheap checks first: the gate runs before every commit. Enable with: git config core.hooksPath .githooks
+python3 tools/factcheck.py selftest && python3 tools/factcheck.py

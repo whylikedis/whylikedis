@@ -17,13 +17,13 @@ FACTS = os.path.join(ROOT, "facts")
 LOCK = os.path.join(FACTS, "verified.lock.json")
 KINDS = {"primary", "scholarly", "reference", "news", "government", "advocacy"}
 PARTISAN = {"government", "advocacy"}  # fine as one voice, never the only support for a fact
+RELIABLE = KINDS - PARTISAN  # what counts toward the three sources a verified fact needs
 ERAS = range(1, 9)
 BANNED = ["hasbara"]
 
 
 def norm(text):
     """One spelling for comparing a quote with a page: lower case, plain quotes and dashes, single spaces."""
-    text = html.unescape(text)
     for a, b in (("‘", "'"), ("’", "'"), ("“", '"'), ("”", '"'), ("–", "-"), ("—", "-"), (" ", " ")):
         text = text.replace(a, b)
     return re.sub(r"\s+", " ", text).strip().lower()
@@ -31,7 +31,7 @@ def norm(text):
 
 def page_text(raw):
     raw = re.sub(r"(?is)<(script|style|noscript)\b.*?</\1>", " ", raw)
-    return norm(re.sub(r"(?s)<[^>]+>", " ", raw))
+    return norm(html.unescape(re.sub(r"(?s)<[^>]+>", " ", raw)))
 
 
 def fetch(url):
@@ -97,6 +97,8 @@ def check_card(card, name, lock):
         e.append("needs at least two facts")
     if not card["not_claimed"]:
         e.append("not_claimed: say what this card does not claim")
+    if re.search(r"[\w.+-]+@[\w-]+\.[\w.]+", json.dumps(card, ensure_ascii=False)):
+        e.append("an email address is in the card; no personal data in this repository")
     for bad in BANNED:
         if bad in json.dumps(card, ensure_ascii=False).lower():
             e.append(f"banned word: {bad}")
@@ -130,8 +132,24 @@ def check_card(card, name, lock):
     if card["status"] not in ("draft", "verified"):
         e.append("status must be draft or verified")
     if card["status"] == "verified":
-        if (card.get("review") or {}).get("skeptic", {}).get("verdict") != "holds":
-            e.append("verified needs review.skeptic.verdict = holds, from an agent that did not write the card")
+        review = card.get("review") or {}
+        for who in ("skeptic", "citer"):  # two independent readers; neither wrote the card
+            if (review.get(who) or {}).get("verdict") != "holds":
+                e.append(f"verified needs review.{who}.verdict = holds, from an agent that did not write the card")
+        for i, f in enumerate(card["facts"]):
+            sites = {urlparse(s.get("url", "")).netloc.removeprefix("www.") for s in f.get("sources") or [] if s.get("kind") in RELIABLE}
+            if len(sites) < 3:
+                e.append(f"facts[{i}]: verified needs three reliable sources from three sites (has {len(sites)}); "
+                         "governments and advocacy groups do not count toward the three")
+        if not isinstance(card.get("could_not_verify"), list):
+            e.append("verified needs could_not_verify: what was looked for and not found (an empty list if nothing)")
+        claims = card.get("answer_claims") or []
+        if norm(" ".join(c.get("says", "") for c in claims)) != norm(card["answer"]):
+            e.append("verified needs answer_claims: the answer split into sentences, in order, with nothing left out")
+        for i, c in enumerate(claims):
+            idx = c.get("facts") or []
+            if not idx or any(not isinstance(k, int) or not 0 <= k < len(card["facts"]) for k in idx):
+                e.append(f"answer_claims[{i}]: must name the facts that support it; a sentence no fact supports is removed")
         for where, url, quote, _ in quoted(card):
             if lock.get(key(url, quote), {}).get("result") != "found":
                 e.append(f"{where}: verified needs the quote found on the page (run --online)")
@@ -212,8 +230,30 @@ def selftest():
         "verified without review": lambda c: c.update(status="verified"),
         "http": lambda c: c["heard"][0].update(url="http://x.org/a"),
         "wikipedia": lambda c: c["heard"][0].update(url="https://en.wikipedia.org/wiki/X"),
+        "an email address": lambda c: c.update(answer="write to someone@example.org"),
     }
     assert check_card(good, "good", {}) == [], check_card(good, "good", {})
+    three = lambda: [src("a.org"), src("b.org"), src("c.org")]
+    ver = json.loads(json.dumps(good))
+    ver.update(status="verified", answer="One thing. Another thing.", could_not_verify=[],
+               facts=[{"text": "t", "sources": three()}, {"text": "u", "sources": three()}],
+               answer_claims=[{"says": "One thing.", "facts": [0]}, {"says": "Another thing.", "facts": [0, 1]}],
+               review={"skeptic": {"verdict": "holds"}, "citer": {"verdict": "holds"}})
+    lock = {key(u, q): {"result": "found"} for _, u, q, _ in quoted(ver)}
+    assert check_card(ver, "good", lock) == [], check_card(ver, "good", lock)
+    bad_ver = {
+        "two reliable sources": lambda c: c["facts"][0].update(sources=[src("a.org"), src("b.org"), src("c.org", "advocacy")]),
+        "one reader": lambda c: c["review"].pop("citer"),
+        "skeptic says weakened": lambda c: c["review"]["skeptic"].update(verdict="weakened"),
+        "answer sentence with no fact": lambda c: c["answer_claims"][1].update(facts=[]),
+        "answer sentence left out": lambda c: c["answer_claims"].pop(),
+        "no could_not_verify": lambda c: c.pop("could_not_verify"),
+        "quote changed after it was checked": lambda c: c["facts"][0]["sources"][0].update(quote="five other words were swapped in"),
+    }
+    for why, breakit in bad_ver.items():
+        c = json.loads(json.dumps(ver))
+        breakit(c)
+        assert check_card(c, "good", lock), f"the gate let a verified card through: {why}"
     for why, breakit in bad.items():
         c = json.loads(json.dumps(good))
         breakit(c)
@@ -223,6 +263,30 @@ def selftest():
         assert run(d, out=lambda *_: None) == 0
         open(os.path.join(d, "broken.json"), "w").write("{")
         assert run(d, out=lambda *_: None) == 1
+    for name, card in cards():  # the smoke-alarm test, on the real cards
+        if "_broken" in card or check_card(card, name, load_lock()):
+            continue
+        m = json.loads(json.dumps(card))
+        m["facts"][0]["sources"] = m["facts"][0]["sources"][:1]
+        assert check_card(m, name, load_lock()), f"{name}: dropping sources went unnoticed"
+        if card["status"] == "verified":
+            m = json.loads(json.dumps(card))
+            m["facts"][0]["sources"][0]["quote"] += " and one more word"
+            assert check_card(m, name, load_lock()), f"{name}: an edited quote went unnoticed"
+    import random
+    seed = random.randrange(10**9)
+    rnd = random.Random(seed)
+    alphabet = list("abcdefghij ABC 0123 .,;:!?()&'\"") + ["\u2018", "\u2019", "\u201c", "\u201d", "\u2013", "\u2014", "\u00a0", "\n", "\t", "  ", "é", "ש", "&amp;", "&lt;", "&#39;"]
+    for _ in range(2000):
+        t = "".join(rnd.choice(alphabet) for _ in range(rnd.randrange(1, 200)))
+        assert norm(norm(t)) == norm(t), f"norm is not idempotent (seed {seed}): {t!r}"
+        assert key("https://a.org/x", t) == key("https://a.org/x", "  " + t.replace(" ", " \n ") + " "), f"key depends on spacing (seed {seed})"
+        words = norm(t).split()
+        if len(words) >= 5:  # a quote copied from what `fetch` prints is always found again on that page
+            i = rnd.randrange(0, len(words) - 4)
+            quote = " ".join(words[i:i + rnd.randrange(5, 41)])
+            page = f"<html><script>var x = 1 < 2;</script><p class='a'>{html.escape(t)}</p></html>"
+            assert norm(quote) in page_text(page), f"a copied quote was not found (seed {seed}): {quote!r}"
     assert norm("“Smart” quotes — and  spaces") == '"smart" quotes - and spaces'
     assert "hidden" not in page_text("<p>Shown</p><script>hidden</script>") and "shown" in page_text("<p>Shown</p>")
     print("ok: factcheck selftest")

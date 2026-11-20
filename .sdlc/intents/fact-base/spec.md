@@ -13,12 +13,15 @@
 - **F5.** `--online` fetches each URL, or its Wayback Machine copy, and finds the quote on the
   page after normalising quotes, dashes and spaces. A quote that is not on the page fails the run.
   A page that cannot be read is a warning, and the card cannot be verified.
-- **F6.** `status: verified` requires a skeptic verdict of `holds` and every quote found online,
-  recorded in `facts/verified.lock.json`.
+- **F6.** `status: verified` requires: two review rounds (`skeptic`, `citer`) that both `hold`;
+  three reliable sources from three sites for every fact, where governments and advocacy groups do
+  not count; `could_not_verify` present; `answer_claims` covering every sentence of the answer,
+  each tied to a fact; and every quote found online, recorded in `facts/verified.lock.json`.
 - **F7.** `render` writes `FACTS.md` from the cards. It is never edited by hand.
-- **F8.** `selftest` proves the gate rejects: one site used twice, only partisan sources, a single
-  fact, no `heard`, an over-long quote, `verified` without a review, an http URL, Wikipedia, and a
-  file that is not JSON.
+- **F8.** `selftest` proves the gate rejects every kind of bad card it claims to (16 planted
+  flaws), that breaking a real card is noticed, and, on 2,000 random texts, that normalising twice
+  changes nothing and a quote copied from a fetched page is found again.
+- **F9.** No email address appears in a card.
 
 ## The feedback loop
 

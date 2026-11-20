@@ -1,0 +1,193 @@
+{
+  "id": "era5-october-7-attack",
+  "era": 5,
+  "claim": "October 7 was a legitimate act of resistance, or the atrocities that day were exaggerated or made up.",
+  "heard": [
+    {
+      "who": "Hamas, 'Our Narrative... Operation Al-Aqsa Flood', 21 January 2024 (as reproduced by the Counter Extremism Project)",
+      "url": "https://www.counterextremism.com/content/hamas-statement-january-21-2024-1",
+      "quote": "Operation Al-Aqsa Flood on Oct. 7 was a necessary step and a normal response to confront all Israeli conspiracies against the Palestinian people and their cause.",
+      "archive": ""
+    },
+    {
+      "who": "Hamas, reply to the UN report on sexual violence, March 2024 (reported by Dawn)",
+      "url": "https://www.dawn.com/news/1819387",
+      "quote": "did not document any testimony from what she calls the victims of these cases",
+      "archive": ""
+    }
+  ],
+  "answer": "On 7 October 2023 Hamas-led fighters attacked southern Israel. About 1,200 people were killed, most of them civilians, and about 250 were taken to Gaza as hostages. The counts come mainly from the Israeli government. Human Rights Watch, which has also criticised Israel's conduct in Gaza, found that the attackers committed war crimes and crimes against humanity, including murder of civilians and hostage-taking. A UN commission of inquiry found the same. A UN team led by Pramila Patten found reasonable grounds to believe sexual violence took place, but its visit was not a full investigation. Hamas calls the attack a defensive act and rejects these findings. A parent can say: groups that criticise Israel agree the attack was aimed at civilians. How the war that followed was fought is a separate question.",
+  "facts": [
+    {
+      "text": "About 1,200 people were killed on 7 October 2023, most of them civilians; the counts come mainly from the Israeli government.",
+      "sources": [
+        {
+          "publisher": "Human Rights Watch",
+          "title": "Questions and Answers: Hamas-led Armed Groups' October 7, 2023 Assault on Israel",
+          "url": "https://www.hrw.org/news/2024/07/17/questions-and-answers-hamas-led-armed-groups-october-7-2023-assault-israel",
+          "archive": "",
+          "quote": "The Israeli government has reported the deaths of 1,195 people stemming from the assault on October 7, including the later deaths of hostages in Gaza.",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        },
+        {
+          "publisher": "UN Special Representative of the Secretary-General on Sexual Violence in Conflict (via the UN Question of Palestine site)",
+          "title": "Official visit of the Special Representative of the Secretary-General on Sexual Violence in Conflict to Israel and the occupied West Bank, 29 January - 14 February 2024",
+          "url": "https://www.un.org/unispal/?p=294365",
+          "archive": "",
+          "quote": "The attacks resulted in approximately 1,200 fatalities and thousands of injuries, predominantly among civilians.",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "NPR",
+          "title": "A U.N. report finds 'reasonable grounds to believe' attacks in Israel included rapes",
+          "url": "https://npr.org/2024/03/04/1235824305/israel-sexual-assault-rape-hamas-attack-un-report",
+          "archive": "",
+          "quote": "In total, about 1,200 people were killed in the Oct. 7 attack and some 240 taken hostage.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "About 250 people were taken to Gaza as hostages, civilians and members of the security forces.",
+      "sources": [
+        {
+          "publisher": "Human Rights Watch",
+          "title": "Questions and Answers: Hamas-led Armed Groups' October 7, 2023 Assault on Israel",
+          "url": "https://www.hrw.org/news/2024/07/17/questions-and-answers-hamas-led-armed-groups-october-7-2023-assault-israel",
+          "archive": "",
+          "quote": "Palestinian armed groups took as hostage 251 civilians and Israeli security force personnel and took them to Gaza following the October 7 assault.",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        },
+        {
+          "publisher": "CBC News (Associated Press)",
+          "title": "UN finds 'convincing information' backing reports Hamas and other militants raped women on Oct. 7",
+          "url": "https://www.cbc.ca/1.7133305",
+          "archive": "",
+          "quote": "which left about 1,200 people dead and some 250 others taken hostage.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Human Rights Watch, the UN Commission of Inquiry and Amnesty International each concluded that the attackers committed crimes against civilians. Human Rights Watch named war crimes and the crimes against humanity of murder and wrongful imprisonment.",
+      "sources": [
+        {
+          "publisher": "Human Rights Watch",
+          "title": "October 7 Crimes Against Humanity, War Crimes by Hamas-led Groups",
+          "url": "https://www.hrw.org/news/2024/07/17/october-7-crimes-against-humanity-war-crimes-hamas-led-groups",
+          "archive": "",
+          "quote": "committed numerous war crimes and crimes against humanity against civilians during the October 7, 2023 assault on southern Israel",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        },
+        {
+          "publisher": "UN News",
+          "title": "Gaza: Hamas, Israel committed war crimes, claims independent rights probe",
+          "url": "https://news.un.org/en/story/2024/06/1150946",
+          "archive": "",
+          "quote": "deliberately killed, injured, mistreated, took hostages and committed sexual and gender-based violence against civilians, including Israeli citizens and foreign nationals",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Amnesty International",
+          "title": "Amnesty International investigation concludes Israel is committing genocide against Palestinians in Gaza",
+          "url": "https://www.amnesty.org/en/latest/news/2024/12/amnesty-international-concludes-israel-is-committing-genocide-against-palestinians-in-gaza/",
+          "archive": "",
+          "quote": "The atrocity crimes committed on 7 October 2023 by Hamas and other armed groups against Israelis and victims of other nationalities, including deliberate mass killings and hostage-taking",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        }
+      ]
+    },
+    {
+      "text": "The UN mission led by Pramila Patten (report of March 2024) found reasonable grounds to believe that conflict-related sexual violence, including rape and gang rape, occurred during the attacks.",
+      "sources": [
+        {
+          "publisher": "UN Special Representative of the Secretary-General on Sexual Violence in Conflict (via the UN Question of Palestine site)",
+          "title": "Official visit of the Special Representative of the Secretary-General on Sexual Violence in Conflict to Israel and the occupied West Bank, 29 January - 14 February 2024",
+          "url": "https://www.un.org/unispal/?p=294365",
+          "archive": "",
+          "quote": "there are reasonable grounds to believe that conflict-related sexual violence occurred during the 7 October attacks in multiple locations across Gaza periphery, including rape and gang rape, in at least three locations",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "CBC News (Associated Press)",
+          "title": "UN finds 'convincing information' backing reports Hamas and other militants raped women on Oct. 7",
+          "url": "https://www.cbc.ca/1.7133305",
+          "archive": "",
+          "quote": "there are \"reasonable grounds\" to believe Hamas committed rape",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "For hostages the Patten team used a higher standard: it found clear and convincing information that some had been subjected to sexual violence.",
+      "sources": [
+        {
+          "publisher": "UN Special Representative of the Secretary-General on Sexual Violence in Conflict (via the UN Question of Palestine site)",
+          "title": "Official visit of the Special Representative of the Secretary-General on Sexual Violence in Conflict to Israel and the occupied West Bank, 29 January - 14 February 2024",
+          "url": "https://www.un.org/unispal/?p=294365",
+          "archive": "",
+          "quote": "the mission team found clear and convincing information that some have been subjected to various forms of conflict-related sexual violence",
+          "accessed": "2026-11-20",
+          "kind": "government"
+        },
+        {
+          "publisher": "NPR",
+          "title": "A U.N. report finds 'reasonable grounds to believe' attacks in Israel included rapes",
+          "url": "https://npr.org/2024/03/04/1235824305/israel-sexual-assault-rape-hamas-attack-un-report",
+          "archive": "",
+          "quote": "researchers found \"clear and convincing information\" about the rape and sexualized mistreatment of hostages in Gaza",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "The Patten mission was a visit to gather and check information, not a full UN investigation, and it met no survivors of sexual violence from 7 October.",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "title": "A U.N. report finds 'reasonable grounds to believe' attacks in Israel included rapes",
+          "url": "https://npr.org/2024/03/04/1235824305/israel-sexual-assault-rape-hamas-attack-un-report",
+          "archive": "",
+          "quote": "The long-awaited report is not a full-fledged U.N. investigation, according to its author",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "CBC News (Associated Press)",
+          "title": "UN finds 'convincing information' backing reports Hamas and other militants raped women on Oct. 7",
+          "url": "https://www.cbc.ca/1.7133305",
+          "archive": "",
+          "quote": "the team's visit was not to investigate allegations of sexual violence but to gather, analyze and verify information",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    "Hamas rejects the findings: it called the Human Rights Watch report full of 'lies and blatant bias' (Al Jazeera, 17 July 2024) and the UN sexual-violence report 'false claims' (Dawn, March 2024).",
+    "Counts differ by source. The Israeli government reported 1,195 deaths; AFP's analysis of Israeli databases, cited by Human Rights Watch, put 815 of them as civilians (the rest soldiers, police and security teams). The Hamas-run side has not published its own figures.",
+    "Some people were killed in fighting with Israeli forces. Human Rights Watch says that, where it could tell, only a minority of civilian deaths came from such fighting, and that it found no evidence for the claim that most deaths came from heavy weapons only Israeli forces use.",
+    "Human Rights Watch did not conclude that rape or other sexual violence was a crime against humanity on 7 October; it called for further investigation. The Patten mission's wording was 'reasonable grounds to believe', a lower standard than a court finding, and it said it met no survivors.",
+    "Whether the attack is described as resistance is a political argument. The documents above only establish what was done to civilians and under which legal categories experts classed it."
+  ],
+  "not_claimed": [
+    "This card does not say that every claim made about 7 October is proven; the Patten mission and Human Rights Watch both called for further investigation of sexual violence.",
+    "It does not say anything about the conduct of the war in Gaza that followed.",
+    "It does not say Palestinians in general are responsible for the attack.",
+    "It does not say the counts are final; they are the figures given by the Israeli government and checked by Human Rights Watch and the UN."
+  ],
+  "status": "draft",
+  "content_approved": false
+}

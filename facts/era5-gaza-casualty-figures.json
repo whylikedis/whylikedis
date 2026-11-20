@@ -1,0 +1,152 @@
+{
+  "id": "era5-gaza-casualty-figures",
+  "era": 5,
+  "claim": "Tens of thousands of civilians, including children, have been killed in Gaza.",
+  "heard": [
+    {
+      "who": "Gaza Health Ministry, as reported by the Associated Press (PBS), June 2025",
+      "url": "https://www.pbs.org/newshour/world/gaza-health-officials-say-55000-Palestinians-have-died-in-israel-hamas-war",
+      "quote": "The ministry says 55,104 people have been killed since the start of the war and 127,394 wounded.",
+      "archive": ""
+    },
+    {
+      "who": "UN humanitarian agency OCHA, citing the Gaza Health Ministry, as reported by NPR (OPB), May 2024",
+      "url": "https://www.opb.org/article/2024/05/15/why-the-u-n-revised-the-numbers-of-women-and-children-killed-in-gaza/",
+      "quote": "says 7,797 children and 4,959 women were killed in Gaza as of April 30",
+      "archive": ""
+    }
+  ],
+  "answer": "Many civilians, including thousands of children, have been killed in Gaza. The question is the exact number and who counts. The main total comes from the Gaza Health Ministry, part of the Hamas-run government. Hospitals record the dead and the ministry does not separate civilians from fighters. The UN uses the ministry's total and says it is reliable overall. In May 2024 the UN changed its breakdown to cover only fully identified dead: 7,797 children and 4,959 women by 30 April 2024, out of 24,686 identified. A Lancet study estimated more deaths than the ministry had reported. Israel says it has killed more than 20,000 militants but has not shown evidence. A parent can say: the totals are in the tens of thousands, the share who were civilians is disputed, and no single count is settled.",
+  "facts": [
+    {
+      "text": "The Gaza Health Ministry builds its total from hospital and morgue records and never distinguishes between civilians and combatants.",
+      "sources": [
+        {
+          "publisher": "CBC News (Associated Press)",
+          "title": "How the Gaza Health Ministry counts the dead",
+          "url": "https://amp.cbc.ca/lite/story/1.7010255",
+          "archive": "",
+          "quote": "hospital administrators say they keep records of every wounded person occupying a bed and every dead body arriving at a morgue",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "PBS NewsHour (Associated Press)",
+          "title": "What is Gaza's Ministry of Health and how does it calculate the war's death toll",
+          "url": "https://www.pbs.org/newshour/world/what-is-gazas-ministry-of-health-and-how-does-it-calculate-the-wars-death-toll",
+          "archive": "",
+          "quote": "The ministry never distinguishes between civilians and combatants.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "In May 2024 OCHA changed its breakdown to the dead the ministry had fully identified: 7,797 children and 4,959 women as of 30 April 2024, out of 24,686 identified deaths from more than 35,000 reported.",
+      "sources": [
+        {
+          "publisher": "UN OCHA (occupied Palestinian territory)",
+          "title": "Hostilities in the Gaza Strip and Israel - reported impact, Day 224",
+          "url": "https://www.ochaopt.org/content/hostilities-gaza-strip-and-israel-reported-impact-day-224",
+          "archive": "",
+          "quote": "The fatality breakdowns currently cited are those that the Ministry of Health (MoH) in Gaza has recently fully identified out of the higher number of casualties they report.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "NPR (via OPB)",
+          "title": "Why the U.N. revised the numbers of women and children killed in Gaza",
+          "url": "https://www.opb.org/article/2024/05/15/why-the-u-n-revised-the-numbers-of-women-and-children-killed-in-gaza/",
+          "archive": "",
+          "quote": "the U.N. says Gaza's health ministry has been able to fully identify 24,686 deaths out of more than 35,000 people the ministry says have been killed",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Despite the revision, the UN kept treating the ministry's overall total as reliable, and the Associated Press found that in earlier wars the ministry's counts held up to UN and Israeli checks.",
+      "sources": [
+        {
+          "publisher": "NPR (via OPB)",
+          "title": "Why the U.N. revised the numbers of women and children killed in Gaza",
+          "url": "https://www.opb.org/article/2024/05/15/why-the-u-n-revised-the-numbers-of-women-and-children-killed-in-gaza/",
+          "archive": "",
+          "quote": "the U.N. maintains that the Gaza health ministry's overall death toll of more than 35,000 people killed in the ongoing Israeli military offensive in Gaza is reliable",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "CBC News (Associated Press)",
+          "title": "How the Gaza Health Ministry counts the dead",
+          "url": "https://amp.cbc.ca/lite/story/1.7010255",
+          "archive": "",
+          "quote": "the United Nations and other international institutions and experts say the Gaza ministry has long made a good-faith effort to account for the dead under the most difficult conditions",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "A peer-reviewed Lancet study (January 2025) used capture-recapture analysis and estimated 64,260 deaths from traumatic injury to 30 June 2024, 41 percent above the ministry's figure of 37,877 for that date. It gave no estimate of fighters among the dead.",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "title": "Deaths from Israeli attacks in Gaza undercounted by 41 percent, study finds",
+          "url": "https://www.aljazeera.com/news/2025/1/10/deaths-from-israeli-attacks-in-gaza-undercounted-by-41-percent-study-finds",
+          "archive": "",
+          "quote": "The study's best death toll estimate was 64,260, which would mean the health ministry had underreported the number of deaths to that point by 41 percent.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Voice of America",
+          "title": "Gaza death toll 41% higher than official figures, study contends",
+          "url": "https://www.voanews.com/amp/gaza-death-toll-41-higher-than-official-figures-study-contends/7932849.html",
+          "archive": "",
+          "quote": "The official figure for that period was 37,877 deaths.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Israel does not give a verified count of combatants killed. It says it has killed more than 20,000 militants, and in May 2024 the prime minister said the ratio of militants to civilians killed was almost 1 to 1; both claims came without evidence.",
+      "sources": [
+        {
+          "publisher": "PBS NewsHour (Associated Press)",
+          "title": "Gaza health officials say 55,000 Palestinians have died in Israel-Hamas war",
+          "url": "https://www.pbs.org/newshour/world/gaza-health-officials-say-55000-Palestinians-have-died-in-israel-hamas-war",
+          "archive": "",
+          "quote": "Israel says it has killed more than 20,000 militants, without providing evidence.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "NBC News",
+          "title": "Gaza death toll, OCHA, UN confusion and anger",
+          "url": "https://www.nbcnews.com/news/world/gaza-death-toll-ocha-un-confusion-anger-rcna151934",
+          "archive": "",
+          "quote": "Israeli Prime Minister Benjamin Netanyahu said the ratio of Hamas militants to civilians in Gaza killed in the ongoing war was almost \"1 to 1,\" without providing evidence.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    "There is a range, not one number. The ministry's own total was about 55,000 in June 2025 and nearly 65,000 in September 2025 (AFP, Channels TV); a Lancet study put deaths from injury at about 64,000 by June 2024, when the ministry's count was 37,877.",
+    "The share of the dead who were civilians is the most disputed figure. The ministry does not give it. The Associated Press called the share of women and children 'the best available proxy for civilian casualties' and found it fell from above 60 percent in October 2023 to below 40 percent for April 2024 (PBS, June 2024). A proxy is not a civilian count: some women and children may be fighters or not, and some men are civilians.",
+    "Some statisticians, such as Abraham Wyner in Tablet (March 2024), argued that the ministry's daily totals looked too regular to be natural and may have been faked. Others, including Human Rights Watch's Omar Shakir and the UN, called the ministry's figures professionally done and reliable with blind spots. The Lancet authors found the ministry undercounted rather than overcounted.",
+    "The ministry is part of the Hamas-run government, which is why its figures are questioned. An Israeli army spokesman said in May 2024 that the military does not know how many civilians have been killed, and that Hamas does not either (NBC News).",
+    "The OCHA revision in May 2024 changed which dead were broken down by age and sex. It did not change the overall total. OCHA said its earlier breakdowns had been attributed to the Gaza government media office and based on reported fatalities, not on the ministry's fully identified records (OCHA, 17 May 2024)."
+  ],
+  "not_claimed": [
+    "This card does not say any single count is settled or exact.",
+    "It does not say all those killed were civilians, and it does not say most were fighters.",
+    "It does not deny that many civilians, including children, were killed.",
+    "It does not say how many of the dead were killed by Israeli forces and how many by other causes."
+  ],
+  "status": "draft",
+  "content_approved": false
+}

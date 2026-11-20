@@ -1,3 +1,5 @@
 FACTS.md
 __pycache__/
 .DS_Store
+# Local-only working files. Anything about a person or a plan belongs in the private ventures repo, not here.
+private/

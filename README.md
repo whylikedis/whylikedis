@@ -11,12 +11,13 @@ One card per claim a child hears, in `facts/`. Each card has:
 
 - the claim, quoted from someone who makes it;
 - an answer a parent can say in two minutes;
-- the facts behind the answer, each with two sources from different sites and the exact words
-  quoted from each page;
+- the facts behind the answer, each with three reliable sources from three different sites and
+  the exact words quoted from each page;
 - where the record is contested, and what the card does not claim.
 
-A card is `draft` until a second reader, who did not write it, has tried to break it and every
-quote has been found on its page. Then it is `verified`. A verified card is still not teaching
+A card is `draft` until a second reader, who did not write it, has tried to break it, every
+sentence of the answer is tied to a fact, and every quote has been found on its page. Then it is
+`verified`. A verified card is still not teaching
 content until its `content_approved` flag is set.
 
 ## Check it yourself
@@ -32,8 +33,9 @@ Python 3.9 or later. No dependencies.
 
 ## How cards are written
 
-Agents write the cards and a different agent attacks them. The briefs are in `agents/`. The rules
-both follow are in `AGENTS.md`.
+Agents write the cards and a different agent attacks them. The procedures are skills in
+`.claude/skills/`. The rules are in `AGENTS.md`, and `docs/verification.md` says how the
+repository checks itself.
 
 ## Licence
 

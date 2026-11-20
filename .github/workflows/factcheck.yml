@@ -1,0 +1,21 @@
+name: factcheck
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "17 5 * * 1" # weekly: has a cited page changed or gone?
+  workflow_dispatch:
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tools/factcheck.py selftest && python3 tools/factcheck.py
+  online:
+    # Observe mode: it reports and does not block yet. Make it blocking once it has run clean for a month.
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tools/factcheck.py --online
