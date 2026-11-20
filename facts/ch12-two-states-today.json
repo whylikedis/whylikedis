@@ -51,7 +51,7 @@
       ]
     },
     {
-      "text": "In a statement dated 21 September 2025, answering the new recognitions of a Palestinian state, Prime Minister Netanyahu said 'There will be no Palestinian state to the west of the Jordan River' and that Israel had doubled Jewish settlement in Judea and Samaria; opposition leader Lapid called the recognitions a 'reward for terror' too.",
+      "text": "In a statement dated 21 September 2025, answering the new recognitions of a Palestinian state, Prime Minister Netanyahu said 'There will be no Palestinian state to the west of the Jordan River' and that Israel had doubled Jewish settlement in Judea and Samaria. This is what the statement says; NBC and CNN report the same words.",
       "sources": [
         {
           "publisher": "Israel Ministry of Foreign Affairs",
@@ -145,8 +145,7 @@
           "archive": "",
           "quote": "by a vote of 13 in favour to none against, with 2 abstentions (China, Russian Federation)",
           "accessed": "2026-11-20",
-          "kind": "primary",
-          "is_record": true
+          "kind": "primary"
         },
         {
           "publisher": "NBC News",
@@ -175,8 +174,7 @@
           "accessed": "2026-11-20",
           "kind": "news"
         }
-      ],
-      "record": true
+      ]
     },
     {
       "text": "In his video address to the UN General Assembly on 25 September 2025, Palestinian Authority president Abbas said 'Hamas will not have a role to play in governance' and will have to hand over its weapons to the Palestinian National Authority, said 'we do not want an armed state', and, in the UN's summary, indicated readiness to hold elections within a year after the end of the war. In a June 2025 letter to President Macron he condemned the 7 October attack, said Hamas must hand over its weapons and no longer rule Gaza, offered to invite Arab and international forces, and committed to elections; the letter itself was not published and The National and Ynet both report it as quoted by the Elysee Palace, so these are one source for its wording. Canada's prime minister cited PA commitments to hold elections in 2026 in which Hamas can play no part and to demilitarise a Palestinian state.",
@@ -216,8 +214,7 @@
           "archive": "",
           "quote": "Mr. Abbas condemned the 7 October 2023 Hamas attack on Israeli civilians",
           "accessed": "2026-11-20",
-          "kind": "primary",
-          "is_record": true
+          "kind": "primary"
         },
         {
           "publisher": "United Nations (General Assembly press release, 25 September 2025)",
@@ -226,8 +223,7 @@
           "archive": "",
           "quote": "hamas will not have a role to play in governance",
           "accessed": "2026-11-20",
-          "kind": "primary",
-          "is_record": true
+          "kind": "primary"
         },
         {
           "publisher": "United Nations (General Assembly press release, 25 September 2025)",
@@ -236,8 +232,7 @@
           "archive": "",
           "quote": "We reiterate: we do not want an armed state",
           "accessed": "2026-11-20",
-          "kind": "primary",
-          "is_record": true
+          "kind": "primary"
         },
         {
           "publisher": "CBC News (Abbas at the UN, 25 September 2025)",
@@ -257,8 +252,7 @@
           "accessed": "2026-11-20",
           "kind": "news"
         }
-      ],
-      "record": true
+      ]
     },
     {
       "text": "The Palestinian Authority has held no national election since 2006: Al Jazeera reports that the last parliamentary elections in the Palestinian territories were in 2006, when Hamas defeated Fatah; Abbas won the last presidential election in 2005, his term should have ended in 2009, and he has ruled by decree since; in October 2026 he postponed the legislative elections set for November 2026 to September 2027, jointly with a presidential vote, after Fatah and other factions agreed to a national dialogue first (Al Jazeera, citing AFP).",
@@ -452,7 +446,7 @@
       ]
     },
     {
-      "text": "On 12 September 2025 the UN General Assembly, by a recorded vote of 142 in favour to 10 against with 12 abstentions, endorsed the New York Declaration on a two-state solution; Israel and the United States voted against, and the declaration condemns Hamas's 7 October attack and backs a Hamas-free Palestinian government.",
+      "text": "On 12 September 2025 the UN General Assembly, by a recorded vote of 142 in favour to 10 against with 12 abstentions, endorsed the New York Declaration on a two-state solution; Israel and the United States voted against, and the UN's meeting coverage says the text condemns the attacks committed by Hamas against civilians on 7 October and also the attacks by Israel against civilians in Gaza and the siege and starvation; the Guardian reports that it backs a Hamas-free Palestinian government.",
       "sources": [
         {
           "publisher": "United Nations (General Assembly meeting coverage, 12 September 2025)",
@@ -460,6 +454,16 @@
           "url": "https://www.un.org/unispal/document/ga-meeting-coverage-12sep25",
           "archive": "",
           "quote": "adopted by a recorded vote of 142 in favour to 10 against",
+          "accessed": "2026-11-20",
+          "kind": "primary",
+          "is_record": true
+        },
+        {
+          "publisher": "United Nations (General Assembly meeting coverage, 12 September 2025)",
+          "title": "General Assembly Endorses New York Declaration, Charting Path to Palestinian Statehood",
+          "url": "https://www.un.org/unispal/document/ga-meeting-coverage-12sep25",
+          "archive": "",
+          "quote": "the attacks by Israel against civilians in Gaza and civilian infrastructure, and the siege and starvation",
           "accessed": "2026-11-20",
           "kind": "primary",
           "is_record": true
@@ -836,12 +840,12 @@
     "skeptic": {
       "verdict": "weakened",
       "date": "2026-11-20",
-      "notes": "ROUND 2 (after the writer's rework). Rechecked new and changed facts. Knesset vote (F0): 68 to 9 on the night of 17-18 July 2024 is in Al Jazeera, NBC (quoting the Knesset's website for the text) and CNN; the Knesset's own record was not read. The 25 to 24 preliminary vote of 22 October 2025 (F2) is in Al Jazeera ('Tim Hume and news agencies', agency not named so no wire field can be set; one source). Netanyahu: 18 January 2024 words are in Al Jazeera and the NPR/AP copy; 21 September 2025 statement is the Foreign Ministry's text; 'no Palestinian state' wording exact. Fixed: F3 said Netanyahu 'responded' to Resolution 2803, but NBC dates his words to Sunday 16 November, before the 17 November vote; date and occasion added. Wire: NPR 19 January 2024 is Associated Press copy (marked AP, so F2 counts it once with nothing else AP), Ynet's letter story is by Itamar Eichner and AFP (AFP), Al Jazeera's 10 October 2026 piece is by Al Jazeera staff, AFP and AP (marked AFP, both named on the page), PBS's Abbas piece is AP (AP). F4 (Abbas letter): The National and Ynet report only what the Elysee Palace quoted, so one source; text now says so. F5: no national election since 2006 is stated by Al Jazeera and CFR; 2005 presidential and rule by decree are Al Jazeera's words, attributed. F6 prisoner payments: the same Algemeiner page is cited twice (one site), Al Jazeera is the second; Algemeiner is a pro-Israel outlet and the Israeli Foreign Ministry statement is quoted as that ministry's words. No motive is read into Netanyahu, Abbas or Hamas statements. Round-one removals ('lost Gaza in 2007', 'half right' as a bare verdict) have not come back as claims; 'half right' now sits inside 'Our reading'. Blocking facts (missing sources a person could find): F1 (CNN, NBC; Israeli MFA is government), F2 (Al Jazeera and NPR/AP; the Knesset's record and a second 2025 vote source), F5 (Al Jazeera, CFR; the PA's own election-commission page), F6 (Al Jazeera, Algemeiner; needs a non-Israeli-leaning second source or the Taylor Force Act text), F10 (UN News, Guardian), and F4 which has the count of origins but one underlying source."
+      "notes": "ROUND 3 (after the record rule). Record flags checked. F1 (Netanyahu, 21 September 2025): kept; the Foreign Ministry page carrying his statement was opened and has the exact words; NBC and CNN are real readers; but the writer had put Lapid's 'reward for terror' inside the record fact, which the statement does not say, so I cut it. The date comes from the page's URL and NBC ('released Sunday night'); the page text itself carries no date. F10 (UN General Assembly vote, 12 September 2025): kept; the UN meeting coverage gives 142 to 10 with 12 abstentions and the ten countries; Guardian, Al Jazeera and NBC are real readers (UN News is the UN's own, so a second copy of the record). But the fact said the declaration condemns Hamas's attack and omitted that the same UN coverage says it also condemns Israel's attacks on civilians in Gaza and the siege and starvation; I added that, with a quote from the record. REMOVED record flag from F3 (Resolution 2803): the UN coverage supports the vote only; the 'credible pathway' wording is not on that page and comes from NBC and the Irish Times, and Netanyahu's 16 November remark is NBC alone, so it is not what the record says. REMOVED record flag from F4 (Abbas): it mixes the UN's summary of his 25 September speech (a record, with CBC and RTE as readers) with the June 2025 letter (one underlying source, the Elysee, via The National and Ynet) and Canada's statement. The speech half is well supported; the letter half is one source and cannot be called verified. Wire: arabnews.pk's Abbas-decree story is Reuters copy (marked); Fox's election story says the AP contributed (not a copy; left unmarked). F2 Knesset 25 to 24: Al Jazeera, Ynet, Jewish Chronicle, and NPR/AP for the January 2024 words; the Knesset's own vote record could not be read. F12 (2022 government guidelines): read only through JNS and All Israel News (quoting the Times of Israel's translation), with Adalah (advocacy); worded as second-hand; no answer sentence uses it. Netanyahu, Abbas, Carney, Smotrich quotes carry date and occasion; no motive added. Earlier removals ('lost Gaza in 2007', 'half right' as a bare verdict, 'responded to the resolution') have not come back. Blocking, for a person: F12 (the Hebrew guidelines on the Knesset or PM's Office site, or the Times of Israel translation itself, plus one more news reader), F4 (split the Elysee-quoted letter into its own fact with a third source, e.g. the letter's text on the Elysee site or Reuters, or cut that half), F6 (the decree's text, WAFA's Arabic original)."
     },
     "citer": {
       "verdict": "holds",
       "date": "2026-11-20",
-      "notes": "ROUND 2 (after the writer's rework). Answer_claims rebuilt for five sentences with the new fact numbers. The writer's added clause 'has held no national election since 2006' is supported by F5. 'Lost Gaza 2007' and 'Israel's government is not offering one' have not returned. Answer 143 words. Holds as worded; card stays draft because the skeptic verdict is weakened."
+      "notes": "ROUND 3 (after the record rule). answer_claims redone (five sentences). Every sentence rests on facts that say only what they carry: the Knesset and Netanyahu sentence on F0 and F1 (record-worded), the Hamas sentence on F7, the PA sentence on F4's speech half and F5, the recognition and poll sentence on F8 to F11. No second-hand fact (F3's Netanyahu remark, F4's letter, F12) feeds a sentence. 'Lost Gaza in 2007' and 'responded' have not returned. Answer 143 words. Holds as worded; card stays draft because the skeptic verdict is weakened."
     }
   }
 }

@@ -233,7 +233,7 @@
       ]
     },
     {
-      "text": "The Arab League's Khartoum resolution of 1 September 1967 states, as the main principles by which the Arab states abide, 'no peace with Israel, no recognition of Israel, no negotiations with it, and insistence on the rights of the Palestinian people in their own country'. Rashid Khalidi notes that in practice Egypt and Jordan welcomed UN mediation through Gunnar Jarring.",
+      "text": "The Arab League's Khartoum resolution of 1 September 1967 states, as the main principles by which the Arab states abide, 'no peace with Israel, no recognition of Israel, no negotiations with it, and insistence on the rights of the Palestinian people in their own country'.",
       "sources": [
         {
           "publisher": "League of Arab States (text hosted by the UN, Question of Palestine)",
@@ -269,15 +269,6 @@
           "url": "https://archive.org/stream/100yearswarpalestine/The_Hundred_Years_War_on_Palestine_A_History_of_Settler_Colonial_Conquest_and_Resistance_UK_Edition_Rashid_Khalidi_djvu.txt",
           "archive": "",
           "quote": "the league had declared that there would be no peace, no recognition, and no negotiations with Israel",
-          "accessed": "2026-11-20",
-          "kind": "scholarly"
-        },
-        {
-          "publisher": "Rashid Khalidi, The Hundred Years' War on Palestine (Profile/Metropolitan, 2020)",
-          "title": "The Hundred Years' War on Palestine",
-          "url": "https://archive.org/stream/100yearswarpalestine/The_Hundred_Years_War_on_Palestine_A_History_of_Settler_Colonial_Conquest_and_Resistance_UK_Edition_Rashid_Khalidi_djvu.txt",
-          "archive": "",
-          "quote": "in reality, Egypt and Jordan welcomed mediation with Israel through UN special envoy Gunnar Jarring",
           "accessed": "2026-11-20",
           "kind": "scholarly"
         }
@@ -417,7 +408,7 @@
       ]
     },
     {
-      "text": "In March 2002 the Arab League summit unanimously adopted the Arab Peace Initiative: normal relations and an end to the conflict in return for full Israeli withdrawal to the 1967 lines, a Palestinian state with East Jerusalem as its capital, and a refugee solution under Resolution 194; Sharon's government called it a very interesting development but stated reservations on refugees and on withdrawal, and Israel has never formally accepted it even as a basis for negotiation.",
+      "text": "In March 2002 the Arab League summit unanimously adopted the Arab Peace Initiative: normal relations and an end to the conflict in return for full Israeli withdrawal to the 1967 lines, a Palestinian state with East Jerusalem as its capital, and a refugee solution under Resolution 194; Sharon's government called it a very interesting development but stated reservations on refugees and on withdrawal, the Council on Foreign Relations says Israel received it with skepticism, and an Arab Center Washington analysis (advocacy, so not counted) says Israel never formally accepted it even as the basis of negotiations.",
       "sources": [
         {
           "publisher": "CBS News",
@@ -458,7 +449,7 @@
       ]
     },
     {
-      "text": "In September 2008 Prime Minister Olmert showed Abbas a map giving a Palestinian state most of the West Bank, with Israel annexing 4.9 percent (Olmert's own later figure, 6.3 percent including swaps, differs); Olmert would not hand over the map unless Abbas signed, Abbas said he needed his experts to see it, and the meeting of experts never took place.",
+      "text": "In a 2024 BBC documentary Olmert revealed a map he says he showed Abbas on 16 September 2008, annexing 4.9 percent of the West Bank to Israel (his own later figure, 6.3 percent including swaps, differs); in Olmert's account he would not hand over the map unless Abbas signed, and Abbas said he needed his experts to see it; the BBC and Ynet pages report that same documentary, so they are one source. In 2015 Abbas told Israeli television, as the Associated Press reported, that he rejected the offer because he was not allowed to study the map, and Olmert confirmed pressing him to initial it that day.",
       "sources": [
         {
           "publisher": "BBC News",
@@ -774,7 +765,7 @@
   ],
   "contested": [
     {
-      "text": "The strongest case that Israel never wanted a state: Oslo's text did not promise one while the settler population grew; Sharon's government never accepted the 2002 Arab offer as a basis for talks; and Malley and Agha argue that Barak's Camp David ideas were conditional, unwritten and never mapped, so there was no offer for Arafat to accept. Shlaim writes that settlement building violates the spirit of Oslo.",
+      "text": "The strongest case that Israel never wanted a state: Oslo's text did not promise one while the settler population grew; an Arab Center Washington analysis says Israel never formally accepted the 2002 Arab offer even as a basis for talks; and Malley and Agha argue that Barak's Camp David ideas were conditional, unwritten and never mapped, so there was no offer for Arafat to accept. Shlaim writes that settlement building violates the spirit of Oslo.",
       "sources": [
         {
           "publisher": "The Guardian (Avi Shlaim)",
@@ -802,6 +793,15 @@
           "quote": "The real problem is that Israel has chosen occupation over peace, and used negotiations as a smokescreen to advance its colonial project.",
           "accessed": "2026-11-20",
           "kind": "news"
+        },
+        {
+          "publisher": "Arab Center Washington DC",
+          "title": "The Arab Peace Initiative is Back on the Table; Netanyahu Is Not Budging",
+          "url": "https://arabcenterdc.org/resource/the-arab-peace-initiative-is-back-on-the-table-netanyahu-is-not-budging/",
+          "archive": "",
+          "quote": "never formally accepted the initiative, even as the basis of negotiations",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
         }
       ]
     },
@@ -1101,12 +1101,12 @@
     "skeptic": {
       "verdict": "weakened",
       "date": "2026-11-20",
-      "notes": "ROUND 2 (after the writer's rework). Rechecked every changed fact against its page; all quotes found online. Fixed: the Arab Higher Committee fact (F4) listed a 1937 quote as a reason for rejecting partition, but the UN page shows it is testimony recorded by the Peel Commission before the plan, about the mandate's legality; reworded to say so and that no 1937 statement on the plan was found. The 1947 Husseini statement (UN press release GA/PAL/3, vice-president of the Committee) and the 1938 statement (via Jewish Virtual Library, advocacy) are on their pages. Netanyahu quotes (F15) checked for exact words, date and occasion: Bar-Ilan 14 June 2009 (conditions kept in the fact); 16 March 2015 NRG interview via TIME quoting the New York Times translation, where he answers 'correct' to whether that means no state if re-elected, and the card says no more; NPR 19 March 2015 'unachievable under the present circumstances' with 'the conditions have to change' on the page; 18 January 2024 news conference; 21 September 2025 statement. No motive is read into them. MERIP unsigned piece also relabelled other inside the Kerry contested entry. Round-one removals have not come back in other words. Still not fixed: Arafat's own reasons (writer says so; the card now states honestly that they come via Ross); the Arab Peace Initiative 'never formally accepted' claim still rests on one advocacy page; F4 has one reliable source. Blocking facts, each a missing source a person could find: F3 (JTA and UN only; FRUS and State Dept are government), F4 (only un.org counts; the 1938 text needs a non-advocacy source), F5 (Khartoum: Avalon and Guardian), F10 (BBC and AP; the CFR blog is advocacy), F14 (JTA and Reuters; MERIP is unsigned, Barnea's report not read). No fact should be cut."
+      "notes": "ROUND 3 (after the record rule). Checked only what changed. Record facts: F5 (Khartoum) is a true record fact: the UN-hosted text of the resolution was opened and carries the quoted principles, and Guardian and Khalidi are real readers (Avalon is a transcription of the same text, not a reader); but the writer had added to it a sentence that Egypt and Jordan welcomed Jarring's mediation, which is Khalidi's claim about the world, not what the record says, so I cut that sentence and its source (the Jarring fact is already F6). F17 (PNC 1988) is a true record fact: the UN-hosted declaration and communique text was read and carries the 181 clause and the call for a conference on 242 and 338; it has one reader (Khalidi; the Jewish Virtual Library is advocacy), so it is short. Overstated by the gate: F9 counted the UN text of the Arab Peace Initiative as a third source, but that page says nothing about Israel's response; the claim 'never formally accepted' rests on one advocacy page, so I reworded the fact to what CBS and CFR carry and attributed the claim to Arab Center in the fact and in contested. F10 counted BBC and Ynet as two sources, but Ynet reports the BBC documentary (the writer says so); reworded as Olmert's account in that documentary plus AP's report of the 2015 interviews, which is two independent sources, not three. Living politicians: Netanyahu F15 checked again (14 June 2009 Bar-Ilan text hosted by the UN; 16 March 2015 NRG interview via TIME quoting the New York Times translation; 19 March 2015 NPR; 18 January 2024 conference; 21 September 2025 statement) with conditions kept and no motive; Indyk F14 (NPR 2017) is worded as 'Indyk's account'; Abbas F10 as his 2015 statement. Arafat F16 is worded as second-hand (op-ed unread; CNN read it on air, the Washington Institute quotes it, an Arab News columnist paraphrases it) and no answer sentence uses it. Round-one and round-two removals have not come back. Blocking, for a person: F4 (Arab Higher Committee reasons: only the UN's 1947 press release is a non-advocacy source; the 1938 statement is on the Jewish Virtual Library only; find it in a UN Palestine Question document or Hurewitz's documents; no 1937 statement on the Peel plan was found), F10 (a second reader of Olmert's 2008 map: Haaretz or Olmert's memoir, or Abbas's 2009 Washington Post interview), F16 (the New York Times op-ed itself returns 403 to the fetcher: try nytimes.com/2002/02/03/opinion/the-palestinian-vision-of-peace.html through the Wayback Machine), F17 (a second reader: UN General Assembly resolution 43/177 of 15 December 1988 acknowledging the proclamation). F9's 'never formally accepted' needs a non-advocacy source or should be cut."
     },
     "citer": {
       "verdict": "holds",
       "date": "2026-11-20",
-      "notes": "ROUND 2 (after the writer's rework). Rebuilt answer_claims: six sentences, each tied to facts. Removed from the writer's answer: 'Oslo did not promise a state' (fact F7 stays, sentence cut for length) and 'In 2020 Netanyahu agreed to negotiate...' stays out. Reworded the Netanyahu sentence so the 2009 acceptance carries its two conditions, the 2015 line says what he agreed to ('would not establish one if re-elected') and no more, and the 2015 clarification is kept. The writer's 'Netanyahu endorsed a demilitarised Palestinian state in 2009' dropped its conditions; restored. 'Said in 2015 there would be none' reworded to the words he agreed to. Answer is 147 words. Holds for the answer as worded; card stays draft because the skeptic verdict is weakened."
+      "notes": "ROUND 3 (after the record rule). answer_claims redone (six sentences; fact numbers unchanged). Nothing new entered the answer: no sentence uses F9's reworded clause, F16 or F17; the Khartoum sentence rests on F5's record text, and I removed the Khartoum fact's Jarring sentence so the sentence is not asked to carry it. Every earlier removal (Oslo claim, 'Both slogans', 'Israel did not accept as a basis') stays out. Answer 147 words. Holds as worded; card stays draft because the skeptic verdict is weakened."
     }
   }
 }
