@@ -15,9 +15,10 @@ from urllib.parse import urlparse
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FACTS = os.path.join(ROOT, "facts")
 LOCK = os.path.join(FACTS, "verified.lock.json")
-KINDS = {"primary", "scholarly", "reference", "news", "government", "advocacy"}
+KINDS = {"primary", "scholarly", "reference", "news", "government", "advocacy", "other"}
 PARTISAN = {"government", "advocacy"}  # fine as one voice, never the only support for a fact
-RELIABLE = KINDS - PARTISAN  # what counts toward the three sources a verified fact needs
+RELIABLE = {"primary", "scholarly", "reference", "news"}  # what counts toward the three a verified fact needs
+# "other": a site with no named author, editor or institution behind it. Citable, never counted.
 CHAPTERS = {  # docs/chapters.md says what each one must answer
     1: "Roots: who lived here, and the names", 2: "Ottoman and British rule, and the return", 3: "1937 to 1948",
     4: "1967 to 2005", 5: "October 7 and the war", 6: "The words: apartheid, racism", 7: "From the river to the sea",
@@ -287,6 +288,7 @@ def selftest():
     bad_ver = {
         "one agency story on three sites": lambda c: [s.update(wire="AP") for s in c["facts"][0]["sources"]],
         "an agency named in the publisher but not declared": lambda c: c["facts"][0]["sources"][0].update(publisher="PBS NewsHour (Associated Press)"),
+        "a site with nobody behind it counted as reliable": lambda c: c["facts"][0]["sources"][2].update(kind="other"),
         "two reliable sources": lambda c: c["facts"][0].update(sources=[src("a.org"), src("b.org"), src("c.org", "advocacy")]),
         "one reader": lambda c: c["review"].pop("citer"),
         "skeptic says weakened": lambda c: c["review"]["skeptic"].update(verdict="weakened"),

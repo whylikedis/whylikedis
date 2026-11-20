@@ -20,7 +20,8 @@ what is on the cited pages, not what you remember.
    same press release)? Check each news source's byline: if it is agency copy, it needs a `wire`
    field, and the gate then counts it once.
 5. Are the numbers precise about what they count (an estimate, a census, a claim by one side)?
-6. Does every entry in `contested` quote someone who holds that position? A name with no quoted
+6. Is each `kind` honest? An anonymous educational site is `other`, not `reference`. Relabel it.
+7. Does every entry in `contested` quote someone who holds that position? A name with no quoted
    source was written from memory: move it to `could_not_verify` or find the page.
 
 ## Round 2: tie the answer to the facts (`review.citer`)

@@ -88,7 +88,10 @@ You write fact cards for one era. You do not verify your own cards.
 }
 ```
 
-`kind` is one of `primary`, `scholarly`, `reference`, `news`, `government`, `advocacy`.
+`kind` is one of `primary`, `scholarly`, `reference`, `news`, `government`, `advocacy`, `other`.
+`reference` means an edited work with a named publisher (an encyclopedia, a museum, a university
+page). A study-notes or history site with no named author or institution is `other`: you may cite
+it, and it never counts toward the three.
 
 ## Never
 
