@@ -18,7 +18,12 @@ LOCK = os.path.join(FACTS, "verified.lock.json")
 KINDS = {"primary", "scholarly", "reference", "news", "government", "advocacy"}
 PARTISAN = {"government", "advocacy"}  # fine as one voice, never the only support for a fact
 RELIABLE = KINDS - PARTISAN  # what counts toward the three sources a verified fact needs
-ERAS = range(1, 9)
+CHAPTERS = {  # docs/chapters.md says what each one must answer
+    1: "Roots: who lived here, and the names", 2: "Ottoman and British rule, and the return", 3: "1937 to 1948",
+    4: "1967 to 2005", 5: "October 7 and the war", 6: "The words: apartheid, racism", 7: "From the river to the sea",
+    8: "America's aid", 9: "How borders and peoples moved elsewhere", 10: "Money, media and attention",
+    11: "The flag, the movement and its allies",
+}
 BANNED = ["hasbara"]
 
 
@@ -87,8 +92,8 @@ def check_card(card, name, lock):
         return e
     if card["id"] != name:
         e.append(f"id '{card['id']}' must match the file name '{name}'")
-    if card["era"] not in ERAS:
-        e.append("era must be 1 to 8")
+    if card["era"] not in CHAPTERS:
+        e.append(f"era must be a chapter number, 1 to {max(CHAPTERS)}")
     if len(card["answer"].split()) > 150:
         e.append("answer is over 150 words; a parent must be able to say it in two minutes")
     if not card["heard"]:
@@ -194,8 +199,13 @@ def run(folder=FACTS, online=False, out=print, prefix=""):
             out(f"FAIL {name}: {x}")
     if online:  # re-read before writing: another agent may have added its own results meanwhile
         json.dump({**load_lock(lock_path), **mine}, open(lock_path, "w", encoding="utf-8"), indent=1, sort_keys=True)
-    verified = sum(c.get("status") == "verified" for _, c in cards(folder))
-    out(f"{'FAILED' if failed else 'ok'}: {n} cards, {verified} verified, {failed} failing")
+    mine = [c for name, c in cards(folder) if name.startswith(prefix) and "_broken" not in c]
+    verified = sum(c.get("status") == "verified" for c in mine)
+    facts = [f for c in mine for f in c.get("facts") or []]
+    three = sum(len({urlparse(s.get("url", "")).netloc.removeprefix("www.") for s in f.get("sources") or []
+                     if s.get("kind") in RELIABLE}) >= 3 for f in facts)
+    out(f"{'FAILED' if failed else 'ok'}: {n} cards, {verified} verified, {failed} failing; "
+        f"{three} of {len(facts)} facts have three reliable sources")
     return failed
 
 
@@ -204,7 +214,7 @@ def render():
     for name, c in cards():
         if "_broken" in c:
             continue
-        lines += [f"## {c['claim']}", "", f"`{name}` · era {c['era']} · **{c['status']}**"
+        lines += [f"## {c['claim']}", "", f"`{name}` · {CHAPTERS[c['era']]} · **{c['status']}**"
                   + ("" if c["content_approved"] else " · content not yet approved"), "", c["answer"], ""]
         for f in c["facts"]:
             links = "; ".join(f"[{s['publisher']}]({s['url']})" for s in f["sources"])
@@ -229,6 +239,7 @@ def selftest():
         "long quote": lambda c: c["heard"][0].update(quote="word " * 41),
         "verified without review": lambda c: c.update(status="verified"),
         "http": lambda c: c["heard"][0].update(url="http://x.org/a"),
+        "a chapter that does not exist": lambda c: c.update(era=99),
         "wikipedia": lambda c: c["heard"][0].update(url="https://en.wikipedia.org/wiki/X"),
         "an email address": lambda c: c.update(answer="write to someone@example.org"),
     }
