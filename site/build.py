@@ -12,6 +12,10 @@ import html, json, os, re, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 DIST = os.path.join(HERE, "dist")
+PUBLIC = "--public" in sys.argv  # the hosted build: no waiting-list page, an honest banner, and no search indexing yet
+BANNER = ("WORK IN PROGRESS · cards marked draft have not passed review · nothing here is teaching content yet" if PUBLIC
+          else "LOCAL PREVIEW · DRAFTS · nothing here is approved or public")
+ROBOTS = '<meta name="robots" content="noindex, nofollow">' if PUBLIC else ""
 sys.path.insert(0, os.path.join(ROOT, "tools"))
 import factcheck  # noqa: E402  the gate is the one source of rules: chapters, what counts as enough
 
@@ -71,8 +75,8 @@ def nav(current, depth):
 
 def page(title, current, body, depth=1):
     return (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
-            f'<title>{E(title)} · WhyLikeDIs</title>{FONTS}<style>{CSS}{NAV_CSS}</style></head><body>'
-            f'<div class="draft">LOCAL PREVIEW · DRAFTS · nothing here is approved or public</div>{nav(current, depth)}'
+            f'<title>{E(title)} · WhyLikeDIs</title>{ROBOTS}{FONTS}<style>{CSS}{NAV_CSS}</style></head><body>'
+            f'<div class="draft">{BANNER}</div>{nav(current, depth)}'
             f'<main class="wrap">{body}</main></body></html>')
 
 
@@ -201,7 +205,40 @@ def doc_page(source, title, current):
     return page(title, current, md(open(path, encoding="utf-8").read()))
 
 
+def section(source, heading):
+    """One '## heading' section of a doc, as HTML."""
+    text = open(os.path.join(ROOT, "docs", source), encoding="utf-8").read()
+    m = re.search(rf"^## {re.escape(heading)}\n(.*?)(?=^## |\Z)", text, re.S | re.M)
+    return md(m.group(1)) if m else ""
+
+
+def public_home():
+    cards = [c for _, c in factcheck.cards() if "_broken" not in c]
+    facts = [f for c in cards for f in c["facts"]]
+    mark = ('<svg viewBox="0 0 100 100" width="44" height="44" role="img" aria-label="WhyLikeDIs mark: an eye">'
+            '<path d="M14 46 Q50 12 86 46" fill="none" stroke="var(--flag-blue)" stroke-width="10" stroke-linecap="round"/>'
+            '<path d="M14 58 Q50 92 86 58" fill="none" stroke="var(--flag-blue)" stroke-width="10" stroke-linecap="round"/>'
+            '<circle cx="50" cy="52" r="12" fill="var(--gold)"/></svg>')
+    body = (f'<p style="display:flex;align-items:center;gap:10px;padding-top:24px">{mark}'
+            '<span style="font:700 24px var(--display)">WhyLikeDIs</span></p>'
+            '<h1>Clear answers about Israel, each with sources you can check.</h1>'
+            '<p class="lede">We are building a fact base for parents: one card for each claim a child hears. Each card gives an '
+            'answer in plain words, the facts behind it with the exact words quoted from every source, where the record is '
+            'disputed, and what the card does not claim.</p>'
+            f'<div class="nums"><div><b>{len(cards)}</b>cards so far</div>'
+            f'<div><b>{sum(c["status"] == "verified" for c in cards)}</b>verified by a second reader</div>'
+            f'<div><b>{sum(factcheck.enough(f)[0] for f in facts)}</b>of {len(facts)} facts fully sourced</div></div>'
+            '<p>Most cards are still drafts, and each one says so. A card is verified only after a reader who did not write it '
+            'has tried to break it, every sentence of the answer is tied to a fact, and every quote has been found on its page.</p>'
+            '<p><a href="facts/">Read the fact base</a> · <a href="method/">How we check</a> · '
+            '<a href="questions/">Questions we tested</a></p>'
+            '<h2>Where we stand</h2>' + section("chapters.md", "Where we stand"))
+    return page("Home", "", body, depth=0)
+
+
 def home():
+    if PUBLIC:
+        return public_home()
     path = os.path.join(HERE, "landing.html")
     if os.path.exists(path):  # the waiting-list page as drafted; we only add the site's navigation to it
         text = open(path, encoding="utf-8").read()
@@ -214,6 +251,7 @@ def demo():
     assert "<table>" in md("| a | b |\n| - | - |\n| 1 | `x` |") and "<code>x</code>" in md("| a |\n| - |\n| `x` |")
     assert md("- one\n  more\n- two") == "<ul><li>one more</li><li>two</li></ul>"
     assert "&lt;script&gt;" in md("<script>") and "<script" not in inline("<script>alert(1)</script>")
+    assert "<p>" in section("chapters.md", "Where we stand")
     assert 'href="https://a.org/x"' in inline("[t](https://a.org/x)") and "href" not in inline("[t](javascript:alert(1))")
 
 
