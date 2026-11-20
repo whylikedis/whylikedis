@@ -22,7 +22,7 @@ CHAPTERS = {  # docs/chapters.md says what each one must answer
     1: "Roots: who lived here, and the names", 2: "Ottoman and British rule, and the return", 3: "1937 to 1948",
     4: "1967 to 2005", 5: "October 7 and the war", 6: "The words: apartheid, racism", 7: "From the river to the sea",
     8: "America's aid", 9: "How borders and peoples moved elsewhere", 10: "Money, media and attention",
-    11: "The flag, the movement and its allies",
+    11: "The flag, the movement and its allies", 12: "Attempts at peace and two states",
 }
 BANNED = ["hasbara"]
 
