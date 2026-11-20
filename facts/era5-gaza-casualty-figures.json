@@ -204,7 +204,8 @@
           "archive": "",
           "quote": "the number of killings verified by OHCHR by 2 September 2024 standing at 8,119 Palestinians in Gaza, including 2,036 women and 3,588 children",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "UN Human Rights Office (OHCHR)",
@@ -213,7 +214,8 @@
           "archive": "",
           "quote": "OHCHR's verification methodology, which requires at least three independent sources",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "UN Human Rights Office (OHCHR)",
@@ -222,7 +224,8 @@
           "archive": "",
           "quote": "out of which 44 per cent were children, 26 per cent women and 30 per cent men",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Al Jazeera",
@@ -232,12 +235,33 @@
           "quote": "having verified 8,119 of the more than 34,500 people reportedly killed during the first six months of Israel's war in Gaza",
           "accessed": "2026-11-20",
           "kind": "news"
+        },
+        {
+          "publisher": "CBC News (Reuters)",
+          "title": "UN count of Gaza war finds 70% of known victims are women, children",
+          "url": "https://amp.cbc.ca/lite/story/1.7377967",
+          "archive": "",
+          "quote": "the 8,119 victims verified is a much lower number than the toll of more than 43,000 provided by Palestinian health authorities",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "Reuters"
         }
-      ]
+      ],
+      "record": true
     },
     {
       "text": "A joint investigation by The Guardian, +972 Magazine and Local Call reported in August 2025 that an Israeli military intelligence database listed 8,900 named Hamas and Palestinian Islamic Jihad fighters as dead or probably dead by May 2025, about 17 percent of the 53,000 deaths then reported. CBC said it had not seen the data; the Israeli army did not dispute that the database exists. This is one report, based on documents not independently verified.",
       "sources": [
+        {
+          "publisher": "Irish Examiner (reprint of The Guardian)",
+          "title": "Revealed: Israeli military's own data indicates civilian death rate of 83% in Gaza war",
+          "url": "https://www.irishexaminer.com/world/arid-41691396.html",
+          "archive": "",
+          "quote": "it is based on apparent internal documents from the groups seized in Gaza, which have not been viewed or verified by the Guardian",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "The Guardian, +972 Magazine and Local Call investigation"
+        },
         {
           "publisher": "CBC News",
           "title": "At least 5 in 6 Palestinians killed by Israeli forces in Gaza are civilians, report finds",
@@ -245,7 +269,8 @@
           "archive": "",
           "quote": "CBC News has not seen the data and therefore has not independently verified the report.",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "news",
+          "wire": "Secondhand reports of the Guardian investigation"
         },
         {
           "publisher": "Middle East Eye",
@@ -254,7 +279,8 @@
           "archive": "",
           "quote": "the Israeli military did not dispute the existence of such a database, or the number of Hamas and PIJ deaths",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "news",
+          "wire": "Secondhand reports of the Guardian investigation"
         }
       ]
     },
@@ -410,12 +436,12 @@
   "status": "draft",
   "content_approved": false,
   "could_not_verify": [
-    "I looked for an independent count of fighters among the dead and found none. The closest are the UN human rights office's verified subset (age and sex only) and a Guardian, +972 Magazine and Local Call report of a leaked Israeli database, which I could only read through CBC and Middle East Eye (the original was not readable) and which is not independently verified.",
+    "I looked for an independent count of fighters among the dead and found none. The closest are the UN human rights office's verified subset (age and sex only) and a Guardian, +972 Magazine and Local Call report of a leaked Israeli database, which I could read only as a Guardian reprint and through CBC and Middle East Eye and which is not independently verified.",
     "I could not find a reliable outlet or academic paper that examined Wyner's method in reply; the other scholarly checks (UNRWA staff comparison, capture-recapture, household survey) test the same question but are not direct replies to him. Jerusalem Post, JNS and Jewish Exponent pieces on Wyner repeat the Tablet article and are not counted as separate sources.",
     "The Huynh, Chin and Spiegel Lancet letter of December 2023 (UNRWA staff deaths compared with the ministry's) could not be read; it is cited only through Khatib, McKee and Yusuf.",
     "The method behind Israel's fighter counts (17,000-18,000 or 20,000) was not found in any source.",
-    "Fact 5 now rests on the UN human rights office's own report (read in full); Al Jazeera's account of it is the same document, so the fact has one independent origin. News reports of this figure differ on the period (six months, seven months, eleven months) and some apply the 44 percent and 26 percent shares to all 8,119 deaths; the report itself applies them only to the 7,607 killed in residential buildings or similar housing.",
-    "Fact 6 (the leaked Israeli database of named fighters) is one Guardian, +972 Magazine and Local Call investigation seen through CBC and Middle East Eye; neither outlet saw the data and I could not read the original. I found no independent confirmation, so the fact is marked short and the answer no longer uses it.",
+    "Fact 5 states what the UN human rights office's six-month update report says; the report is read in full and Al Jazeera and CBC (Reuters) confirm the 8,119 figure. News reports of this figure differ on the period (six months, seven months, eleven months) and some apply the 44 percent and 26 percent shares to all 8,119 deaths; the report itself applies them only to the 7,607 killed in residential buildings or similar housing.",
+    "Fact 6 (the leaked Israeli database of named fighters) is one Guardian, +972 Magazine and Local Call investigation. I read the Guardian's text through an Irish Examiner reprint (theguardian.com returned 404 and 972mag.com refused the fetch), and CBC and Middle East Eye only report it; none saw the data, and the Guardian says it has not viewed or verified the documents. I found no outlet that saw the documents or confirmed them with its own sourcing, so the fact counts as one source and stays short. To close it a person would need to read the investigation on theguardian.com or 972mag.com (21 August 2025) and find an independent outlet, such as Haaretz, that reached the same database.",
     "LBC was removed as a source on this card: its page misstates the UN's view of the ministry's figures."
   ],
   "answer_claims": [

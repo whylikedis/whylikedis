@@ -1,0 +1,112 @@
+{
+  "id": "case-05",
+  "era": 1,
+  "claim": "Roger Bannister was the first person to run a mile in under four minutes.",
+  "heard": [
+    {
+      "who": "Guinness World Records, record entry",
+      "url": "https://www.guinnessworldrecords.com/world-records/first-person-to-run-a-mile-in-less-than-four-minutes",
+      "quote": "On 6 May 1954, the English athlete Roger Bannister became the first man ever to achieve a sub-four-minute mile.",
+      "archive": ""
+    },
+    {
+      "who": "EBSCO Research Starters, entry on the four-minute mile",
+      "url": "https://www.ebsco.com/research-starters/history/bannister-beats-four-minute-mile",
+      "quote": "by becoming the first athlete to run a mile in less than 4 minutes.",
+      "archive": ""
+    }
+  ],
+  "answer": "Yes. On 6 May 1954 Roger Bannister ran the mile in 3 minutes 59.4 seconds at the Iffley Road track in Oxford. Two team-mates, Chris Brasher and Chris Chataway, set the pace for him.",
+  "facts": [
+    {
+      "text": "On 6 May 1954 Roger Bannister ran the mile in 3 minutes 59.4 seconds at the Iffley Road track in Oxford, the first recorded mile under four minutes.",
+      "sources": [
+        {
+          "publisher": "History.com",
+          "title": "First four-minute mile",
+          "url": "https://www.history.com/this-day-in-history/first-four-minute-mile",
+          "archive": "",
+          "quote": "Thereafter, Bannister threw in all his reserves and broke the tape in 3 minutes 59.4 seconds",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "EBSCO Research Starters",
+          "title": "Bannister Beats the Four-Minute Mile",
+          "url": "https://www.ebsco.com/research-starters/history/bannister-beats-four-minute-mile",
+          "archive": "",
+          "quote": "British runner Roger Bannister surpassed a significant milestone in track athletics by becoming the first athlete to run a mile in less than 4 minutes. His record time was 3 minutes, 59.4 seconds.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Guinness World Records",
+          "title": "First person to run a mile in less than four minutes",
+          "url": "https://www.guinnessworldrecords.com/world-records/first-person-to-run-a-mile-in-less-than-four-minutes",
+          "archive": "",
+          "quote": "Running in front of a 3,000-strong crowd at Oxford University's Iffley Road track, the 25-year-old recorded a time of 3 min 59.4 sec",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "Two team-mates, Chris Brasher and Chris Chataway, set the pace for Bannister during the race.",
+      "sources": [
+        {
+          "publisher": "EBSCO Research Starters",
+          "title": "Bannister Beats the Four-Minute Mile",
+          "url": "https://www.ebsco.com/research-starters/history/bannister-beats-four-minute-mile",
+          "archive": "",
+          "quote": "he conferred with AAA teammates Chris Brasher and Christopher Chataway, who would serve as his pacesetters.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "The Christian Science Monitor",
+          "title": "A mile and a milestone - 50 years later",
+          "url": "https://csmonitor.com/2004/0506/p11s01-alsp.html",
+          "archive": "",
+          "quote": "Brasher went into the lead for the first quarter of a mile and Chataway went into the lead near the three-quarter-mile mark.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "World Athletics",
+          "title": "Roger Bannister's sub-four-minute mile, 70 years on",
+          "url": "https://worldathletics.org/heritage/news/roger-bannister-sub-four-minute-mile-70-years",
+          "archive": "",
+          "quote": "overtook the second of his pacemakers, Chris Chataway, and prepared to enter unchartered territory",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    {
+      "text": "Because Bannister ran with pacemakers, some count his run as less of a lone feat. Bannister himself said he doubted he could have done it without them.",
+      "sources": [
+        {
+          "publisher": "The Christian Science Monitor",
+          "title": "A mile and a milestone - 50 years later",
+          "url": "https://csmonitor.com/2004/0506/p11s01-alsp.html",
+          "archive": "",
+          "quote": "\"Without the two Chrises to pace me, I don't believe I could have done what I did,\"",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    }
+  ],
+  "could_not_verify": [
+    "Whether any earlier unrecorded run beat four minutes: the sources only speak of the first recorded one.",
+    "A World Athletics or Amateur Athletic Association ratification document for the 3:59.4 time."
+  ],
+  "not_claimed": [
+    "That Bannister ran alone or unpaced.",
+    "That his time was the fastest mile ever; it did not stand as the record for long."
+  ],
+  "status": "draft",
+  "content_approved": false
+}

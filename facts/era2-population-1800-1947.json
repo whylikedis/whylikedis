@@ -10,10 +10,10 @@
       "quote": "they expelled three-quarters of a million Palestinians stole their land, refused to allow them to return"
     }
   ],
-  "answer": "Before the British there was no modern census, only Ottoman counts of another kind. For 1914 a Turkish estimate gave about 689,000 people in all; Jews are put at 60,000 to 85,000. The British census of 1922 found 757,182 people, 83,794 of them Jews; the last census, in 1931, found about 1,035,000. By the end of 1946 the UN committee estimated the settled population at about 1,846,000: 1,203,000 Arabs and 608,000 Jews. About 376,000 Jewish immigrants were recorded from 1920 to 1946, most of the Jewish growth. The British and UN inquiries put Arab growth almost entirely down to births over deaths, but Arab immigration was not fully recorded, and a minority view says it mattered more. So the land was inhabited, mostly by Arabs: Jews were about 11 percent of the 1922 census count and a third of the 1946 settled-population estimate (not exactly the same footing).",
+  "answer": "Before 1922 there was no modern census: earlier figures are estimates, and Ottoman counts undercounted. For 1914 estimates give about 689,000 people in all, with Jews put at 60,000 to 94,000. The 1922 census recorded 757,182 people, 83,794 of them Jews; the last, in 1931, recorded 1,035,821, with 174,610 Jews. By the end of 1946 the UN committee estimated the settled population at about 1,846,000, 1,203,000 of them Arabs and 608,000 Jews; its own table puts the Jewish share at 12.91 percent in 1922 and 32.96 percent in 1946. About 376,000 Jewish immigrants were recorded from 1920 to 1946, most of the Jewish growth. British and UN inquiries put Arab growth almost entirely down to births over deaths, but Arab immigration was not fully recorded, and a minority view says it mattered more. Every count after 1922 is one set of Mandate statistics. The land was inhabited, mostly by Arabs.",
   "facts": [
     {
-      "text": "Before the British censuses Palestine's population is known only from Ottoman registers and outside estimates. The Mandate's Survey says no data are available on the size of the population before the British occupation; the American Jewish Year Book says Ottoman enumerations were not organised like a modern census; and a Cambridge article re-examining an actual 1849 Ottoman count of Nablus (20,000, against the 8,000-9,000 usually cited) says it raises serious doubts about commonly accepted figures. The earlier figures are therefore uncertain, and may err in either direction.",
+      "text": "Population figures before the first British census (1922) are estimates, and the Ottoman counts undercounted. The Mandate's Survey says no data are available on the size of the population before the British occupation. The 1922 census report says the Ottoman counts existed to list men liable for military service or to impose taxes. The demographer Justin McCarthy writes that the Ottomans consistently undercounted women and children (a statement about the empire as a whole, not Palestine alone). The demographer Sergio DellaPergola labels his own series for 1800 to 1914 'rough estimates'. And a Cambridge article re-examining an 1849 Ottoman count of Nablus (20,000, against the 8,000-9,000 usually cited) says it raises serious doubts about commonly accepted figures.",
       "sources": [
         {
           "publisher": "International Journal of Middle East Studies (Cambridge University Press)",
@@ -34,18 +34,36 @@
           "kind": "primary"
         },
         {
-          "publisher": "American Jewish Year Book (hosted by Berman Jewish Policy Archive)",
-          "title": "Statistics of Jews, 1945-46",
-          "url": "https://www.bjpa.org/content/upload/bjpa/1945/1945_1946_13_Statistics.pdf",
+          "publisher": "Sergio DellaPergola, American Jewish Year Book 2003 (hosted by the Berman Jewish Policy Archive)",
+          "title": "Demographic Trends in Israel and Palestine: Prospects and Policy Implications",
+          "url": "https://bjpa.org/content/upload/bjpa/103d/103demographic.pdf",
           "archive": "",
-          "quote": "While Palestine was under Turkish rule there were enumerations of population, but the results were not organized in the manner of a modern census",
+          "quote": "population in palestine west of jordan river, by religious groups, first century - 2000 (rough estimates, thousands)",
           "accessed": "2026-11-20",
-          "kind": "reference"
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Justin McCarthy (Istanbul Technical University e-library)",
+          "title": "The Population of the Ottoman Armenians",
+          "url": "https://web.itu.edu.tr/~altilar/tobi/e-library/TheArmenians/Population.pdf",
+          "archive": "",
+          "quote": "as in most developing countries, particularly middle eastern countries, the ottomans consistently undercounted women and children",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Palestine Government, Report and General Abstracts of the Census of 1922 (J. B. Barron), scan hosted by Australian National University (Brendan McKay)",
+          "title": "Palestine: Report and General Abstracts of the Census of 1922",
+          "url": "https://users.cecs.anu.edu.au/~bdm/yabber/census/PalestineCensus1922.pdf",
+          "archive": "",
+          "quote": "the object of the census was not for st:.ti.-;tical or administrati\\'e purposes. but to obtain the names and ages of persons liable- !or military service or with a view to im posing fresh taxation",
+          "accessed": "2026-11-20",
+          "kind": "primary"
         }
       ]
     },
     {
-      "text": "Estimates for 1914 differ: a Turkish estimate put the whole population at about 689,000. For the Jewish part the Imperial War Museums give around 60,000 (8 percent), the Mandate government's Survey 84,660 in its text (86,000 in its own table), and the American Jewish Year Book about 85,000.",
+      "text": "Estimates for 1914 differ. A Turkish estimate put the whole population at about 689,000. For the Jewish part the Imperial War Museums give around 60,000 (8 percent), the Mandate government's Survey 84,660 in its text (86,000 in its own table), the American Jewish Year Book about 85,000, and the demographer Roberto Bachi, as reported by DellaPergola, 94,000.",
       "sources": [
         {
           "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
@@ -73,27 +91,46 @@
           "quote": "the outbreak of World War I, about 85,000",
           "accessed": "2026-11-20",
           "kind": "reference"
+        },
+        {
+          "publisher": "Sergio DellaPergola, Genealogy (MDPI), reporting Roberto Bachi (1977)",
+          "title": "Montefiore censuses and the Jewish population of the Land of Israel",
+          "url": "https://www.mdpi.com/2313-5778/9/3/72",
+          "archive": "",
+          "quote": "roberto bachi estimated the total jewish population at 6700 in 1800, 42,900 in 1890, and 94,000 in 1914",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Sergio DellaPergola, Genealogy (MDPI), reporting Roberto Bachi (1977)",
+          "title": "Montefiore censuses and the Jewish population of the Land of Israel",
+          "url": "https://www.mdpi.com/2313-5778/9/3/72",
+          "archive": "",
+          "quote": "roberto bachi estimated the total jewish population at 6700 in 1800, 42,900 in 1890, and 94,000 in 1914",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
         }
       ]
     },
     {
-      "text": "The first British census, on 23 October 1922, counted 757,182 people: 590,890 Muslims, 83,794 Jews and 73,024 Christians (78, 11 and 9.6 percent), plus 9,474 others.",
+      "text": "The report on the 1922 census (taken 23 October 1922) records a total of 757,182 people, including the military and persons of foreign nationality; later sources break it down as 590,890 Muslims, 83,794 Jews and 73,024 Christians (78, 11 and 9.6 percent), plus 9,474 others. The report's own table printed 83,694 Jews, corrected to 83,794 in its erratum.",
       "sources": [
+        {
+          "publisher": "Palestine Government, Report and General Abstracts of the Census of 1922 (J. B. Barron), scan hosted by Australian National University (Brendan McKay)",
+          "title": "Palestine: Report and General Abstracts of the Census of 1922",
+          "url": "https://users.cecs.anu.edu.au/~bdm/yabber/census/PalestineCensus1922.pdf",
+          "archive": "",
+          "quote": "v,:as 757,182. this total incl ude:, the military, and persons of foreign nationality",
+          "accessed": "2026-11-20",
+          "kind": "primary",
+          "is_record": true
+        },
         {
           "publisher": "Palestine Government, Report on Palestine Administration 1922 (League of Nations), hosted by Emory University",
           "title": "Report on Palestine Administration, 1922",
           "url": "https://israeled.org/wp-content/uploads/2014/10/1922-LON.pdf",
           "archive": "",
           "quote": "A census was taken in the month of October. It showed a total population of 757,182",
-          "accessed": "2026-11-20",
-          "kind": "primary"
-        },
-        {
-          "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
-          "title": "A Survey of Palestine, vol. I",
-          "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20I.pdf",
-          "archive": "",
-          "quote": "the first census showed atotal population of 757,182",
           "accessed": "2026-11-20",
           "kind": "primary"
         },
@@ -115,19 +152,21 @@
           "accessed": "2026-11-20",
           "kind": "news"
         }
-      ]
+      ],
+      "record": true
     },
     {
-      "text": "The second census, on 18 November 1931, was the last the British took. It counted about 1,035,000 people (1,035,821 in the census report as quoted by Emory's Center for Israel Education and the ECF database; 1,035,154 in the Survey of Palestine's chronology, a difference the sources do not explain), of whom 174,610 (17 percent) were Jews.",
+      "text": "The 1931 census report (Vol. II, tables) records a total of 1,035,821 people, 759,712 of them Muslims and 174,610 (17 percent) Jews; it was the last census the British took. The Survey of Palestine's chronology gives 1,035,154 for the same census, a difference the sources do not explain.",
       "sources": [
         {
-          "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
-          "title": "A Survey of Palestine, vol. I",
-          "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20I.pdf",
+          "publisher": "Government of Palestine, Census of Palestine 1931, vol. II (E. Mills), Table VII, scan hosted by Australian National University (Brendan McKay)",
+          "title": "Census of Palestine 1931, Part II: Tables",
+          "url": "https://users.cecs.anu.edu.au/~bdm/yabber/census/Census1931_TabVII-VIII.pdf",
           "archive": "",
-          "quote": "the second census for palestine showed a total population of 1,035,154",
+          "quote": "palestine.-total population....................................... 1 035,821 526,680 509,141 759,712 387,594 372,118 174,610",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Economic Cooperation Foundation database",
@@ -148,6 +187,15 @@
           "kind": "reference"
         },
         {
+          "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
+          "title": "A Survey of Palestine, vol. I",
+          "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20I.pdf",
+          "archive": "",
+          "quote": "the second census for palestine showed a total population of 1,035,154",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
           "publisher": "Jewish Telegraphic Agency",
           "title": "Palestine Jews Will Outnumber Arabs in 1958, Says Census Report",
           "url": "https://www.jta.org/archive/palestine-jews-will-outnumber-arabs-in-1958-says-census-report",
@@ -155,20 +203,12 @@
           "quote": "as there were 175,000 Jews in Palestine in 1931",
           "accessed": "2026-11-20",
           "kind": "news"
-        },
-        {
-          "publisher": "UK Parliament, Hansard (written answer, 25 March 1948)",
-          "title": "Palestine: Jewish Population",
-          "url": "https://api.parliament.uk/historic-hansard/written-answers/1948/mar/25/jewish-population",
-          "archive": "",
-          "quote": "a census of the population of Palestine has been taken on only two occasions, in 1922 and in 1931",
-          "accessed": "2026-11-20",
-          "kind": "government"
         }
-      ]
+      ],
+      "record": true
     },
     {
-      "text": "Official estimates put the whole population at about 1,765,000 at the end of 1944, of whom about 554,000 were Jews.",
+      "text": "The Survey of Palestine gives an official estimate of the population at the end of 1944 of about 1,765,000, of whom about 554,000 were Jews; the Anglo-American Committee repeats the total.",
       "sources": [
         {
           "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
@@ -177,7 +217,8 @@
           "archive": "",
           "quote": "estimate of population of Palestine by race (end of 1944)",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Anglo-American Committee of Inquiry, Report (1946), Chapter IV",
@@ -197,14 +238,25 @@
           "accessed": "2026-11-20",
           "kind": "reference"
         }
-      ]
+      ],
+      "record": true
     },
     {
-      "text": "The UN Special Committee on Palestine (UNSCOP) estimated the settled population at the end of 1946 at about 1,846,000: 1,203,000 Arabs, 608,000 Jews and 35,000 others, and warned that such estimates carry a margin of error that grows as the census year recedes. Its vital records cover the whole population except the small Bedouin group living as nomads. Its own table gives the Jewish share as 12.91 percent in 1922 and 32.96 percent in 1946, on a 1922 total of 649,048 that differs from the census count of 757,182, so the 1922 census figure and the 1946 estimate are not on exactly the same footing. The figures come from the Mandate government's statistician, so UNSCOP, the Survey and the Anglo-American Committee repeat one set of British statistics rather than confirming it independently.",
+      "text": "The UN Special Committee on Palestine (UNSCOP) estimated the settled population at the end of 1946 at about 1,846,000: 1,203,000 Arabs, 608,000 Jews and 35,000 others, and warned that such estimates carry a margin of error that grows as the census year recedes. Its vital records cover the whole population except the small Bedouin group living as nomads. On UNSCOP's own table, on one basis, the Jewish share was 12.91 percent in 1922 and 32.96 percent in 1946; that 1922 base (649,048) is not the census total (757,182), so the table is compared with itself and not with the census. The figures come from the Mandate government's statistician, so UNSCOP, the Survey and the Anglo-American Committee repeat one set of British statistics rather than confirming it independently.",
       "sources": [
         {
           "publisher": "United Nations (UNISPAL), UNSCOP Report to the General Assembly, vol. 1",
-          "title": "Question of Palestine/Majority plan (Partition), Minority plan (Federal State)",
+          "title": "Report of the UN Special Committee on Palestine",
+          "url": "https://www.un.org/unispal/document/auto-insert-179435/",
+          "archive": "",
+          "quote": "the proportion of jews in the total has greatly increased, from 12.91 -per cent in 1922 to 32.96 per cent in 1946",
+          "accessed": "2026-11-20",
+          "kind": "primary",
+          "is_record": true
+        },
+        {
+          "publisher": "United Nations (UNISPAL), UNSCOP Report to the General Assembly, vol. 1",
+          "title": "Report of the UN Special Committee on Palestine",
           "url": "https://www.un.org/unispal/document/auto-insert-179435/",
           "archive": "",
           "quote": "Arabs, 1,203,000; Jews, 608,000; others, 35,000; Total, 1,846,000.",
@@ -213,7 +265,7 @@
         },
         {
           "publisher": "United Nations (UNISPAL), UNSCOP Report to the General Assembly, vol. 1",
-          "title": "Question of Palestine/Majority plan (Partition), Minority plan (Federal State)",
+          "title": "Report of the UN Special Committee on Palestine",
           "url": "https://www.un.org/unispal/document/auto-insert-179435/",
           "archive": "",
           "quote": "but there is a margin of error which tends to increase as the census year on which the calculations are based becomes more remote",
@@ -228,11 +280,21 @@
           "quote": "total(a) moslems jews(a) christians others . total 1,845,560",
           "accessed": "2026-11-20",
           "kind": "primary"
+        },
+        {
+          "publisher": "Sergio DellaPergola, American Jewish Year Book 2003 (hosted by the Berman Jewish Policy Archive)",
+          "title": "Demographic Trends in Israel and Palestine",
+          "url": "https://bjpa.org/content/upload/bjpa/103d/103demographic.pdf",
+          "archive": "",
+          "quote": "out of an estimated total population of about 2 million, close to 1.2 million (60 percent) were muslims, about 650,000 (32 percent) jews, and about 150,000 (7 percent) christians",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
         }
-      ]
+      ],
+      "record": true
     },
     {
-      "text": "Jewish population estimates given by the British government: 89,000 in 1923, 411,000 in 1938 and 640,000 in 1948 (the Survey of Palestine gave about 554,000 for the end of 1944 and the UN committee 608,000 for the end of 1946).",
+      "text": "The British government gave Parliament estimates of the Jewish population: in 1939, about 58,000 Jews (and 635,000 Arabs) in 1919 and 411,000 Jews (and 1,004,000 Arabs) in 1938; in 1948, 89,000 Jews in 1923, 411,000 in 1938 and 640,000 in 1948. The Jewish National Fund put the Jewish population at 460,000 in mid-1939, counting illegal immigrants for the first time (a different basis).",
       "sources": [
         {
           "publisher": "UK Parliament, Hansard (written answer, 25 March 1948)",
@@ -241,30 +303,32 @@
           "archive": "",
           "quote": "the estimated figures for the Jewish population on the dates mentioned by the hon. Member are as follows: 1923-89,000; 1938-411,000; 1948-640,000",
           "accessed": "2026-11-20",
+          "kind": "government",
+          "is_record": true
+        },
+        {
+          "publisher": "UK Parliament, Hansard (written answer, 8 February 1939)",
+          "title": "Palestine: Jews and Arabs (population statistics)",
+          "url": "https://api.parliament.uk/historic-hansard/commons/1939/feb/08/jews-and-arabs-population-statistics",
+          "archive": "",
+          "quote": "The corresponding figures in 1938 were 1,004,000 Arabs and 411,000 Jews.",
+          "accessed": "2026-11-20",
           "kind": "government"
         },
         {
-          "publisher": "United Nations (UNISPAL), UNSCOP Report to the General Assembly, vol. 1",
-          "title": "Question of Palestine/Majority plan (Partition), Minority plan (Federal State)",
-          "url": "https://www.un.org/unispal/document/auto-insert-179435/",
+          "publisher": "Jewish Telegraphic Agency",
+          "title": "Palestine Jewish population put at 460,000 by J.N.F.",
+          "url": "https://www.jta.org/archive/palestine-jewish-population-put-at-460000-by-j-n-f-23000-increase-in-year",
           "archive": "",
-          "quote": "Arabs, 1,203,000; Jews, 608,000; others, 35,000; Total, 1,846,000.",
+          "quote": "the figures, for the first time, include illegal Jewish immigrants in Palestine",
           "accessed": "2026-11-20",
-          "kind": "primary"
-        },
-        {
-          "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
-          "title": "A Survey of Palestine, vol. I",
-          "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20I.pdf",
-          "archive": "",
-          "quote": "estimate of population of Palestine by race (end of 1944)",
-          "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "news"
         }
-      ]
+      ],
+      "record": true
     },
     {
-      "text": "About 376,000 Jewish immigrants were recorded entering Palestine from 1920 to 1946; the Anglo-American Committee found three-fourths of the growth of the Jewish community to be immigration; the Survey counted net immigration of 258,222 in 1932-44.",
+      "text": "UNSCOP reports that about 376,000 Jewish immigrants were recorded entering Palestine from 1920 to 1946; the Anglo-American Committee found three-fourths of the growth of the Jewish community to be immigration; the Survey counts net immigration of 258,222 in 1932-44.",
       "sources": [
         {
           "publisher": "United Nations (UNISPAL), UNSCOP Report to the General Assembly, vol. 1",
@@ -273,7 +337,8 @@
           "archive": "",
           "quote": "the total number of recorded Jewish immigrants into Palestine was about 376,000",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Anglo-American Committee of Inquiry, Report (1946), Chapter IV",
@@ -293,10 +358,11 @@
           "accessed": "2026-11-20",
           "kind": "primary"
         }
-      ]
+      ],
+      "record": true
     },
     {
-      "text": "Jewish immigration came in waves: about 25,000 in the First Aliyah (1882-1903), about 35,000 in the Third (1919-23) and about 200,000 in the Fifth (1932-39); after the Nazi rise to power annual arrivals jumped from 9,553 in 1932 to 30,327 in 1933.",
+      "text": "Jewish immigration came in waves: about 25,000 in the First Aliyah (1882-1903) and about 35,000 in the Third (1919-23); the Fifth is put at about 200,000 for 1932-39 (Federal Agency for Civic Education) or over 250,000 for 1929-39 (Encyclopaedia Judaica); after the Nazi rise to power annual arrivals jumped from 9,553 in 1932 to 30,327 in 1933.",
       "sources": [
         {
           "publisher": "Federal Agency for Civic Education (bpb, Germany)",
@@ -308,15 +374,6 @@
           "kind": "reference"
         },
         {
-          "publisher": "My Jewish Learning",
-          "title": "Jewish Immigration to Pre-State Israel",
-          "url": "https://www.myjewishlearning.com/article/jewish-immigration-to-palestine/",
-          "archive": "",
-          "quote": "each wave of immigration brought with it specific ideological and social characteristics which shaped the development of the Yishuv",
-          "accessed": "2026-11-20",
-          "kind": "reference"
-        },
-        {
           "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
           "title": "A Survey of Palestine, vol. I",
           "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20I.pdf",
@@ -324,11 +381,20 @@
           "quote": "the number of immigrants jumped from 9,553 in 1932 to 30,327 in 1933",
           "accessed": "2026-11-20",
           "kind": "primary"
+        },
+        {
+          "publisher": "Encyclopaedia Judaica (via Encyclopedia.com)",
+          "title": "Aliyah",
+          "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/aliyah",
+          "archive": "",
+          "quote": "some 25,000 - mostly from eastern europe - arrived during this period",
+          "accessed": "2026-11-20",
+          "kind": "reference"
         }
       ]
     },
     {
-      "text": "The Arab population also grew fast, and the official inquiries attributed the growth almost entirely to natural increase: the Anglo-American Committee counted only 19,000 of the Muslim population's growth of 472,000 (1922 to 1944) as immigration. The historian Yehoshua Porath reached the same view, but on this card his words are quoted second-hand, in a letter by Ronald Sanders who defends the opposite thesis.",
+      "text": "UNSCOP says the Arab population increased almost entirely from an excess of births over deaths, and the Anglo-American Committee counted only 19,000 of the Muslim population's growth of 472,000 (1922 to 1944) as immigration.",
       "sources": [
         {
           "publisher": "United Nations (UNISPAL), UNSCOP Report to the General Assembly, vol. 1",
@@ -337,7 +403,8 @@
           "archive": "",
           "quote": "The Arab population has increased almost entirely as a result of an excess of births over deaths.",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Anglo-American Committee of Inquiry, Report (1946), Chapter IV",
@@ -349,18 +416,19 @@
           "kind": "primary"
         },
         {
-          "publisher": "The New York Review of Books (letter by Ronald Sanders, quoting Yehoshua Porath's review)",
-          "title": "Mrs. Peters's Palestine: An Exchange",
-          "url": "https://www.nybooks.com/articles/1986/03/27/mrs-peterss-palestine-an-exchange/",
+          "publisher": "Government of Palestine, A Survey of Palestine (1946), scan hosted by the Berman Jewish Policy Archive",
+          "title": "A Survey of Palestine, vol. I",
+          "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20I.pdf",
           "archive": "",
-          "quote": "one cannot escape the conclusion that most of the growth of the Palestinian Arab community resulted from a process of natural increase",
+          "quote": "the high rate of natural increase of the population of Palestine is a phenomenon",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "primary"
         }
-      ]
+      ],
+      "record": true
     },
     {
-      "text": "Demographers and officials explained the Arab growth by very high fertility and falling death rates, helped by better public health and the end of Ottoman conscription and of much malaria.",
+      "text": "UNSCOP and the Anglo-American Committee explained the Arab growth by very high fertility and falling death rates, helped by better public health and the end of conscription and of much malaria; the Survey calls the high natural increase a phenomenon of the whole population.",
       "sources": [
         {
           "publisher": "United Nations (UNISPAL), UNSCOP Report to the General Assembly, vol. 1",
@@ -369,7 +437,8 @@
           "archive": "",
           "quote": "very high fertility rates coupled with a marked decline in death rates as a result of improved conditions of life and public health",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Anglo-American Committee of Inquiry, Report (1946), Chapter IV",
@@ -389,10 +458,11 @@
           "accessed": "2026-11-20",
           "kind": "primary"
         }
-      ]
+      ],
+      "record": true
     },
     {
-      "text": "The official migration counts are incomplete: the Survey's statisticians made no allowance for illegal immigration before 1939, and name illegal immigration, mainly from neighbouring countries, as a source of error for Muslims. The demographer Roberto Bachi, quoted by the economist Fred Gottheil (Middle East Quarterly), wrote of Muslim immigration that he was unable to even guess the size of total immigration; this is second-hand. A letter by Ronald Sanders in the New York Review of Books, written in defence of Joan Peters's thesis, says the British kept thorough records of Jewish immigration but none for Arabs migrating overland.",
+      "text": "The Survey's statisticians made no allowance for illegal immigration before 1939, so the official migration counts are incomplete. The demographer Roberto Bachi, quoted second-hand by the economist Fred Gottheil (Middle East Quarterly), wrote of Muslim immigration that he was unable to even guess the size of total immigration. A letter by Ronald Sanders in the New York Review of Books, written in defence of Joan Peters's thesis, says the British kept thorough records of Jewish immigration but none for Arabs migrating overland.",
       "sources": [
         {
           "publisher": "Government of Palestine, A Survey of Palestine (Dec 1945-Jan 1946), scan hosted by the Berman Jewish Policy Archive",
@@ -401,7 +471,8 @@
           "archive": "",
           "quote": "has therefore been made for illegalimmigration in the years previous to 1939",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Middle East Quarterly, published by the Middle East Forum (Fred M. Gottheil, quoting Roberto Bachi)",
@@ -421,7 +492,8 @@
           "accessed": "2026-11-20",
           "kind": "news"
         }
-      ]
+      ],
+      "record": true
     }
   ],
   "contested": [
@@ -459,15 +531,20 @@
     }
   ],
   "could_not_verify": [
-    "Two facts have only two reliable sites: the Ottoman-era uncertainty and 1914 estimates (the American Jewish Year Book and the Survey of Palestine are both on bjpa.org, one site), and the end-of-1944 estimate. I found no third readable independent page for them.",
     "The end-of-1946 figures: UNSCOP and the Mandate government's 1947 Supplement to the Survey (reproduced in a 1949 UN paper, whose scan is garbled) are the documents; the Supplement itself was not found online. I found no independent scholar or news page that repeats the Arab and Jewish split.",
-    "Ottoman census totals (Karpat, McCarthy) were not read; Justin McCarthy's book is under copyright and I did not cite it. The Journal of Palestine Studies demography article, UN University Press table and a mideastweb.org summary were not readable.",
-    "The 1931 census report is an unreadable scan here; its figures come from the Survey, ECF, Emory's quotation and the news item.",
     "The Survey of Palestine and the Anglo-American report give the Jewish and Arab counts but differ in total (1,765,000 vs 1,727,786 in the American Jewish Year Book) because of how they count forces and nomads; I did not resolve it.",
     "UNSCOP's own table of religions gives a 1922 Muslim figure (486,177) that does not match the census (590,890); I cite only its prose paragraphs.",
     "I did not find a readable page by a demographer arguing that Arab growth from 1922 to 1946 was mostly immigration other than Gottheil on 1922-1931.",
-    "Reviewer: the best scholarly counter to Gottheil, Justin McCarthy's demographic study of Palestine's population, is only reached through Gottheil's critique of it, so it is not carried; no first-hand page for it was read.",
-    "Reviewer: nomads and the 1922 census scope: no page I could read says whether the 757,182 includes the Bedouin; UNSCOP's own table uses 649,048 for 1922."
+    "Every count from 1922 on (the 1922 and 1931 census reports, the Survey, the Anglo-American Committee, UNSCOP, Hansard) is one set of Mandate statistics. The record facts rest on the document itself; the two confirming sources check that we read it right, they are not independent measurements. Facts 5, 7, 9, 10 and 11 are the weakest on this point.",
+    "The 1922 census report scan (hosted by Australian National University) is poorly OCR-ed: its table of religions is unreadable, so the breakdown by religion rests on the Economic Cooperation Foundation page, the Report on Palestine Administration 1922 and the 1931 report's comparison table; the quote on the card is the report's own sentence, copied with its OCR errors.",
+    "Justin McCarthy's book The Population of Palestine (1990) is the standard study of Ottoman undercounting in Palestine; no page of it was readable here. The card cites his statement from a paper on the Ottoman Armenians, which says the Ottomans consistently undercounted women and children across the empire. What a person needs to read: McCarthy, The Population of Palestine, chapters 1 and 2 (Columbia University Press, 1990), or Roberto Bachi, The Population of Israel (1977), pp. 4-5.",
+    "Fact 6 (the 1948 British written answer) is kept as one record with no confirming source: the other Jewish-population figures on the card are for different dates. Fact 11 has one reliable source besides the Survey (a letter in a magazine, written in defence of Peters's thesis); a first-hand demographer on unrecorded Arab immigration (Bachi in his own book) was not readable.",
+    "Pre-1914 estimates (275,000 in 1800, over half a million in 1890) rest on DellaPergola, who rests on Bachi, McEvedy and Jones, and Dulska; I did not find a second readable page that gives its own estimate for 1800.",
+    "Every count from 1922 on (the 1922 and 1931 census reports, the Survey, the Anglo-American Committee, UNSCOP, Hansard) is one set of Mandate statistics. The record facts rest on the document itself; the two confirming sources check that we read it right, they are not independent measurements. Facts 5, 7, 9, 10 and 11 are the weakest on this point.",
+    "The 1922 census report scan (hosted by Australian National University) is poorly OCR-ed: its table of religions is unreadable, so the breakdown by religion rests on the Economic Cooperation Foundation page, the Report on Palestine Administration 1922 and the 1931 report's comparison table; the quote on the card is the report's own sentence, copied with its OCR errors.",
+    "Justin McCarthy's book The Population of Palestine (1990) is the standard study of Ottoman undercounting in Palestine; no page of it was readable here. The card cites his statement from a paper on the Ottoman Armenians, which says the Ottomans consistently undercounted women and children across the empire. What a person needs to read: McCarthy, The Population of Palestine, chapters 1 and 2 (Columbia University Press, 1990), or Roberto Bachi, The Population of Israel (1977), pp. 4-5.",
+    "Fact 6 (British figures given to Parliament in 1939 and 1948) has two government records and one news report (on a different basis, the Jewish National Fund count); I found no second reliable page that repeats the 1923 and 1948 figures. Fact 11 has one reliable source besides the Survey (a letter in a magazine, written in defence of Peters's thesis); a first-hand demographer on unrecorded Arab immigration (Bachi in his own book) was not readable.",
+    "Pre-1914 estimates (275,000 in 1800, over half a million in 1890) rest on DellaPergola, who rests on Bachi, McEvedy and Jones, and Dulska; I did not find a second readable page that gives its own estimate for 1800."
   ],
   "not_claimed": [
     "This card does not say there was no Arab immigration into Palestine, only that the official inquiries put it at a small share of the growth.",
@@ -479,26 +556,26 @@
   "content_approved": false,
   "answer_claims": [
     {
-      "says": "Before the British there was no modern census, only Ottoman counts of another kind.",
+      "says": "Before 1922 there was no modern census: earlier figures are estimates, and Ottoman counts undercounted.",
       "facts": [
         0
       ]
     },
     {
-      "says": "For 1914 a Turkish estimate gave about 689,000 people in all; Jews are put at 60,000 to 85,000.",
+      "says": "For 1914 estimates give about 689,000 people in all, with Jews put at 60,000 to 94,000.",
       "facts": [
         1
       ]
     },
     {
-      "says": "The British census of 1922 found 757,182 people, 83,794 of them Jews; the last census, in 1931, found about 1,035,000.",
+      "says": "The 1922 census recorded 757,182 people, 83,794 of them Jews; the last, in 1931, recorded 1,035,821, with 174,610 Jews.",
       "facts": [
         2,
         3
       ]
     },
     {
-      "says": "By the end of 1946 the UN committee estimated the settled population at about 1,846,000: 1,203,000 Arabs and 608,000 Jews.",
+      "says": "By the end of 1946 the UN committee estimated the settled population at about 1,846,000, 1,203,000 of them Arabs and 608,000 Jews; its own table puts the Jewish share at 12.91 percent in 1922 and 32.96 percent in 1946.",
       "facts": [
         5
       ]
@@ -510,16 +587,21 @@
       ]
     },
     {
-      "says": "The British and UN inquiries put Arab growth almost entirely down to births over deaths, but Arab immigration was not fully recorded, and a minority view says it mattered more.",
+      "says": "British and UN inquiries put Arab growth almost entirely down to births over deaths, but Arab immigration was not fully recorded, and a minority view says it mattered more.",
       "facts": [
         9,
         11
       ]
     },
     {
-      "says": "So the land was inhabited, mostly by Arabs: Jews were about 11 percent of the 1922 census count and a third of the 1946 settled-population estimate (not exactly the same footing).",
+      "says": "Every count after 1922 is one set of Mandate statistics.",
       "facts": [
-        2,
+        5
+      ]
+    },
+    {
+      "says": "The land was inhabited, mostly by Arabs.",
+      "facts": [
         5
       ]
     }

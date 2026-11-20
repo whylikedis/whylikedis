@@ -10,10 +10,10 @@
       "quote": "Zionism is a settler colonial movement and Israel is a settler colonial state. This is not an insult; it is a statement of fact."
     }
   ],
-  "answer": "Zionism's founding text, the Basel Program of 1897, says its aim is 'a home in Palestine secured by public law' for the Jewish people, to be reached partly by promoting the settlement of Jewish farmers and workers there (one English translation says 'colonization', others 'settlement'). Herzl called the idea the restoration of the Jewish state. But Zionism was never one thing: political, labour, religious, cultural and revisionist Zionists differed, and bi-nationalists such as Brit Shalom wanted Jews and Arabs to share the country. Many Jews opposed it: the Bund, Reform rabbis, and the Orthodox Agudat Israel.",
+  "answer": "Zionism's founding text, the Basel Program of 1897, says its aim is 'a home in Palestine secured by public law' for the Jewish people, to be reached partly by promoting Jewish settlement in Palestine by farmers and workers (the 1897 Jewish Chronicle translation says 'colonization', others 'settlement'). Herzl called the idea the restoration of the Jewish state. But Zionism was never one thing: political, labour, religious, cultural and revisionist Zionists differed, and bi-nationalists such as Brit Shalom wanted Jews and Arabs to share the country. Many Jews opposed it: the Bund, Reform rabbis, and the Orthodox Agudat Israel. Scholars disagree whether 'settler colonial' fits: Veracini says it does; Dowty says there was no mother country, though he also writes that early Zionists saw the Arabs as 'a major inconvenience'; Penslar says Israel is a settler colonial state toward the Palestinians but not only that.",
   "facts": [
     {
-      "text": "The Basel Program of the First Zionist Congress (1897) states: 'The aim of Zionism is to create for the Jewish people a home in Palestine secured by public law.'",
+      "text": "The Basel Program of the First Zionist Congress (1897) states, in the English translation printed in the Jewish Chronicle: 'The aim of Zionism is to create for the Jewish people a home in Palestine secured by public law.'",
       "sources": [
         {
           "publisher": "Posen Library of Jewish Culture and Civilization",
@@ -22,7 +22,8 @@
           "archive": "",
           "quote": "The aim of Zionism is to create for the Jewish people a home in Palestine secured by public law.",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Encyclopaedia Judaica (via Encyclopedia.com)",
@@ -51,11 +52,22 @@
           "accessed": "2026-11-20",
           "kind": "reference"
         }
-      ]
+      ],
+      "record": true
     },
     {
-      "text": "The first of the Basel Program's means was promoting Jewish settlement in Palestine by farmers and workers. The English translation on the COJS and Posen Library pages renders it 'the promotion, on suitable lines, of the colonization of Palestine by Jewish agricultural and industrial workers'; the Encyclopaedia Judaica renders it 'settlement' (so does the Jewish Encyclopedia). The German original was not read, so this card does not say that 'colonization' was the movement's own word in 1897.",
+      "text": "The first of the Basel Program's means was promoting Jewish settlement in Palestine by farmers and workers. The English translation printed in the Jewish Chronicle on 3 September 1897 (translator unknown; reprinted in the Posen Library and on the COJS page) renders it 'the promotion, on suitable lines, of the colonization of Palestine by Jewish agricultural and industrial workers'; the Encyclopaedia Judaica and the Jewish Encyclopedia render the same point 'settlement'. The Jewish Encyclopedia adds that the Second Congress took up 'the question of colonization' through a plan drawn up by a colonization committee, and the historian Derek Penslar notes that Herzl called the Zionist bank the Jewish Colonial Trust. The German original was not read, so this card does not say that 'colonization' was the word of the 1897 text itself.",
       "sources": [
+        {
+          "publisher": "Posen Library of Jewish Culture and Civilization",
+          "title": "The Basel Program (First Zionist Congress, 1897)",
+          "url": "https://www.posenlibrary.com/node/8897",
+          "archive": "",
+          "quote": "The promotion, on suitable lines, of the colonization of Palestine by Jewish agricultural and industrial workers.",
+          "accessed": "2026-11-20",
+          "kind": "primary",
+          "is_record": true
+        },
         {
           "publisher": "Center for Online Judaic Studies",
           "title": "The First Zionist Congress: the Basel Declaration, August 1897",
@@ -75,18 +87,37 @@
           "kind": "reference"
         },
         {
-          "publisher": "Posen Library of Jewish Culture and Civilization",
-          "title": "The Basel Program (First Zionist Congress, 1897)",
-          "url": "https://www.posenlibrary.com/node/8897",
+          "publisher": "Jewish Encyclopedia",
+          "title": "Basel Program",
+          "url": "https://jewishencyclopedia.com/articles/2612-basel-program",
           "archive": "",
-          "quote": "The promotion, on suitable lines, of the colonization of Palestine by Jewish agricultural and industrial workers.",
+          "quote": "(1) the promotion of the settlement of jewish agriculturists, artisans, and tradesmen in palestine",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "reference"
+        },
+        {
+          "publisher": "Jewish Encyclopedia",
+          "title": "Basel Program",
+          "url": "https://jewishencyclopedia.com/articles/2612-basel-program",
+          "archive": "",
+          "quote": "it was found necessary to discuss the question of colonization in the second basel congress",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Harvard Divinity School, Religion and Public Life (event transcript: Derek Penslar on 'Zionism: An Emotional State', 2024)",
+          "title": "Video: Zionism: An Emotional State",
+          "url": "https://rpl.hds.harvard.edu/news/2024/12/3/video-zionism-emotional-state",
+          "archive": "",
+          "quote": "he called the zionist bank the jewish colonial trust",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
         }
-      ]
+      ],
+      "record": true
     },
     {
-      "text": "Theodor Herzl's pamphlet 'The Jewish State' (1896) calls its idea 'the restoration of the Jewish state' and rests it on 'the plight of the Jews'.",
+      "text": "Theodor Herzl's pamphlet 'The Jewish State' (1896) says its idea is 'the restoration of the Jewish state' and rests it on 'the plight of the Jews'.",
       "sources": [
         {
           "publisher": "Posen Library of Jewish Culture and Civilization",
@@ -95,7 +126,8 @@
           "archive": "",
           "quote": "the restoration of the Jewish state. The world resounds with outcries against the Jews",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Fordham University, Internet Modern History Sourcebook",
@@ -104,7 +136,8 @@
           "archive": "",
           "quote": "The idea I have developed in this pamphlet is an ancient one: It is the restoration of the Jewish State.",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Encyclopaedia Judaica (via Encyclopedia.com)",
@@ -114,11 +147,21 @@
           "quote": "The world resounds with outcries against the Jews, and these outcries have awakened the slumbering idea.",
           "accessed": "2026-11-20",
           "kind": "reference"
+        },
+        {
+          "publisher": "Encyclopaedia Britannica",
+          "title": "Theodor Herzl",
+          "url": "https://www.britannica.com/biography/Theodor-Herzl",
+          "archive": "",
+          "quote": "herzl believed anti-semitism was a social problem that jews could only overcome by creating their own state, rather than assimilating into other cultures",
+          "accessed": "2026-11-20",
+          "kind": "reference"
         }
-      ]
+      ],
+      "record": true
     },
     {
-      "text": "Zionism was never a single doctrine. Historians distinguish political (Herzl), labour, revisionist, religious and cultural schools; Ahad Ha'am, for example, wanted the land to be a 'spiritual center' for the Jewish people, not a refuge for the masses.",
+      "text": "Zionism was never a single doctrine. Historians distinguish political (Herzl), labour, revisionist, religious and cultural schools, and Penslar offers a typology of his own; Ahad Ha'am, for example, wanted the land to be a 'spiritual center' for the Jewish people, not a refuge for the masses.",
       "sources": [
         {
           "publisher": "Unpacked (educational media, no institution named on the page), summarising Gil Troy, The Zionist Ideas",
@@ -144,6 +187,33 @@
           "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/zionism",
           "archive": "",
           "quote": "a synthesis between the new national ideal of self-realization",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Encyclopaedia Britannica",
+          "title": "Zionism",
+          "url": "https://www.britannica.com/topic/Zionism",
+          "archive": "",
+          "quote": "many of the settlers in this period were labor zionists, a particular strand of zionism that promoted collective enterprises (such as the kibbutzim) as a means to build a jewish state",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Encyclopaedia Britannica",
+          "title": "Zionism",
+          "url": "https://www.britannica.com/topic/Zionism",
+          "archive": "",
+          "quote": "whose revisionist strand of zionism (which later constituted much of the israeli right) emphasized the need to secure self-determination through armed force",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Harvard Center for Middle Eastern Studies (publisher's abstract of Derek Penslar, Zionism: An Emotional State, Rutgers University Press, 2023)",
+          "title": "Zionism: An Emotional State",
+          "url": "https://cmes.fas.harvard.edu/publications/zionism-emotional-state",
+          "archive": "",
+          "quote": "beginning with an original typology of zionism and a new take on its relationship to colonialism",
           "accessed": "2026-11-20",
           "kind": "reference"
         }
@@ -178,6 +248,15 @@
           "quote": "a bi-national state of absolute parity between Jews and Arabs was defined as its version of the political purpose of Zionism as a whole",
           "accessed": "2026-11-20",
           "kind": "reference"
+        },
+        {
+          "publisher": "United Nations, UNSCOP Report to the General Assembly, vol. 1",
+          "title": "Report of the UN Special Committee on Palestine",
+          "url": "https://www.un.org/unispal/document/auto-insert-179435/",
+          "archive": "",
+          "quote": "the ihud (union) association and the hashomer hatzair workers' party are in favour of a \"binational\" state in which the two communities would have equal status and political parity",
+          "accessed": "2026-11-20",
+          "kind": "primary"
         }
       ]
     },
@@ -208,6 +287,15 @@
           "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/agudat-israel",
           "archive": "",
           "quote": "groups who consistently opposed any attempt to revive Jewish nationhood",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Encyclopaedia Britannica",
+          "title": "Zionism",
+          "url": "https://www.britannica.com/topic/Zionism",
+          "archive": "",
+          "quote": "before israel gained independence in 1948, some religious jews opposed zionism because they believed judaism forbids a jewish state in israel before the coming of the messiah",
           "accessed": "2026-11-20",
           "kind": "reference"
         }
@@ -242,6 +330,65 @@
           "quote": "Satmar, a major hasidic group, is known for its extreme conservatism and anti-Zionism",
           "accessed": "2026-11-20",
           "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Scholars disagree, in their own words, on whether 'settler colonial' describes Zionism. The historian Lorenzo Veracini says 'Zionism is a settler colonial movement and Israel is a settler colonial state.' The political scientist Alan Dowty says there was 'no métropole, no mother country of which the settlers were an extension' and that most immigrants were refugees; but he also writes that 'the presence of another people was first and foremost a major inconvenience', which the early Zionists 'tried their best to ignore and minimalize', and that they did not recognise the Arabs 'as another people with their own collective claims'. The historian Derek Penslar says Israel 'is a settler colonial state in terms of its relationship with the palestinians who are dispossessed in 1948', also has a 'cult of postcolonial technological development', and that 'the settler colonial paradigm only explains so much'. The historian Rashid Khalidi says the early Zionists made no bones about doing it 'as part of a settler colonial process'.",
+      "sources": [
+        {
+          "publisher": "Jewish Currents (interview with Lorenzo Veracini)",
+          "title": "A Logic of Elimination",
+          "url": "https://jewishcurrents.org/a-logic-of-elimination",
+          "archive": "",
+          "quote": "Zionism is a settler colonial movement and Israel is a settler colonial state. This is not an insult; it is a statement of fact.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "University of Washington, Stroum Center for Jewish Studies (Alan Dowty)",
+          "title": "Why Israel Isn't a Settler Colonial State",
+          "url": "https://jewishstudies.washington.edu/israel-hebrew/why-israel-isnt-a-settler-colonial-state",
+          "archive": "",
+          "quote": "there was no métropole, no mother country of which the settlers were an extension",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "University of Washington, Stroum Center for Jewish Studies (Alan Dowty)",
+          "title": "Why Israel Isn't a Settler Colonial State",
+          "url": "https://jewishstudies.washington.edu/israel-hebrew/why-israel-isnt-a-settler-colonial-state",
+          "archive": "",
+          "quote": "the presence of another people was first and foremost a major inconvenience, which the early zionists tried their best to ignore and minimalize",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Harvard Divinity School, Religion and Public Life (event transcript: Derek Penslar on 'Zionism: An Emotional State', 2024)",
+          "title": "Video: Zionism: An Emotional State",
+          "url": "https://rpl.hds.harvard.edu/news/2024/12/3/video-zionism-emotional-state",
+          "archive": "",
+          "quote": "israel is a settler colonial state in terms of its relationship with the palestinians who are dispossessed in 1948, remain dispossessed to this day",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Harvard Divinity School, Religion and Public Life (event transcript: Derek Penslar on 'Zionism: An Emotional State', 2024)",
+          "title": "Video: Zionism: An Emotional State",
+          "url": "https://rpl.hds.harvard.edu/news/2024/12/3/video-zionism-emotional-state",
+          "archive": "",
+          "quote": "i find the settler colonial paradigm only explains so much",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "LBO News (interview with Rashid Khalidi)",
+          "title": "Rashid Khalidi on settler colonial Israel",
+          "url": "https://lbo-news.com/2024/10/08/rashid-khalidi-on-settler-colonial-israel-an-interview/",
+          "archive": "",
+          "quote": "none of them made any bones about the fact that they were doing this as part of a settler colonial process",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
         }
       ]
     }
@@ -280,7 +427,7 @@
       ]
     },
     {
-      "text": "Position: the description does not fit. Alan Dowty, a political scientist, says classic colonialism needs a metropole, a mother country whose agents the colonists are, and that there was none; he adds that most Jews who came were refugees fleeing persecution and not agents of a sponsor. Supporters of the description answer that a settler movement needs no single mother country, and that historical ties to the land do not remove the question of the people already living there. This card reports the argument; it does not decide it.",
+      "text": "Position: the description does not fit. Alan Dowty, a political scientist, says classic colonialism needs a metropole, a mother country whose agents the colonists are, and that there was none; he adds that most Jews who came were refugees fleeing persecution and not agents of a sponsor. Supporters of the description answer that a settler movement needs no single mother country, and that historical ties to the land do not remove the question of the people already living there. Dowty also writes, in the same article, that the presence of another people was 'a major inconvenience' which the early Zionists tried to ignore, and that they did not recognise the Arabs as a people with collective claims; this is the part of his account that the other side cites. This card reports the argument; it does not decide it.",
       "sources": [
         {
           "publisher": "University of Washington, Stroum Center for Jewish Studies (Alan Dowty)",
@@ -299,36 +446,36 @@
           "quote": "generally fit the accepted definition of refugees who were escaping persecution",
           "accessed": "2026-11-20",
           "kind": "scholarly"
+        },
+        {
+          "publisher": "University of Washington, Stroum Center for Jewish Studies (Alan Dowty)",
+          "title": "Why Israel Isn't a Settler Colonial State",
+          "url": "https://jewishstudies.washington.edu/israel-hebrew/why-israel-isnt-a-settler-colonial-state",
+          "archive": "",
+          "quote": "they did not recognize the arab population of palestine as another people with their own collective claims",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
         }
       ]
     },
     {
-      "text": "Position: both frames are needed, and comparison is a tool, not a verdict. This is second-hand on this card: a student newspaper, The Dartmouth, reports Derek Penslar, a Harvard historian of Zionism, as saying in 2025 that he has seen the word 'colonialism' used so often that it loses meaning and that the purpose of comparison is to highlight differences; and a sociologist, Ezra Zuckerman Sivan, summarises Penslar's 2023 book as arguing that one cannot understand Jewish emotional orientations to Zionism without a nationalist frame, nor those of many of Israel's critics without a settler-colonial frame. Penslar's own words were not read.",
+      "text": "Position: both frames are needed, and comparison is a tool, not a verdict. Derek Penslar, a Harvard historian of Zionism, said in his own words at a 2024 Harvard Divinity School event that Israel 'is a settler colonial state in terms of its relationship with the palestinians' but also has a postcolonial side, and that to call a country settler colonial 'means that there's a certain pattern of relations between newcomers and current residents', after which 'you have to start asking all kinds of other questions'.",
       "sources": [
         {
-          "publisher": "The Dartmouth (Sohum Desai), reporting Derek Penslar's remarks",
-          "title": "Professors explore if Zionism is settler colonialism",
-          "url": "https://www.thedartmouth.com/article/2025/05/professors-explore-if-zionism-is-settler-colonialism",
+          "publisher": "Harvard Divinity School, Religion and Public Life (event transcript: Derek Penslar on 'Zionism: An Emotional State', 2024)",
+          "title": "Video: Zionism: An Emotional State",
+          "url": "https://rpl.hds.harvard.edu/news/2024/12/3/video-zionism-emotional-state",
           "archive": "",
-          "quote": "I've seen the word 'colonialism' used so often that it simply loses meaning",
+          "quote": "so to say that a country is settler colonial means that there's a certain pattern of relations between newcomers and current residents",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "scholarly"
         },
         {
-          "publisher": "The Dartmouth (Sohum Desai), reporting Derek Penslar's remarks",
-          "title": "Professors explore if Zionism is settler colonialism",
-          "url": "https://www.thedartmouth.com/article/2025/05/professors-explore-if-zionism-is-settler-colonialism",
+          "publisher": "Harvard Divinity School, Religion and Public Life (event transcript: Derek Penslar on 'Zionism: An Emotional State', 2024)",
+          "title": "Video: Zionism: An Emotional State",
+          "url": "https://rpl.hds.harvard.edu/news/2024/12/3/video-zionism-emotional-state",
           "archive": "",
-          "quote": "The purpose of comparison is to highlight differences.",
-          "accessed": "2026-11-20",
-          "kind": "news"
-        },
-        {
-          "publisher": "Ezra Zuckerman Sivan (MIT), Sociological Imaginaries (Substack), on Penslar's Zionism: An Emotional State",
-          "title": "To Lump or Split? Lessons from Penslar vs. Wolfe's Use of Settler Colonialism to Analyze Zionism",
-          "url": "https://ezrazuckermansivan.substack.com/p/to-lump-or-split-lessons-from-penslar?r=gfu2g",
-          "archive": "",
-          "quote": "Penslar argues that whereas one cannot understand Jewish emotional orientations to Zionism without a nationalist frame, one cannot understand the emotional orientation to Zionism by many of Israel's critics without a SC frame",
+          "quote": "israel is a settler colonial state in terms of its relationship with the palestinians who are dispossessed in 1948, remain dispossessed to this day",
           "accessed": "2026-11-20",
           "kind": "scholarly"
         }
@@ -351,13 +498,12 @@
   ],
   "could_not_verify": [
     "Jewish opposition to Zionism today: I found readable pages on the Haredi groups (Satmar, Neturei Karta) only; I did not find reliable readable pages on secular or liberal Jewish anti-Zionism today (for example Jewish Voice for Peace), which is advocacy at best.",
-    "Derek Penslar in his own writing: his 2001 article and the openDemocracy and Times of Israel interviews were not readable; his words come from a news report of a 2025 panel and a colleague's summary of his 2023 book. Troen's position was not found on a readable page.",
-    "Avalon's text of the Basel Program did not load; the quote is from other sites, and the translations differ in small ways ('public law', 'publicly and legally assured').",
-    "The word 'colonization' in the Basel Program is in the COJS translation; the Encyclopaedia Judaica gives 'settlement'. I did not find the German original on a readable page.",
-    "Herzl's own use of the word 'colony' and the Jewish Colonization Association: Khalidi mentions it but I found no readable primary page.",
     "Wolfe's own application of his theory to Zionism (his book Traces of History) was not readable; I quote only his general statement of the theory.",
-    "Reviewer: the JTA page cited in fact 4 returned http 404 here and in the archive; I could not read it, so that fact rests on Encyclopaedia Judaica pages I did read (one site).",
-    "Reviewer: Dowty's article also says the early Zionists treated the Arab population as 'a major inconvenience' they tried to ignore, and that most did not recognise Arabs as a people with collective claims; the card does not carry this part of the source that cuts against his own conclusion."
+    "The German original of the Basel Program (the means clause, 'Besiedlung' or another word) was not on any page I could read; the card says whose English translation uses 'colonization' (the Jewish Chronicle's of 3 September 1897, translator unknown) and that two reference works say 'settlement'. A person would need the German text in the stenographic protocol of the First Zionist Congress (1898) or a library scan.",
+    "Penslar's own written work (his 2001 article 'Zionism, Colonialism and Postcolonialism' and the book Zionism: An Emotional State) was not readable here; his words on the card come from the transcript of a 2024 Harvard Divinity School event. Penslar's earlier Dartmouth and Zuckerman Sivan second-hand reports were dropped.",
+    "Herzl's own use of 'colony' and 'colonization' in his diaries and in The Jewish State: only Penslar's remark that Herzl called the bank the Jewish Colonial Trust was found, in an event transcript; no readable primary page.",
+    "Avalon's text of the Basel Program did not load; the quote is from the Posen Library, which prints the Jewish Chronicle's 1897 translation. Other translations differ in small ways ('public law', 'publicly and legally assured').",
+    "The card carries no fact on whether Zionism 'stole the land' (that belongs to the land card in this chapter) or on Arabs in the founding texts beyond Dowty's remark; a person would need Herzl's diaries and the Zionist Congress protocols."
   ],
   "not_claimed": [
     "This card does not decide whether 'settler colonialism' is the right label; it gives both sides.",
@@ -369,7 +515,7 @@
   "content_approved": false,
   "answer_claims": [
     {
-      "says": "Zionism's founding text, the Basel Program of 1897, says its aim is 'a home in Palestine secured by public law' for the Jewish people, to be reached partly by promoting the settlement of Jewish farmers and workers there (one English translation says 'colonization', others 'settlement').",
+      "says": "Zionism's founding text, the Basel Program of 1897, says its aim is 'a home in Palestine secured by public law' for the Jewish people, to be reached partly by promoting Jewish settlement in Palestine by farmers and workers (the 1897 Jewish Chronicle translation says 'colonization', others 'settlement').",
       "facts": [
         0,
         1
@@ -392,6 +538,12 @@
       "says": "Many Jews opposed it: the Bund, Reform rabbis, and the Orthodox Agudat Israel.",
       "facts": [
         5
+      ]
+    },
+    {
+      "says": "Scholars disagree whether 'settler colonial' fits: Veracini says it does; Dowty says there was no mother country, though he also writes that early Zionists saw the Arabs as 'a major inconvenience'; Penslar says Israel is a settler colonial state toward the Palestinians but not only that.",
+      "facts": [
+        7
       ]
     }
   ],

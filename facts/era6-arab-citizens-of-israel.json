@@ -37,7 +37,8 @@
           "archive": "",
           "quote": "This percentage is made up of 17.2% who hold Israeli citizenship and 3.7% who are defined as \"permanent residents\" living in East Jerusalem",
           "accessed": "2026-11-20",
-          "kind": "scholarly"
+          "kind": "scholarly",
+          "wire": "Central Bureau of Statistics"
         },
         {
           "publisher": "Council on Foreign Relations",
@@ -55,7 +56,8 @@
           "archive": "",
           "quote": "the Arab population numbers 2,114,000 (20.9%)",
           "accessed": "2026-11-20",
-          "kind": "news"
+          "kind": "news",
+          "wire": "Central Bureau of Statistics"
         }
       ]
     },
@@ -232,7 +234,7 @@
       ]
     },
     {
-      "text": "The National Insurance Institute's 2024 poverty report recorded poverty among Arab families at 37.6 percent in 2024, down from 38.1 percent in 2023, and said that Arab and Haredi people are 65.1 percent of the poor, almost twice their share of the population. For 2023 the Institute's data, as read by the Israel Democracy Institute, put Arab family poverty at 38.4 percent against 15.4 percent for Jewish families.",
+      "text": "The National Insurance Institute's 2024 poverty release recorded poverty among Arab families at 37.6 percent in 2024, down from 38.1 percent in 2023, and said that 65.1 percent of the poor come from the periphery and disadvantaged populations, including Arab and Haredi families, almost twice their share of the population (the Jerusalem Post reports the 65.1 percent as the Arab and Haredi share alone). For 2023 the Institute's data, as read by the Israel Democracy Institute, put Arab family poverty at 38.4 percent (the 2024 release says 38.1 percent for 2023) against 15.4 percent for Jewish families.",
       "record": true,
       "sources": [
         {
@@ -359,7 +361,7 @@
       ]
     },
     {
-      "text": "The Nation-State Law of 2018 says that the actualization of the right of national self-determination in Israel is unique (in the Knesset's translation, 'exclusive') to the Jewish people, that Hebrew is the language of the state, and that Arabic has a special status. The Knesset passed it by 62 to 55. The government said it enshrines what was already integral to Israel's character; Arab citizens, about 20 percent of the population, see it as akin to establishing apartheid.",
+      "text": "The Nation-State Law of 2018 says that the actualization of the right of national self-determination in Israel is unique (in the Knesset's translation, 'exclusive') to the Jewish people, that Hebrew is the language of the state, and that Arabic has a special status. The Knesset passed it by 62 to 55.",
       "sources": [
         {
           "publisher": "Jewish Virtual Library (English translation of the law)",
@@ -620,12 +622,12 @@
     "skeptic": {
       "verdict": "weakened",
       "date": "2026-11-20",
-      "notes": "Read CBS (21.1%, April 2026), the IDI Arab-society report, CFR, the Jerusalem Post and All Israel News pages on the 2025 killings, the State Comptroller 2024 audit, NPR on the Nation-State Law, HRW 2006 and 2012, PBS/AP, JNS, Forward. [must-fix] Fact 8: the 252 figure is one NGO's count (Abraham Initiatives) repeated by the Jerusalem Post, its Yahoo copy and All Israel News (the same URL was listed twice); I added a wire field so the gate counts one origin. The fact is short and now fails the two-site gate check; it needs an independent count (police, or the IDI report) or a rewrite as 'the Abraham Initiatives counted'. [must-fix] Fact 8 hides a second count: the IDI report on the card gives 239 victims in 2024, not 230. Now in contested. [must-fix] Fact 6: the CFR source says 'more than half' of Arab families were poor in 2020 against 40 percent of Jewish families, which contradicts 'more than twice as high' and is not the figure the fact states; it supports nothing here and should be replaced. The IDI and Jerusalem Post sources both repeat National Insurance Institute data (wire added). The 38.4/15.4 figures and the downward decade trend are in the IDI report. [must-fix, fixed] Knesset source for the Nation-State Law refuses the checker (http 474), so the quote failed online; I added the Wayback copy. Contested Joubran entry removed (no quoted holder of the 'token' view); contested Citizenship Law entry now carries HRW's sentence that the 2012 ruling rested on security risk, in place of a Jurist line that did not say so. [should-fix] Palestinian lawyer: the IDI report on the card says only 36 of the huge numbers of murder and injury cases were solved and the majority are unsolved, and the Abraham Initiatives say 12 of 2025's deaths were at police hands and the toll rose under the current minister; none of this was on the card (now in contested). HRW 2006 also quotes then-PM Sharon: 'There is no need to hide behind security arguments. There is a need for the existence of a Jewish state' on the spouse law; the card omits it. The 2022 Comptroller audit and 49% budget use are real but there is no per-resident budget figure. [should-fix] Israeli lawyer: the 21% figure includes about 3.7% East Jerusalem permanent residents (card says so); the CBS count, the IDI report and Ynet all rest on CBS data, one dataset in three years. [nit] 'Suspended and resumed its membership' for Ra'am is supported only by Dawn if at all; Voice of America does not say it. Only one Arab justice (Joubran) is on the card; the answer no longer says 'justices'."
+      "notes": "Round two (re-read CBS, IDI, NII release, Taub, All Israel News, Comptroller 2024, JVL translation, NPR; did not take the writer's word). FIXED: the Knesset quote no longer fails online (the Nation-State Law now cites a translation); killings (fact 8) now carry Taub (220 in 2024, 109 in 2022), IDI (239) and Abraham Initiatives (252), with the police reply and the unsolved-cases finding, so the figure is no longer one NGO and the 'record' is attributed; the Joubran 'token' entry stays removed. NOT FIXED / NEW: [must-fix] Fact 6 is marked a record but did not say what the NII release says: the release says 65.1 percent of the poor come from 'the periphery and disadvantaged populations, including Arab and Haredi families'; the fact (and the Jerusalem Post) turned that into Arab-and-Haredi alone. I reworded to the release. It also gave 38.1 percent for 2023 while the IDI figure is 38.4 percent; now stated. The Jewish rate (15.4) and the 2.5x ratio come only from IDI, which reads 2023 NII data: one reader, and the readers do not carry the 2024 figures. [must-fix] Fact 7: the 49 percent of NIS 80 million and the 93 percent land figure are carried only by the State Comptroller (a government source, which does not count); the three reliable sources carry only the 2022 mixed-cities gap. Make it a record fact or drop the numbers; the 93 percent is not split by group and does not show discrimination. [must-fix] Fact 0: the 21.1 percent is CBS data; IDI and Ynet repeat CBS (I added a wire so they count once), so it needs the record flag or a second measurement. [must-fix] Fact 9 is marked a record but cites a translation on the Jewish Virtual Library, which the card also labels advocacy elsewhere; the Knesset PDF and every other copy returned errors (HTTP 474/403), so no second copy could be compared. NPR does carry 'unique to the Jewish people', so the words match, but the translation is a weak stand-in and 'exclusive' (Knesset) was not re-read by me. I trimmed the government-view and Arab-view clause from the fact (carried by NPR alone; it remains in contested) so the record fact says only what the law and the vote record say. [should-fix] Fact 10: 6-5 (2006) is carried only by HRW (advocacy); Jurist's page body could not be read. Fact 4 'suspended and resumed' not carried. Strongest objections: Palestinian lawyer: the Taub 14:1 Arab-to-Jewish homicide ratio and the unsolved cases are the documented wrong; the card now states counts and the police response but not the ratio. Israeli lawyer: most deaths are criminal violence between crime organisations (now in contested); the CBS-only 21 percent includes East Jerusalem non-citizens (stated)."
     },
     "citer": {
       "verdict": "holds",
       "date": "2026-11-20",
-      "notes": "Four answer sentences, each tied to facts (see answer_claims). Changed 'Supreme Court justices' to 'a Supreme Court justice' (only Joubran is verified; the writer admits a second was not). Added the sources of two numbers to the answer (National Insurance Institute 2023; Abraham Initiatives' count) so the reader sees who counted. Removed 'both halves are true' as a verdict and replaced it with a plain statement. The closing sentence is marked 'our reading' and now notes that Amnesty and HRW disagree; the old claim that this is 'not the legal crime of apartheid' stated flatly was not carried by any fact on this card. Removed nothing else."
+      "notes": "Round two: re-tied four answer sentences to facts (answer_claims unchanged; the poverty and killings clauses name who counted). Removed nothing further. The poverty clause ('two and a half times the Jewish rate') rests on the IDI reading of 2023 data (38.4/15.4) and is only as strong as that one reader; the answer says National Insurance Institute 2023, which the reworded fact 6 now matches. 'Our reading' still notes that Amnesty and HRW disagree."
     }
   }
 }

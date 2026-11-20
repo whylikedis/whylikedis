@@ -10,7 +10,7 @@
       "quote": "none of them made any bones about the fact that they were doing this as part of a settler colonial process"
     }
   ],
-  "answer": "For about 400 years the land was Ottoman. It was never one province: the south was the district of Jerusalem, the north was split between the provinces of Beirut and Syria, and none was called Palestine. British forces took Jerusalem in December 1917. The Balfour Declaration (November 1917) favoured a Jewish national home and said nothing should prejudice the 'civil and religious rights of existing non-Jewish communities', without mentioning their political rights. The League of Nations confirmed a British Mandate in 1922 that recited the Jewish people's historical connection to the land, and Transjordan was excluded from the national-home clauses. Britain's 1939 White Paper then limited Jewish immigration. In 1915 Britain's High Commissioner in Egypt offered Arab independence except for some districts of Syria; whether that left Palestine out is disputed. In the years these facts cover, sovereignty lay with the Ottoman Empire and then with Britain as Mandatory.",
+  "answer": "The land was Ottoman for about 400 years, never one province and never called Palestine: the south was the district of Jerusalem, the north split between the provinces of Beirut and Syria. Britain took Jerusalem in December 1917. The Balfour Declaration favoured a Jewish national home and protected the 'civil and religious rights' of other communities, without mentioning political rights. The 1922 Mandate recited the Jewish people's historical connection to the land, recognised a Jewish agency (the Zionist Organisation) as a public body, and in Article 6 told Britain to facilitate Jewish immigration and encourage close settlement, including on state lands, 'while ensuring' other sections' rights were not prejudiced. Transjordan was excluded from the national-home clauses. The 1939 White Paper limited Jewish immigration. Whether McMahon's 1915 offer of Arab independence left Palestine out is disputed. Sovereignty lay with the Ottomans, then Britain.",
   "facts": [
     {
       "text": "Under Ottoman rule no province was named Palestine. The south was the independent sanjak (Mutasarrifate) of Jerusalem, answering directly to Istanbul; the north belonged to the vilayet of Beirut (the sanjaks of Acre and Nablus) and, before 1888, to the vilayet of Syria (Damascus).",
@@ -86,7 +86,7 @@
       ]
     },
     {
-      "text": "On 2 November 1917 the British government declared that it viewed with favour 'the establishment in Palestine of a national home for the Jewish people'.",
+      "text": "The Balfour Declaration, dated 2 November 1917, says the British government 'view with favour the establishment in Palestine of a national home for the Jewish people'.",
       "sources": [
         {
           "publisher": "Yale Law School, Avalon Project",
@@ -95,7 +95,8 @@
           "archive": "",
           "quote": "view with favour the establishment in Palestine of a national home for the Jewish people",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "BBC News",
@@ -115,10 +116,11 @@
           "accessed": "2026-11-20",
           "kind": "reference"
         }
-      ]
+      ],
+      "record": true
     },
     {
-      "text": "The same Declaration said nothing should be done 'which may prejudice the civil and religious rights of existing non-Jewish communities in Palestine'; it spoke of their civil and religious rights, not their political rights.",
+      "text": "The same Declaration says 'nothing shall be done which may prejudice the civil and religious rights of existing non-Jewish communities in Palestine'; it names their civil and religious rights, not their political rights.",
       "sources": [
         {
           "publisher": "Yale Law School, Avalon Project",
@@ -127,7 +129,8 @@
           "archive": "",
           "quote": "nothing shall be done which may prejudice the civil and religious rights of existing non-Jewish communities in Palestine",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Imperial War Museums",
@@ -147,10 +150,11 @@
           "accessed": "2026-11-20",
           "kind": "reference"
         }
-      ]
+      ],
+      "record": true
     },
     {
-      "text": "In a letter of 24 October 1915 Sir Henry McMahon, Britain's High Commissioner in Egypt, offered to recognise Arab independence within the limits the Sharif of Mecca demanded, except for the districts of Mersina and Alexandretta and 'portions of Syria lying to the west of the districts of Damascus, Homs, Hama and Aleppo'.",
+      "text": "McMahon's letter of 24 October 1915 to the Sharif of Mecca says Britain would recognise Arab independence within the limits the Sharif demanded, except the districts of Mersina and Alexandretta and 'portions of Syria lying to the west of the districts of Damascus, Homs, Hama and Aleppo'. Whether that left Palestine out is disputed (see contested).",
       "sources": [
         {
           "publisher": "United Nations (UNISPAL)",
@@ -159,7 +163,8 @@
           "archive": "",
           "quote": "cannot be said to be purely Arab, and should be excluded from the limits demanded",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "US Department of State, Office of the Historian (FRUS 1939): a US despatch reproducing The Times of 15 February 1939, which quotes McMahon's letter",
@@ -179,138 +184,147 @@
           "accessed": "2026-11-20",
           "kind": "news"
         }
-      ]
+      ],
+      "record": true
     },
     {
-      "text": "The League of Nations Council confirmed the British Mandate for Palestine on 24 July 1922. Its preamble recites 'the historical connection of the Jewish people with Palestine and ... the grounds for reconstituting their national home in that country'.",
+      "text": "The Mandate for Palestine, confirmed by the League of Nations Council on 24 July 1922, says in its preamble that 'recognition has thereby been given to the historical connection of the Jewish people with Palestine and to the grounds for reconstituting their national home in that country'.",
       "sources": [
         {
-          "publisher": "Yale Law School, Avalon Project",
-          "title": "The Palestine Mandate",
-          "url": "https://avalon.law.yale.edu/20th_century/palmanda.asp",
+          "publisher": "League of Nations (via United Nations, UNISPAL)",
+          "title": "Mandate for Palestine, C.529.M.314.1922.VI",
+          "url": "https://www.un.org/unispal/?p=201057",
           "archive": "",
           "quote": "recognition has thereby been given to the historical connection of the Jewish people with Palestine and to the grounds for reconstituting their national home in that country",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
-          "publisher": "United Nations (UNISPAL), Mandate report for 1922",
-          "title": "Mandate for Palestine - Report of the Mandatory to the League of Nations",
-          "url": "https://www.un.org/unispal/document/auto-insert-195974/",
+          "publisher": "Anglo-American Committee of Inquiry (1946), appendix, hosted by Yale Law School, Avalon Project",
+          "title": "Report of the Anglo-American Committee of Inquiry, Appendix IV",
+          "url": "https://avalon.law.yale.edu/20th_century/angap04.asp",
           "archive": "",
-          "quote": "the approval by the Council of the League of Nations on July 24th, 1922, of the British Mandate for the administration of the territory",
+          "quote": "recited the Balfour Declaration and gave recognition to the historical connection of the Jews with Palestine and to their right to reconstitute their national home in that country",
           "accessed": "2026-11-20",
           "kind": "primary"
         },
         {
-          "publisher": "United Nations General Assembly (Secretary-General note A/292)",
-          "title": "Text of the Mandate for Palestine and Transjordan memorandum",
-          "url": "https://digitallibrary.un.org/nanna/record/829707/files/A_292-EN.pdf?withWatermark=0&withMetadata=0&version=1&registerDownload=1",
+          "publisher": "Center for Online Judaic Studies",
+          "title": "Excerpt from League of Nations Mandate for Palestine, July 24, 1922",
+          "url": "https://cojs.org/?p=5655",
           "archive": "",
-          "quote": "the text of the Mandate for Palestine, confirmed by the Council of the League of Nations on 24 July 1922",
+          "quote": "recognition has thereby been given to the historical connection of the Jewish people with Palestine and to the grounds for reconstituting their national home in that country",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "reference"
         }
-      ]
+      ],
+      "record": true
     },
     {
-      "text": "Article 2 of the Mandate made Britain responsible for conditions that would 'secure the establishment of the Jewish national home' and for 'safeguarding the civil and religious rights of all the inhabitants of Palestine, irrespective of race and religion'.",
+      "text": "Article 2 of the Mandate says Britain shall be responsible for conditions that 'will secure the establishment of the Jewish national home' and for 'safeguarding the civil and religious rights of all the inhabitants of Palestine, irrespective of race and religion'.",
       "sources": [
         {
-          "publisher": "Yale Law School, Avalon Project",
-          "title": "The Palestine Mandate",
-          "url": "https://avalon.law.yale.edu/20th_century/palmanda.asp",
-          "archive": "",
-          "quote": "safeguarding the civil and religious rights of all the inhabitants of Palestine, irrespective of race and religion",
-          "accessed": "2026-11-20",
-          "kind": "primary"
-        },
-        {
-          "publisher": "Fordham University, Internet Modern History Sourcebook",
-          "title": "The Palestine Mandate, 1922",
-          "url": "https://sourcebooks.web.fordham.edu/mod/1922mandate.asp",
-          "archive": "",
-          "quote": "will secure the establishment of the Jewish national home, as laid down in the preamble, and the development of",
-          "accessed": "2026-11-20",
-          "kind": "primary"
-        },
-        {
-          "publisher": "United Nations (UNISPAL)",
-          "title": "The Mandate for Palestine (League of Nations text)",
+          "publisher": "League of Nations (via United Nations, UNISPAL)",
+          "title": "Mandate for Palestine, C.529.M.314.1922.VI",
           "url": "https://www.un.org/unispal/?p=201057",
           "archive": "",
-          "quote": "as will secure the establishment of the Jewish national home, as laid down in the preamble",
+          "quote": "as will secure the establishment of the Jewish national home, as laid down in the preamble, and the development of self-governing institutions",
           "accessed": "2026-11-20",
-          "kind": "primary"
-        }
-      ]
-    },
-    {
-      "text": "Article 25 of the Mandate let Britain, with the Council's consent, postpone or withhold provisions of the Mandate in the territory between the Jordan and Palestine's eastern boundary.",
-      "sources": [
+          "kind": "primary",
+          "is_record": true
+        },
         {
-          "publisher": "Yale Law School, Avalon Project",
-          "title": "The Palestine Mandate",
-          "url": "https://avalon.law.yale.edu/20th_century/palmanda.asp",
+          "publisher": "United Nations, UNSCOP Report to the General Assembly, vol. 1",
+          "title": "Report of the UN Special Committee on Palestine",
+          "url": "https://www.un.org/unispal/document/auto-insert-179435/",
           "archive": "",
-          "quote": "the Mandatory shall be entitled, with the consent of the Council of the League of Nations, to postpone or withhold application of such provisions of this mandate as he may consider inapplicable",
+          "quote": "civil and religious rights of all the inhabitants of Palestine, irrespective of race and religion",
           "accessed": "2026-11-20",
           "kind": "primary"
         },
         {
-          "publisher": "Fordham University, Internet Modern History Sourcebook",
-          "title": "The Palestine Mandate, 1922",
-          "url": "https://sourcebooks.web.fordham.edu/mod/1922mandate.asp",
+          "publisher": "Government of Palestine, A Survey of Palestine (1946), scan hosted by the Berman Jewish Policy Archive",
+          "title": "A Survey of Palestine, vol. I",
+          "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20I.pdf",
+          "archive": "",
+          "quote": "and also for safeguarding the civil and religious rights of all the inhabitants of Palestine, irrespective of race and religion",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ],
+      "record": true
+    },
+    {
+      "text": "Article 25 of the Mandate says the Mandatory may, with the consent of the League Council, postpone or withhold application of Mandate provisions in the territory between the Jordan and Palestine's eastern boundary.",
+      "sources": [
+        {
+          "publisher": "League of Nations (via United Nations, UNISPAL)",
+          "title": "Mandate for Palestine, C.529.M.314.1922.VI",
+          "url": "https://www.un.org/unispal/?p=201057",
           "archive": "",
           "quote": "to postpone or withhold application of such provisions of this mandate as he may consider inapplicable to the existing local conditions",
           "accessed": "2026-11-20",
+          "kind": "primary",
+          "is_record": true
+        },
+        {
+          "publisher": "United Nations, UNSCOP Report to the General Assembly, vol. 1",
+          "title": "Report of the UN Special Committee on Palestine",
+          "url": "https://www.un.org/unispal/document/auto-insert-179435/",
+          "archive": "",
+          "quote": "empowered to withhold, in the territories lying between the Jordan and the eastern boundary of Palestine, application of those provisions of the mandate",
+          "accessed": "2026-11-20",
           "kind": "primary"
         },
         {
-          "publisher": "United Nations (UNISPAL)",
-          "title": "The Mandate for Palestine (League of Nations text)",
-          "url": "https://www.un.org/unispal/?p=201057",
+          "publisher": "Center for Online Judaic Studies",
+          "title": "Excerpt from League of Nations Mandate for Palestine, July 24, 1922",
+          "url": "https://cojs.org/?p=5655",
           "archive": "",
-          "quote": "to postpone or withhold application of such provisions of this mandate as he may consider inapplicable",
-          "accessed": "2026-11-20",
-          "kind": "primary"
-        }
-      ]
-    },
-    {
-      "text": "In September 1922 the League of Nations Council, on a British memorandum under Article 25, excluded Transjordan (the land east of the Jordan) from the Mandate's provisions on the Jewish national home.",
-      "sources": [
-        {
-          "publisher": "Institute for Palestine Studies (Palquest), League of Nations text",
-          "title": "Council of the League of Nations: Exclusion of Transjordan Territory from the Jewish National Home",
-          "url": "https://www.palquest.org/en/historictext/37961/council-league-nations-article-25-palestine-mandate-approving-memorandum-british-representative",
-          "archive": "",
-          "quote": "The following provisions of the Mandate for Palestine are not applicable to the territory known as Transjordan",
+          "quote": "the mandatory shall be entitled, with the consent of the Council of the League of Nations, to postpone or withhold application of such provisions of this mandate",
           "accessed": "2026-11-20",
           "kind": "reference"
-        },
-        {
-          "publisher": "Library of Congress (World Digital Library)",
-          "title": "Mandate for Palestine and Memorandum by the British Government Relating to its Application to Transjordan",
-          "url": "https://www.loc.gov/resource/gdcwdl.wdl_11572/?amp=&sp=1",
-          "archive": "",
-          "quote": "were not to apply to that portion of the mandated territory known as Transjordan",
-          "accessed": "2026-11-20",
-          "kind": "primary"
-        },
-        {
-          "publisher": "United Nations (UNISPAL), Mandate report for 1922",
-          "title": "Mandate for Palestine - Report of the Mandatory to the League of Nations",
-          "url": "https://www.un.org/unispal/document/auto-insert-195974/",
-          "archive": "",
-          "quote": "to exclude Transjordan from the Articles of the Mandate which concern the holy places and the measures to be taken in concert with the Jewish Agency for the establishment of a Jewish national home",
-          "accessed": "2026-11-20",
-          "kind": "primary"
         }
-      ]
+      ],
+      "record": true
     },
     {
-      "text": "The British White Paper of May 1939 set Jewish immigration at about 75,000 over five years and ruled that after that no further Jewish immigration would be permitted unless the Arabs of Palestine acquiesced.",
+      "text": "A British memorandum of 16 September 1922, approved by the League Council, says that listed provisions of the Mandate, including its recitals on the Jewish national home, 'are not applicable to the territory known as Trans-Jordan'.",
+      "sources": [
+        {
+          "publisher": "League of Nations, note by the Secretary-General, 23 September 1922 (scan hosted by the Economic Cooperation Foundation)",
+          "title": "Territory known as Trans-Jordan: memorandum by the British representative",
+          "url": "https://content.ecf.org.il/files/M00302%20-%20TransjordanMemorandum.pdf",
+          "archive": "",
+          "quote": "the following provisions of the mandate for palestine are not applicable to the territory known as trans-jordan",
+          "accessed": "2026-11-20",
+          "kind": "primary",
+          "is_record": true
+        },
+        {
+          "publisher": "United Nations, UNSCOP Report to the General Assembly, vol. 1",
+          "title": "Report of the UN Special Committee on Palestine",
+          "url": "https://www.un.org/unispal/document/auto-insert-179435/",
+          "archive": "",
+          "quote": "in september 1922, the council of the league approved a british government memorandum which defined the boundaries of transjordan and excluded it inter alia from the provisions of the palestine mandate regarding the jewish national home",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Center for Online Judaic Studies",
+          "title": "Excerpt from League of Nations Mandate for Palestine, July 24, 1922",
+          "url": "https://cojs.org/?p=5655",
+          "archive": "",
+          "quote": "in which trans-jordan, originally considered part of palestine and the future jewish national home, was excluded from the provisions made for the jewish national home",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ],
+      "record": true
+    },
+    {
+      "text": "The British White Paper of May 1939 says Jewish immigration would be admitted at about 75,000 over the next five years and that after that no further Jewish immigration would be permitted unless the Arabs of Palestine were prepared to acquiesce in it.",
       "sources": [
         {
           "publisher": "Yale Law School, Avalon Project",
@@ -319,7 +333,8 @@
           "archive": "",
           "quote": "After the period of five years, no further Jewish immigration will be permitted unless the Arabs of Palestine are prepared to acquiesce in it.",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Jewish Telegraphic Agency",
@@ -338,6 +353,75 @@
           "quote": "After five years, no further Jewish immigration will be permitted",
           "accessed": "2026-11-20",
           "kind": "reference"
+        }
+      ],
+      "record": true
+    },
+    {
+      "text": "Article 4 of the Mandate says an appropriate Jewish agency 'shall be recognised as a public body' to advise and co-operate with the administration in matters affecting the Jewish national home, and that the Zionist Organisation, so long as its constitution was in the Mandatory's opinion appropriate, 'shall be recognised as such agency'.",
+      "record": true,
+      "sources": [
+        {
+          "publisher": "League of Nations (via United Nations, UNISPAL)",
+          "title": "Mandate for Palestine, C.529.M.314.1922.VI",
+          "url": "https://www.un.org/unispal/?p=201057",
+          "archive": "",
+          "quote": "The Zionist organisation, so long as its organisation and constitution are in the opinion of the Mandatory appropriate, shall be recognised as such agency",
+          "accessed": "2026-11-20",
+          "kind": "primary",
+          "is_record": true
+        },
+        {
+          "publisher": "United Nations, UNSCOP Report to the General Assembly, vol. 1",
+          "title": "Report of the UN Special Committee on Palestine",
+          "url": "https://www.un.org/unispal/document/auto-insert-179435/",
+          "archive": "",
+          "quote": "an appropriate Jewish agency shall be recognized as a public body for the purpose of advising and cooperating with the administration of Palestine in such economic, social and other matters",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Government of Palestine, A Survey of Palestine (1946), scan hosted by the Berman Jewish Policy Archive",
+          "title": "A Survey of Palestine, vol. I",
+          "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20I.pdf",
+          "archive": "",
+          "quote": "the zionist organization, so long as its organization and constitution are in the opinion of the mandatory appropriate",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "text": "Article 6 of the Mandate says the administration, 'while ensuring that the rights and position of other sections of the population are not prejudiced', shall facilitate Jewish immigration under suitable conditions and shall encourage, with the Jewish agency, 'close settlement by Jews on the land, including State lands and waste lands not required for public purposes'.",
+      "record": true,
+      "sources": [
+        {
+          "publisher": "League of Nations (via United Nations, UNISPAL)",
+          "title": "Mandate for Palestine, C.529.M.314.1922.VI",
+          "url": "https://www.un.org/unispal/?p=201057",
+          "archive": "",
+          "quote": "the Administration of Palestine, while ensuring that the rights and position of other sections of the population are not prejudiced, shall facilitate Jewish immigration under suitable conditions",
+          "accessed": "2026-11-20",
+          "kind": "primary",
+          "is_record": true
+        },
+        {
+          "publisher": "United Nations, UNSCOP Report to the General Assembly, vol. 1",
+          "title": "Report of the UN Special Committee on Palestine",
+          "url": "https://www.un.org/unispal/document/auto-insert-179435/",
+          "archive": "",
+          "quote": "encourage, in cooperation with the Jewish agency referred to in article 4, close settlement by Jews on the land, including State lands and waste lands not required for public purposes",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Government of Palestine, A Survey of Palestine (1946), scan hosted by the Berman Jewish Policy Archive",
+          "title": "A Survey of Palestine, vol. I",
+          "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20I.pdf",
+          "archive": "",
+          "quote": "the administration of palestine, while ensuring that the rights and position of other sections of the population are not prejudiced, shall facilitate jewish immigration under suitable conditions",
+          "accessed": "2026-11-20",
+          "kind": "primary"
         }
       ]
     }
@@ -381,6 +465,15 @@
           "quote": "But they agree that the language in which its exclusion was expressed was not so specific and unmistakable as it was thought to be at the time.",
           "accessed": "2026-11-20",
           "kind": "government"
+        },
+        {
+          "publisher": "UK Government (1939 Committee report), hosted by Emory University",
+          "title": "Report of a Committee Set Up To Consider Certain Correspondence Between Sir Henry McMahon and the Sharif of Mecca",
+          "url": "https://israeled.org/wp-content/uploads/2012/08/1939-HMG-H-M-Corres-Review.pdf",
+          "archive": "",
+          "quote": "he considers that the Arab point of view as regards this aspect of the question has been shown to have greater force than has appeared hitherto",
+          "accessed": "2026-11-20",
+          "kind": "government"
         }
       ]
     },
@@ -414,8 +507,8 @@
     "The exact date the Ottomans took the region (1516-17) is not on any page I could read for this card; the card says 'about 400 years' instead.",
     "I did not find a readable page by a historian who argues the Arab reading of McMahon's letter in his own words; the Arab case is quoted from the British 1939 committee report and a magazine summary.",
     "Three sources from three different sites for the Ottoman districts: the fourth (a UN committee study) is labelled government and does not count.",
-    "Reviewer: the Palquest and Library of Congress pages for the Transjordan exclusion (fact 8) returned http 403 here and in the archive, so I read that fact only from the UNISPAL report; the quoted lines come from the earlier lock.",
-    "Reviewer: no card fact quotes Article 6 of the Mandate (Jewish immigration and 'close settlement ... on the land, including State lands'); it is on the land card. A reader of this card alone does not see it."
+    "The Palquest and Library of Congress copies of the Transjordan resolution returned http 403 here; fact 8 rests on the League's own note (an ECF-hosted scan), the UN committee report and COJS instead.",
+    "The Mandate facts (5 to 8, 10, 11) are record facts: the record is the League's Mandate text on UNISPAL. The two confirming sources (UN committee report, Survey of Palestine, Anglo-American Committee appendix, COJS excerpt) either reproduce or paraphrase that same text, so they check our reading of it; they are not independent measurements of anything."
   ],
   "not_claimed": [
     "This card does not say Palestine was empty or that no people with a claim lived there before 1917; chapter 2's population card gives the counts.",
@@ -427,52 +520,54 @@
   "content_approved": false,
   "answer_claims": [
     {
-      "says": "For about 400 years the land was Ottoman.",
+      "says": "The land was Ottoman for about 400 years, never one province and never called Palestine: the south was the district of Jerusalem, the north split between the provinces of Beirut and Syria.",
+      "facts": [
+        0,
+        1
+      ]
+    },
+    {
+      "says": "Britain took Jerusalem in December 1917.",
       "facts": [
         1
       ]
     },
     {
-      "says": "It was never one province: the south was the district of Jerusalem, the north was split between the provinces of Beirut and Syria, and none was called Palestine.",
-      "facts": [
-        0
-      ]
-    },
-    {
-      "says": "British forces took Jerusalem in December 1917.",
-      "facts": [
-        1
-      ]
-    },
-    {
-      "says": "The Balfour Declaration (November 1917) favoured a Jewish national home and said nothing should prejudice the 'civil and religious rights of existing non-Jewish communities', without mentioning their political rights.",
+      "says": "The Balfour Declaration favoured a Jewish national home and protected the 'civil and religious rights' of other communities, without mentioning political rights.",
       "facts": [
         2,
         3
       ]
     },
     {
-      "says": "The League of Nations confirmed a British Mandate in 1922 that recited the Jewish people's historical connection to the land, and Transjordan was excluded from the national-home clauses.",
+      "says": "The 1922 Mandate recited the Jewish people's historical connection to the land, recognised a Jewish agency (the Zionist Organisation) as a public body, and in Article 6 told Britain to facilitate Jewish immigration and encourage close settlement, including on state lands, 'while ensuring' other sections' rights were not prejudiced.",
       "facts": [
         5,
+        10,
+        11
+      ]
+    },
+    {
+      "says": "Transjordan was excluded from the national-home clauses.",
+      "facts": [
         7,
         8
       ]
     },
     {
-      "says": "Britain's 1939 White Paper then limited Jewish immigration.",
+      "says": "The 1939 White Paper limited Jewish immigration.",
       "facts": [
         9
       ]
     },
     {
-      "says": "In 1915 Britain's High Commissioner in Egypt offered Arab independence except for some districts of Syria; whether that left Palestine out is disputed.",
+      "says": "Whether McMahon's 1915 offer of Arab independence left Palestine out is disputed.",
       "facts": [
         4
       ]
     },
     {
-      "says": "In the years these facts cover, sovereignty lay with the Ottoman Empire and then with Britain as Mandatory.",
+      "says": "Sovereignty lay with the Ottomans, then Britain.",
       "facts": [
         1,
         5,

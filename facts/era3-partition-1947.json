@@ -10,7 +10,7 @@
       "quote": "pushing through the partition resolution, which is the birth certificate of the state of Israel, the 1947 General Assembly resolution, partitioning Palestine"
     }
   ],
-  "answer": "The idea of splitting Palestine came first from a British commission in 1937; Arab leaders rejected it. On 29 November 1947 the UN General Assembly recommended a Jewish state and an Arab state, by 33 votes to 13. The Jewish state would have had about 56 percent of the land, including the Negev desert, when Jews were about a third of the people and held about 6 percent by Mandate-government ownership figures; Imseis reads them as Arabs owning 48 percent and the rest public. The Jewish Agency accepted; Palestinian Arab leaders rejected the plan. Fighting began at once. Israel declared independence on 14 May 1948, and Arab armies entered on 15 May. By 1949 Israel held about 78 percent of the former mandate.",
+  "answer": "The idea of splitting Palestine came first from a British commission in 1937; Arab leaders rejected it, and the Zionist Congress rejected its borders but allowed talks. On 29 November 1947 the UN General Assembly recommended a Jewish state and an Arab state, by 33 votes to 13. The Jewish state would have had about 56 percent of the land (UNSCOP's version put the whole Negev semi-desert in it), when Jews were about a third of the people and held about 6 percent by Mandate-government ownership figures; Imseis counts Arabs as owning 48 percent. The Jewish Agency accepted; Palestinian Arab leaders rejected the plan. Fighting began at once. Israel declared independence on 14 May 1948, and Arab armies entered on 15 May. By 1949 Israel held about 78 percent of the former mandate.",
   "facts": [
     {
       "text": "In 1937 the British Peel Commission was the first to propose partitioning Palestine into an Arab state and a Jewish state.",
@@ -544,7 +544,7 @@
       ]
     },
     {
-      "text": "The Jewish state would have included the whole Negev desert. UNSCOP's report puts the whole Beersheba sub-district, which includes the Negeb, in the Jewish state, and describes the Negeb proper as practically rainless and almost without life; Kamel says the Negev was inhospitable with Jews about 1 percent of its people; Imseis says 84 percent of the irrigated cultivable land would have been in the Jewish state.",
+      "text": "UNSCOP's report puts the whole Beersheba sub-district, which includes the Negeb, in its proposed Jewish state (the boundaries the Assembly adopted differ in detail), and describes the Negeb proper as practically rainless and almost without life; Kamel says the Negev was an inhospitable area where Jews were about 1 percent of the people; Imseis says updated British records put 84 percent of the irrigated, cultivable land in the Jewish state.",
       "sources": [
         {
           "publisher": "United Nations Special Committee on Palestine (UNSCOP)",
@@ -586,7 +586,7 @@
     },
     {
       "record": true,
-      "text": "The Mandate government's Village Statistics, as of 1 April 1945, recorded Jewish-owned land at 1,491,699 of 26,323,023 dunams, 5.67 percent of the land; Imseis reads the same figures as Arabs owning 12,574,774 dunams (48 percent), with the remainder publicly owned.",
+      "text": "The Mandate government's Village Statistics, as of 1 April 1945, recorded Jewish-owned land at 1,491,699 of 26,323,023 dunams, 5.67 percent of the land (in Sami Hadawi's reprint); Imseis, citing a UN sub-committee report on the same statistics, gives Arab ownership as 12,574,774 dunams (48 percent).",
       "sources": [
         {
           "publisher": "Government of Palestine, Village Statistics 1945 (as reprinted and analysed by Sami Hadawi, PLO Research Center, 1970)",
@@ -636,7 +636,7 @@
     },
     {
       "record": true,
-      "text": "Article 6 of the Mandate told Britain to encourage 'close settlement by Jews on the land, including State lands and waste lands not required for public purposes'.",
+      "text": "Article 6 of the Mandate told the Administration of Palestine, while ensuring that 'the rights and position of other sections of the population are not prejudiced', to facilitate Jewish immigration and to encourage 'close settlement by Jews on the land, including State lands and waste lands not required for public purposes'.",
       "sources": [
         {
           "publisher": "Yale Law School, Avalon Project",
@@ -850,7 +850,8 @@
     "Khalidi's book is not cited (no authorised readable copy); his 2024 interview is used.",
     "Dissent among Arab states beyond Transjordan (for example Egypt's and Syria's reluctance): I did not find a readable source.",
     "Relabelled as 'other' (no named author or institution): History Skills, Explaining History, OnWar, Fanack, War History Online.",
-    "Facts that do not meet the gate's source rule: the Arab League cable (the record, no reliable reader), Transjordan (two scholars on opposite sides), the 1946 population (the record plus one reader), the 1945 land ownership (the record plus one reader)."
+    "Facts that do not meet the gate's source rule: the Arab League cable (the record, no reliable reader), Transjordan (two scholars on opposite sides), the 1946 population (the record plus one reader), the 1945 land ownership (the record plus one reader).",
+    "FINAL REVIEW (2026-11-20): reader gaps under the record rule. Fact 11 (Arab League cable): record read and quoted correctly, but no reliable reader (the two others are 'other' sites; the record is cited twice). Fact 14 (land): record read only in Hadawi's PLO Research Center reprint; one reader (Imseis). Hadawi's table (garbled in the text I could read) puts Arab ownership at 48.50 percent and public land at 40.16 percent, so Imseis's 'the remainder being publicly owned' does not match it and was taken out of the fact. Fact 15 (1946 population): record read; one reader (Imseis). Fact 16 (Mandate Article 6): the Fordham page is another copy of the text, not a reader; only UNSCOP quotes it. Facts 2-5 lean on a Lumen Learning course page (anonymous textbook text) as a reader. A person should find a scholarly reader for each of facts 11, 14, 15, or accept them as record-only."
   ],
   "not_claimed": [
     "This card does not claim the UN vote made the 1948 war or the later displacement of Palestinians right, wrong or inevitable.",
@@ -862,7 +863,7 @@
   "content_approved": false,
   "answer_claims": [
     {
-      "says": "The idea of splitting Palestine came first from a British commission in 1937; Arab leaders rejected it.",
+      "says": "The idea of splitting Palestine came first from a British commission in 1937; Arab leaders rejected it, and the Zionist Congress rejected its borders but allowed talks.",
       "facts": [
         0,
         1
@@ -876,7 +877,7 @@
       ]
     },
     {
-      "says": "The Jewish state would have had about 56 percent of the land, including the Negev desert, when Jews were about a third of the people and held about 6 percent by Mandate-government ownership figures; Imseis reads them as Arabs owning 48 percent and the rest public.",
+      "says": "The Jewish state would have had about 56 percent of the land (UNSCOP's version put the whole Negev semi-desert in it), when Jews were about a third of the people and held about 6 percent by Mandate-government ownership figures; Imseis counts Arabs as owning 48 percent.",
       "facts": [
         9,
         13,
@@ -915,12 +916,12 @@
     "skeptic": {
       "verdict": "weakened",
       "date": "2026-11-20",
-      "notes": "Round three (final). Checked: the UNSCOP page, Imseis, Kamel, the cable, and the relabelling. FIXED: the shares are now primary or scholarly. UNSCOP gives the population ('at the end of 1946 ... Jews, 608,000 ... total, 1,846,000', 32.96 percent); Imseis says the plan allotted about 57 percent of the total area of Palestine and that Jews held 5.6 percent by registered ownership on British records of 1945 (percent of the whole land, Arabs 48 percent, the rest public); Kamel gives 56.47 percent of total land. The card says 'of the land' and 'registered ownership', which matches. Negev and state land are on the card. Relabelling explainer sites 'other' is right (no named author). NOT FIXED: (1) fact 11, the Arab League's aims, has one reliable source, the cable itself; the other two are 'other' sites. (2) fact 12 (Abdullah) has two reliable sources, Shlaim and Karsh, who are the two sides of the dispute; the third is an 'other' site. (3) fact 14 (public land) has two: Imseis and a UNSCOP line that only quotes the mandate's text on state lands; the 70 percent figure is Jewish Virtual Library (advocacy). (4) fact 13: the 'about 60 percent desert' share is advocacy only; UNSCOP's quote describes the Negeb's climate, not the plan's share. (5) the card leans on two authors, Imseis and Kamel, both writing from the Palestinian side, for the shares, and has no Israeli-side scholar on them; (6) nit: fact 10's Imseis quote (force numbers) does not match the fact text. Still missing: Jewish forces' gains before 15 May. Stronger attack: pro-Israel (state-land and desert context thinly sourced; 'imposed' is answered only by Saudi and Khalidi, both holders on one side); the pro-Palestinian attack is now largely answered. Contested entries are objects with real quotes from holders."
+      "notes": "Final review after the record rule. Read the records: Resolution 181 (Avalon), the Assembly's 29 Nov 1947 vote record ('adopted by 33 votes to 13, with 10 abstentions'; Saudi Arabia's 'does not consider itself bound' and its 'pressure ... by some of the big powers' remark are there), UNSCOP's report (1,203,000 / 608,000 / 35,000 / 1,846,000, 'settled', Muslim share 75 to 60 percent; Beersheba sub-district; 'increased almost entirely' natural), the Arab League cable (S/745), Hadawi's reprint of the Village Statistics, and the Mandate. Record flags: facts 2, 3, 15, 16 are worded as what the record says and the flag is honest. Fact 11 is worded as what the cable says (flag honest) but has NO reader; fact 14 and fact 15 have one reader each (Imseis), so they do not meet the record rule in substance; the gate fails them too. Fixed by me: (must-fix, done) fact 13 said the Jewish state 'would have included the whole Negev desert'; that is UNSCOP's proposal, and the Assembly's boundary text for the Arab state runs through part of the Beersheba sub-district, so it is now worded as UNSCOP's report; the answer follows. (must-fix, done) fact 14 repeated Imseis's 'remainder publicly owned', which Hadawi's table contradicts (public land 40.16 percent, Arab 48.50 percent); removed from the fact and the answer. (should-fix, done) fact 16 cut the Mandate's qualifier 'while ensuring that the rights and position of other sections of the population are not prejudiced' and addressed it to Britain rather than the Administration of Palestine; restored. (should-fix, done) the answer gave only the Arab rejection of Peel; it now says the Zionist Congress rejected the borders but authorised talks (fact 1). Still open: (must-fix) readers for facts 11, 14, 15; (should-fix) the shares rest on Imseis and Kamel, both writing from the Palestinian side, with no Israeli-side scholar; Lumen Learning is an anonymous textbook page used as a reader in four facts; Britannica could not be read today (403) so its quotes stand on the 2026-11-20 lock; fact 12 (Abdullah) is Shlaim against Karsh, the two sides of the dispute, so it is a dispute, not a confirmed fact. Heard (Khalidi) is a strong fair version of 'imposed'. Strongest attack, pro-Israel: 'imposed' is answered only by Saudi and Khalidi; state land and desert context is thin. Pro-Palestinian: the plan is presented through UN and Mandate records and one Palestinian-side scholar pair; nothing on Palestinian Arab ownership beyond Imseis. Status stays draft."
     },
     "citer": {
       "verdict": "holds",
       "date": "2026-11-20",
-      "notes": "Round three. Reworded 'much of the rest was public land' to 'Arabs held about 48 percent and the rest was public land' (fact 14, Imseis), because 'the rest' wrongly suggested that most of it was public. Everything else is tied in answer_claims; no sentence lacks a fact. Dropped from the answer by the writer: the Transjordan sentence (fact 12 still on the card). Holds for the answer as worded. Also, to meet the 150-word limit, removed the sentences on the Arab League's stated aims (fact 11 has one reliable source) and the closing summary sentence; no claim was added."
+      "notes": "Final review after the record rule. Split the answer into 7 sentences, each tied to facts in answer_claims. CHANGED: sentence 1 now includes the Zionist Congress response (fact 1) so the Peel sentence is not one-sided; sentence 3 no longer says 'Imseis reads them as ... the rest public' (fact 14, which the record contradicts) and now says 'Imseis counts Arabs as owning 48 percent'; 'including the Negev desert' became 'UNSCOP's version put the whole Negev semi-desert in it' (fact 13). 'About 6 percent' is Hadawi's 5.67 percent (fact 14), not Kamel's 6.7. 150 words or fewer. No sentence lacks a fact; the sentence on the Arab League cable stays out (fact 11 has no reader). Holds for the answer as worded."
     }
   }
 }

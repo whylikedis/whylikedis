@@ -170,11 +170,20 @@
           "quote": "the Palestinians' regret will mirror their remorse over rejecting the U.N. partition plan",
           "accessed": "2026-11-20",
           "kind": "news"
+        },
+        {
+          "publisher": "Origins (Ohio State University)",
+          "title": "The 1936-1939 Arab Revolt in Palestine",
+          "url": "https://origins.osu.edu/read/1936-1939-arab-revolt-palestine",
+          "archive": "",
+          "quote": "once again, the Zionists accepted and the Arabs rejected partition, sparking violence that led to the 1948 Arab-Israeli war",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
         }
       ]
     },
     {
-      "text": "The Arab leadership's own stated reasons. Before the July 1937 plan, the Peel Commission recorded an Arab Higher Committee member arguing that the mandate's terms were inconsistent with Article 22 of the League Covenant; that is a protest against the mandate, not a reason given for partition, and we found no Arab Higher Committee statement on the 1937 plan itself. In October 1938 the Committee said, in a statement quoted by the Jewish Virtual Library, that partition would create two hostile states and deprive Arabs of their land. On 29 September 1947 its vice-president Jamal Husseini told the UN's Ad Hoc Committee that the Arabs 'have always been in actual possession of Palestine' with a duty to defend it, and that they were determined to oppose with all means any scheme of segregation or partition.",
+      "text": "The Arab leadership's own stated reasons. Before the July 1937 plan, the Peel Commission recorded an Arab Higher Committee member arguing that the mandate's terms were inconsistent with Article 22 of the League Covenant; that is a protest against the mandate, not a reason given for partition, and we found no Arab Higher Committee statement on the 1937 plan itself. In October 1938 the Committee said, in a statement quoted by the Jewish Virtual Library, that partition would create two hostile states and deprive Arabs of their land. On 29 September 1947 its vice-president Jamal Husseini told the UN's Ad Hoc Committee that the Arabs 'have always been in actual possession of Palestine' with a duty to defend it, and that they were determined to oppose with all means any scheme of segregation or partition. Rashid Khalidi, a Palestinian historian, describes the 1937 plan as one that would create a small Jewish state in about 17 percent of the territory from which over two hundred thousand Arabs would be expelled ('transfer'); that is his account of the grievance, not an Arab Higher Committee statement.",
       "sources": [
         {
           "publisher": "United Nations (Question of Palestine; Peel Commission report excerpts)",
@@ -211,12 +220,31 @@
           "quote": "Partition would create in Palestine two neighboring hostile states",
           "accessed": "2026-11-20",
           "kind": "advocacy"
+        },
+        {
+          "publisher": "Rashid Khalidi, The Hundred Years' War on Palestine (Profile/Metropolitan, 2020)",
+          "title": "The Hundred Years' War on Palestine",
+          "url": "https://archive.org/stream/100yearswarpalestine/The_Hundred_Years_War_on_Palestine_A_History_of_Settler_Colonial_Conquest_and_Resistance_UK_Edition_Rashid_Khalidi_djvu.txt",
+          "archive": "",
+          "quote": "proposed to partition the country, creating a small Jewish state in about 17 percent of the territory, from which over two hundred thousand Arabs would be expelled",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
         }
       ]
     },
     {
-      "text": "On 1 September 1967 the Arab League summit at Khartoum set out the principles of no peace with Israel, no recognition and no negotiations, while insisting on the rights of the Palestinian people.",
+      "text": "The Arab League's Khartoum resolution of 1 September 1967 states, as the main principles by which the Arab states abide, 'no peace with Israel, no recognition of Israel, no negotiations with it, and insistence on the rights of the Palestinian people in their own country'. Rashid Khalidi notes that in practice Egypt and Jordan welcomed UN mediation through Gunnar Jarring.",
       "sources": [
+        {
+          "publisher": "League of Arab States (text hosted by the UN, Question of Palestine)",
+          "title": "Khartoum resolution (League of Arab States)",
+          "url": "https://www.un.org/unispal/document/auto-insert-193039",
+          "archive": "",
+          "quote": "no peace with Israel, no recognition of Israel, no negotiations with it, and insistence on the rights of the Palestinian people in their own country",
+          "accessed": "2026-11-20",
+          "kind": "primary",
+          "is_record": true
+        },
         {
           "publisher": "Yale Law School, Avalon Project",
           "title": "The Khartoum Resolutions",
@@ -234,8 +262,27 @@
           "quote": "the declaration by Arab states in Khartoum in September that year: no peace with Israel, no recognition, no negotiations",
           "accessed": "2026-11-20",
           "kind": "news"
+        },
+        {
+          "publisher": "Rashid Khalidi, The Hundred Years' War on Palestine (Profile/Metropolitan, 2020)",
+          "title": "The Hundred Years' War on Palestine",
+          "url": "https://archive.org/stream/100yearswarpalestine/The_Hundred_Years_War_on_Palestine_A_History_of_Settler_Colonial_Conquest_and_Resistance_UK_Edition_Rashid_Khalidi_djvu.txt",
+          "archive": "",
+          "quote": "the league had declared that there would be no peace, no recognition, and no negotiations with Israel",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Rashid Khalidi, The Hundred Years' War on Palestine (Profile/Metropolitan, 2020)",
+          "title": "The Hundred Years' War on Palestine",
+          "url": "https://archive.org/stream/100yearswarpalestine/The_Hundred_Years_War_on_Palestine_A_History_of_Settler_Colonial_Conquest_and_Resistance_UK_Edition_Rashid_Khalidi_djvu.txt",
+          "archive": "",
+          "quote": "in reality, Egypt and Jordan welcomed mediation with Israel through UN special envoy Gunnar Jarring",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
         }
-      ]
+      ],
+      "record": true
     },
     {
       "text": "Security Council Resolution 242 (22 November 1967) paired Israeli withdrawal from territories occupied in 1967 with an end to belligerency and recognition of every state's right to live in peace within secure boundaries; it speaks of a refugee settlement but does not mention a Palestinian state, and UN mediator Jarring recorded that the parties had agreed to carry it out.",
@@ -440,6 +487,15 @@
           "quote": "\"I did not agree,\" Abbas replied. \"I rejected it out of hand.\"",
           "accessed": "2026-11-20",
           "kind": "advocacy"
+        },
+        {
+          "publisher": "Ynetnews (reporting the BBC documentary)",
+          "title": "Olmert reveals the 'napkin map'",
+          "url": "https://www.ynetnews.com/article/rke7jjyqjl",
+          "archive": "",
+          "quote": "Olmert said he never gave Abbas a copy of the proposed map and insisted the Palestinian leader could only receive it if he signed the agreement on the spot",
+          "accessed": "2026-11-20",
+          "kind": "news"
         }
       ]
     },
@@ -558,7 +614,7 @@
       ]
     },
     {
-      "text": "The Kerry talks of July 2013 to April 2014 ended with each side blaming the other: Israel suspended the talks on 24 April 2014 after Abbas's unity pact with Hamas; US envoy Martin Indyk blamed both sides, citing Israeli settlement building and the Palestinians' signing of 15 international conventions, and said neither would make 'gut-wrenching compromises'; unnamed senior US officials told an Israeli journalist that the 'primary sabotage' came from the settlements; former US negotiator Aaron David Miller said the effort did not collapse because of settlements but because the sides were too far apart.",
+      "text": "The Kerry talks of July 2013 to April 2014 ended with each side blaming the other: Israel suspended the talks on 24 April 2014 after Abbas's unity pact with Hamas; US envoy Martin Indyk blamed both sides, citing Israeli settlement building and the Palestinians' signing of 15 international conventions, and said neither would make 'gut-wrenching compromises'; unnamed senior US officials told an Israeli journalist that the 'primary sabotage' came from the settlements; former US negotiator Aaron David Miller said the effort did not collapse because of settlements but because the sides were too far apart. In a 2017 NPR interview Indyk said the US had put formulas to Abbas and that 'he didn't say yes or no', so Netanyahu was never tested; we report this as Indyk's account.",
       "sources": [
         {
           "publisher": "NBC News (Reuters)",
@@ -585,6 +641,15 @@
           "url": "https://www.jta.org/2014/05/06/united-states/anonymous-interview-airs-u-s-frustration-with-israel-after-talks-collapse",
           "archive": "",
           "quote": "The maximum that Netanyahu can offer on all core issues doesn't come close to the minimum that anyone on the Palestinian side can accept",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "NPR (interview with Martin Indyk, 2017)",
+          "title": "Former U.S. Envoy Explains Why Mideast Peace Talks Collapsed In 2014",
+          "url": "https://www.npr.org/transcripts/532120148",
+          "archive": "",
+          "quote": "the bottom line was when we put them to Abu Mazen, he was not prepared to accept them",
           "accessed": "2026-11-20",
           "kind": "news"
         }
@@ -637,6 +702,72 @@
           "quote": "There will be no Palestinian state to the west of the Jordan River.",
           "accessed": "2026-11-20",
           "kind": "government"
+        }
+      ]
+    },
+    {
+      "text": "In a New York Times op-ed of 3 February 2002, 'The Palestinian Vision of Peace', Arafat wrote of 'an independent and viable Palestinian state on the territories occupied by Israel in 1967' and said the Palestinians had recognised Israel's right to exist on 78 percent of historical Palestine; he wrote that he condemned attacks by terrorist groups on Israeli civilians, and that Israel's peace partner 'is, and always has been, the Palestinian people'. The op-ed text itself could not be read by us; these are his words as quoted by CNN, the Washington Institute and an Arab News writer. This is Arafat's public statement of his vision, not a statement of why he did not accept the December 2000 parameters.",
+      "sources": [
+        {
+          "publisher": "CNN (Sunday Morning transcript, 3 February 2002)",
+          "title": "Arafat speaks out",
+          "url": "https://transcripts.cnn.com/show/sm/date/2002-02-03/segment/19",
+          "archive": "",
+          "quote": "there are those who claim that I am not a partner in peace. In response, I say Israel's peace partner is, and always has been, the Palestinian people.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Arab News (opinion by Tawfiq al-Ghussein, 8 August 2002)",
+          "title": "Let not the land of milk and honey be the land of blood and tears",
+          "url": "https://www.arabnews.com/node/223176",
+          "archive": "https://web.archive.org/web/20130726202741/http://www.arabnews.com:80/node/223176",
+          "quote": "The Palestinians recognized Israel's right to exist on 78 percent of historical Palestine with the understanding that we would be allowed to live in freedom on the remaining 22 percent",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "The Washington Institute for Near East Policy (Robert Satloff, 8 February 2002)",
+          "title": "Arafat's Vision of Peace: A Textual Analysis",
+          "url": "https://www.washingtoninstitute.org/policy-analysis/arafats-vision-peace-textual-analysis",
+          "archive": "https://web.archive.org/web/20240514225143/https://www.washingtoninstitute.org/policy-analysis/arafats-vision-peace-textual-analysis",
+          "quote": "I condemn the attacks carried out by terrorist groups against Israeli civilians. These groups do not represent the Palestinian people or their legitimate aspirations for freedom.",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        }
+      ]
+    },
+    {
+      "record": true,
+      "text": "In November 1988 the Palestine National Council, the PLO's parliament, proclaimed the State of Palestine, saying that Resolution 181 of 1947, which partitioned Palestine into an Arab and a Jewish state, still gives the Palestinian Arab people a legal basis for sovereignty and independence; its political communique called for an international conference on the basis of Security Council resolutions 242 and 338. This is the PLO's own text; Fatah is the PLO's largest faction, but we found no separate Fatah document.",
+      "sources": [
+        {
+          "publisher": "Palestine National Council (text hosted by the UN, Question of Palestine; letter of 18 November 1988)",
+          "title": "Declaration of State of Palestine, Palestine National Council, 1988",
+          "url": "https://www.un.org/unispal/?p=178680",
+          "archive": "",
+          "quote": "that resolution nevertheless continues to attach conditions to international legitimacy that guarantee the Palestinian Arab people the right to sovereignty and national independence",
+          "accessed": "2026-11-20",
+          "kind": "primary",
+          "is_record": true
+        },
+        {
+          "publisher": "Rashid Khalidi, The Hundred Years' War on Palestine (Profile/Metropolitan, 2020)",
+          "title": "The Hundred Years' War on Palestine",
+          "url": "https://archive.org/stream/100yearswarpalestine/The_Hundred_Years_War_on_Palestine_A_History_of_Settler_Colonial_Conquest_and_Resistance_UK_Edition_Rashid_Khalidi_djvu.txt",
+          "archive": "",
+          "quote": "culminating in the Palestinian declaration of independence adopted at a meeting of the Palestine National Council in Algiers on November 15",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Jewish Virtual Library (English text of the declaration)",
+          "title": "Palestinian National Council Declaration of Independence, November 1988",
+          "url": "https://www.jewishvirtuallibrary.org/palestinian-national-council-declaration-of-independence-november-1988",
+          "archive": "",
+          "quote": "that resolution still provides the legal basis for the right of the Palestinian Arab people to national sovereignty and independence",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
         }
       ]
     }
@@ -903,7 +1034,11 @@
     "Barak's Camp David percentages from a primary document: Malley and Agha say no written offer exists. The Peel report and Dennis Ross's book were not read directly. Podeh's article on Israel's non-response to the Arab Peace Initiative and the Chatham House pages could not be read.",
     "Britannica could not be read by our fetcher, so its pages are not cited.",
     "Arafat's own stated reasons for not accepting the December 2000 parameters, and Abbas's 2009 'gaps were wide' statement: not found in a page we could read; the reasons given for Arafat are Palestinian negotiators' as reported by Ross. The Arab leadership's reasons are from UN press and Peel-report excerpts and an Arab Higher Committee statement hosted by an advocacy site, so only the UN counts as an independent source; Peel and UNSCOP testimony were not read in the original.",
-    "Netanyahu: the 2015 NRG interview is quoted through TIME's account of the New York Times translation, not the Hebrew original; the January 2024 statement is quoted from Al Jazeera's report of the news conference, not a transcript; Netanyahu's statements between 2009 and 2015 and in 2016-2023, and the Likud platform, were not read."
+    "Netanyahu: the 2015 NRG interview is quoted through TIME's account of the New York Times translation, not the Hebrew original; the January 2024 statement is quoted from Al Jazeera's report of the news conference, not a transcript; Netanyahu's statements between 2009 and 2015 and in 2016-2023, and the Likud platform, were not read.",
+    "Arafat's own stated reasons after Camp David: his 3 February 2002 New York Times op-ed 'The Palestinian Vision of Peace' was found, but nytimes.com refused our fetcher and no archive copy loaded, so it is quoted through CNN, the Washington Institute and an Arab News writer (new last-but-one fact). The op-ed states his vision, not why he did not accept the December 2000 parameters; no interview giving those reasons was found. A person should read the op-ed at nytimes.com.",
+    "Fatah and Palestinian Authority positions from their own documents: only the PLO's 1988 declaration and communique (last fact) were found; the second source for it is a scholar's mention, so the fact has the record plus one scholarly source and one advocacy site, one reliable source short of the gate's rule for record facts.",
+    "Israeli coalition agreements and party platforms: not found for this card; the 37th government's guidelines are on the two-states-today card.",
+    "Update to the sourcing list above: Khartoum (F5) is now a record fact (the UN-hosted text of the resolution, plus Avalon, The Guardian and Khalidi); the 1947 acceptance and rejection (F3) now has a scholarly source (Origins) beside the UN and JTA; the Olmert fact (F10) adds Ynet, which reports the same BBC documentary as the BBC page, so its independent sources are the BBC film and the AP interviews; the Kerry-talks fact (F14) adds an NPR interview. F4 still has one source from the UN that counts and one scholar's account of the grievance; the 1938 Arab Higher Committee text exists only on an advocacy site."
   ],
   "not_claimed": [
     "Listing who refused what does not by itself assign blame: a refusal can be reasonable, forced by politics, or a mistake, and the card does not rank the refusals.",

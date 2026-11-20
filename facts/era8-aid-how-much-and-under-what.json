@@ -77,7 +77,7 @@
       ]
     },
     {
-      "text": "Israel is the largest cumulative recipient of US foreign aid since World War II: the Congressional Research Service counts $174 billion in current dollars; the Council on Foreign Relations says over $300 billion adjusted for inflation.",
+      "text": "Israel is the largest cumulative recipient of US foreign aid since World War II: the Congressional Research Service counts $174 billion in current dollars; the Council on Foreign Relations says over $300 billion adjusted for inflation. USAFacts, working from US government data, counts $317.9 billion for 1951 to 2022, adjusted for inflation.",
       "sources": [
         {
           "publisher": "Congressional Research Service (via EveryCRSReport)",
@@ -95,7 +95,8 @@
           "archive": "",
           "quote": "receiving over $300 billion (adjusted for inflation) in total economic and military assistance.",
           "accessed": "2026-11-20",
-          "kind": "reference"
+          "kind": "reference",
+          "wire": "Council on Foreign Relations"
         },
         {
           "publisher": "Council on Foreign Relations",
@@ -104,7 +105,8 @@
           "archive": "",
           "quote": "nearly all U.S. aid today goes to support Israel's military, the most advanced in the region",
           "accessed": "2026-11-20",
-          "kind": "reference"
+          "kind": "reference",
+          "wire": "Council on Foreign Relations"
         },
         {
           "publisher": "WJLA (ABC 7, Washington)",
@@ -113,12 +115,31 @@
           "archive": "",
           "quote": "Israel is the largest cumulative recipient of U.S. foreign aid since World War II.",
           "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "Council on Foreign Relations"
+        },
+        {
+          "publisher": "USAFacts",
+          "title": "How much aid does the US give to Israel?",
+          "url": "https://usafacts.org/articles/how-much-military-aid-does-the-us-give-to-israel/",
+          "archive": "",
+          "quote": "adjusting for inflation, US aid to Israel from 1951 to 2022 totaled $317.9 billion, making it the largest recipient of American foreign aid since World War II.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Ynetnews",
+          "title": "From $100 million to $330 billion: the history of US aid to Israel",
+          "url": "https://www.ynetnews.com/article/sjybrfvtze",
+          "archive": "",
+          "quote": "Israel has become the largest cumulative recipient of U.S. foreign assistance since World War II",
+          "accessed": "2026-11-20",
           "kind": "news"
         }
       ]
     },
     {
-      "text": "For comparison, the CRS counts over $90 billion in aid to Egypt since 1946 (historical dollars), and the CFR counts $196 billion that Congress made available, through 30 June 2026, in spending related to Operation Atlantic Resolve and the war in Ukraine (this includes US operations in Europe, so it is not like-for-like with the Israel figures).",
+      "text": "For comparison, the CRS counts over $90 billion in aid to Egypt since 1946 (historical dollars; Al Jazeera reported more than $87 billion in February 2025), and the CFR counts $196 billion that Congress made available, through 30 June 2026, in spending related to Operation Atlantic Resolve and the war in Ukraine (this includes US operations in Europe, so it is not like-for-like with the Israel figures).",
       "sources": [
         {
           "publisher": "Congressional Research Service (via EveryCRSReport)",
@@ -144,6 +165,15 @@
           "url": "https://www.npr.org/2024/04/24/1246839045/biden-signs-95-billion-military-aid-package-for-ukraine-israel-and-taiwan",
           "archive": "",
           "quote": "The assistance for Ukraine, totaling $60.8 billion, accounts for nearly two-thirds of the total.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "Egypt, Jordan, and the US aid game",
+          "url": "https://www.aljazeera.com/news/2025/2/12/egypt-jordan-and-the-us-aid-game",
+          "archive": "",
+          "quote": "Egypt has received more than $87bn in US foreign aid since 1946",
           "accessed": "2026-11-20",
           "kind": "news"
         }
@@ -241,7 +271,7 @@
       ]
     },
     {
-      "text": "In the first year after 7 October 2023, the Costs of War project counts at least $17.9 billion in security assistance approved for Israel's military operations, a record and a partial figure; the CFR counts at least $16.3 billion enacted in direct military aid by law since 7 October 2023 including fiscal 2025 appropriations (a longer period and a narrower measure, not a comparison). Separately, Israel's defence ministry reported US deliveries of more than 90,000 tons of armaments by May 2025.",
+      "text": "One study, the Costs of War project at Brown University, counts, for the first year after 7 October 2023, at least $17.9 billion in security assistance approved for Israel's military operations, a record and a partial figure; the CFR counts at least $16.3 billion enacted in direct military aid by law since 7 October 2023 including fiscal 2025 appropriations (a longer period and a narrower measure, not a comparison). Separately, Israel's defence ministry reported US deliveries of more than 90,000 tons of armaments by May 2025.",
       "sources": [
         {
           "publisher": "Costs of War Project, Brown University Watson Institute",
@@ -377,12 +407,12 @@
   "could_not_verify": [
     "A single audited figure for US arms actually delivered since October 2023: the $17.9 billion is the Costs of War project's count of approved assistance and the authors call it partial; the AP says full shipments cannot be tracked as Ukraine's can.",
     "The Israeli Ministry of Defense statement of 90,000 tons: the original and the Times of Israel article could not be fetched; it is quoted via the CRS report and the CFR.",
-    "Three reliable sources for fact 2 (largest cumulative recipient): the CRS is a government source; the CFR and one local news report that cites the CFR are the only independent ones.",
-    "Three reliable sources for fact 3 (Egypt and Ukraine): the Egypt figure rests on the CRS only; Ukraine rests on the CFR and NPR. The CRS Israel and Egypt totals use historical dollars; the CFR Ukraine figure counts war-related spending, including US operations in Europe, so it is not like-for-like.",
+    "Fact 1 (largest cumulative recipient) now has the CFR (with the local news report that repeats it, counted as one), USAFacts and Ynetnews. I did not find a Brookings or Carnegie explainer or a readable ForeignAssistance.gov page.",
+    "Fact 2 (Egypt and Ukraine): the Egypt total rests on the CRS (government) and Al Jazeera, which reports a lower figure (more than $87 billion, February 2025); I found no State Department or foreign-assistance data page for Egypt that I could read. Ukraine rests on the CFR and NPR. The CRS Israel and Egypt totals use historical dollars; the CFR Ukraine figure counts war-related spending, including US operations in Europe, so it is not like-for-like.",
     "Congress's reaction to the 3 November 2026 announcement, and whether any funding has changed; the pages read are from the day it was announced.",
     "Whether $26.4 billion (CBS) or $26 billion (VOA) is the right total for Israel-related items in the April 2024 law; the card gives the law's line items instead.",
     "Whether the 3 November 2026 announcement is more than a statement: Al Jazeera says it was not clear what form of aid Trump meant, and TWZ quotes Politico that no formal document was submitted by the prime minister's office. Fact 6 and the last sentence of the answer say only what he said, and rest on three independent outlets (TWZ, Al Jazeera, Reuters via Al-Monitor), all reporting one television interview.",
-    "Still short of three independent reliable sources (news, scholarly or reference; government and primary documents are not counted): fact 1, the largest cumulative recipient (CFR; the WJLA fact check cites the CFR, so it is one voice); fact 2, the Egypt and Ukraine comparison (Egypt: only the CRS, which is government; Ukraine: CFR and NPR). We searched once more for a wire, SIPRI or ForeignAssistance.gov source and found none we could read. Fact 3 (defence-budget share) now has three, and the estimates differ because they use different years and denominators.",
+    "Still short of three independent reliable sources: fact 5 only (the $17.9 billion). Fact 5 is worded as one study's figure; the CFR's $16.3 billion is a different measure, not a second tally of the same thing.",
     "The case for the aid on this card rests on one senator (via the Times of Israel) and one 2016 White House statement; a strategist or scholar who makes it was not read for this card.",
     "Round three: the AP item on the $17.9 billion reports the Costs of War project's figure, so both are declared one source ('wire': 'Costs of War'); no second tally of approved aid was found."
   ],

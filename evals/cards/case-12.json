@@ -1,0 +1,147 @@
+{
+  "id": "case-12",
+  "era": 1,
+  "claim": "Neil Armstrong was the first person to walk on the Moon, in July 1969.",
+  "heard": [
+    {
+      "who": "National Air and Space Museum, Smithsonian, 'Apollo 11: The Moon Landing'",
+      "url": "https://airandspace.si.edu/apollo-11-moon-landing",
+      "quote": "Neil Armstrong exited the spacecraft and became the first human to walk on the moon.",
+      "archive": ""
+    }
+  ],
+  "answer": "Yes. Neil Armstrong and Buzz Aldrin landed the lunar module Eagle on the Moon on 20 July 1969, and Armstrong, the commander, was the first to step onto the surface. The crew returned and splashed down in the Pacific Ocean on 24 July.",
+  "facts": [
+    {
+      "text": "Neil Armstrong and Buzz Aldrin landed the Apollo 11 lunar module, Eagle, on the Moon on 20 July 1969.",
+      "sources": [
+        {
+          "publisher": "National Air and Space Museum, Smithsonian",
+          "title": "Apollo 11: The Moon Landing",
+          "url": "https://airandspace.si.edu/apollo-11-moon-landing",
+          "archive": "",
+          "quote": "July 20, 1969 \"The Eagle has landed!\" After four days traveling to the Moon, the Lunar Module Eagle , carrying Neil Armstrong and Buzz Aldrin landed on the Moon.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "The Planetary Society",
+          "title": "Apollo 11",
+          "url": "https://planetary.org/space-missions/apollo-11",
+          "archive": "",
+          "quote": "The official touchdown time was 20:17:39 UTC on 20 July 1969.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Scientific American",
+          "title": "The Eagle Has Landed",
+          "url": "https://www.scientificamerican.com/article/the-eagle-has-landed/",
+          "archive": "",
+          "quote": "Armstrong piloted the Lunar Lander, named the Eagle, to a safe landing in the Moon's Sea of Tranquility.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Neil Armstrong, the mission commander, was the first person to step onto the Moon's surface.",
+      "sources": [
+        {
+          "publisher": "History.com",
+          "title": "Apollo 11 Moon Landing Timeline: From Liftoff to Splashdown",
+          "url": "https://www.history.com/topics/space-exploration/apollo-11",
+          "archive": "",
+          "quote": "As commander, Armstrong had the privilege of being the first astronaut to set foot on the moon.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "The Planetary Society",
+          "title": "Apollo 11",
+          "url": "https://planetary.org/space-missions/apollo-11",
+          "archive": "",
+          "quote": "Armstrong stepped off the lunar module's ladder and onto the surface.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "National Air and Space Museum, Smithsonian",
+          "title": "Apollo 11: The Moon Landing",
+          "url": "https://airandspace.si.edu/apollo-11-moon-landing",
+          "archive": "",
+          "quote": "Neil Armstrong exited the spacecraft and became the first human to walk on the moon.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "The crew splashed down in the Pacific Ocean on 24 July 1969, about eight days after launch.",
+      "sources": [
+        {
+          "publisher": "The Planetary Society",
+          "title": "Apollo 11",
+          "url": "https://planetary.org/space-missions/apollo-11",
+          "archive": "",
+          "quote": "They splashed down into the Pacific Ocean at 16:50:35 UTC on 24 July and were retrieved by the USS Hornet.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Scientific American",
+          "title": "The Eagle Has Landed",
+          "url": "https://www.scientificamerican.com/article/the-eagle-has-landed/",
+          "archive": "",
+          "quote": "the astronauts soared back to Earth, splashing down in the Pacific Ocean on July 24.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "History.com",
+          "title": "Apollo 11 Moon Landing Timeline: From Liftoff to Splashdown",
+          "url": "https://www.history.com/topics/space-exploration/apollo-11",
+          "archive": "",
+          "quote": "The Apollo 11 mission concluded exactly eight days, three hours, 18 minutes and 35 seconds after launch with a splashdown landing in the Pacific Ocean",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    {
+      "text": "How many people watched the first steps live. Two sources give different estimates, about 530 million and about 650 million; neither is a count.",
+      "sources": [
+        {
+          "publisher": "The Planetary Society",
+          "title": "Apollo 11",
+          "url": "https://planetary.org/space-missions/apollo-11",
+          "archive": "",
+          "quote": "as 530 million people watched live on television.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "National Air and Space Museum, Smithsonian",
+          "title": "Apollo 11: The Moon Landing",
+          "url": "https://airandspace.si.edu/apollo-11-moon-landing",
+          "archive": "",
+          "quote": "As an estimated 650 million people watched, Armstrong proclaimed \"That's one small step for man, one giant leap for mankind.\"",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    }
+  ],
+  "could_not_verify": [
+    "Whether the TV audience figures can be reconciled; the two pages do not say how they were estimated.",
+    "The mission's own flight log, read directly; the cited pages summarise it."
+  ],
+  "not_claimed": [
+    "That Armstrong walked alone; Aldrin joined him on the surface.",
+    "That the mission was without risk; this card does not cover the landing's hazards."
+  ],
+  "status": "draft",
+  "content_approved": false
+}

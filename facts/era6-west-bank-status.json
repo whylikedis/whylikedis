@@ -103,7 +103,8 @@
       ]
     },
     {
-      "text": "Under the 1995 Oslo II accord the West Bank is divided into Areas A, B and C. Area A (about 18 percent) is under Palestinian administration and police; in Area B (about 21 percent) the Palestinian Authority runs civil affairs while Israel keeps security; Area C (about 60 percent), which holds the Israeli settlements, remains under Israeli control. The accord meant it as temporary; the divisions persist.",
+      "text": "The Oslo II accord of 1995 defines Area C as the areas of the West Bank outside Areas A and B, to be gradually transferred to Palestinian jurisdiction except for issues reserved for permanent-status negotiations; Areas A and B are the populated areas delineated on its Map 1. It is titled an interim agreement.",
+      "record": true,
       "sources": [
         {
           "publisher": "Jewish Virtual Library (text of the Oslo II accord)",
@@ -112,23 +113,24 @@
           "archive": "",
           "quote": "\"Area C\" means areas of the West Bank outside Areas A and B, which, except for the issues that will be negotiated in the permanent status negotiations, will be gradually transferred to Palestinian jurisdiction",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
-          "publisher": "Al Jazeera",
+          "publisher": "The National",
           "title": "What are areas A, B, and C of the occupied West Bank?",
-          "url": "https://www.aljazeera.com/amp/news/2019/9/11/what-are-areas-a-b-and-c-of-the-occupied-west-bank",
+          "url": "https://thenationalnews.com/world/mena/what-are-areas-a-b-and-c-of-the-occupied-west-bank-1.894874",
           "archive": "",
-          "quote": "Area A constitutes 18 percent of the West Bank. The PA controls most affairs in this area, including internal security",
+          "quote": "the Israeli-occupied West Bank was divided into three administrative areas - A, B and C - pending a final status agreement between the two sides",
           "accessed": "2026-11-20",
           "kind": "news"
         },
         {
-          "publisher": "Edinburgh Peace Agreements Database (PA-X)",
-          "title": "Oslo II: coding of the Interim Agreement",
-          "url": "https://www.peaceagreements.org/agreements/410/coding/Israeli-Palestinian%20Interim%20Agreement%20on%20the%20West%20Bank%20and%20the%20Gaza%20Strip%20('Oslo%20II')",
+          "publisher": "BESA Center (Bar-Ilan University)",
+          "title": "The ABCs of Judea and Samaria",
+          "url": "https://besacenter.org/wp-content/uploads/2016/04/Frisch-ABCs-of-Judea-and-Samaria-PP-8-April-2016.pdf",
           "archive": "",
-          "quote": "the settlements\" means, in the West Bank - the settlements in Area C",
+          "quote": "the interim agreement between Israel and the PLO signed in September 1995 known as the Oslo II Accord",
           "accessed": "2026-11-20",
           "kind": "scholarly"
         },
@@ -225,6 +227,15 @@
           "url": "https://www.icj-cij.org/case/131",
           "archive": "",
           "quote": "recalled that those settlements had been established in breach of international law",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "International Court of Justice",
+          "title": "Legal Consequences of the Construction of a Wall in the Occupied Palestinian Territory: overview",
+          "url": "https://www.icj-cij.org/case/131",
+          "archive": "",
+          "quote": "holding that these were applicable in those Palestinian territories which, before the armed conflict of 1967, lay to the east of the 1949 Armistice demarcation line",
           "accessed": "2026-11-20",
           "kind": "primary"
         },
@@ -440,7 +451,7 @@
           "title": "The World Court Rules that Israel's West Bank Barrier Violates International Law",
           "url": "https://www.asil.org/insights/volume/8/issue/17/world-court-rules-israels-west-bank-barrier-violates-international-law",
           "archive": "",
-          "quote": "the wall's sinuous route has been traced in such a way as to include within that area the great majority of Israeli settlements in the Occupied Palestinian Territory",
+          "quote": "the great majority of the Israeli settlements (and about 80% of the Israeli settlers) in the occupied Palestinian territory",
           "accessed": "2026-11-20",
           "kind": "scholarly"
         },
@@ -452,6 +463,92 @@
           "quote": "includes within a closed area to which a special administrative region applies, some 80 percent of the settlers living in the occupied Palestinian territory",
           "accessed": "2026-11-20",
           "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "The shares of the West Bank in each area, as reported in 2016 and 2019 (the accord gives no percentages): Area A about 18 percent, Area B about 21 to 22 percent, Area C about 60 percent, which includes the Israeli settlements. Area A is under Palestinian administration and police; in Area B the Palestinian Authority runs civil affairs and Israel keeps security; in Area C Israel has control.",
+      "sources": [
+        {
+          "publisher": "The National (August 2019)",
+          "title": "What are areas A, B, and C of the occupied West Bank?",
+          "url": "https://thenationalnews.com/world/mena/what-are-areas-a-b-and-c-of-the-occupied-west-bank-1.894874",
+          "archive": "",
+          "quote": "Area A, around 18 per cent of the West Bank, was placed into the hands of the full security and administrative control of Palestinian Authority",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "The National (August 2019)",
+          "title": "What are areas A, B, and C of the occupied West Bank?",
+          "url": "https://thenationalnews.com/world/mena/what-are-areas-a-b-and-c-of-the-occupied-west-bank-1.894874",
+          "archive": "",
+          "quote": "Area B, around 22 per cent of the territory, is controlled by both the PA and Israel",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "The National (August 2019)",
+          "title": "What are areas A, B, and C of the occupied West Bank?",
+          "url": "https://thenationalnews.com/world/mena/what-are-areas-a-b-and-c-of-the-occupied-west-bank-1.894874",
+          "archive": "",
+          "quote": "Area C, approximately 60 per cent of the West Bank, is fully controlled by Israel",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "BESA Center (Bar-Ilan University, 2016)",
+          "title": "The ABCs of Judea and Samaria",
+          "url": "https://besacenter.org/wp-content/uploads/2016/04/Frisch-ABCs-of-Judea-and-Samaria-PP-8-April-2016.pdf",
+          "archive": "",
+          "quote": "this area comprises approximately 18 percent of Judea and Samaria's land mass",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "BESA Center (Bar-Ilan University, 2016)",
+          "title": "The ABCs of Judea and Samaria",
+          "url": "https://besacenter.org/wp-content/uploads/2016/04/Frisch-ABCs-of-Judea-and-Samaria-PP-8-April-2016.pdf",
+          "archive": "",
+          "quote": "in Area B, which comprises approximately 22% of Judea and Samaria, Israel and the PA share jurisdiction",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "BESA Center (Bar-Ilan University, 2016)",
+          "title": "The ABCs of Judea and Samaria",
+          "url": "https://besacenter.org/wp-content/uploads/2016/04/Frisch-ABCs-of-Judea-and-Samaria-PP-8-April-2016.pdf",
+          "archive": "",
+          "quote": "most of Judea and Samaria (60% of the area) is designated Area C, over which Israel has exclusive jurisdiction",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Al Jazeera (September 2019)",
+          "title": "What are areas A, B, and C of the occupied West Bank?",
+          "url": "https://www.aljazeera.com/amp/news/2019/9/11/what-are-areas-a-b-and-c-of-the-occupied-west-bank",
+          "archive": "",
+          "quote": "Area A constitutes 18 percent of the West Bank. The PA controls most affairs in this area, including internal security",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Al Jazeera (September 2019)",
+          "title": "What are areas A, B, and C of the occupied West Bank?",
+          "url": "https://www.aljazeera.com/amp/news/2019/9/11/what-are-areas-a-b-and-c-of-the-occupied-west-bank",
+          "archive": "",
+          "quote": "in more than 60 percent of the West Bank, designated as Area C",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "B'Tselem (via ReliefWeb, 2013)",
+          "title": "What is Area C?",
+          "url": "https://reliefweb.int/report/occupied-palestinian-territory/what-area-c",
+          "archive": "",
+          "quote": "Area C covers 60% of the West Bank (about 330,000 hectares)",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
         }
       ]
     }
@@ -553,8 +650,8 @@
     {
       "says": "Under the 1995 Oslo II accord, Israel keeps security control throughout and full control of Area C, about 60 percent.",
       "facts": [
-        2,
-        3
+        3,
+        11
       ]
     },
     {
@@ -588,14 +685,14 @@
   ],
   "review": {
     "skeptic": {
-      "verdict": "holds",
+      "verdict": "weakened",
       "date": "2026-11-20",
-      "notes": "Read the ICJ 2024 text (paras 224-229, 285: 11-4 on the unlawful presence; 14-1 on settlements and reparation; 'excessive use of force' and 465,000/230,000 settlers are on the page), the 2004 case page, ASIL, VOA/GlobalSecurity, the Perry et al. abstract, Siboni (INSS), Ynet/Shin Bet, the AP/NZ Herald piece, OCHA, Al Jazeera, The National, IDI on the Levy committee. Barrier study: Perry, Apel, Newman and Clarke (J. Quantitative Criminology, 2017) use 1999-2011 attack data by location and say the barrier 'together with associated security activities' was effective, that 'changes in terrorist behavior likely resulted from the construction of the barrier, not from other external factors', so the study does attribute the fall to the barrier; the card says that and keeps Siboni's rival account (Defensive Shield, army in West Bank cities, effect by mid-2005). The 60 attacks in 2002 and six from October 2004 are Shin Bet figures, carried by Ynet and the AP (one dataset; wire added); the 2004 infiltration remark is the Shin Bet chief via JTA only. [must-fix, fixed] Fact 8 presented 5,848 as the total with 4,228 + 1,024 + 63 beside it, which add to 5,315; OCHA says the 5,848 includes indirect deaths. Reworded to say so. The 'Israel's stated security reason' framing had no source quoting Israel; now 'security background'. [should-fix] Palestinian lawyer: the card does carry the ICJ's systematic failure to punish settler attacks, land confiscation and induced departure, and the 80 percent of settlers enclosed by the barrier; I found no softened wrong, but the barrier's costs to Palestinians (separation from land, movement) beyond the ICJ finding are not on the card. [should-fix] Israeli lawyer: the opinions are advisory; the card says Israel rejected the 2024 opinion but not that the 2004 and 2024 opinions are non-binding; and the conviction-rate claim rests on The National citing Haaretz (the army would not comment), with no Israeli account of plea bargains. The Perry abstract also says terrorists adapted in some places with more opportunistic attacks, so 'little apparent displacement' is the study's wording, not a claim of none. [nit] The Palestinian population figure comes from The Week and Peace Now; no PCBS page could be read."
+      "notes": "Round two (re-read JVL and PA-X copies of the accord, The National, BESA, Al Jazeera, ReliefWeb, AP/Asharq Al-Awsat, The Week, OCHA, Ynet/Shin Bet, ICJ). My round-one verification was wrong on Areas A, B, C: the percentages were not in the accord. FIXED: fact 11 now carries the shares (A about 18, B 21 to 22, C about 60) with three independent readers who each give the numbers (The National 2019, BESA 2016, Al Jazeera 2019; B'Tselem via ReliefWeb is a fourth, advocacy); fact 2 is the accord's definitions; fact 10's 80 percent is carried by the American Society of International Law and VOA quoting the ICJ. Fact 2 as a record: the JVL copy is a host of the accord's text and PA-X (a second, university copy) has the same wording, so the words are right; but The National and BESA carry only the three-area split and the interim character, not the Area C definition. I trimmed 'and the divisions have persisted' (not what the record says). Weak but acceptable. NOT FIXED / NEW: [must-fix] Fact 8: the Palestinian toll (4,228), foreign (63) and 5,848 total are carried by OCHA alone; the Jerusalem Post gives 'between 2,000 and 5,000 Palestinians', which conflicts; only the 1,000-plus Israeli figure has three carriers. Mark it as a record fact with two readers who carry the figure, or state it as OCHA's count only. [must-fix] Fact 9: the numbers (60 attacks in 2002, six in the year to September 2005) come from one Shin Bet dataset repeated by Ynet and the AP (wire added, counts once); the barrier-effect, infiltration and INSS statements are separate claims. Split the fact; the numbers alone have one source. [should-fix] Fact 1 'nearly 100 percent' is one Haaretz figure via The National. Fact 0's 3-3.3 million: AP gives about 3 million for the West Bank and East Jerusalem together, The Week 3.3 million for the West Bank. Israeli lawyer: no plea-bargain context; Palestinian lawyer: barrier costs beyond the ICJ finding thin. I cannot give 'holds': two facts carry figures that one source supports."
     },
     "citer": {
       "verdict": "holds",
       "date": "2026-11-20",
-      "notes": "Six answer sentences, each tied to facts (answer_claims). Removed 'and points to the second intifada': no fact quotes Israel making that argument, so the sentence now says what the casualty facts carry (over 1,000 Israeli lives) and names the Shin Bet as the source of the attack counts. Rewrote the closing 'Our reading' from 'security can explain the occupation, not the settlements or the two legal systems' to a claim the facts carry: the ICJ found the settlements unlawful and was not convinced the barrier's route was needed for security; no fact on the card says security cannot explain the two legal systems, so that part was removed."
+      "notes": "Round two: re-tied the six answer sentences; the Oslo sentence now rests on facts 3 and 11 (security control, Area C about 60 percent from three readers). The second-intifada and attack-count sentence still depends on facts 8 and 9, whose figures have one carrier each (see skeptic); the wording says 'by the Shin Bet's count' and 'over 1,000 Israeli lives', which the sources do carry. Nothing removed this round."
     }
   }
 }

@@ -1,0 +1,138 @@
+{
+  "id": "case-02",
+  "era": 1,
+  "claim": "People have been to the deepest point in the ocean.",
+  "heard": [
+    {
+      "who": "Don Walsh, U.S. Navy lieutenant and co-pilot of the 1960 dive, in Scientific American (2014)",
+      "url": "https://www.scientificamerican.com/article/diving-deeper-than-any-human-ever-dove/",
+      "quote": "Our depth gage read 37,800 feet. We had found a new depth in the Challenger Deep!",
+      "archive": ""
+    }
+  ],
+  "answer": "Yes. The deepest known point of the ocean is the Challenger Deep, at the southern end of the Mariana Trench. Jacques Piccard and Don Walsh were the first people to reach its bottom, on 23 January 1960, in the bathyscaphe Trieste. Its depth is about 10.9 to 11 kilometres; published figures differ with the survey.",
+  "facts": [
+    {
+      "text": "The Challenger Deep, a valley at the southern end of the Mariana Trench, is the deepest known point in the ocean.",
+      "sources": [
+        {
+          "publisher": "Encyclopaedia Britannica",
+          "title": "Mariana Trench | Depth, Location, Facts, Maps, & Pictures",
+          "url": "https://www.britannica.com/place/Mariana-Trench",
+          "archive": "https://web.archive.org/web/2/https://www.britannica.com/place/Mariana-Trench",
+          "quote": "The greatest depths are reached in Challenger Deep , a smaller steep-walled valley on the floor of the main trench southwest of Guam.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "BBC Science Focus",
+          "title": "How deep is the ocean? Earth's staggering depth, explained",
+          "url": "https://www.sciencefocus.com/planet-earth/how-deep-is-the-ocean",
+          "archive": "",
+          "quote": "the Challenger Deep, found at the south end of the Mariana Trench is the deepest point in Earth's oceans",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Live Science",
+          "title": "How deep is the Mariana Trench?",
+          "url": "https://www.livescience.com/how-deep-is-the-mariana-trench",
+          "archive": "",
+          "quote": "The deepest spot in the Mariana Trench is a valley called the Challenger Deep, located at the Mariana Trench's southern end",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "On 23 January 1960 the bathyscaphe Trieste, with Jacques Piccard and U.S. Navy Lieutenant Don Walsh aboard, became the first vessel carrying people to reach the bottom of the Challenger Deep.",
+      "sources": [
+        {
+          "publisher": "Live Science",
+          "title": "How deep is the Mariana Trench?",
+          "url": "https://www.livescience.com/how-deep-is-the-mariana-trench",
+          "archive": "",
+          "quote": "known for diving with Swiss oceanographer and engineer Jacques Piccard to the Challenger Deep on Jan. 23, 1960. They became the first people to reach the deepest part of the ocean",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "EBSCO Research Starters",
+          "title": "Trieste Dive",
+          "url": "https://www.ebsco.com/research-starters/history/trieste-dive",
+          "archive": "",
+          "quote": "subsequently prepared for its historic dive, which took place on January 23, 1960. Piloted by Jacques Piccard and U.S. Navy Lieutenant Don Walsh",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Scientific American",
+          "title": "Diving Deeper Than Any Human Ever Dove",
+          "url": "https://www.scientificamerican.com/article/diving-deeper-than-any-human-ever-dove/",
+          "archive": "",
+          "quote": "Incredibly, the other two men made the trip together in 1960: Don Walsh, a U.S. Navy officer, and Swiss ocean engineer Jacques Piccard.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Published depths for the Challenger Deep differ by about 80 metres: roughly 10,911 m for the 1960 dive, 10,935 m in the figure most often quoted and 10,994 m in a later survey.",
+      "sources": [
+        {
+          "publisher": "EarthSky",
+          "title": "A record-setting dive into the deepest ocean",
+          "url": "https://earthsky.org/?p=157216",
+          "archive": "",
+          "quote": "It took nine hours to descend 6.83 miles (10,911 meters) to the deepest ocean.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "BBC Science Focus",
+          "title": "How deep is the ocean? Earth's staggering depth, explained",
+          "url": "https://www.sciencefocus.com/planet-earth/how-deep-is-the-ocean",
+          "archive": "",
+          "quote": "At 10,935m (35,876 feet) in depth, the Challenger Deep, found at the south end of the Mariana Trench is the deepest point in Earth's oceans",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Live Science",
+          "title": "How deep is the Mariana Trench?",
+          "url": "https://www.livescience.com/how-deep-is-the-mariana-trench",
+          "archive": "",
+          "quote": "Since then, recent estimates have included 36,069 feet (10,994 m) and 36,036 feet ( 10,984 m",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    {
+      "text": "The exact depth is still being re-measured, and mapping campaigns disagree by tens of metres. Cmdr. Sam Greenaway of the NOAA Corps, lead author of the 2021 study, says the difference matters little for most purposes.",
+      "sources": [
+        {
+          "publisher": "Live Science",
+          "title": "How deep is the Mariana Trench?",
+          "url": "https://www.livescience.com/how-deep-is-the-mariana-trench",
+          "archive": "",
+          "quote": "\"the difference of the Challenger Deep being 10,935 meters deep, as we determined, or 10,984 meters, as a recent mapping campaign estimated, doesn't really matter that much,\"",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    }
+  ],
+  "could_not_verify": [
+    "The full text of the 2021 study NOAA's figure comes from; the page that cites it was read instead.",
+    "Which figure for the depth is best; the sources name several and none settles it."
+  ],
+  "not_claimed": [
+    "That the Challenger Deep depth is settled to the metre.",
+    "That anyone else has visited it; this card covers the 1960 dive only."
+  ],
+  "status": "draft",
+  "content_approved": false
+}

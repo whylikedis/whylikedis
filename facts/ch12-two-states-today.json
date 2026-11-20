@@ -51,7 +51,7 @@
       ]
     },
     {
-      "text": "In September 2025 Prime Minister Netanyahu answered the new recognitions by saying 'There will be no Palestinian state to the west of the Jordan River' and that Israel had doubled Jewish settlement in Judea and Samaria; opposition leader Lapid called the recognitions a 'reward for terror' too.",
+      "text": "In a statement dated 21 September 2025, answering the new recognitions of a Palestinian state, Prime Minister Netanyahu said 'There will be no Palestinian state to the west of the Jordan River' and that Israel had doubled Jewish settlement in Judea and Samaria; opposition leader Lapid called the recognitions a 'reward for terror' too.",
       "sources": [
         {
           "publisher": "Israel Ministry of Foreign Affairs",
@@ -60,7 +60,8 @@
           "archive": "",
           "quote": "There will be no Palestinian state to the west of the Jordan River.",
           "accessed": "2026-11-20",
-          "kind": "government"
+          "kind": "government",
+          "is_record": true
         },
         {
           "publisher": "NBC News",
@@ -80,7 +81,8 @@
           "accessed": "2026-11-20",
           "kind": "news"
         }
-      ]
+      ],
+      "record": true
     },
     {
       "text": "Israeli officials and the Knesset on a state, in their own words or the vote itself: on 18 January 2024 Netanyahu said Israel 'needs security control over all territory west of the Jordan River', which 'collides with the idea of sovereignty'; on 22 October 2025 the Knesset gave a bill applying Israeli sovereignty to the West Bank a preliminary reading by 25 votes to 24, against the prime minister's opposition, the first of four votes it needs to become law.",
@@ -112,11 +114,29 @@
           "quote": "The bill passed 25-24, despite opposition from PM Netanyahu, in the first of four votes it will face to become law.",
           "accessed": "2026-11-20",
           "kind": "news"
+        },
+        {
+          "publisher": "Ynetnews",
+          "title": "Knesset backs West Bank sovereignty bill, defying Netanyahu's withdrawal plea amid US VP visit",
+          "url": "https://www.ynetnews.com/article/ryd8pi8alg",
+          "archive": "",
+          "quote": "Maoz's bill passed by a single vote-25 to 24-after Yesh Atid's maneuver failed by the narrowest margin",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "The Jewish Chronicle",
+          "title": "Knesset pushes through two bills on West Bank settlement annexation despite government opposition",
+          "url": "https://www.thejc.com/news/israel/knesset-bills-west-bank-annexation-h34eesd3",
+          "archive": "",
+          "quote": "most MKs from the Prime Minister's party boycotted the vote, but Yuli Edelstein broke ranks to pass the bill 25-24",
+          "accessed": "2026-11-20",
+          "kind": "news"
         }
       ]
     },
     {
-      "text": "On 17 November 2025 the UN Security Council adopted Resolution 2803 on Gaza, 13 to none with two abstentions, whose text says that once Palestinian Authority reforms are carried out and Gaza's redevelopment has advanced, conditions 'may be in place for a credible pathway to Palestinian self-determination and statehood'; on 16 November, the day before the vote, under pressure from his far-right partners over the draft's wording, Netanyahu said 'our opposition to a Palestinian state in any territory has not changed' (NBC).",
+      "text": "On 17 November 2025 the UN Security Council adopted Resolution 2803 on Gaza by 13 votes to none with two abstentions (China and Russia), a text that, as NBC and The Irish Times quote it, says that once Palestinian Authority reforms are carried out and Gaza's redevelopment has advanced, conditions 'may be in place for a credible pathway to Palestinian self-determination and statehood'; on 16 November, the day before the vote, Netanyahu said 'our opposition to a Palestinian state in any territory has not changed' (second-hand, as quoted by NBC).",
       "sources": [
         {
           "publisher": "United Nations (Security Council meeting coverage)",
@@ -125,7 +145,8 @@
           "archive": "",
           "quote": "by a vote of 13 in favour to none against, with 2 abstentions (China, Russian Federation)",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "NBC News",
@@ -154,10 +175,11 @@
           "accessed": "2026-11-20",
           "kind": "news"
         }
-      ]
+      ],
+      "record": true
     },
     {
-      "text": "In a June 2025 letter to President Macron, Palestinian Authority president Abbas condemned the 7 October attack, said Hamas must hand over its weapons and no longer rule Gaza, offered to invite Arab and international forces, and committed to elections; Canada's prime minister cited PA commitments to hold elections in 2026 in which Hamas can play no part and to demilitarise a Palestinian state. The letter itself was not published: The National and Ynet both report it as quoted by the Elysee Palace, so these are one source for its wording.",
+      "text": "In his video address to the UN General Assembly on 25 September 2025, Palestinian Authority president Abbas said 'Hamas will not have a role to play in governance' and will have to hand over its weapons to the Palestinian National Authority, said 'we do not want an armed state', and, in the UN's summary, indicated readiness to hold elections within a year after the end of the war. In a June 2025 letter to President Macron he condemned the 7 October attack, said Hamas must hand over its weapons and no longer rule Gaza, offered to invite Arab and international forces, and committed to elections; the letter itself was not published and The National and Ynet both report it as quoted by the Elysee Palace, so these are one source for its wording. Canada's prime minister cited PA commitments to hold elections in 2026 in which Hamas can play no part and to demilitarise a Palestinian state.",
       "sources": [
         {
           "publisher": "The National",
@@ -189,14 +211,54 @@
         },
         {
           "publisher": "United Nations (General Assembly press release)",
-          "title": "General Debate, 25 September 2025",
+          "title": "Palestinian Authority 'Ready to Work' with All Partners to Implement Peace Plan, President Tells General Assembly",
           "url": "https://www.un.org/unispal/document/unga80-general-debate-press-release-25sep25",
           "archive": "",
           "quote": "Mr. Abbas condemned the 7 October 2023 Hamas attack on Israeli civilians",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
+        },
+        {
+          "publisher": "United Nations (General Assembly press release, 25 September 2025)",
+          "title": "Palestinian Authority 'Ready to Work' with All Partners to Implement Peace Plan, President Tells General Assembly",
+          "url": "https://www.un.org/unispal/document/unga80-general-debate-press-release-25sep25",
+          "archive": "",
+          "quote": "hamas will not have a role to play in governance",
+          "accessed": "2026-11-20",
+          "kind": "primary",
+          "is_record": true
+        },
+        {
+          "publisher": "United Nations (General Assembly press release, 25 September 2025)",
+          "title": "Palestinian Authority 'Ready to Work' with All Partners to Implement Peace Plan, President Tells General Assembly",
+          "url": "https://www.un.org/unispal/document/unga80-general-debate-press-release-25sep25",
+          "archive": "",
+          "quote": "We reiterate: we do not want an armed state",
+          "accessed": "2026-11-20",
+          "kind": "primary",
+          "is_record": true
+        },
+        {
+          "publisher": "CBC News (Abbas at the UN, 25 September 2025)",
+          "title": "Palestinian leader Mahmoud Abbas reiterates calls for permanent end to war in Gaza",
+          "url": "https://www.cbc.ca/1.7643286",
+          "archive": "",
+          "quote": "Hamas will have no role to play in governance",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "RTE News",
+          "title": "Palestinian leader rejects Hamas role in governance",
+          "url": "https://www.rte.ie/news/world/2025/0925/1535208-palestine-un",
+          "archive": "",
+          "quote": "Hamas and other factions will have to hand over their weapons to the Palestinian National Authority",
+          "accessed": "2026-11-20",
+          "kind": "news"
         }
-      ]
+      ],
+      "record": true
     },
     {
       "text": "The Palestinian Authority has held no national election since 2006: Al Jazeera reports that the last parliamentary elections in the Palestinian territories were in 2006, when Hamas defeated Fatah; Abbas won the last presidential election in 2005, his term should have ended in 2009, and he has ruled by decree since; in October 2026 he postponed the legislative elections set for November 2026 to September 2027, jointly with a presidential vote, after Fatah and other factions agreed to a national dialogue first (Al Jazeera, citing AFP).",
@@ -219,6 +281,25 @@
           "quote": "It took over the Gaza Strip after defeating its rival political party, Fatah, in elections in 2006.",
           "accessed": "2026-11-20",
           "kind": "reference"
+        },
+        {
+          "publisher": "The National (Abu Dhabi)",
+          "title": "Palestinian President Mahmoud Abbas postpones elections to September 2027",
+          "url": "https://www.thenationalnews.com/news/mena/2026/10/10/palestinian-president-mahmoud-abbas-postpones-elections-to-september-2027/",
+          "archive": "",
+          "quote": "The last election for the Palestinian Legislative Council was held in 2006 and won by Hamas",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Fox News (Associated Press)",
+          "title": "Mahmoud Abbas postpones Palestinian elections again until next year",
+          "url": "https://www.foxnews.com/world/abbas-delays-palestinian-elections-again-making-more-than-two-decades-without-vote.amp",
+          "archive": "",
+          "quote": "Palestinians last held legislative elections in 2006",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AP"
         }
       ]
     },
@@ -251,6 +332,16 @@
           "quote": "This is a new fraudulent trick by the Palestinian Authority, which intends to continue making payments to terrorists and their families through other payment channels.",
           "accessed": "2026-11-20",
           "kind": "news"
+        },
+        {
+          "publisher": "Arab News (Reuters)",
+          "title": "Palestinian president scraps prisoner payment system criticized by US",
+          "url": "https://www.arabnews.pk/node/2589720",
+          "archive": "",
+          "quote": "Palestinian President Mahmoud Abbas has issued a decree overturning a system of payments to the families of Palestinians imprisoned or killed by Israeli forces",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "Reuters"
         }
       ]
     },
@@ -361,8 +452,18 @@
       ]
     },
     {
-      "text": "On 12 September 2025 the UN General Assembly endorsed the New York Declaration on a two-state solution by 142 votes to 10 with 12 abstentions; Israel and the United States voted against, and the declaration condemns Hamas's 7 October attack and backs a Hamas-free Palestinian government.",
+      "text": "On 12 September 2025 the UN General Assembly, by a recorded vote of 142 in favour to 10 against with 12 abstentions, endorsed the New York Declaration on a two-state solution; Israel and the United States voted against, and the declaration condemns Hamas's 7 October attack and backs a Hamas-free Palestinian government.",
       "sources": [
+        {
+          "publisher": "United Nations (General Assembly meeting coverage, 12 September 2025)",
+          "title": "General Assembly Endorses New York Declaration, Charting Path to Palestinian Statehood",
+          "url": "https://www.un.org/unispal/document/ga-meeting-coverage-12sep25",
+          "archive": "",
+          "quote": "adopted by a recorded vote of 142 in favour to 10 against",
+          "accessed": "2026-11-20",
+          "kind": "primary",
+          "is_record": true
+        },
         {
           "publisher": "The Guardian",
           "title": "UN general assembly votes to back Hamas-free government for Palestine",
@@ -380,8 +481,27 @@
           "quote": "Israel voted against it, alongside nine other countries",
           "accessed": "2026-11-20",
           "kind": "primary"
+        },
+        {
+          "publisher": "Al Jazeera",
+          "title": "UN General Assembly backs two-state push for Israel and Palestine",
+          "url": "https://www.aljazeera.com/news/2025/9/12/un-general-assembly-backs-two-state-solution-for-israel-and-palestine",
+          "archive": "",
+          "quote": "adopted on Friday by 142 votes in favour, 10 against - including Israel and key ally the United States - and 12 abstentions",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "NBC News",
+          "title": "U.N. assembly votes overwhelmingly to back two-state solution to Israel-Palestinian conflict",
+          "url": "https://www.nbcnews.com/world/israel/un-assembly-votes-overwhelmingly-back-two-state-solution-israel-palest-rcna230942",
+          "archive": "",
+          "quote": "The vote was 142-10 with 12 abstentions.",
+          "accessed": "2026-11-20",
+          "kind": "news"
         }
-      ]
+      ],
+      "record": true
     },
     {
       "text": "Polls before and after 7 October 2023: Pew found 35 percent of Israelis in spring 2023 saying Israel and a Palestinian state could coexist peacefully, 21 percent in 2025; Gallup found 24 percent of Palestinians backing two states in July-September 2023 (restated as 26 percent in its 2026 release) and 32 percent in 2026, with Israelis at 26 percent in 2026; the Palestinian Center for Policy and Survey Research found 45 percent of Palestinians supporting the general concept of two states and 53 percent opposed in October 2025, and reported a rise in support after the war began.",
@@ -439,6 +559,38 @@
           "quote": "45% support and 53% oppose the concept of a two-state solution",
           "accessed": "2026-11-20",
           "kind": "scholarly"
+        }
+      ]
+    },
+    {
+      "text": "On 28 December 2022 Israel's incoming 37th government published its basic guidelines, whose first point states, in the Times of Israel's translation as quoted by All Israel News and in JNS's report: 'The Jewish people have an exclusive and inalienable right to all parts of the Land of Israel', and that the government will promote settlement in 'the Galilee, the Negev, the Golan and Judea and Samaria'. We read the guidelines through these reports, not the Hebrew document.",
+      "sources": [
+        {
+          "publisher": "JNS",
+          "title": "Israeli government guidelines envision settlement of Judea and Samaria",
+          "url": "https://www.jns.org/israel-news/israeli-government-guidelines-envision-settlement-of-judea-and-samaria",
+          "archive": "",
+          "quote": "the Jewish people has an exclusive and inalienable right to all parts of the Land of Israel",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "All Israel News (quoting the Times of Israel's translation)",
+          "title": "New govt's guidelines cast vision of 'exclusive and inalienable' right of the Jewish people to land of Israel",
+          "url": "https://allisraelnews.com/new-goat-s-guidelines-include-building-on-all-the-land-of-israel-maintaining-balance-between-security-and-peace",
+          "archive": "",
+          "quote": "The Jewish people have an exclusive and inalienable right to all parts of the Land of Israel. The government will promote and develop the settlement of all parts of the Land of Israel",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Adalah (The Legal Center for Arab Minority Rights in Israel)",
+          "title": "Position Paper: New Government, 19 April 2023",
+          "url": "https://www.adalah.org/uploads/uploads/Position_Paper_New_Government_19_April_2023.pdf",
+          "archive": "",
+          "quote": "the Jewish people have an exclusive and inalienable right over all areas of the Land of Israel",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
         }
       ]
     }
@@ -619,14 +771,15 @@
     "Anything after November 2025. The Israeli government's current position after the 2026 election cycle (the party answers on the other card are from a Ynet survey in 2026), any change in the PA's election plans, and the status of Resolution 2803 in 2026 were not verified; this card reflects statements through November 2025.",
     "The text of Hamas's 2017 document itself: we rely on the Guardian, BBC and CFR. The 1988 charter's text and Hamas statements since 7 October 2023 on a state were not read.",
     "The Times of Israel, Reuters and AP pages on the Knesset vote and the UN vote would not load; the UN press release listing the September 2025 recognitions and the Saudi-French joint statement would not load, so the September 2025 recognitions rest on The Guardian, CNN, NBC and a Canadian government page.",
-    "Fewer than three reliable sources: the Netanyahu statement (two news pages plus an Israeli government page), the UN General Assembly vote (UN News and the Guardian), the 2024 recognitions (PBS/AP, Al Jazeera and RTE are three news pages but the AP story and Al Jazeera count are close in content).",
+    "Record facts converted this round: F1 (Netanyahu's 21 September 2025 statement, read on the Foreign Ministry page), F3 (the Security Council vote, read in the UN's meeting coverage), F4 (Abbas's 25 September 2025 UN address, read in the UN's press release) and F10 (the General Assembly's recorded vote, read in the UN's meeting coverage); each has two or more reliable outlets reporting the same content. Still short: F0 (the Knesset's own record of the 68 to 9 vote was not found; it rests on Al Jazeera, NBC and CNN, three reliable outlets, so it meets the three-source rule as a news fact but is not a record fact); F2 (Netanyahu's January 2024 words are reported, not read in a transcript, and the Knesset record of the 25 to 24 vote was not read); F6 (the decree is read only as WAFA quoted by The Algemeiner; no PA text); the 2024 recognitions (F8), whose three outlets are close in content.",
     "Which countries recognise Palestine today: the Guardian's count of 147 UN states in September 2025 is before the wave of recognitions that day; we did not find a reliable page giving the post-September total.",
     "The Palestinian Authority's stated position on Israel's right to exist and on payments to prisoners' families: not read, so not stated.",
     "The Israeli-government coalition guidelines and the Likud platform on a Palestinian state were not read; Likud declined to answer Ynet's questionnaire.",
     "Palestinian wrongs the claim's defenders would raise and the card does not carry: that the Palestinian Authority has held no national election since 2006, its payments to prisoners and their families, and its position on recognising Israel as a Jewish state. No page on the card states them; they need new sources. The Palestinian Authority's loss of Gaza to Hamas in 2007 is mentioned on the Ynet, National and Guardian pages cited but is not in any fact's text.",
     "The Knesset's own record: the text of the 18 July 2024 resolution is quoted through NBC's quotation of the Knesset website; the Knesset page and the coalition guidelines of 2022 (the 37th government's guidelines on the right of the Jewish people to the land) could not be read, so Israeli government positions rest on the prime minister's own words as reported by Al Jazeera and NPR and an Israeli foreign ministry page, not the Knesset record.",
     "The Palestinian Authority's prisoner payments: whether the February 2025 decree ended them is disputed between the Authority, Israel and Hamas; we did not find a reliable report of later payments, nor the PA's pre-2025 explanation in its own words, nor the Axios report (page would not load).",
-    "The PA's election record has one news source for the postponement (Al Jazeera, citing AFP) and one reference source for the 2006 vote; the 2026 decrees themselves were not read."
+    "The PA's election record has one news source for the postponement (Al Jazeera, citing AFP) and one reference source for the 2006 vote; the 2026 decrees themselves were not read.",
+    "Israeli coalition guidelines (new last fact): read through JNS and All Israel News's quotation of a Times of Israel translation, plus an advocacy group's paper; the Hebrew guidelines and the coalition agreements were not read. No party platform was found."
   ],
   "not_claimed": [
     "Listing who said no to what does not by itself assign blame: a government can refuse for security reasons, domestic politics, or principle, and the card does not rank the refusals.",

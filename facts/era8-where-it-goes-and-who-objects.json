@@ -155,6 +155,24 @@
           "quote": "at least $100 million a year is then spent on missile defense funding inside the United States by either U.S. firms or American-based",
           "accessed": "2026-11-20",
           "kind": "government"
+        },
+        {
+          "publisher": "Costs of War Project, Brown University Watson Institute (William Hartung)",
+          "title": "U.S. Military Aid and Arms Transfers to Israel, October 2023 - September 2025",
+          "url": "https://costsofwar.watson.brown.edu/sites/default/files/2025-10/Hartung_US_Military_Aid_to_Israel_Oct.20.pdf",
+          "archive": "",
+          "quote": "foreign military financing (FMF), an aid program authorized by the State Department and implemented by the Pentagon that pays for U.S.-origin weapons and military services transferred to other nations' governments",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Quincy Institute for Responsible Statecraft (Steven Simon)",
+          "title": "The Disappearing Aid Check: The Future of US-Israel Defense Support (Quincy Brief No. 99)",
+          "url": "https://quincyinst-2.s3.amazonaws.com/wp-content/uploads/2026/05/25232018/QUINCY-BRIEF-NO.-99-MAY-2026-SIMON-1.pdf",
+          "archive": "",
+          "quote": "about 25 percent of this FMF grant money has gone toward offshore procurement, or OSP, funds allocated to Israel to spend domestically on its own defense industry and military equipment",
+          "accessed": "2026-11-20",
+          "kind": "reference"
         }
       ]
     },
@@ -499,7 +517,8 @@
           "archive": "",
           "quote": "a third of Americans say the U.S. is providing too much military assistance to Israel",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Pew Research Center",
@@ -508,7 +527,8 @@
           "archive": "",
           "quote": "While 42% of adults 18 to 29 say the U.S. is providing too much military aid to Israel, this share drops to 24% among those 65 and older.",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Pew Research Center",
@@ -517,18 +537,29 @@
           "archive": "",
           "quote": "About half of Democrats say the U.S. is providing too much military support to Israel (49%)",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
-          "publisher": "Brookings Institution",
-          "title": "Support for Israel continues to deteriorate, especially among Democrats and young people",
-          "url": "https://www.brookings.edu/articles/support-for-israel-continues-to-deteriorate-especially-among-democrats-and-young-people",
-          "archive": "",
-          "quote": "in 2024, 55% of Democrats supported continuing military assistance. By 2025, that number had dropped to 43%.",
+          "publisher": "The Times of Israel",
+          "title": "US public increasingly critical of Israel, with 59% opposed to government -- poll",
+          "url": "https://www.timesofisrael.com/us-public-increasingly-critical-of-israel-with-59-opposed-to-government-poll/",
+          "archive": "https://web.archive.org/web/2025/https://www.timesofisrael.com/us-public-increasingly-critical-of-israel-with-59-opposed-to-government-poll/",
+          "quote": "younger Americans were more opposed to military aid to Israel, with 42% of 18-29-year-olds saying the US provided too much, compared to 24% of those over 65",
           "accessed": "2026-11-20",
-          "kind": "scholarly"
+          "kind": "news"
+        },
+        {
+          "publisher": "JNS (Jewish News Syndicate)",
+          "title": "Nearly 60% of Americans see Israeli gov unfavorably, Pew poll suggests",
+          "url": "https://jns.org/nearly-60-of-americans-see-israeli-gov-unfavorably-pew-poll-suggests",
+          "archive": "",
+          "quote": "While 42% of adults 18 to 29 say the United States is providing too much military aid to Israel, this share drops to 24% among those",
+          "accessed": "2026-11-20",
+          "kind": "news"
         }
-      ]
+      ],
+      "record": true
     }
   ],
   "contested": [
@@ -601,14 +632,14 @@
     "A source from outside advocacy that says the US gets intelligence from Israel in exchange for the aid: only advocacy writers (AJC, JNS) claim it, so it is not stated as a fact.",
     "An audited figure for the share of aid dollars spent in the United States: no source gives one. The 14 percent in the answer is our arithmetic (450.3 divided by 3,300 million), counts only off-shore procurement, and is not fuel or other items.",
     "How much of the missile defence money is spent in the US each year: the Missile Defense Agency estimate is quoted from the CRS report only.",
-    "Three reliable sources for facts 2 and 3 (amounts spent in Israel; where grants go): the law and the CRS are government or primary; the CFR is the only independent reference.",
+    "Fact 1 (amounts spent in Israel): the FY2025 $450.3 million and the $769.3 million of the April 2024 supplemental are in the two public laws and the CRS report; I found no two outlets or scholars reporting those amounts (the Quincy brief gives only 'about 25 percent' and the Stimson guide a fiscal 2023 figure), so the fact stays short. A person would need a Defense News, CSIS or similar report of the fiscal 2025 off-shore procurement amount. Fact 2 (where grants go) now has the CFR, Hartung's Costs of War paper and the Quincy brief, besides the CRS.",
     "Three reliable sources for fact 4 (joint development) and fact 5 (US law): only two independent sites each.",
     "The text of National Security Memorandum 20 and the State Department's May 2024 report: the White House and State Department pages would not load, so both are described through the CRS, Lawfare, Just Security and Al Jazeera.",
-    "Three reliable sources for facts 8 and 9 (polls): the poll owners (Gallup, Pew) plus one news or think-tank report each. Pew's party-by-age breakdown of the military-aid question and Gallup's Republicans-by-age figures were not read.",
-    "The rescission order itself: it was not published; it is known from the Washington Post (via the CRS, Al Jazeera and a Reuters report) and Reuters could not confirm the order's existence independently, though officials said the directive was revoked. Whether the 2025 conventional arms transfer policy review replaced it was not read.",
+    "Fact 8 (Gallup): the poll owner plus AP and Al Jazeera. Fact 9 (Pew's military-aid question) is a record fact: Pew's report, with The Times of Israel and JNS reporting the same question; I read the Times of Israel through its Wayback copy. Pew's party-by-age breakdown and Gallup's Republicans-by-age figures were not read.",
+    "The rescission order itself: it was not published; it is known from the Washington Post (via the CRS, Al Jazeera and a Reuters report) and Reuters could not confirm the order's existence independently, though officials said the directive was revoked. Whether the 2025 conventional arms transfer policy review replaced it was not read. I looked again for a third independent report (Politico, Axios, AP, the White House) and found only copies of the Washington Post and Reuters reports; Yahoo and Breitbart also cite the Post.",
     "The month of Pew's survey: the cited Pew page is dated 3 October 2025 and does not state the field dates, so 'September 2025' in fact 9 is not confirmed on it.",
-    "Still short of three independent reliable sources (news, scholarly or reference): the amounts spent in Israel (CRS, two public laws and the CFR; the laws are one site), where the grants go (CFR and CRS only; the 2016 memorandum itself is not published), US law (statute text, which is primary, plus the CFR and Just Security), the rescission of NSM-20 (Al Jazeera, Reuters via the Times of Israel and JNS all rest on one Washington Post report; the Arms Control Association is advocacy and is not counted), and Pew's military-aid question (Pew, plus Brookings on a different Pew item). We searched for more and did not find them.",
-    "Round three: Al Jazeera and JNS both repeat the Washington Post's report of the rescission (and the CRS cites it too), so they are declared one source; only Reuters (two US officials and another source) is separate. Fact 8 carries the 'record' flag for Gallup's own poll page; AP and Al Jazeera report its headline numbers (41 and 36 percent, and 65 percent of Democrats in Al Jazeera) but not the Republican and age figures, which are on the Gallup page only."
+    "Still short of three independent reliable sources: fact 1 (amounts spent in Israel: CRS and two public laws, no outlet reporting the amounts) and fact 6 (the rescission of NSM-20: Al Jazeera and JNS rest on one Washington Post report, so only the Post and Reuters are separate; the Arms Control Association is advocacy and is not counted). To close fact 6 a person would need the order itself or another outlet's own reporting of it. We searched for more and did not find them.",
+    "Fact 8 carries the 'record' flag for Gallup's own poll page; AP and Al Jazeera report its headline numbers (41 and 36 percent, and 65 percent of Democrats in Al Jazeera) but not the Republican and age figures, which are on the Gallup page only."
   ],
   "not_claimed": [
     "This card does not say the aid should continue, or end.",

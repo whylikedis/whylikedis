@@ -10,7 +10,7 @@
       "quote": "Palestine is not the (Jewish) Promised Land or the land of the (Jewish) forefathers"
     }
   ],
-  "answer": "In the Quran 5:21 Moses tells his people to enter the holy land God assigned them; in 5:22-26 they refuse and it is forbidden to them for forty years. 7:137 and 10:93 say God made the oppressed people heirs of blessed lands and settled them in one; 17:104 says to dwell in the land and that He will bring them together at the Hereafter's promise, read by al-Jalalayn as the Hour. None names the land; commentators say Syria, Palestine or Jerusalem. Muslim scholars differ: Atiyyah Saqr of Al-Azhar and Sheikh Ahmad Saad held the promise lapsed with disobedience (Saqr's fatwa also predicts the Jews will not remain); al-Hussaini holds it unbroken. Genesis 17:8 gives Canaan to Abraham's descendants 'for an everlasting possession' (17:21 places the covenant with Isaac). Jerusalem and al-Aqsa are sacred in Islam: the Night Journey, the first direction of prayer.",
+  "answer": "In the Quran 5:21 Moses tells his people to enter the holy land God assigned them; in 5:24-26 they refuse and it is forbidden to them for forty years. 7:137 and 10:93 say God made the oppressed people heirs of blessed lands and settled them in one; 17:104 says to dwell in the land and that He will bring them together at the Hereafter's promise, read by al-Jalalayn as the Hour. None names the land; commentators say Syria, Palestine or Jerusalem. Muslim scholars differ: Atiyyah Saqr of Al-Azhar and Sheikh Ahmad Saad held the promise lapsed with disobedience (Saqr's fatwa also predicts the Jews will not remain); al-Hussaini holds it unbroken. Genesis 17:8 gives Canaan to Abraham's descendants 'for an everlasting possession' (17:21 places the covenant with Isaac). Jerusalem and al-Aqsa are sacred in Islam: the Night Journey, the first direction of prayer.",
   "facts": [
     {
       "text": "Quran 5:21 has Moses tell his people to enter the holy land that God has assigned to them.",
@@ -149,7 +149,7 @@
       "record": true
     },
     {
-      "text": "In Quran 5:22-24 the Israelites answer Moses that there is a powerful people in the land and that they will never enter it as long as those people remain: 'go, you and your Lord, and fight; we are staying right here'.",
+      "text": "In Quran 5:24 the Israelites tell Moses they will never enter the land as long as 'they' remain there, and 'go, you and your Lord, and fight; we are staying right here'.",
       "sources": [
         {
           "publisher": "Quran.com (Quran Foundation)",
@@ -454,12 +454,12 @@
           "archive": "",
           "quote": "Jerusalem, which was the original qibla (direction of prayer) before it was changed to Mecca",
           "accessed": "2026-11-20",
-          "kind": "reference"
+          "kind": "other"
         }
       ]
     },
     {
-      "text": "Jewish scripture states the tie to the land directly: Genesis 17:8 has God give Abraham and his descendants 'all the land of Canaan, for an everlasting possession'. The same chapter (17:21) says God's covenant will be established with Isaac, not Ishmael.",
+      "text": "The Hebrew Bible states a tie to the land directly: Genesis 17:8 has God give Abraham and his descendants after him 'all the land of Canaan, for an everlasting possession'. Genesis 17:21 says God's covenant will be established with Isaac.",
       "sources": [
         {
           "publisher": "Mechon Mamre (Hebrew-English Tanakh, JPS 1917)",
@@ -612,7 +612,8 @@
     "First-hand texts for al-Adwan (the Mida interview) and Palazzi (his Tablet essay): the card holds a news relay and a blurb.",
     "Scripture facts (Quran 5:21, 5:22-24, 5:26, 7:137, 10:93, 17:104; Genesis 17:8 and 17:21) are worded as what the text says, with the text itself as the record. The 'readers' are other editions or translations of the same text (Quranx, the Quranic Arabic Corpus, BibleGateway, eBible), which confirm that we copied it correctly; they are not independent opinions. Which reading of the text is right is not a fact on this card and belongs to contested.",
     "The answer does not rest on al-Adwan or Palazzi: both are read only second-hand (The Algemeiner's relay of a Mida magazine interview; First Things' summary of a Tablet essay whose page could not be read, including through the Wayback Machine). Fact 11 keeps them, marked as reported. A person should read Palazzi's essay 'Allah Is a Zionist' (Tablet, 18 March 2010) and the Mida interview with al-Adwan.",
-    "Facts that do not meet the gate's source rule: none by count. Fact 11 (the 'lasting' reading) has one first-hand voice (al-Hussaini); the other two are second-hand and the gate counts their relays."
+    "Facts that do not meet the gate's source rule: none by count. Fact 11 (the 'lasting' reading) has one first-hand voice (al-Hussaini); the other two are second-hand and the gate counts their relays.",
+    "FINAL REVIEW (2026-11-20): record rule. Facts 0 to 5 and 13 are worded only as what the verse says and the record was read (quran.com verse pages, Mechon Mamre) with the verse before and after. But the 'readers' (Quranx, the Quranic Arabic Corpus, BibleGateway, eBible) are other editions or translations of the same text, not readers; the only real readers of what 5:21 says are the commentaries on facts 6 to 9. The gate counts the editions; I do not. A person should decide whether independent translations by named translators are enough for a scripture record fact, or add a scholarly reader. Fact 12 (Jerusalem and al-Aqsa): Quran 17:1 does not name Jerusalem and the hadith names al-Aqsa only; the identification and the qibla rest on ReligionFacts (no named author, relabelled 'other'), so the fact now has two reliable sources. Fact 4: the card cited 5:24 only but said 5:22-24; reworded to 5:24."
   ],
   "not_claimed": [
     "That scripture settles a modern political question: who should govern the land, or what borders, is not answered by the verses quoted.",
@@ -624,7 +625,7 @@
   "content_approved": false,
   "answer_claims": [
     {
-      "says": "In the Quran 5:21 Moses tells his people to enter the holy land God assigned them; in 5:22-26 they refuse and it is forbidden to them for forty years.",
+      "says": "In the Quran 5:21 Moses tells his people to enter the holy land God assigned them; in 5:24-26 they refuse and it is forbidden to them for forty years.",
       "facts": [
         0,
         4,
@@ -673,12 +674,12 @@
     "skeptic": {
       "verdict": "weakened",
       "date": "2026-11-20",
-      "notes": "ROUND THREE. Read each commentary on its page for 7:137, 10:93, 17:104: Ibn Kathir (quran.com), al-Jalalayn (AlTafsir, Hamza translation) and Tanwir al-Miqbas (Quranx) are three different works and the card states what each says and where they differ (Sham; Egypt and Syria; Jerusalem, Palestine, Jordan and Egypt; Jordan and Palestine; the Hour or the descent of Jesus); the duplicate alim.org site is gone, so first-round and round-two doubts on facts 6-8 are closed. Fact 13 (Genesis 17:8, 17:21) checked in context and fair. Saad's attribution and words checked on the About Islam page. Moving Spencer and the Hamas charter to contested is honest: it is Spencer's own claim, quoted, the entry says it is his account and not a survey, and the answer no longer asserts it; it was not a way round the count. STILL THIN: fact 11 holds one first-hand voice (al-Hussaini); al-Adwan is read only through The Algemeiner's relay of a magazine interview, and Palazzi only through a First Things blurb that states his position in the blurb writer's words, so the fact text and the answer now say 'reported'. Fact 10: Saqr and Saad are both on About Islam and the Jordanian article never discusses 5:21, so directly on 5:21 the lapsed reading has two voices from one site; the gate counts three sites. Gate floor is met (14 of 14) but fact 11 is not three independent sources, so not verified. Strongest objection from Muslims: the card's 'lasting' voices are mostly second-hand and one runs through a pro-Israel outlet, while no survey says which reading is commoner. From Jewish readers: Saqr's fatwa predicts the Jews' defeat and is the card's main lapsed voice."
+      "notes": "Final review after the record rule. Read quran.com 5:21, 5:22, 5:24, 5:26, 7:137, 10:93, 17:104 and 17:1 in context: the texts match the facts. Saqr on About Islam (the quoted 'promise stands so long as ...' and 'they will never remain there forever' are on the page, and the fatwa hopes for 'another defeat and severe blow'; the card says so), the Jordanian Iftaa' article (Noah Ali Salman: 'final outcome belongs to the righteous', framed as 'the end of the battle between us and the Jews'), Saad (About Islam) and al-Hussaini (MEQ). Record flags: wording is honest on every flagged fact (each says what the verse says, not what it means). But the record rule is not met in substance: the two 'readers' are other editions of the same text (the writer admits it), so no scripture fact has a reader (must-fix, or a person decides translations by different named translators suffice). Fixed by me: (should-fix, done) fact 4 said 5:22-24 but cites 5:24; now 5:24. (should-fix, done) fact 13 said 'not Ishmael', which is a reading (Genesis 17:20 blesses Ishmael); now only what 17:8 and 17:21 say. (should-fix, done) ReligionFacts relabelled 'other' (no named author or institution). Still open: (must-fix) fact 11 (the 'lasting' reading) has one first-hand voice (al-Hussaini); al-Adwan and Palazzi are second-hand (relays), as the card says; (should-fix) fact 10: Saqr and Saad are on one site and the Jordanian article does not discuss 5:21; (should-fix) fact 12 identification of the farthest mosque with Jerusalem has no scholarly or Muslim source on the card; (nit) fact 3's 17:104 has three translators giving different renderings, now stated. Heard (al-Habbash) is a fair version. Strongest objection from Muslims: the 'lasting' voices are second-hand and one runs through a pro-Israel outlet, and no survey says which reading is commoner. From Jewish readers: Saqr's fatwa, the card's main 'lapsed' voice, also predicts the Jews' defeat. Status stays draft."
     },
     "citer": {
       "verdict": "holds",
       "date": "2026-11-20",
-      "notes": "ROUND THREE. Redid answer_claims: 6 sentences, each tied to facts, 150 words or fewer. CHANGED: the commentary sentence now ties to facts 6-9 (three works, not one); Saad added (fact 10); the 'unbroken' sentence says al-Adwan and Palazzi are only reported, so the answer does not rest on second-hand voices as if first-hand; Spencer is not in the answer because he is in contested, not a fact. No sentence is unsupported."
+      "notes": "Final review after the record rule. Six sentences, each tied to facts in answer_claims, 143 words. CHANGED: '5:22-26' became '5:24-26' (fact 4 now cites 5:24 only). The Genesis sentence is tied to fact 13, which now says only what 17:8 and 17:21 say. 'None names the land; commentators say Syria, Palestine or Jerusalem' is tied to facts 6 to 9 (the commentaries), not to the verses. No sentence lacks a fact. Holds."
     }
   }
 }

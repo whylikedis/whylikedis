@@ -1,0 +1,144 @@
+{
+  "id": "case-09",
+  "era": 1,
+  "claim": "John Snow ended the 1854 cholera outbreak in London by removing a pump handle.",
+  "heard": [
+    {
+      "who": "London Museum, 'John Snow: Cholera & the Broad Street pump'",
+      "url": "https://www.londonmuseum.org.uk/collections/london-stories/john-snow-cholera-broad-street-pump/",
+      "quote": "Snow convinced the local authorities to remove the pump handle, stopping people from using it. The cholera outbreak subsided.",
+      "archive": ""
+    },
+    {
+      "who": "JSTOR Daily, article by Matthew Wills",
+      "url": "https://daily.jstor.org/john-snow-and-the-birth-of-epidemiology",
+      "quote": "The water pump's handle was removed to render it inoperable. Cases of cholera plummeted afterwards.",
+      "archive": ""
+    }
+  ],
+  "answer": "Partly. In 1854 Snow plotted Soho's cholera deaths on a map and found them clustered around the Broad Street pump, and the authorities removed its handle after he took his findings to them. The outbreak had already peaked a week earlier, so removing the handle was not what first turned it around.",
+  "facts": [
+    {
+      "text": "In the 1854 Soho cholera outbreak, John Snow plotted the deaths on a map, and they clustered around the water pump on Broad Street (now Broadwick Street).",
+      "sources": [
+        {
+          "publisher": "London Museum",
+          "title": "John Snow: Cholera & the Broad Street pump",
+          "url": "https://www.londonmuseum.org.uk/collections/london-stories/john-snow-cholera-broad-street-pump/",
+          "archive": "",
+          "quote": "The map showed clearly that the deaths were clustered around a water pump on Broad Street, now Broadwick Street.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Science History Institute",
+          "title": "John Snow Hunts the Blue Death",
+          "url": "https://sciencehistory.org/distillations/john-snow-hunts-the-blue-death",
+          "archive": "",
+          "quote": "the eye is immediately drawn toward the thick black lines clustering around the epicenter, the location of the Broad Street water pump",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "JSTOR Daily",
+          "title": "John Snow and the Birth of Epidemiology",
+          "url": "https://daily.jstor.org/john-snow-and-the-birth-of-epidemiology",
+          "archive": "",
+          "quote": "What united all the cases? They got their water at this Broad Street pump in the Soho neighborhood.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "After Snow took his findings to the local authorities, the handle of the Broad Street pump was removed.",
+      "sources": [
+        {
+          "publisher": "London Museum",
+          "title": "John Snow: Cholera & the Broad Street pump",
+          "url": "https://www.londonmuseum.org.uk/collections/london-stories/john-snow-cholera-broad-street-pump/",
+          "archive": "",
+          "quote": "Snow convinced the local authorities to remove the pump handle, stopping people from using it. The cholera outbreak subsided.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Science History Institute",
+          "title": "John Snow Hunts the Blue Death",
+          "url": "https://sciencehistory.org/distillations/john-snow-hunts-the-blue-death",
+          "archive": "",
+          "quote": "Ultimately, it was an impressive enough case to convince the parish government to remove the pump's handle.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "JSTOR Daily",
+          "title": "John Snow and the Birth of Epidemiology",
+          "url": "https://daily.jstor.org/john-snow-and-the-birth-of-epidemiology",
+          "archive": "",
+          "quote": "The water pump's handle was removed to render it inoperable. Cases of cholera plummeted afterwards.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "The outbreak had already passed its peak before the handle was removed: deaths peaked on 1 September 1854 and the handle came off on 8 September.",
+      "sources": [
+        {
+          "publisher": "Journal of Epidemiology & Community Health",
+          "title": "Cholera and a tale of two cities",
+          "url": "https://jech.bmj.com/content/59/1/4.full",
+          "archive": "https://web.archive.org/web/2/https://jech.bmj.com/content/59/1/4.full",
+          "quote": "Sidney Chave's tabulation of the daily cases illustrates how the epidemic had already peaked on 1 September, whereas Snow removed the handle off the pump on 8 September.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "UCLA Department of Epidemiology, John Snow site (quoting the Rev. Henry Whitehead)",
+          "title": "Stream 2: Handle Removal, Index Case and Rev. Whitehead",
+          "url": "https://epi-snow.ph.ucla.edu/Stream2_BSPoutbreak_e.html",
+          "archive": "",
+          "quote": "the outbreak had already reached its climax, and had been steadily on the decline for several days before the pump-handle was removed.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Atlas Obscura",
+          "title": "Broad Street Cholera Pump",
+          "url": "https://assets.atlasobscura.com/places/broad-street-cholera-pump",
+          "archive": "",
+          "quote": "In reality, the outbreak was already in decline, and the specific contamination that had triggered the outbreak had probably come and gone.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    {
+      "text": "Whether removing the handle ended the outbreak. The Rev. Henry Whitehead said that the outbreak had already run its course, and that removing the handle probably prevented a new outbreak instead.",
+      "sources": [
+        {
+          "publisher": "UCLA Department of Epidemiology, John Snow site (quoting the Rev. Henry Whitehead)",
+          "title": "Stream 2: Handle Removal, Index Case and Rev. Whitehead",
+          "url": "https://epi-snow.ph.ucla.edu/Stream2_BSPoutbreak_e.html",
+          "archive": "",
+          "quote": "I must not omit to mention that if the removal of the pump-handle had nothing to do with checking the outbreak which had already run its course, it had probably everything to do with preventing a new outbreak",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        }
+      ]
+    }
+  ],
+  "could_not_verify": [
+    "Snow's own 1855 report, read directly; the accounts cited quote or describe it.",
+    "A count of how many lives the handle removal saved, if any."
+  ],
+  "not_claimed": [
+    "That Snow's map proved how cholera spreads; this card covers only the 1854 pump.",
+    "That the handle's removal made no difference at all."
+  ],
+  "status": "draft",
+  "content_approved": false
+}

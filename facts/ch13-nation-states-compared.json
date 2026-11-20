@@ -16,10 +16,10 @@
       "archive": ""
     }
   ],
-  "answer": "Preference for one people or faith is common. Pew counted 43 countries with an official religion and 40 more that favour one, including Denmark and the United Kingdom; Greece's constitution names Orthodoxy the prevailing religion. Germany, Greece, Ireland and Armenia give citizenship by descent or ethnic tie; Israel's Law of Return does so for Jews and their relatives, and the Palestinian Basic Law names Islam the official religion. Israel's Declaration of Independence promises complete equality; the 2018 Nation-State law says self-determination is unique to the Jewish people and does not mention equality. Scholars call Israel an ethnic democracy, an ethnocracy or a democracy, and many stress that it also rules millions of non-citizens in the West Bank. The United States limited naturalisation to free white persons in 1790, set national-origins quotas in 1924, and ended them in 1965.",
+  "answer": "Preferring one faith or people is common. Pew found 43 countries with an official religion and more than 80 favouring one, among them Denmark, the United Kingdom and Greece. Iran and Saudi Arabia are different in kind: religious law is state law there. Germany gives citizenship to people of German ethnic origin; Israel's Law of Return does so for Jews and their close relatives. Israel's Declaration of Independence promises complete equality; the 2018 Nation-State Law calls self-determination unique to the Jewish people and omits equality. Scholars call Israel an ethnic democracy or an ethnocracy. The United States offered naturalisation to free white persons in 1790, set national-origins quotas in 1924, and abolished them in 1965.",
   "facts": [
     {
-      "text": "Preferring one religion is common: Pew counted 43 of 199 countries with an official state religion and 40 more that favour one, over 80 in all; a survey of 177 countries in 2008 found 41 with a state religion and 77 that clearly favoured certain religions.",
+      "text": "Pew's 2017 report, covering 199 countries and territories, found more than 80 that favour a specific religion, 43 of them with an official state religion; a survey of 177 countries in 2008 found 41 with a state religion and 77 that clearly favoured certain religions (Springer), and Jonathan Fox's survey finds only a minority of states have separation of religion and state (Cambridge University Press).",
       "sources": [
         {
           "publisher": "Pew Research Center",
@@ -28,7 +28,18 @@
           "archive": "",
           "quote": "More than 80 countries favor a specific religion, either as an official, government-endorsed religion or by affording one religion preferential treatment over other faiths",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
+        },
+        {
+          "publisher": "Pew Research Center",
+          "title": "Many Countries Favor Specific Religions, Officially or Unofficially",
+          "url": "https://www.pewresearch.org/religion/2017/10/03/many-countries-favor-specific-religions-officially-or-unofficially/",
+          "archive": "",
+          "quote": "Among the 43 countries with a state religion, 27 (63%) name Sunni Islam, Shia Islam or just Islam in general as their official faith.",
+          "accessed": "2026-11-20",
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Springer (State and Religion: An Economic Approach)",
@@ -48,19 +59,21 @@
           "accessed": "2026-11-20",
           "kind": "scholarly"
         }
-      ]
+      ],
+      "record": true
     },
     {
       "text": "Denmark's constitution makes the Evangelical Lutheran Church the established church, supported by the state; Pew lists Denmark and the United Kingdom among 13 states with Christianity as the official religion, nine of them in Europe.",
       "sources": [
         {
-          "publisher": "Pew Research Center",
-          "title": "Many Countries Favor Specific Religions, Officially or Unofficially",
-          "url": "https://www.pewresearch.org/religion/2017/10/03/many-countries-favor-specific-religions-officially-or-unofficially/",
+          "publisher": "Constitute Project",
+          "title": "Denmark's Constitution of 1953 with Amendments through 2015",
+          "url": "https://www.constituteproject.org/constitution/Denmark_1953",
           "archive": "",
-          "quote": "Nine of these countries are in Europe, including the United Kingdom, Denmark, Monaco and Iceland.",
+          "quote": "The Evangelical Lutheran Church shall be the Established Church of Denmark",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "UNESCO (archived)",
@@ -70,8 +83,18 @@
           "quote": "The Evangelical Lutheran Church shall be the Established Church of Denmark, and, as such, it shall be supported by the State.",
           "accessed": "2026-11-20",
           "kind": "primary"
+        },
+        {
+          "publisher": "Pew Research Center",
+          "title": "Many Countries Favor Specific Religions, Officially or Unofficially",
+          "url": "https://www.pewresearch.org/religion/2017/10/03/many-countries-favor-specific-religions-officially-or-unofficially/",
+          "archive": "",
+          "quote": "Nine of these countries are in Europe, including the United Kingdom, Denmark, Monaco and Iceland.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
         }
-      ]
+      ],
+      "record": true
     },
     {
       "text": "The Church of England is the legally established church in England, with the monarch as supreme governor and automatic seats for some senior bishops in the House of Lords; Pew counts the United Kingdom among states with a Christian official religion.",
@@ -109,6 +132,16 @@
       "text": "Greece's constitution declares the Eastern Orthodox Church the prevailing religion, while protecting freedom of religious conscience.",
       "sources": [
         {
+          "publisher": "Constitute Project",
+          "title": "Greece's Constitution of 1975 with Amendments through 2008",
+          "url": "https://www.constituteproject.org/constitution/Greece_2008",
+          "archive": "",
+          "quote": "The prevailing religion in Greece is that of the Eastern Orthodox Church of Christ.",
+          "accessed": "2026-11-20",
+          "kind": "primary",
+          "is_record": true
+        },
+        {
           "publisher": "Greek Ministry of Education and Religious Affairs",
           "title": "The Constitution of Greece",
           "url": "https://religiousaffairs.minedu.gov.gr/en/general-secretariat-for-religious-affairs/regulatory-framework/the-constitution-of-greece",
@@ -118,18 +151,19 @@
           "kind": "primary"
         },
         {
-          "publisher": "Constitute Project",
-          "title": "Greece's Constitution of 1975 with Amendments through 2008",
-          "url": "https://www.constituteproject.org/constitution/Greece_2008",
+          "publisher": "Pew Research Center",
+          "title": "Many Countries Favor Specific Religions, Officially or Unofficially",
+          "url": "https://www.pewresearch.org/religion/2017/10/03/many-countries-favor-specific-religions-officially-or-unofficially/",
           "archive": "",
-          "quote": "The prevailing religion in Greece is that of the Eastern Orthodox Church of Christ.",
+          "quote": "Anglicanism in the United Kingdom; and Orthodox Christianity in Greece and Armenia.",
           "accessed": "2026-11-20",
           "kind": "primary"
         }
-      ]
+      ],
+      "record": true
     },
     {
-      "text": "Saudi Arabia and Iran are different in kind: religious law is state law. Iran's constitution requires all laws and regulations to be based on Islamic criteria, and Saudi Arabia's Basic Law names the Qur'an and the Sunnah as its constitution.",
+      "text": "Saudi Arabia and Iran are different in kind from a state that favours one faith: in both, religious law is state law. Iran's constitution (article 4) requires all laws and regulations to be based on Islamic criteria, and Saudi Arabia's Basic Law (article 7) says the Qur'an and the Prophet's Sunnah rule over its state laws.",
       "sources": [
         {
           "publisher": "Constitute Project",
@@ -138,16 +172,18 @@
           "archive": "",
           "quote": "all civil, penal, financial, economic, administrative, cultural, military, political, and other laws and regulations must be based on Islamic criteria",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Constitute Project",
           "title": "Saudi Arabia's Constitution of 1992 with Amendments through 2005",
           "url": "https://www.constituteproject.org/constitution/Saudi_Arabia_2005",
           "archive": "",
-          "quote": "The Kingdom of Saudi Arabia is a sovereign Arab Islamic State.",
+          "quote": "The regime derives its power from the Holy Qur'an and the Prophet's Sunnah which rule over this and all other state laws.",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Pew Research Center",
@@ -158,11 +194,22 @@
           "accessed": "2026-11-20",
           "kind": "primary"
         }
-      ]
+      ],
+      "record": true
     },
     {
-      "text": "Israel's Law of Return gives every Jew the right to immigrate, and since 1970 also a child, grandchild and spouse of a Jew; it defines a Jew as a person born of a Jewish mother or converted, not a member of another religion.",
+      "text": "The Law of Return, 5710-1950, says every Jew has the right to come to Israel as an oleh; the 1970 amendment extends the rights to a child and a grandchild of a Jew, and defines a Jew as a person born of a Jewish mother or converted to Judaism who is not a member of another religion.",
       "sources": [
+        {
+          "publisher": "International Commission of Jurists (copy of the Law)",
+          "title": "The Law of Return, 5710-1950",
+          "url": "https://icj.org/wp-content/uploads/2013/06/Israel-The-Law-of-Return-5710-1950-eng.pdf",
+          "archive": "",
+          "quote": "Every Jew has the right to come to this country as an \"oleh\".",
+          "accessed": "2026-11-20",
+          "kind": "primary",
+          "is_record": true
+        },
         {
           "publisher": "Jewish Virtual Library",
           "title": "Israel's Basic Laws: The Law of Return",
@@ -182,15 +229,16 @@
           "kind": "government"
         },
         {
-          "publisher": "Israel Democracy Institute",
-          "title": "Nation-State Law Explainer",
-          "url": "https://en.idi.org.il/articles/24241",
+          "publisher": "Jewish Virtual Library",
+          "title": "Israel's Law of Return",
+          "url": "https://jewishvirtuallibrary.org/israel-s-law-of-return",
           "archive": "",
-          "quote": "The State of Israel will be open for Jewish immigration and for the Ingathering of the Exiles",
+          "quote": "for the purposes of this law, \"Jew\" means a person who was born of a Jewish mother or has become converted to Judaism and who is not a member of another religion.",
           "accessed": "2026-11-20",
-          "kind": "scholarly"
+          "kind": "reference"
         }
-      ]
+      ],
+      "record": true
     },
     {
       "text": "Germany's Basic Law (Article 116) counts as German a person admitted as a refugee or expellee of German ethnic origin (deutsche Volkszugehörigkeit), including late emigrants (Spätaussiedler) of German ethnicity from the former Soviet Union and Eastern Europe, who acquire citizenship on admission.",
@@ -202,7 +250,8 @@
           "archive": "",
           "quote": "wer die deutsche Staatsangehörigkeit besitzt oder als Flüchtling oder Vertriebener deutscher Volkszugehörigkeit",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Federal Agency for Civic Education (bpb), Jannis Panagiotidis",
@@ -222,7 +271,8 @@
           "accessed": "2026-11-20",
           "kind": "reference"
         }
-      ]
+      ],
+      "record": true
     },
     {
       "text": "Greek citizenship law rests on descent (ius sanguinis) and distinguishes people of Greek descent (homogeneis) from others; people of Greek origin from the former Soviet states were granted citizenship through special procedures.",
@@ -257,7 +307,7 @@
       ]
     },
     {
-      "text": "Ireland lets people who derive citizenship through an Irish-born parent or grandparent register on its Foreign Births Register, so descent abroad can lead to Irish citizenship.",
+      "text": "Section 27 of the Irish Nationality and Citizenship Act 1956 provides for registering births outside Ireland of persons deriving citizenship through a parent, under foreign births regulations; the Irish immigration service lists a parent's or grandparent's birth certificate among the documents for citizenship by descent.",
       "sources": [
         {
           "publisher": "Irish Statute Book",
@@ -266,7 +316,8 @@
           "archive": "",
           "quote": "the birth outside Ireland of a person deriving citizenship through a father or mother born outside Ireland may be registered, in accordance with the foreign births regulations",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Immigration Service Delivery (Ireland)",
@@ -286,7 +337,8 @@
           "accessed": "2026-11-20",
           "kind": "reference"
         }
-      ]
+      ],
+      "record": true
     },
     {
       "text": "Armenia grants citizenship to ethnic Armenians without a residency or language requirement.",
@@ -321,6 +373,16 @@
           "archive": "",
           "quote": "Islam is the official religion in Palestine. Respect for the sanctity of all other divine religions shall be maintained.",
           "accessed": "2026-11-20",
+          "kind": "primary",
+          "is_record": true
+        },
+        {
+          "publisher": "Constitute Project",
+          "title": "Palestine's Constitution of 2003 with Amendments through 2005",
+          "url": "https://www.constituteproject.org/constitution/Palestine_2005",
+          "archive": "",
+          "quote": "The principles of Islamic Shari'a shall be a principal source of legislation.",
+          "accessed": "2026-11-20",
           "kind": "primary"
         },
         {
@@ -332,7 +394,8 @@
           "accessed": "2026-11-20",
           "kind": "primary"
         }
-      ]
+      ],
+      "record": true
     },
     {
       "text": "Israel's 1948 Declaration of Independence promised that the state would ensure complete equality of social and political rights to all its inhabitants irrespective of religion, race or sex, and would be open to Jewish immigration.",
@@ -344,7 +407,8 @@
           "archive": "",
           "quote": "it will ensure complete equality of social and political rights to all its inhabitants irrespective of religion, race or sex",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Israel Democracy Institute",
@@ -364,7 +428,8 @@
           "accessed": "2026-11-20",
           "kind": "scholarly"
         }
-      ]
+      ],
+      "record": true
     },
     {
       "text": "The 2018 Nation-State Basic Law says the right to exercise national self-determination in Israel is unique to the Jewish people, makes Hebrew the state language and gives Arabic a special status, and encourages Jewish settlement.",
@@ -408,7 +473,7 @@
       ]
     },
     {
-      "text": "The Nation-State Law omits any mention of equality and democracy, which critics call a break from the Declaration; the Supreme Court held in 2021 that it does not negate Israel's democratic character, and an INSS analyst found nothing in it that explicitly permits discrimination.",
+      "text": "The Nation-State Law makes no mention of equality and democracy (CNN); an Israel Democracy Institute critique says it excludes minorities, omits equality and ignores democracy and the Declaration of Independence; an INSS analysis finds nothing explicit in the Law that permits discrimination against non-Jews.",
       "sources": [
         {
           "publisher": "CNN",
@@ -440,7 +505,7 @@
       ]
     },
     {
-      "text": "In Freedom House's 2026 edition Israel scores 73 of 100 (Free) while the West Bank scores 22 (Not Free); V-Dem's 2025 liberal democracy index (0 to 1) puts Israel at 0.588.",
+      "text": "Freedom House's Freedom in the World 2026 scores Israel 73 of 100 (Free), the West Bank 22 (Not Free) and the Gaza Strip 2 (Not Free); V-Dem's 2025 liberal democracy index (0 to 1), as reproduced by an aggregator, lists Israel at 0.588.",
       "sources": [
         {
           "publisher": "Freedom House",
@@ -449,7 +514,8 @@
           "archive": "",
           "quote": "population 9,558,000 Global Freedom Score 73 100 Free",
           "accessed": "2026-11-20",
-          "kind": "reference"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Freedom House",
@@ -458,7 +524,8 @@
           "archive": "",
           "quote": "West Bank 22 / 100 Not Free Gaza Strip 2 / 100 Not Free",
           "accessed": "2026-11-20",
-          "kind": "reference"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Nations Inquiry (aggregator of V-Dem data; no named author)",
@@ -469,10 +536,11 @@
           "accessed": "2026-11-20",
           "kind": "other"
         }
-      ]
+      ],
+      "record": true
     },
     {
-      "text": "Comparison countries in Freedom House 2026 (out of 100): Ireland 98, Denmark 97, Germany 95, United Kingdom 92, Greece 85, Armenia 54 (Partly Free), Iran 10 and Saudi Arabia 9 (Not Free); V-Dem liberal democracy index 2025: Germany 0.782, Greece 0.568, Armenia 0.371, Saudi Arabia 0.047.",
+      "text": "Freedom House's Freedom in the World 2026 scores, out of 100: Ireland 98, Denmark 97, Germany 95, United Kingdom 92, Greece 85, Armenia 54 (Partly Free), Iran 10 and Saudi Arabia 9 (Not Free); V-Dem's 2025 liberal democracy index (0 to 1), as reproduced by an aggregator, lists Germany 0.782, Greece 0.568, Armenia 0.371 and Saudi Arabia 0.047. An index score is a rating by its authors, not a count.",
       "sources": [
         {
           "publisher": "Freedom House",
@@ -481,7 +549,8 @@
           "archive": "",
           "quote": "population 83,800,000 Global Freedom Score 95 100 Free",
           "accessed": "2026-11-20",
-          "kind": "reference"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Freedom House",
@@ -490,7 +559,8 @@
           "archive": "",
           "quote": "population 10,430,000 Global Freedom Score 85 100 Free",
           "accessed": "2026-11-20",
-          "kind": "reference"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Freedom House",
@@ -499,7 +569,8 @@
           "archive": "",
           "quote": "population 5,127,000 Global Freedom Score 98 100 Free",
           "accessed": "2026-11-20",
-          "kind": "reference"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Freedom House",
@@ -508,7 +579,8 @@
           "archive": "",
           "quote": "population 5,903,000 Global Freedom Score 97 100 Free",
           "accessed": "2026-11-20",
-          "kind": "reference"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Freedom House",
@@ -517,7 +589,8 @@
           "archive": "",
           "quote": "population 66,970,000 Global Freedom Score 92 100 Free",
           "accessed": "2026-11-20",
-          "kind": "reference"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Freedom House",
@@ -526,7 +599,8 @@
           "archive": "",
           "quote": "population 2,780,000 Global Freedom Score 54 100 Partly Free",
           "accessed": "2026-11-20",
-          "kind": "reference"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Freedom House",
@@ -535,7 +609,8 @@
           "archive": "",
           "quote": "population 36,410,000 Global Freedom Score 9 100 Not Free",
           "accessed": "2026-11-20",
-          "kind": "reference"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Freedom House",
@@ -544,7 +619,8 @@
           "archive": "",
           "quote": "population 88,550,000 Global Freedom Score 10 100 Not Free",
           "accessed": "2026-11-20",
-          "kind": "reference"
+          "kind": "primary",
+          "is_record": true
         },
         {
           "publisher": "Nations Inquiry (aggregator of V-Dem data; no named author)",
@@ -555,11 +631,22 @@
           "accessed": "2026-11-20",
           "kind": "other"
         }
-      ]
+      ],
+      "record": true
     },
     {
-      "text": "The Naturalization Act of 1790 limited naturalisation to free white persons.",
+      "text": "The Naturalization Act of 26 March 1790 offered admission to citizenship to any alien who was a free white person after two years' residence.",
       "sources": [
+        {
+          "publisher": "U.S. Government Publishing Office (Statutes at Large)",
+          "title": "An act to establish an uniform rule of naturalization (1 Stat. 103)",
+          "url": "https://www.govinfo.gov/content/pkg/STATUTE-1/pdf/STATUTE-1-Pg103.pdf",
+          "archive": "",
+          "quote": "any alien, being a free white person, who shall have resided within the limits and under the jurisdiction of the United States for the term of two years, may be admitted to become a citizen thereof",
+          "accessed": "2026-11-20",
+          "kind": "government",
+          "is_record": true
+        },
         {
           "publisher": "Migration Policy Institute",
           "title": "Major U.S. Immigration Laws, 1790 - Present",
@@ -577,29 +664,22 @@
           "quote": "signed into law by President George Washington, this act defined eligibility for citizenship by naturalization to \"free white persons.\"",
           "accessed": "2026-11-20",
           "kind": "scholarly"
-        },
-        {
-          "publisher": "National Academies Press",
-          "title": "The Integration of Immigrants into American Society",
-          "url": "https://www.nationalacademies.org/read/21746/chapter/4",
-          "archive": "https://web.archive.org/web/2/https://www.nationalacademies.org/read/21746/chapter/4",
-          "quote": "restricted naturalization to any \"free white person\"",
-          "accessed": "2026-11-20",
-          "kind": "scholarly"
         }
-      ]
+      ],
+      "record": true
     },
     {
-      "text": "In the first century after the founding the federal government did little to regulate immigration; federal restriction began with the Chinese Exclusion Act of 1882 and the 1917 Act.",
+      "text": "The preamble of the Chinese Exclusion Act of 6 May 1882 states that, in the opinion of the government, the coming of Chinese laborers endangers the good order of certain localities; the Migration Policy Institute says the Chinese Exclusion Acts of 1882 onward marked the first laws restricting immigration by race.",
       "sources": [
         {
-          "publisher": "National Academies Press",
-          "title": "The Integration of Immigrants into American Society",
-          "url": "https://www.nationalacademies.org/read/21746/chapter/4",
-          "archive": "https://web.archive.org/web/2/https://www.nationalacademies.org/read/21746/chapter/4",
-          "quote": "The federal government did little to regulate immigration, citizenship, and integration in the first century after the nation's founding.",
+          "publisher": "U.S. Government Publishing Office (Statutes at Large)",
+          "title": "An act to execute certain treaty stipulations relating to Chinese (22 Stat. 58)",
+          "url": "https://www.govinfo.gov/content/pkg/STATUTE-22/pdf/STATUTE-22-Pg58.pdf",
+          "archive": "",
+          "quote": "in the opinion of the Government of the United States the coming of Chinese laborers to this country endangers the good order of certain localities within the territory thereof",
           "accessed": "2026-11-20",
-          "kind": "scholarly"
+          "kind": "government",
+          "is_record": true
         },
         {
           "publisher": "Migration Policy Institute",
@@ -609,20 +689,41 @@
           "quote": "the Chinese Exclusion Acts of 1882 onward marked the first laws restricting immigration by race",
           "accessed": "2026-11-20",
           "kind": "reference"
+        },
+        {
+          "publisher": "SUNY Ulster faculty page (Summary of Immigration Laws, 1875-1918; no named editor)",
+          "title": "Summary of Immigration Laws, 1875-1918",
+          "url": "https://people.sunyulster.edu/voughth/immlaws1875_1918.htm",
+          "archive": "",
+          "quote": "Chinese Exclusion Act of May 6, 1882 (22 Statutes-at-Large 58) provisions: suspended immigration of Chinese laborers to the United States for ten years.",
+          "accessed": "2026-11-20",
+          "kind": "other"
         }
-      ]
+      ],
+      "record": true
     },
     {
-      "text": "The Immigration Act of 1924 set national-origins quotas at two percent of each nationality in the 1890 census, favouring northern and western Europe and effectively barring Asian immigration.",
+      "text": "The Immigration Act of 1924 set each nationality's annual quota at 2 per cent of its foreign-born residents counted in the 1890 census (minimum 100) and barred aliens ineligible to citizenship, a category that at the time included Asian immigrants.",
       "sources": [
         {
-          "publisher": "U.S. Department of State, Office of the Historian",
-          "title": "The Immigration Act of 1924 (The Johnson-Reed Act)",
-          "url": "https://history.state.gov/milestones/1921-1936/immigration-act",
+          "publisher": "U.S. Government Publishing Office (Statutes at Large)",
+          "title": "The Immigration Act of 1924 (43 Stat. 153)",
+          "url": "https://www.govinfo.gov/content/pkg/STATUTE-43/pdf/STATUTE-43-Pg153-2.pdf",
           "archive": "",
-          "quote": "The quota provided immigration visas to two percent of the total number of people of each nationality in the United States as of the 1890 national census",
+          "quote": "the number of foreign-born individuals of such nationality resident in continental United States as determined by the United States census of 1890, but the minimum quota of any nationality shall be 100.",
           "accessed": "2026-11-20",
-          "kind": "government"
+          "kind": "government",
+          "is_record": true
+        },
+        {
+          "publisher": "U.S. Government Publishing Office (Statutes at Large)",
+          "title": "The Immigration Act of 1924 (43 Stat. 153)",
+          "url": "https://www.govinfo.gov/content/pkg/STATUTE-43/pdf/STATUTE-43-Pg153-2.pdf",
+          "archive": "",
+          "quote": "no alien ineligible to citizenship shall be admitted to the mitted. exceptions. United States unless such alien",
+          "accessed": "2026-11-20",
+          "kind": "government",
+          "is_record": true
         },
         {
           "publisher": "George Mason University, Institute for Immigration Research",
@@ -634,36 +735,74 @@
           "kind": "scholarly"
         },
         {
-          "publisher": "National Academies Press",
-          "title": "The Integration of Immigrants into American Society",
-          "url": "https://www.nationalacademies.org/read/21746/chapter/4",
-          "archive": "https://web.archive.org/web/2/https://www.nationalacademies.org/read/21746/chapter/4",
-          "quote": "Established strict national origin quotas restricting large-scale immigration from eastern and southern Europe and effectively barred Asian immigration",
+          "publisher": "George Mason University, Institute for Immigration Research",
+          "title": "Historical Timeline of Immigration Policies",
+          "url": "https://iir.gmu.edu/historical-timeline-policies",
+          "archive": "",
+          "quote": "aliens ineligible for citizenship,\" which at the time included Asian immigrant men.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Migration Policy Institute",
+          "title": "Major U.S. Immigration Laws, 1790 - Present",
+          "url": "https://www.migrationpolicy.org/publication/major-us-immigration-laws-1790-present",
+          "archive": "",
+          "quote": "the national-origins quota system established in 1921 and expanded in 1924",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ],
+      "record": true
+    },
+    {
+      "record": true,
+      "text": "The Immigration and Nationality Act of 1952 provided that the right to become a naturalized citizen shall not be denied because of race or sex, and set each quota area's annual quota at one-sixth of 1 per cent of the 1920 inhabitants of the continental United States 'attributable by national origin'.",
+      "sources": [
+        {
+          "publisher": "U.S. Government Publishing Office (Statutes at Large)",
+          "title": "Immigration and Nationality Act of 1952 (66 Stat. 163)",
+          "url": "https://www.govinfo.gov/content/pkg/STATUTE-66/pdf/STATUTE-66-Pg163.pdf",
+          "archive": "",
+          "quote": "The right of a person to become a naturalized citizen of the United States shall not be denied or abridged because of race or sex or because such person is married.",
+          "accessed": "2026-11-20",
+          "kind": "government",
+          "is_record": true
+        },
+        {
+          "publisher": "U.S. Government Publishing Office (Statutes at Large)",
+          "title": "Immigration and Nationality Act of 1952 (66 Stat. 163)",
+          "url": "https://www.govinfo.gov/content/pkg/STATUTE-66/pdf/STATUTE-66-Pg163.pdf",
+          "archive": "",
+          "quote": "the annual quota of any quota area shall be one-sixth of 1 per centum of the number of inhabitants in the continental United States in 1920",
+          "accessed": "2026-11-20",
+          "kind": "government",
+          "is_record": true
+        },
+        {
+          "publisher": "George Mason University, Institute for Immigration Research",
+          "title": "Historical Timeline of Immigration Policies",
+          "url": "https://iir.gmu.edu/historical-timeline-policies",
+          "archive": "",
+          "quote": "removing racial restrictions on citizenship by naturalization, maintained the national origins quota system that favored immigrants who resided in northern and western Europe",
           "accessed": "2026-11-20",
           "kind": "scholarly"
         }
       ]
     },
     {
-      "text": "The 1952 Immigration and Nationality Act removed race-based bars to naturalisation but kept national-origins quotas; the 1965 Hart-Celler Act abolished those quotas and replaced them with a preference system based mainly on family ties and skills.",
+      "record": true,
+      "text": "The Immigration and Nationality Act amendments of 1965 (Public Law 89-236) provided that no person shall receive any preference or be discriminated against in the issuance of an immigrant visa because of race, sex, nationality, place of birth or place of residence, with exceptions the Act lists; the Migration Policy Institute and NPR report that the Hart-Celler Act abolished the national-origins quota system.",
       "sources": [
         {
-          "publisher": "George Mason University, Institute for Immigration Research",
-          "title": "Historical Timeline of Immigration Policies",
-          "url": "https://iir.gmu.edu/historical-timeline-policies",
+          "publisher": "U.S. Government Publishing Office (Statutes at Large)",
+          "title": "Immigration and Nationality Act Amendments of 1965 (79 Stat. 911)",
+          "url": "https://www.govinfo.gov/content/pkg/STATUTE-79/pdf/STATUTE-79-Pg911.pdf",
           "archive": "",
-          "quote": "Although President Harry S. Truman vetoed this Act, Congress overrode his veto.",
+          "quote": "no person shall receive any preference or priority or be discriminated against in the issuance of an immigrant visa because of his race, sex, nationality, place of birth, or place of residence",
           "accessed": "2026-11-20",
-          "kind": "scholarly"
-        },
-        {
-          "publisher": "National Academies Press",
-          "title": "The Integration of Immigrants into American Society",
-          "url": "https://www.nationalacademies.org/read/21746/chapter/4",
-          "archive": "https://web.archive.org/web/2/https://www.nationalacademies.org/read/21746/chapter/4",
-          "quote": "Abolished national origin quotas; established a preference system based primarily on family reunification",
-          "accessed": "2026-11-20",
-          "kind": "scholarly"
+          "kind": "government",
+          "is_record": true
         },
         {
           "publisher": "Migration Policy Institute",
@@ -673,6 +812,15 @@
           "quote": "The landmark 1965 Hart-Cellar Act abolished the national-origins quota system",
           "accessed": "2026-11-20",
           "kind": "reference"
+        },
+        {
+          "publisher": "NPR",
+          "title": "In 1965, A Conservative Tried To Keep America White. His Plan Backfired",
+          "url": "https://www.npr.org/2015/10/03/445339838/the-unintended-consequences-of-the-1965-immigration-act",
+          "archive": "",
+          "quote": "signed at the foot of the Statue of Liberty on Oct. 3, 1965, abolished the national origin quota system",
+          "accessed": "2026-11-20",
+          "kind": "news"
         }
       ]
     },
@@ -798,36 +946,38 @@
       ]
     },
     {
-      "text": "Whether America was open to immigration from its founding: the National Academies note the first century's lack of federal oversight of immigration, while the 1790 law limited naturalisation to free white persons.",
+      "text": "How open early America was to immigration: the Migration Policy Institute describes policy as swinging between openness and restriction since 1790, and the 1790 Act offered naturalisation only to free white persons.",
       "sources": [
         {
-          "publisher": "National Academies Press",
-          "title": "The Integration of Immigrants into American Society",
-          "url": "https://www.nationalacademies.org/read/21746/chapter/4",
-          "archive": "https://web.archive.org/web/2/https://www.nationalacademies.org/read/21746/chapter/4",
-          "quote": "The federal government did little to regulate immigration, citizenship, and integration in the first century after the nation's founding.",
+          "publisher": "Migration Policy Institute",
+          "title": "Major U.S. Immigration Laws, 1790 - Present",
+          "url": "https://www.migrationpolicy.org/publication/major-us-immigration-laws-1790-present",
+          "archive": "",
+          "quote": "swung between openness and restriction since 1790, with each era's legislation shaped by labor needs, national security fears, and racial politics",
           "accessed": "2026-11-20",
-          "kind": "scholarly"
+          "kind": "reference"
         },
         {
-          "publisher": "George Mason University, Institute for Immigration Research",
-          "title": "Historical Timeline of Immigration Policies",
-          "url": "https://iir.gmu.edu/historical-timeline-policies",
+          "publisher": "U.S. Government Publishing Office (Statutes at Large)",
+          "title": "An act to establish an uniform rule of naturalization (1 Stat. 103)",
+          "url": "https://www.govinfo.gov/content/pkg/STATUTE-1/pdf/STATUTE-1-Pg103.pdf",
           "archive": "",
-          "quote": "signed into law by President George Washington, this act defined eligibility for citizenship by naturalization to \"free white persons.\"",
+          "quote": "any alien, being a free white person, who shall have resided within the limits and under the jurisdiction of the United States for the term of two years, may be admitted to become a citizen thereof",
           "accessed": "2026-11-20",
-          "kind": "scholarly"
+          "kind": "government"
         }
       ]
     }
   ],
   "could_not_verify": [
+    "Two further reliable sites (besides the record) for: the Irish foreign births rule (the Irish government page does not count and Lewis Silkin is one reliable page); the Law of Return (Jewish Virtual Library only; the Immigration and Refugee Board is a government page); the 1952 Act (George Mason only); the 1882 Act; Saudi Arabia and Iran (Pew counts them among states favouring Islam but does not say religious law is state law); the Freedom House and V-Dem scores (Freedom House is the record; V-Dem rows come from an aggregator, kind other, never counted). A person would need a scholarly or reference page on each.",
+    "A third independent source for the Greek and Armenian descent rules (Greek and Armenian government pages do not count; GLOBALCIT and bpb are the readable reliable pages).",
+    "The Nation-State Law and the Law of Return on the Knesset's own site: the pages return nothing to the checker. The Law of Return text was read in a copy hosted by the International Commission of Jurists; the Nation-State Law rests on Middle East Eye, CNN and Freedom House (an unofficial translation hosted by Adalah, an advocacy group, was read but is not cited as the record).",
+    "The Supreme Court's 2021 ruling on the Nation-State Law: removed from the Nation-State fact because no readable page carried the ruling; a person would need the judgment or its Knesset or court summary.",
     "A V-Dem figure from v-dem.net itself: the Democracy Report PDF reads but its country table is garbled, so the V-Dem rows come from an aggregator (Nations Inquiry, kind other, never counted).",
     "Minority-rights-specific scores for Israel against the comparison countries: the Freedom House and V-Dem pages read give overall scores, not a minority-rights score.",
-    "A third independent source for the Greek, Irish, Armenian and German descent rules: the law's official text or a government page plus one scholarly or reference page is what was readable.",
-    "The text of the Law of Return and the Nation-State Law on the Knesset's own site (nothing readable); the texts come from Jewish Virtual Library and Middle East Eye, which say they reproduce the Knesset text.",
-    "The Times of Israel and New York Times pages on the Nation-State Law, the Greek Parliament and Library of Congress pages, the Wiley page of Smooha (2002), Yiftachel's own paper and Britannica's Church of England page blocked the checker; each was replaced by a readable page or removed.",
-    "A readable primary text of the 1790 and 1965 Acts: the facts rest on three secondary sources."
+    "A second reliable source for the scholarly classification of Israel (Smooha, Yiftachel): Smooha's article copy and Public Seminar are two sites; Yiftachel's own paper and the Wiley page blocked the checker.",
+    "National Academies Press (nationalacademies.org/read/21746/chapter/4) refuses the checker (HTTP 403), so every claim that rested on it was replaced by a statute text or other source; dropped: that the federal government did little to regulate immigration in the first century, and the 1917 Act. A person would need a readable source for both."
   ],
   "not_claimed": [
     "That preferring one people or religion is harmless: it can disadvantage minorities, and several of these states have been criticised for it.",

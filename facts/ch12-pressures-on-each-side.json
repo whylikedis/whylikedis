@@ -19,7 +19,7 @@
   "answer": "Israelis faced Hamas and Islamic Jihad suicide bombings that began before Oslo and peaked in the second intifada; Hamas claimed its April 1994 Afula attack as vengeance for the Hebron massacre, in which a settler killed 29 Muslims. B'Tselem's count to January 2005, via BBC: 950 Israelis killed by Palestinians, 3,135 Palestinians killed by Israeli security forces; the Palestinian Center for Human Rights counts at least 4,973 over the whole intifada. An Israeli opponent of Oslo murdered Rabin in 1995, and after the 2005 Gaza withdrawal rockets kept coming. Palestinians faced a settler population that grew from 115,000 to 200,000 between 1993 and 2000, and closures the World Bank called a key factor behind an economic crisis. Iran backed groups that opposed Oslo; Fatah and Hamas split in 2007. Our reading: neither side's pressure explains the failure alone, and both did wrong.",
   "facts": [
     {
-      "text": "During the Oslo years Hamas and Islamic Jihad carried out suicide bombings against Israelis: BBC counts about 120 Israelis killed in suicide attacks from 1994 to September 2000, and Human Rights Watch counts fourteen suicide attacks on civilians between September 1993 and September 2000. Hamas had begun the tactic in April 1993, before the first Oslo accord.",
+      "text": "During the Oslo years Hamas and Islamic Jihad carried out suicide bombings against Israelis: BBC counts about 120 Israelis killed in suicide attacks from 1994 to September 2000, and Human Rights Watch counts fourteen suicide attacks on civilians between September 1993 and September 2000. Hamas had begun the tactic in April 1993, before the first Oslo accord. The Institute for National Security Studies counts more than 30 suicide attacks by Hamas and Islamic Jihad between 1993 and 2000; the counts differ with what each source counts as a suicide attack.",
       "sources": [
         {
           "publisher": "BBC News",
@@ -47,11 +47,20 @@
           "quote": "Palestinian groups carried out fourteen suicide bombing attacks against Israeli civilians, mostly in 1996-97, killing more than 120 and wounding over 550.",
           "accessed": "2026-11-20",
           "kind": "advocacy"
+        },
+        {
+          "publisher": "Institute for National Security Studies (Tel Aviv University)",
+          "title": "The Rise and Fall of Suicide Bombings in the Second Intifada (Yoram Schweitzer, INSS)",
+          "url": "https://inss.org.il/wp-content/uploads/sites/2/systemfiles/%28FILE%291289896644.pdf",
+          "archive": "",
+          "quote": "Hamas and Islamic Jihad, organizations opposed to the political process, carried out more than 30 suicide attacks",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
         }
       ]
     },
     {
-      "text": "On 25 February 1994 an Israeli settler, Baruch Goldstein, killed 29 Muslims in Hebron. Hamas's first suicide bombing inside Israel followed on 6 April 1994, at Afula, which the Christian Science Monitor reported Hamas claimed as vengeance for the Hebron massacre; BBC dates the first suicide attack to Afula in April 1994, with eight killed (the Monitor's later chronology says nine).",
+      "text": "On 25 February 1994 an Israeli settler, Baruch Goldstein, killed 29 Muslims in Hebron. Hamas's first suicide bombing inside Israel followed on 6 April 1994, at Afula, which the Christian Science Monitor reported Hamas claimed as vengeance for the Hebron massacre; BBC dates the first suicide attack to Afula in April 1994, with eight killed (BBC and JTA say eight; the Associated Press list and the Monitor's later chronology say nine).",
       "sources": [
         {
           "publisher": "The Christian Science Monitor",
@@ -79,11 +88,40 @@
           "quote": "First suicide attack: Hamas kills eight people in Afula in April 1994",
           "accessed": "2026-11-20",
           "kind": "news"
+        },
+        {
+          "publisher": "Jewish Telegraphic Agency",
+          "title": "A chronology of suicide bombings",
+          "url": "https://jta.org/?p=403410",
+          "archive": "",
+          "quote": "a suicide car-bombing at a bus stop in the northern Israeli town of Afula kills eight people and wounds 50. Hamas claims responsibility.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Fox News (Associated Press)",
+          "title": "Major attacks since 1993 Oslo accords",
+          "url": "https://foxnews.com/story/major-attacks-since-1993-oslo-accords.amp",
+          "archive": "",
+          "quote": "Baruch Goldstein opens fire at Hebron's Tomb of the Patriarchs, killing 29 Muslim worshippers. A mob kills him.",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AP"
+        },
+        {
+          "publisher": "Fox News (Associated Press)",
+          "title": "Major attacks since 1993 Oslo accords",
+          "url": "https://foxnews.com/story/major-attacks-since-1993-oslo-accords.amp",
+          "archive": "",
+          "quote": "car rigged with explosives detonates next to bus in Afula in northern Israel. Nine Israelis killed, 45 wounded.",
+          "accessed": "2026-11-20",
+          "kind": "news",
+          "wire": "AP"
         }
       ]
     },
     {
-      "text": "Israelis killed, by counter and period (B'Tselem, whose data both BBC and the UN's OCHA use, counts once):  Israel's Security Agency (Shin Bet) series, read from its flattened chart, is 44 (from 29 September 2000), 207 (2001), 451 (2002), 208 (2003), 117 (2004), 56 (2005), 30 (2006), 13 (2007) and 36 (2008), 1,162 in all; BBC, using B'Tselem's figures, counts 950 killed by Palestinians to January 2005 (431 civilians in Israel, 218 civilians in the territories, 301 security forces), and counts 144 dead in suicide attacks in 2003, 55 in 2004 and 23 in 2005. The UN's humanitarian office, which draws on B'Tselem data, counts 1,024 Israelis killed to July 2007 and notes that Israeli civilian deaths peaked in 2002 at an average of 22 a month and fell to about one a month in 2007.",
+      "text": "Counters used for the Israeli dead: Israel's Security Agency (an Israeli government series for 2000 to 2008) and B'Tselem (an Israeli rights group, relayed by BBC and by the UN's OCHA, so one count); the Palestinian side published no count of Israeli deaths that we found. Israelis killed, by counter and period (B'Tselem, whose data both BBC and the UN's OCHA use, counts once):  Israel's Security Agency (Shin Bet) series, read from its flattened chart, is 44 (from 29 September 2000), 207 (2001), 451 (2002), 208 (2003), 117 (2004), 56 (2005), 30 (2006), 13 (2007) and 36 (2008), 1,162 in all; BBC, using B'Tselem's figures, counts 950 killed by Palestinians to January 2005 (431 civilians in Israel, 218 civilians in the territories, 301 security forces), and counts 144 dead in suicide attacks in 2003, 55 in 2004 and 23 in 2005. The UN's humanitarian office, which draws on B'Tselem data, counts 1,024 Israelis killed to July 2007 and notes that Israeli civilian deaths peaked in 2002 at an average of 22 a month and fell to about one a month in 2007.",
       "sources": [
         {
           "publisher": "BBC News",
@@ -162,11 +200,20 @@
           "quote": "While a student there, Yigal was involved in right-wing demonstrations against the Oslo Accords",
           "accessed": "2026-11-20",
           "kind": "reference"
+        },
+        {
+          "publisher": "CBC News",
+          "title": "Yitzhak Rabin's assassination 20 years later: how it shaped the Mideast peace process",
+          "url": "https://www.cbc.ca/1.3300903",
+          "archive": "",
+          "quote": "he was gunned down by Yigal Amir, an ultra-nationalist Jewish extremist who opposed Rabin's policy of trading land to the Palestinians for peace",
+          "accessed": "2026-11-20",
+          "kind": "news"
         }
       ]
     },
     {
-      "text": "After Israel left Gaza in 2005, rocket fire from Gaza continued: Israel's Security Agency's chart (flattened in the PDF, so read here in the order of its labels, with 2007 confirmed by its text as 1,276) shows 401 rocket launchings in 2005, 1,722 in 2006, 1,276 in 2007 and 1,785 in 2008 to 26 December; the UN's figures, as reported by Human Rights Watch, are almost 2,700 rockets from September 2005 to May 2007, killing four Israeli civilians; NPR reported more than 2,000 rockets in the two years after the withdrawal, and The Guardian reported that the fire had forced thousands of residents near the border to flee.",
+      "text": "After Israel left Gaza in 2005, rocket fire from Gaza continued: Israel's Security Agency's chart (flattened in the PDF, so read here in the order of its labels, with 2007 confirmed by its text as 1,276) shows 401 rocket launchings in 2005, 1,722 in 2006, 1,276 in 2007 and 1,785 in 2008 to 26 December; the UN's figures, as reported by Human Rights Watch, are almost 2,700 rockets from September 2005 to May 2007, killing four Israeli civilians; NPR reported more than 2,000 rockets in the two years after the withdrawal, and The Guardian reported that the fire had forced thousands of residents near the border to flee. The Institute for National Security Studies, counting rockets that landed rather than were launched, gives some 2,800 landing in the communities near Gaza from 2001 to early 2008, 950 of them in 2006 and 780 in 2007; its count is of landings, so it is not comparable with the launch counts above.",
       "sources": [
         {
           "publisher": "Human Rights Watch",
@@ -203,6 +250,15 @@
           "quote": "Rocket Launchings from the Gaza Strip, 2000-2008 1785 1722 1276 401 2005 2006 2007 01/01/08-26/12/08",
           "accessed": "2026-11-20",
           "kind": "government"
+        },
+        {
+          "publisher": "Institute for National Security Studies (Tel Aviv University)",
+          "title": "Defense of the Home Front in the Gaza Periphery: Examining the National Investment",
+          "url": "https://www.inss.org.il/?p=110163",
+          "archive": "",
+          "quote": "since 2001, some 2,800 rockets have landed in the zone of communities near the Gaza Strip; of these, 950 landed in 2006 and 780 in 2007",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
         }
       ]
     },
@@ -248,7 +304,7 @@
       ]
     },
     {
-      "text": "Palestinians killed, by counter and period (BBC and the UN's OCHA both draw on B'Tselem, so they are one count, not two): B'Tselem, an Israeli human-rights group, counts 3,135 killed by Israeli security forces in the West Bank and Gaza from 29 September 2000 to 15 January 2005 (as published by BBC), and 455 in 2008 to 26 December; the UN's humanitarian office, using B'Tselem's data, counts 4,228 Palestinians killed to July 2007, with Palestinian civilian deaths peaking at an average of 35 a month in 2002 and again in 2004 and falling to about ten a month in 2007, and a ratio of Palestinian to Israeli deaths of 2.5 to 1 in 2002 and 25 to 1 in 2007; the Palestinian Center for Human Rights, quoted by Al Jazeera, counts at least 4,973 over the second intifada. BBC notes there are no figures showing how many were combatants; OCHA says that, where status was known, 59 percent were civilians.",
+      "text": "Counters used for the Palestinian dead: B'Tselem (an Israeli rights group, relayed by BBC and the UN's OCHA, so one count) for the 3,135, 455 and 4,228 figures below, and the Palestinian Center for Human Rights (a Palestinian rights group, quoted by Al Jazeera, period not defined) for the 4,973 figure; every count we could read either traces to B'Tselem or is the Palestinian group's own, and no Palestinian government table could be read (the Palestinian bureau's page flattens into numbers we cannot quote safely). Palestinians killed, by counter and period (BBC and the UN's OCHA both draw on B'Tselem, so they are one count, not two): B'Tselem, an Israeli human-rights group, counts 3,135 killed by Israeli security forces in the West Bank and Gaza from 29 September 2000 to 15 January 2005 (as published by BBC), and 455 in 2008 to 26 December; the UN's humanitarian office, using B'Tselem's data, counts 4,228 Palestinians killed to July 2007, with Palestinian civilian deaths peaking at an average of 35 a month in 2002 and again in 2004 and falling to about ten a month in 2007, and a ratio of Palestinian to Israeli deaths of 2.5 to 1 in 2002 and 25 to 1 in 2007; the Palestinian Center for Human Rights, quoted by Al Jazeera, counts at least 4,973 over the second intifada. BBC notes there are no figures showing how many were combatants; OCHA says that, where status was known, 59 percent were civilians.",
       "sources": [
         {
           "publisher": "BBC News",
@@ -485,7 +541,7 @@
       ]
     },
     {
-      "text": "Two accounts of the Palestinian Authority's security record, neither independent of the other's source base: Human Rights Watch wrote in 2002 that the PA treated its duty to prosecute murderers as negotiable and contingent on Israel's compliance with Oslo, adding that the PA had explained some releases by the danger to detainees when Israeli forces bombed detention places; and the US negotiator Dennis Ross said in January 2001 that the Palestinian leadership had 'not done nearly enough' to prepare its public for peace. We found no third source for the PA's security record in these years.",
+      "text": "The Palestinian Authority's security record in the Oslo years, from four kinds of source: Human Rights Watch wrote in 2002 that the Authority treated its duty to prosecute murderers as negotiable and contingent on Israel's compliance with Oslo, adding that it had explained some releases by the danger to detainees when Israeli forces bombed detention places; the Council on Foreign Relations writes that the Palestinian security forces have been 'unable or unwilling to prevent terror attacks against Israel'; the Washington Institute (a think tank, in 1999) wrote that the Authority had run short crackdowns since 1994 but had not sustained one; and the Sharm el-Sheikh fact-finding committee led by George Mitchell, reporting in April 2001, recommended that the Authority make 'a 100 percent effort to prevent terrorist operations and to punish perpetrators', while recommending in the same list that Israel 'freeze all settlement activity'. The US negotiator Dennis Ross said in January 2001 that the Palestinian leadership had 'not done nearly enough' to prepare its public for peace.",
       "sources": [
         {
           "publisher": "Human Rights Watch",
@@ -511,6 +567,42 @@
           "url": "https://www.hrw.org/report/2002/10/15/erased-moment/suicide-bombing-attacks-against-israeli-civilians",
           "archive": "",
           "quote": "The PA sought to explain these releases by citing the danger to detainees when Israeli forces bombed places of detention.",
+          "accessed": "2026-11-20",
+          "kind": "advocacy"
+        },
+        {
+          "publisher": "Council on Foreign Relations",
+          "title": "Reorganizing the Palestinian security forces (backgrounder)",
+          "url": "https://www.cfr.org/backgrounders/middle-east-reorganizing-palestinian-security-forces",
+          "archive": "",
+          "quote": "The security forces have been unable or unwilling to prevent terror attacks against Israel",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Sharm el-Sheikh Fact-Finding Committee (Mitchell Committee), text hosted by the UN",
+          "title": "Sharm el-Sheikh Fact-Finding Committee Report (Mitchell Report)",
+          "url": "https://www.un.org/unispal/document/auto-insert-200482",
+          "archive": "",
+          "quote": "the PA will make a 100 percent effort to prevent terrorist operations and to punish perpetrators",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "Sharm el-Sheikh Fact-Finding Committee (Mitchell Committee), text hosted by the UN",
+          "title": "Sharm el-Sheikh Fact-Finding Committee Report (Mitchell Report)",
+          "url": "https://www.un.org/unispal/document/auto-insert-200482",
+          "archive": "",
+          "quote": "The GOI should freeze all settlement activity",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "The Washington Institute for Near East Policy (1999)",
+          "title": "Arafat vs. the 'Terrorist Infrastructure': A Status Report",
+          "url": "https://www.washingtoninstitute.org/policy-analysis/arafat-vs-terrorist-infrastructure-status-report",
+          "archive": "",
+          "quote": "the PA has initiated a number of short-term crackdowns against anti-Israel militants since 1994, it has not over the past five years sustained a campaign of significant length",
           "accessed": "2026-11-20",
           "kind": "advocacy"
         }
@@ -666,12 +758,13 @@
     "Year-by-year series are partial: the Israeli figures are the Shin Bet's flattened chart (2000-2008) and BBC's counts for 2003-2005; the Palestinian figures by year are OCHA's monthly averages and ratios for 2002, 2004 and 2007 and B'Tselem's 2008 total, not a full yearly series. OCHA's monthly tables are in PDFs we could not turn into a yearly series. Israel's statistics bureau's own settler table, the Palestinian bureau's table and the Foundation for Middle East Peace table did not load; Peace Now's PDF (advocacy) carries the bureau's series.",
     "The UN counts both sides, but OCHA states that its figures come from B'Tselem, so the UN count is not independent data; the OCHA protection-of-civilians tables that are independent are PDFs of month-by-governorate tables that flatten into numbers we cannot quote safely.",
     "Pressure from the United States and from the Arab League during the peace years: we found no page we could quote that states it plainly. Khartoum 1967 and the 2002 Arab Peace Initiative are on the other card.",
-    "Fewer than three reliable sources: the Oslo-era suicide bombings (BBC and CFR, plus Human Rights Watch labelled advocacy), the Rabin fact (Guardian and Encyclopedia.com, plus a government page), the PA fact (one news source and HRW), the rocket fact and the Israeli toll fact each rely on government or advocacy-labelled series for their year-by-year numbers.",
+    "Sources still short of the gate's rule: the Israeli toll (F2) and Palestinian toll (F6) rest on B'Tselem relayed by BBC and the UN, plus the Shin Bet series (Israeli government) and the Palestinian Center for Human Rights (one Al Jazeera page); neither is a record fact, because the one record each could be (the Shin Bet chart, the Palestinian bureau's table) could not be read cleanly and no two reliable outlets repeat the same figures. The rocket-fire fact (F4) now has NPR, The Guardian and an INSS study, but the year-by-year launch counts rest on the Shin Bet chart (government) and Human Rights Watch (advocacy). Oslo-era bombings (F0), the Hebron and Afula fact (F1) and the Rabin fact (F3) now have three reliable sources each.",
     "The joint Pulse results for 2020 and 2022 and the Israel Democracy Institute's Peace Index before October 2023: not read. Pew and Gallup do not poll Gaza, so the 2025-26 Palestinian figures cover the West Bank and East Jerusalem only.",
     "Israeli wrongs in the peace years beyond settlement growth and closure: the BBC page says Hamas gave the February 1994 Hebron killings by a Jewish settler as its reason for its first suicide attack in Israel; Hamas's own statement and a source for the Hebron killings were not read, and the card does not carry them.",
     "Death counts: the Israeli and Palestinian totals come from different counters (B'Tselem via BBC, the UN, Shin Bet, the Palestinian Center for Human Rights) and different periods; only the B'Tselem figures to 15 January 2005 are like for like.",
     "Independence of the casualty counts: BBC and OCHA both take their figures from B'Tselem; the Israeli deaths have a separate count in Shin Bet's series (Israeli government) and Human Rights Watch; the Palestinian deaths have a separate count only in the Palestinian Center for Human Rights's figure quoted by Al Jazeera, whose period the article does not define, and in B'Tselem's own report. We did not find an academic study comparing the counts; the Bank of Israel study we read takes its Israeli figures from B'Tselem. The Palestinian Authority's own figures were not found.",
-    "The PA's security record: one advocacy report and one sentence by a US negotiator; the Mitchell Committee report and State Department reports were not readable, so no independent source is on the card."
+    "The PA's security record: now four kinds of source (HRW, CFR, the Washington Institute, and the Mitchell Committee report read at the UN site), plus one sentence by Ross; the Mitchell Committee's text is a recommendation, not a finding of what the Authority did, and the Washington Institute piece is from 1999 and from a partisan think tank, so the only reference source on what the forces did is CFR (undated on the page). State Department compliance reports and the Crisis Group report on security reform (blocked for our fetcher) were not read.",
+    "Which counter gives which number is now stated in F2 and F6. For the Israeli dead the Israeli state counter (Shin Bet) is not the other side's; for the Palestinian dead the Palestinian Center for Human Rights is not the Israeli side's; both beside B'Tselem, which is Israeli."
   ],
   "not_claimed": [
     "Listing pressures on each side does not by itself assign blame, and it does not excuse any act: suicide bombings of civilians and the killing of civilians who took no part in fighting are wrongs whatever the pressure.",

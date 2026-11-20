@@ -16,7 +16,7 @@
       "quote": "this talk about 'Jewish refugees who were expelled from Arab countries' as opposed to 'Arab refugees who were expelled from the land of Israel' was grating to our journalistic ears"
     }
   ],
-  "answer": "Some Jews who left Arab countries went out of Zionist conviction, and Shlomo Hillel, who led the Iraqi Zionist underground's escape operation, does not call it a refugee flight. But the Palestinians were not the only people displaced in these years. About 800,000 Jews are estimated to have lived in Arab countries around 1948 (DellaPergola counts 945,000 for the Middle East and North Africa), and most left within two decades. Reasons differed: Egypt after 1956 saw expulsions, and Iraq let Jews leave only if they gave up their citizenship. Iraq's Jews had also suffered the Farhud pogrom in 1941. In January 1957 the UN High Commissioner for Refugees said refugees from Egypt without their government's protection fell under his mandate; the press reported it as covering Jews. Scholars differ on the word refugee. These figures are estimates; whether the two cases cancel out these facts do not settle.",
+  "answer": "Some Jews who left Arab countries went out of Zionist conviction, and Shlomo Hillel, who led the Iraqi Zionist underground's escape operation, does not call it a refugee flight. But the Palestinians were not the only people displaced in these years. About 800,000 Jews are estimated to have lived in Arab countries around 1948 (DellaPergola counts 945,000 for the Middle East and North Africa), and most left between 1948 and the early 1970s. Reasons differed: Egypt after 1956 saw expulsions, and Iraq let Jews leave only if they gave up their citizenship. Iraq's Jews had also suffered the Farhud pogrom in 1941. In early 1957 the UN High Commissioner for Refugees said refugees from Egypt without their government's protection fell under his mandate; the press reported it as covering Jews. Scholars differ on the word refugee. These are estimates; whether the two cases cancel out these facts do not settle.",
   "facts": [
     {
       "text": "Estimates put the Jewish population of Arab and Muslim countries around 1948 at about 800,000 to 850,000; the demographer Sergio DellaPergola gives 945,000 for the wider Middle East and North Africa.",
@@ -133,7 +133,7 @@
       ]
     },
     {
-      "text": "The word refugee is disputed. Hillel rejects it for the Iraqi exodus; the K. review says the official Israeli narrative held that the Jews could not be refugees since they were returning to their homeland; Shenhav calls the description not unreasonable given post-war usage; DellaPergola says most Jews who immigrated to Israel would qualify as refugees.",
+      "text": "The word refugee is disputed. Hillel rejects it for the Iraqi exodus; the K. review says the official Israeli narrative held that the Jews could not be refugees since they were returning to their homeland; Shenhav calls the description not unreasonable given post-war usage; DellaPergola, writing of Jews who left Arab countries for Israel, says the majority of Jews who ever immigrated to Israel would qualify as refugees.",
       "sources": [
         {
           "publisher": "British Journal of Middle Eastern Studies (Yehouda Shenhav, 2002)",
@@ -256,7 +256,7 @@
       ]
     },
     {
-      "text": "In June 1941, the Farhud pogrom in Baghdad killed 128 Jews by the official inquiry's count, and 179 by the Jewish community's count.",
+      "text": "In June 1941, the Farhud pogrom in Baghdad killed 128 Jews by the official inquiry's count and 179 by the Jewish community's count; another account, from Stanford Humanities Center, says 175.",
       "sources": [
         {
           "publisher": "United States Holocaust Memorial Museum",
@@ -281,7 +281,7 @@
           "title": "Farhud: The forgotten ordeal of Iraqi Jews",
           "url": "https://shc.stanford.edu/arcade/interventions/farhud-forgotten-ordeal-iraqi-jews",
           "archive": "",
-          "quote": "many Muslims had indeed protected their Jewish neighbors during Farhud",
+          "quote": "angry Muslim rioters killed 175 Jews, injured 1000",
           "accessed": "2026-11-20",
           "kind": "scholarly"
         }
@@ -289,7 +289,7 @@
     },
     {
       "record": true,
-      "text": "On 29 January 1957 the UN High Commissioner for Refugees told the executive committee of the UN Refugee Fund that refugees from Egypt who could not or would not rely on their own government's protection fell under his mandate. The Jewish Telegraphic Agency reported this as a ruling covering Jews exiled from Egypt, and at the Economic and Social Council in July 1957 a delegate said the High Commissioner had assumed responsibility for Jewish refugees expelled from Egypt.",
+      "text": "At the fourth session of the executive committee of the UN Refugee Fund (29 January to 4 February 1957) the UN High Commissioner for Refugees said, at the 27th meeting, that refugees from Egypt who could not or would not rely on their own government's protection fell under his mandate. The Jewish Telegraphic Agency reported this as a ruling covering Jews exiled from Egypt, and at the Economic and Social Council in July 1957 a delegate said the High Commissioner had assumed responsibility for Jewish refugees expelled from Egypt.",
       "sources": [
         {
           "publisher": "United Nations (Report of the United Nations High Commissioner for Refugees, A/3585/Rev.1, annex: fourth session of the UNREF Executive Committee, 27th meeting)",
@@ -510,6 +510,29 @@
           "kind": "primary"
         }
       ]
+    },
+    {
+      "text": "How many Jews lived in Iraq in 1947-48. DellaPergola's reasonable estimate is 135,000; the Gale entry says the Iraqi government permitted its 160,000 Jews to emigrate. The two figures are about 25,000 apart, and no source on the card explains the gap.",
+      "sources": [
+        {
+          "publisher": "American Jewish Studies (AJS) Perspectives, via Berman Jewish Policy Archive (Sergio DellaPergola)",
+          "title": "Iran and Iraq: Demography beyond the Jewish Past",
+          "url": "https://www.bjpa.org/content/upload/bjpa/serg/Sergio%20Dellapergola%20Iran%20Iraq%20Demography.pdf",
+          "archive": "",
+          "quote": "in 1947/48, at the time of Israel's independence, reasonable Jewish population estimates would be 135,000 for Iraq",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "Encyclopedia of the Modern Middle East and North Africa (Gale), via Encyclopedia.com",
+          "title": "Refugees: Jewish",
+          "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/refugees-jewish",
+          "archive": "",
+          "quote": "the Iraqi government permitted its 160,000 Jews to emigrate provided they renounced their Iraqi nationality and whatever properties and assets they could not sell",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
     }
   ],
   "could_not_verify": [
@@ -518,7 +541,8 @@
     "Country-by-country breakdowns beyond Iraq, Morocco and Egypt from a source other than Encyclopedia.com.",
     "The UN refugee office's 1957 statement (now a record fact): read in the High Commissioner's report A/3585/Rev.1 (the High Commissioner's statement at the 27th meeting, 29 January 1957, and Israel's delegate's reply) and in the Economic and Social Council record of 24 July 1957; the Jewish Telegraphic Agency reported it as a ruling on Jews. The High Commissioner's own words do not name Jews; the UN record names them only in the Israeli and ECOSOC delegates' words. I did not find the UNREF fourth-session report as a separate document (UNHCR pages were blocked); a person should read the 27th meeting's summary record (UN Digital Library) and the UNHCR archive.",
     "Whether anyone readable says in so many words that only Palestinians were refugees: I found no such quote. The claim is therefore stated as what is said: that these Jews were not refugees but came by choice or Zionist conviction (Hillel; Yated Ne'eman).",
-    "Facts that do not meet the gate's source rule: none by count (the 1957 record fact has the record plus two readers, one of them the Jewish Telegraphic Agency), but every number on the card is Israeli or Jewish in origin, as above."
+    "Facts that do not meet the gate's source rule: none by count (the 1957 record fact has the record plus two readers, one of them the Jewish Telegraphic Agency), but every number on the card is Israeli or Jewish in origin, as above.",
+    "FINAL REVIEW (2026-11-20): the Iraq 1950-51 dispute (who was behind the Baghdad incidents and whether they drove the exodus) is not on the card; claimants of 'drawn by Zionism' rely on it, so a person should add a scholarly source for each side. Fact 6: the Stanford page gives 175 killed, not the two counts in the fact; now stated. The 1957 UN statement is dated only by the session (29 January to 4 February 1957); the page does not give the meeting date."
   ],
   "not_claimed": [
     "This card does not say Jewish displacement cancels out Palestinian displacement, or that one makes the other acceptable.",
@@ -544,7 +568,7 @@
       ]
     },
     {
-      "says": "About 800,000 Jews are estimated to have lived in Arab countries around 1948 (DellaPergola counts 945,000 for the Middle East and North Africa), and most left within two decades.",
+      "says": "About 800,000 Jews are estimated to have lived in Arab countries around 1948 (DellaPergola counts 945,000 for the Middle East and North Africa), and most left between 1948 and the early 1970s.",
       "facts": [
         0,
         1
@@ -553,7 +577,8 @@
     {
       "says": "Reasons differed: Egypt after 1956 saw expulsions, and Iraq let Jews leave only if they gave up their citizenship.",
       "facts": [
-        2
+        2,
+        7
       ]
     },
     {
@@ -563,7 +588,7 @@
       ]
     },
     {
-      "says": "In January 1957 the UN High Commissioner for Refugees said refugees from Egypt without their government's protection fell under his mandate; the press reported it as covering Jews.",
+      "says": "In early 1957 the UN High Commissioner for Refugees said refugees from Egypt without their government's protection fell under his mandate; the press reported it as covering Jews.",
       "facts": [
         7
       ]
@@ -575,7 +600,7 @@
       ]
     },
     {
-      "says": "These figures are estimates; whether the two cases cancel out these facts do not settle.",
+      "says": "These are estimates; whether the two cases cancel out these facts do not settle.",
       "facts": [
         0,
         4
@@ -586,12 +611,12 @@
     "skeptic": {
       "verdict": "weakened",
       "date": "2026-11-20",
-      "notes": "Round three (final). Checked the restated claim: 'not refugees, left by choice, drawn by Zionism; only the Palestinians were refugees'. The heard quotes are real. Hillel does say they came because they wanted to, and Yated Ne'eman calls the refugee talk grating and sets it against 'heroic stories' of Zionist immigration, so the first two parts are made by real holders. The last part, 'only the Palestinians were refugees', is made by no one on the card; the writer says so. should-fix: restate the claim as the two parts held. The answer meets it without overreach: it concedes the Zionist-conviction cases, then gives Egypt, Iraq's citizenship terms and the Farhud, and (my edit) no longer implies the Farhud caused the exodus. NOT FIXED: (1) the UNHCR 1957 statement was folded into fact 3 as a sub-claim with one reliable source (JTA, itself a Jewish agency report, and the WJC, advocacy); the UN report was never read. Folding it in lets it pass the count, so my answer now attributes it to a press report. must-fix: read UNREF report of 29 Jan 1957 (UN Digital Library) or UNHCR archive. (2) every number is Israeli or Jewish in origin; no UN, Arab or non-Israeli count. (3) Egypt's expulsions rest on one news source (K.), and the 800,000 figure itself has the Gale entry's 'subjected to violence' wording. (4) the Iraq 1950-51 dispute and Farhud's causal role are not covered. Stronger attack: pro-Palestinian (one-sided sourcing; the UNHCR claim rests on the Jewish press); pro-Israel (thin evidence of expulsion outside Egypt and Iraq)."
+      "notes": "Final review after the record rule. Read the UNREF report (A/3585/Rev.1): the High Commissioner's statement at the 27th meeting is quoted exactly; it names no religion, so the Jewish reading rests on the ECOSOC record (the Chinese delegate: 'the High Commissioner had assumed responsibility for Jewish refugees expelled from Egypt', a neutral reader) and the JTA report ('has ruled that Jews exiled from Egypt are refugees'). The record flag on fact 7 is honest: worded as what the record says, with two real readers. Fixed by me: (should-fix, done) the fact gave 29 January as the date of the statement; the page gives only the session, 29 January to 4 February. (should-fix, done) fact 6's third source (Stanford) quoted a sentence about Muslims protecting neighbours, which does not support the death counts; it says 175 killed, now stated with that quote. (should-fix, done) fact 3 put DellaPergola's sentence as being about all immigrants; the page says it applies to 'those who left Arab countries and immigrated to Israel', now worded so. The Iraq population figures differ (135,000 DellaPergola; 160,000 Gale): added to contested from sources already on the card. Heard quotes (Hillel, Yated Ne'eman) are real and strong; no one on the card says 'only the Palestinians were refugees', so the claim as phrased is partly a framing (should-fix for the claim text). Still open: (must-fix) the card omits the Iraq 1950-51 dispute, the strongest evidence for 'drawn by Zionism', and the counter to it; (should-fix) every figure is Israeli or Jewish in origin; no UN, Arab or non-Israeli count; Egypt's expulsions rest on one news source plus ECOSOC. Strongest attack, pro-Palestinian: one-sided provenance of numbers. Pro-Israel: thin evidence of expulsion outside Egypt and Iraq. Status stays draft."
     },
     "citer": {
       "verdict": "holds",
       "date": "2026-11-20",
-      "notes": "Round three. Reworded 'In 1957 the UN refugee chief ruled that refugees from Egypt fell under his mandate' to 'A 1957 press report said ...' because only the JTA report (reliable) and a WJC page (advocacy) carry it. Separated the Farhud into its own sentence so it is not offered as a cause (fact 6 gives the pogrom, not its effect). Tied the Hillel sentence to fact 3 (Hillel's view) and fact 2 (pull factor). All sentences in answer_claims. Holds for the answer as worded."
+      "notes": "Final review after the record rule. Eight sentences tied to facts in answer_claims. CHANGED: 'In January 1957' became 'In early 1957' (fact 7: the page gives a session, not a day); 'most left within two decades' became 'between 1948 and the early 1970s' (fact 1: the sources say 1948 to 1972, about 24 years); the Egypt and Iraq sentence is tied to facts 2 and 7 (Egypt's expulsions are in ECOSOC and the K. review). The Hillel sentence says Hillel does not call it a refugee flight, which is his view in fact 3. 148 words or fewer. Holds."
     }
   }
 }

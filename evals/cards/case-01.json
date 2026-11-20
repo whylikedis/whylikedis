@@ -1,0 +1,106 @@
+{
+  "id": "case-01",
+  "era": 1,
+  "claim": "Mount Everest is 8,848 metres tall.",
+  "heard": [
+    {
+      "who": "Kathmandu Post, 8 December 2020, on the figure accepted before the new survey",
+      "url": "https://kathmandupost.com/national/2020/12/08/it-s-official-mount-everest-is-8-848-86-metres-tall",
+      "quote": "The earlier accepted height was 8,848 metres or 29,028 feet.",
+      "archive": ""
+    }
+  ],
+  "answer": "Not exactly any more. In December 2020 Nepal and China jointly announced the official height as 8,848.68 metres, a little above the 8,848 metres Nepal had used since a 1950s survey. China's earlier figure was about four metres lower because it measured the rock, not the snow cap.",
+  "facts": [
+    {
+      "text": "In December 2020 Nepal and China jointly announced the official height of Mount Everest as 8,848.68 metres above sea level.",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "title": "Everest Gets A Growth Spurt As China, Nepal Revise Official Elevation Upward",
+          "url": "https://www.npr.org/2020/12/08/944152693/everest-gets-a-growth-spurt-as-china-nepal-revise-official-elevation-upward",
+          "archive": "",
+          "quote": "Officials say the summit now stands precisely at 8,848.86 meters, or 29,031.69 feet above sea level.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "The Kathmandu Post",
+          "title": "It's official: Mount Everest is 8,848.86 metres tall",
+          "url": "https://kathmandupost.com/national/2020/12/08/it-s-official-mount-everest-is-8-848-86-metres-tall",
+          "archive": "",
+          "quote": "The new height of Mt Everest is 8,848.86 metres.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "South China Morning Post",
+          "title": "It's official: Everest grows almost a metre after China and Nepal settle a long-running debate",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3113092/its-official-everest-grows-almost-metre-after-china-and-nepal",
+          "archive": "https://web.archive.org/web/2/https://www.scmp.com/news/china/diplomacy/article/3113092/its-official-everest-grows-almost-metre-after-china-and-nepal",
+          "quote": "The new figure - 8,848.86 metres (29,031.7ft) - raises the previous highest estimate by 86cm.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Before 2020 Nepal's official figure was 8,848 metres, from a Survey of India measurement in the early 1950s, and China's figure was about four metres lower because it counted the rock summit, not the snow cap.",
+      "sources": [
+        {
+          "publisher": "Al Jazeera",
+          "title": "Mt Everest: Nepal, China announce revised height at 8,849 metres",
+          "url": "https://www.aljazeera.com/news/2020/12/8/mt-everest-nepal-china-announce-revised-height-at-8848-metres",
+          "archive": "https://web.archive.org/web/2/https://www.aljazeera.com/news/2020/12/8/mt-everest-nepal-china-announce-revised-height-at-8848-metres",
+          "quote": "Nepal earlier recognised 8,848 metres as Mount Everest's official snow height which was the finding of a survey conducted by the Survey of India in the early 1950s.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "South China Morning Post",
+          "title": "It's official: Everest grows almost a metre after China and Nepal settle a long-running debate",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3113092/its-official-everest-grows-almost-metre-after-china-and-nepal",
+          "archive": "https://web.archive.org/web/2/https://www.scmp.com/news/china/diplomacy/article/3113092/its-official-everest-grows-almost-metre-after-china-and-nepal",
+          "quote": "China had previously set the figure 4 metres lower than that because it counted the summit's rock base, while Nepal included the snowcap.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "NPR",
+          "title": "Everest Gets A Growth Spurt As China, Nepal Revise Official Elevation Upward",
+          "url": "https://www.npr.org/2020/12/08/944152693/everest-gets-a-growth-spurt-as-china-nepal-revise-official-elevation-upward",
+          "archive": "",
+          "quote": "held until 1955, when an Indian survey reestablished the number at 29,029 feet",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    {
+      "text": "Whether any single figure can be the height, because the mountain itself changes: tectonic uplift raises it and the 2015 earthquake may have lowered it.",
+      "sources": [
+        {
+          "publisher": "NPR",
+          "title": "Everest Gets A Growth Spurt As China, Nepal Revise Official Elevation Upward",
+          "url": "https://www.npr.org/2020/12/08/944152693/everest-gets-a-growth-spurt-as-china-nepal-revise-official-elevation-upward",
+          "archive": "",
+          "quote": "The actual mountain is moving, thanks to geological forces such as plate tectonics slowly thrusting it upward and the massive 2015 earthquake that possibly made it shorter",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    }
+  ],
+  "could_not_verify": [
+    "The Nepal Survey Department's own technical report; only news accounts of the announcement were read.",
+    "How the 2020 figure treats snow depth in detail; the pages do not say."
+  ],
+  "not_claimed": [
+    "That the mountain's height is fixed.",
+    "That Nepal and China measured it as a single joint team; the pages describe two survey teams."
+  ],
+  "status": "draft",
+  "content_approved": false
+}

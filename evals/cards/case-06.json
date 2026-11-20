@@ -1,0 +1,106 @@
+{
+  "id": "case-06",
+  "era": 1,
+  "claim": "The tulip crash of 1637 ruined the Dutch economy.",
+  "heard": [
+    {
+      "who": "Charles Mackay, Memoirs of Extraordinary Popular Delusions and the Madness of Crowds (1841), as quoted by History.com",
+      "url": "https://www.history.com/articles/tulip-mania-financial-crash-holland",
+      "quote": "Substantial merchants were reduced almost to beggary, and many a representative of a noble line saw the fortunes of his house ruined beyond redemption.",
+      "archive": ""
+    }
+  ],
+  "answer": "Mostly not. When the market collapsed in February 1637 many buyers defaulted, and traders who had already paid were left in debt or bankrupted. But few people took part: Goldgar found about 350 traders, mostly merchants and craftsmen, not the wider population.",
+  "facts": [
+    {
+      "text": "When the tulip market collapsed in February 1637, many buyers defaulted on their promises to pay, and traders who had already paid were left in debt or bankrupted.",
+      "sources": [
+        {
+          "publisher": "Smithsonian Magazine",
+          "title": "There Never Was a Real Tulip Fever",
+          "url": "https://www.smithsonianmag.com/history/there-never-was-real-tulip-fever-180964915/",
+          "archive": "",
+          "quote": "More and more people defaulted on their agreement to buy the tulips at the prices they'd promised, and the traders who had already made their payments were left in debt or bankrupted.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "City AM",
+          "title": "On this day in 1637: The tulip bubble bursts",
+          "url": "https://www.cityam.com/?p=2396510",
+          "archive": "",
+          "quote": "and many buyers refused to abide by their obligations.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "History.com",
+          "title": "The Real Story Behind the 17th-Century 'Tulip Mania' Financial Crash",
+          "url": "https://www.history.com/articles/tulip-mania-financial-crash-holland",
+          "archive": "",
+          "quote": "when buyers who promised to pay 100 or 1,000 guilders for a tulip refused to pay up.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Few people took part in the tulip trade: Anne Goldgar's archival research identified about 350 traders, mostly merchants and craftsmen, not the wider population.",
+      "sources": [
+        {
+          "publisher": "History.com",
+          "title": "The Real Story Behind the 17th-Century 'Tulip Mania' Financial Crash",
+          "url": "https://www.history.com/articles/tulip-mania-financial-crash-holland",
+          "archive": "",
+          "quote": "I only identified about 350 people who were involved in the trade",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "City AM",
+          "title": "On this day in 1637: The tulip bubble bursts",
+          "url": "https://www.cityam.com/?p=2396510",
+          "archive": "",
+          "quote": "Those involved in the speculation were few in number and almost exclusively merchants and better-off skilled craftsmen.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Smithsonian Magazine",
+          "title": "There Never Was a Real Tulip Fever",
+          "url": "https://www.smithsonianmag.com/history/there-never-was-real-tulip-fever-180964915/",
+          "archive": "",
+          "quote": "\"There weren't that many people involved and the economic repercussions were pretty minor,\"",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    {
+      "text": "Whether the tulip price rise was a speculative bubble. The economist Peter Garber argued that bulb prices moved as prices of rare bulbs do today, so no bubble need be assumed.",
+      "sources": [
+        {
+          "publisher": "Econlib (Liberty Fund)",
+          "title": "Bubbles",
+          "url": "https://www.econlib.org/library/Enc/Bubbles.html",
+          "archive": "",
+          "quote": "Yet economist Peter Garber provided compelling evidence that \"tulipmania\" did not generate a bubble.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    }
+  ],
+  "could_not_verify": [
+    "A reliable count of bankruptcies in Holland in 1637.",
+    "The text of Goldgar's book itself; only interviews and articles about her work were read."
+  ],
+  "not_claimed": [
+    "That all of Dutch society speculated in tulips.",
+    "That the price of tulips rose without limit."
+  ],
+  "status": "draft",
+  "content_approved": false
+}

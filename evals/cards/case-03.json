@@ -1,0 +1,106 @@
+{
+  "id": "case-03",
+  "era": 1,
+  "claim": "Piltdown Man was a genuine fossil of an early human ancestor.",
+  "heard": [
+    {
+      "who": "Scientists of the 1910s to 1940s who accepted the find, as described by PBS's A Science Odyssey",
+      "url": "https://www.pbs.org/wgbh/aso/databank/entries/do53pi.html",
+      "quote": "This \"Piltdown Man\" was believed by many to be \"the earliest Englishman,\" and in fact, the missing link between apes and humans.",
+      "archive": "https://web.archive.org/web/2/https://www.pbs.org/wgbh/aso/databank/entries/do53pi.html"
+    }
+  ],
+  "answer": "No. Piltdown Man, presented in 1912 as the missing link between apes and humans, was shown in 1953 to be a forgery: a human skull with an orangutan's jaw. A 2016 re-analysis found that one forger made it, most likely the amateur collector Charles Dawson.",
+  "facts": [
+    {
+      "text": "In 1953 tests showed that Piltdown Man, presented in 1912 as the missing link between apes and humans, was a forgery: the skull was human and the jaw came from an orangutan.",
+      "sources": [
+        {
+          "publisher": "Natural History Museum, London",
+          "title": "Piltdown Man",
+          "url": "https://www.nhm.ac.uk/our-science/services/library/collections/piltdown-man",
+          "archive": "",
+          "quote": "Their results showed that the skull and jaw fragments actually came from two different species, a human and an ape, probably an orangutan.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Live Science",
+          "title": "Piltdown Man: Infamous Fake Fossil",
+          "url": "https://www.livescience.com/56327-piltdown-man-hoax.html",
+          "archive": "",
+          "quote": "In reality, the jawbones and tooth came from an orangutan and the skulls from medieval human bones, De Groote said.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "PBS, A Science Odyssey (WGBH)",
+          "title": "People and Discoveries: Piltdown Man is revealed as fake",
+          "url": "https://www.pbs.org/wgbh/aso/databank/entries/do53pi.html",
+          "archive": "https://web.archive.org/web/2/https://www.pbs.org/wgbh/aso/databank/entries/do53pi.html",
+          "quote": "But in 1953, the jawbone was found to be that of a modern ape -- orangutan, most likely -- that had been treated with chemicals to make it look as though it had been lying in the ground",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    },
+    {
+      "text": "A 2016 re-analysis with DNA and CT scans found the Piltdown teeth came from a single orangutan and concluded the fake was the work of one forger, most likely Charles Dawson.",
+      "sources": [
+        {
+          "publisher": "Live Science",
+          "title": "Piltdown Man: Infamous Fake Fossil",
+          "url": "https://www.livescience.com/56327-piltdown-man-hoax.html",
+          "archive": "",
+          "quote": "determined that Dawson was the most likely sole forger.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Historic UK (Miriam Bibby)",
+          "title": "Piltdown Man: Anatomy of a Hoax",
+          "url": "https://www.historic-uk.com/CultureUK/Piltdown-Man/",
+          "archive": "",
+          "quote": "Their conclusion was that it was the work of a single hoaxer, using material from a single orangutan from Borneo",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "History Skills",
+          "title": "How the Piltdown Man skull became the greatest hoax in anthropology",
+          "url": "https://www.historyskills.com/classroom/ancient-history/piltdown-man/",
+          "archive": "",
+          "quote": "The most recent study in 2016 came to the conclusion that Charles Dawson probably acted alone.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    {
+      "text": "Who made the forgery. The 2016 study points to Dawson alone, but earlier accounts also named others, among them the Jesuit palaeontologist Teilhard de Chardin, the anatomist Arthur Keith and the writer Arthur Conan Doyle.",
+      "sources": [
+        {
+          "publisher": "Historic UK (Miriam Bibby)",
+          "title": "Piltdown Man: Anatomy of a Hoax",
+          "url": "https://www.historic-uk.com/CultureUK/Piltdown-Man/",
+          "archive": "",
+          "quote": "the finger of suspicion also pointed at Teilhard de Chardin and Arthur Keith among others, as well as Sir Arthur Conan-Doyle, who lived nearby",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    }
+  ],
+  "could_not_verify": [
+    "The 1953 Oakley, Weiner and Le Gros Clark paper itself; the museum page that summarises it was read instead.",
+    "Proof of who made the forgery; the 2016 study says 'most likely', and the sources describe it that way."
+  ],
+  "not_claimed": [
+    "That the forger is certain.",
+    "That every scientist of the time accepted the find; some doubted it early on."
+  ],
+  "status": "draft",
+  "content_approved": false
+}

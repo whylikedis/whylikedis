@@ -78,8 +78,7 @@
           "archive": "",
           "quote": "the figure for Arab refugees must now be revised upwards to 472,000",
           "accessed": "2026-11-20",
-          "kind": "primary",
-          "is_record": true
+          "kind": "primary"
         },
         {
           "publisher": "Encyclopaedia Britannica",
@@ -97,8 +96,7 @@
           "archive": "",
           "quote": "When the agency began operations in 1950, it was responding to the needs of about 750,000 Palestine refugees",
           "accessed": "2026-11-20",
-          "kind": "primary",
-          "is_record": true
+          "kind": "primary"
         },
         {
           "publisher": "Israel Law Review (Cambridge University Press)",
@@ -109,8 +107,7 @@
           "accessed": "2026-11-20",
           "kind": "scholarly"
         }
-      ],
-      "record": true
+      ]
     },
     {
       "text": "In July 1948 Israeli forces expelled the Arab populations of Lydda and Ramle. Morris counts 50,000 to 60,000 in his article and 40,000 to 50,000 in a conference talk.",
@@ -187,7 +184,7 @@
           "publisher": "Commentary (Efraim Karsh)",
           "title": "Were the Palestinians Expelled?",
           "url": "https://www.commentary.org/articles/efraim-karsh/were-the-palestinians-expelled/",
-          "archive": "",
+          "archive": "https://web.archive.org/web/2024/https://www.commentary.org/articles/efraim-karsh/were-the-palestinians-expelled/",
           "quote": "petrified by wildly exaggerated accounts of a Zionist atrocity at the village of Deir Yassin near Jerusalem, the remnant now took to the road",
           "accessed": "2026-11-20",
           "kind": "news"
@@ -201,7 +198,7 @@
           "publisher": "Commentary (Efraim Karsh)",
           "title": "Were the Palestinians Expelled?",
           "url": "https://www.commentary.org/articles/efraim-karsh/were-the-palestinians-expelled/",
-          "archive": "",
+          "archive": "https://web.archive.org/web/2024/https://www.commentary.org/articles/efraim-karsh/were-the-palestinians-expelled/",
           "quote": "in March 1948, the AHC evidently ordered the removal of women and children from Haifa",
           "accessed": "2026-11-20",
           "kind": "news"
@@ -292,7 +289,7 @@
           "publisher": "Commentary (Efraim Karsh)",
           "title": "Were the Palestinians Expelled?",
           "url": "https://www.commentary.org/articles/efraim-karsh/were-the-palestinians-expelled/",
-          "archive": "",
+          "archive": "https://web.archive.org/web/2024/https://www.commentary.org/articles/efraim-karsh/were-the-palestinians-expelled/",
           "quote": "there was no Jewish grand design to force this departure",
           "accessed": "2026-11-20",
           "kind": "news"
@@ -477,7 +474,7 @@
           "publisher": "Commentary (Efraim Karsh)",
           "title": "Were the Palestinians Expelled?",
           "url": "https://www.commentary.org/articles/efraim-karsh/were-the-palestinians-expelled/",
-          "archive": "",
+          "archive": "https://web.archive.org/web/2024/https://www.commentary.org/articles/efraim-karsh/were-the-palestinians-expelled/",
           "quote": "leading Arab personalities are acting on the assumption that disturbances are near at hand, and have already evacuated their families to neighboring Arab countries",
           "accessed": "2026-11-20",
           "kind": "news"
@@ -486,7 +483,7 @@
     },
     {
       "record": true,
-      "text": "Benny Morris has himself used the term ethnic cleansing of 1948. In a January 2004 Los Angeles Times article he called the expulsions from Lydda and Ramle 'an element of the partial ethnic cleansing' that rid Israel of most of its Arab inhabitants; in his Haaretz interview that month, asked whether the expulsions were ethnic cleansing, he said 'there are circumstances in history that justify ethnic cleansing'.",
+      "text": "Benny Morris has himself used the term ethnic cleansing of 1948. In a January 2004 Los Angeles Times article he called the expulsions from Lydda and Ramle 'an element of the partial ethnic cleansing' that rid Israel of most of its Arab inhabitants; in his Haaretz interview that month, when the interviewer said Israeli commanders 'perpetrated ethnic cleansing', he replied 'there are circumstances in history that justify ethnic cleansing'.",
       "sources": [
         {
           "publisher": "History News Network (reprint of Benny Morris, Los Angeles Times, 26 January 2004)",
@@ -596,7 +593,7 @@
           "publisher": "Commentary (Efraim Karsh)",
           "title": "Were the Palestinians Expelled?",
           "url": "https://www.commentary.org/articles/efraim-karsh/were-the-palestinians-expelled/",
-          "archive": "",
+          "archive": "https://web.archive.org/web/2024/https://www.commentary.org/articles/efraim-karsh/were-the-palestinians-expelled/",
           "quote": "there was no Jewish grand design to force this departure",
           "accessed": "2026-11-20",
           "kind": "news"
@@ -679,7 +676,7 @@
           "publisher": "Commentary (Efraim Karsh)",
           "title": "Were the Palestinians Expelled?",
           "url": "https://www.commentary.org/articles/efraim-karsh/were-the-palestinians-expelled/",
-          "archive": "",
+          "archive": "https://web.archive.org/web/2024/https://www.commentary.org/articles/efraim-karsh/were-the-palestinians-expelled/",
           "quote": "in March 1948, the AHC evidently ordered the removal of women and children from Haifa",
           "accessed": "2026-11-20",
           "kind": "news"
@@ -720,7 +717,7 @@
           "publisher": "Commentary (readers' letters)",
           "title": "1948 and Beyond",
           "url": "https://www.commentary.org/articles/reader-letters/1948-and-beyond/",
-          "archive": "",
+          "archive": "https://web.archive.org/web/20250121/https://www.commentary.org/articles/reader-letters/1948-and-beyond/",
           "quote": "Morris, who makes no claim that there was an expulsion from Haifa, presents evidence of subsequent Jewish expulsions of Arabs from other areas of Palestine",
           "accessed": "2026-11-20",
           "kind": "news"
@@ -743,7 +740,7 @@
           "publisher": "Commentary (Efraim Karsh)",
           "title": "Were the Palestinians Expelled?",
           "url": "https://www.commentary.org/articles/efraim-karsh/were-the-palestinians-expelled/",
-          "archive": "",
+          "archive": "https://web.archive.org/web/2024/https://www.commentary.org/articles/efraim-karsh/were-the-palestinians-expelled/",
           "quote": "leading Arab personalities are acting on the assumption that disturbances are near at hand, and have already evacuated their families to neighboring Arab countries",
           "accessed": "2026-11-20",
           "kind": "news"
@@ -800,7 +797,8 @@
     "Whether the top-down expulsion order at Lydda is disputed by named historians: I did not find a readable page, so I did not claim it.",
     "Primary documents for the Lydda and Ramle order (Rabin and Ben-Gurion diaries): no readable page.",
     "Relabelled as 'other' (no named author or institution): History Skills.",
-    "Facts that do not meet the gate's source rule: the cabinet decision that barred return (one scholar)."
+    "Facts that do not meet the gate's source rule: the cabinet decision that barred return (one scholar).",
+    "FINAL REVIEW (2026-11-20): fact 1 was flagged as a record fact, but its four sources give four different counts (472,000; about 750,000; about 500,000; just over 700,000), so no two readers report the same content; I removed the record flag and the is_record marks, and it now rests on four reliable sources reporting different figures, each attributed. Fact 11: the phrase 'partial ethnic cleansing' is in the Los Angeles Times article only; Reason and the New York Review of Books report the Haaretz exchange, not that phrase, so the first half of the fact has the record and no reader. Fact 12 (return barred) rests on Imseis alone; the UN paper is cited twice and shows Israel's 1949 position, not the cabinet decision. The Commentary pages are now behind a login; the Karsh and letter quotes were read in Wayback copies and the card points to them."
   ],
   "not_claimed": [
     "This card does not deny that expulsions happened. It says they happened in specific places.",
@@ -872,12 +870,12 @@
     "skeptic": {
       "verdict": "weakened",
       "date": "2026-11-20",
-      "notes": "Round three (final). Checked the changes. Morris's 'partial ethnic cleansing': it is now inside fact 6, so the answer sentence is tied to a fact and is not an orphan; but its only support is the one HNN page (a quote added beside the 'no master plan' quote from the same page), so a one-source claim rides on a four-source fact and passes the count. The earlier stand-alone fact had a second source (Morris's 2004 Haaretz interview, via NYRB: 'there was no choice but to expel') and was cut; that quote is the strongest evidence that Morris himself endorsed the expulsions, and the card is weaker without it. The early-departure fact was cut because it had two sources; that point favours the pro-Israel reading, and cutting it for a source count is not acceptable, so I restored its content in contested with both quotes. Other checks: fact 7 (autumn 1948) rests on Morris's talk, a Palestinian historian (Professor Yazbak, at the same conference) and Imseis; Britannica's Hiram line does not mention refugees. Fact 9 (return) is carried by the UN mediator (which says return should be allowed, not that it was barred), Imseis (cabinet decision) and a conference speaker; Fanack is now 'other'. The same ILR report has a pro-Israel voice (Dr Wilf) on return, now in contested. Strongest remaining attack: pro-Israel (Israel's reasons, the 1949 Lausanne offers and the Arab states' refusal are not on the card; Haifa rests on Karsh and Morris's summary). Pro-Palestinian: the Morris interview quote is gone. must-fix: restore 'partial ethnic cleansing' as its own fact with a second source (Haaretz 2004 interview, or Morris's book). should-fix: a source for Israel's stated reasons for refusing return."
+      "notes": "Final review after the record rule. Read: the Acting Mediator's report (472,000; 'slightly over 500,000'), UNRWA's page (about 750,000), Bernadotte's report A/648 ('panic ... rumours ... or expulsion'; 'elemental justice'), Resolution 194, the CCP secretariat paper, Morris in the Los Angeles Times (HNN reprint) and in the Haaretz interview (Jewish Journal reprint, Reason, NYRB), Morris in the Palestine-Israel Journal and the Israel Law Review summary, the Christian Science Monitor review, and Karsh in Commentary (Wayback). Restored fact 11 (Morris's 'partial ethnic cleansing'): the LAT quote is exact and in context ('an element of the partial ethnic cleansing that rid Israel of the majority of its Arab inhabitants'; he also calls it inevitable, and the card says so); the Haaretz reply is exact, but it answers the interviewer's statement, not a question: fixed (should-fix, done). The record flag is honest in wording, but the LAT phrase has no reader, so that half rests on the record alone (should-fix; a person should read Morris's book or the full Haaretz interview). Restored fact 10 (departures before the fighting): fair and attributed to Morris and Karsh; three of its four sources carry Morris's own account (the PIJ talk, the ILR summary of a talk, a review of his book), so it is two voices, Morris and Karsh; worded as theirs, not as established (nit). Fixed by me: fact 1 record flag removed (must-fix, done; see could_not_verify); Commentary quotes made reachable through Wayback copies because the live pages are now paywalled and the online gate failed on them (must-fix, done). Still open: (must-fix) fact 12, return barred, has one reader (Imseis) and no source for Israel's stated reasons; (should-fix) fact 7 (autumn 1948) rests on Morris's talk, Imseis and a Britannica line that does not mention refugees; (should-fix) Britannica could not be read today (403); (nit) fact 9: the mediator's 'elemental justice' sentence has no reader. Heard: Khalidi and Pappe are strong fair versions. Strongest attack, pro-Israel: Israel's reasons and the 1949 Lausanne offers are thin; Haifa rests on Karsh and Morris's summary. Pro-Palestinian: Pappe's own text and Morris's book are not read, only interview quotations. Status stays draft."
     },
     "citer": {
       "verdict": "holds",
       "date": "2026-11-20",
-      "notes": "Round three. Reworded the Galilee sentence: the talk summary says IDF conquests 'resulted in another 200,000 refugees', not that Morris reports expulsions there; now says 'about 200,000 more refugees after the October offensives' (fact 7). Reworded 'Refugees were not allowed to return', which had no attribution, to what fact 9 carries (Imseis, UN mediator). The 'partial ethnic cleansing' sentence is tied to fact 6 (HNN quote). All sentences are in answer_claims. Holds for the answer as worded. Also, to meet the 150-word limit, shortened the answer (dropped UNRWA's 750,000, the 200,000 autumn figure and the UN mediator's return quote from the answer; they stay in facts 1, 7, 9)."
+      "notes": "Final review after the record rule. Eight sentences, each tied to facts in answer_claims, 144 words. 'Morris ... has himself used the words partial ethnic cleansing' is tied to fact 11 (the LAT article, which is the record) and fact 6. 'Imseis says an Israeli cabinet decision of June 1948 barred return' is attributed, tied to fact 12, not asserted. The final 'Our reading' sentence is tied to the facts for expulsion at Lydda and Ramle, fear, local orders, the historians' split and early departures. No sentence changed. Holds."
     }
   }
 }

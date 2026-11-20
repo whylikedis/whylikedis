@@ -19,7 +19,7 @@
   "answer": "One state with equal votes would put Jews and Arabs at or near parity. Israel counts 7.79 million Jews and 'others' and 2.16 million Arabs; the Palestinian bureau counts 5.56 million in the West Bank and Gaza, East Jerusalem's Arabs in both. Yoram Ettinger of the American-Israel Demographic Research Group calls the Palestinian count inflated; DellaPergola and Soffer reject that. In DellaPergola's long-run 2024 projection, adding the West Bank to Israel leaves Jews about 60 percent, and adding Gaza just above 50. Israeli parties such as Yashar! oppose moves that would endanger the Jewish majority; one-state advocates such as Said and Beinart ask for equal votes. Our reading: one state with equal votes risks a Jewish majority, annexation without votes denies equal rights, and two states on the 1967 lines would keep both at the price of a border; the numbers explain the choice, they do not make it.",
   "facts": [
     {
-      "text": "Inside Israel's own count, the Central Bureau of Statistics reported on the eve of Independence Day 2026 a population of 10.244 million: 7.790 million Jews and 'others' (76 percent), 2.157 million Arabs (21.1 percent) and about 296,000 foreigners. 'Others' are mainly immigrants under the Law of Return who are not Jews in the population register; Arabs include Muslims, Arab Christians and Druze. The Ynet page reports this same release and DellaPergola's projection is built on CBS data, so the three citations are one dataset.",
+      "text": "Israel's Central Bureau of Statistics reported on the eve of Independence Day 2026 (release of 19 April 2026) a population of 10.244 million: 7.790 million Jews and 'others' (76 percent), 2.157 million Arabs (21.1 percent) and about 296,000 foreigners. 'Others' are mainly immigrants under the Law of Return who are not Jews in the population register; Arabs include Muslims, Arab Christians and Druze. This is the bureau's own count; Ynet and Israel National News report the same release, so there is one dataset here, not three. DellaPergola's projections on this card are built on earlier bureau data.",
       "sources": [
         {
           "publisher": "Israel Central Bureau of Statistics",
@@ -28,7 +28,8 @@
           "archive": "",
           "quote": "7.790 million Jews and Others2 (76%)",
           "accessed": "2026-11-20",
-          "kind": "government"
+          "kind": "government",
+          "is_record": true
         },
         {
           "publisher": "Ynetnews",
@@ -40,18 +41,19 @@
           "kind": "news"
         },
         {
-          "publisher": "Institute for National Security Studies (Sergio DellaPergola)",
-          "title": "The Future of Israeli and Jewish Demography",
-          "url": "https://www.inss.org.il/wp-content/uploads/2024/10/DellaPergola.pdf",
+          "publisher": "Israel National News",
+          "title": "Israel hits 10.2 million as Independence Day nears",
+          "url": "https://www.israelnationalnews.com/news/425726",
           "archive": "",
-          "quote": "within the borders of the State of Israel, by the second half of the twenty-first century there should be a substantial Jewish majority of close to 80%",
+          "quote": "Israel's population stands at approximately 10,244,000, according to statistics the Central Bureau of Statistics published on Sunday",
           "accessed": "2026-11-20",
-          "kind": "scholarly"
+          "kind": "news"
         }
-      ]
+      ],
+      "record": true
     },
     {
-      "text": "The Palestinian Central Bureau of Statistics (PCBS) itself reports, in its 31 December 2025 release, that the population of the State of Palestine reached about 5.56 million at the end of 2025, with 3.43 million in the West Bank and Gaza at about 2.1 million after a 10.6 percent fall in two years. Every Palestinian figure on this card traces to the PCBS: WAFA, the UN's West Bank figure (3,256,942 in 2023, cited from the PCBS beside 478,600 settlers from Israel's bureau) and the UN's Gaza figure (whose page names no source, so presumably the same data) are not independent counts; the Jerusalem Post's 2015 report is of an earlier PCBS release.",
+      "text": "The Palestinian Central Bureau of Statistics (PCBS) itself reports, in its 31 December 2025 release, that the population of the State of Palestine reached about 5.56 million at the end of 2025, with 3.43 million in the West Bank and Gaza at about 2.1 million after a 10.6 percent fall in two years. Every Palestinian figure on this card traces to the PCBS: WAFA, the UN's West Bank figure (3,256,942 in 2023, cited from the PCBS beside 478,600 settlers from Israel's bureau) and the UN's Gaza figure (whose page names no source, so presumably the same data) are not independent counts; the Jerusalem Post's 2015 report is of an earlier PCBS release. Anadolu and Al-Quds report the same release; the PCBS's own method is disputed by some (see the next fact and 'contested').",
       "sources": [
         {
           "publisher": "Palestinian Central Bureau of Statistics",
@@ -60,7 +62,8 @@
           "archive": "",
           "quote": "Population estimates indicate that the population of the State of Palestine reached approximately 5.56 million by the end of 2025, with 3.43 million in the West Bank.",
           "accessed": "2026-11-20",
-          "kind": "government"
+          "kind": "government",
+          "is_record": true
         },
         {
           "publisher": "WAFA (Palestinian news agency), reporting PCBS",
@@ -97,8 +100,27 @@
           "quote": "4.62 million live in the West Bank and Gaza, 1.46 million live in Israel",
           "accessed": "2026-11-20",
           "kind": "news"
+        },
+        {
+          "publisher": "Anadolu Agency (Turkey's state news agency)",
+          "title": "2025 marks deadliest year for Palestinians amid Israeli assaults",
+          "url": "https://aa.com.tr/en/middle-east/2025-marks-deadliest-year-for-palestinians-amid-israeli-assaults/3786482",
+          "archive": "",
+          "quote": "the Palestinian population stood at about 5.56 million by the end of 2025, including 3.43 million in the West Bank and 2.13 million in Gaza",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Al-Quds (Palestinian daily)",
+          "title": "Palestinian statistics report paints a grim picture of Palestinians' conditions at the end of 2025",
+          "url": "https://alquds.com/en/posts/222405",
+          "archive": "",
+          "quote": "the population of the State of Palestine reached about 5.56 million people at the end of 2025, including 3.43 million in the West Bank",
+          "accessed": "2026-11-20",
+          "kind": "news"
         }
-      ]
+      ],
+      "record": true
     },
     {
       "text": "The two bureaus overlap: Israel counts the roughly 300,000 Arab residents of East Jerusalem in its own census, and the Palestinian bureau counts them in the West Bank, so adding the two totals double-counts them; this rests on Kobi Michael of the Institute for National Security Studies, who told the Jerusalem Post in 2015 that it seemed the Palestinian bureau's report had double-counted them. DellaPergola's own 2005 estimates, published on an advocacy site beside the American Research Initiative's, state that East Jerusalem residents are not double counted in them.",
@@ -129,6 +151,15 @@
           "quote": "Eastern Jerusalem residents are not double counted in these estimates.",
           "accessed": "2026-11-20",
           "kind": "advocacy"
+        },
+        {
+          "publisher": "The Algemeiner (reporting Yoram Ettinger)",
+          "title": "Inflated Palestinian population figures lie behind talk of 'demographic time bomb'",
+          "url": "https://www.algemeiner.com/2014/12/30/inflated-palestinian-population-figures-lie-behind-talk-of-demographic-time-bomb-israeli-expert-says/",
+          "archive": "",
+          "quote": "2.83 million claimed in the Palestinian survey, which includes eastern Jerusalem",
+          "accessed": "2026-11-20",
+          "kind": "news"
         }
       ]
     },
@@ -179,6 +210,15 @@
           "quote": "Official Palestinian demographic numbers are highly inflated, as documented by a study that has been conducted since 2004",
           "accessed": "2026-11-20",
           "kind": "advocacy"
+        },
+        {
+          "publisher": "The Algemeiner (reporting Yoram Ettinger, 2014)",
+          "title": "Inflated Palestinian population figures lie behind talk of 'demographic time bomb'",
+          "url": "https://www.algemeiner.com/2014/12/30/inflated-palestinian-population-figures-lie-behind-talk-of-demographic-time-bomb-israeli-expert-says/",
+          "archive": "",
+          "quote": "once adjustments for the Palestinian errors are made, Ettinger said, a different picture of Arab settlement emerges: 1.7 million in the West Bank",
+          "accessed": "2026-11-20",
+          "kind": "news"
         }
       ]
     },
@@ -336,6 +376,24 @@
           "quote": "from confederation to a democratic binational state",
           "accessed": "2026-11-20",
           "kind": "news"
+        },
+        {
+          "publisher": "The Nation (interview with the A Land for All movement)",
+          "title": "Can We Build a Shared Homeland for Israelis And Palestinians?",
+          "url": "https://thenation.com/article/world/qanda-a-land-for-all/",
+          "archive": "",
+          "quote": "We propose one land with citizens of two separate states, with the goal of freedom of residency and freedom of movement for all.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "The American Prospect",
+          "title": "A Land for All",
+          "url": "https://prospect.org/world/2023-11-17-israel-palestine-land-for-all/",
+          "archive": "",
+          "quote": "create two distinct states within a confederal system offering complete freedom of movement to all",
+          "accessed": "2026-11-20",
+          "kind": "news"
         }
       ]
     },
@@ -417,7 +475,7 @@
       "sources": [
         {
           "publisher": "United Nations (General Assembly press release)",
-          "title": "General Debate, 25 September 2025",
+          "title": "Palestinian Authority 'Ready to Work' with All Partners to Implement Peace Plan, President Tells General Assembly",
           "url": "https://www.un.org/unispal/document/unga80-general-debate-press-release-25sep25",
           "archive": "",
           "quote": "We want a modern and democratic State that abides by international law",
@@ -679,7 +737,12 @@
     "The 2014 Palestinian bureau figures (4.62 million in the West Bank and Gaza) on the INSS/Jerusalem Post page are a different year from the 2025 figures on F1 and do not support them.",
     "The inflation case from its authors' latest publication: the American Research Initiative's own latest study was not found; Ettinger's 2022 JNS opinion piece is the latest we read, and it cites a study 'conducted since 2004' without giving its figures, so the 1.1 million overstatement rests on his 2015 Jerusalem Post statement and the 2005-06 study.",
     "Fatah's own documents or a Fatah leader's statement on one state or two: not found in a page we could read; the Authority's position rests on Abbas's UN address as reported by the UN and CBC. Hamas's text is quoted from the Jewish Virtual Library's copy of the English version; the Arabic original and the 1988 charter were not read.",
-    "Coalition agreements and party platforms on annexation: not found; the annexation position comes from Smotrich's and Katz's statements as reported, Ynet's party questionnaire and one Knesset vote."
+    "Coalition agreements and party platforms on annexation: not found; the annexation position comes from Smotrich's and Katz's statements as reported, Ynet's party questionnaire and one Knesset vote.",
+    "Record facts, converted: F0 (Israel's CBS release, read at cbs.gov.il) and F1 (the PCBS 31 December 2025 release, read at microdata.pcbs.gov.ps) are marked as record facts with two reliable outlets each reporting the same release (Ynet and Israel National News; Anadolu and Al-Quds). Anadolu is Turkey's state agency and Al-Quds is a Palestinian daily; no non-Palestinian, non-Turkish outlet reporting the 2025 PCBS figures was found. The PCBS's own estimate method (a census base projected forward) was not audited by us.",
+    "F2 (East Jerusalem counted by both bureaus) still rests on Kobi Michael's hedged 2015 remark and Ettinger's claim as reported by the Algemeiner; neither the Israeli nor the Palestinian bureau's 2025-26 release states the overlap, and no neutral audit was found. A person should check the PCBS and CBS methodology notes.",
+    "F4 (DellaPergola's 6.9 million Jews and 6.5 million Arabs) has one reliable source for the AP interview, one scholarly study for the 2024 projection, and a Georgetown blog post; a third independent report was not found. A Dawn (AFP) article of 2007 quotes DellaPergola predicting a Jewish minority before the end of that decade, which did not happen on his later numbers; it is not cited.",
+    "Fatah and the Palestinian Authority in their own documents: the 1988 Palestine National Council declaration and communique, hosted by the UN, are now cited on the proposals card; no Fatah platform or later PA document on one state versus two was found beyond Abbas's UN address.",
+    "Israeli coalition guidelines: the 37th government's guidelines are quoted on the two-states-today card through JNS and All Israel News; the Hebrew text was not read, and no coalition agreement or party platform text was found."
   ],
   "not_claimed": [
     "The numbers do not decide what is just: a population's size does not settle whether its members should have equal rights, a state of their own, or a veto over the other's.",

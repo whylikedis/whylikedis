@@ -1,0 +1,108 @@
+{
+  "id": "case-07",
+  "era": 1,
+  "claim": "Smallpox has been wiped out.",
+  "heard": [
+    {
+      "who": "World Health Organization, health topic page on smallpox",
+      "url": "https://www.who.int/health-topics/smallpox",
+      "quote": "In 1980 WHO declared smallpox eradicated - the only infectious disease to achieve this distinction.",
+      "archive": ""
+    }
+  ],
+  "answer": "Yes. Smallpox was eradicated from the world in 1980, and the last known natural case had been in Somalia in 1977.",
+  "facts": [
+    {
+      "text": "Smallpox was eradicated from the world in 1980.",
+      "sources": [
+        {
+          "publisher": "World Health Organization",
+          "title": "History of smallpox vaccination",
+          "url": "https://www.who.int/news-room/spotlight/history-of-vaccination/history-of-smallpox-vaccination",
+          "archive": "",
+          "quote": "In 1980, WHO declared smallpox officially eradicated : The world and all its people have won freedom from smallpox",
+          "accessed": "2026-11-20",
+          "kind": "primary",
+          "is_record": true
+        },
+        {
+          "publisher": "Bulletin of the World Health Organization (W. H. Foege)",
+          "title": "Commentary: smallpox eradication in west and central Africa revisited",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2305707",
+          "archive": "",
+          "quote": "In May 1980, the Thirty-third World Health Assembly adopted a resolution accepting the report of the Global Commission for the Certification of Smallpox Eradication and affirming its belief that this once-universal disease had been eradicated worldwide",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "The Boston Globe",
+          "title": "The world defeated smallpox. Why does polio still exist?",
+          "url": "https://www.bostonglobe.com/ideas/2018/03/09/the-world-defeated-smallpox-why-does-polio-still-exist/AQgmpXyENYHojEjVkvenjP/story.html",
+          "archive": "",
+          "quote": "On May 8, 1980, the World Health Organization announced that, for the first time, a human infectious disease had been completely eradicated.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ],
+      "record": true
+    },
+    {
+      "text": "The last known natural case of smallpox was Ali Maow Maalin, a health worker in Somalia, in 1977.",
+      "sources": [
+        {
+          "publisher": "Encyclopedia.com (Science and Its Times)",
+          "title": "Ali Maow Maalin Survives the Last Endemic Smallpox Case",
+          "url": "https://www.encyclopedia.com/science/medical-magazines/ali-maow-maalin-survives-last-endemic-smallpox-case",
+          "archive": "",
+          "quote": "The last known case of endemic (naturally-occurring) smallpox occurred in Merka, Somalia, in 1977",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "EBSCO Research Starters",
+          "title": "World Health Organization Intensifies Its Campaign to Eradicate Smallpox",
+          "url": "https://www.ebsco.com/research-starters/health-and-medicine/world-health-organization-intensifies-its-campaign-eradicate/",
+          "archive": "",
+          "quote": "The last case of variola minor was reported in Somalia on October 26, 1977.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "The Boston Globe",
+          "title": "The world defeated smallpox. Why does polio still exist?",
+          "url": "https://www.bostonglobe.com/ideas/2018/03/09/the-world-defeated-smallpox-why-does-polio-still-exist/AQgmpXyENYHojEjVkvenjP/story.html",
+          "archive": "",
+          "quote": "Ali Maow Maalin had been the last person to be infected by the naturally occurring form",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    {
+      "text": "Whether the last stocks of live variola virus should be destroyed. WHO describes a lengthy and complex debate over this since eradication.",
+      "sources": [
+        {
+          "publisher": "World Health Organization",
+          "title": "Smallpox",
+          "url": "https://www.who.int/health-topics/smallpox",
+          "archive": "",
+          "quote": "The period since eradication has been defined by a lengthy and complex debate focussed on the destruction of the last remaining stocks of live variola virus.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        }
+      ]
+    }
+  ],
+  "could_not_verify": [
+    "A readable text of Resolution WHA33.3 itself; the scanned PDF could not be read, so WHO's page quoting it was used.",
+    "Whether any unreported case occurred after 1977; the sources do not address it."
+  ],
+  "not_claimed": [
+    "That no smallpox virus exists anywhere; stocks remain in laboratories.",
+    "That every country was certified at the same time."
+  ],
+  "status": "draft",
+  "content_approved": false
+}

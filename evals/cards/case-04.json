@@ -1,0 +1,106 @@
+{
+  "id": "case-04",
+  "era": 1,
+  "claim": "Voyager 1 has left the solar system.",
+  "heard": [
+    {
+      "who": "Ed Stone, Voyager project scientist, quoted by CBS News (carried by Spaceflight Now), 12 September 2013",
+      "url": "https://spaceflightnow.com/news/n1309/12voyager/",
+      "quote": "\"In leaving the (solar system) and setting sail on the cosmic seas between the stars, Voyager has joined the other historic journeys of exploration such as the first circumnavigation of the Earth and the first footprint on the moon,\"",
+      "archive": ""
+    }
+  ],
+  "answer": "NASA's Voyager team says Voyager 1 first entered interstellar space in August 2012, a date it worked out by comparing plasma measurements from 2013 with fainter signals from late 2012. The probe was launched in 1977.",
+  "facts": [
+    {
+      "text": "Voyager 1 first entered interstellar space in August 2012, a date its science team worked out by comparing the plasma density measured around the spacecraft in April 2013 with fainter signals from late 2012.",
+      "sources": [
+        {
+          "publisher": "NASA",
+          "title": "NASA Spacecraft Embarks on Historic Journey Into Interstellar Space",
+          "url": "https://www.nasa.gov/news-release/nasa-spacecraft-embarks-on-historic-journey-into-interstellar-space",
+          "archive": "",
+          "quote": "the plasma around the spacecraft began to vibrate like a violin string.",
+          "accessed": "2026-11-20",
+          "kind": "primary"
+        },
+        {
+          "publisher": "ScienceDaily",
+          "title": "NASA's Voyager 1 spacecraft embarks on historic journey into interstellar space",
+          "url": "https://www.sciencedaily.com/releases/2013/09/130912135507.htm",
+          "archive": "",
+          "quote": "Through extrapolation of measured plasma densities from both events, the team determined Voyager 1 first entered interstellar space in August 2012.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "SatNews",
+          "title": "JPL, NASA + Voyager: Billions and Billions of Miles Away in Interstellar Space",
+          "url": "https://satnews.com/2013/09/12/jpl-nasa-voyager-billions-billions-of-miles-away-in-interstellar-space-satellite/",
+          "archive": "",
+          "quote": "Density of this sort is to be expected in interstellar space.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Voyager 1 was launched in 1977.",
+      "sources": [
+        {
+          "publisher": "Astronomy Now",
+          "title": "Voyager 1 goes interstellar",
+          "url": "https://astronomynow.com/news/n1309/13voyager",
+          "archive": "",
+          "quote": "After launching on 5 September 1977 and making fly-by encounters with Jupiter (1979) and Saturn (1980)",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Spaceflight Now (story written for CBS News)",
+          "title": "Voyager 1 crosses over into interstellar space",
+          "url": "https://spaceflightnow.com/news/n1309/12voyager/",
+          "archive": "",
+          "quote": "Voyager 2 was launched on Aug. 20, 1977, followed 16 days later by Voyager 1 on Sept. 5, 1977.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "AAAS (Science)",
+          "title": "Science: Voyager 1 now probing unexplored region of space",
+          "url": "https://www.aaas.org/news/science-voyager-1-now-probing-unexplored-region-space",
+          "archive": "",
+          "quote": "which has been hurtling away from the Sun since it was launched in 1977",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    {
+      "text": "Whether entering interstellar space means leaving the solar system. The solid bodies of the Solar System, such as the Oort Cloud, may stretch up to a light year from the Sun, where its gravity still dominates.",
+      "sources": [
+        {
+          "publisher": "Astronomy Now",
+          "title": "Voyager 1 goes interstellar",
+          "url": "https://astronomynow.com/news/n1309/13voyager",
+          "archive": "",
+          "quote": "The Oort Cloud, which is a sphere of icy bodies from which comets originate, may stretch up to a light year from the Sun, while the Sun's gravity clearly still dominates.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    }
+  ],
+  "could_not_verify": [
+    "The Science paper by Gurnett and colleagues, which is behind a paywall; only reports on it were read.",
+    "A single agreed date for the crossing; NASA's team and later accounts also mention 25 August 2012."
+  ],
+  "not_claimed": [
+    "That Voyager 1 is beyond the Sun's gravitational reach.",
+    "That Voyager 1 is beyond the Oort Cloud."
+  ],
+  "status": "draft",
+  "content_approved": false
+}

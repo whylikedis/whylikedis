@@ -10,7 +10,7 @@
       "archive": ""
     }
   ],
-  "answer": "Israel's 120-seat Knesset is elected by pure proportional vote in one national district, with a 3.25% threshold, so no party has ever won a majority and every government is a coalition. Small parties therefore carry real weight. The November 2022 election produced a government of Likud, two ultra-Orthodox parties and the Religious Zionism and Otzma Yehudit list; Yesh Atid, National Unity, Yisrael Beiteinu, Labor and two Arab-majority lists sat in opposition. The camps differ on a Palestinian state, from the Democrats' opposition to annexation to the coalition's claim of an exclusive Jewish right to the whole land, and on religion and state. Ra'am sat in the 2021 to 2022 coalition. The October 2026 election gave no bloc 61 seats.",
+  "answer": "Israel's 120-seat Knesset is elected by proportional vote in one national district, with a 3.25% threshold. No party has ever won a majority, so every government is a coalition and small parties carry real weight. In the November 2022 election, by the Central Elections Committee's results, Likud won 32 seats and Yesh Atid 24; a Likud-led government took office in December 2022, with guidelines declaring the Jewish people's \"exclusive and indisputable right\" to all parts of the Land of Israel. The Democrats, by contrast, list halting annexation in the West Bank among their principles. Ra'am joined the 2021 Bennett-Lapid coalition, the first Arab party to be a formal coalition member. In the October 2026 election no bloc reached 61 seats.",
   "facts": [
     {
       "text": "The Knesset has 120 seats, is elected by proportional representation in one nationwide district, and a list needs at least 3.25% of valid votes to win seats.",
@@ -88,16 +88,48 @@
       ]
     },
     {
-      "text": "The November 2022 election (the 25th Knesset) gave Likud 32 seats, Yesh Atid 24, Religious Zionism with Otzma Yehudit and Noam 14, National Unity 12, Shas 11, United Torah Judaism 7, Yisrael Beiteinu 6, Ra'am 5, Hadash-Ta'al 5 and Labor 4; Meretz and Balad fell under the threshold.",
+      "record": true,
+      "text": "The Central Elections Committee's official results for the 25th Knesset election (1 November 2022) show Likud 32 seats, Yesh Atid 24, the Religious Zionism and Otzma Yehudit list 14, National Unity 12, Shas 11, United Torah Judaism 7, Yisrael Beiteinu 6, Ra'am 5, Hadash-Ta'al 5 and Labor 4, with 0 seats for Meretz and Balad.",
       "sources": [
         {
           "publisher": "Central Elections Committee (Israel)",
-          "title": "Results of the elections to the 25th Knesset",
+          "title": "Results of the elections for the 25th Knesset (1 November 2022)",
           "url": "https://votes25.bechirot.gov.il/",
           "archive": "",
-          "quote": "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה מחל 32 23.41%",
+          "quote": "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה מחל 32 23.41% 1,115,336 יש עתיד בראשות יאיר לפיד לראשות הממשלה פה 24 17.79% 847,435 הציונות הדתית בראשות בצלאל סמוטריץ` ועוצמה יהודית ט 14 10.84% 516,470",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "government",
+          "is_record": true
+        },
+        {
+          "publisher": "Central Elections Committee (Israel)",
+          "title": "Results of the elections for the 25th Knesset (1 November 2022)",
+          "url": "https://votes25.bechirot.gov.il/",
+          "archive": "",
+          "quote": "המחנה הממלכתי בהנהגת בני גנץ לראשות הממשלה כן 12 9.08% 432,482 התאחדות הספרדים שומרי תורה תנועתו של מרן הרב עובדי שס",
+          "accessed": "2026-11-20",
+          "kind": "government",
+          "is_record": true
+        },
+        {
+          "publisher": "Central Elections Committee (Israel)",
+          "title": "Results of the elections for the 25th Knesset (1 November 2022)",
+          "url": "https://votes25.bechirot.gov.il/",
+          "archive": "",
+          "quote": "11 8.25% 392,964 יהדות התורה והשבת אגודת ישראל - דגל התורה ג 7 5.88% 280,194 ישראל ביתנו בראשות אביגדור ליברמן ל 6 4.48% 213,687",
+          "accessed": "2026-11-20",
+          "kind": "government",
+          "is_record": true
+        },
+        {
+          "publisher": "Central Elections Committee (Israel)",
+          "title": "Results of the elections for the 25th Knesset (1 November 2022)",
+          "url": "https://votes25.bechirot.gov.il/",
+          "archive": "",
+          "quote": "הרשימה הערבית המאוחדת עם 5 4.07% 194,047 חד\"ש תע\"ל בראשות איימן עודה ואחמד טיבי ום 5 3.75% 178,735 מפלגת העבודה בראשות מרב מיכאלי אמת 4 3.69% 175,992 מרצ השמאל של ישראל בראשות זהבה גלאון מרצ 0 3.16% 150,793",
+          "accessed": "2026-11-20",
+          "kind": "government",
+          "is_record": true
         },
         {
           "publisher": "Haaretz",
@@ -120,16 +152,38 @@
       ]
     },
     {
-      "text": "The 25th Knesset has been superseded: the 27 October 2026 election (26th Knesset) gave Likud 27 seats, Yashar 21, Together 12, Joint List 11, The Democrats 8, Ra'am 8, Yisrael Beiteinu 7, Otzma Yehudit 7, United Torah Judaism 7, Shas 6 and Religious Zionism 6; Netanyahu's bloc won 53, with no bloc at 61.",
+      "record": true,
+      "text": "The Central Elections Committee's official results for the 26th Knesset election (27 October 2026) show Likud 27 seats, Yashar 21, Together 12, Joint List 11, The Democrats 8, Ra'am 8, Yisrael Beiteinu 7, Otzma Yehudit 7, United Torah Judaism 7, Shas 6 and Religious Zionism 6. By our own sum of those figures, Likud, Shas, United Torah Judaism, Religious Zionism and Otzma Yehudit (the parties of the 2022 coalition) hold 53 of 120 seats; Reuters reports the election ended in deadlock, with neither Netanyahu nor Eisenkot having a clear path to a majority.",
       "sources": [
         {
           "publisher": "Central Elections Committee (Israel)",
-          "title": "Results of the elections to the 26th Knesset",
+          "title": "Results of the elections for the 26th Knesset (27 October 2026)",
           "url": "https://votes26.bechirot.gov.il/",
           "archive": "",
-          "quote": "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה מחל 27 20.51% 1,167,591",
+          "quote": "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה מחל 27 20.51% 1,167,591 ישר! עם איזנקוט לראשות הממשלה מאחדים את ישראל דרך 21 16.05% 913,629 ביחד בראשות נפתלי בנט רק 12 9.35% 532,018 הרשימה המשותפת ודם 11 8.80% 500,755",
           "accessed": "2026-11-20",
-          "kind": "primary"
+          "kind": "government",
+          "is_record": true
+        },
+        {
+          "publisher": "Central Elections Committee (Israel)",
+          "title": "Results of the elections for the 26th Knesset (27 October 2026)",
+          "url": "https://votes26.bechirot.gov.il/",
+          "archive": "",
+          "quote": "הדמוקרטים בראשות יאיר גולן אמת 8 6.44% 366,278 רע\"ם - הרשימה הערבית המאוחדת עם 8 5.93% 337,720 ישראל ביתנו בראשות אביגדור ליברמן ל 7 5.93% 337,450 עוצמה יהודית בראשות איתמר בן גביר ב 7 5.74% 326,793",
+          "accessed": "2026-11-20",
+          "kind": "government",
+          "is_record": true
+        },
+        {
+          "publisher": "Central Elections Committee (Israel)",
+          "title": "Results of the elections for the 26th Knesset (27 October 2026)",
+          "url": "https://votes26.bechirot.gov.il/",
+          "archive": "",
+          "quote": "יהדות התורה והשבת אגודת ישראל - דגל התורה ג 7 5.49% 312,632 התאחדות הספרדים שומרי תורה תנועתו של מרן הרב עובדיה יוסף זצ\"ל שס 6 5.26% 299,533 הציונות הדתית בראשות בצלאל סמוטריץ' וזהות בראשות משה פייגלין ט 6 5.11% 290,549",
+          "accessed": "2026-11-20",
+          "kind": "government",
+          "is_record": true
         },
         {
           "publisher": "Reuters",
@@ -149,20 +203,11 @@
           "quote": "election year votes count number of seats share of votes list of candidates platform 2026 366,278 8 6.4",
           "accessed": "2026-11-20",
           "kind": "scholarly"
-        },
-        {
-          "publisher": "Midbar (no named author)",
-          "title": "Israel has counted: the election results",
-          "url": "https://midbar.media/en/article/israel-election-results-likud-27-no-one-at-61",
-          "archive": "",
-          "quote": "Benjamin Netanyahu's Likud wins 27 seats (20.5%), ahead of Yashar, Gadi Eisenkot's list, with 21 (16.1%).",
-          "accessed": "2026-11-20",
-          "kind": "other"
         }
       ]
     },
     {
-      "text": "Likud descends from the Revisionist movement of Jabotinsky through Herut (founded 1948), joined the Likud bloc in 1973, and under Menachem Begin won the 1977 election that ended Labor's rule.",
+      "text": "Britannica says Herut had its roots in Jabotinsky's Revisionist Zionism; the Israel Democracy Institute and the Jewish Virtual Library say Likud was formed in 1973 and, headed by Menachem Begin, first came to power in 1977.",
       "sources": [
         {
           "publisher": "Encyclopaedia Britannica",
@@ -174,15 +219,6 @@
           "kind": "reference"
         },
         {
-          "publisher": "countrystudies.us (mirror of the Library of Congress Country Studies; no named editor)",
-          "title": "Israel - The Likud Bloc",
-          "url": "https://countrystudies.us/israel/96.htm",
-          "archive": "",
-          "quote": "In the ninth Knesset elections in May 1977, the center-right Likud alliance emerged victorious and replaced the previously dominant Labor alignment",
-          "accessed": "2026-11-20",
-          "kind": "other"
-        },
-        {
           "publisher": "Israel Democracy Institute",
           "title": "Likud",
           "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/likud/",
@@ -190,6 +226,24 @@
           "quote": "headed by Menachem Begin, Likud first came to power in 1977 and continued as the ruling party until 1984.",
           "accessed": "2026-11-20",
           "kind": "scholarly"
+        },
+        {
+          "publisher": "Jewish Virtual Library",
+          "title": "History and Overview of the Likud Party",
+          "url": "https://www.jewishvirtuallibrary.org/history-and-overview-of-the-likud-party",
+          "archive": "",
+          "quote": "an election that marked the first time since Israel's independence the Labor party would not lead the government.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "countrystudies.us (mirror of the Library of Congress Country Studies; no named editor)",
+          "title": "Israel - The Likud Bloc",
+          "url": "https://countrystudies.us/israel/96.htm",
+          "archive": "",
+          "quote": "In the ninth Knesset elections in May 1977, the center-right Likud alliance emerged victorious and replaced the previously dominant Labor alignment",
+          "accessed": "2026-11-20",
+          "kind": "other"
         }
       ]
     },
@@ -226,7 +280,7 @@
       ]
     },
     {
-      "text": "The Labor movement ran Israel from 1948: Mapai was the dominant party, every prime minister until 1977 came from it or its successor Labor, and Labor's line moved to support a Palestinian state; it merged with Meretz in 2024 into The Democrats.",
+      "text": "Mapai, and from 1968 the Israel Labor Party, were predominant and headed all coalition governments until the 1977 upheaval; the Israel Democracy Institute says Labor's line on the conflict moved left over the years and it was the first major party to support a Palestinian state; Labor merged with Meretz in 2024 into The Democrats.",
       "sources": [
         {
           "publisher": "Israel Democracy Institute",
@@ -254,11 +308,20 @@
           "quote": "The Democrats is an electoral list that was founded in 2024 as a result of a merger between the Labor Party and Meretz",
           "accessed": "2026-11-20",
           "kind": "scholarly"
+        },
+        {
+          "publisher": "Encyclopaedia Judaica (via Encyclopedia.com)",
+          "title": "Land of Israel: Political Life and Parties",
+          "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/land-israel-political-life-and-parties",
+          "archive": "",
+          "quote": "in which *Mapai (until 1968) and the *Israel Labor Party thereafter were predominant and headed all the coalition governments formed.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
         }
       ]
     },
     {
-      "text": "The Democrats' published principles include halting the annexation process in the West Bank, amending the nation-state law in the spirit of the Declaration of Independence, civil marriage and limited public transport on Shabbat.",
+      "text": "As summarised by the Israel Democracy Institute, JNS and the Jewish Virtual Library, The Democrats' principles include halting the annexation process in the West Bank, amending the Nation-State Law in accordance with the Declaration of Independence, civil marriage and limited public transport on Shabbat.",
       "sources": [
         {
           "publisher": "Israel Democracy Institute",
@@ -270,13 +333,31 @@
           "kind": "scholarly"
         },
         {
-          "publisher": "The Times of Israel",
-          "title": "Labor and Meretz merge into united 'liberal-democratic Zionist party': The Democrats",
-          "url": "https://www.timesofisrael.com/labor-and-meretz-merge-into-united-liberal-democratic-zionist-party-the-democrats/",
-          "archive": "https://web.archive.org/web/2/https://www.timesofisrael.com/labor-and-meretz-merge-into-united-liberal-democratic-zionist-party-the-democrats/",
-          "quote": "a liberal-democratic Zionist party that will be a political home for a large part of the Israeli population",
+          "publisher": "Israel Democracy Institute",
+          "title": "The Democrats",
+          "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/the-democrats/",
+          "archive": "",
+          "quote": "and halt the annexation process in the West Bank.",
+          "accessed": "2026-11-20",
+          "kind": "scholarly"
+        },
+        {
+          "publisher": "JNS",
+          "title": "Israel's political parties explained: The Democrats",
+          "url": "https://www.jns.org/feature/israels-political-parties-explained-the-democrats",
+          "archive": "",
+          "quote": "On religion and state, the Democrats seek civil marriage and divorce, recognition of non-Orthodox conversions, an end to the Chief Rabbinate's monopoly over kosher certification, and public transportation on Shabbat, with local discretion over services.",
           "accessed": "2026-11-20",
           "kind": "news"
+        },
+        {
+          "publisher": "Jewish Virtual Library",
+          "title": "Israel Political Parties: The Democrats",
+          "url": "https://jewishvirtuallibrary.org/israel-political-parties-the-democrats",
+          "archive": "",
+          "quote": "and amending the nation-state law in accordance with the principles of Israel's Declaration of Independence.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
         }
       ]
     },
@@ -304,7 +385,7 @@
       ]
     },
     {
-      "text": "The religious-Zionist right: Religious Zionism is placed on the far right by the IDI, advocates the Greater Land of Israel with expanded West Bank settlement, and seeks to limit the Supreme Court; it ran in 2022 on a joint list with Otzma Yehudit and Noam.",
+      "text": "The Israel Democracy Institute's profile says Religious Zionism advocates the principle of the 'Greater Land of Israel' (supporting the expansion of settlement projects in the West Bank) and calls for an aggressive defense policy; Haaretz describes the list as far-right (see the contested section).",
       "sources": [
         {
           "publisher": "Israel Democracy Institute",
@@ -320,14 +401,48 @@
           "title": "Israel Election Final Results",
           "url": "https://www.haaretz.com/israel-news/elections/2022-11-03/ty-article/israel-election-final-results-netanyahu-jewish-far-right-win-power-fiasco-for-left/00000184-3e80-daf1-abc4-7f9a53f40000",
           "archive": "",
-          "quote": "followed by the far-right Religious Zionism - headed by Bezalel Smotrich and Kahanist lawmaker Itamar Ben-Gvir",
+          "quote": "followed by the far-right Religious Zionism - headed by Bezalel Smotrich",
           "accessed": "2026-11-20",
           "kind": "news"
         }
       ]
     },
     {
-      "text": "Otzma Yehudit has Kahanist roots: its figures come from the movement of Rabbi Meir Kahane, whose Kach party was barred from the Knesset elections in 1988 after Israel's parliament amended the election law against incitement to racism.",
+      "record": true,
+      "text": "The Central Elections Committee's results for the 25th Knesset election show the Religious Zionism and Otzma Yehudit list winning 14 seats in 2022; Haaretz and Israel National News report the same list (Israel National News names Noam as a third component).",
+      "sources": [
+        {
+          "publisher": "Central Elections Committee (Israel)",
+          "title": "Results of the elections for the 25th Knesset (1 November 2022)",
+          "url": "https://votes25.bechirot.gov.il/",
+          "archive": "",
+          "quote": "הציונות הדתית בראשות בצלאל סמוטריץ` ועוצמה יהודית ט 14 10.84% 516,470",
+          "accessed": "2026-11-20",
+          "kind": "government",
+          "is_record": true
+        },
+        {
+          "publisher": "Haaretz",
+          "title": "Israel Election Final Results",
+          "url": "https://www.haaretz.com/israel-news/elections/2022-11-03/ty-article/israel-election-final-results-netanyahu-jewish-far-right-win-power-fiasco-for-left/00000184-3e80-daf1-abc4-7f9a53f40000",
+          "archive": "",
+          "quote": "Israel election final results Likud 32 Yesh Atid 24 Religious Zionism 14 National Unity Party 12 Shas 11 United Torah Judaism 7 Yisrael Beitenu 6 The United Arab List 5 Hadash-Ta'al 5 Labor 4",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Israel National News",
+          "title": "Herzog: I am not pushing for the establishment of any particular government",
+          "url": "https://www.israelnationalnews.com/news/362510",
+          "archive": "",
+          "quote": "gives the Likud 32 seats, followed by Yesh Atid with 24, the Religious Zionist - Otzma Yehudit - Noam list with 14, National Unity with 12",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "The Israel Democracy Institute traces Otzma Yehudit's organisational roots to the Jewish National Front founded in 2004, and Reuters (via Ynetnews) and The Guardian say its roots are in Rabbi Meir Kahane's Kach movement, which was barred from the 1988 Knesset elections.",
       "sources": [
         {
           "publisher": "Israel Democracy Institute",
@@ -360,7 +475,7 @@
       ]
     },
     {
-      "text": "Kach was disqualified from the 1988 election, and after 1994 Kach and Kahane Chai were declared terrorist organisations in Israel.",
+      "text": "Kach was disqualified from running in the 1988 Knesset election; the Knesset had amended the Basic Law in 1985 and, per Reuters (via Ynetnews), all factions passed a law forbidding parties that incite to racism from running.",
       "sources": [
         {
           "publisher": "Israel Democracy Institute",
@@ -393,7 +508,7 @@
       ]
     },
     {
-      "text": "The ultra-Orthodox parties: Shas, founded in 1984 by Sephardic haredim, backs peace deals that preserve security but opposes dividing Jerusalem, and United Torah Judaism, a list of Agudat Israel and Degel HaTorah, serves haredi education, welfare and army-service interests and tends to back the right because it is conservative on religion.",
+      "text": "Per the Israel Democracy Institute, Shas supports peace agreements that preserve security but opposes dividing Jerusalem, and United Torah Judaism tends to back the right-wing camp because it is conservative on religion; Al Jazeera describes both as conservative on religion, family, gender roles and the public place of Judaism.",
       "sources": [
         {
           "publisher": "Israel Democracy Institute",
@@ -425,7 +540,7 @@
       ]
     },
     {
-      "text": "Yisrael Beiteinu, founded by Avigdor Liberman in 1999 for immigrants from the former Soviet Union, combines hawkish positions on the Palestinians (population exchanges and two ethnically homogeneous states) with secular positions on religion and state, including universal conscription.",
+      "text": "The Israel Democracy Institute says Yisrael Beiteinu's proposed solution to the conflict is population exchanges and two ethnically homogeneous states; the Jerusalem Post describes it as right-wing on security and national issues and secular-liberal on religion and state.",
       "sources": [
         {
           "publisher": "Israel Democracy Institute",
@@ -448,7 +563,7 @@
       ]
     },
     {
-      "text": "Ra'am, an Islamist-rooted Arab party, joined the Bennett-Lapid coalition in June 2021, the first time an independent Arab party sat in an Israeli government; it supports a Palestinian state with Jerusalem as its capital and recognition of Arab citizens as a national minority.",
+      "text": "In 2021 Ra'am joined the coalition supporting the Bennett-Lapid government, which the Israel Democracy Institute calls the first time an Arab party was a formal member of the governing coalition.",
       "sources": [
         {
           "publisher": "Israel Democracy Institute",
@@ -480,7 +595,7 @@
       ]
     },
     {
-      "text": "The other Arab-majority lists differ from Ra'am: Hadash, a mixed Arab-Jewish list with communist roots, was among the first parties to champion two states, and Balad seeks a state of all its citizens; Balad fell under the threshold in 2022.",
+      "text": "Per the Israel Democracy Institute, Hadash had a communist orientation and was among the first parties to champion two states for two peoples, and Balad champions turning Israel into a 'state of all of its citizens'; Haaretz reports that Balad failed to make it into the Knesset in 2022.",
       "sources": [
         {
           "publisher": "Israel Democracy Institute",
@@ -537,7 +652,7 @@
       ]
     },
     {
-      "text": "How to describe Religious Zionism: the IDI places it on the far right, and Haaretz calls the list far-right with a Kahanist lawmaker; the list's own platform stresses Jewish identity and the Greater Land of Israel.",
+      "text": "How to describe Religious Zionism: the Israel Democracy Institute places it on the far right of the political map, and Haaretz calls the list far-right; we carry the descriptions of others and do not use either word as our own.",
       "sources": [
         {
           "publisher": "Israel Democracy Institute",
@@ -553,14 +668,14 @@
           "title": "Israel Election Final Results",
           "url": "https://www.haaretz.com/israel-news/elections/2022-11-03/ty-article/israel-election-final-results-netanyahu-jewish-far-right-win-power-fiasco-for-left/00000184-3e80-daf1-abc4-7f9a53f40000",
           "archive": "",
-          "quote": "followed by the far-right Religious Zionism - headed by Bezalel Smotrich and Kahanist lawmaker Itamar Ben-Gvir",
+          "quote": "followed by the far-right Religious Zionism - headed by Bezalel Smotrich",
           "accessed": "2026-11-20",
           "kind": "news"
         }
       ]
     },
     {
-      "text": "What the 2022 government's 'exclusive and indisputable right' guideline means: critics read the coalition's founding documents as annexation in all but name; the guidelines themselves defer applying sovereignty to a time that suits national and international interests.",
+      "text": "What the 2022 government's 'exclusive and indisputable right' guideline means: Just Security, a critic, reads the coalition's founding documents as reflecting 'annexation in all but name'. We have not read the guidelines' own wording on when sovereignty would be applied.",
       "sources": [
         {
           "publisher": "Just Security",
@@ -570,27 +685,20 @@
           "quote": "reflect annexation in all but name",
           "accessed": "2026-11-20",
           "kind": "scholarly"
-        },
-        {
-          "publisher": "Just Security",
-          "title": "Israel is Annexing the West Bank. Don't be Misled by its Gaslighting",
-          "url": "https://www.justsecurity.org/85093/israel-is-annexing-the-west-bank-dont-be-misled-by-its-gaslighting/",
-          "archive": "",
-          "quote": "Its founding documents state unequivocally that the Jewish people have an \"exclusive and indisputable right to all parts of the Land of Israel\"",
-          "accessed": "2026-11-20",
-          "kind": "scholarly"
         }
       ]
     }
   ],
   "could_not_verify": [
-    "The Knesset's own English pages (main.knesset.gov.il) return nothing to the checker; seat counts come from the Central Elections Committee.",
-    "Whether a 26th-Knesset government has formed. The brief named the 2022 Knesset as current. Another agent reported no official 2026 results; the checker's fetch does read votes26.bechirot.gov.il (Central Elections Committee, 27 October 2026 election, 11 lists, Likud 27), a Reuters results graphic, the IDI party pages and a Midbar report, so the results stay on the card; a government is not yet reported.",
-    "A third independent source for several single-camp facts (Hadash and Balad platforms; Shas and United Torah Judaism; Yisrael Beiteinu on a Palestinian state; Religious Zionism's platform): the IDI party pages are one site.",
+    "The coalition guidelines of the government that took office in December 2022 (the record behind the 'exclusive and indisputable right' fact): the Knesset and government pages did not load for the checker; the fact rests on Freedom House, Israel National News and Just Security. A person would need the guidelines text and what they say about applying sovereignty.",
+    "The Democrats' own platform (the party's published text): the principles fact rests on the Israel Democracy Institute, JNS and the Jewish Virtual Library summaries, not the party's site.",
+    "Lapid's 2022 UN General Assembly speech as a record: the UN press release page and the Times of Israel full text did not load; the fact rests on the Israel Democracy Institute and UN News (two sites).",
+    "A third independent site for: Shas and United Torah Judaism positions; Yisrael Beiteinu on a Palestinian state; Hadash and Balad platforms; the Religious Zionism platform; Yesh Atid. The Israel Democracy Institute party pages are one site; the Jewish Virtual Library pages tried for these returned no text.",
     "A readable source for Otzma Yehudit's stated aims (death penalty for terrorists, Jewish law in the judicial system): only the IDI page was readable, so that fact was removed; the Tony Blair Institute page that carries the 2019 platform blocked the checker.",
-    "A Times of Israel Lapid speech page and the Reuters 2022 mandate story: neither was readable; the Lapid fact rests on the IDI and the UN News report.",
-    "Positions of National Unity (Gantz) and Noam on a Palestinian state; National Unity's seat total after the 2023 split.",
-    "Some seat counts and party descriptions after splits during the 2022 to 2026 term."
+    "Details dropped from earlier wording because no readable page carried them: Shas founded in 1984; the Ra'am platform on a Palestinian state; Yisrael Beiteinu's founding in 1999 and its universal conscription position; the 1994 designation of Kach and Kahane Chai as terrorist organisations; the Supreme Court plank of Religious Zionism.",
+    "Whether a 26th-Knesset government has formed: no report found. The 26th-Knesset seat figures come from the Central Elections Committee's page (votes26.bechirot.gov.il); the five-party sum of 53 seats is our own addition of that page's figures, and which parties form a 'bloc' is a choice the reader may make differently.",
+    "The Knesset's own English pages return nothing to the checker; seat counts come from the Central Elections Committee.",
+    "Positions of National Unity and Noam on a Palestinian state; National Unity's seat total after the 2023 split; seat counts after splits during the 2022 to 2026 term."
   ],
   "not_claimed": [
     "That any party speaks for a whole community: Arab citizens, ultra-Orthodox, secular, settlers and others vote across many lists.",

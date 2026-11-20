@@ -1,0 +1,138 @@
+{
+  "id": "case-11",
+  "era": 1,
+  "claim": "Stress and spicy food cause stomach ulcers.",
+  "heard": [
+    {
+      "who": "Clinicians before 1982, as described by News-Medical (Susan Chow, PhD)",
+      "url": "https://www.news-medical.net/health/Peptic-Ulcer-History.aspx",
+      "quote": "Clinicians thought that these lifestyle factors resulted in an overproduction of gastric acid, leading to the formation of ulcers.",
+      "archive": ""
+    }
+  ],
+  "answer": "Mostly no. Until the 1980s doctors attributed ulcers to stress, lifestyle and excess stomach acid, but in 1982 Marshall and Warren cultured a bacterium, Helicobacter pylori, from stomach biopsies. Ulcers it causes can now be treated with antibiotics.",
+  "facts": [
+    {
+      "text": "In 1982 Barry Marshall and Robin Warren cultured a previously unknown bacterium, later named Helicobacter pylori, from the stomach biopsies of patients.",
+      "sources": [
+        {
+          "publisher": "The Nobel Assembly at Karolinska Institutet",
+          "title": "Press release: The Nobel Prize in Physiology or Medicine 2005",
+          "url": "https://www.nobelprize.org/prizes/medicine/2005/press-release/",
+          "archive": "",
+          "quote": "After several attempts, Marshall succeeded in cultivating a hitherto unknown bacterial species (later denoted Helicobacter pylori ) from several of these biopsies.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Scientific American",
+          "title": "Medicine and Physiology Nobel Awarded to H. pylori Researchers",
+          "url": "https://www.scientificamerican.com/article/medicine-and-physiology-n/",
+          "archive": "",
+          "quote": "It took Warren, with the help of young trainee, Barry Marshall, until 1982 to finally cultivate the bacterium in the laboratory.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "News-Medical (Susan Chow, PhD)",
+          "title": "Peptic Ulcer History",
+          "url": "https://www.news-medical.net/health/Peptic-Ulcer-History.aspx",
+          "archive": "",
+          "quote": "These scientists isolated the bacteria from stomach biopsies and named the organism Helicobacter pylori",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Before the 1980s doctors attributed peptic ulcers to stress, lifestyle and excess stomach acid.",
+      "sources": [
+        {
+          "publisher": "The Nobel Assembly at Karolinska Institutet",
+          "title": "Press release: The Nobel Prize in Physiology or Medicine 2005",
+          "url": "https://www.nobelprize.org/prizes/medicine/2005/press-release/",
+          "archive": "",
+          "quote": "In 1982, when this bacterium was discovered by Marshall and Warren, stress and lifestyle were considered the major causes of peptic ulcer disease.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Scientific American",
+          "title": "Medicine and Physiology Nobel Awarded to H. pylori Researchers",
+          "url": "https://www.scientificamerican.com/article/medicine-and-physiology-n/",
+          "archive": "",
+          "quote": "physicians thought that excess stomach acid caused by stress ate away at the stomach lining and lead to ulcers.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "News-Medical (Susan Chow, PhD)",
+          "title": "Peptic Ulcer History",
+          "url": "https://www.news-medical.net/health/Peptic-Ulcer-History.aspx",
+          "archive": "",
+          "quote": "Up until the discovery of H. pylori in 1982, clinicians attributed peptic ulcers to lifestyle choices.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "Ulcers caused by H. pylori can now be treated with antibiotics rather than by acid control or surgery alone.",
+      "sources": [
+        {
+          "publisher": "The Nobel Assembly at Karolinska Institutet",
+          "title": "Press release: The Nobel Prize in Physiology or Medicine 2005",
+          "url": "https://www.nobelprize.org/prizes/medicine/2005/press-release/",
+          "archive": "",
+          "quote": "a disease that can be cured by a short regimen of antibiotics and acid secretion inhibitors.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        },
+        {
+          "publisher": "Scientific American",
+          "title": "Medicine and Physiology Nobel Awarded to H. pylori Researchers",
+          "url": "https://www.scientificamerican.com/article/medicine-and-physiology-n/",
+          "archive": "",
+          "quote": "Today, the most effective remedy for ulcers is a regimen of antibiotics.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Varsity (University of Cambridge student newspaper)",
+          "title": "The discovery the world could not stomach",
+          "url": "https://www.varsity.co.uk/science/14881",
+          "archive": "",
+          "quote": "disabling surgeries instead of having their ulcers simply treated by antibiotics",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    {
+      "text": "Whether stress and lifestyle are still a major cause of peptic ulcers. Some clinicians hold that they are.",
+      "sources": [
+        {
+          "publisher": "The Nobel Assembly at Karolinska Institutet",
+          "title": "Press release: The Nobel Prize in Physiology or Medicine 2005",
+          "url": "https://www.nobelprize.org/prizes/medicine/2005/press-release/",
+          "archive": "",
+          "quote": "In 1982, when this bacterium was discovered by Marshall and Warren, stress and lifestyle were considered the major causes of peptic ulcer disease.",
+          "accessed": "2026-11-20",
+          "kind": "reference"
+        }
+      ]
+    }
+  ],
+  "could_not_verify": [
+    "Any current clinical guideline on the role of stress in ulcers; none was read.",
+    "The share of ulcers not caused by H. pylori; the pages give figures only for those that are."
+  ],
+  "not_claimed": [
+    "That stress can never worsen ulcers.",
+    "That every ulcer is caused by H. pylori."
+  ],
+  "status": "draft",
+  "content_approved": false
+}

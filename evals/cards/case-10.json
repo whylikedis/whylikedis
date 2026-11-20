@@ -1,0 +1,147 @@
+{
+  "id": "case-10",
+  "era": 1,
+  "claim": "You can see the Great Wall of China from space.",
+  "heard": [
+    {
+      "who": "Chinese elementary school textbooks before 2003, as described by Scientific American",
+      "url": "https://www.scientificamerican.com/article/is-chinas-great-wall-visible-from-space/",
+      "quote": "The Ministry of Education even moved to revise its elementary school textbooks, which had long claimed the ancient barricade was visible.",
+      "archive": ""
+    }
+  ],
+  "answer": "Not with the naked eye, in general. China's first astronaut, Yang Liwei, said after his 2003 flight that he had not seen it, and the 2004 photograph from the International Space Station used a zoom lens. Radar satellites can pick the wall out far more easily than a person can.",
+  "facts": [
+    {
+      "text": "The Great Wall of China is generally not visible to the naked eye from low Earth orbit.",
+      "sources": [
+        {
+          "publisher": "Scientific American",
+          "title": "Is China's Great Wall Visible from Space?",
+          "url": "https://www.scientificamerican.com/article/is-chinas-great-wall-visible-from-space/",
+          "archive": "",
+          "quote": "The unglamorous truth is that the wall is only visible from low orbit under a specific set of weather and lighting conditions.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "BBC Sky at Night Magazine",
+          "title": "Can you see the Great Wall of China from space?",
+          "url": "https://www.skyatnightmagazine.com/space-science/can-you-see-great-wall-china-from-space",
+          "archive": "",
+          "quote": "So while the Great Wall of China can be photographed or observed from space using magnification, it can't be seen with the naked eye.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Universe Today",
+          "title": "Can You See the Great Wall of China from Space?",
+          "url": "https://www.universetoday.com/86004/can-you-see-the-great-wall-of-china-from-space/",
+          "archive": "",
+          "quote": "\"The Great Wall of China is not visible from orbit with the naked eye,\" Hadfield said via Twitter",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "China's first astronaut, Yang Liwei, said after his 2003 flight that he had not seen the Great Wall.",
+      "sources": [
+        {
+          "publisher": "Scientific American",
+          "title": "Is China's Great Wall Visible from Space?",
+          "url": "https://www.scientificamerican.com/article/is-chinas-great-wall-visible-from-space/",
+          "archive": "",
+          "quote": "Yang Liwei, China's first man in space, returned from the 14-orbit Shenzhou 5 mission in 2003 and admitted to reporters that he had not seen the Great Wall",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "BBC Sky at Night Magazine",
+          "title": "Can you see the Great Wall of China from space?",
+          "url": "https://www.skyatnightmagazine.com/space-science/can-you-see-great-wall-china-from-space",
+          "archive": "",
+          "quote": "\"The Earth looked very beautiful from space, but I did not see our Great Wall,\" he said.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Universe Today",
+          "title": "Can You See the Great Wall of China from Space?",
+          "url": "https://www.universetoday.com/86004/can-you-see-the-great-wall-of-china-from-space/",
+          "archive": "",
+          "quote": "when China's first astronaut, Yang Liwei, went into space in 2003, he said that he couldn't see the structure of the Great Wall from out his capsule window.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    },
+    {
+      "text": "In 2004 astronaut Leroy Chiao photographed part of Inner Mongolia from the International Space Station with a zoom lens; experts later said the image appears to show the wall, but Chiao himself was not sure.",
+      "sources": [
+        {
+          "publisher": "Scientific American",
+          "title": "Is China's Great Wall Visible from Space?",
+          "url": "https://www.scientificamerican.com/article/is-chinas-great-wall-visible-from-space/",
+          "archive": "",
+          "quote": "NASA experts later confirmed that the photo appears to show the wall. But Chiao admitted that he wasn't sure what he was seeing from space.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "BBC Sky at Night Magazine",
+          "title": "Can you see the Great Wall of China from space?",
+          "url": "https://www.skyatnightmagazine.com/space-science/can-you-see-great-wall-china-from-space",
+          "archive": "",
+          "quote": "on 24 November 2004, an image of the Great Wall of China was captured from low Earth orbit by US astronaut and International Space Station Commander Leroy Chiao.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Universe Today",
+          "title": "Can You See the Great Wall of China from Space?",
+          "url": "https://www.universetoday.com/86004/can-you-see-the-great-wall-of-china-from-space/",
+          "archive": "",
+          "quote": "took what is thought to be the first verifiable image of the Great Wall of China from out his window on the International Space Station in 2004, using a zoom lens.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    }
+  ],
+  "contested": [
+    {
+      "text": "Whether anyone has seen the wall with the naked eye from low orbit. Scientific American reports that astronauts Eugene Cernan and Ed Lu have said they did; Jeffrey Hoffman says he never saw it.",
+      "sources": [
+        {
+          "publisher": "Scientific American",
+          "title": "Is China's Great Wall Visible from Space?",
+          "url": "https://www.scientificamerican.com/article/is-chinas-great-wall-visible-from-space/",
+          "archive": "",
+          "quote": "Some U.S. astronauts, notably Eugene Cernan and Ed Lu, have said they've seen the wall from low orbit.",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        },
+        {
+          "publisher": "Scientific American",
+          "title": "Is China's Great Wall Visible from Space?",
+          "url": "https://www.scientificamerican.com/article/is-chinas-great-wall-visible-from-space/",
+          "archive": "",
+          "quote": "\"I have spent a lot of time looking at the Earth from space, including numerous flights over China, and I never saw the wall,\"",
+          "accessed": "2026-11-20",
+          "kind": "news"
+        }
+      ]
+    }
+  ],
+  "could_not_verify": [
+    "A study that measured the wall's contrast from orbit; none of the pages cites one.",
+    "What Cernan and Lu saw and under what conditions; only a one-line report of their claims was found."
+  ],
+  "not_claimed": [
+    "That the wall cannot be photographed from orbit; it has been, with magnification.",
+    "That it is visible from the Moon; it is not."
+  ],
+  "status": "draft",
+  "content_approved": false
+}
