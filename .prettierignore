@@ -7,3 +7,7 @@ apps/site/data/
 apps/site/landing.html
 package-lock.json
 FACTS.md
+# Interlace registry items, installed as Interlace ships them; never reformatted here.
+apps/site/components/ui/
+apps/site/lib/utils.ts
+apps/site/styles/interlace/

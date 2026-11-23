@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next';
-import { Frank_Ruhl_Libre, Heebo, JetBrains_Mono } from 'next/font/google';
+import { Frank_Ruhl_Libre, Heebo } from 'next/font/google';
 import type { ReactNode } from 'react';
 import { PREVIEW } from './data';
 import { Nav } from './nav';
@@ -7,18 +7,13 @@ import './globals.css';
 
 const display = Frank_Ruhl_Libre({
   subsets: ['latin'],
-  weight: ['500', '700', '900'],
-  variable: '--font-display',
+  weight: ['500', '700'],
+  variable: '--font-frank',
 });
 const body = Heebo({
   subsets: ['latin'],
   weight: ['400', '500', '700'],
-  variable: '--font-body',
-});
-const label = JetBrains_Mono({
-  subsets: ['latin'],
-  weight: ['500'],
-  variable: '--font-label',
+  variable: '--font-heebo',
 });
 
 const TAGLINE = 'Clear answers about Israel, each with sources you can check.';
@@ -48,15 +43,12 @@ export const viewport: Viewport = { themeColor: '#0038b8' };
 
 export default function Layout({ children }: { children: ReactNode }) {
   return (
-    <html
-      lang="en"
-      className={`${display.variable} ${body.variable} ${label.variable}`}
-    >
+    <html lang="en" className={`${display.variable} ${body.variable}`}>
       <body>
         <div className="draft">
           {PREVIEW
-            ? 'LOCAL PREVIEW · DRAFTS · nothing here is approved or public'
-            : 'WORK IN PROGRESS · cards marked draft have not passed review · nothing here is teaching content yet'}
+            ? 'Local preview: drafts are shown, and nothing here is approved or public.'
+            : 'This site is still being written. Answers still being checked are not ready to teach from yet.'}
         </div>
         <Nav />
         <main className="wrap">{children}</main>

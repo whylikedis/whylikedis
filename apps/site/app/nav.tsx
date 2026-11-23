@@ -5,11 +5,11 @@ import { usePathname } from 'next/navigation';
 
 const NAV = [
   ['/', 'Home'],
-  ['/facts/', 'Fact base'],
+  ['/facts/', 'Answers'],
   ['/questions/', 'Questions we tested'],
   ['/election-map/', 'Election map'],
   ['/method/', 'How we check'],
-  ['/open/', 'Needs a person'],
+  ['/open/', 'Open questions'],
 ];
 
 export function Nav() {

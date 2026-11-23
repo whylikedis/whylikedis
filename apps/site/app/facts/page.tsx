@@ -1,3 +1,4 @@
+import { Badge } from '@/components/ui/badge';
 import { type Card, PREVIEW, type Round, type Source, counts, site } from '../data';
 
 export const metadata = { title: 'Fact base' };
@@ -38,16 +39,24 @@ function CardView({ c }: { c: Card }) {
   });
   return (
     <article className="card" id={c.id}>
-      <p>
-        <span className={c.status === 'verified' ? 'tag ok' : 'tag'}>{c.status}</span>
+      <p className="badges">
+        {c.status === 'verified' ? (
+          <Badge>Checked by a second reader</Badge>
+        ) : (
+          <Badge variant="outline">Still being checked</Badge>
+        )}
         {rounds.map(([label, r]) =>
           r.verdict ? (
-            <span className={r.verdict === 'holds' ? 'tag' : 'tag warn'} key={label}>
+            <Badge
+              variant="outline"
+              className={r.verdict === 'holds' ? undefined : 'border-warning text-warning'}
+              key={label}
+            >
               {label}: {r.verdict}
-            </span>
+            </Badge>
           ) : null,
         )}
-        {!c.content_approved && <span className="tag">not approved as teaching content</span>}
+        {!c.content_approved && <Badge variant="outline">Not yet approved for teaching</Badge>}
       </p>
       <h3>
         <q>{c.claim}</q>
@@ -61,8 +70,12 @@ function CardView({ c }: { c: Card }) {
           {c.facts.map((f, i) => (
             <li key={i}>
               {f.text}
-              {f.record && <span className="tag"> what a record says</span>}
-              {!f.enough && <span className="tag warn"> short of sources</span>}
+              {f.record && <Badge variant="outline">what a record says</Badge>}
+              {!f.enough && (
+                <Badge variant="outline" className="border-warning text-warning">
+                  short of sources
+                </Badge>
+              )}
               <Sources list={f.sources} />
             </li>
           ))}
@@ -120,7 +133,7 @@ function CardView({ c }: { c: Card }) {
         </details>
       )}
       <p className="soft">
-        <code>{c.id}</code>
+        Card <code>{c.id}</code>
       </p>
     </article>
   );
@@ -130,24 +143,21 @@ export default function Facts() {
   const n = counts();
   return (
     <>
-      <p className="label">The fact base</p>
-      <h1 style={{ paddingTop: 0 }}>One card for each claim a child hears</h1>
+      <p className="label">Answers</p>
+      <h1 style={{ paddingTop: 0 }}>Answers to what your child hears about Israel</h1>
       <p className="lede">
         Each card gives an answer a parent can say in two minutes, the facts behind it with the exact words quoted from
         each source, where the record is disputed, and what the card does not claim.
       </p>
       <div className="nums">
         <div>
-          <b>{n.cards}</b>cards
+          <b>{n.verified}</b>checked by a second reader
         </div>
         <div>
-          <b>{n.verified}</b>verified by a second reader
+          <b>{n.cards - n.verified}</b>still being checked
         </div>
         <div>
-          <b>{n.sourced}</b>of {n.facts} facts fully sourced
-        </div>
-        <div>
-          <b>{n.approved}</b>approved as teaching content
+          <b>{n.approved}</b>approved for teaching
         </div>
       </div>
       <ul className="chips">
@@ -176,7 +186,7 @@ export default function Facts() {
             {drafts.length > 0 && (
               <>
                 <p className="soft" style={{ marginTop: 18 }}>
-                  In review, not yet verified:
+                  Still being checked:
                 </p>
                 <ul>
                   {drafts.map((c) => (
