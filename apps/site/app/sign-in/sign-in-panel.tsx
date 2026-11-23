@@ -7,17 +7,26 @@ import { OtpField } from '@/components/ui/otp-field';
 import { SocialSignIn } from '@/components/ui/patterns/social-sign-in';
 import { readLastSignIn, rememberSignIn } from '@/lib/last-sign-in';
 import { supabase } from '@/lib/supabase/client';
-import { AUTH_ENABLED, ENABLED_PROVIDERS, PROVIDERS, safeNext, type ProviderId } from '@/lib/supabase/config';
+import {
+  AUTH_ENABLED,
+  ENABLED_PROVIDERS,
+  PROVIDERS,
+  safeNext,
+  type ProviderId,
+} from '@/lib/supabase/config';
 
 // What a reason in ?error= means, in words a parent can act on.
 const ERRORS: Record<string, string> = {
   cancelled: 'That sign-in was cancelled. Try again, or choose another way in.',
-  access_denied: 'That sign-in was cancelled. Try again, or choose another way in.',
+  access_denied:
+    'That sign-in was cancelled. Try again, or choose another way in.',
   unavailable: 'Signing in is not open yet.',
   otp_expired: 'That code or link has expired. Ask for a new one.',
 };
 const errorText = (code: string | null) =>
-  code ? (ERRORS[code] ?? 'Something went wrong signing you in. Please try again.') : undefined;
+  code
+    ? (ERRORS[code] ?? 'Something went wrong signing you in. Please try again.')
+    : undefined;
 
 export function SignInPanel() {
   const router = useRouter();
@@ -65,7 +74,11 @@ export function SignInPanel() {
       options: { shouldCreateUser: true, emailRedirectTo: callback() },
     });
     if (e) {
-      setError(e.code === 'over_email_send_rate_limit' ? 'Too many emails just now. Wait a minute and try again.' : errorText(e.code ?? 'failed'));
+      setError(
+        e.code === 'over_email_send_rate_limit'
+          ? 'Too many emails just now. Wait a minute and try again.'
+          : errorText(e.code ?? 'failed'),
+      );
       return;
     }
     rememberSignIn('email');
@@ -76,10 +89,18 @@ export function SignInPanel() {
     if (!sentTo) return;
     setVerifying(true);
     setCodeError(undefined);
-    const { error: e } = await supabase().auth.verifyOtp({ email: sentTo, token, type: 'email' });
+    const { error: e } = await supabase().auth.verifyOtp({
+      email: sentTo,
+      token,
+      type: 'email',
+    });
     setVerifying(false);
     if (e) {
-      setCodeError(e.code === 'otp_expired' ? ERRORS.otp_expired : 'That code does not match. Check the email and try again.');
+      setCodeError(
+        e.code === 'otp_expired'
+          ? ERRORS.otp_expired
+          : 'That code does not match. Check the email and try again.',
+      );
       return;
     }
     router.replace(next);
@@ -97,7 +118,9 @@ export function SignInPanel() {
         emailSubmitLabel="Email me a code"
         sentTo={sentTo}
         sentTitle="Check your email"
-        sentMessage={(address) => `We sent a 6-digit code to ${address}. You can also press the link in that email.`}
+        sentMessage={(address) =>
+          `We sent a 6-digit code to ${address}. You can also press the link in that email.`
+        }
         onUseAnotherEmail={() => {
           setSentTo(undefined);
           setCodeError(undefined);
@@ -117,7 +140,11 @@ export function SignInPanel() {
             aria-describedby={codeError ? `${codeId}-error` : undefined}
           />
           {codeError ? (
-            <p id={`${codeId}-error`} role="alert" className="text-destructive text-sm">
+            <p
+              id={`${codeId}-error`}
+              role="alert"
+              className="text-destructive text-sm"
+            >
               {codeError}
             </p>
           ) : null}

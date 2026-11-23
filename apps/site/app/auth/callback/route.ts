@@ -8,14 +8,22 @@ export async function GET(request: NextRequest) {
   const url = request.nextUrl;
   const next = safeNext(url.searchParams.get('next'));
   const back = (reason: string) =>
-    NextResponse.redirect(new URL(`/sign-in/?error=${reason}&next=${encodeURIComponent(next)}`, url.origin));
+    NextResponse.redirect(
+      new URL(
+        `/sign-in/?error=${reason}&next=${encodeURIComponent(next)}`,
+        url.origin,
+      ),
+    );
 
   if (!AUTH_ENABLED) return back('unavailable');
-  if (url.searchParams.get('error')) return back(url.searchParams.get('error_code') ?? 'cancelled');
+  if (url.searchParams.get('error'))
+    return back(url.searchParams.get('error_code') ?? 'cancelled');
   const code = url.searchParams.get('code');
   if (!code) return back('missing_code');
 
-  const { error } = await (await supabaseServer()).auth.exchangeCodeForSession(code);
+  const { error } = await (
+    await supabaseServer()
+  ).auth.exchangeCodeForSession(code);
   if (error) return back(error.code ?? 'exchange_failed');
   return NextResponse.redirect(new URL(next, url.origin));
 }

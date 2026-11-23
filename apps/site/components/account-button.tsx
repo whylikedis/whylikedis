@@ -30,7 +30,9 @@ export function AccountButton() {
     if (!AUTH_ENABLED) return;
     const auth = supabase().auth;
     auth.getSession().then(({ data }) => setUser(data.session?.user ?? null));
-    const { data } = auth.onAuthStateChange((_e, session) => setUser(session?.user ?? null));
+    const { data } = auth.onAuthStateChange((_e, session) =>
+      setUser(session?.user ?? null),
+    );
     return () => data.subscription.unsubscribe();
   }, []);
 
@@ -47,15 +49,24 @@ export function AccountButton() {
   if (!AUTH_ENABLED || user === undefined) return null;
 
   if (!user) {
-    const next = here === '/sign-in/' ? '' : `?next=${encodeURIComponent(here)}`;
+    const next =
+      here === '/sign-in/' ? '' : `?next=${encodeURIComponent(here)}`;
     return (
-      <Link href={`/sign-in/${next}`} className={buttonVariants({ variant: 'outline', size: 'sm' })}>
+      <Link
+        href={`/sign-in/${next}`}
+        className={buttonVariants({ variant: 'outline', size: 'sm' })}
+      >
         Sign in
       </Link>
     );
   }
 
-  const p = profile ?? { first_name: null, last_name: null, email: user.email ?? null, avatar_url: null };
+  const p = profile ?? {
+    first_name: null,
+    last_name: null,
+    email: user.email ?? null,
+    avatar_url: null,
+  };
   return (
     <DropdownMenu>
       <DropdownMenuTrigger
@@ -63,17 +74,29 @@ export function AccountButton() {
         className="focus-visible:ring-ring/60 rounded-full outline-none focus-visible:ring-[3px]"
       >
         <Avatar className="size-9">
-          {p.avatar_url ? <AvatarImage src={p.avatar_url} alt="" referrerPolicy="no-referrer" /> : null}
+          {p.avatar_url ? (
+            <AvatarImage
+              src={p.avatar_url}
+              alt=""
+              referrerPolicy="no-referrer"
+            />
+          ) : null}
           <AvatarFallback>{initials(p)}</AvatarFallback>
         </Avatar>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="min-w-56">
         <DropdownMenuLabel>
           <span className="block font-medium">{displayName(p, user)}</span>
-          {p.email ? <span className="text-muted-foreground block text-xs font-normal">{p.email}</span> : null}
+          {p.email ? (
+            <span className="text-muted-foreground block text-xs font-normal">
+              {p.email}
+            </span>
+          ) : null}
         </DropdownMenuLabel>
         <DropdownMenuSeparator />
-        <DropdownMenuItem render={<Link href="/account/" />}>Your account</DropdownMenuItem>
+        <DropdownMenuItem render={<Link href="/account/" />}>
+          Your account
+        </DropdownMenuItem>
         <DropdownMenuItem
           onClick={async () => {
             await supabase().auth.signOut();

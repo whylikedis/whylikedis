@@ -3,7 +3,10 @@ import { Section } from '@/components/ui/section';
 import { Typography } from '@/components/ui/typography';
 import { AccountView } from './account-view';
 
-export const metadata: Metadata = { title: 'Your account', alternates: { canonical: '/account/' } };
+export const metadata: Metadata = {
+  title: 'Your account',
+  alternates: { canonical: '/account/' },
+};
 
 export default function Account() {
   return (

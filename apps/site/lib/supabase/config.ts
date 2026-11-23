@@ -24,18 +24,29 @@ const isProvider = (id: string): id is ProviderId => id in PROVIDERS;
  * NEXT_PUBLIC_AUTH_PROVIDERS (for example "google,apple,facebook,x"). A button for a provider
  * that is not set up would only lead to an error page.
  */
-export const ENABLED_PROVIDERS: ProviderId[] = (process.env.NEXT_PUBLIC_AUTH_PROVIDERS ?? 'google')
+export const ENABLED_PROVIDERS: ProviderId[] = (
+  process.env.NEXT_PUBLIC_AUTH_PROVIDERS ?? 'google'
+)
   .split(',')
   .map((s) => s.trim())
   .filter(isProvider);
 
 /** The Supabase provider name back to ours, for the identities a user already has. */
-export function providerFromSupabase(name: string): ProviderId | 'email' | undefined {
+export function providerFromSupabase(
+  name: string,
+): ProviderId | 'email' | undefined {
   if (name === 'email') return 'email';
-  return (Object.keys(PROVIDERS) as ProviderId[]).find((id) => PROVIDERS[id].supabase === name);
+  return (Object.keys(PROVIDERS) as ProviderId[]).find(
+    (id) => PROVIDERS[id].supabase === name,
+  );
 }
 
 /** Only same-site paths, so the sign-in page can never send someone to another site. */
 export function safeNext(next: string | null | undefined): string {
-  return next && next.startsWith('/') && !next.startsWith('//') && !next.startsWith('/\\') ? next : '/account/';
+  return next &&
+    next.startsWith('/') &&
+    !next.startsWith('//') &&
+    !next.startsWith('/\\')
+    ? next
+    : '/account/';
 }

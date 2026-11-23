@@ -9,7 +9,10 @@ export type Profile = {
 };
 
 /** A name to greet someone by: the first name, else the start of the email. */
-export function displayName(p: Pick<Profile, 'first_name' | 'last_name' | 'email'> | null, user?: User | null) {
+export function displayName(
+  p: Pick<Profile, 'first_name' | 'last_name' | 'email'> | null,
+  user?: User | null,
+) {
   const first = p?.first_name?.trim();
   if (first) return first;
   const email = p?.email ?? user?.email;
@@ -17,7 +20,9 @@ export function displayName(p: Pick<Profile, 'first_name' | 'last_name' | 'email
 }
 
 /** Up to two letters for an avatar with no photo. */
-export function initials(p: Pick<Profile, 'first_name' | 'last_name' | 'email'> | null) {
+export function initials(
+  p: Pick<Profile, 'first_name' | 'last_name' | 'email'> | null,
+) {
   const s = [p?.first_name, p?.last_name]
     .map((x) => x?.trim()?.[0])
     .filter(Boolean)

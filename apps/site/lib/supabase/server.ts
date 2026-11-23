@@ -9,7 +9,8 @@ export async function supabaseServer() {
     cookies: {
       getAll: () => store.getAll(),
       setAll: (list) => {
-        for (const { name, value, options } of list) store.set(name, value, options);
+        for (const { name, value, options } of list)
+          store.set(name, value, options);
       },
     },
   });

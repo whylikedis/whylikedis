@@ -4,7 +4,10 @@ import { Section } from '@/components/ui/section';
 import { Typography } from '@/components/ui/typography';
 import { SignInPanel } from './sign-in-panel';
 
-export const metadata: Metadata = { title: 'Sign in', alternates: { canonical: '/sign-in/' } };
+export const metadata: Metadata = {
+  title: 'Sign in',
+  alternates: { canonical: '/sign-in/' },
+};
 
 export default function SignIn() {
   return (
