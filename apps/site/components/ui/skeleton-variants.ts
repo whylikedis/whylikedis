@@ -96,10 +96,10 @@ export const SKELETON_VARIANT_CLASSES: Record<SkeletonVariant, string> = {
   avatar: 'size-9 rounded-full',
   badge: 'h-5 w-16 rounded-full',
   breadcrumb: 'h-5 w-full rounded-sm',
-  button: 'h-9 w-24 rounded-lg',
+  button: 'h-control w-24 rounded-lg',
   card: 'h-32 w-full rounded-xl',
   'code-block': 'h-40 w-full rounded-lg',
-  input: 'h-9 w-full rounded-lg',
+  input: 'h-control w-full rounded-lg',
   // Overlay/nav surfaces (wave 1.2). `menu` matches the DropdownMenu /
   // ContextMenu popup silhouette; `pagination` the nav row; `tabs` the
   // list + panel; `toc` the indented heading rail.
