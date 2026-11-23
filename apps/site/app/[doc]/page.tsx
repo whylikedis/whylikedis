@@ -9,7 +9,8 @@ export const generateStaticParams = () =>
 type Props = { params: Promise<{ doc: string }> };
 
 export async function generateMetadata({ params }: Props) {
-  return { title: site.docs[(await params).doc].title };
+  const { doc } = await params;
+  return { title: site.docs[doc].title, alternates: { canonical: `/${doc}/` } };
 }
 
 export default async function Doc({ params }: Props) {

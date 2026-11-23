@@ -7,7 +7,7 @@ import { Typography } from '@/components/ui/typography';
 import { ClaimCard } from '@/components/ui/patterns/claim-card';
 import { type Card, PREVIEW, type Round, type Source, counts, site } from '../data';
 
-export const metadata = { title: 'Fact base' };
+export const metadata = { title: 'Fact base', alternates: { canonical: '/facts/' } };
 
 // The gate allows only https links. This is the same rule at the last step before a reader's click.
 const safe = (url: string) => (url.startsWith('https://') ? url : undefined);
