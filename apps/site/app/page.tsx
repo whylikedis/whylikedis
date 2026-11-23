@@ -35,6 +35,7 @@ export default function Home() {
       <Stack gap="sm">
         <StatGroup
           cols={3}
+          layout="value-first"
           stats={[
             { value: n.verified, label: 'answers checked by a second reader' },
             { value: n.quotes, label: 'source quotes you can check' },

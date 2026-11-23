@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import { Footer } from '@/components/ui/patterns/footer';
-import { Stack } from '@/components/ui/stack';
 import { Typography } from '@/components/ui/typography';
 
 const GROUPS = [
@@ -26,14 +25,8 @@ export function SiteFooter() {
   return (
     <Footer
       containerSize="content"
-      brand={
-        <Stack gap="xs">
-          <Typography variant="h5">WhyLikeDIs</Typography>
-          <Typography variant="ui" tone="muted">
-            Clear answers about Israel, each with sources you can check.
-          </Typography>
-        </Stack>
-      }
+      brand={<Typography variant="h5">WhyLikeDIs</Typography>}
+      tagline="Clear answers about Israel, each with sources you can check."
       groups={GROUPS}
       renderLink={({ href, className, children }) => (
         <Link href={href} className={className}>

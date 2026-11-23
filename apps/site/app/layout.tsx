@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next';
 import { Frank_Ruhl_Libre, Heebo } from 'next/font/google';
 import type { ReactNode } from 'react';
 import { PREVIEW } from './data';
+import { Banner } from '@/components/ui/patterns/banner';
 import { Section } from '@/components/ui/section';
 import { SkipLink } from '@/components/ui/skip-link';
 import { Nav } from './nav';
@@ -49,11 +50,11 @@ export default function Layout({ children }: { children: ReactNode }) {
     <html lang="en" className={`${display.variable} ${body.variable}`}>
       <body className="bg-background text-foreground font-body">
         <SkipLink />
-        <div className="draft">
+        <Banner tone="muted" label="Site status">
           {PREVIEW
             ? 'Local preview: drafts are shown, and nothing here is approved or public.'
             : 'This site is still being written. Answers still being checked are not ready to teach from yet.'}
-        </div>
+        </Banner>
         <Nav />
         <main id="main">
           <Section spacing="tight" container="content">
