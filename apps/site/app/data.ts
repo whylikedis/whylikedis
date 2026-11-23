@@ -35,7 +35,14 @@ export type Card = {
 type Site = {
   chapters: { n: number; title: string }[];
   cards: Card[];
-  docs: Record<string, { title: string; html: string }>;
+  docs: Record<
+    string,
+    {
+      title: string;
+      html: string;
+      toc: { id: string; label: string; level: 2 | 3 | 4 }[];
+    }
+  >;
   standing: string;
 };
 

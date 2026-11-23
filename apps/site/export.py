@@ -30,9 +30,22 @@ def inline(t):
     return re.sub(r"\[([^\]]+)\]\((https?://[^)\s]+)\)", r'<a href="\2" rel="noopener noreferrer">\1</a>', t)
 
 
-def md(text):
-    """Just enough Markdown for our own docs: headings, tables, lists, code fences, paragraphs."""
+def slug(text, taken):
+    """A heading's id: its words, lower case, joined by hyphens; a repeat gets -2, -3."""
+    base = re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-") or "section"
+    s, n = base, 1
+    while s in taken:
+        n += 1
+        s = f"{base}-{n}"
+    taken.add(s)
+    return s
+
+
+def md(text, toc=None):
+    """Just enough Markdown for our own docs: headings, tables, lists, code fences, paragraphs.
+    Each h2 and h3 gets an id, and is listed in `toc` (when given) for the page's contents."""
     out, lines, i = [], text.split("\n"), 0
+    taken = {"main", "facts"}  # ids the layout already uses
     cells = lambda l: [c.strip() for c in l.strip().strip("|").split("|")]
     while i < len(lines):
         l = lines[i]
@@ -43,7 +56,14 @@ def md(text):
             out.append("<pre><code>" + E("\n".join(lines[i + 1:j])) + "</code></pre>")
             i = j + 1
         elif m := re.match(r"(#{1,3}) (.*)", l):
-            out.append(f"<h{len(m.group(1))}>{inline(m.group(2))}</h{len(m.group(1))}>")
+            n, label = len(m.group(1)), m.group(2)
+            if n == 1:
+                out.append(f"<h1>{inline(label)}</h1>")
+            else:
+                hid = slug(re.sub(r"[`*_]|\[([^\]]+)\]\([^)]*\)", r"\1", label), taken)
+                out.append(f'<h{n} id="{hid}">{inline(label)}</h{n}>')
+                if toc is not None:
+                    toc.append({"id": hid, "label": re.sub(r"[`*_]|\[([^\]]+)\]\([^)]*\)", r"\1", label), "level": n})
             i += 1
         elif l.startswith("|") and i + 1 < len(lines) and re.match(r"\|[\s:|-]+\|?$", lines[i + 1].strip()):
             rows, j = [], i + 2
@@ -75,9 +95,13 @@ def md(text):
     return "".join(out)
 
 
-def doc(source):
+def doc(source, title):
+    """A doc page: its HTML and the contents list of its headings."""
     path = os.path.join(ROOT, "docs", source)
-    return md(open(path, encoding="utf-8").read()) if os.path.exists(path) else "<p>Not written yet.</p>"
+    if not os.path.exists(path):
+        return {"title": title, "html": "<p>Not written yet.</p>", "toc": []}
+    toc = []
+    return {"title": title, "html": md(open(path, encoding="utf-8").read(), toc), "toc": toc}
 
 
 def section(source, heading):
@@ -98,7 +122,7 @@ def site():
     return {
         "chapters": [{"n": k, "title": t} for k, t in factcheck.CHAPTERS.items() if k in eras],
         "cards": cards,
-        "docs": {path: {"title": title, "html": doc(source)} for path, (source, title) in DOCS.items()},
+        "docs": {path: doc(source, title) for path, (source, title) in DOCS.items()},
         "standing": section("chapters.md", "Where we stand"),
     }
 
