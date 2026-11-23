@@ -10,7 +10,8 @@ const read = (p) => readFileSync(join(here, p), 'utf8');
 const { cards } = JSON.parse(read('data/site.json'));
 
 // Where `next build` writes a prerendered page depends on the builder: a plain build writes
-// .next/server/app/facts.html, and Vercel's build adapter may write it elsewhere under .next.
+// .next/server/app/facts.html, and Vercel's build adapter writes
+// .next/server/route-cache/APP_PAGE/<hash>/$/facts.html.
 // Find each page by name rather than by one fixed path, and fail with what was found.
 const built = readdirSync(join(here, '.next'), { recursive: true })
   .map(String)
@@ -19,7 +20,8 @@ const page = (name) => {
   const hit = built.find(
     (f) =>
       f.endsWith(`app${sep}${name}.html`) ||
-      f.endsWith(`app${sep}${name}${sep}index.html`),
+      f.endsWith(`app${sep}${name}${sep}index.html`) ||
+      f.endsWith(`${sep}$${sep}${name}.html`), // Vercel: server/route-cache/APP_PAGE/<hash>/$/
   );
   assert.ok(
     hit,
