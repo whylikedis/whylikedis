@@ -94,7 +94,7 @@ export default function Home() {
   const n = counts();
   return (
     <>
-      <Section tone="brand" spacing="comfortable">
+      <Section container="wide" tone="brand" spacing="comfortable">
         <Grid gap="xl">
           <GridItem span={12} lgSpan={6}>
             <Stack gap="lg">
@@ -148,7 +148,7 @@ export default function Home() {
         </Grid>
       </Section>
 
-      <Section spacing="tight" divider="bottom">
+      <Section container="wide" spacing="tight" divider="bottom">
         <Stack gap="lg">
           <Grid gap="lg">
             {STEPS.map(([kicker, title, body], i) => (
@@ -168,7 +168,7 @@ export default function Home() {
         </Stack>
       </Section>
 
-      <Section spacing="tight">
+      <Section container="wide" spacing="tight">
         <Stack gap="lg">
           <Stack gap="sm">
             <StatGroup
