@@ -42,7 +42,10 @@ export default function Home() {
           source for every fact.
         </p>
         <div className="actions">
-          <Link href="/facts/" className={buttonVariants({ size: 'lg' })}>
+          <Link
+            href="/facts/"
+            className={buttonVariants({ variant: 'highlight', size: 'lg' })}
+          >
             See the answers
           </Link>
           <Link href="/method/">How we check</Link>

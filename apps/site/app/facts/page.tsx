@@ -1,4 +1,5 @@
 import { Badge } from '@/components/ui/badge';
+import { ClaimCard } from '@/components/ui/patterns/claim-card';
 import { type Card, PREVIEW, type Round, type Source, counts, site } from '../data';
 
 export const metadata = { title: 'Fact base' };
@@ -38,51 +39,39 @@ function CardView({ c }: { c: Card }) {
     return r ? [[label, r]] : [];
   });
   return (
-    <article className="card" id={c.id}>
-      <p className="badges">
+    <ClaimCard className="card" id={c.id}>
+      <ClaimCard.Status>
         {c.status === 'verified' ? (
-          <Badge>Checked by a second reader</Badge>
+          <Badge variant="success">Checked by a second reader</Badge>
         ) : (
           <Badge variant="outline">Still being checked</Badge>
         )}
         {rounds.map(([label, r]) =>
           r.verdict ? (
-            <Badge
-              variant="outline"
-              className={r.verdict === 'holds' ? undefined : 'border-warning text-warning'}
-              key={label}
-            >
+            <Badge variant={r.verdict === 'holds' ? 'outline' : 'warning'} key={label}>
               {label}: {r.verdict}
             </Badge>
           ) : null,
         )}
         {!c.content_approved && <Badge variant="outline">Not yet approved for teaching</Badge>}
-      </p>
-      <h3>
-        <q>{c.claim}</q>
-      </h3>
-      <p>{c.answer}</p>
-      <details>
-        <summary>
-          Facts and sources ({c.facts.filter((f) => f.enough).length} of {c.facts.length} fully sourced)
-        </summary>
+      </ClaimCard.Status>
+      <ClaimCard.Claim>{c.claim}</ClaimCard.Claim>
+      <ClaimCard.Answer>{c.answer}</ClaimCard.Answer>
+      <ClaimCard.Section
+        title="Facts and sources"
+        meta={`${c.facts.filter((f) => f.enough).length} of ${c.facts.length} fully sourced`}
+      >
         <ol>
           {c.facts.map((f, i) => (
             <li key={i}>
-              {f.text}
-              {f.record && <Badge variant="outline">what a record says</Badge>}
-              {!f.enough && (
-                <Badge variant="outline" className="border-warning text-warning">
-                  short of sources
-                </Badge>
-              )}
+              {f.text} {f.record && <Badge variant="outline">what a record says</Badge>}{' '}
+              {!f.enough && <Badge variant="warning">short of sources</Badge>}
               <Sources list={f.sources} />
             </li>
           ))}
         </ol>
-      </details>
-      <details>
-        <summary>Who says this ({c.heard.length})</summary>
+      </ClaimCard.Section>
+      <ClaimCard.Section title="Who says this" meta={c.heard.length}>
         <ul>
           {c.heard.map((h, i) => (
             <li className="src" key={i}>
@@ -94,9 +83,8 @@ function CardView({ c }: { c: Card }) {
             </li>
           ))}
         </ul>
-      </details>
-      <details>
-        <summary>Where the record is contested ({c.contested.length})</summary>
+      </ClaimCard.Section>
+      <ClaimCard.Section title="Where the record is contested" meta={c.contested.length}>
         <ul>
           {c.contested.length ? (
             c.contested.map((x, i) =>
@@ -113,29 +101,26 @@ function CardView({ c }: { c: Card }) {
             <li>Nothing recorded.</li>
           )}
         </ul>
-      </details>
-      <details>
-        <summary>What this card does not claim</summary>
+      </ClaimCard.Section>
+      <ClaimCard.Section title="What this card does not claim">
         <Plain items={c.not_claimed} />
-      </details>
-      <details>
-        <summary>What we could not verify ({c.could_not_verify?.length ?? 0})</summary>
+      </ClaimCard.Section>
+      <ClaimCard.Section title="What we could not verify" meta={c.could_not_verify?.length ?? 0}>
         <Plain items={c.could_not_verify ?? []} />
-      </details>
+      </ClaimCard.Section>
       {rounds.length > 0 && (
-        <details>
-          <summary>Review notes</summary>
+        <ClaimCard.Section title="Review notes">
           {rounds.map(([label, r]) => (
             <p className="soft" key={label}>
               <b>{label[0].toUpperCase() + label.slice(1)}.</b> {r.notes}
             </p>
           ))}
-        </details>
+        </ClaimCard.Section>
       )}
-      <p className="soft">
+      <ClaimCard.Footer>
         Card <code>{c.id}</code>
-      </p>
-    </article>
+      </ClaimCard.Footer>
+    </ClaimCard>
   );
 }
 

@@ -14,7 +14,7 @@ import { cva, type VariantProps } from 'class-variance-authority';
  * ## Anatomy
  *
  *   buttonVariants({ variant, size })
- *     ├─ variant  default | destructive | outline | secondary | ghost | link
+ *     ├─ variant  default | highlight | destructive | outline | secondary | ghost | link
  *     └─ size     default | xs | sm | lg | icon | icon-xs | icon-sm | icon-lg
  *
  * Defaults are `variant: 'default'`, `size: 'default'`. `pagination.tsx` is
@@ -25,7 +25,7 @@ import { cva, type VariantProps } from 'class-variance-authority';
  *
  * ## Why half this file is comments
  *
- * Four of the six variants carry a long note recording a measured contrast
+ * Four of the seven variants carry a long note recording a measured contrast
  * failure and the rule it produced: a variant that declares its own foreground
  * must paint an opaque surface in the same state, because a button is dropped
  * onto surfaces the design system does not control. `outline` inheriting the
@@ -54,6 +54,11 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default: 'bg-primary text-primary-foreground hover:bg-primary/90',
+        // The warm call-to-action that is NOT the brand primary: the second
+        // button on a hero, "start here" beside a primary "sign up". Opaque
+        // face plus its own foreground, so it holds on any section surface.
+        highlight:
+          'bg-highlight text-highlight-foreground hover:bg-highlight/90',
         // No `dark:bg-destructive/60` here, unlike stock shadcn — see the
         // matching note in badge.tsx. Our dark destructive token is a light
         // red tuned for AAA on near-black; muting it to 60% drops the label

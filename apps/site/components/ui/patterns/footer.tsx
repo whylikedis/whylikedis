@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-// @interlace/footer v1.0.0 — Interlace design system.
+// @interlace/footer v2.0.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/footer
 // What changed since: https://ds.interlace.tools/c/footer#history
 // Generated banner — keep it, the upgrade diff reads this version.

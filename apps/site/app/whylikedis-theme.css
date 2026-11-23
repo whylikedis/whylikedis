@@ -1,6 +1,7 @@
 /*
- * The WhyLikeDIs theme on Interlace. It sets only Interlace's brand tokens (--interlace-*), in
- * Interlace's brand layer, so every registry item picks it up with no code change.
+ * The WhyLikeDIs theme on Interlace, as shadcn cssVars. Interlace components read these names
+ * (--primary, --background, --highlight ...), and a host app's unlayered :root beats Interlace's
+ * own layers, so every registry item picks the theme up with no code change.
  *
  * Palette: flag blue first, warm stone neutrals, light pages by default, a dark scheme that
  * follows the reader's system setting. Every text pair meets WCAG AA (most AAA): the measured
@@ -11,99 +12,84 @@
  *   muted-fg on muted           8.14    9.61
  *   primary on background       8.92    9.60
  *   primary-fg on primary       9.30    9.60
+ *   highlight-fg on highlight   9.95   10.38
  *   destructive on background   7.55    9.98
  *   success on background       6.84   13.48
  *   warning on background       8.17   11.23
  *   input on background         3.60    4.52   (control boundary, floor 3:1)
  *   border on background        1.31    1.52   (decorative only)
- *
- * When Interlace ships shadcn cssVars as its theme surface, this file becomes the same values
- * under shadcn names (--primary, --background, ...).
  */
 
-@layer interlace.brand {
+:root {
+  --radius: 0.625rem; /* softer than a tool, not a bubble: 10px cards, 8px controls */
+  --background: #fcfaf6; /* warm off-white page */
+  --foreground: #0b1430; /* ink navy */
+  --card: #ffffff;
+  --card-foreground: #0b1430;
+  --popover: #ffffff;
+  --popover-foreground: #0b1430;
+  --primary: #0038b8; /* flag blue: links, headings accents, the brand */
+  --primary-foreground: #ffffff;
+  --secondary: #e8eefb; /* blue tint for quiet buttons and bands */
+  --secondary-foreground: #0b1430;
+  --muted: #f3eee4; /* stone: quiet surfaces, the "other side" panel */
+  --muted-foreground: #4b4637;
+  --accent: #f3eee4; /* shadcn hover tint, not the brand accent */
+  --accent-foreground: #0b1430;
+  --highlight: #f2b632; /* gold: the ONE main action per screen */
+  --highlight-foreground: #0b1430;
+  --destructive: #9f1d1d;
+  --destructive-foreground: #ffffff;
+  --success: #166534; /* "checked by a second reader" */
+  --success-foreground: #ffffff;
+  --warning: #7c3a0a; /* "still being checked" */
+  --warning-foreground: #ffffff;
+  --info: #155e75; /* cyan, kept apart from the blue primary */
+  --info-foreground: #ffffff;
+  --border: #e4dccb;
+  --input: #8c8371;
+  --ring: #0038b8;
+  --chart-1: #0038b8; /* blue */
+  --chart-2: #c8961e; /* gold */
+  --chart-3: #3f4d1c; /* olive */
+  --chart-4: #9f1d1d; /* red */
+  --chart-5: #6b7280; /* grey: "not stated" */
+}
+
+@media (prefers-color-scheme: dark) {
   :root {
-    --interlace-background: #fcfaf6;
-    --interlace-foreground: #0b1430;
-    --interlace-card: #ffffff;
-    --interlace-card-foreground: #0b1430;
-    --interlace-popover: #ffffff;
-    --interlace-popover-foreground: #0b1430;
-    --interlace-primary: #0038b8;
-    --interlace-primary-foreground: #ffffff;
-    --interlace-secondary: #e8eefb;
-    --interlace-secondary-foreground: #0b1430;
-    --interlace-muted: #f3eee4;
-    --interlace-muted-foreground: #4b4637;
-    --interlace-accent: #f3eee4;
-    --interlace-accent-foreground: #0b1430;
-    --interlace-destructive: #9f1d1d;
-    --interlace-destructive-foreground: #ffffff;
-    --interlace-success: #166534;
-    --interlace-success-foreground: #ffffff;
-    --interlace-warning: #7c3a0a;
-    --interlace-warning-foreground: #ffffff;
-    --interlace-info: #155e75;
-    --interlace-info-foreground: #ffffff;
-    --interlace-border: #e4dccb;
-    --interlace-input: #8c8371;
-    --interlace-ring: #0038b8;
-    --interlace-chart-1: #0038b8;
-    --interlace-chart-2: #c8961e;
-    --interlace-chart-3: #3f4d1c;
-    --interlace-chart-4: #9f1d1d;
-    --interlace-chart-5: #6b7280;
-    --interlace-primary-hover: #002f99;
-    --interlace-primary-active: #00267a;
-    --interlace-primary-subtle: #e8eefb;
-    --interlace-primary-subtle-foreground: #00226e;
-    --interlace-caution: #854d0e;
-    --interlace-caution-foreground: #ffffff;
-    --interlace-radius: 0.625rem;
-
-    --font-body: var(--font-heebo), 'Heebo', system-ui, sans-serif;
-    --font-heading: var(--font-frank), 'Frank Ruhl Libre', Georgia, serif;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --interlace-background: #0b1020;
-      --interlace-foreground: #eef1f8;
-      --interlace-card: #121a2e;
-      --interlace-card-foreground: #eef1f8;
-      --interlace-popover: #121a2e;
-      --interlace-popover-foreground: #eef1f8;
-      --interlace-primary: #9db7ff;
-      --interlace-primary-foreground: #0b1020;
-      --interlace-secondary: #16224a;
-      --interlace-secondary-foreground: #eef1f8;
-      --interlace-muted: #18203a;
-      --interlace-muted-foreground: #c3c8d6;
-      --interlace-accent: #18203a;
-      --interlace-accent-foreground: #eef1f8;
-      --interlace-destructive: #fca5a5;
-      --interlace-destructive-foreground: #0b1020;
-      --interlace-success: #86efac;
-      --interlace-success-foreground: #0b1020;
-      --interlace-warning: #fdba74;
-      --interlace-warning-foreground: #0b1020;
-      --interlace-info: #67e8f9;
-      --interlace-info-foreground: #0b1020;
-      --interlace-border: #2a3350;
-      --interlace-input: #6f7ba0;
-      --interlace-ring: #9db7ff;
-      --interlace-chart-1: #9db7ff;
-      --interlace-chart-2: #f2b632;
-      --interlace-chart-3: #bccb84;
-      --interlace-chart-4: #fca5a5;
-      --interlace-chart-5: #9ca3af;
-      --interlace-primary-hover: #b4c8ff;
-      --interlace-primary-active: #c9d7ff;
-      --interlace-primary-subtle: #16224a;
-      --interlace-primary-subtle-foreground: #c9d7ff;
-      --interlace-caution: #fde047;
-      --interlace-caution-foreground: #0b1020;
-      color-scheme: dark;
-    }
+    --background: #0b1020;
+    --foreground: #eef1f8;
+    --card: #121a2e;
+    --card-foreground: #eef1f8;
+    --popover: #121a2e;
+    --popover-foreground: #eef1f8;
+    --primary: #9db7ff;
+    --primary-foreground: #0b1020;
+    --secondary: #16224a;
+    --secondary-foreground: #eef1f8;
+    --muted: #18203a;
+    --muted-foreground: #c3c8d6;
+    --accent: #18203a;
+    --accent-foreground: #eef1f8;
+    --highlight: #f2b632;
+    --highlight-foreground: #0b1020;
+    --destructive: #fca5a5;
+    --destructive-foreground: #0b1020;
+    --success: #86efac;
+    --success-foreground: #0b1020;
+    --warning: #fdba74;
+    --warning-foreground: #0b1020;
+    --info: #67e8f9;
+    --info-foreground: #0b1020;
+    --border: #2a3350;
+    --input: #6f7ba0;
+    --ring: #9db7ff;
+    --chart-1: #9db7ff;
+    --chart-2: #f2b632;
+    --chart-3: #bccb84;
+    --chart-4: #fca5a5;
+    --chart-5: #9ca3af;
+    color-scheme: dark;
   }
 }
