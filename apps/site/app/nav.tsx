@@ -21,6 +21,7 @@ export function Nav() {
   return (
     <Topbar
       containerSize="wide"
+      collapseBelow="lg"
       logo={
         <Wordmark label="WhyLikeDIs, home" href="/">
           <Wordmark.Line lang="he" dir="rtl">
