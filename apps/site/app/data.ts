@@ -28,6 +28,8 @@ export type Card = {
   contested: (string | { text: string; sources?: Source[] })[];
   not_claimed: string[];
   could_not_verify?: string[];
+  // Each sentence of the answer and the facts (by index) the citation reviewer tied it to.
+  answer_claims?: { says: string; facts: number[] }[];
   review?: { skeptic?: Round; citer?: Round };
 };
 type Site = {

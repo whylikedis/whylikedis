@@ -3,10 +3,12 @@
 @import '../styles/interlace/base.css';
 @import './whylikedis-theme.css';
 
-/* Typefaces: Heebo for text, Frank Ruhl Libre for headings (loaded by next/font in layout.tsx). */
+/* Typefaces (loaded by next/font in layout.tsx): Heebo, an Israeli typeface, for text and headings,
+   the way Israeli signs and papers set them; Noto Naskh Arabic for the Arabic line of the wordmark. */
 @theme {
   --font-sans: var(--font-heebo), 'Heebo', system-ui, sans-serif;
-  --font-heading: var(--font-frank), 'Frank Ruhl Libre', Georgia, serif;
+  --font-heading: var(--font-heebo), 'Heebo', system-ui, sans-serif;
+  --font-arabic: var(--font-naskh), 'Noto Naskh Arabic', serif;
 }
 
 /* No local rules: every part of the page is an Interlace component. */

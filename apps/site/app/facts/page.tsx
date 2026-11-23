@@ -1,6 +1,8 @@
 import { Badge } from '@/components/ui/badge';
 import { StatGroup } from '@/components/ui/patterns/stat-group';
 import { Prose } from '@/components/ui/prose';
+import { Section } from '@/components/ui/section';
+import Link from 'next/link';
 import { Stack } from '@/components/ui/stack';
 import { TagList } from '@/components/ui/tag';
 import { Typography } from '@/components/ui/typography';
@@ -133,6 +135,7 @@ function CardView({ c }: { c: Card }) {
 </ClaimCard.Section>
       )}
       <ClaimCard.Footer>
+        {c.status === 'verified' && <Link href={`/answers/${c.id}/`}>Open the answer page</Link>}{' '}
         Card <code>{c.id}</code>
       </ClaimCard.Footer>
     </ClaimCard>
@@ -142,6 +145,7 @@ function CardView({ c }: { c: Card }) {
 export default function Facts() {
   const n = counts();
   return (
+    <Section spacing="tight">
     <Stack gap="lg">
       <Stack gap="sm">
         <Typography variant="ui-sm" tone="primary">
@@ -195,5 +199,6 @@ export default function Facts() {
         );
       })}
     </Stack>
+    </Section>
   );
 }

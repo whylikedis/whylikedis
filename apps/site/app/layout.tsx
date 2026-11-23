@@ -1,25 +1,19 @@
 import type { Metadata, Viewport } from 'next';
-import { Frank_Ruhl_Libre, Heebo, Noto_Naskh_Arabic } from 'next/font/google';
+import { Heebo, Noto_Naskh_Arabic } from 'next/font/google';
 import type { ReactNode } from 'react';
 import { PREVIEW } from './data';
 import { Banner } from '@/components/ui/patterns/banner';
-import { Section } from '@/components/ui/section';
 import { SkipLink } from '@/components/ui/skip-link';
 import { Nav } from './nav';
 import { SiteFooter } from './site-footer';
 import './globals.css';
 
-const display = Frank_Ruhl_Libre({
-  subsets: ['latin'],
-  weight: ['500', '700'],
-  variable: '--font-frank',
-});
 const body = Heebo({
   subsets: ['latin', 'hebrew'],
   weight: ['400', '500', '700', '800'],
   variable: '--font-heebo',
 });
-// Only the logo's Arabic line uses it, and next/font subsets it to the glyphs it needs.
+// Only the wordmark's Arabic line uses it, and next/font subsets it to the glyphs it needs.
 const arabic = Noto_Naskh_Arabic({
   subsets: ['arabic'],
   weight: ['700'],
@@ -53,10 +47,7 @@ export const viewport: Viewport = { themeColor: '#0038b8' };
 
 export default function Layout({ children }: { children: ReactNode }) {
   return (
-    <html
-      lang="en"
-      className={`${display.variable} ${body.variable} ${arabic.variable}`}
-    >
+    <html lang="en" className={`${body.variable} ${arabic.variable}`}>
       <body className="bg-background text-foreground font-body">
         <SkipLink />
         <Banner tone="muted" label="Site status">
@@ -65,11 +56,8 @@ export default function Layout({ children }: { children: ReactNode }) {
             : 'This site is still being written. Answers still being checked are not ready to teach from yet.'}
         </Banner>
         <Nav />
-        <main id="main">
-          <Section spacing="tight" container="content">
-            {children}
-          </Section>
-        </main>
+        {/* Each page sets its own sections, so a page can open with a full-width brand band. */}
+        <main id="main">{children}</main>
         <SiteFooter />
       </body>
     </html>
