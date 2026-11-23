@@ -51,6 +51,8 @@ Misses are logged in `docs/lessons.md`. Rules that never catch anything are remo
 - `verify`: prove a change works before committing.
 - `fact-card`: write or extend a card.
 - `fact-review`: review a card you did not write, in two rounds.
+- `audience-benchmark`: read the sites of the organisations our audience knows and report what they
+  show. Its agent is `.claude/agents/audience-benchmark.md`. The report never goes in this repository.
 
 ## The one command
 
