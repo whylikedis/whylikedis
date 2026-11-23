@@ -3,6 +3,9 @@ import { StatGroup } from '@/components/ui/patterns/stat-group';
 import { Prose } from '@/components/ui/prose';
 import { Section } from '@/components/ui/section';
 import Link from 'next/link';
+import { ViewTransition } from 'react';
+import { searchItems } from '../answer-parts';
+import { HeardSearch } from '../heard-search';
 import { Stack } from '@/components/ui/stack';
 import { TagList } from '@/components/ui/tag';
 import { Typography } from '@/components/ui/typography';
@@ -60,7 +63,13 @@ function CardView({ c }: { c: Card }) {
         )}
         {!c.content_approved && <Badge variant="outline">Not yet approved for teaching</Badge>}
       </ClaimCard.Status>
-      <ClaimCard.Claim>{c.claim}</ClaimCard.Claim>
+      {c.status === 'verified' ? (
+        <ViewTransition name={`claim-${c.id}`}>
+          <ClaimCard.Claim>{c.claim}</ClaimCard.Claim>
+        </ViewTransition>
+      ) : (
+        <ClaimCard.Claim>{c.claim}</ClaimCard.Claim>
+      )}
       <ClaimCard.Answer>{c.answer}</ClaimCard.Answer>
       <ClaimCard.Section
         title="Facts and sources"
@@ -158,6 +167,7 @@ export default function Facts() {
           Each card gives an answer a parent can say in two minutes, the facts behind it with the exact words quoted
           from each source, where the record is disputed, and what the card does not claim.
         </Typography>
+        <HeardSearch items={searchItems()} />
       </Stack>
       <StatGroup
         cols={3}

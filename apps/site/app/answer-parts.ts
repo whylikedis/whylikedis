@@ -67,3 +67,25 @@ export const quoteCount = (c: Card) =>
 
 export const contestedText = (c: Card) =>
   c.contested.map((x) => (typeof x === 'string' ? x : x.text));
+
+// The search list: every claim once (the fuller card when two share a claim), each going to the best
+// page we have. A value must be unique, so it is the card id; the href travels beside it.
+export const searchItems = () => {
+  const seen = new Set<string>();
+  const shown = (c: Card) => PREVIEW || c.status === 'verified';
+  const sorted = [...site.cards].sort(
+    (a, b) =>
+      Number(shown(b)) - Number(shown(a)) || b.facts.length - a.facts.length,
+  );
+  return sorted.flatMap((c) => {
+    if (seen.has(c.claim)) return [];
+    seen.add(c.claim);
+    return [
+      {
+        value: c.id,
+        href: shown(c) ? `/answers/${c.id}/` : `/facts/#ch${c.era}`,
+        label: shown(c) ? c.claim : `${c.claim} (still being checked)`,
+      },
+    ];
+  });
+};

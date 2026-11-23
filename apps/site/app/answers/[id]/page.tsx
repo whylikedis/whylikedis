@@ -1,4 +1,11 @@
 import Link from 'next/link';
+import { ViewTransition } from 'react';
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from '@/components/ui/accordion';
 import { Callout } from '@/components/ui/callout';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Grid, GridItem } from '@/components/ui/grid';
@@ -56,9 +63,11 @@ export default async function Answer(props: Props) {
           </Typography>
           <Stack gap="xs">
             <Typography variant="ui-sm">Your kid heard</Typography>
-            <Typography as="h1" variant="h1">
-              {c.claim}
-            </Typography>
+            <ViewTransition name={`claim-${c.id}`}>
+              <Typography as="h1" variant="h1">
+                {c.claim}
+              </Typography>
+            </ViewTransition>
           </Stack>
           <StatusPills aria-label="About this answer">
             {c.status === 'verified' ? (
@@ -211,6 +220,50 @@ export default async function Answer(props: Props) {
         </Section>
       )}
 
+      <Section spacing="tight" id="facts">
+        <Stack gap="md">
+          <Stack gap="xs">
+            <Typography as="h2" variant="h2">
+              Every fact, and where it comes from
+            </Typography>
+            <Typography variant="long" tone="muted">
+              Open a fact to read the exact words each source uses, with a link
+              to the page.
+            </Typography>
+          </Stack>
+          <Accordion multiple>
+            {c.facts.map((f, i) => (
+              <AccordionItem value={`fact-${i}`} key={i}>
+                <AccordionTrigger>
+                  {i + 1}. {f.text}
+                </AccordionTrigger>
+                <AccordionContent>
+                  <List marker="bullet" density="default">
+                    {f.sources.map((s, j) => (
+                      <List.Item key={j}>
+                        <Prose width="fill">
+                          <p>
+                            {safe(s.url) ? (
+                              <a href={safe(s.url)} rel="noopener noreferrer">
+                                {s.publisher}
+                              </a>
+                            ) : (
+                              s.publisher
+                            )}{' '}
+                            ({s.kind})
+                          </p>
+                          <blockquote>{s.quote}</blockquote>
+                        </Prose>
+                      </List.Item>
+                    ))}
+                  </List>
+                </AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
+        </Stack>
+      </Section>
+
       <Section spacing="tight" divider="top">
         <Stack gap="sm">
           <Typography as="h2" variant="h3">
@@ -218,15 +271,12 @@ export default async function Answer(props: Props) {
           </Typography>
           <Dialogue.Suggestions>
             {others.map((x) => (
-              <Dialogue.Suggestion asChild key={x.id}>
-                <Link href={`/answers/${x.id}/`}>{x.claim}</Link>
-              </Dialogue.Suggestion>
+              <ViewTransition name={`claim-${x.id}`} key={x.id}>
+                <Dialogue.Suggestion asChild>
+                  <Link href={`/answers/${x.id}/`}>{x.claim}</Link>
+                </Dialogue.Suggestion>
+              </ViewTransition>
             ))}
-            <Dialogue.Suggestion asChild>
-              <Link href={`/facts/#${c.id}`}>
-                Every fact and source on this answer
-              </Link>
-            </Dialogue.Suggestion>
           </Dialogue.Suggestions>
         </Stack>
       </Section>
