@@ -43,10 +43,7 @@ export const viewport: Viewport = { themeColor: '#0038b8' };
 
 export default function Layout({ children }: { children: ReactNode }) {
   return (
-    <html
-      lang="en"
-      className={`${display.variable} ${body.variable}`}
-    >
+    <html lang="en" className={`${display.variable} ${body.variable}`}>
       <body>
         <div className="draft">
           {PREVIEW

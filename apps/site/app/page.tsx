@@ -33,10 +33,13 @@ export default function Home() {
         WhyLikeDIs
       </p>
       <section className="hero" aria-labelledby="hero-title">
-        <h1 id="hero-title">Clear answers about Israel, each with sources you can check.</h1>
+        <h1 id="hero-title">
+          Clear answers about Israel, each with sources you can check.
+        </h1>
         <p className="lede">
-          When your child comes home with a claim about Israel, find an answer you can give in two
-          minutes, the other side in its own words, and the source for every fact.
+          When your child comes home with a claim about Israel, find an answer
+          you can give in two minutes, the other side in its own words, and the
+          source for every fact.
         </p>
         <div className="actions">
           <Link href="/facts/" className={buttonVariants({ size: 'lg' })}>
@@ -57,8 +60,9 @@ export default function Home() {
         </div>
       </div>
       <p className="soft">
-        An answer is published in full only after someone who did not write it has tried to break
-        it. The rest are still being checked, and each one says so.
+        An answer is published in full only after someone who did not write it
+        has tried to break it. The rest are still being checked, and each one
+        says so.
       </p>
       <h2>Where we stand</h2>
       {/* Built by export.py from docs/chapters.md, every character escaped before any tag is added. */}
