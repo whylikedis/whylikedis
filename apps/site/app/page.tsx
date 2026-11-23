@@ -106,7 +106,7 @@ export default function Home() {
   return (
     <>
       <Section tone="brand" spacing="comfortable">
-        <Grid gap="md">
+        <Grid gap="xl">
           <GridItem span={12} lgSpan={6}>
             <Stack gap="lg">
               <Stack gap="sm">
@@ -120,6 +120,16 @@ export default function Home() {
                   words, and the source for every fact.
                 </Typography>
               </Stack>
+              <Callout
+                tone="highlight"
+                kicker={
+                  <span lang="he" dir="rtl">
+                    דוגרי
+                  </span>
+                }
+              >
+                Dugri is Israeli for “say it straight”. That is how we answer.
+              </Callout>
               <Cluster gap="md">
                 <Link
                   href="/facts/"
@@ -150,17 +160,7 @@ export default function Home() {
 
       <Section spacing="tight" divider="bottom">
         <Stack gap="lg">
-          <Callout
-            tone="highlight"
-            kicker={
-              <span lang="he" dir="rtl">
-                דוגרי
-              </span>
-            }
-          >
-            Dugri is Israeli for “say it straight”. That is how we answer.
-          </Callout>
-          <Grid gap="md">
+          <Grid gap="lg">
             {STEPS.map(([kicker, title, body], i) => (
               <GridItem span={12} mdSpan={4} key={kicker}>
                 <Stack gap="xs">
