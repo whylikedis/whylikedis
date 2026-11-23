@@ -11,7 +11,7 @@ import {
 import type { Line } from './answer-parts';
 
 // Answer lines as one reply, each sentence with its source chip.
-function Said({ lines }: { lines: Line[] }) {
+export function Said({ lines }: { lines: Line[] }) {
   return lines.map((l, i) => (
     <span key={i}>
       <Citation marker="chip" sources={l.sources} chipLabel={l.chip}>

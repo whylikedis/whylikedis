@@ -1,8 +1,20 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { ViewTransition } from 'react';
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from '@/components/ui/accordion';
+import { Badge } from '@/components/ui/badge';
 import { buttonVariants } from '@/components/ui/button-variants';
 import { Callout } from '@/components/ui/callout';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { CountUp } from '@/components/ui/effects/count-up';
+import { GridField } from '@/components/ui/effects/grid-field';
+import { Reveal } from '@/components/ui/effects/reveal';
+import { Container } from '@/components/ui/container';
 import { Grid, GridItem } from '@/components/ui/grid';
 import { Dialogue } from '@/components/ui/patterns/dialogue';
 import { StatGroup } from '@/components/ui/patterns/stat-group';
@@ -10,16 +22,15 @@ import { Prose } from '@/components/ui/prose';
 import { Section } from '@/components/ui/section';
 import { Cluster, Stack } from '@/components/ui/stack';
 import { Typography } from '@/components/ui/typography';
-import { ViewTransition } from 'react';
 import {
   answerLines,
   contestedText,
   searchItems,
   shownCards,
 } from './answer-parts';
-import { HeardSearch } from './heard-search';
-import { PracticeTalk } from './practice-talk';
 import { counts, site } from './data';
+import { HeardSearch } from './heard-search';
+import { PracticeTalk, Said } from './practice-talk';
 
 // One address per page, so a shared link with tracking or a missing slash still counts as this page.
 export const metadata: Metadata = { alternates: { canonical: '/' } };
@@ -46,14 +57,40 @@ const STEPS = [
   ],
 ] as const;
 
+// What kind of source the shown answers quote, and how often: the record itself first. Counted from
+// the data, so the strip never names a source an answer does not cite.
+const KINDS: [string[], string][] = [
+  [['primary', 'government'], 'from the record itself'],
+  [['scholarly', 'reference'], 'from scholars and reference works'],
+  [['news'], 'from news reports'],
+  [['advocacy'], 'from advocacy groups'],
+];
+function sourceMix() {
+  const all = shownCards().flatMap((c) => c.facts.flatMap((f) => f.sources));
+  return KINDS.map(([kinds, label]) => ({
+    label,
+    n: all.filter((s) => kinds.includes(s.kind)).length,
+  })).filter((k) => k.n > 0);
+}
+
+// One card per claim (the fuller card when two share a claim), the featured one last since the hero
+// already plays it.
+function claimsToCheck() {
+  const byClaim = new Map<string, ReturnType<typeof shownCards>[number]>();
+  for (const c of shownCards()) {
+    const had = byClaim.get(c.claim);
+    if (!had || c.facts.length > had.facts.length) byClaim.set(c.claim, c);
+  }
+  return [...byClaim.values()]
+    .sort((a, b) => Number(a.id === FEATURED) - Number(b.id === FEATURED))
+    .slice(0, 3);
+}
+
 function Talk() {
   const cards = shownCards();
   const c = cards.find((x) => x.id === FEATURED) ?? cards[0];
   if (!c) return null;
   const all = answerLines(c);
-  const first = all.slice(0, 2);
-  const more = all.slice(2, 4);
-  const argued = contestedText(c)[0];
   const others = cards.filter((x) => x.claim !== c.claim).slice(0, 2);
   return (
     <Card>
@@ -68,9 +105,9 @@ function Talk() {
         <Stack gap="md">
           <PracticeTalk
             claim={c.claim}
-            first={first}
-            more={more}
-            argued={argued}
+            first={all.slice(0, 2)}
+            more={all.slice(2, 4)}
+            argued={contestedText(c)[0]}
           />
           <Dialogue.Suggestions>
             <Dialogue.Suggestion asChild>
@@ -90,26 +127,268 @@ function Talk() {
   );
 }
 
-export default function Home() {
+// A section's opening: a small label, the heading, one line under it.
+function Intro({
+  kicker,
+  title,
+  lead,
+  id,
+}: {
+  kicker: string;
+  title: string;
+  lead?: string;
+  id?: string;
+}) {
+  return (
+    <Stack gap="sm">
+      <Typography variant="ui-sm" tone="primary">
+        {kicker}
+      </Typography>
+      <Typography as="h2" variant="h2" id={id}>
+        {title}
+      </Typography>
+      {lead && (
+        <Typography variant="long" tone="muted">
+          {lead}
+        </Typography>
+      )}
+    </Stack>
+  );
+}
+
+function Hero() {
+  return (
+    <Section container="wide" tone="brand" spacing="comfortable">
+      <GridField
+        mark="lines"
+        cell={48}
+        lineColor="color-mix(in oklab, var(--primary-foreground) 12%, transparent)"
+        litColor="var(--primary-foreground)"
+        intensity={0.1}
+      />
+      <Grid gap="xl">
+        <GridItem span={12} lgSpan={6}>
+          <Stack gap="lg">
+            <Stack gap="sm">
+              <Cluster gap="sm">
+                <Badge variant="highlight">For parents</Badge>
+                <Badge variant="outline">
+                  <span lang="he" dir="rtl">
+                    דוגרי
+                  </span>
+                </Badge>
+              </Cluster>
+              <Typography as="h1" variant="h1">
+                Clear answers about Israel, each with sources you can check.
+              </Typography>
+              <Typography variant="long">
+                When your child comes home with a claim about Israel, find an
+                answer you can give in two minutes, the other side in its own
+                words, and the source for every fact.
+              </Typography>
+            </Stack>
+            <HeardSearch items={searchItems()} />
+            <Cluster gap="md">
+              <Link
+                href="/facts/"
+                className={buttonVariants({ variant: 'highlight', size: 'lg' })}
+              >
+                See the answers
+              </Link>
+              <Link
+                href="/method/"
+                className={buttonVariants({ variant: 'secondary', size: 'lg' })}
+              >
+                How we check
+              </Link>
+            </Cluster>
+          </Stack>
+        </GridItem>
+        <GridItem span={12} lgSpan={6}>
+          <Talk />
+        </GridItem>
+      </Grid>
+    </Section>
+  );
+}
+
+function SourcesStrip() {
+  return (
+    <Section container="wide" spacing="tight" divider="bottom">
+      <Reveal effect="fade">
+        <Stack gap="sm" align="center">
+          <Typography variant="ui-sm" tone="muted" align="center">
+            Every sentence is tied to a quote you can open
+          </Typography>
+          <Cluster gap="sm" justify="center">
+            {sourceMix().map((k) => (
+              <Badge variant="secondary" key={k.label}>
+                {k.n} {k.label}
+              </Badge>
+            ))}
+          </Cluster>
+        </Stack>
+      </Reveal>
+    </Section>
+  );
+}
+
+// The claim as the other side says it, then what the record shows, one tap away. The answer is
+// in the page either way: the accordion only folds it.
+function CheckIt() {
+  const cards = claimsToCheck();
+  if (cards.length === 0) return null;
+  return (
+    <Section container="wide" spacing="comfortable">
+      <Stack gap="xl">
+        <Reveal>
+          <Intro
+            kicker="Heard it? Check it."
+            title="What they heard, and what the record shows"
+            lead="Each claim in the words of someone who makes it. Open it to see the first lines of our answer, with the source for each."
+          />
+        </Reveal>
+        <Grid gap="lg">
+          {cards.map((c, i) => {
+            const h = c.heard[0];
+            return (
+              <GridItem span={12} lgSpan={4} key={c.id}>
+                <Reveal delay={i * 90}>
+                  <Card>
+                    <CardHeader>
+                      <Typography variant="ui-sm" tone="muted">
+                        They heard
+                      </Typography>
+                      <CardTitle>
+                        <Typography as="h3" variant="h4">
+                          {c.claim}
+                        </Typography>
+                      </CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <Stack gap="md">
+                        {h && (
+                          <Typography variant="ui" tone="muted">
+                            {h.who}
+                          </Typography>
+                        )}
+                        <Accordion>
+                          <AccordionItem value="record">
+                            <AccordionTrigger>
+                              What the record shows
+                            </AccordionTrigger>
+                            <AccordionContent>
+                              <Stack gap="sm">
+                                <Typography variant="body">
+                                  <Said lines={answerLines(c).slice(0, 2)} />
+                                </Typography>
+                                <Link
+                                  href={`/answers/${c.id}/`}
+                                  className={buttonVariants({
+                                    variant: 'link',
+                                  })}
+                                >
+                                  The whole answer
+                                </Link>
+                              </Stack>
+                            </AccordionContent>
+                          </AccordionItem>
+                        </Accordion>
+                      </Stack>
+                    </CardContent>
+                  </Card>
+                </Reveal>
+              </GridItem>
+            );
+          })}
+        </Grid>
+      </Stack>
+    </Section>
+  );
+}
+
+function HowItWorks() {
+  return (
+    <Section container="wide" spacing="comfortable" tone="muted">
+      <Stack gap="xl">
+        <Reveal>
+          <Intro
+            kicker="How it works"
+            title="From what they heard to what you say"
+          />
+        </Reveal>
+        <Grid gap="lg">
+          {STEPS.map(([kicker, title, body], i) => (
+            <GridItem span={12} mdSpan={4} key={kicker}>
+              <Reveal delay={i * 120}>
+                <Stack gap="xs">
+                  <Typography variant="h1" tone="primary" as="p">
+                    {i + 1}
+                  </Typography>
+                  <Typography variant="ui-sm" tone="primary">
+                    {kicker}
+                  </Typography>
+                  <Typography as="h3" variant="h3">
+                    {title}
+                  </Typography>
+                  <Typography tone="muted">{body}</Typography>
+                </Stack>
+              </Reveal>
+            </GridItem>
+          ))}
+        </Grid>
+      </Stack>
+    </Section>
+  );
+}
+
+function Numbers() {
   const n = counts();
   return (
-    <>
-      <Section container="wide" tone="brand" spacing="comfortable">
-        <Grid gap="xl">
-          <GridItem span={12} lgSpan={6}>
-            <Stack gap="lg">
-              <Stack gap="sm">
-                <Typography variant="ui-sm">For parents</Typography>
-                <Typography as="h1" variant="h1">
-                  Clear answers about Israel, each with sources you can check.
-                </Typography>
-                <Typography variant="long">
-                  When your child comes home with a claim about Israel, find an
-                  answer you can give in two minutes, the other side in its own
-                  words, and the source for every fact.
-                </Typography>
-              </Stack>
-              <HeardSearch items={searchItems()} />
+    <Section container="wide" spacing="comfortable" tone="brand">
+      <Reveal>
+        <Stack gap="lg">
+          <StatGroup
+            cols={3}
+            layout="value-first"
+            stats={[
+              {
+                value: <CountUp value={n.verified} />,
+                label: 'answers checked by a second reader',
+              },
+              {
+                value: <CountUp value={n.quotes} />,
+                label: 'source quotes you can check',
+              },
+              {
+                value: <CountUp value={n.cards} />,
+                label: 'questions we are working on',
+              },
+            ]}
+          />
+          <Typography variant="long">
+            An answer is published in full only after someone who did not write
+            it has tried to break it. The rest are still being checked, and each
+            one says so.
+          </Typography>
+        </Stack>
+      </Reveal>
+    </Section>
+  );
+}
+
+function WhereWeStand() {
+  return (
+    <Section container="wide" spacing="comfortable">
+      <Grid gap="xl">
+        <GridItem span={12} lgSpan={4}>
+          <Reveal>
+            <Stack gap="md">
+              <Intro
+                kicker="Our position"
+                title="Where we stand"
+                id="where-we-stand"
+              />
               <Callout
                 tone="highlight"
                 kicker={
@@ -120,87 +399,63 @@ export default function Home() {
               >
                 Dugri is Israeli for “say it straight”. That is how we answer.
               </Callout>
-              <Cluster gap="md">
-                <Link
-                  href="/facts/"
-                  className={buttonVariants({
-                    variant: 'highlight',
-                    size: 'lg',
-                  })}
-                >
-                  See the answers
-                </Link>
-                <Link
-                  href="/method/"
-                  className={buttonVariants({
-                    variant: 'secondary',
-                    size: 'lg',
-                  })}
-                >
-                  How we check
-                </Link>
-              </Cluster>
             </Stack>
-          </GridItem>
-          <GridItem span={12} lgSpan={6}>
-            <Talk />
-          </GridItem>
-        </Grid>
-      </Section>
-
-      <Section container="wide" spacing="tight" divider="bottom">
-        <Stack gap="lg">
-          <Grid gap="lg">
-            {STEPS.map(([kicker, title, body], i) => (
-              <GridItem span={12} mdSpan={4} key={kicker}>
-                <Stack gap="xs">
-                  <Typography variant="ui-sm" tone="primary">
-                    {i + 1} · {kicker}
-                  </Typography>
-                  <Typography as="h2" variant="h3">
-                    {title}
-                  </Typography>
-                  <Typography tone="muted">{body}</Typography>
-                </Stack>
-              </GridItem>
-            ))}
-          </Grid>
-        </Stack>
-      </Section>
-
-      <Section container="wide" spacing="tight">
-        <Stack gap="lg">
-          <Stack gap="sm">
-            <StatGroup
-              cols={3}
-              layout="value-first"
-              stats={[
-                {
-                  value: n.verified,
-                  label: 'answers checked by a second reader',
-                },
-                { value: n.quotes, label: 'source quotes you can check' },
-                { value: n.cards, label: 'questions we are working on' },
-              ]}
-            />
-            <Typography variant="ui" tone="muted">
-              An answer is published in full only after someone who did not
-              write it has tried to break it. The rest are still being checked,
-              and each one says so.
-            </Typography>
-          </Stack>
-          <Stack gap="sm">
-            <Typography as="h2" variant="h2" id="where-we-stand">
-              Where we stand
-            </Typography>
+          </Reveal>
+        </GridItem>
+        <GridItem span={12} lgSpan={8}>
+          <Reveal delay={120}>
             {/* Built by export.py from docs/chapters.md, every character escaped before any tag is added. */}
             <Prose
               variant="long"
               dangerouslySetInnerHTML={{ __html: site.standing }}
             />
+          </Reveal>
+        </GridItem>
+      </Grid>
+    </Section>
+  );
+}
+
+function Closing() {
+  return (
+    <Section container="wide" spacing="comfortable" tone="muted" divider="top">
+      <GridField mark="dots" fade="radial" />
+      <Reveal effect="scale">
+        <Stack gap="lg" align="center">
+          <Stack gap="sm" align="center">
+            <Typography as="h2" variant="h2" align="center">
+              Heard something today?
+            </Typography>
+            <Typography variant="long" tone="muted" align="center">
+              Type a few of the words they used. The answer opens with its
+              sources.
+            </Typography>
           </Stack>
+          <Container size="prose">
+            <HeardSearch items={searchItems()} />
+          </Container>
+          <Link
+            href="/facts/"
+            className={buttonVariants({ variant: 'default', size: 'lg' })}
+          >
+            See every answer
+          </Link>
         </Stack>
-      </Section>
+      </Reveal>
+    </Section>
+  );
+}
+
+export default function Home() {
+  return (
+    <>
+      <Hero />
+      <SourcesStrip />
+      <CheckIt />
+      <HowItWorks />
+      <Numbers />
+      <WhereWeStand />
+      <Closing />
     </>
   );
 }
