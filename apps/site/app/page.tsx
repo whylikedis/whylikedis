@@ -17,6 +17,7 @@ import { Reveal } from '@/components/ui/effects/reveal';
 import { SplitText } from '@/components/ui/effects/split-text';
 import { Container } from '@/components/ui/container';
 import { Grid, GridItem } from '@/components/ui/grid';
+import { SectionHeader } from '@/components/ui/patterns/section-header';
 import { Dialogue } from '@/components/ui/patterns/dialogue';
 import { StatGroup } from '@/components/ui/patterns/stat-group';
 import { Prose } from '@/components/ui/prose';
@@ -128,35 +129,6 @@ function Talk() {
   );
 }
 
-// A section's opening: a small label, the heading, one line under it.
-function Intro({
-  kicker,
-  title,
-  lead,
-  id,
-}: {
-  kicker: string;
-  title: string;
-  lead?: string;
-  id?: string;
-}) {
-  return (
-    <Stack gap="sm">
-      <Typography variant="ui-sm" tone="primary">
-        {kicker}
-      </Typography>
-      <Typography as="h2" variant="h2" id={id}>
-        {title}
-      </Typography>
-      {lead && (
-        <Typography variant="long" tone="muted">
-          {lead}
-        </Typography>
-      )}
-    </Stack>
-  );
-}
-
 function Hero() {
   return (
     <Section container="wide" tone="brand" spacing="comfortable">
@@ -243,69 +215,69 @@ function CheckIt() {
   if (cards.length === 0) return null;
   return (
     <Section container="wide" spacing="comfortable">
-      <Stack gap="xl">
-        <Reveal>
-          <Intro
-            kicker="Heard it? Check it."
-            title="What they heard, and what the record shows"
-            lead="Each claim in the words of someone who makes it. Open it to see the first lines of our answer, with the source for each."
-          />
-        </Reveal>
-        <Grid gap="lg">
-          {cards.map((c, i) => {
-            const h = c.heard[0];
-            return (
-              <GridItem span={12} lgSpan={4} key={c.id}>
-                <Reveal delay={i * 90}>
-                  <Card>
-                    <CardHeader>
-                      <Typography variant="ui-sm" tone="muted">
-                        They heard
+      <Reveal>
+        <SectionHeader
+          align="start"
+          eyebrowStyle="pill"
+          eyebrow="Heard it? Check it."
+          title="What they heard, and what the record shows"
+          tagline="Each claim in the words of someone who makes it. Open it to see the first lines of our answer, with the source for each."
+        />
+      </Reveal>
+      <Grid gap="lg">
+        {cards.map((c, i) => {
+          const h = c.heard[0];
+          return (
+            <GridItem span={12} lgSpan={4} key={c.id}>
+              <Reveal delay={i * 90}>
+                <Card>
+                  <CardHeader>
+                    <Typography variant="ui-sm" tone="muted">
+                      They heard
+                    </Typography>
+                    <CardTitle>
+                      <Typography as="h3" variant="h4">
+                        {c.claim}
                       </Typography>
-                      <CardTitle>
-                        <Typography as="h3" variant="h4">
-                          {c.claim}
+                    </CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <Stack gap="md">
+                      {h && (
+                        <Typography variant="ui" tone="muted">
+                          {h.who}
                         </Typography>
-                      </CardTitle>
-                    </CardHeader>
-                    <CardContent>
-                      <Stack gap="md">
-                        {h && (
-                          <Typography variant="ui" tone="muted">
-                            {h.who}
-                          </Typography>
-                        )}
-                        <Accordion>
-                          <AccordionItem value="record">
-                            <AccordionTrigger>
-                              What the record shows
-                            </AccordionTrigger>
-                            <AccordionContent>
-                              <Stack gap="sm">
-                                <Typography variant="body">
-                                  <Said lines={answerLines(c).slice(0, 2)} />
-                                </Typography>
-                                <Link
-                                  href={`/answers/${c.id}/`}
-                                  className={buttonVariants({
-                                    variant: 'link',
-                                  })}
-                                >
-                                  The whole answer
-                                </Link>
-                              </Stack>
-                            </AccordionContent>
-                          </AccordionItem>
-                        </Accordion>
-                      </Stack>
-                    </CardContent>
-                  </Card>
-                </Reveal>
-              </GridItem>
-            );
-          })}
-        </Grid>
-      </Stack>
+                      )}
+                      <Accordion>
+                        <AccordionItem value="record">
+                          <AccordionTrigger>
+                            What the record shows
+                          </AccordionTrigger>
+                          <AccordionContent>
+                            <Stack gap="sm">
+                              <Typography variant="body">
+                                <Said lines={answerLines(c).slice(0, 2)} />
+                              </Typography>
+                              <Link
+                                href={`/answers/${c.id}/`}
+                                className={buttonVariants({
+                                  variant: 'link',
+                                })}
+                              >
+                                The whole answer
+                              </Link>
+                            </Stack>
+                          </AccordionContent>
+                        </AccordionItem>
+                      </Accordion>
+                    </Stack>
+                  </CardContent>
+                </Card>
+              </Reveal>
+            </GridItem>
+          );
+        })}
+      </Grid>
     </Section>
   );
 }
@@ -313,34 +285,34 @@ function CheckIt() {
 function HowItWorks() {
   return (
     <Section container="wide" spacing="comfortable" tone="muted">
-      <Stack gap="xl">
-        <Reveal>
-          <Intro
-            kicker="How it works"
-            title="From what they heard to what you say"
-          />
-        </Reveal>
-        <Grid gap="lg">
-          {STEPS.map(([kicker, title, body], i) => (
-            <GridItem span={12} mdSpan={4} key={kicker}>
-              <Reveal delay={i * 120}>
-                <Stack gap="xs">
-                  <Typography variant="h1" tone="primary" as="p">
-                    {i + 1}
-                  </Typography>
-                  <Typography variant="ui-sm" tone="primary">
-                    {kicker}
-                  </Typography>
-                  <Typography as="h3" variant="h3">
-                    {title}
-                  </Typography>
-                  <Typography tone="muted">{body}</Typography>
-                </Stack>
-              </Reveal>
-            </GridItem>
-          ))}
-        </Grid>
-      </Stack>
+      <Reveal>
+        <SectionHeader
+          align="start"
+          eyebrowStyle="pill"
+          eyebrow="How it works"
+          title="From what they heard to what you say"
+        />
+      </Reveal>
+      <Grid gap="lg">
+        {STEPS.map(([kicker, title, body], i) => (
+          <GridItem span={12} mdSpan={4} key={kicker}>
+            <Reveal delay={i * 120}>
+              <Stack gap="xs">
+                <Typography variant="h1" tone="primary" as="p">
+                  {i + 1}
+                </Typography>
+                <Typography variant="ui-sm" tone="primary">
+                  {kicker}
+                </Typography>
+                <Typography as="h3" variant="h3">
+                  {title}
+                </Typography>
+                <Typography tone="muted">{body}</Typography>
+              </Stack>
+            </Reveal>
+          </GridItem>
+        ))}
+      </Grid>
     </Section>
   );
 }
@@ -387,8 +359,11 @@ function WhereWeStand() {
         <GridItem span={12} lgSpan={4}>
           <Reveal>
             <Stack gap="md">
-              <Intro
-                kicker="Our position"
+              <SectionHeader
+                align="start"
+                spacing="md"
+                eyebrowStyle="pill"
+                eyebrow="Our position"
                 title="Where we stand"
                 id="where-we-stand"
               />
