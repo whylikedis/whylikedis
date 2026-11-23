@@ -109,6 +109,7 @@ export default function Home() {
                   words, and the source for every fact.
                 </Typography>
               </Stack>
+              <HeardSearch items={searchItems()} />
               <Callout
                 tone="highlight"
                 kicker={
@@ -149,12 +150,6 @@ export default function Home() {
 
       <Section spacing="tight" divider="bottom">
         <Stack gap="lg">
-          <Stack gap="sm">
-            <Typography as="h2" variant="h3">
-              What did they hear?
-            </Typography>
-            <HeardSearch items={searchItems()} />
-          </Stack>
           <Grid gap="lg">
             {STEPS.map(([kicker, title, body], i) => (
               <GridItem span={12} mdSpan={4} key={kicker}>
