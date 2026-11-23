@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Topbar } from '@/components/ui/patterns/topbar';
-import { Logo } from './logo';
+import { Wordmark } from '@/components/ui/patterns/wordmark';
 
 const LINKS = [
   { href: '/', label: 'Home' },
@@ -14,15 +14,23 @@ const LINKS = [
   { href: '/open/', label: 'Open questions' },
 ];
 
+// The mark is an Israeli street sign: the name in Hebrew, Arabic and English, the way the
+// country's own signs write a place name.
 export function Nav() {
   const here = usePathname().replace(/\/?$/, '/');
   return (
     <Topbar
       containerSize="content"
       logo={
-        <Link href="/" aria-label="WhyLikeDIs home">
-          <Logo />
-        </Link>
+        <Wordmark label="WhyLikeDIs, home" href="/">
+          <Wordmark.Line lang="he" dir="rtl">
+            למה ככה
+          </Wordmark.Line>
+          <Wordmark.Line lang="ar" dir="rtl">
+            ليش هيك
+          </Wordmark.Line>
+          <Wordmark.Line lang="en">WHYLIKEDIS</Wordmark.Line>
+        </Wordmark>
       }
       links={LINKS}
       currentHref={here}

@@ -1,5 +1,6 @@
 // The one check on the built site: the hosted fact page shows every verified card in full and no
-// draft card at all beyond its claim, and it asks search engines to stay away. Run after `next build`.
+// draft card at all beyond its claim, only verified cards get an answer page, and the site asks
+// search engines to stay away. Run after `next build`.
 import assert from 'node:assert/strict';
 import { readFileSync, readdirSync } from 'node:fs';
 import { join, sep } from 'node:path';
@@ -45,8 +46,19 @@ for (const c of cards) {
     `${c.id} (${c.status}) is ${shown(c) ? '' : 'not '}shown in full`,
   );
 }
+// Each verified card has its own answer page, and no draft has one, wherever the builder writes it.
+for (const c of cards) {
+  const has = built.some(
+    (f) => f.endsWith(`${c.id}.html`) || f.endsWith(`${c.id}${sep}index.html`),
+  );
+  assert.equal(
+    has,
+    c.status === 'verified',
+    `${c.id} (${c.status}) ${has ? 'has' : 'has no'} answer page`,
+  );
+}
 assert.match(html, /<meta name="robots" content="noindex, nofollow"/);
 assert.match(page('index'), /Where we stand/);
 console.log(
-  `site check: ${verified.length} verified cards in full, ${cards.length - verified.length} drafts by claim only`,
+  `site check: ${verified.length} verified cards in full and on their own pages, ${cards.length - verified.length} drafts by claim only`,
 );
