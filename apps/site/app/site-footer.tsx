@@ -25,7 +25,13 @@ export function SiteFooter() {
   return (
     <Footer
       containerSize="content"
-      brand={<Typography variant="h5">WhyLikeDIs</Typography>}
+      // The name looks like a heading but is not one: a heading here sat an h5 under
+      // the page's h2s and broke the outline on every page (axe heading-order).
+      brand={
+        <Typography as="p" variant="h5">
+          WhyLikeDIs
+        </Typography>
+      }
       tagline="Clear answers about Israel, each with sources you can check."
       groups={GROUPS}
       renderLink={({ href, className, children }) => (

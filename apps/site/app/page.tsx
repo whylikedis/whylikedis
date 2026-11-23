@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { buttonVariants } from '@/components/ui/button-variants';
 import { Hero } from '@/components/ui/patterns/hero';
@@ -6,6 +7,9 @@ import { Prose } from '@/components/ui/prose';
 import { Stack } from '@/components/ui/stack';
 import { Typography } from '@/components/ui/typography';
 import { counts, site } from './data';
+
+// One address per page, so a shared link with tracking or a missing slash still counts as this page.
+export const metadata: Metadata = { alternates: { canonical: '/' } };
 
 export default function Home() {
   const n = counts();
