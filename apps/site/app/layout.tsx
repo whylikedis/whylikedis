@@ -3,6 +3,7 @@ import { Frank_Ruhl_Libre, Heebo } from 'next/font/google';
 import type { ReactNode } from 'react';
 import { PREVIEW } from './data';
 import { Nav } from './nav';
+import { SiteFooter } from './site-footer';
 import './globals.css';
 
 const display = Frank_Ruhl_Libre({
@@ -52,6 +53,7 @@ export default function Layout({ children }: { children: ReactNode }) {
         </div>
         <Nav />
         <main className="wrap">{children}</main>
+        <SiteFooter />
       </body>
     </html>
   );

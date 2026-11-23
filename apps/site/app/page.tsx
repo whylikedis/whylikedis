@@ -64,7 +64,7 @@ export default function Home() {
         has tried to break it. The rest are still being checked, and each one
         says so.
       </p>
-      <h2>Where we stand</h2>
+      <h2 id="where-we-stand">Where we stand</h2>
       {/* Built by export.py from docs/chapters.md, every character escaped before any tag is added. */}
       <div dangerouslySetInnerHTML={{ __html: site.standing }} />
     </>
