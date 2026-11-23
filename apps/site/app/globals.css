@@ -15,6 +15,24 @@
   --font-heading:
     var(--font-newsreader), 'Newsreader', Georgia, var(--font-heebo), 'Heebo',
     var(--font-naskh), 'Noto Naskh Arabic', serif;
+
+  /* Sized for our readers, adults from 35 to 85: body text at 18px and long reads at 19 to 20px,
+     UI text never under 15px. Interlace's scale keys stay; only their sizes change. */
+  --text-body: 1.125rem; /* 18px */
+  --text-body--line-height: 1.65;
+  --text-long: clamp(1.1875rem, 1.1563rem + 0.1389vw, 1.25rem); /* 19 → 20px */
+  --text-long--line-height: 1.7;
+  --text-ui: 1rem; /* 16px */
+  --text-ui--line-height: 1.5;
+  --text-ui-sm: 0.9375rem; /* 15px */
+  --text-ui-sm--line-height: 1.5;
+  --text-caption: 0.9375rem; /* 15px captions and eyebrows */
+  --text-caption--line-height: 1.5;
+  /* Tailwind's own small sizes, which buttons, badges and labels use, move up one step too. */
+  --text-sm: 1rem; /* 16px, was 14px */
+  --text-sm--line-height: 1.5;
+  --text-xs: 0.875rem; /* 14px, was 12px */
+  --text-xs--line-height: 1.4;
 }
 
 /* No local rules: every part of the page is an Interlace component. */

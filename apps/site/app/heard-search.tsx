@@ -18,7 +18,7 @@ export function HeardSearch({ items }: { items: Item[] }) {
     <ComboboxCompose
       items={items}
       aria-label="What did your child hear?"
-      placeholder="What did they hear? Try “apartheid” or “river”"
+      placeholder="What did they hear? Try “apartheid”"
       emptyMessage="Nothing yet for that. Try one word from what they said."
       onValueChange={(item) => {
         const to = item && href.get(item.value);
