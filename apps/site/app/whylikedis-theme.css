@@ -3,21 +3,21 @@
  * (--primary, --background, --highlight ...), and a host app's unlayered :root beats Interlace's
  * own layers, so every registry item picks the theme up with no code change.
  *
- * Palette: flag blue first, warm stone neutrals, light pages by default, a dark scheme that
- * follows the reader's system setting. Every text pair meets WCAG AA (most AAA): the measured
- * ratios are below.
+ * Palette: flag blue as the one accent on warm paper and ink (the calm editorial look), light
+ * pages by default, a dark scheme that follows the reader's system setting. Every text pair
+ * meets WCAG AA (most AAA): the measured ratios are below.
  *
  *                              light   dark
- *   foreground on background   17.41   16.74
- *   muted-fg on muted           8.14    9.61
- *   primary on background       8.92    9.60
- *   primary-fg on primary       9.30    9.60
- *   highlight-fg on highlight   9.95   10.38
- *   destructive on background   7.55    9.98
- *   success on background       6.84   13.48
- *   warning on background       8.17   11.23
- *   input on background         3.60    4.52   (control boundary, floor 3:1)
- *   border on background        1.31    1.52   (decorative only)
+ *   foreground on background   15.69   15.21
+ *   muted-fg on muted           6.46    8.57
+ *   primary on background       8.47    9.01
+ *   primary-fg on primary       9.30    9.01
+ *   highlight-fg on highlight  15.69   15.21
+ *   destructive on background   7.17    9.36
+ *   success on background       6.50   12.65
+ *   warning on background       7.76   10.53
+ *   input on background         3.71    4.54   (control boundary, floor 3:1)
+ *   border on background        1.33    1.50   (decorative only)
  */
 
 :root {
@@ -26,22 +26,22 @@
   --reading-offset: 113px;
 
   --radius: 0.625rem; /* softer than a tool, not a bubble: 10px cards, 8px controls */
-  --background: #fcfaf6; /* warm off-white page */
-  --foreground: #0b1430; /* ink navy */
-  --card: #ffffff;
-  --card-foreground: #0b1430;
-  --popover: #ffffff;
-  --popover-foreground: #0b1430;
+  --background: #f7f4ee; /* warm paper */
+  --foreground: #1c1b18; /* warm ink */
+  --card: #fffdf9;
+  --card-foreground: #1c1b18;
+  --popover: #fffdf9;
+  --popover-foreground: #1c1b18;
   --primary: #0038b8; /* flag blue: links, headings accents, the brand */
   --primary-foreground: #ffffff;
-  --secondary: #e8eefb; /* blue tint for quiet buttons and bands */
-  --secondary-foreground: #0b1430;
-  --muted: #f3eee4; /* stone: quiet surfaces, the "other side" panel */
-  --muted-foreground: #4b4637;
-  --accent: #f3eee4; /* shadcn hover tint, not the brand accent */
-  --accent-foreground: #0b1430;
-  --highlight: #f2b632; /* gold: the ONE main action per screen */
-  --highlight-foreground: #0b1430;
+  --secondary: #e4eaf8; /* blue tint for quiet buttons and bands */
+  --secondary-foreground: #1c1b18;
+  --muted: #efeae0; /* stone: quiet surfaces, the "other side" panel */
+  --muted-foreground: #57524a;
+  --accent: #efeae0; /* shadcn hover tint, not the brand accent */
+  --accent-foreground: #1c1b18;
+  --highlight: #1c1b18; /* ink: the ONE main action per screen, the editorial way */
+  --highlight-foreground: #f7f4ee;
   --destructive: #9f1d1d;
   --destructive-foreground: #ffffff;
   --success: #166534; /* "checked by a second reader" */
@@ -50,8 +50,8 @@
   --warning-foreground: #ffffff;
   --info: #155e75; /* cyan, kept apart from the blue primary */
   --info-foreground: #ffffff;
-  --border: #e4dccb;
-  --input: #8c8371;
+  --border: #dcd5c7;
+  --input: #857d6e;
   --ring: #0038b8;
   --chart-1: #0038b8; /* blue */
   --chart-2: #c8961e; /* gold */
@@ -62,32 +62,32 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0b1020;
-    --foreground: #eef1f8;
-    --card: #121a2e;
-    --card-foreground: #eef1f8;
-    --popover: #121a2e;
-    --popover-foreground: #eef1f8;
+    --background: #191814;
+    --foreground: #f1ede4;
+    --card: #22201b;
+    --card-foreground: #f1ede4;
+    --popover: #22201b;
+    --popover-foreground: #f1ede4;
     --primary: #9db7ff;
-    --primary-foreground: #0b1020;
-    --secondary: #16224a;
-    --secondary-foreground: #eef1f8;
-    --muted: #18203a;
-    --muted-foreground: #c3c8d6;
-    --accent: #18203a;
-    --accent-foreground: #eef1f8;
-    --highlight: #f2b632;
-    --highlight-foreground: #0b1020;
+    --primary-foreground: #191814;
+    --secondary: #232a40;
+    --secondary-foreground: #f1ede4;
+    --muted: #2a2822;
+    --muted-foreground: #cbc5b8;
+    --accent: #2a2822;
+    --accent-foreground: #f1ede4;
+    --highlight: #f1ede4;
+    --highlight-foreground: #191814;
     --destructive: #fca5a5;
-    --destructive-foreground: #0b1020;
+    --destructive-foreground: #191814;
     --success: #86efac;
-    --success-foreground: #0b1020;
+    --success-foreground: #191814;
     --warning: #fdba74;
-    --warning-foreground: #0b1020;
+    --warning-foreground: #191814;
     --info: #67e8f9;
-    --info-foreground: #0b1020;
-    --border: #2a3350;
-    --input: #6f7ba0;
+    --info-foreground: #191814;
+    --border: #3a372f;
+    --input: #878072;
     --ring: #9db7ff;
     --chart-1: #9db7ff;
     --chart-2: #f2b632;

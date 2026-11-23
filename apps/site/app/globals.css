@@ -6,14 +6,15 @@
 @import '../styles/interlace/page/preflight.css';
 @import './whylikedis-theme.css';
 
-/* Typefaces (loaded by next/font in layout.tsx): Heebo, an Israeli typeface, for text and headings,
-   the way Israeli signs and papers set them; Noto Naskh Arabic for Arabic. */
+/* Typefaces (loaded by next/font in layout.tsx): Heebo, an Israeli typeface, for text; Newsreader,
+   a book serif, for headings, the calm editorial look; Noto Naskh Arabic for Arabic. Newsreader has
+   no Hebrew, so Hebrew headings fall through to Heebo. */
 @theme {
   --font-sans: var(--font-heebo), 'Heebo', system-ui, sans-serif;
-  /* Heebo has Latin and Hebrew; the browser takes Arabic glyphs (the wordmark's middle line) from Naskh. */
+  /* The browser takes Hebrew glyphs from Heebo and Arabic glyphs from Naskh. */
   --font-heading:
-    var(--font-heebo), 'Heebo', var(--font-naskh), 'Noto Naskh Arabic',
-    system-ui, sans-serif;
+    var(--font-newsreader), 'Newsreader', Georgia, var(--font-heebo), 'Heebo',
+    var(--font-naskh), 'Noto Naskh Arabic', serif;
 }
 
 /* No local rules: every part of the page is an Interlace component. */

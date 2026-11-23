@@ -1,4 +1,5 @@
 'use client';
+import type { CSSProperties } from 'react';
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -23,15 +24,18 @@ export function Nav() {
       containerSize="wide"
       collapseBelow="lg"
       logo={
-        <Wordmark label="WhyLikeDIs, home" href="/">
-          <Wordmark.Line lang="he" dir="rtl">
-            למה ככה
-          </Wordmark.Line>
-          <Wordmark.Line lang="ar" dir="rtl">
-            ليش هيك
-          </Wordmark.Line>
-          <Wordmark.Line lang="en">WHYLIKEDIS</Wordmark.Line>
-        </Wordmark>
+        // The street sign keeps the sign face (Heebo), not the serif the headings use.
+        <span style={{ '--font-heading': 'var(--font-sans)' } as CSSProperties}>
+          <Wordmark label="WhyLikeDIs, home" href="/">
+            <Wordmark.Line lang="he" dir="rtl">
+              למה ככה
+            </Wordmark.Line>
+            <Wordmark.Line lang="ar" dir="rtl">
+              ليش هيك
+            </Wordmark.Line>
+            <Wordmark.Line lang="en">WHYLIKEDIS</Wordmark.Line>
+          </Wordmark>
+        </span>
       }
       links={LINKS}
       currentHref={here}
