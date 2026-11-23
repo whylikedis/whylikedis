@@ -2,6 +2,8 @@ import type { Metadata, Viewport } from 'next';
 import { Frank_Ruhl_Libre, Heebo } from 'next/font/google';
 import type { ReactNode } from 'react';
 import { PREVIEW } from './data';
+import { Section } from '@/components/ui/section';
+import { SkipLink } from '@/components/ui/skip-link';
 import { Nav } from './nav';
 import { SiteFooter } from './site-footer';
 import './globals.css';
@@ -45,14 +47,19 @@ export const viewport: Viewport = { themeColor: '#0038b8' };
 export default function Layout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" className={`${display.variable} ${body.variable}`}>
-      <body>
+      <body className="bg-background text-foreground font-body">
+        <SkipLink />
         <div className="draft">
           {PREVIEW
             ? 'Local preview: drafts are shown, and nothing here is approved or public.'
             : 'This site is still being written. Answers still being checked are not ready to teach from yet.'}
         </div>
         <Nav />
-        <main className="wrap">{children}</main>
+        <main id="main">
+          <Section spacing="tight" container="content">
+            {children}
+          </Section>
+        </main>
         <SiteFooter />
       </body>
     </html>

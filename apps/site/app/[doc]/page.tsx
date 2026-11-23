@@ -1,3 +1,4 @@
+import { Prose } from '@/components/ui/prose';
 import { site } from '../data';
 
 // One page for each doc in data/site.json: /questions/, /election-map/, /method/, /open/.
@@ -14,7 +15,8 @@ export async function generateMetadata({ params }: Props) {
 export default async function Doc({ params }: Props) {
   // Built by export.py from docs/, every character escaped before any tag is added.
   return (
-    <div
+    <Prose
+      variant="long"
       dangerouslySetInnerHTML={{ __html: site.docs[(await params).doc].html }}
     />
   );

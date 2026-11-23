@@ -1,4 +1,9 @@
 import { Badge } from '@/components/ui/badge';
+import { StatGroup } from '@/components/ui/patterns/stat-group';
+import { Prose } from '@/components/ui/prose';
+import { Stack } from '@/components/ui/stack';
+import { TagList } from '@/components/ui/tag';
+import { Typography } from '@/components/ui/typography';
 import { ClaimCard } from '@/components/ui/patterns/claim-card';
 import { type Card, PREVIEW, type Round, type Source, counts, site } from '../data';
 
@@ -10,14 +15,12 @@ const safe = (url: string) => (url.startsWith('https://') ? url : undefined);
 const Sources = ({ list }: { list: Source[] }) => (
   <ul>
     {list.map((s, i) => (
-      <li className="src" key={i}>
+      <li key={i}>
         <a href={safe(s.url)} rel="noopener noreferrer">
           {s.publisher}
         </a>{' '}
-        <span className="soft">
-          ({s.kind}
-          {s.wire ? `, ${s.wire} copy` : ''})
-        </span>
+        ({s.kind}
+        {s.wire ? `, ${s.wire} copy` : ''})
         <blockquote>{s.quote}</blockquote>
       </li>
     ))}
@@ -39,7 +42,7 @@ function CardView({ c }: { c: Card }) {
     return r ? [[label, r]] : [];
   });
   return (
-    <ClaimCard className="card" id={c.id}>
+    <ClaimCard id={c.id}>
       <ClaimCard.Status>
         {c.status === 'verified' ? (
           <Badge variant="success">Checked by a second reader</Badge>
@@ -61,6 +64,7 @@ function CardView({ c }: { c: Card }) {
         title="Facts and sources"
         meta={`${c.facts.filter((f) => f.enough).length} of ${c.facts.length} fully sourced`}
       >
+        <Prose>
         <ol>
           {c.facts.map((f, i) => (
             <li key={i}>
@@ -70,11 +74,13 @@ function CardView({ c }: { c: Card }) {
             </li>
           ))}
         </ol>
-      </ClaimCard.Section>
+      </Prose>
+</ClaimCard.Section>
       <ClaimCard.Section title="Who says this" meta={c.heard.length}>
+<Prose>
         <ul>
           {c.heard.map((h, i) => (
-            <li className="src" key={i}>
+            <li key={i}>
               {h.who}:{' '}
               <a href={safe(h.url)} rel="noopener noreferrer">
                 source
@@ -83,8 +89,10 @@ function CardView({ c }: { c: Card }) {
             </li>
           ))}
         </ul>
-      </ClaimCard.Section>
+      </Prose>
+</ClaimCard.Section>
       <ClaimCard.Section title="Where the record is contested" meta={c.contested.length}>
+<Prose>
         <ul>
           {c.contested.length ? (
             c.contested.map((x, i) =>
@@ -101,21 +109,28 @@ function CardView({ c }: { c: Card }) {
             <li>Nothing recorded.</li>
           )}
         </ul>
-      </ClaimCard.Section>
+      </Prose>
+</ClaimCard.Section>
       <ClaimCard.Section title="What this card does not claim">
+<Prose>
         <Plain items={c.not_claimed} />
-      </ClaimCard.Section>
+      </Prose>
+</ClaimCard.Section>
       <ClaimCard.Section title="What we could not verify" meta={c.could_not_verify?.length ?? 0}>
+<Prose>
         <Plain items={c.could_not_verify ?? []} />
-      </ClaimCard.Section>
+      </Prose>
+</ClaimCard.Section>
       {rounds.length > 0 && (
         <ClaimCard.Section title="Review notes">
+<Prose>
           {rounds.map(([label, r]) => (
-            <p className="soft" key={label}>
+            <p key={label}>
               <b>{label[0].toUpperCase() + label.slice(1)}.</b> {r.notes}
             </p>
           ))}
-        </ClaimCard.Section>
+        </Prose>
+</ClaimCard.Section>
       )}
       <ClaimCard.Footer>
         Card <code>{c.id}</code>
@@ -127,33 +142,28 @@ function CardView({ c }: { c: Card }) {
 export default function Facts() {
   const n = counts();
   return (
-    <>
-      <p className="label">Answers</p>
-      <h1 style={{ paddingTop: 0 }}>Answers to what your child hears about Israel</h1>
-      <p className="lede">
-        Each card gives an answer a parent can say in two minutes, the facts behind it with the exact words quoted from
-        each source, where the record is disputed, and what the card does not claim.
-      </p>
-      <div className="nums">
-        <div>
-          <b>{n.verified}</b>checked by a second reader
-        </div>
-        <div>
-          <b>{n.cards - n.verified}</b>still being checked
-        </div>
-        <div>
-          <b>{n.approved}</b>approved for teaching
-        </div>
-      </div>
-      <ul className="chips">
-        {site.chapters.map((ch) => (
-          <li key={ch.n}>
-            <a href={`#ch${ch.n}`}>
-              {ch.n}. {ch.title}
-            </a>
-          </li>
-        ))}
-      </ul>
+    <Stack gap="lg">
+      <Stack gap="sm">
+        <Typography variant="ui-sm" tone="primary">
+          Answers
+        </Typography>
+        <Typography as="h1" variant="h1">
+          Answers to what your child hears about Israel
+        </Typography>
+        <Typography variant="long" tone="muted">
+          Each card gives an answer a parent can say in two minutes, the facts behind it with the exact words quoted
+          from each source, where the record is disputed, and what the card does not claim.
+        </Typography>
+      </Stack>
+      <StatGroup
+        cols={3}
+        stats={[
+          { value: n.verified, label: 'checked by a second reader' },
+          { value: n.cards - n.verified, label: 'still being checked' },
+          { value: n.approved, label: 'approved for teaching' },
+        ]}
+      />
+      <TagList items={site.chapters.map((ch) => ({ href: `#ch${ch.n}`, label: `${ch.n}. ${ch.title}` }))} />
       {site.chapters.map((ch) => {
         const mine = site.cards.filter((c) => c.era === ch.n);
         // The hosted site shows a card in full only once it is verified; drafts are listed by their
@@ -161,18 +171,16 @@ export default function Facts() {
         const full = mine.filter((c) => PREVIEW || c.status === 'verified');
         const drafts = mine.filter((c) => !full.includes(c));
         return (
-          <section key={ch.n}>
-            <h2 id={`ch${ch.n}`}>
+          <Stack gap="md" render={<section />} key={ch.n}>
+            <Typography as="h2" variant="h2" id={`ch${ch.n}`}>
               {ch.n}. {ch.title}
-            </h2>
+            </Typography>
             {full.map((c) => (
               <CardView c={c} key={c.id} />
             ))}
             {drafts.length > 0 && (
-              <>
-                <p className="soft" style={{ marginTop: 18 }}>
-                  Still being checked:
-                </p>
+              <Prose>
+                <p>Still being checked:</p>
                 <ul>
                   {drafts.map((c) => (
                     <li key={c.id}>
@@ -180,11 +188,11 @@ export default function Facts() {
                     </li>
                   ))}
                 </ul>
-              </>
+              </Prose>
             )}
-          </section>
+          </Stack>
         );
       })}
-    </>
+    </Stack>
   );
 }
