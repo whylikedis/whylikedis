@@ -21,6 +21,10 @@
  */
 
 :root {
+  /* The sticky Topbar with the street-sign Wordmark is 113px tall at every width (measured at
+     360, 390, 820 and 1280). Long reads stick their contents below it and land headings under it. */
+  --reading-offset: 113px;
+
   --radius: 0.625rem; /* softer than a tool, not a bubble: 10px cards, 8px controls */
   --background: #fcfaf6; /* warm off-white page */
   --foreground: #0b1430; /* ink navy */
