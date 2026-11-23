@@ -8,7 +8,6 @@ import { Callout } from '@/components/ui/callout';
 import { CTASection } from '@/components/ui/patterns/cta-section';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { CountUp } from '@/components/ui/effects/count-up';
-import { GridField } from '@/components/ui/effects/grid-field';
 import { Reveal } from '@/components/ui/effects/reveal';
 import { SplitText } from '@/components/ui/effects/split-text';
 import { FeaturedIcon } from '@/components/ui/featured-icon';
@@ -29,6 +28,7 @@ import {
 } from './answer-parts';
 import { counts, site } from './data';
 import { HeardSearch } from './heard-search';
+import { KitchenTable } from './kitchen-table';
 import { PracticeTalk, Said } from './practice-talk';
 
 // One address per page, so a shared link with tracking or a missing slash still counts as this page.
@@ -131,32 +131,27 @@ function Talk() {
 
 function Hero() {
   return (
-    <Section container="wide" tone="brand" spacing="comfortable">
-      <GridField
-        mark="lines"
-        cell={48}
-        lineColor="color-mix(in oklab, var(--primary-foreground) 12%, transparent)"
-        litColor="var(--primary-foreground)"
-        intensity={0.1}
-      />
+    <Section container="wide" spacing="comfortable">
       <Grid gap="xl">
-        <GridItem span={12} lgSpan={6}>
+        <GridItem span={12} lgSpan={7}>
           <Stack gap="lg">
-            <Stack gap="sm">
+            <Stack gap="md">
               <Cluster gap="sm">
-                <Badge variant="highlight">For parents</Badge>
                 <Badge variant="outline">
                   <span lang="he" dir="rtl">
                     דוגרי
                   </span>
                 </Badge>
+                <Typography variant="ui-sm" tone="muted">
+                  Say it straight
+                </Typography>
               </Cluster>
               <Typography as="h1" variant="h1">
                 <SplitText>
                   Clear answers about Israel, each with sources you can check.
                 </SplitText>
               </Typography>
-              <Typography variant="long">
+              <Typography variant="long" tone="muted">
                 When your child comes home with a claim about Israel, find an
                 answer you can give in two minutes, the other side in its own
                 words, and the source for every fact.
@@ -172,15 +167,47 @@ function Hero() {
               </Link>
               <Link
                 href="/method/"
-                className={buttonVariants({ variant: 'secondary', size: 'lg' })}
+                className={buttonVariants({ variant: 'link', size: 'lg' })}
               >
                 How we check
               </Link>
             </Cluster>
           </Stack>
         </GridItem>
-        <GridItem span={12} lgSpan={6}>
-          <Talk />
+        <GridItem span={12} lgSpan={5}>
+          <Reveal effect="fade">
+            <Card>
+              <CardContent>
+                <KitchenTable />
+              </CardContent>
+            </Card>
+          </Reveal>
+        </GridItem>
+      </Grid>
+    </Section>
+  );
+}
+
+// The talk as a reading section: what it is on the left, a real answer on the right.
+function PracticeSection() {
+  return (
+    <Section container="wide" spacing="comfortable">
+      <Grid gap="xl">
+        <GridItem span={12} lgSpan={5}>
+          <Reveal>
+            <SectionHeader
+              align="start"
+              eyebrowStyle="pill"
+              eyebrow="Practice the talk"
+              title="A real answer, line by line, with the source under every sentence"
+              tagline="Nothing here is written for the home page. It is one of our answers, word for word."
+            />
+          </Reveal>
+        </GridItem>
+        <GridItem span={12} lgSpan={7}>
+          <Reveal delay={120}>
+            <Talk />
+          </Reveal>
         </GridItem>
       </Grid>
     </Section>
@@ -273,9 +300,86 @@ function CheckIt() {
   );
 }
 
-function HowItWorks() {
+// The record as an index: every topic, how many questions it holds, and the other ways in.
+const TOOLS = [
+  [
+    '/election-map/',
+    'Election map',
+    'Israel’s elections for the 25th and 26th Knesset, place by place.',
+  ],
+  [
+    '/questions/',
+    'Questions we tested',
+    'A hunch is a question until a source answers it.',
+  ],
+  [
+    '/open/',
+    'Open questions',
+    'Answers whose rounds of review ended without a verdict.',
+  ],
+] as const;
+
+function Browse() {
+  const topics = site.chapters
+    .map((ch) => ({
+      ...ch,
+      n: site.cards.filter((c) => c.era === ch.n).length,
+    }))
+    .filter((t) => t.n > 0);
   return (
     <Section container="wide" spacing="comfortable" tone="muted">
+      <Reveal>
+        <SectionHeader
+          align="start"
+          eyebrowStyle="pill"
+          eyebrow="The record"
+          title="Browse by topic"
+          tagline="Every question we are working on, filed by topic, each with its sources."
+        />
+      </Reveal>
+      <Stack gap="xl">
+        <Grid gap="md">
+          {topics.map((t, i) => (
+            <GridItem span={12} mdSpan={6} lgSpan={4} key={t.n}>
+              <Reveal delay={(i % 3) * 80}>
+                <Card>
+                  <CardContent>
+                    <Stack gap="xs">
+                      <Typography variant="ui-sm" tone="muted">
+                        {t.n} {t.n === 1 ? 'question' : 'questions'}
+                      </Typography>
+                      <Typography as="h3" variant="h5">
+                        <Link href={`/facts/#ch${t.n}`}>{t.title}</Link>
+                      </Typography>
+                    </Stack>
+                  </CardContent>
+                </Card>
+              </Reveal>
+            </GridItem>
+          ))}
+        </Grid>
+        <Grid gap="md">
+          {TOOLS.map(([href, title, body]) => (
+            <GridItem span={12} mdSpan={4} key={href}>
+              <Stack gap="xs">
+                <Typography as="h3" variant="h4">
+                  <Link href={href}>{title}</Link>
+                </Typography>
+                <Typography variant="ui" tone="muted">
+                  {body}
+                </Typography>
+              </Stack>
+            </GridItem>
+          ))}
+        </Grid>
+      </Stack>
+    </Section>
+  );
+}
+
+function HowItWorks() {
+  return (
+    <Section container="wide" spacing="comfortable">
       <Reveal>
         <SectionHeader
           align="start"
@@ -393,7 +497,6 @@ function Closing() {
         tone="subtle"
         title="Heard something today?"
         description="Type a few of the words they used. The answer opens with its sources."
-        background={<GridField mark="dots" fade="radial" />}
       >
         <Stack gap="md" align="center">
           <HeardSearch items={searchItems()} />
@@ -411,7 +514,9 @@ export default function Home() {
     <>
       <Hero />
       <SourcesStrip />
+      <PracticeSection />
       <CheckIt />
+      <Browse />
       <HowItWorks />
       <Numbers />
       <WhereWeStand />
