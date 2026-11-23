@@ -4,11 +4,13 @@
 @import './whylikedis-theme.css';
 
 /* Typefaces (loaded by next/font in layout.tsx): Heebo, an Israeli typeface, for text and headings,
-   the way Israeli signs and papers set them; Noto Naskh Arabic for the Arabic line of the wordmark. */
+   the way Israeli signs and papers set them; Noto Naskh Arabic for Arabic. */
 @theme {
   --font-sans: var(--font-heebo), 'Heebo', system-ui, sans-serif;
-  --font-heading: var(--font-heebo), 'Heebo', system-ui, sans-serif;
-  --font-arabic: var(--font-naskh), 'Noto Naskh Arabic', serif;
+  /* Heebo has Latin and Hebrew; the browser takes Arabic glyphs (the wordmark's middle line) from Naskh. */
+  --font-heading:
+    var(--font-heebo), 'Heebo', var(--font-naskh), 'Noto Naskh Arabic',
+    system-ui, sans-serif;
 }
 
 /* No local rules: every part of the page is an Interlace component. */

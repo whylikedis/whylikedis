@@ -78,7 +78,7 @@ export default async function Answer(props: Props) {
       </Section>
 
       <Section overlap="md" spacing="tight">
-        <Grid gap="md">
+        <Grid gap="lg">
           <GridItem span={12} lgSpan={7}>
             <Card>
               <CardHeader>
@@ -107,6 +107,23 @@ export default async function Answer(props: Props) {
           </GridItem>
           <GridItem span={12} lgSpan={5}>
             <Stack gap="md">
+              {argued.length > 0 && (
+                <Callout
+                  tone="highlight"
+                  kicker={
+                    <span lang="he" dir="rtl">
+                      דוגרי
+                    </span>
+                  }
+                  title="Still argued"
+                >
+                  <List marker="bullet" density="compact">
+                    {argued.map((t, i) => (
+                      <List.Item key={i}>{t}</List.Item>
+                    ))}
+                  </List>
+                </Callout>
+              )}
               <Card>
                 <CardHeader>
                   <CardTitle>
@@ -138,23 +155,6 @@ export default async function Answer(props: Props) {
                   </Prose>
                 </CardContent>
               </Card>
-              {argued.length > 0 && (
-                <Callout
-                  tone="highlight"
-                  kicker={
-                    <span lang="he" dir="rtl">
-                      דוגרי
-                    </span>
-                  }
-                  title="Still argued"
-                >
-                  <List marker="bullet" density="compact">
-                    {argued.map((t, i) => (
-                      <List.Item key={i}>{t}</List.Item>
-                    ))}
-                  </List>
-                </Callout>
-              )}
               <Card>
                 <CardHeader>
                   <CardTitle>

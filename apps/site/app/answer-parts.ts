@@ -18,13 +18,10 @@ const sourcesOf = (facts: Fact[]): CitationSourceData[] =>
     })),
   );
 
-// "United Nations, Question of Palestine (exchange of letters ...)" -> "United Nations". A chip does not
-// wrap, so a long name is cut at a word, under 24 characters, so it fits a phone; the popover names it in full.
-const shortName = (publisher: string) => {
-  const name = publisher.split(' (')[0].split(', ')[0];
-  if (name.length <= 24) return name;
-  return `${name.slice(0, 24).replace(/\s+\S*$/, '')}…`;
-};
+// "United Nations, Question of Palestine (exchange of letters ...)" -> "United Nations". The chip itself
+// caps a long name with an ellipsis, and the popover names every source in full.
+const shortName = (publisher: string) =>
+  publisher.split(' (')[0].split(', ')[0];
 
 // A chip names the first publisher and how many more there are; the popover lists them all.
 const chipLabel = (sources: CitationSourceData[]) => {
