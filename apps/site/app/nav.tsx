@@ -20,7 +20,7 @@ export function Nav() {
   const here = usePathname().replace(/\/?$/, '/');
   return (
     <Topbar
-      containerSize="content"
+      containerSize="wide"
       logo={
         <Wordmark label="WhyLikeDIs, home" href="/">
           <Wordmark.Line lang="he" dir="rtl">

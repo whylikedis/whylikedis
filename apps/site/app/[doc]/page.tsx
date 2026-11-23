@@ -21,7 +21,7 @@ const MIN_TOC = 3;
 export default async function Doc({ params }: Props) {
   const d = site.docs[(await params).doc];
   return (
-    <Section spacing="tight">
+    <Section container="wide" spacing="tight">
       <ReadingLayout
         toc={d.toc.length >= MIN_TOC ? d.toc : []}
         tocLabel={`${d.title}: contents`}

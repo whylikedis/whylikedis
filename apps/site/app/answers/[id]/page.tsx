@@ -55,7 +55,7 @@ export default async function Answer(props: Props) {
   );
   return (
     <>
-      <Section tone="brand" spacing="tight">
+      <Section container="wide" tone="brand" spacing="tight">
         <Stack gap="md">
           <Typography variant="ui-sm">
             <Link href="/facts/">Answers</Link> · Chapter {c.era}:{' '}
@@ -86,36 +86,34 @@ export default async function Answer(props: Props) {
         </Stack>
       </Section>
 
-      <Section overlap="md" spacing="tight">
+      <Section container="wide" overlap="md" spacing="tight">
         <Grid gap="lg">
           <GridItem span={12} lgSpan={7}>
-            <Card>
-              <CardHeader>
-                <CardTitle>
-                  <Typography as="h2" variant="h3">
-                    Say it straight
-                  </Typography>
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <List marker="number" density="relaxed">
-                  {lines.map((l, i) => (
-                    <List.Item key={i}>
-                      <Citation
-                        marker="chip"
-                        sources={l.sources}
-                        chipLabel={l.chip}
-                      >
-                        {l.says}
-                      </Citation>
-                    </List.Item>
-                  ))}
-                </List>
-              </CardContent>
-            </Card>
-          </GridItem>
-          <GridItem span={12} lgSpan={5}>
             <Stack gap="md">
+              <Card>
+                <CardHeader>
+                  <CardTitle>
+                    <Typography as="h2" variant="h3">
+                      Say it straight
+                    </Typography>
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <List marker="number" density="relaxed">
+                    {lines.map((l, i) => (
+                      <List.Item key={i}>
+                        <Citation
+                          marker="chip"
+                          sources={l.sources}
+                          chipLabel={l.chip}
+                        >
+                          {l.says}
+                        </Citation>
+                      </List.Item>
+                    ))}
+                  </List>
+                </CardContent>
+              </Card>
               {argued.length > 0 && (
                 <Callout
                   tone="highlight"
@@ -133,6 +131,10 @@ export default async function Answer(props: Props) {
                   </List>
                 </Callout>
               )}
+            </Stack>
+          </GridItem>
+          <GridItem span={12} lgSpan={5}>
+            <Stack gap="md">
               <Card>
                 <CardHeader>
                   <CardTitle>
@@ -185,86 +187,92 @@ export default async function Answer(props: Props) {
         </Grid>
       </Section>
 
-      {dated.length > 0 && (
-        <Section spacing="tight">
-          <Stack gap="md">
-            <Stack gap="xs">
-              <Typography as="h2" variant="h2">
-                The record, in order
-              </Typography>
-              <Typography variant="long" tone="muted">
-                The documents behind the answer, by the year each one names,
-                quoted as the gate checked them.
-              </Typography>
+      <Section container="wide" spacing="tight">
+        <Grid gap="xl">
+          {dated.length > 0 && (
+            <GridItem span={12} lgSpan={5}>
+              <Stack gap="md">
+                <Stack gap="xs">
+                  <Typography as="h2" variant="h2">
+                    The record, in order
+                  </Typography>
+                  <Typography variant="long" tone="muted">
+                    The documents behind the answer, by the year each one names,
+                    quoted as the gate checked them.
+                  </Typography>
+                </Stack>
+                <Timeline orientation="vertical">
+                  {dated.map(({ year, source }, i) => (
+                    <Timeline.Item
+                      key={i}
+                      date={year}
+                      source={
+                        safe(source.url) ? (
+                          <a href={safe(source.url)} rel="noopener noreferrer">
+                            {source.publisher}
+                          </a>
+                        ) : (
+                          source.publisher
+                        )
+                      }
+                    >
+                      “{source.quote}”
+                    </Timeline.Item>
+                  ))}
+                </Timeline>
+              </Stack>
+            </GridItem>
+          )}
+          <GridItem span={12} lgSpan={dated.length > 0 ? 7 : 12} id="facts">
+            <Stack gap="md">
+              <Stack gap="xs">
+                <Typography as="h2" variant="h2">
+                  Every fact, and where it comes from
+                </Typography>
+                <Typography variant="long" tone="muted">
+                  Open a fact to read the exact words each source uses, with a
+                  link to the page.
+                </Typography>
+              </Stack>
+              <Accordion multiple>
+                {c.facts.map((f, i) => (
+                  <AccordionItem value={`fact-${i}`} key={i}>
+                    <AccordionTrigger>
+                      {i + 1}. {f.text}
+                    </AccordionTrigger>
+                    <AccordionContent>
+                      <List marker="bullet" density="default">
+                        {f.sources.map((s, j) => (
+                          <List.Item key={j}>
+                            <Prose width="fill">
+                              <p>
+                                {safe(s.url) ? (
+                                  <a
+                                    href={safe(s.url)}
+                                    rel="noopener noreferrer"
+                                  >
+                                    {s.publisher}
+                                  </a>
+                                ) : (
+                                  s.publisher
+                                )}{' '}
+                                ({s.kind})
+                              </p>
+                              <blockquote>{s.quote}</blockquote>
+                            </Prose>
+                          </List.Item>
+                        ))}
+                      </List>
+                    </AccordionContent>
+                  </AccordionItem>
+                ))}
+              </Accordion>
             </Stack>
-            <Timeline>
-              {dated.map(({ year, source }, i) => (
-                <Timeline.Item
-                  key={i}
-                  date={year}
-                  source={
-                    safe(source.url) ? (
-                      <a href={safe(source.url)} rel="noopener noreferrer">
-                        {source.publisher}
-                      </a>
-                    ) : (
-                      source.publisher
-                    )
-                  }
-                >
-                  “{source.quote}”
-                </Timeline.Item>
-              ))}
-            </Timeline>
-          </Stack>
-        </Section>
-      )}
-
-      <Section spacing="tight" id="facts">
-        <Stack gap="md">
-          <Stack gap="xs">
-            <Typography as="h2" variant="h2">
-              Every fact, and where it comes from
-            </Typography>
-            <Typography variant="long" tone="muted">
-              Open a fact to read the exact words each source uses, with a link
-              to the page.
-            </Typography>
-          </Stack>
-          <Accordion multiple>
-            {c.facts.map((f, i) => (
-              <AccordionItem value={`fact-${i}`} key={i}>
-                <AccordionTrigger>
-                  {i + 1}. {f.text}
-                </AccordionTrigger>
-                <AccordionContent>
-                  <List marker="bullet" density="default">
-                    {f.sources.map((s, j) => (
-                      <List.Item key={j}>
-                        <Prose width="fill">
-                          <p>
-                            {safe(s.url) ? (
-                              <a href={safe(s.url)} rel="noopener noreferrer">
-                                {s.publisher}
-                              </a>
-                            ) : (
-                              s.publisher
-                            )}{' '}
-                            ({s.kind})
-                          </p>
-                          <blockquote>{s.quote}</blockquote>
-                        </Prose>
-                      </List.Item>
-                    ))}
-                  </List>
-                </AccordionContent>
-              </AccordionItem>
-            ))}
-          </Accordion>
-        </Stack>
+          </GridItem>
+        </Grid>
       </Section>
 
-      <Section spacing="tight" divider="top">
+      <Section container="wide" spacing="tight" divider="top">
         <Stack gap="sm">
           <Typography as="h2" variant="h3">
             They might ask next

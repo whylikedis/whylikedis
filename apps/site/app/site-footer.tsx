@@ -24,7 +24,7 @@ const GROUPS = [
 export function SiteFooter() {
   return (
     <Footer
-      containerSize="content"
+      containerSize="wide"
       // The name looks like a heading but is not one: a heading here sat an h5 under
       // the page's h2s and broke the outline on every page (axe heading-order).
       brand={
