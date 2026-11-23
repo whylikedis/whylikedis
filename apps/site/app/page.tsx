@@ -14,6 +14,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { CountUp } from '@/components/ui/effects/count-up';
 import { GridField } from '@/components/ui/effects/grid-field';
 import { Reveal } from '@/components/ui/effects/reveal';
+import { SplitText } from '@/components/ui/effects/split-text';
 import { Container } from '@/components/ui/container';
 import { Grid, GridItem } from '@/components/ui/grid';
 import { Dialogue } from '@/components/ui/patterns/dialogue';
@@ -179,7 +180,9 @@ function Hero() {
                 </Badge>
               </Cluster>
               <Typography as="h1" variant="h1">
-                Clear answers about Israel, each with sources you can check.
+                <SplitText>
+                  Clear answers about Israel, each with sources you can check.
+                </SplitText>
               </Typography>
               <Typography variant="long">
                 When your child comes home with a claim about Israel, find an
