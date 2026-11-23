@@ -1,11 +1,11 @@
-import { clsx, type ClassValue } from 'clsx';
+import { clsx, type ClassValue } from "clsx";
 
 // @interlace/cn v2.0.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/cn
 // What changed since: https://ds.interlace.tools/c/cn#history
 // Generated banner — keep it, the upgrade diff reads this version.
 
-import { extendTailwindMerge } from 'tailwind-merge';
+import { extendTailwindMerge } from "tailwind-merge";
 
 /**
  * The DS type scale, as declared in `styles/structure/type.css`.
@@ -30,18 +30,20 @@ import { extendTailwindMerge } from 'tailwind-merge';
  * mode, so `__tests__/cn-type-scale-lock.test.ts` asserts the two agree.
  */
 export const DS_FONT_SIZES = [
-  'h1',
-  'h2',
-  'h3',
-  'h4',
-  'h5',
-  'h6',
-  'body',
-  'long',
-  'ui',
-  'ui-sm',
-  'caption',
-  'code',
+  "display",
+  "section",
+  "h1",
+  "h2",
+  "h3",
+  "h4",
+  "h5",
+  "h6",
+  "body",
+  "long",
+  "ui",
+  "ui-sm",
+  "caption",
+  "code",
 ] as const;
 
 const twMerge = extendTailwindMerge({
@@ -51,7 +53,7 @@ const twMerge = extendTailwindMerge({
       // mutually exclusive with each other (`text-ui text-body` → `text-body`,
       // correct) and orthogonal to colour (`text-ui text-foreground` keeps
       // both, which is the bug this fixes).
-      'font-size': DS_FONT_SIZES.map((size) => `text-${size}`),
+      "font-size": DS_FONT_SIZES.map((size) => `text-${size}`),
     },
   },
 });
