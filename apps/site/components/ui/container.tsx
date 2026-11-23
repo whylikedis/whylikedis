@@ -1,4 +1,4 @@
-import * as React from 'react';
+import * as React from "react";
 
 // @interlace/container v3.0.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/container
@@ -9,7 +9,7 @@ import * as React from 'react';
  * @interlace/ui — Container
  *
  * The width contract from LAYOUT_PHILOSOPHY.md §2: four sizes only, each
- * mapped to one fixed max-width, plus the responsive horizontal padding scale
+ * mapped to one layout token, plus the responsive horizontal padding scale
  * `px-4 xs:px-6 lg:px-8` (§5).
  *
  * It is what every page section is measured by — the ad-hoc widths that would
@@ -17,12 +17,15 @@ import * as React from 'react';
  *
  * ## The four sizes
  *
- *   | size      | max-width | Use                                  |
- *   | --------- | --------- | ------------------------------------ |
- *   | `prose`   | 65ch      | Long-form text (rule docs, articles) |
- *   | `content` | 1024px    | Default for landing sections         |
- *   | `wide`    | 1280px    | Card-grid heavy sections             |
- *   | `full`    | none      | Full-bleed hero, decorative bands    |
+ *   | size      | max-width                          | Use                                  |
+ *   | --------- | ---------------------------------- | ------------------------------------ |
+ *   | `prose`   | `--container-prose` (65ch)         | Long-form text (rule docs, articles) |
+ *   | `content` | `--container-content` (64rem)      | Default for landing sections         |
+ *   | `wide`    | `--container-wide` (80rem)         | Card-grid heavy sections             |
+ *   | `full`    | none                               | Full-bleed hero, decorative bands    |
+ *
+ * The widths are the same tokens `Topbar` and `Footer` read, so a consumer
+ * that retunes `--container-wide` moves every edge on the page together.
  *
  * `full` also zeroes the padding at every breakpoint, so a full-bleed band is
  * genuinely edge-to-edge rather than a wide box with gutters.
@@ -37,8 +40,8 @@ import * as React from 'react';
  *   - Named Tailwind widths are BROKEN in this codebase: `structure/type.css`
  *     defines `--spacing-xs…2xl`, and Tailwind v4 resolves a named max-width
  *     against the spacing namespace first — so the one that should be 42rem
- *     renders 96 pixels instead. That is why the sizes here are literal
- *     values, and why `spacing-token-shadowing-lock` fails any source line
+ *     renders 96 pixels instead. That is why the sizes here name the
+ *     `--container-*` variables explicitly, and why `spacing-token-shadowing-lock` fails any source line
  *     that names one (including this comment, which is why it does not).
  *   - No `'use client'`, and that is the point rather than an oversight. A
  *     doc pass flagged it against `badge.tsx`, which calls the same
@@ -61,26 +64,26 @@ import * as React from 'react';
  * | R18  | Tailwind only                    | widths are utilities; zero inline `style`                   |
  */
 
-import { useRender } from '@base-ui/react/use-render';
-import { cva, type VariantProps } from 'class-variance-authority';
+import { useRender } from "@base-ui/react/use-render";
+import { cva, type VariantProps } from "class-variance-authority";
 
-import { cn } from '@/lib/utils';
+import { cn } from "@/lib/utils";
 
-const containerVariants = cva('mx-auto w-full px-4 xs:px-6 lg:px-8', {
+const containerVariants = cva("mx-auto w-full px-4 xs:px-6 lg:px-8", {
   variants: {
     size: {
-      prose: 'max-w-[65ch]',
-      content: 'max-w-[1024px]',
-      wide: 'max-w-[1280px]',
-      full: 'max-w-none px-0 xs:px-0 lg:px-0',
+      prose: "max-w-(--container-prose)",
+      content: "max-w-(--container-content)",
+      wide: "max-w-(--container-wide)",
+      full: "max-w-none px-0 xs:px-0 lg:px-0",
     },
   },
   defaultVariants: {
-    size: 'content',
+    size: "content",
   },
 });
 
-type ContainerProps = React.ComponentProps<'div'> &
+type ContainerProps = React.ComponentProps<"div"> &
   VariantProps<typeof containerVariants> & {
     render?: useRender.RenderProp;
   };
@@ -89,8 +92,8 @@ function Container({ className, size, render, ...props }: ContainerProps) {
   const element = useRender({
     render: render ?? <div />,
     props: {
-      'data-slot': 'container',
-      'data-size': size ?? undefined,
+      "data-slot": "container",
+      "data-size": size ?? undefined,
       className: cn(containerVariants({ size }), className),
       ...props,
     },
