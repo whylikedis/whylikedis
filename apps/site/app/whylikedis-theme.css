@@ -18,6 +18,8 @@
  *   warning on background       7.76   10.53
  *   input on background         3.71    4.54   (control boundary, floor 3:1)
  *   border on background        1.33    1.50   (decorative only)
+ *
+ * More contrast (AAA) is at the end of this file.
  */
 
 :root {
@@ -32,7 +34,8 @@
   --card-foreground: #1c1b18;
   --popover: #fffdf9;
   --popover-foreground: #1c1b18;
-  --primary: #0038b8; /* flag blue: links, headings accents, the brand */
+  --wld-primary: #0038b8; /* flag blue: links, headings accents, the brand */
+  --primary: var(--wld-primary);
   --primary-foreground: #ffffff;
   --secondary: #e4eaf8; /* blue tint for quiet buttons and bands */
   --secondary-foreground: #1c1b18;
@@ -42,13 +45,17 @@
   --accent-foreground: #1c1b18;
   --highlight: #1c1b18; /* ink: the ONE main action per screen, the editorial way */
   --highlight-foreground: #f7f4ee;
-  --destructive: #9f1d1d;
+  --wld-destructive: #9f1d1d;
+  --destructive: var(--wld-destructive);
   --destructive-foreground: #ffffff;
-  --success: #166534; /* "checked by a second reader" */
+  --wld-success: #166534;
+  --success: var(--wld-success); /* "checked by a second reader" */
   --success-foreground: #ffffff;
-  --warning: #7c3a0a; /* "still being checked" */
+  --wld-warning: #7c3a0a;
+  --warning: var(--wld-warning); /* "still being checked" */
   --warning-foreground: #ffffff;
-  --info: #155e75; /* cyan, kept apart from the blue primary */
+  --wld-info: #155e75;
+  --info: var(--wld-info); /* cyan, kept apart from the blue primary */
   --info-foreground: #ffffff;
   --border: #dcd5c7;
   --input: #857d6e;
@@ -68,7 +75,8 @@
     --card-foreground: #f1ede4;
     --popover: #22201b;
     --popover-foreground: #f1ede4;
-    --primary: #9db7ff;
+    --wld-primary: #9db7ff;
+    --primary: var(--wld-primary);
     --primary-foreground: #191814;
     --secondary: #232a40;
     --secondary-foreground: #f1ede4;
@@ -78,13 +86,17 @@
     --accent-foreground: #f1ede4;
     --highlight: #f1ede4;
     --highlight-foreground: #191814;
-    --destructive: #fca5a5;
+    --wld-destructive: #fca5a5;
+    --destructive: var(--wld-destructive);
     --destructive-foreground: #191814;
-    --success: #86efac;
+    --wld-success: #86efac;
+    --success: var(--wld-success);
     --success-foreground: #191814;
-    --warning: #fdba74;
+    --wld-warning: #fdba74;
+    --warning: var(--wld-warning);
     --warning-foreground: #191814;
-    --info: #67e8f9;
+    --wld-info: #67e8f9;
+    --info: var(--wld-info);
     --info-foreground: #191814;
     --border: #3a372f;
     --input: #878072;
@@ -95,5 +107,67 @@
     --chart-4: #fca5a5;
     --chart-5: #9ca3af;
     color-scheme: dark;
+  }
+}
+
+/*
+ * More contrast: the AAA reading mode. Interlace defines it in its own layer, but this theme is
+ * unlayered and would win, so the site states it here. It turns on with the system setting
+ * (prefers-contrast: more) unless the page sets data-contrast="normal", or with
+ * data-contrast="more" on <html> or any region. Flag blue stays the primary, moved 20% toward
+ * the ink so it clears 7:1 on every surface, the tinted citation chips included. Measured:
+ *
+ *                                  light   dark
+ *   foreground on 6% tint          13.96   13.14
+ *   primary on background / tint    9.98 / 8.87   10.06 / 8.70
+ *   primary-fg on primary          10.95   10.06
+ *   status (70% toward ink), worst  7.76    9.38   (on background, card and tint)
+ *   border and input                3.75    5.36
+ */
+[data-contrast='more'] {
+  --card-foreground: var(--foreground);
+  --popover-foreground: var(--foreground);
+  --muted: color-mix(in srgb, var(--foreground) 6%, var(--background));
+  --muted-foreground: var(--foreground);
+  --accent: color-mix(in srgb, var(--foreground) 6%, var(--background));
+  --accent-foreground: var(--foreground);
+  --secondary: color-mix(in srgb, var(--foreground) 6%, var(--background));
+  --secondary-foreground: var(--foreground);
+  --border: color-mix(in srgb, var(--foreground) 55%, var(--background));
+  --input: color-mix(in srgb, var(--foreground) 55%, var(--background));
+  --ring: var(--foreground);
+  --primary: color-mix(in srgb, var(--wld-primary) 80%, var(--foreground));
+  --destructive: color-mix(
+    in srgb,
+    var(--wld-destructive) 70%,
+    var(--foreground)
+  );
+  --success: color-mix(in srgb, var(--wld-success) 70%, var(--foreground));
+  --warning: color-mix(in srgb, var(--wld-warning) 70%, var(--foreground));
+  --info: color-mix(in srgb, var(--wld-info) 70%, var(--foreground));
+}
+
+@media (prefers-contrast: more) {
+  :root:not([data-contrast='normal']) {
+    --card-foreground: var(--foreground);
+    --popover-foreground: var(--foreground);
+    --muted: color-mix(in srgb, var(--foreground) 6%, var(--background));
+    --muted-foreground: var(--foreground);
+    --accent: color-mix(in srgb, var(--foreground) 6%, var(--background));
+    --accent-foreground: var(--foreground);
+    --secondary: color-mix(in srgb, var(--foreground) 6%, var(--background));
+    --secondary-foreground: var(--foreground);
+    --border: color-mix(in srgb, var(--foreground) 55%, var(--background));
+    --input: color-mix(in srgb, var(--foreground) 55%, var(--background));
+    --ring: var(--foreground);
+    --primary: color-mix(in srgb, var(--wld-primary) 80%, var(--foreground));
+    --destructive: color-mix(
+      in srgb,
+      var(--wld-destructive) 70%,
+      var(--foreground)
+    );
+    --success: color-mix(in srgb, var(--wld-success) 70%, var(--foreground));
+    --warning: color-mix(in srgb, var(--wld-warning) 70%, var(--foreground));
+    --info: color-mix(in srgb, var(--wld-info) 70%, var(--foreground));
   }
 }
