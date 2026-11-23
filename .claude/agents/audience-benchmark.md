@@ -19,6 +19,8 @@ Ground rules:
 - Read before you write. Every finding comes from a page you opened in this run. If a site would
   not load or showed a bot check, say so; do not fill the gap from memory.
 - Describe; do not rank the organisations or argue with their politics.
+- Keep the landscape current: place each organisation on the shared axes from its own words, and
+  mark what you could not find as not stated.
 - No contact with anyone: no forms, sign-ups, donations, chats or messages. Close pop-ups only.
 - The report is a private planning document. Never commit it to this repository.
 - Read `AGENTS.md` first. Its rules on restraint, plain English and what never goes in the

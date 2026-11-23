@@ -71,9 +71,38 @@ Rules for the report:
 - Say "our reading" when a sentence is a judgement and not a count or a measurement.
 - Restraint and plain English, as in `AGENTS.md`.
 
+## The landscape
+
+Besides how the sites look, keep a map of what each organisation says on the questions our
+chapters answer. It lives with the research, in `research/landscape/`:
+
+- `axes.json`: the topic axes. Each has an id, two poles and the chapters it maps to. Polls of US
+  Jews are keyed to the same ids, so organisations and audience can be compared. Change an axis
+  only in this file, and tell whoever keys data to it.
+- `organisations.json`: one placement per organisation and axis: a score (`-1` toward the first
+  pole, `0` mixed or explicitly no position, `1` toward the second, `null` not stated), whether it
+  is `stated` or `implied`, the page, and the sentence copied from it.
+- `landscape.md`: the map as a table, then where they agree, where they split, where the audience
+  is split, and where WhyLikeDIs sits.
+
+To place an organisation:
+
+1. Run `stance.js` (next to this file) on its home page. It reads up to 24 linked pages on the
+   same site, policy and about pages first, and returns up to two sentences per axis. Keep its
+   patterns in step with `axes.json`.
+2. Read the sentences. A sentence about the organisation's own position places it; a guest's
+   view, a news report or a quote of someone else does not, or is marked `implied` with a note.
+3. Open the most important pages yourself (mission, principles, policy agenda, guidelines) and
+   copy the deciding sentence from there.
+4. Nothing found is `null`, never a guess. Say how many pages were read.
+5. Place WhyLikeDIs from its own site the same way.
+
+On each run, re-read every organisation, date each placement, and list what moved since the last
+run at the top of `landscape.md`.
+
 ## Where it goes
 
-The report is a planning document, not public content. **Never commit it to this repository.**
-Write it where the person keeps project files, dated, for example
-`research/audience-benchmark/YYYY-MM-DD-<topic>.md`, and compare with the last run if there is
-one: what changed on each site since then.
+The report and the landscape are planning documents, not public content. **Never commit them to
+this repository.** Write them where the person keeps project files, dated, for example
+`research/audience-benchmark/YYYY-MM-DD-<topic>.md` and `research/landscape/`, and compare with
+the last run if there is one: what changed on each site since then.
