@@ -53,8 +53,11 @@ export const viewport: Viewport = { themeColor: '#f7f4ee' };
 
 export default function Layout({ children }: { children: ReactNode }) {
   return (
+    // Comfortable density: every control (buttons, inputs, menus) is a 44px touch target, for
+    // readers from 35 to 85.
     <html
       lang="en"
+      data-density="comfortable"
       className={`${body.variable} ${serif.variable} ${arabic.variable}`}
     >
       <body className="bg-background text-foreground font-body">
