@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 
-// @interlace/dialogue-stepper v1.0.0 — Interlace design system.
+// @interlace/dialogue-stepper v1.0.1 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/dialogue-stepper
 // What changed since: https://ds.interlace.tools/c/dialogue-stepper#history
 // Generated banner — keep it, the upgrade diff reads this version.
@@ -212,7 +212,7 @@ function DialogueStepper({
   const ctx = React.useMemo<Ctx>(() => ({ mode, path, speakers, choose }), [mode, path, speakers, choose]);
 
   const control =
-    'text-muted-foreground hover:text-foreground focus-visible:ring-ring/50 inline-flex min-h-9 items-center rounded-full px-3 text-sm font-medium underline-offset-4 transition-[color,box-shadow] duration-(--duration-fast) outline-none hover:underline focus-visible:ring-[3px] disabled:pointer-events-none disabled:opacity-50';
+    'text-muted-foreground hover:text-foreground focus-visible:ring-ring/50 inline-flex min-h-control items-center rounded-full px-3 text-sm font-medium underline-offset-4 transition-[color,box-shadow] duration-(--duration-fast) outline-none hover:underline focus-visible:ring-[3px] disabled:pointer-events-none disabled:opacity-50';
 
   return (
     <StepperContext.Provider value={ctx}>
@@ -335,7 +335,7 @@ type DialogueChoiceProps = Omit<React.ComponentProps<'button'>, 'type'> & {
 };
 
 const CHOICE =
-  'border-primary text-primary hover:bg-primary/10 focus-visible:ring-ring/50 inline-flex min-h-9 items-center rounded-full border-2 px-4 py-1.5 text-sm font-semibold transition-[background-color,box-shadow,scale] duration-(--duration-fast) ease-enter outline-none focus-visible:ring-[3px] motion-safe:active:scale-[0.97]';
+  'border-primary text-primary hover:bg-primary/10 focus-visible:ring-ring/50 inline-flex min-h-control items-center rounded-full border-2 px-4 py-1.5 text-sm font-semibold transition-[background-color,box-shadow,scale] duration-(--duration-fast) ease-enter outline-none focus-visible:ring-[3px] motion-safe:active:scale-[0.97]';
 
 function DialogueChoice({ next, className, onClick, ...props }: DialogueChoiceProps) {
   const { choose } = useStepper('DialogueChoice');

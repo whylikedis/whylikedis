@@ -107,7 +107,7 @@ export const SKELETON_VARIANT_CLASSES: Record<SkeletonVariant, string> = {
   // the cap its 224px cannot shrink (flex items floor at min-content), so the
   // placeholder overflows any slot narrower than itself — e.g. a 375px phone.
   menu: 'h-40 w-56 max-w-full rounded-lg border',
-  pagination: 'h-9 w-full rounded-lg',
+  pagination: 'h-control w-full rounded-lg',
   prose: 'h-4 w-full rounded-sm',
   tabs: 'h-32 w-full rounded-xl',
   tag: 'h-5 w-12 rounded-full',
@@ -116,13 +116,13 @@ export const SKELETON_VARIANT_CLASSES: Record<SkeletonVariant, string> = {
   // Form family — silhouettes match the resting control geometry exactly.
   //   checkbox / radio dot   size-4   (16px, per checkbox.tsx / radio-group.tsx)
   //   switch track           h-5 w-8  (the 1.15rem track rounds to h-5 here)
-  //   select trigger / input h-9      (36px control height)
+  //   select trigger / input h-control (36px, 44px when comfortable)
   //   slider rail            h-2      (per slider.tsx SliderTrack)
   //   textarea md            min-h-24 (per textarea.tsx size=md)
   checkbox: 'size-4 rounded-sm',
   label: 'h-4 w-24 rounded-sm',
-  'number-field': 'h-9 w-32 rounded-lg',
-  select: 'h-9 w-full rounded-lg',
+  'number-field': 'h-control w-32 rounded-lg',
+  select: 'h-control w-full rounded-lg',
   slider: 'h-2 w-full rounded-full',
   switch: 'h-5 w-8 rounded-full',
   textarea: 'min-h-24 w-full rounded-lg',
@@ -178,8 +178,3 @@ export const SKELETON_VARIANT_CLASSES: Record<SkeletonVariant, string> = {
  * the codebase resolves to a value in this array. Typos and renames fail
  * the PR at CI time, complementing the dev-time TypeScript check.
  */
-
-// @interlace/skeleton-variants v2.0.0 — Interlace design system.
-// Docs, props and live preview: https://ds.interlace.tools/c/skeleton-variants
-// What changed since: https://ds.interlace.tools/c/skeleton-variants#history
-// Generated banner — keep it, the upgrade diff reads this version.

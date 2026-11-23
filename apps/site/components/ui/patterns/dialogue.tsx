@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-// @interlace/dialogue v1.0.0 — Interlace design system.
+// @interlace/dialogue v1.1.1 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/dialogue
 // What changed since: https://ds.interlace.tools/c/dialogue#history
 // Generated banner — keep it, the upgrade diff reads this version.
@@ -168,7 +168,7 @@ function DialogueSuggestions({ className, ...props }: React.ComponentProps<'div'
 }
 
 const SUGGESTION =
-  'border-primary text-primary hover:bg-primary/10 focus-visible:ring-ring/50 inline-flex min-h-9 items-center rounded-full border-2 px-4 py-1.5 text-sm font-semibold transition-colors outline-none focus-visible:ring-[3px]';
+  'border-primary text-primary hover:bg-primary/10 focus-visible:ring-ring/50 inline-flex min-h-control items-center rounded-full border-2 px-4 py-1.5 text-sm font-semibold transition-colors outline-none focus-visible:ring-[3px]';
 
 type DialogueSuggestionProps = React.ComponentProps<'a'> & {
   /**
