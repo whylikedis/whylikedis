@@ -137,7 +137,11 @@
   --input: color-mix(in srgb, var(--foreground) 55%, var(--background));
   --ring: var(--foreground);
   --primary: color-mix(in srgb, var(--wld-primary) 80%, var(--foreground));
-  --destructive: color-mix(in srgb, var(--wld-destructive) 70%, var(--foreground));
+  --destructive: color-mix(
+    in srgb,
+    var(--wld-destructive) 70%,
+    var(--foreground)
+  );
   --success: color-mix(in srgb, var(--wld-success) 70%, var(--foreground));
   --warning: color-mix(in srgb, var(--wld-warning) 70%, var(--foreground));
   --info: color-mix(in srgb, var(--wld-info) 70%, var(--foreground));
@@ -157,8 +161,11 @@
     --input: color-mix(in srgb, var(--foreground) 55%, var(--background));
     --ring: var(--foreground);
     --primary: color-mix(in srgb, var(--wld-primary) 80%, var(--foreground));
-  --primary: color-mix(in srgb, var(--wld-primary) 80%, var(--foreground));
-    --destructive: color-mix(in srgb, var(--wld-destructive) 70%, var(--foreground));
+    --destructive: color-mix(
+      in srgb,
+      var(--wld-destructive) 70%,
+      var(--foreground)
+    );
     --success: color-mix(in srgb, var(--wld-success) 70%, var(--foreground));
     --warning: color-mix(in srgb, var(--wld-warning) 70%, var(--foreground));
     --info: color-mix(in srgb, var(--wld-info) 70%, var(--foreground));
