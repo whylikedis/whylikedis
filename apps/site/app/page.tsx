@@ -1,3 +1,4 @@
+import { Ear, MessageCircle, MessagesSquare } from 'lucide-react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ViewTransition } from 'react';
@@ -16,6 +17,7 @@ import { GridField } from '@/components/ui/effects/grid-field';
 import { Reveal } from '@/components/ui/effects/reveal';
 import { SplitText } from '@/components/ui/effects/split-text';
 import { Container } from '@/components/ui/container';
+import { FeaturedIcon } from '@/components/ui/featured-icon';
 import { Grid, GridItem } from '@/components/ui/grid';
 import { SectionHeader } from '@/components/ui/patterns/section-header';
 import { Dialogue } from '@/components/ui/patterns/dialogue';
@@ -43,16 +45,19 @@ const FEATURED = 'era7-slogan-history-and-meanings';
 
 const STEPS = [
   [
+    Ear,
     'Heard',
     'Start from their exact words',
     'Pick the sentence your child came home with.',
   ],
   [
+    MessageCircle,
     'Say',
     'A short answer, out loud',
     'Plain words a parent can say at dinner, each tied to its source.',
   ],
   [
+    MessagesSquare,
     'Next',
     'Be ready for the follow-up',
     'The other side in its own words, and what is still argued.',
@@ -294,15 +299,15 @@ function HowItWorks() {
         />
       </Reveal>
       <Grid gap="lg">
-        {STEPS.map(([kicker, title, body], i) => (
+        {STEPS.map(([Icon, kicker, title, body], i) => (
           <GridItem span={12} mdSpan={4} key={kicker}>
             <Reveal delay={i * 120}>
-              <Stack gap="xs">
-                <Typography variant="h1" tone="primary" as="p">
-                  {i + 1}
-                </Typography>
+              <Stack gap="sm">
+                <FeaturedIcon size="lg">
+                  <Icon />
+                </FeaturedIcon>
                 <Typography variant="ui-sm" tone="primary">
-                  {kicker}
+                  {i + 1} · {kicker}
                 </Typography>
                 <Typography as="h3" variant="h3">
                   {title}
