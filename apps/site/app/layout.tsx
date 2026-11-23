@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import { Heebo, Noto_Naskh_Arabic } from 'next/font/google';
-import type { ReactNode } from 'react';
+import { type ReactNode, ViewTransition } from 'react';
 import { PREVIEW } from './data';
 import { Banner } from '@/components/ui/patterns/banner';
 import { SkipLink } from '@/components/ui/skip-link';
@@ -56,8 +56,11 @@ export default function Layout({ children }: { children: ReactNode }) {
             : 'This site is still being written. Answers still being checked are not ready to teach from yet.'}
         </Banner>
         <Nav />
-        {/* Each page sets its own sections, so a page can open with a full-width brand band. */}
-        <main id="main">{children}</main>
+        {/* Each page sets its own sections, so a page can open with a full-width brand band. Moving
+            between pages crossfades, and a claim morphs into the heading of its answer page. */}
+        <main id="main">
+          <ViewTransition>{children}</ViewTransition>
+        </main>
         <SiteFooter />
       </body>
     </html>

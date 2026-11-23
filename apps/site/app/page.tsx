@@ -11,7 +11,14 @@ import { Prose } from '@/components/ui/prose';
 import { Section } from '@/components/ui/section';
 import { Cluster, Stack } from '@/components/ui/stack';
 import { Typography } from '@/components/ui/typography';
-import { answerLines, contestedText, shownCards } from './answer-parts';
+import { ViewTransition } from 'react';
+import {
+  answerLines,
+  contestedText,
+  searchItems,
+  shownCards,
+} from './answer-parts';
+import { HeardSearch } from './heard-search';
 import { counts, site } from './data';
 
 // One address per page, so a shared link with tracking or a missing slash still counts as this page.
@@ -90,9 +97,11 @@ function Talk() {
               <Link href={`/answers/${c.id}/`}>The whole answer</Link>
             </Dialogue.Suggestion>
             {others.map((x) => (
-              <Dialogue.Suggestion asChild key={x.id}>
-                <Link href={`/answers/${x.id}/`}>{x.claim}</Link>
-              </Dialogue.Suggestion>
+              <ViewTransition name={`claim-${x.id}`} key={x.id}>
+                <Dialogue.Suggestion asChild>
+                  <Link href={`/answers/${x.id}/`}>{x.claim}</Link>
+                </Dialogue.Suggestion>
+              </ViewTransition>
             ))}
           </Dialogue.Suggestions>
         </Stack>
@@ -160,6 +169,12 @@ export default function Home() {
 
       <Section spacing="tight" divider="bottom">
         <Stack gap="lg">
+          <Stack gap="sm">
+            <Typography as="h2" variant="h3">
+              What did they hear?
+            </Typography>
+            <HeardSearch items={searchItems()} />
+          </Stack>
           <Grid gap="lg">
             {STEPS.map(([kicker, title, body], i) => (
               <GridItem span={12} mdSpan={4} key={kicker}>
