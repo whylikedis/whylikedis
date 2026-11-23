@@ -2,12 +2,6 @@ import { Ear, MessageCircle, MessagesSquare } from 'lucide-react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ViewTransition } from 'react';
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from '@/components/ui/accordion';
 import { Badge } from '@/components/ui/badge';
 import { buttonVariants } from '@/components/ui/button-variants';
 import { Callout } from '@/components/ui/callout';
@@ -21,6 +15,7 @@ import { FeaturedIcon } from '@/components/ui/featured-icon';
 import { Grid, GridItem } from '@/components/ui/grid';
 import { SectionHeader } from '@/components/ui/patterns/section-header';
 import { Dialogue } from '@/components/ui/patterns/dialogue';
+import { FlipCard } from '@/components/ui/patterns/flip-card';
 import { StatGroup } from '@/components/ui/patterns/stat-group';
 import { Prose } from '@/components/ui/prose';
 import { Section } from '@/components/ui/section';
@@ -226,63 +221,54 @@ function CheckIt() {
           eyebrowStyle="pill"
           eyebrow="Heard it? Check it."
           title="What they heard, and what the record shows"
-          tagline="Each claim in the words of someone who makes it. Open it to see the first lines of our answer, with the source for each."
+          tagline="Each claim in the words of someone who makes it. Turn a card over to see the first lines of our answer, with the source for each."
         />
       </Reveal>
-      <Grid gap="lg">
-        {cards.map((c, i) => {
-          const h = c.heard[0];
-          return (
+      <Reveal>
+        <Grid gap="lg">
+          {cards.map((c) => (
             <GridItem span={12} lgSpan={4} key={c.id}>
-              <Reveal delay={i * 90}>
-                <Card>
-                  <CardHeader>
+              <FlipCard
+                revealLabel="What the record shows"
+                returnLabel="Back to what they heard"
+                front={
+                  <Stack gap="sm">
                     <Typography variant="ui-sm" tone="muted">
                       They heard
                     </Typography>
-                    <CardTitle>
-                      <Typography as="h3" variant="h4">
-                        {c.claim}
+                    <Typography as="h3" variant="h4">
+                      {c.claim}
+                    </Typography>
+                    {c.heard[0] && (
+                      <Typography variant="ui" tone="muted">
+                        {c.heard[0].who}
                       </Typography>
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <Stack gap="md">
-                      {h && (
-                        <Typography variant="ui" tone="muted">
-                          {h.who}
-                        </Typography>
-                      )}
-                      <Accordion>
-                        <AccordionItem value="record">
-                          <AccordionTrigger>
-                            What the record shows
-                          </AccordionTrigger>
-                          <AccordionContent>
-                            <Stack gap="sm">
-                              <Typography variant="body">
-                                <Said lines={answerLines(c).slice(0, 2)} />
-                              </Typography>
-                              <Link
-                                href={`/answers/${c.id}/`}
-                                className={buttonVariants({
-                                  variant: 'link',
-                                })}
-                              >
-                                The whole answer
-                              </Link>
-                            </Stack>
-                          </AccordionContent>
-                        </AccordionItem>
-                      </Accordion>
-                    </Stack>
-                  </CardContent>
-                </Card>
-              </Reveal>
+                    )}
+                  </Stack>
+                }
+                back={
+                  <Stack gap="sm">
+                    <Typography variant="ui-sm" tone="primary">
+                      What the record shows
+                    </Typography>
+                    <Typography variant="body">
+                      <Said lines={answerLines(c).slice(0, 2)} />
+                    </Typography>
+                    <Cluster>
+                      <Link
+                        href={`/answers/${c.id}/`}
+                        className={buttonVariants({ variant: 'link' })}
+                      >
+                        The whole answer
+                      </Link>
+                    </Cluster>
+                  </Stack>
+                }
+              />
             </GridItem>
-          );
-        })}
-      </Grid>
+          ))}
+        </Grid>
+      </Reveal>
     </Section>
   );
 }
