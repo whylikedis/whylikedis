@@ -4,7 +4,6 @@ import { buttonVariants } from '@/components/ui/button-variants';
 import { Callout } from '@/components/ui/callout';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Grid, GridItem } from '@/components/ui/grid';
-import { Citation } from '@/components/ui/patterns/citation';
 import { Dialogue } from '@/components/ui/patterns/dialogue';
 import { StatGroup } from '@/components/ui/patterns/stat-group';
 import { Prose } from '@/components/ui/prose';
@@ -19,6 +18,7 @@ import {
   shownCards,
 } from './answer-parts';
 import { HeardSearch } from './heard-search';
+import { PracticeTalk } from './practice-talk';
 import { counts, site } from './data';
 
 // One address per page, so a shared link with tracking or a missing slash still counts as this page.
@@ -50,7 +50,9 @@ function Talk() {
   const cards = shownCards();
   const c = cards.find((x) => x.id === FEATURED) ?? cards[0];
   if (!c) return null;
-  const lines = answerLines(c).slice(0, 2);
+  const all = answerLines(c);
+  const first = all.slice(0, 2);
+  const more = all.slice(2, 4);
   const argued = contestedText(c)[0];
   const others = cards.filter((x) => x.claim !== c.claim).slice(0, 2);
   return (
@@ -64,34 +66,12 @@ function Talk() {
       </CardHeader>
       <CardContent>
         <Stack gap="md">
-          <Dialogue speakers="inside" aria-label="An example conversation">
-            <Dialogue.Turn speaker="Your kid" tone="muted">
-              Someone at school said this: {c.claim}
-            </Dialogue.Turn>
-            <Dialogue.Turn speaker="You" side="end" tone="inverse">
-              {lines.map((l, i) => (
-                <span key={i}>
-                  <Citation
-                    marker="chip"
-                    sources={l.sources}
-                    chipLabel={l.chip}
-                  >
-                    {l.says}
-                  </Citation>{' '}
-                </span>
-              ))}
-            </Dialogue.Turn>
-            {argued && (
-              <>
-                <Dialogue.Turn speaker="Your kid" tone="muted">
-                  So who is right?
-                </Dialogue.Turn>
-                <Dialogue.Turn speaker="You" side="end" tone="inverse">
-                  That part is still argued. {argued}
-                </Dialogue.Turn>
-              </>
-            )}
-          </Dialogue>
+          <PracticeTalk
+            claim={c.claim}
+            first={first}
+            more={more}
+            argued={argued}
+          />
           <Dialogue.Suggestions>
             <Dialogue.Suggestion asChild>
               <Link href={`/answers/${c.id}/`}>The whole answer</Link>
