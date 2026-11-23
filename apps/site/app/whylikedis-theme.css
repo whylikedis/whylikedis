@@ -1,0 +1,109 @@
+/*
+ * The WhyLikeDIs theme on Interlace. It sets only Interlace's brand tokens (--interlace-*), in
+ * Interlace's brand layer, so every registry item picks it up with no code change.
+ *
+ * Palette: flag blue first, warm stone neutrals, light pages by default, a dark scheme that
+ * follows the reader's system setting. Every text pair meets WCAG AA (most AAA): the measured
+ * ratios are below.
+ *
+ *                              light   dark
+ *   foreground on background   17.41   16.74
+ *   muted-fg on muted           8.14    9.61
+ *   primary on background       8.92    9.60
+ *   primary-fg on primary       9.30    9.60
+ *   destructive on background   7.55    9.98
+ *   success on background       6.84   13.48
+ *   warning on background       8.17   11.23
+ *   input on background         3.60    4.52   (control boundary, floor 3:1)
+ *   border on background        1.31    1.52   (decorative only)
+ *
+ * When Interlace ships shadcn cssVars as its theme surface, this file becomes the same values
+ * under shadcn names (--primary, --background, ...).
+ */
+
+@layer interlace.brand {
+  :root {
+    --interlace-background: #fcfaf6;
+    --interlace-foreground: #0b1430;
+    --interlace-card: #ffffff;
+    --interlace-card-foreground: #0b1430;
+    --interlace-popover: #ffffff;
+    --interlace-popover-foreground: #0b1430;
+    --interlace-primary: #0038b8;
+    --interlace-primary-foreground: #ffffff;
+    --interlace-secondary: #e8eefb;
+    --interlace-secondary-foreground: #0b1430;
+    --interlace-muted: #f3eee4;
+    --interlace-muted-foreground: #4b4637;
+    --interlace-accent: #f3eee4;
+    --interlace-accent-foreground: #0b1430;
+    --interlace-destructive: #9f1d1d;
+    --interlace-destructive-foreground: #ffffff;
+    --interlace-success: #166534;
+    --interlace-success-foreground: #ffffff;
+    --interlace-warning: #7c3a0a;
+    --interlace-warning-foreground: #ffffff;
+    --interlace-info: #155e75;
+    --interlace-info-foreground: #ffffff;
+    --interlace-border: #e4dccb;
+    --interlace-input: #8c8371;
+    --interlace-ring: #0038b8;
+    --interlace-chart-1: #0038b8;
+    --interlace-chart-2: #c8961e;
+    --interlace-chart-3: #3f4d1c;
+    --interlace-chart-4: #9f1d1d;
+    --interlace-chart-5: #6b7280;
+    --interlace-primary-hover: #002f99;
+    --interlace-primary-active: #00267a;
+    --interlace-primary-subtle: #e8eefb;
+    --interlace-primary-subtle-foreground: #00226e;
+    --interlace-caution: #854d0e;
+    --interlace-caution-foreground: #ffffff;
+    --interlace-radius: 0.625rem;
+
+    --font-body: var(--font-heebo), 'Heebo', system-ui, sans-serif;
+    --font-heading: var(--font-frank), 'Frank Ruhl Libre', Georgia, serif;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --interlace-background: #0b1020;
+      --interlace-foreground: #eef1f8;
+      --interlace-card: #121a2e;
+      --interlace-card-foreground: #eef1f8;
+      --interlace-popover: #121a2e;
+      --interlace-popover-foreground: #eef1f8;
+      --interlace-primary: #9db7ff;
+      --interlace-primary-foreground: #0b1020;
+      --interlace-secondary: #16224a;
+      --interlace-secondary-foreground: #eef1f8;
+      --interlace-muted: #18203a;
+      --interlace-muted-foreground: #c3c8d6;
+      --interlace-accent: #18203a;
+      --interlace-accent-foreground: #eef1f8;
+      --interlace-destructive: #fca5a5;
+      --interlace-destructive-foreground: #0b1020;
+      --interlace-success: #86efac;
+      --interlace-success-foreground: #0b1020;
+      --interlace-warning: #fdba74;
+      --interlace-warning-foreground: #0b1020;
+      --interlace-info: #67e8f9;
+      --interlace-info-foreground: #0b1020;
+      --interlace-border: #2a3350;
+      --interlace-input: #6f7ba0;
+      --interlace-ring: #9db7ff;
+      --interlace-chart-1: #9db7ff;
+      --interlace-chart-2: #f2b632;
+      --interlace-chart-3: #bccb84;
+      --interlace-chart-4: #fca5a5;
+      --interlace-chart-5: #9ca3af;
+      --interlace-primary-hover: #b4c8ff;
+      --interlace-primary-active: #c9d7ff;
+      --interlace-primary-subtle: #16224a;
+      --interlace-primary-subtle-foreground: #c9d7ff;
+      --interlace-caution: #fde047;
+      --interlace-caution-foreground: #0b1020;
+      color-scheme: dark;
+    }
+  }
+}

@@ -51,6 +51,7 @@ export const counts = () => {
     verified: site.cards.filter((c) => c.status === 'verified').length,
     sourced: facts.filter((f) => f.enough).length,
     facts: facts.length,
+    quotes: facts.reduce((sum, f) => sum + f.sources.length, 0),
     approved: site.cards.filter((c) => c.content_approved).length,
   };
 };
