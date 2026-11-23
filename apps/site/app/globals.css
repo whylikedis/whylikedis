@@ -1,6 +1,3 @@
-/* Layer order: the site's few local rules sit below components and utilities. */
-@layer theme, base, site, components, utilities;
-
 @import 'tailwindcss';
 @import 'tw-animate-css';
 @import '../styles/interlace/base.css';
@@ -9,44 +6,7 @@
 /* Typefaces: Heebo for text, Frank Ruhl Libre for headings (loaded by next/font in layout.tsx). */
 @theme {
   --font-sans: var(--font-heebo), 'Heebo', system-ui, sans-serif;
-  --font-serif: var(--font-frank), 'Frank Ruhl Libre', Georgia, serif;
-  --font-heading: var(--font-serif);
+  --font-heading: var(--font-frank), 'Frank Ruhl Libre', Georgia, serif;
 }
 
-/*
- * Everything on the page is an Interlace component. The two rules below are the only local
- * styles, each waiting on an Interlace addition: a page status banner, and a Topbar with a
- * mobile menu and a current-page state.
- */
-@layer site {
-  .draft {
-    background: var(--muted);
-    color: var(--muted-foreground);
-    font-size: 14px;
-    text-align: center;
-    padding: 8px 16px;
-  }
-  .sitenav {
-    border-bottom: 1px solid var(--border);
-  }
-  .sitenav ul {
-    max-width: 1024px;
-    margin: 0 auto;
-    padding: 10px 24px;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 6px 18px;
-  }
-  .sitenav a {
-    font-weight: 500;
-    font-size: 15px;
-    color: var(--foreground);
-    text-decoration: none;
-  }
-  .sitenav a[aria-current] {
-    color: var(--primary);
-    font-weight: 700;
-  }
-}
+/* No local rules: every part of the page is an Interlace component. */

@@ -23,7 +23,7 @@ import * as React from 'react';
  *
  *   ClaimCard                         (article — data-min-viewport=320)
  *     ├─ ClaimCardStatus              (div — a row of Badges)
- *     ├─ ClaimCardClaim               (h3 by default > q — serif, quoted)
+ *     ├─ ClaimCardClaim               (h3 by default > q — heading face, quoted)
  *     ├─ ClaimCardAnswer              (p — may hold Citation markers)
  *     ├─ ClaimCardSection × n         (details > summary + body)
  *     └─ ClaimCardFooter              (footer — muted, small)
@@ -85,12 +85,12 @@ type ClaimCardClaimProps = React.ComponentProps<'h3'> & {
   as?: 'h2' | 'h3' | 'h4';
 };
 
-/** The claim, in quotation marks (`<q>`), set in the serif face. */
+/** The claim, in quotation marks (`<q>`), set in the heading face (`--font-heading`). */
 function ClaimCardClaim({ as: Tag = 'h3', className, children, ...props }: ClaimCardClaimProps) {
   return (
     <Tag
       data-slot="claim-card-claim"
-      className={cn('font-serif text-2xl leading-snug font-semibold text-balance', className)}
+      className={cn('font-heading text-2xl leading-snug font-semibold text-balance', className)}
       {...props}
     >
       <q>{children}</q>

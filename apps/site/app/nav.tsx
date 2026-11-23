@@ -1,37 +1,36 @@
-// Local until Interlace's Topbar has a mobile menu and marks the current page.
 'use client';
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { Topbar } from '@/components/ui/patterns/topbar';
 import { Logo } from './logo';
 
-const NAV = [
-  ['/', 'Home'],
-  ['/facts/', 'Answers'],
-  ['/questions/', 'Questions we tested'],
-  ['/election-map/', 'Election map'],
-  ['/method/', 'How we check'],
-  ['/open/', 'Open questions'],
+const LINKS = [
+  { href: '/', label: 'Home' },
+  { href: '/facts/', label: 'Answers' },
+  { href: '/questions/', label: 'Questions we tested' },
+  { href: '/election-map/', label: 'Election map' },
+  { href: '/method/', label: 'How we check' },
+  { href: '/open/', label: 'Open questions' },
 ];
 
 export function Nav() {
   const here = usePathname().replace(/\/?$/, '/');
   return (
-    <nav className="sitenav" aria-label="Site">
-      <ul>
-        <li>
-          <Link href="/" aria-label="WhyLikeDIs home">
-            <Logo />
-          </Link>
-        </li>
-        {NAV.map(([href, label]) => (
-          <li key={href}>
-            <Link href={href} aria-current={href === here ? 'page' : undefined}>
-              {label}
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </nav>
+    <Topbar
+      containerSize="content"
+      logo={
+        <Link href="/" aria-label="WhyLikeDIs home">
+          <Logo />
+        </Link>
+      }
+      links={LINKS}
+      currentHref={here}
+      renderLink={({ href, className, children, ...rest }) => (
+        <Link href={href} className={className} {...rest}>
+          {children}
+        </Link>
+      )}
+    />
   );
 }

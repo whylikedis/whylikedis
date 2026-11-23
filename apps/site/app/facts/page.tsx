@@ -157,6 +157,7 @@ export default function Facts() {
       </Stack>
       <StatGroup
         cols={3}
+        layout="value-first"
         stats={[
           { value: n.verified, label: 'checked by a second reader' },
           { value: n.cards - n.verified, label: 'still being checked' },
