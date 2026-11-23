@@ -1,6 +1,9 @@
 @import 'tailwindcss';
 @import 'tw-animate-css';
 @import '../styles/interlace/base.css';
+/* Interlace's page layer: focus ring, selection, media reset, motion and view-transition timing,
+   and the reduced-motion reset. Its fonts file is left out: the site sets its own type below. */
+@import '../styles/interlace/page/preflight.css';
 @import './whylikedis-theme.css';
 
 /* Typefaces (loaded by next/font in layout.tsx): Heebo, an Israeli typeface, for text and headings,
@@ -13,12 +16,4 @@
     system-ui, sans-serif;
 }
 
-/* No local rules: every part of the page is an Interlace component. The one exception is the page
-   transition, which is the browser's, not a component's: a reader who asks for less motion gets none. */
-@media (prefers-reduced-motion: reduce) {
-  ::view-transition-group(*),
-  ::view-transition-old(*),
-  ::view-transition-new(*) {
-    animation: none !important;
-  }
-}
+/* No local rules: every part of the page is an Interlace component. */
