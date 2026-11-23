@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Topbar } from '@/components/ui/patterns/topbar';
 import { Wordmark } from '@/components/ui/patterns/wordmark';
+import { AccountButton } from '@/components/account-button';
 
 const LINKS = [
   { href: '/', label: 'Home' },
@@ -39,6 +40,7 @@ export function Nav() {
       }
       links={LINKS}
       currentHref={here}
+      actions={<AccountButton />}
       renderLink={({ href, className, children, ...rest }) => (
         <Link href={href} className={className} {...rest}>
           {children}
