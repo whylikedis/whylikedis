@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next';
-import { Frank_Ruhl_Libre, Heebo } from 'next/font/google';
+import { Frank_Ruhl_Libre, Heebo, Noto_Naskh_Arabic } from 'next/font/google';
 import type { ReactNode } from 'react';
 import { PREVIEW } from './data';
 import { Banner } from '@/components/ui/patterns/banner';
@@ -15,9 +15,15 @@ const display = Frank_Ruhl_Libre({
   variable: '--font-frank',
 });
 const body = Heebo({
-  subsets: ['latin'],
-  weight: ['400', '500', '700'],
+  subsets: ['latin', 'hebrew'],
+  weight: ['400', '500', '700', '800'],
   variable: '--font-heebo',
+});
+// Only the logo's Arabic line uses it, and next/font subsets it to the glyphs it needs.
+const arabic = Noto_Naskh_Arabic({
+  subsets: ['arabic'],
+  weight: ['700'],
+  variable: '--font-naskh',
 });
 
 const TAGLINE = 'Clear answers about Israel, each with sources you can check.';
@@ -47,7 +53,10 @@ export const viewport: Viewport = { themeColor: '#0038b8' };
 
 export default function Layout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en" className={`${display.variable} ${body.variable}`}>
+    <html
+      lang="en"
+      className={`${display.variable} ${body.variable} ${arabic.variable}`}
+    >
       <body className="bg-background text-foreground font-body">
         <SkipLink />
         <Banner tone="muted" label="Site status">
