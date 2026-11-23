@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import * as React from 'react';
+import * as React from "react";
 
-// @interlace/flip-card v1.0.0 — Interlace design system.
+// @interlace/flip-card v1.0.1 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/flip-card
 // What changed since: https://ds.interlace.tools/c/flip-card#history
 // Generated banner — keep it, the upgrade diff reads this version.
@@ -61,11 +61,11 @@ import * as React from 'react';
  * | R26  | A11y                    | a disclosure: `aria-expanded` + `aria-controls`, inert hidden face |
  */
 
-import { cn } from '@/lib/utils';
+import { cn } from "@/lib/utils";
 
 export const MIN_VIEWPORT = 320 as const;
 
-type FlipCardProps = Omit<React.ComponentProps<'div'>, 'children'> & {
+type FlipCardProps = Omit<React.ComponentProps<"div">, "children"> & {
   /** The side that asks: a claim, a question. */
   front: React.ReactNode;
   /** The side that answers. Links and other controls are fine here. */
@@ -82,16 +82,16 @@ type FlipCardProps = Omit<React.ComponentProps<'div'>, 'children'> & {
 };
 
 const FACE =
-  'bg-card text-card-foreground border-border relative col-start-1 row-start-1 flex flex-col rounded-xl border p-6 backface-hidden';
+  "bg-card text-card-foreground border-border relative col-start-1 row-start-1 flex flex-col rounded-xl border p-6 backface-hidden";
 
 const TOGGLE =
-  'text-primary focus-visible:outline-ring mt-auto inline-flex min-h-11 items-center gap-1.5 self-start pt-4 text-sm font-semibold underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 noscript:hidden';
+  "text-primary focus-visible:outline-ring mt-auto inline-flex min-h-11 items-center gap-1.5 self-start pt-4 text-sm font-semibold underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 noscript:hidden";
 
 function FlipCard({
   front,
   back,
-  revealLabel = 'Show answer',
-  returnLabel = 'Show question',
+  revealLabel = "Show answer",
+  returnLabel = "Show question",
   flipped: flippedProp,
   defaultFlipped = false,
   onFlippedChange,
@@ -106,18 +106,26 @@ function FlipCard({
   const backId = React.useId();
   const frontButton = React.useRef<HTMLButtonElement>(null);
   const backButton = React.useRef<HTMLButtonElement>(null);
-  const moveFocus = React.useRef(false);
+  // The side a press asked for, kept only for the render that press causes.
+  // A controlled parent that refuses the turn and later changes `flipped` for
+  // its own reasons must not pull focus, so the request expires once the
+  // press has been handled.
+  const pendingFocus = React.useRef<boolean | null>(null);
 
   const turn = (next: boolean) => {
-    moveFocus.current = true;
+    pendingFocus.current = next;
     if (flippedProp === undefined) setUncontrolled(next);
     onFlippedChange?.(next);
+    setTimeout(() => {
+      pendingFocus.current = null;
+    }, 0);
   };
 
   // After a turn, focus follows to the face now showing.
   React.useEffect(() => {
-    if (!moveFocus.current) return;
-    moveFocus.current = false;
+    const asked = pendingFocus.current;
+    pendingFocus.current = null;
+    if (asked !== flipped) return;
     (flipped ? backButton : frontButton).current?.focus({
       preventScroll: true,
     });
@@ -127,17 +135,22 @@ function FlipCard({
     <div
       data-slot="flip-card"
       data-min-viewport={String(MIN_VIEWPORT)}
-      data-flipped={flipped ? '' : undefined}
-      className={cn('group/flip min-w-0 perspective-[1600px]', className)}
+      data-flipped={flipped ? "" : undefined}
+      // h-full: in a grid row the card fills its cell, so cards with
+      // different amounts of text line up. Outside a sized parent it is auto.
+      className={cn(
+        "group/flip h-full min-w-0 perspective-[1600px]",
+        className,
+      )}
       {...props}
     >
       <div
         data-slot="flip-card-inner"
         className={cn(
-          'relative grid h-full transform-3d',
-          'motion-safe:transition-transform motion-safe:duration-500 motion-safe:ease-[cubic-bezier(0.2,0,0,1)]',
-          'motion-safe:group-data-flipped/flip:rotate-y-180',
-          'noscript:gap-3 noscript:transform-none',
+          "relative grid h-full transform-3d",
+          "motion-safe:transition-transform motion-safe:duration-500 motion-safe:ease-[cubic-bezier(0.2,0,0,1)]",
+          "motion-safe:group-data-flipped/flip:rotate-y-180",
+          "noscript:gap-3 noscript:transform-none",
         )}
       >
         <div
@@ -145,8 +158,8 @@ function FlipCard({
           inert={hydrated && flipped ? true : undefined}
           className={cn(
             FACE,
-            'motion-reduce:transition-opacity motion-reduce:duration-200',
-            'motion-reduce:group-data-flipped/flip:opacity-0',
+            "motion-reduce:transition-opacity motion-reduce:duration-200",
+            "motion-reduce:group-data-flipped/flip:opacity-0",
           )}
         >
           {front}
@@ -173,10 +186,10 @@ function FlipCard({
           inert={hydrated && !flipped ? true : undefined}
           className={cn(
             FACE,
-            'motion-safe:rotate-y-180',
-            'motion-reduce:opacity-0 motion-reduce:transition-opacity motion-reduce:duration-200',
-            'motion-reduce:group-data-flipped/flip:opacity-100',
-            'noscript:row-start-2 noscript:rotate-none noscript:opacity-100',
+            "motion-safe:rotate-y-180",
+            "motion-reduce:opacity-0 motion-reduce:transition-opacity motion-reduce:duration-200",
+            "motion-reduce:group-data-flipped/flip:opacity-100",
+            "noscript:row-start-2 noscript:rotate-none noscript:opacity-100",
           )}
         >
           {back}
@@ -197,7 +210,7 @@ function FlipCard({
     </div>
   );
 }
-FlipCard.displayName = 'FlipCard';
+FlipCard.displayName = "FlipCard";
 
 export { FlipCard };
 export type { FlipCardProps };
