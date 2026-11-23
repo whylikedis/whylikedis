@@ -11,12 +11,12 @@ import {
 import { Badge } from '@/components/ui/badge';
 import { buttonVariants } from '@/components/ui/button-variants';
 import { Callout } from '@/components/ui/callout';
+import { CTASection } from '@/components/ui/patterns/cta-section';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { CountUp } from '@/components/ui/effects/count-up';
 import { GridField } from '@/components/ui/effects/grid-field';
 import { Reveal } from '@/components/ui/effects/reveal';
 import { SplitText } from '@/components/ui/effects/split-text';
-import { Container } from '@/components/ui/container';
 import { FeaturedIcon } from '@/components/ui/featured-icon';
 import { Grid, GridItem } from '@/components/ui/grid';
 import { SectionHeader } from '@/components/ui/patterns/section-header';
@@ -401,31 +401,22 @@ function WhereWeStand() {
 
 function Closing() {
   return (
-    <Section container="wide" spacing="comfortable" tone="muted" divider="top">
-      <GridField mark="dots" fade="radial" />
-      <Reveal effect="scale">
-        <Stack gap="lg" align="center">
-          <Stack gap="sm" align="center">
-            <Typography as="h2" variant="h2" align="center">
-              Heard something today?
-            </Typography>
-            <Typography variant="long" tone="muted" align="center">
-              Type a few of the words they used. The answer opens with its
-              sources.
-            </Typography>
-          </Stack>
-          <Container size="prose">
-            <HeardSearch items={searchItems()} />
-          </Container>
-          <Link
-            href="/facts/"
-            className={buttonVariants({ variant: 'default', size: 'lg' })}
-          >
-            See every answer
+    <Reveal effect="scale">
+      <CTASection
+        variant="card"
+        tone="subtle"
+        title="Heard something today?"
+        description="Type a few of the words they used. The answer opens with its sources."
+        background={<GridField mark="dots" fade="radial" />}
+      >
+        <Stack gap="md" align="center">
+          <HeardSearch items={searchItems()} />
+          <Link href="/facts/" className={buttonVariants({ variant: 'link' })}>
+            Or see every answer
           </Link>
         </Stack>
-      </Reveal>
-    </Section>
+      </CTASection>
+    </Reveal>
   );
 }
 
