@@ -41,11 +41,13 @@ export const metadata: Metadata = {
     ],
     apple: '/assets/apple-touch-icon.png',
   },
+  // Each page sets its own title and description for previews (lib/share-image pageMeta), and
+  // its picture comes from the opengraph-image file next to it.
   openGraph: {
     siteName: 'WhyLikeDIs',
     description: TAGLINE,
-    images: ['/assets/og.png'],
     type: 'website',
+    locale: 'en_US',
   },
   twitter: { card: 'summary_large_image' },
 };

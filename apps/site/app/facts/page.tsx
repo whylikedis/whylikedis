@@ -6,6 +6,9 @@ import Link from 'next/link';
 import { ViewTransition } from 'react';
 import { searchItems } from '../answer-parts';
 import { HeardSearch } from '../heard-search';
+import { FACTS_DESCRIPTION, FACTS_TITLE } from './copy';
+import { shareOf } from '../share-cards';
+import { pageMeta } from '@/lib/share-image';
 import { Stack } from '@/components/ui/stack';
 import { TagList } from '@/components/ui/tag';
 import { Typography } from '@/components/ui/typography';
@@ -19,10 +22,12 @@ import {
   site,
 } from '../data';
 
-export const metadata = {
+export const metadata = pageMeta({
   title: 'Fact base',
-  alternates: { canonical: '/facts/' },
-};
+  description: FACTS_DESCRIPTION,
+  path: '/facts/',
+  share: shareOf('facts'),
+});
 
 // The gate allows only https links. This is the same rule at the last step before a reader's click.
 const safe = (url: string) => (url.startsWith('https://') ? url : undefined);
@@ -192,12 +197,10 @@ export default function Facts() {
             Answers
           </Typography>
           <Typography as="h1" variant="h1">
-            Answers to what your child hears about Israel
+            {FACTS_TITLE}
           </Typography>
           <Typography variant="long" tone="muted">
-            Each card gives an answer a parent can say in two minutes, the facts
-            behind it with the exact words quoted from each source, where the
-            record is disputed, and what the card does not claim.
+            {FACTS_DESCRIPTION}
           </Typography>
           <HeardSearch items={searchItems()} />
         </Stack>

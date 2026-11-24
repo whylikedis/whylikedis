@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import { pageMeta } from '@/lib/share-image';
+import { shareOf } from '../../share-cards';
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -48,7 +50,18 @@ const find = async ({ params }: Props) => {
 
 export async function generateMetadata(props: Props) {
   const c = await find(props);
-  return { title: c.claim, alternates: { canonical: `/answers/${c.id}/` } };
+  // A preview shows the claim as heard, in quotes, so it never reads as our own words.
+  return pageMeta({
+    title: c.claim,
+    socialTitle: `Your kid heard: “${c.claim}”`,
+    description: answerLines(c)
+      .slice(0, 2)
+      .map((l) => l.says)
+      .join(' '),
+    path: `/answers/${c.id}/`,
+    share: shareOf(`answers/${c.id}`),
+    type: 'article',
+  });
 }
 
 const safe = (url: string) => (url.startsWith('https://') ? url : undefined);

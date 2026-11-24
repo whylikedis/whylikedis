@@ -1,7 +1,10 @@
 import { ReadingLayout } from '@/components/ui/patterns/reading-layout';
 import { Prose } from '@/components/ui/prose';
 import { Section } from '@/components/ui/section';
+import { pageMeta } from '@/lib/share-image';
 import { site } from '../data';
+import { docLead } from '../doc-lead';
+import { shareOf } from '../share-cards';
 
 // One page for each doc in data/site.json: /questions/, /election-map/, /method/, /open/.
 export const dynamicParams = false;
@@ -12,7 +15,12 @@ type Props = { params: Promise<{ doc: string }> };
 
 export async function generateMetadata({ params }: Props) {
   const { doc } = await params;
-  return { title: site.docs[doc].title, alternates: { canonical: `/${doc}/` } };
+  return pageMeta({
+    title: site.docs[doc].title,
+    description: docLead(doc),
+    path: `/${doc}/`,
+    share: shareOf(doc),
+  });
 }
 
 // A doc with a few headings gets a contents rail; a short one reads as a single column.

@@ -89,3 +89,18 @@ export const searchItems = () => {
     ];
   });
 };
+
+// Where the quotes come from, by kind of source: the strip on the home page and its share image.
+const KINDS: [string[], string][] = [
+  [['primary', 'government'], 'from the record itself'],
+  [['scholarly', 'reference'], 'from scholars and reference works'],
+  [['news'], 'from news reports'],
+  [['advocacy'], 'from advocacy groups'],
+];
+export function sourceMix() {
+  const all = shownCards().flatMap((c) => c.facts.flatMap((f) => f.sources));
+  return KINDS.map(([kinds, label]) => ({
+    label,
+    n: all.filter((s) => kinds.includes(s.kind)).length,
+  })).filter((k) => k.n > 0);
+}
