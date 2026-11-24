@@ -4,6 +4,7 @@ import { type ReactNode, ViewTransition } from 'react';
 import { PREVIEW } from './data';
 import { Banner } from '@/components/ui/patterns/banner';
 import { SkipLink } from '@/components/ui/skip-link';
+import { THEME_SCRIPT } from '@/lib/theme-script';
 import { Nav } from './nav';
 import { SiteFooter } from './site-footer';
 import './globals.css';
@@ -59,7 +60,13 @@ export default function Layout({ children }: { children: ReactNode }) {
       lang="en"
       data-density="comfortable"
       className={`${body.variable} ${serif.variable} ${arabic.variable}`}
+      // THEME_SCRIPT sets the reader's text size and contrast on <html> before the first paint,
+      // so the server markup and the hydrated element differ on purpose.
+      suppressHydrationWarning
     >
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
+      </head>
       <body className="bg-background text-foreground font-body">
         <SkipLink />
         <Banner tone="muted" label="Site status">
