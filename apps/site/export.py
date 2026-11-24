@@ -6,7 +6,7 @@ enough sources, are computed here and only displayed by the site. The docs are t
 here too, with every character escaped first, so a doc can never inject markup into a page.
 Everything in site.json is a projection of files in the repository: edit the cards and the docs.
 """
-import html, json, os, re, sys
+import csv, html, json, os, re, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(os.path.dirname(HERE))  # apps/site -> the repository root
@@ -16,7 +16,7 @@ import factcheck  # noqa: E402
 E = html.escape
 DOCS = {  # the path on the site -> (the file in docs/, the page title)
     "questions": ("hypotheses.md", "Questions we tested"),
-    "election-map": ("election-map.md", "Election map"),
+    "election-map": ("election-map.md", "Elections data: how we checked it"),
     "method": ("verification.md", "How we check"),
     "open": ("needs-a-person.md", "Needs a person"),
 }
@@ -111,6 +111,57 @@ def section(source, heading):
     return md(m.group(1)) if m else ""
 
 
+# ------------------------------- the elections dataset ----------------------------------------
+ELECTIONS = os.path.join(ROOT, "analysis", "elections")
+YEARS = {  # year -> (the committee's locality file, the date of the election)
+    "2022": ("knesset25_by_locality.csv", "1 November 2022", 25),
+    "2026": ("knesset26_by_locality.csv", "27 October 2026", 26),
+}
+TOWN_META = ("סמל ועדה", "שם ישוב", "סמל ישוב", "בזב", "מצביעים", "פסולים", "כשרים", "")
+CSV_PATH = "data/knesset-results-by-town.csv"  # under public/: served at /data/...
+
+
+def elections(csv_out=None):
+    """The seats and votes of each list (from results.json, which the analysis checked against the
+    committee's national page), the coverage, and a tidy CSV of the committee's town files."""
+    res = json.load(open(os.path.join(ELECTIONS, "results.json"), encoding="utf-8"))
+    out, tidy = {}, []
+    for year, (town_file, date, knesset) in YEARS.items():
+        nc, main = res[year]["national_check"], res[year]["main"]
+        total = nc["info"]["page_vote_sum"]
+        names = {r["letters"]: r["name"] for r in nc["rows"]}
+        lists = sorted(nc["rows"], key=lambda r: -r["official"])
+        out[year] = {
+            "knesset": knesset,
+            "date": date,
+            "valid_votes": total,
+            "seats": nc["info"]["seats_on_page"],
+            "all_match": nc["all_match"],
+            "lists": [{"letters": r["letters"], "name": r["name"], "votes": r["official"],
+                       "share": round(r["official"] / total, 4), "seats": r["seats"]}
+                      for r in lists if r["official"] > 0],
+            "towns": main["units"]["localities"],
+            "stations": main["units"]["stations"],
+            "double_envelope_share": main["double_envelopes"]["share"],
+        }
+        rows = csv.DictReader(open(os.path.join(ELECTIONS, "data", town_file), encoding="utf-8-sig"))
+        for r in rows:
+            for letters, v in r.items():
+                if letters in TOWN_META or not letters or not v or int(v) == 0:
+                    continue
+                tidy.append([year, r["סמל ישוב"], r["שם ישוב"], r["בזב"], r["מצביעים"], r["כשרים"],
+                             letters, names.get(letters, letters), v])
+    if csv_out:
+        os.makedirs(os.path.dirname(csv_out), exist_ok=True)
+        with open(csv_out, "w", encoding="utf-8-sig", newline="") as f:
+            w = csv.writer(f)
+            w.writerow(["year", "town_code", "town_name_he", "registered", "voted", "valid_votes",
+                        "list_letters", "list_name", "votes"])
+            w.writerows(tidy)
+        out["csv"] = {"path": "/" + CSV_PATH, "rows": len(tidy), "bytes": os.path.getsize(csv_out)}
+    return out
+
+
 def site():
     cards = []
     for name, c in factcheck.cards():
@@ -124,6 +175,7 @@ def site():
         "cards": cards,
         "docs": {path: doc(source, title) for path, (source, title) in DOCS.items()},
         "standing": section("chapters.md", "Where we stand"),
+        "elections": elections(os.path.join(HERE, "public", CSV_PATH)),
     }
 
 

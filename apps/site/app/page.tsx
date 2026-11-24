@@ -309,9 +309,9 @@ function CheckIt() {
 // The record as an index: every topic, how many questions it holds, and the other ways in.
 const TOOLS = [
   [
-    '/election-map/',
-    'Election map',
-    'Israel’s elections for the 25th and 26th Knesset, place by place.',
+    '/data/elections/',
+    'Elections data',
+    'Knesset results for 2022 and 2026 by town, and how seats are shared.',
   ],
   [
     '/questions/',
