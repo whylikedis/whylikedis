@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 
-// @interlace/prose v3.0.0 — Interlace design system.
+// @interlace/prose v3.1.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/prose
 // What changed since: https://ds.interlace.tools/c/prose#history
 // Generated banner — keep it, the upgrade diff reads this version.
@@ -135,7 +135,7 @@ const PROSE_CASCADE = [
   // Same keyboard-focus contract as <pre>.
   '[&_table]:my-6 [&_table]:block [&_table]:w-full [&_table]:overflow-x-auto [&_table]:border-collapse [&_table]:text-ui [&_table:focus-visible]:outline-none [&_table:focus-visible]:ring-2 [&_table:focus-visible]:ring-ring [&_table:focus-visible]:ring-offset-2',
   '[&_thead]:bg-muted',
-  '[&_th]:border [&_th]:border-border [&_th]:px-4 [&_th]:py-2 [&_th]:font-semibold [&_th]:text-left',
+  '[&_th]:border [&_th]:border-border [&_th]:px-4 [&_th]:py-2 [&_th]:font-semibold [&_th]:text-start',
   '[&_td]:border [&_td]:border-border [&_td]:px-4 [&_td]:py-2',
   '[&_tbody_tr:nth-child(even)]:bg-muted/40',
 

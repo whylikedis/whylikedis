@@ -26,7 +26,7 @@ export function ReadingButton() {
           // 360px phone. The name is still read out, and shown on hover.
           <Button
             variant="ghost"
-            size="icon-sm"
+            size="icon"
             aria-label="Reading settings"
             title="Reading settings"
           >

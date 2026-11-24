@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 
-// @interlace/accordion v2.0.0 — Interlace design system.
+// @interlace/accordion v2.1.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/accordion
 // What changed since: https://ds.interlace.tools/c/accordion#history
 // Generated banner — keep it, the upgrade diff reads this version.
@@ -100,7 +100,7 @@ function AccordionTrigger({
       <BaseAccordion.Trigger
         data-slot="accordion-trigger"
         className={cn(
-          'focus-visible:border-ring focus-visible:ring-ring/50 flex flex-1 items-start justify-between gap-4 rounded-lg py-4 text-left text-sm font-medium transition-[box-shadow] duration-(--duration-fast) outline-none hover:underline focus-visible:ring-[3px] disabled:pointer-events-none disabled:opacity-50 [&[data-panel-open]>svg]:rotate-180',
+          'focus-visible:border-ring focus-visible:ring-ring/50 flex flex-1 items-start justify-between gap-4 rounded-lg py-4 text-start text-sm font-medium transition-[box-shadow] duration-(--duration-fast) outline-none hover:underline focus-visible:ring-[3px] disabled:pointer-events-none disabled:opacity-50 [&[data-panel-open]>svg]:rotate-180',
           className,
         )}
         {...props}

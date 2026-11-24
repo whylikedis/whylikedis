@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-// @interlace/claim-card v1.0.0 — Interlace design system.
+// @interlace/claim-card v1.1.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/claim-card
 // What changed since: https://ds.interlace.tools/c/claim-card#history
 // Generated banner — keep it, the upgrade diff reads this version.
@@ -126,7 +126,7 @@ function ClaimCardSection({ title, meta, className, children, ...props }: ClaimC
       className={cn('group border-border border-t pt-3', className)}
       {...props}
     >
-      <summary className="hover:text-primary flex cursor-pointer list-none items-center gap-2 rounded-sm py-1 font-medium [&::-webkit-details-marker]:hidden">
+      <summary className="hover:text-primary flex min-h-target cursor-pointer list-none items-center gap-2 rounded-sm py-1 font-medium [&::-webkit-details-marker]:hidden">
         <ChevronDown
           aria-hidden="true"
           className="text-muted-foreground size-4 shrink-0 -rotate-90 transition-transform group-open:rotate-0 motion-reduce:transition-none"

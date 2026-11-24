@@ -2,7 +2,7 @@
 
 import { useCallback, useSyncExternalStore } from 'react';
 
-// @interlace/use-reduced-motion v2.0.0 — Interlace design system.
+// @interlace/use-reduced-motion v3.0.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/use-reduced-motion
 // What changed since: https://ds.interlace.tools/c/use-reduced-motion#history
 // Generated banner — keep it, the upgrade diff reads this version.
