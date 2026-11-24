@@ -1,7 +1,7 @@
 'use client';
 
 import { useMemo, useState } from 'react';
-import { Meter } from '@/components/ui/meter';
+import { SeatChart } from '@/components/ui/charts/seat-chart';
 import { SimpleSlider } from '@/components/ui/slider';
 import { Cluster, Stack } from '@/components/ui/stack';
 import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
@@ -81,20 +81,14 @@ export function SeatRules({ years }: { years: Year[] }) {
         and their {n(r.lost)} votes ({((r.lost / r.total) * 100).toFixed(1)}%)
         elect no one.
       </Typography>
-      <Stack gap="sm">
-        {r.passed
+      <SeatChart
+        label={`${year}, with a ${pct.toFixed(2)}% threshold`}
+        groups={r.passed
           .toSorted((a, b) => b.won - a.won)
-          .map((l) => (
-            <Meter
-              key={l.letters}
-              label={l.name}
-              value={l.won}
-              max={40}
-              display={`${l.won} seats`}
-              size="md"
-            />
-          ))}
-      </Stack>
+          .map((l) => ({ label: l.name, seats: l.won }))}
+        total={SEATS}
+        majority={61}
+      />
       {real && moved > 0 && (
         <Typography as="p" variant="ui-sm" tone="muted">
           This simple count differs from the official result by {moved}{' '}

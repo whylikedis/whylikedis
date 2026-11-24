@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
+import { SeatChart, SeatChartCompare } from '@/components/ui/charts/seat-chart';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Grid, GridItem } from '@/components/ui/grid';
 import { SectionHeader } from '@/components/ui/patterns/section-header';
@@ -63,6 +64,7 @@ export default function Elections() {
           </GridItem>
         </Grid>
       </Section>
+      <Seats years={years} />
       <Rules />
       {years.map((y) => (
         <Results key={y.knesset} y={y} />
@@ -258,6 +260,39 @@ function Rules() {
           </a>
           . The votes are the committee’s own.
         </Typography>
+      </Stack>
+    </Section>
+  );
+}
+
+const MAJORITY = 61;
+
+// The two Knessets side by side: every seat a dot, one colour per list, largest list first.
+function Seats({ years }: { years: Election[] }) {
+  return (
+    <Section container="wide" spacing="comfortable" divider="top">
+      <Stack gap="lg">
+        <SectionHeader
+          as="h2"
+          align="start"
+          eyebrow="The result"
+          title="The Knesset, seat by seat"
+          tagline="Each dot is one of the 120 seats, coloured by the list that won it. Hover over or tap a list to find its seats."
+        />
+        <SeatChartCompare>
+          {years.map((y) => (
+            <SeatChart
+              key={y.knesset}
+              label={`${y.date.slice(-4)}: the ${y.knesset}th Knesset`}
+              groups={y.lists
+                .filter((l) => l.seats > 0)
+                .map((l) => ({ label: l.name, seats: l.seats }))}
+              total={y.seats}
+              majority={MAJORITY}
+              tally="leaders"
+            />
+          ))}
+        </SeatChartCompare>
       </Stack>
     </Section>
   );
