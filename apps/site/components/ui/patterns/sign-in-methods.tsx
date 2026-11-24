@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 
-// @interlace/sign-in-methods v1.0.0 — Interlace design system.
+// @interlace/sign-in-methods v1.0.1 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/sign-in-methods
 // What changed since: https://ds.interlace.tools/c/sign-in-methods#history
 // Generated banner — keep it, the upgrade diff reads this version.
@@ -118,7 +118,8 @@ function SignInMethods({
     setConfirming(null);
     if (!(work instanceof Promise)) return;
     setBusy(id);
-    work.finally(() => setBusy((b) => (b === id ? null : b)));
+    // A rejection is the consumer's to report; it must not surface as an unhandled one here.
+    work.catch(() => {}).finally(() => setBusy((b) => (b === id ? null : b)));
   };
 
   return (
@@ -165,7 +166,7 @@ function SignInMethods({
                     loading={isBusy}
                     disabled={busy !== null && !isBusy}
                     aria-label={`${connectLabel} ${name}`}
-                    onClick={() => onConnect && run(m.id, onConnect(m.id))}
+                    onClick={() => run(m.id, onConnect?.(m.id))}
                   >
                     {connectLabel}
                   </Button>
@@ -179,7 +180,7 @@ function SignInMethods({
                       type="button"
                       size="sm"
                       variant="destructive"
-                      onClick={() => onDisconnect && run(m.id, onDisconnect(m.id))}
+                      onClick={() => run(m.id, onDisconnect?.(m.id))}
                     >
                       {confirmLabel}
                     </Button>
