@@ -8,7 +8,7 @@ const GROUPS = [
     links: [
       { href: '/facts/', label: 'All answers' },
       { href: '/questions/', label: 'Questions we tested' },
-      { href: '/election-map/', label: 'Election map' },
+      { href: '/data/elections/', label: 'Elections data' },
     ],
   },
   {

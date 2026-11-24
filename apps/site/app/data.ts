@@ -44,6 +44,29 @@ type Site = {
     }
   >;
   standing: string;
+  elections: Record<'2022' | '2026', Election> & {
+    csv: { path: string; rows: number; bytes: number };
+  };
+};
+
+// One Knesset election, from analysis/elections/ (export.py): each list's votes and seats as the
+// committee's national page gives them, and how much of the vote the town files place.
+export type Election = {
+  knesset: number;
+  date: string;
+  valid_votes: number;
+  seats: number;
+  all_match: boolean;
+  lists: {
+    letters: string;
+    name: string;
+    votes: number;
+    share: number;
+    seats: number;
+  }[];
+  towns: number;
+  stations: number;
+  double_envelope_share: number;
 };
 
 export const site: Site = JSON.parse(

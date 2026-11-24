@@ -1,7 +1,7 @@
 'use client';
 import type { CSSProperties } from 'react';
 
-import { BookOpen, CircleHelp, FlaskConical, MapIcon } from 'lucide-react';
+import { BookOpen, ChartColumn, CircleHelp, FlaskConical } from 'lucide-react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Topbar } from '@/components/ui/patterns/topbar';
@@ -23,11 +23,11 @@ const LINKS = [
         icon: <BookOpen aria-hidden="true" />,
       },
       {
-        href: '/election-map/',
-        label: 'Election map',
+        href: '/data/elections/',
+        label: 'Elections data',
         description:
-          'Israel’s elections for the 25th and 26th Knesset, place by place.',
-        icon: <MapIcon aria-hidden="true" />,
+          'Knesset results for 2022 and 2026 by town, and how seats are shared.',
+        icon: <ChartColumn aria-hidden="true" />,
       },
       {
         href: '/questions/',

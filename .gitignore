@@ -8,6 +8,8 @@ private/
 # The built site, and any page that is not approved yet.
 apps/site/.next/
 apps/site/data/
+# Written by export.py from analysis/elections/: the elections download.
+apps/site/public/data/
 apps/site/next-env.d.ts
 apps/site/*.tsbuildinfo
 apps/site/landing.html
