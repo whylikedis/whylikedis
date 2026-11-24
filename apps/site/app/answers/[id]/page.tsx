@@ -1,4 +1,12 @@
 import Link from 'next/link';
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from '@/components/ui/breadcrumb';
 import { ViewTransition } from 'react';
 import {
   Accordion,
@@ -57,10 +65,21 @@ export default async function Answer(props: Props) {
     <>
       <Section container="wide" tone="brand" spacing="tight">
         <Stack gap="md">
-          <Typography variant="ui-sm">
-            <Link href="/facts/">Answers</Link> · Chapter {c.era}:{' '}
-            {chapterTitle(c)}
-          </Typography>
+          <Breadcrumb>
+            <BreadcrumbList>
+              <BreadcrumbItem>
+                <BreadcrumbLink asChild>
+                  <Link href="/facts/">Answers</Link>
+                </BreadcrumbLink>
+              </BreadcrumbItem>
+              <BreadcrumbSeparator />
+              <BreadcrumbItem>
+                <BreadcrumbPage>
+                  Chapter {c.era}: {chapterTitle(c)}
+                </BreadcrumbPage>
+              </BreadcrumbItem>
+            </BreadcrumbList>
+          </Breadcrumb>
           <Stack gap="xs">
             <Typography variant="ui-sm">Your kid heard</Typography>
             <ViewTransition name={`claim-${c.id}`}>
