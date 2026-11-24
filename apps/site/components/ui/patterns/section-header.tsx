@@ -40,7 +40,7 @@ import * as React from "react";
  *
  * ## `align` reaches the eyebrow too
  *
- * The eyebrow row is a flex container, and `text-center` / `text-left` on the
+ * The eyebrow row is a flex container, and `text-center` / `text-start` on the
  * root does not place a flex child on its main axis — so the row carries its
  * own `justify-center` / `justify-start`, keyed off the same variant
  * (`sectionHeaderEyebrowVariants`). It used to be a hard-coded
@@ -107,21 +107,21 @@ const sectionHeaderVariants = cva("", {
   },
 });
 
-const sectionHeaderTitleVariants = cva(
-  "font-heading tracking-display font-bold text-balance",
-  {
-    variants: {
-      size: {
-        default: "text-section mb-4",
-        display: "text-display mb-5",
-      },
-    },
-    defaultVariants: {
-      size: "default",
+const sectionHeaderTitleVariants = cva("font-heading font-bold text-balance", {
+  variants: {
+    size: {
+      // text-section floors at 28px, under the 32px where tracking-display starts.
+      default: "text-section tracking-heading mb-4",
+      display: "text-display tracking-display mb-5",
     },
   },
-);
+  defaultVariants: {
+    size: "default",
+  },
+});
 
+// The tagline steps at md on purpose: body-sized text stays off the fluid
+// scale (see fluid-type-lock), only headings glide.
 const TAGLINE = {
   default: "text-base md:text-lg",
   display: "text-lg md:text-xl",

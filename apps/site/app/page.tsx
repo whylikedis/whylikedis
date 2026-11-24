@@ -6,7 +6,13 @@ import { Badge } from '@/components/ui/badge';
 import { buttonVariants } from '@/components/ui/button-variants';
 import { Callout } from '@/components/ui/callout';
 import { CTASection } from '@/components/ui/patterns/cta-section';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardLink,
+  CardTitle,
+} from '@/components/ui/card';
 import { CountUp } from '@/components/ui/effects/count-up';
 import { Reveal } from '@/components/ui/effects/reveal';
 import { SplitText } from '@/components/ui/effects/split-text';
@@ -349,7 +355,9 @@ function Browse() {
                         {t.n} {t.n === 1 ? 'question' : 'questions'}
                       </Typography>
                       <Typography as="h3" variant="h5">
-                        <Link href={`/facts/#ch${t.n}`}>{t.title}</Link>
+                        <CardLink asChild>
+                          <Link href={`/facts/#ch${t.n}`}>{t.title}</Link>
+                        </CardLink>
                       </Typography>
                     </Stack>
                   </CardContent>
@@ -361,14 +369,20 @@ function Browse() {
         <Grid gap="md">
           {TOOLS.map(([href, title, body]) => (
             <GridItem span={12} mdSpan={4} key={href}>
-              <Stack gap="xs">
-                <Typography as="h3" variant="h4">
-                  <Link href={href}>{title}</Link>
-                </Typography>
-                <Typography variant="ui" tone="muted">
-                  {body}
-                </Typography>
-              </Stack>
+              <Card>
+                <CardContent>
+                  <Stack gap="xs">
+                    <Typography as="h3" variant="h4">
+                      <CardLink asChild>
+                        <Link href={href}>{title}</Link>
+                      </CardLink>
+                    </Typography>
+                    <Typography variant="ui" tone="muted">
+                      {body}
+                    </Typography>
+                  </Stack>
+                </CardContent>
+              </Card>
             </GridItem>
           ))}
         </Grid>

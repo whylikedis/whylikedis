@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 
-// @interlace/toc v2.0.0 — Interlace design system.
+// @interlace/toc v2.0.1 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/toc
 // What changed since: https://ds.interlace.tools/c/toc#history
 // Generated banner — keep it, the upgrade diff reads this version.
