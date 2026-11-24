@@ -1,4 +1,3 @@
-import { Ear, MessageCircle, MessagesSquare } from 'lucide-react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ViewTransition } from 'react';
@@ -16,7 +15,6 @@ import {
 import { CountUp } from '@/components/ui/effects/count-up';
 import { Reveal } from '@/components/ui/effects/reveal';
 import { SplitText } from '@/components/ui/effects/split-text';
-import { FeaturedIcon } from '@/components/ui/featured-icon';
 import { Grid, GridItem } from '@/components/ui/grid';
 import { SectionHeader } from '@/components/ui/patterns/section-header';
 import { Dialogue } from '@/components/ui/patterns/dialogue';
@@ -38,6 +36,7 @@ import { HOME_DESCRIPTION, HOME_TITLE } from './home-copy';
 import { shareOf } from './share-cards';
 import { pageMeta } from '@/lib/share-image';
 import { HeardSearch } from './heard-search';
+import { HowItWorksStory } from './how-it-works-story';
 import { KitchenTable } from './kitchen-table';
 import { PracticeTalk, Said } from './practice-talk';
 
@@ -59,19 +58,16 @@ const FEATURED = 'era7-slogan-history-and-meanings';
 
 const STEPS = [
   [
-    Ear,
     'Heard',
     'Start from their exact words',
     'Pick the sentence your child came home with.',
   ],
   [
-    MessageCircle,
     'Say',
     'A short answer, out loud',
     'Plain words a parent can say at dinner, each tied to its source.',
   ],
   [
-    MessagesSquare,
     'Next',
     'Be ready for the follow-up',
     'The other side in its own words, and what is still argued.',
@@ -387,6 +383,9 @@ function Browse() {
 }
 
 function HowItWorks() {
+  const cards = shownCards();
+  const c = cards.find((x) => x.id === FEATURED) ?? cards[0];
+  const first = c && answerLines(c)[0];
   return (
     <Section container="wide" spacing="comfortable">
       <Reveal>
@@ -397,26 +396,21 @@ function HowItWorks() {
           title="From what they heard to what you say"
         />
       </Reveal>
-      <Grid gap="lg">
-        {STEPS.map(([Icon, kicker, title, body], i) => (
-          <GridItem span={12} mdSpan={4} key={kicker}>
-            <Reveal delay={i * 120}>
-              <Stack gap="sm">
-                <FeaturedIcon size="lg">
-                  <Icon />
-                </FeaturedIcon>
-                <Typography variant="ui-sm" tone="primary">
-                  {i + 1} · {kicker}
-                </Typography>
-                <Typography as="h3" variant="h3">
-                  {title}
-                </Typography>
-                <Typography tone="muted">{body}</Typography>
-              </Stack>
-            </Reveal>
-          </GridItem>
-        ))}
-      </Grid>
+      {c && first ? (
+        <HowItWorksStory
+          steps={STEPS.map(([kicker, title, body]) => ({
+            kicker,
+            title,
+            body,
+          }))}
+          claim={c.claim}
+          says={first.says}
+          sources={[
+            ...new Set(first.sources.map((s) => s.publisher).filter(Boolean)),
+          ].slice(0, 3)}
+          argued={contestedText(c)[0]}
+        />
+      ) : null}
     </Section>
   );
 }

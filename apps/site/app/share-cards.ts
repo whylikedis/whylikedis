@@ -4,6 +4,7 @@ import { site } from './data';
 import { docLead } from './doc-lead';
 import { FACTS_DESCRIPTION, FACTS_TITLE } from './facts/copy';
 import { HOME_DESCRIPTION, HOME_TITLE } from './home-copy';
+import { SESSIONS_DESCRIPTION, SESSIONS_TITLE } from './sessions/copy';
 
 // What each page's share image says. A page is named by its path without slashes: '' is the home
 // page, 'facts' the answers index, 'answers/<id>' an answer, '<doc>' a guide.
@@ -85,8 +86,21 @@ function guide(doc: string): ShareCard | null {
   };
 }
 
+function sessions(): ShareCard {
+  return {
+    alt: `${SESSIONS_TITLE}, from WhyLikeDIs`,
+    props: {
+      label: 'Sessions',
+      kicker: 'WhyLikeDIs',
+      title: SESSIONS_TITLE,
+      description: SESSIONS_DESCRIPTION,
+    },
+  };
+}
+
 export function shareCard(page: string): ShareCard | null {
   if (page === '') return home();
+  if (page === 'sessions') return sessions();
   if (page === 'facts') return facts();
   if (page.startsWith('answers/')) return answer(page.slice('answers/'.length));
   return page.includes('/') ? null : guide(page);
@@ -95,6 +109,7 @@ export function shareCard(page: string): ShareCard | null {
 export const sharePages = () => [
   '',
   'facts',
+  'sessions',
   ...shownCards().map((c) => `answers/${c.id}`),
   ...Object.keys(site.docs),
 ];
