@@ -31,14 +31,27 @@ import {
   contestedText,
   searchItems,
   shownCards,
+  sourceMix,
 } from './answer-parts';
 import { counts, site } from './data';
+import { HOME_DESCRIPTION, HOME_TITLE } from './home-copy';
+import { shareOf } from './share-cards';
+import { pageMeta } from '@/lib/share-image';
 import { HeardSearch } from './heard-search';
 import { KitchenTable } from './kitchen-table';
 import { PracticeTalk, Said } from './practice-talk';
 
 // One address per page, so a shared link with tracking or a missing slash still counts as this page.
-export const metadata: Metadata = { alternates: { canonical: '/' } };
+export const metadata: Metadata = {
+  ...pageMeta({
+    title: HOME_TITLE,
+    description: HOME_DESCRIPTION,
+    path: '/',
+    share: shareOf(''),
+  }),
+  // The home page keeps the bare site name as its tab title.
+  title: { absolute: 'WhyLikeDIs' },
+};
 
 // The talk on the home page is a real answer, word for word: the claim, its first lines with their
 // sources, and what is still argued. Nothing in it is written for the home page.
@@ -67,20 +80,6 @@ const STEPS = [
 
 // What kind of source the shown answers quote, and how often: the record itself first. Counted from
 // the data, so the strip never names a source an answer does not cite.
-const KINDS: [string[], string][] = [
-  [['primary', 'government'], 'from the record itself'],
-  [['scholarly', 'reference'], 'from scholars and reference works'],
-  [['news'], 'from news reports'],
-  [['advocacy'], 'from advocacy groups'],
-];
-function sourceMix() {
-  const all = shownCards().flatMap((c) => c.facts.flatMap((f) => f.sources));
-  return KINDS.map(([kinds, label]) => ({
-    label,
-    n: all.filter((s) => kinds.includes(s.kind)).length,
-  })).filter((k) => k.n > 0);
-}
-
 // One card per claim (the fuller card when two share a claim), the featured one last since the hero
 // already plays it.
 function claimsToCheck() {
@@ -153,14 +152,10 @@ function Hero() {
                 </Typography>
               </Cluster>
               <Typography as="h1" variant="h1">
-                <SplitText>
-                  Clear answers about Israel, each with sources you can check.
-                </SplitText>
+                <SplitText>{HOME_TITLE}</SplitText>
               </Typography>
               <Typography variant="long" tone="muted">
-                When your child comes home with a claim about Israel, find an
-                answer you can give in two minutes, the other side in its own
-                words, and the source for every fact.
+                {HOME_DESCRIPTION}
               </Typography>
             </Stack>
             <HeardSearch items={searchItems()} />
