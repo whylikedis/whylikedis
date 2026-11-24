@@ -1,7 +1,7 @@
 'use client';
 import type { CSSProperties } from 'react';
 
-import { BookOpen, CircleHelp, FlaskConical, MapIcon } from 'lucide-react';
+import { BookOpen, CircleHelp, FlaskConical } from 'lucide-react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Topbar } from '@/components/ui/patterns/topbar';
@@ -21,13 +21,6 @@ const LINKS = [
         label: 'Answers',
         description: 'Every claim we answer, with the source for each fact.',
         icon: <BookOpen aria-hidden="true" />,
-      },
-      {
-        href: '/election-map/',
-        label: 'Election map',
-        description:
-          'Israel’s elections for the 25th and 26th Knesset, place by place.',
-        icon: <MapIcon aria-hidden="true" />,
       },
       {
         href: '/questions/',

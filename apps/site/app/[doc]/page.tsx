@@ -6,7 +6,7 @@ import { site } from '../data';
 import { docLead } from '../doc-lead';
 import { shareOf } from '../share-cards';
 
-// One page for each doc in data/site.json: /questions/, /election-map/, /method/, /open/.
+// One page for each doc in data/site.json: /questions/, /method/, /open/ (held docs in data.ts get none).
 export const dynamicParams = false;
 export const generateStaticParams = () =>
   Object.keys(site.docs).map((doc) => ({ doc }));
