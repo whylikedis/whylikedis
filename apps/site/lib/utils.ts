@@ -1,6 +1,6 @@
 import { clsx, type ClassValue } from "clsx";
 
-// @interlace/cn v2.0.0 — Interlace design system.
+// @interlace/cn v2.1.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/cn
 // What changed since: https://ds.interlace.tools/c/cn#history
 // Generated banner — keep it, the upgrade diff reads this version.

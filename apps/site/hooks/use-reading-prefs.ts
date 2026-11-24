@@ -123,8 +123,7 @@ export function useReadingPrefs(): UseReadingPrefsResult {
   useEffect(() => {
     if (!window.matchMedia) return;
     const query = window.matchMedia(MORE_QUERY);
-    const onChange = (event: MediaQueryListEvent) =>
-      setSystemMore(event.matches);
+    const onChange = (event: MediaQueryListEvent) => setSystemMore(event.matches);
     query.addEventListener('change', onChange);
     return () => query.removeEventListener('change', onChange);
   }, []);
@@ -140,10 +139,8 @@ export function useReadingPrefs(): UseReadingPrefsResult {
 
   useEffect(() => {
     const onStorage = (event: StorageEvent) => {
-      if (event.key === TEXT_SIZE_STORAGE_KEY)
-        setTextSizeState(readStoredTextSize());
-      else if (event.key === CONTRAST_STORAGE_KEY)
-        setContrastState(readStoredContrast());
+      if (event.key === TEXT_SIZE_STORAGE_KEY) setTextSizeState(readStoredTextSize());
+      else if (event.key === CONTRAST_STORAGE_KEY) setContrastState(readStoredContrast());
     };
     window.addEventListener('storage', onStorage);
     return () => window.removeEventListener('storage', onStorage);
@@ -164,10 +161,7 @@ export function useReadingPrefs(): UseReadingPrefsResult {
   const stepTextSize = useCallback(
     (direction: -1 | 1) => {
       const index = TEXT_SIZES.findIndex((size) => size.value === textSize);
-      const next =
-        TEXT_SIZES[
-          Math.min(TEXT_SIZES.length - 1, Math.max(0, index + direction))
-        ];
+      const next = TEXT_SIZES[Math.min(TEXT_SIZES.length - 1, Math.max(0, index + direction))];
       if (next && next.value !== textSize) setTextSize(next.value);
     },
     [textSize, setTextSize],
@@ -179,8 +173,7 @@ export function useReadingPrefs(): UseReadingPrefsResult {
   }, []);
 
   const moreContrast =
-    contrastPreference === 'more' ||
-    (contrastPreference === 'system' && systemMore);
+    contrastPreference === 'more' || (contrastPreference === 'system' && systemMore);
 
   return {
     textSize,

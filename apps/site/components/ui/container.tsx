@@ -1,6 +1,6 @@
 import * as React from "react";
 
-// @interlace/container v3.0.0 — Interlace design system.
+// @interlace/container v3.0.1 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/container
 // What changed since: https://ds.interlace.tools/c/container#history
 // Generated banner — keep it, the upgrade diff reads this version.

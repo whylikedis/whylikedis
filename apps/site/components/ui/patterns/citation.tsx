@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 
-// @interlace/citation v1.1.1 — Interlace design system.
+// @interlace/citation v1.2.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/citation
 // What changed since: https://ds.interlace.tools/c/citation#history
 // Generated banner — keep it, the upgrade diff reads this version.
@@ -154,7 +154,7 @@ function CitationSource({ source }: { source: CitationSourceData }) {
         {detail ? <span className="text-muted-foreground"> ({detail})</span> : null}
       </p>
       {source.quote ? (
-        <blockquote className="border-border text-muted-foreground border-l-2 pl-3 text-sm italic">
+        <blockquote className="border-border text-muted-foreground border-s-2 ps-3 text-sm italic">
           {source.quote}
         </blockquote>
       ) : null}

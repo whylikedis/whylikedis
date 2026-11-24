@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-// @interlace/input v2.0.1 — Interlace design system.
+// @interlace/input v2.1.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/input
 // What changed since: https://ds.interlace.tools/c/input#history
 // Generated banner — keep it, the upgrade diff reads this version.
