@@ -30,6 +30,7 @@ import { HOME_DESCRIPTION, HOME_TITLE } from './home-copy';
 import { shareOf } from './share-cards';
 import { pageMeta } from '@/lib/share-image';
 import { HeardSearch } from './heard-search';
+import { HowItWorksStory } from './how-it-works-story';
 import { KitchenTable } from './kitchen-table';
 import { PracticeTalk, Said } from './practice-talk';
 
@@ -357,6 +358,9 @@ function Browse() {
 }
 
 function HowItWorks() {
+  const cards = shownCards();
+  const c = cards.find((x) => x.id === FEATURED) ?? cards[0];
+  const first = c && answerLines(c)[0];
   return (
     <Section container="wide" spacing="comfortable">
       <Reveal>
@@ -366,26 +370,21 @@ function HowItWorks() {
           title="From what they heard to what you say"
         />
       </Reveal>
-      <Grid gap="lg">
-        {STEPS.map(([kicker, title, body], i) => (
-          <GridItem span={12} mdSpan={4} key={kicker}>
-            <Reveal delay={i * 120}>
-              <Stack gap="sm">
-                <Typography as="p" variant="h1" tone="primary">
-                  {i + 1}
-                </Typography>
-                <Typography variant="ui-sm" tone="primary">
-                  {kicker}
-                </Typography>
-                <Typography as="h3" variant="h3">
-                  {title}
-                </Typography>
-                <Typography tone="muted">{body}</Typography>
-              </Stack>
-            </Reveal>
-          </GridItem>
-        ))}
-      </Grid>
+      {c && first ? (
+        <HowItWorksStory
+          steps={STEPS.map(([kicker, title, body]) => ({
+            kicker,
+            title,
+            body,
+          }))}
+          claim={c.claim}
+          says={first.says}
+          sources={[
+            ...new Set(first.sources.map((s) => s.publisher).filter(Boolean)),
+          ].slice(0, 3)}
+          argued={contestedText(c)[0]}
+        />
+      ) : null}
     </Section>
   );
 }

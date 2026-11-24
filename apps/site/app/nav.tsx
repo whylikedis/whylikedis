@@ -37,6 +37,7 @@ const LINKS = [
     ],
   },
   { href: '/method/', label: 'How we check' },
+  { href: '/sessions/', label: 'Sessions' },
 ];
 
 // The mark is an Israeli street sign: the name in Hebrew, Arabic and English, the way the

@@ -78,6 +78,9 @@
   --chart-3: #3f4d1c; /* olive */
   --chart-4: #9f1d1d; /* red */
   --chart-5: #6b7280; /* grey: "not stated" */
+  /* The sticky topbar is 113px tall at 16px text (the street-sign mark sets it), so a scroll
+     story's pinned chart sits just below it. In rem, so it grows with the reader's text size. */
+  --scroll-story-offset: 7.125rem;
 }
 
 @media (prefers-color-scheme: dark) {
