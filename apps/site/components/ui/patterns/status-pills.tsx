@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-// @interlace/status-pills v1.0.0 — Interlace design system.
+// @interlace/status-pills v1.0.1 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/status-pills
 // What changed since: https://ds.interlace.tools/c/status-pills#history
 // Generated banner — keep it, the upgrade diff reads this version.

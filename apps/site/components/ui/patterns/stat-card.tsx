@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-// @interlace/stat-card v3.0.0 — Interlace design system.
+// @interlace/stat-card v3.1.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/stat-card
 // What changed since: https://ds.interlace.tools/c/stat-card#history
 // Generated banner — keep it, the upgrade diff reads this version.

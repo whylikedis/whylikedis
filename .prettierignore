@@ -10,4 +10,6 @@ FACTS.md
 # Interlace registry items, installed as Interlace ships them; never reformatted here.
 apps/site/components/ui/
 apps/site/lib/utils.ts
+apps/site/lib/theme-tokens.ts
+apps/site/hooks/use-reading-prefs.ts
 apps/site/styles/interlace/

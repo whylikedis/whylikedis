@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-// @interlace/dialogue v1.1.1 — Interlace design system.
+// @interlace/dialogue v1.2.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/dialogue
 // What changed since: https://ds.interlace.tools/c/dialogue#history
 // Generated banner — keep it, the upgrade diff reads this version.

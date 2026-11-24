@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-// @interlace/stat-group v2.0.0 — Interlace design system.
+// @interlace/stat-group v2.3.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/stat-group
 // What changed since: https://ds.interlace.tools/c/stat-group#history
 // Generated banner — keep it, the upgrade diff reads this version.

@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 
-// @interlace/combobox v3.0.1 — Interlace design system.
+// @interlace/combobox v3.1.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/combobox
 // What changed since: https://ds.interlace.tools/c/combobox#history
 // Generated banner — keep it, the upgrade diff reads this version.
@@ -209,7 +209,7 @@ function ComboboxInput({
 
 /**
  * Optional button that opens the popup without typing. Docked inside the
- * field, so the input reserves room for it with `pr-9` at the call site.
+ * field, so the input reserves room for it with `pe-9` at the call site.
  * 28px square — over the 24px floor of SC 2.5.8.
  */
 function ComboboxTrigger({
@@ -355,7 +355,7 @@ function ComboboxItem({
       className={cn(
         // 36px tall (py-2 + text-sm line box) — over the 24px floor of
         // SC 2.5.8 at the 320px viewport.
-        'text-popover-foreground relative flex w-full cursor-pointer items-center gap-2 rounded-xl py-2 pr-8 pl-3 text-sm transition-colors duration-150 outline-hidden select-none',
+        'text-popover-foreground relative flex w-full cursor-pointer items-center gap-2 rounded-xl py-2 pe-8 ps-3 text-sm transition-colors duration-150 outline-hidden select-none',
         'data-highlighted:bg-accent data-highlighted:text-accent-foreground',
         'data-selected:bg-primary data-selected:text-primary-foreground data-selected:font-medium',
         'data-disabled:pointer-events-none data-disabled:opacity-50',
@@ -507,7 +507,7 @@ function ComboboxChip({
     <BaseCombobox.Chip
       data-slot="combobox-chip"
       className={cn(
-        'bg-secondary text-secondary-foreground flex h-7 items-center gap-1 rounded-lg pr-1 pl-2 text-sm outline-none',
+        'bg-secondary text-secondary-foreground flex h-7 items-center gap-1 rounded-lg pe-1 ps-2 text-sm outline-none',
         'data-highlighted:bg-accent data-highlighted:text-accent-foreground',
         className,
       )}
@@ -637,7 +637,7 @@ function ComboboxCompose({
         <ComboboxInput
           placeholder={placeholder}
           aria-label={ariaLabel}
-          className={clearable ? 'pr-9' : undefined}
+          className={clearable ? 'pe-9' : undefined}
         />
         {clearable ? <ComboboxClear /> : null}
       </ComboboxControl>

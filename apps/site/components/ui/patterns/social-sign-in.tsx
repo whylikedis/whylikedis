@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 
-// @interlace/social-sign-in v1.0.0 — Interlace design system.
+// @interlace/social-sign-in v1.1.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/social-sign-in
 // What changed since: https://ds.interlace.tools/c/social-sign-in#history
 // Generated banner — keep it, the upgrade diff reads this version.
@@ -286,16 +286,24 @@ export function SocialSignIn({
   const big = ordered.slice(0, cut);
   const small = ordered.slice(cut);
 
+  // A rejected callback is the consumer's to report through `error`; it must not surface as an
+  // unhandled rejection here.
   const run = (id: string, work: void | Promise<unknown>) => {
     if (!(work instanceof Promise)) return;
     setBusy(id);
-    work.finally(() => setBusy((b) => (b === id ? null : b)));
+    work.catch(() => {}).finally(() => setBusy((b) => (b === id ? null : b)));
   };
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     const submitter = (e.nativeEvent as SubmitEvent).submitter as HTMLButtonElement | null;
     const id = submitter?.value;
     if (!id) return;
+    // One submission at a time: a second press while one runs does nothing. (The busy button also
+    // swallows clicks itself; this covers Enter in the email field and any other submitter.)
+    if (busy !== null) {
+      e.preventDefault();
+      return;
+    }
     if (id === 'email' && onEmailSubmit) {
       e.preventDefault();
       const address = String(new FormData(e.currentTarget).get('email') ?? '').trim();
