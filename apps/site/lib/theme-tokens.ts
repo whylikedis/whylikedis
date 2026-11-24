@@ -99,8 +99,7 @@ export const DEFAULT_THEME: ThemeName = 'interlace';
 /** Narrow an arbitrary string to a registered theme name. */
 export function isThemeName(value: unknown): value is ThemeName {
   return (
-    typeof value === 'string' &&
-    THEMES.some((theme) => theme.name === value)
+    typeof value === 'string' && THEMES.some((theme) => theme.name === value)
   );
 }
 
