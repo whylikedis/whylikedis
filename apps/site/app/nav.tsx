@@ -7,6 +7,8 @@ import { usePathname } from 'next/navigation';
 import { Topbar } from '@/components/ui/patterns/topbar';
 import { Wordmark } from '@/components/ui/patterns/wordmark';
 import { AccountButton } from '@/components/account-button';
+import { ReadingButton } from '@/components/reading-button';
+import { Cluster } from '@/components/ui/stack';
 
 // The site is a family of products. The record is the first: the answers and the data behind
 // them, grouped in one menu with a line on each. How we check stays a plain link beside it.
@@ -70,7 +72,12 @@ export function Nav() {
       }
       links={LINKS}
       currentHref={here}
-      actions={<AccountButton />}
+      actions={
+        <Cluster gap="xs">
+          <ReadingButton />
+          <AccountButton />
+        </Cluster>
+      }
       renderLink={({ href, className, children, ...rest }) => (
         <Link href={href} className={className} {...rest}>
           {children}
