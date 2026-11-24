@@ -3,6 +3,7 @@ import { Section } from '@/components/ui/section';
 import { Stack } from '@/components/ui/stack';
 import { Typography } from '@/components/ui/typography';
 import { pageMeta } from '@/lib/share-image';
+import { AUTH_ENABLED } from '@/lib/supabase/config';
 import { site } from '../data';
 import { shareOf } from '../share-cards';
 import { BookingFlow } from './booking-flow';
@@ -32,9 +33,11 @@ export default function Sessions() {
             {SESSIONS_DESCRIPTION}
           </Typography>
         </Stack>
-        <Callout tone="note" title="Bookings open soon">
-          You can try the steps now. Nothing you enter is sent or kept.
-        </Callout>
+        {!AUTH_ENABLED && (
+          <Callout tone="note" title="Bookings open soon">
+            You can try the steps now. Nothing you enter is sent or kept.
+          </Callout>
+        )}
         <BookingFlow topics={site.chapters.map((ch) => ch.title)} />
       </Stack>
     </Section>
