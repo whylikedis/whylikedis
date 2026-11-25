@@ -7,6 +7,9 @@ import { Callout } from '@/components/ui/callout';
 import { CTASection } from '@/components/ui/patterns/cta-section';
 import { Card, CardContent, CardLink } from '@/components/ui/card';
 import { CountUp } from '@/components/ui/effects/count-up';
+import { DrawOn } from '@/components/ui/effects/draw-on';
+import { Marker } from '@/components/ui/effects/marker';
+import { PointerSurface } from '@/components/ui/effects/pointer-surface';
 import { Reveal } from '@/components/ui/effects/reveal';
 import { SplitText } from '@/components/ui/effects/split-text';
 import { Grid, GridItem } from '@/components/ui/grid';
@@ -159,9 +162,9 @@ function Hero() {
           </Stack>
         </GridItem>
         <GridItem span={12} lgSpan={5}>
-          <Reveal effect="fade">
+          <DrawOn stagger={110}>
             <KitchenTable />
-          </Reveal>
+          </DrawOn>
         </GridItem>
       </Grid>
     </Section>
@@ -179,7 +182,12 @@ function PracticeSection() {
               align="start"
               eyebrow="Practice the talk"
               title="A real answer, line by line, with the source under every sentence"
-              tagline="Nothing here is written for the home page. It is one of our answers, word for word."
+              tagline={
+                <>
+                  Nothing here is written for the home page. It is one of our
+                  answers, <Marker tone="primary">word for word</Marker>.
+                </>
+              }
             />
           </Reveal>
         </GridItem>
@@ -314,20 +322,22 @@ function Browse() {
           {topics.map((t, i) => (
             <GridItem span={12} mdSpan={6} lgSpan={4} key={t.n}>
               <Reveal delay={(i % 3) * 80} className="h-full">
-                <Card className="h-full">
-                  <CardContent>
-                    <Stack gap="xs">
-                      <Typography variant="ui-sm" tone="muted">
-                        {t.n} {t.n === 1 ? 'question' : 'questions'}
-                      </Typography>
-                      <Typography as="h3" variant="h5">
-                        <CardLink asChild>
-                          <Link href={`/facts/#ch${t.n}`}>{t.title}</Link>
-                        </CardLink>
-                      </Typography>
-                    </Stack>
-                  </CardContent>
-                </Card>
+                <PointerSurface className="h-full rounded-xl">
+                  <Card className="h-full">
+                    <CardContent>
+                      <Stack gap="xs">
+                        <Typography variant="ui-sm" tone="muted">
+                          {t.n} {t.n === 1 ? 'question' : 'questions'}
+                        </Typography>
+                        <Typography as="h3" variant="h5">
+                          <CardLink asChild>
+                            <Link href={`/facts/#ch${t.n}`}>{t.title}</Link>
+                          </CardLink>
+                        </Typography>
+                      </Stack>
+                    </CardContent>
+                  </Card>
+                </PointerSurface>
               </Reveal>
             </GridItem>
           ))}
