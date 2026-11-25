@@ -1,0 +1,8 @@
+# Built by `npm run content` from the fact base, and by Expo.
+content/pack.json
+.expo/
+dist/
+expo-env.d.ts
+ios/
+android/
+*.tsbuildinfo
