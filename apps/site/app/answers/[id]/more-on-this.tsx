@@ -18,7 +18,13 @@ function read(id: string): boolean {
   }
 }
 
-export function MoreOnThis({ answerId, claim }: { answerId: string; claim: string }) {
+export function MoreOnThis({
+  answerId,
+  claim,
+}: {
+  answerId: string;
+  claim: string;
+}) {
   const [pressed, setPressed] = React.useState(false);
   React.useEffect(() => setPressed(read(answerId)), [answerId]);
 
@@ -38,5 +44,7 @@ export function MoreOnThis({ answerId, claim }: { answerId: string; claim: strin
     }
   };
 
-  return <InterestSignal topic={claim} pressed={pressed} onPressedChange={change} />;
+  return (
+    <InterestSignal topic={claim} pressed={pressed} onPressedChange={change} />
+  );
 }
