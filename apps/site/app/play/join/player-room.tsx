@@ -9,13 +9,12 @@ import {
 } from '@whylikedis/games';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Callout } from '@/components/ui/callout';
 import { AnswerPad, choiceKey } from '@/components/ui/games/answer-pad';
 import {
-  RoomCountdown,
-  RoomLobby,
+  LiveRoom,
   useRoom,
   useSecondsLeft,
 } from '@/components/ui/games/live-room';
@@ -116,7 +115,7 @@ function Room({ code }: { code: string }) {
     selfId ? code : null,
   );
   const [problem, setProblem] = useState<string | null>(null);
-  const { room, send } = useRoom({
+  const { room, send, now } = useRoom({
     transport,
     selfId: selfId ?? '',
     code,
@@ -129,17 +128,18 @@ function Room({ code }: { code: string }) {
   const inRoom =
     !!room && !!selfId && room.players.some((p) => p.id === selfId);
 
-  // A join can cross a dropped message: ask again until the host has us, a few times.
-  const tries = useRef(0);
+  // The join is sent again for about 15 s; past that, say so instead of spinning forever.
   useEffect(() => {
-    if (!joining || inRoom || problem || !selfId) return;
-    if (tries.current >= 5) return;
-    const t = setTimeout(() => {
-      tries.current++;
-      send({ type: 'join', playerId: selfId, name });
-    }, 2500);
+    if (!joining || inRoom || problem) return;
+    const t = setTimeout(
+      () =>
+        setProblem(
+          'The room did not answer. Check your connection and try again.',
+        ),
+      18_000,
+    );
     return () => clearTimeout(t);
-  });
+  }, [joining, inRoom, problem]);
 
   const join = (e: React.FormEvent) => {
     e.preventDefault();
@@ -147,7 +147,6 @@ function Room({ code }: { code: string }) {
     if (!clean || !selfId) return setProblem(REJECTED['name-empty']!);
     setProblem(null);
     saveName(clean);
-    tries.current = 0;
     setJoining(true);
     send({ type: 'join', playerId: selfId, name: clean });
   };
@@ -223,7 +222,7 @@ function Room({ code }: { code: string }) {
   return (
     <Stack gap="lg" data-phase={room.phase}>
       {header}
-      <InRoom room={room} selfId={selfId!} send={send} />
+      <InRoom room={room} selfId={selfId!} send={send} now={now} />
     </Stack>
   );
 }
@@ -232,10 +231,12 @@ function InRoom({
   room,
   selfId,
   send,
+  now,
 }: {
   room: RoomState;
   selfId: string;
   send: ReturnType<typeof useRoom>['send'];
+  now: () => number;
 }) {
   const standings = roomStandings(room);
   const me = standings.find((e) => e.id === selfId);
@@ -245,7 +246,7 @@ function InRoom({
   switch (room.phase) {
     case 'lobby':
       return (
-        <RoomLobby
+        <LiveRoom.Lobby
           players={room.players}
           selfId={selfId}
           hideAway
@@ -258,7 +259,7 @@ function InRoom({
           <Typography variant="ui" tone="muted">
             Get ready
           </Typography>
-          <RoomCountdown startsAt={room.startsAt} />
+          <LiveRoom.Countdown startsAt={room.startsAt} now={now} />
         </Stack>
       );
     case 'question':
@@ -266,6 +267,7 @@ function InRoom({
       return prompt ? (
         <Round
           room={room}
+          now={now}
           prompt={prompt}
           correct={room.phase === 'reveal' ? (solution?.correct ?? null) : null}
           selfId={selfId}
@@ -337,6 +339,7 @@ function InRoom({
 
 function Round({
   room,
+  now,
   prompt,
   correct,
   selfId,
@@ -344,6 +347,7 @@ function Round({
   after,
 }: {
   room: RoomState;
+  now: () => number;
   prompt: MatchPrompt;
   correct: string | null;
   selfId: string;
@@ -361,7 +365,10 @@ function Round({
       : picked?.round === room.round
         ? picked.id
         : null;
-  const left = useSecondsLeft(room.phase === 'question' ? room.endsAt : null);
+  const left = useSecondsLeft(
+    room.phase === 'question' ? room.endsAt : null,
+    now,
+  );
   return (
     <Stack gap="md">
       <Cluster gap="sm" className="justify-between">
@@ -372,6 +379,7 @@ function Round({
           <TimerRing
             seconds={prompt.seconds}
             deadline={room.endsAt}
+            now={now}
             size="sm"
           />
         )}

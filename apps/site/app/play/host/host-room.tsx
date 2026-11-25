@@ -17,14 +17,9 @@ import { Button } from '@/components/ui/button';
 import { Callout } from '@/components/ui/callout';
 import { AnswerPad, choiceKey } from '@/components/ui/games/answer-pad';
 import { JoinCode } from '@/components/ui/games/join-code';
-import { Leaderboard } from '@/components/ui/games/leaderboard';
-import {
-  RoomCountdown,
-  RoomHostControls,
-  RoomLobby,
-  useRoom,
-} from '@/components/ui/games/live-room';
+import { LiveRoom, useRoom } from '@/components/ui/games/live-room';
 import { Podium } from '@/components/ui/games/podium';
+import { Standings } from '@/components/ui/games/standings';
 import {
   createRoom,
   makeJoinCode,
@@ -203,7 +198,7 @@ function Stage({
   const standings = roomStandings(room);
 
   const controls = (
-    <RoomHostControls
+    <LiveRoom.HostControls
       room={room}
       send={sendWithRound}
       roundSeconds={MATCH_SECONDS}
@@ -254,7 +249,7 @@ function Stage({
               />
             )}
           </Stack>
-          <RoomLobby
+          <LiveRoom.Lobby
             players={room.players}
             onRemove={(id) => sendWithRound({ type: 'remove', playerId: id })}
             actions={controls}
@@ -269,7 +264,7 @@ function Stage({
               ? 'First round'
               : `Round ${room.round + 1} of ${room.rounds}`}
           </Typography>
-          <RoomCountdown startsAt={room.startsAt} size="stage" />
+          <LiveRoom.Countdown startsAt={room.startsAt} size="stage" />
           {controls}
         </Stack>
       )}
@@ -422,14 +417,15 @@ function RoundScreen({
       <Stack gap="md">
         {controls}
         {revealed && standings.length > 0 && (
-          <Leaderboard
-            caption="Standings"
-            showCaption
-            entries={standings.slice(0, 8).map((e) => ({
+          <Standings
+            caption={`After round ${prompt.round} of ${prompt.rounds}`}
+            entries={standings.map((e) => ({
               id: e.id,
               name: e.name,
               score: e.score,
+              gained: room.lastPoints[e.id] ?? 0,
             }))}
+            locale="en-US"
           />
         )}
       </Stack>

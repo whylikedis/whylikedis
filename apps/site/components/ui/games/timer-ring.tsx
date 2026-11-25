@@ -24,7 +24,8 @@ import * as React from 'react';
  *
  * ## Time
  *
- * `deadline` is a `Date.now()`-style timestamp; null shows a full, idle ring
+ * `deadline` is a `Date.now()`-style timestamp; pass `now` when it comes
+ * from another device's clock. null shows a full, idle ring
  * (before the round starts, or once the clock is stopped). The number is
  * rounded up, so it reads 1 until the very end, and `onExpire` fires once
  * when it reaches 0. Ticks are timers aligned to the next whole second, not
@@ -78,6 +79,8 @@ type TimerRingProps = Omit<React.ComponentProps<'div'>, 'children'> & {
   /** @default 'default' */
   size?: 'sm' | 'default' | 'lg';
   labels?: TimerRingLabels;
+  /** Your clock, corrected to the one that set `deadline` (e.g. `useRoom`'s `now`). @default Date.now */
+  now?: () => number;
 };
 
 const SIZE = { sm: 'size-10 text-sm', default: 'size-14 text-lg', lg: 'size-20 text-2xl' } as const;
@@ -91,6 +94,7 @@ function TimerRing({
   lowAt = 5,
   size = 'default',
   labels,
+  now: clock = Date.now,
   className,
   ...props
 }: TimerRingProps) {
@@ -102,6 +106,8 @@ function TimerRing({
   const said = React.useRef(new Set<number>());
   const onExpireRef = React.useRef(onExpire);
   onExpireRef.current = onExpire;
+  const clockRef = React.useRef(clock);
+  clockRef.current = clock;
 
   const total = Math.max(1, seconds) * 1000;
   const leftMs = deadline === null || now === null ? total : Math.max(0, deadline - now);
@@ -124,7 +130,7 @@ function TimerRing({
     }
     let timer: ReturnType<typeof setTimeout>;
     const tick = () => {
-      const t = Date.now();
+      const t = clockRef.current();
       setNow(t);
       const ms = deadline - t;
       if (ms <= 0) return;
@@ -158,7 +164,7 @@ function TimerRing({
   React.useEffect(() => {
     const arc = arcRef.current;
     if (!arc || deadline === null || reduced || typeof arc.animate !== 'function') return;
-    const ms = Math.max(0, deadline - Date.now());
+    const ms = Math.max(0, deadline - clockRef.current());
     const from = C * (1 - ms / total);
     const anim = arc.animate([{ strokeDashoffset: `${from}` }, { strokeDashoffset: `${C}` }], {
       duration: ms,
