@@ -42,8 +42,17 @@ export interface RealtimeRoomOptions {
   code: string;
   /** The broadcast event name. @default 'room' */
   event?: string;
-  /** Host only: the fewest ms between two state broadcasts. @default 400 */
-  stateEveryMs?: number;
+  /**
+   * Host only: the fewest ms between two state broadcasts, or a function of the number of
+   * players in the state, so a big room stays inside the message budget (each broadcast is
+   * one message per phone). @default (players) => Math.max(600, players * 35)
+   */
+  stateEveryMs?: number | ((players: number) => number);
+  /**
+   * Host only: send the last state again after this long without a new one, so a phone that
+   * lost a broadcast catches up without asking. 0 turns it off. @default 4000
+   */
+  resendEveryMs?: number;
   /** The link to the room went up or down. After a drop, a player's last `hello` is sent again. */
   onStatus?: (status: RoomLinkStatus) => void;
   /** Timers, for tests. */
@@ -76,7 +85,8 @@ export function realtimeRoomTransport<M extends RoomWireMessage>(
     open,
     code,
     event = 'room',
-    stateEveryMs = 400,
+    stateEveryMs = (players: number) => Math.max(600, players * 35),
+    resendEveryMs = 4000,
     onStatus,
     setTimer = (fn, ms) => setTimeout(fn, ms),
     clearTimer = (h) => clearTimeout(h as ReturnType<typeof setTimeout>),
@@ -147,15 +157,44 @@ export function realtimeRoomTransport<M extends RoomWireMessage>(
     }
   };
 
-  // Host state, at most once per stateEveryMs, the newest winning.
+  // Host state, at most once per stateEveryMs, the newest winning; the last one again when quiet.
   let pendingState: M | null = null;
+  let lastState: M | null = null;
   let lastStateAt = -Infinity;
   let timer: unknown = null;
-  const sendState = (message: M) => {
-    const wait = lastStateAt + stateEveryMs - now();
-    if (wait <= 0 && timer === null) {
+  let resendTimer: unknown = null;
+  const playersIn = (m: M) => {
+    const players = (m as { state?: { players?: unknown } }).state?.players;
+    return Array.isArray(players) ? players.length : 0;
+  };
+  const gap = (m: M) =>
+    typeof stateEveryMs === 'function'
+      ? stateEveryMs(playersIn(m))
+      : stateEveryMs;
+  const stamp = (m: M): M =>
+    'at' in (m as object) ? ({ ...m, at: now() } as M) : m;
+  const scheduleResend = () => {
+    if (resendEveryMs <= 0) return;
+    if (resendTimer !== null) clearTimer(resendTimer);
+    resendTimer = setTimer(() => {
+      resendTimer = null;
+      if (closed || !live || !lastState || timer !== null) return;
       lastStateAt = now();
-      raw(message);
+      // Re-stamped: the host's clock moves on, and phones use it to read deadlines.
+      raw(stamp(lastState));
+      scheduleResend();
+    }, resendEveryMs);
+  };
+  const emit = (message: M) => {
+    lastStateAt = now();
+    lastState = message;
+    raw(message);
+    scheduleResend();
+  };
+  const sendState = (message: M) => {
+    const wait = lastStateAt + gap(message) - now();
+    if (wait <= 0 && timer === null) {
+      emit(message);
       return;
     }
     pendingState = message;
@@ -165,10 +204,7 @@ export function realtimeRoomTransport<M extends RoomWireMessage>(
           timer = null;
           const next = pendingState;
           pendingState = null;
-          if (next && !closed) {
-            lastStateAt = now();
-            raw(next);
-          }
+          if (next && !closed) emit(next);
         },
         Math.max(0, wait),
       );
@@ -203,6 +239,7 @@ export function realtimeRoomTransport<M extends RoomWireMessage>(
       closed = true;
       live = false;
       if (timer !== null) clearTimer(timer);
+      if (resendTimer !== null) clearTimer(resendTimer);
       // The last state still goes out, so a podium is never lost to the throttle.
       if (pendingState) raw(pendingState);
       listeners.clear();

@@ -249,6 +249,8 @@ test('a host waits for both channels, and throttles state with the newest winnin
     role: 'host',
     open: rt.open,
     code: 'ABC',
+    stateEveryMs: 400,
+    resendEveryMs: 0,
     ...c,
   });
   const got: unknown[] = [];
@@ -288,6 +290,37 @@ test('a host waits for both channels, and throttles state with the newest winnin
     rt.sent.map((s) => (s.payload as { seq?: number }).seq ?? 'r'),
     [1, 'r', 3, 4, 5],
   );
+});
+
+test('a bigger room is paced further apart, and a quiet host sends its last state again', async () => {
+  const rt = fakeRealtime();
+  const c = clock();
+  const t = realtimeRoomTransport<{
+    kind: string;
+    seq?: number;
+    at?: number;
+    state?: { players: unknown[] };
+  }>({ role: 'host', open: rt.open, code: 'ABC', ...c });
+  rt.channels[names.up]!.status!('SUBSCRIBED');
+  rt.channels[names.down]!.status!('SUBSCRIBED');
+  const thirty = { players: Array.from({ length: 30 }, () => ({})) };
+  const seqs = () => rt.sent.map((s) => (s.payload as { seq: number }).seq);
+  t.send({ kind: 'state', seq: 1, at: 0, state: thirty });
+  c.advance(10);
+  t.send({ kind: 'state', seq: 2, at: 10, state: thirty });
+  c.advance(700);
+  assert.deepEqual(seqs(), [1]); // 30 players: 1,050 ms apart
+  c.advance(400);
+  assert.deepEqual(seqs(), [1, 2]);
+  // Nothing new for 4 s: the last state goes again, stamped with the host's clock now.
+  c.advance(4000);
+  assert.deepEqual(seqs(), [1, 2, 2]);
+  assert.equal((rt.sent[2]!.payload as { at: number }).at, c.now());
+  c.advance(4000);
+  assert.deepEqual(seqs(), [1, 2, 2, 2]);
+  t.close();
+  c.advance(10_000);
+  assert.equal(rt.sent.length, 4);
 });
 
 test('falls back to a websocket send without httpSend, and survives failed sends', async () => {
