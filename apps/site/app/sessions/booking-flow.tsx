@@ -28,9 +28,12 @@ import { Skeleton } from '@/components/ui/skeleton';
 import { Cluster, Stack } from '@/components/ui/stack';
 import { Textarea } from '@/components/ui/textarea';
 import { Typography } from '@/components/ui/typography';
+import { supabase } from '@/lib/supabase/client';
+import { AUTH_ENABLED } from '@/lib/supabase/config';
 
-// Bookings are not open yet: the times below are an example week, and the last step sends nothing.
-// When requests have somewhere to go, `send` posts the FormData there and the times come from it.
+// With Supabase configured, the last step saves the request (public.session_requests, insert only)
+// and the team is emailed about it. Without it, the flow is a preview that sends nothing. The times
+// are an example week until real availability exists.
 const ZONE = 'America/New_York';
 const TIMES = ['10:00', '13:00', '17:30', '19:00', '20:30'];
 const weekend = (d: string) => weekdayOf(d) === 6; // Saturday stays closed.
@@ -68,17 +71,45 @@ export function BookingFlow({ topics }: { topics: string[] }) {
   const [time, setTime] = React.useState<string | null>(null);
   const [who, setWho] = React.useState({ name: '', email: '' });
   const [sent, setSent] = React.useState(false);
+  const [sending, setSending] = React.useState(false);
+  const [failed, setFailed] = React.useState(false);
+
+  async function send(data: FormData) {
+    if (!AUTH_ENABLED) return setSent(true);
+    setSending(true);
+    setFailed(false);
+    const text = (k: string) => String(data.get(k) ?? '').trim() || null;
+    const { error } = await supabase()
+      .from('session_requests')
+      .insert({
+        for_whom: forWho,
+        topic: topic.trim() || null,
+        day: date,
+        time,
+        time_zone: ZONE,
+        name: who.name.trim(),
+        email: who.email.trim(),
+        notes: text('notes'),
+      });
+    setSending(false);
+    if (error) setFailed(true);
+    else setSent(true);
+  }
 
   if (!today) return <Skeleton variant="card" />;
 
   if (sent)
     return (
-      <Callout tone="info" title="Your request is ready">
+      <Callout
+        tone="info"
+        title={AUTH_ENABLED ? 'Request sent' : 'Your request is ready'}
+      >
         <Cluster gap="sm">
           <CelebrateCheck label="Done" tone="success" />
           <Typography>
-            Bookings open soon, so nothing was sent yet. Thank you for trying
-            it.
+            {AUTH_ENABLED
+              ? 'Thank you. We will write to you to confirm the time.'
+              : 'Bookings open soon, so nothing was sent yet. Thank you for trying it.'}
           </Typography>
         </Cluster>
       </Callout>
@@ -86,8 +117,9 @@ export function BookingFlow({ topics }: { topics: string[] }) {
 
   return (
     <MultiStepForm
-      labels={{ submit: 'Request the session' }}
-      onSubmit={() => setSent(true)}
+      labels={{ submit: 'Request the session', submitting: 'Sending…' }}
+      submitting={sending}
+      onSubmit={(data) => void send(data)}
     >
       <MultiStepFormStep
         id="who-for"
@@ -141,7 +173,7 @@ export function BookingFlow({ topics }: { topics: string[] }) {
       <MultiStepFormStep
         id="when"
         title="Pick a day and time"
-        description="Times are in Eastern Time. This is an example week while bookings are not open."
+        description="Times are in Eastern Time."
         validate={() =>
           !date || !time ? 'Pick a day and a time to go on.' : null
         }
@@ -183,7 +215,7 @@ export function BookingFlow({ topics }: { topics: string[] }) {
       <MultiStepFormStep
         id="details"
         title="Your details"
-        description="We would write to you here to confirm."
+        description="We use your name and email only to arrange this session."
       >
         <Grid gap="md">
           <GridItem span={12} mdSpan={6}>
@@ -246,6 +278,11 @@ export function BookingFlow({ topics }: { topics: string[] }) {
             { label: 'Email', value: who.email, step: 'details' },
           ]}
         />
+        {failed && (
+          <Callout tone="danger" title="That did not go through">
+            Please try again in a moment.
+          </Callout>
+        )}
       </MultiStepFormStep>
     </MultiStepForm>
   );

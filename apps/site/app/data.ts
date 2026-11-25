@@ -46,9 +46,19 @@ type Site = {
   standing: string;
 };
 
-export const site: Site = JSON.parse(
+// Docs written but held back from the site until the owners approve them. A held doc gets no page,
+// no share image and no link: the election pages wait for the owners to agree on them.
+const HELD_DOCS = new Set(['election-map']);
+
+const raw: Site = JSON.parse(
   readFileSync(path.join(process.cwd(), 'data', 'site.json'), 'utf8'),
 );
+export const site: Site = {
+  ...raw,
+  docs: Object.fromEntries(
+    Object.entries(raw.docs).filter(([doc]) => !HELD_DOCS.has(doc)),
+  ),
+};
 
 // The hosted site shows a card in full only once it is verified. SITE_PREVIEW=1 is the local preview.
 export const PREVIEW = process.env.SITE_PREVIEW === '1';

@@ -5,13 +5,7 @@ import { Badge } from '@/components/ui/badge';
 import { buttonVariants } from '@/components/ui/button-variants';
 import { Callout } from '@/components/ui/callout';
 import { CTASection } from '@/components/ui/patterns/cta-section';
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardLink,
-  CardTitle,
-} from '@/components/ui/card';
+import { Card, CardContent, CardLink } from '@/components/ui/card';
 import { CountUp } from '@/components/ui/effects/count-up';
 import { DrawOn } from '@/components/ui/effects/draw-on';
 import { Marker } from '@/components/ui/effects/marker';
@@ -100,13 +94,6 @@ function Talk() {
   const others = cards.filter((x) => x.claim !== c.claim).slice(0, 2);
   return (
     <Card>
-      <CardHeader>
-        <CardTitle>
-          <Typography as="h2" variant="h4">
-            Practice the talk
-          </Typography>
-        </CardTitle>
-      </CardHeader>
       <CardContent>
         <Stack gap="md">
           <PracticeTalk
@@ -175,13 +162,9 @@ function Hero() {
           </Stack>
         </GridItem>
         <GridItem span={12} lgSpan={5}>
-          <Card>
-            <CardContent>
-              <DrawOn stagger={110}>
-                <KitchenTable />
-              </DrawOn>
-            </CardContent>
-          </Card>
+          <DrawOn stagger={110}>
+            <KitchenTable />
+          </DrawOn>
         </GridItem>
       </Grid>
     </Section>
@@ -197,7 +180,6 @@ function PracticeSection() {
           <Reveal>
             <SectionHeader
               align="start"
-              eyebrowStyle="pill"
               eyebrow="Practice the talk"
               title="A real answer, line by line, with the source under every sentence"
               tagline={
@@ -250,7 +232,6 @@ function CheckIt() {
       <Reveal>
         <SectionHeader
           align="start"
-          eyebrowStyle="pill"
           eyebrow="Heard it? Check it."
           title="What they heard, and what the record shows"
           tagline="Each claim in the words of someone who makes it. Turn a card over to see the first lines of our answer, with the source for each."
@@ -308,11 +289,6 @@ function CheckIt() {
 // The record as an index: every topic, how many questions it holds, and the other ways in.
 const TOOLS = [
   [
-    '/election-map/',
-    'Election map',
-    'Israel’s elections for the 25th and 26th Knesset, place by place.',
-  ],
-  [
     '/questions/',
     'Questions we tested',
     'A hunch is a question until a source answers it.',
@@ -336,7 +312,6 @@ function Browse() {
       <Reveal>
         <SectionHeader
           align="start"
-          eyebrowStyle="pill"
           eyebrow="The record"
           title="Browse by topic"
           tagline="Every question we are working on, filed by topic, each with its sources."
@@ -346,9 +321,9 @@ function Browse() {
         <Grid gap="md">
           {topics.map((t, i) => (
             <GridItem span={12} mdSpan={6} lgSpan={4} key={t.n}>
-              <Reveal delay={(i % 3) * 80}>
-                <PointerSurface className="rounded-xl">
-                  <Card>
+              <Reveal delay={(i % 3) * 80} className="h-full">
+                <PointerSurface className="h-full rounded-xl">
+                  <Card className="h-full">
                     <CardContent>
                       <Stack gap="xs">
                         <Typography variant="ui-sm" tone="muted">
@@ -369,7 +344,7 @@ function Browse() {
         </Grid>
         <Grid gap="md">
           {TOOLS.map(([href, title, body]) => (
-            <GridItem span={12} mdSpan={4} key={href}>
+            <GridItem span={12} mdSpan={6} key={href}>
               <Card>
                 <CardContent>
                   <Stack gap="xs">
@@ -401,7 +376,6 @@ function HowItWorks() {
       <Reveal>
         <SectionHeader
           align="start"
-          eyebrowStyle="pill"
           eyebrow="How it works"
           title="From what they heard to what you say"
         />
@@ -434,6 +408,7 @@ function Numbers() {
           <StatGroup
             cols={3}
             layout="value-first"
+            surface="plain"
             stats={[
               {
                 value: <CountUp value={n.verified} />,
@@ -466,11 +441,10 @@ function WhereWeStand() {
       <Grid gap="xl">
         <GridItem span={12} lgSpan={4}>
           <Reveal>
-            <Stack gap="md">
+            <Stack gap="lg">
               <SectionHeader
                 align="start"
-                spacing="md"
-                eyebrowStyle="pill"
+                spacing="none"
                 eyebrow="Our position"
                 title="Where we stand"
                 id="where-we-stand"

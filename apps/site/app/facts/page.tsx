@@ -207,6 +207,7 @@ export default function Facts() {
         <StatGroup
           cols={3}
           layout="value-first"
+          surface="plain"
           stats={[
             { value: n.verified, label: 'checked by a second reader' },
             { value: n.cards - n.verified, label: 'still being checked' },
