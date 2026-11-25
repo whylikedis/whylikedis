@@ -1,11 +1,7 @@
 // "What would you say?": someone makes a claim about Israel; the player thinks of a reply, sees the
 // answer with its sources, and says honestly whether they had it. Daily (one shared card a day) and
 // practice (five, the ones not yet known first).
-import {
-  dailyItem,
-  seededShuffle,
-  type DayKey,
-} from '../../interlace/games/daily.ts';
+import { dailyItem, seededShuffle, type DayKey } from '../interlace/daily.ts';
 import type { Game, History } from '../engine/types.ts';
 import { WWYS } from '../store/player.ts';
 

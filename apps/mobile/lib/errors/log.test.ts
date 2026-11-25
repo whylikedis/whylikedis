@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
-import { memoryStorage } from '../store/persisted.ts';
+import { memoryStorage } from '@whylikedis/games';
 import { ERRORS_KEY, installErrorLog } from './log.ts';
 import { recentErrors, reportError, setReporter } from './report.ts';
 

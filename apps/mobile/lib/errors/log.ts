@@ -1,8 +1,8 @@
 // A crash log that costs nothing: the last reports are kept on the device, so a problem from an
 // earlier session (including the one that closed the app) can be read on the About screen and
 // shared by the player if they choose. Nothing is sent anywhere on its own.
-import type { KeyValue } from '../store/persisted.ts';
-import { createPersisted } from '../store/persisted.ts';
+import type { KeyValue } from '@whylikedis/games';
+import { createPersisted } from '@whylikedis/games';
 import {
   devLog,
   recentErrors,

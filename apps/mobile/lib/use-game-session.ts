@@ -10,8 +10,8 @@ import {
   step,
   summarize,
   type Session,
-} from './engine/session.ts';
-import { modeOf, type Game } from './engine/types.ts';
+} from '@whylikedis/games';
+import { modeOf, type Game } from '@whylikedis/games';
 import { usePlayer } from './player.tsx';
 
 export function useGameSession<Item extends { id: string }, Answer, Content>(
