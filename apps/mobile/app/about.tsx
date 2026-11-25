@@ -6,6 +6,7 @@ import Constants from 'expo-constants';
 import { useMemo } from 'react';
 import { Share } from 'react-native';
 import { Button, Card, Screen, Stack, Text } from '../interlace/native';
+import { ANALYTICS_NOTICE, ANALYTICS_ON } from '../lib/analytics';
 import { recentErrors } from '../lib/errors/report';
 import { cards, pack, updates } from '../lib/pack';
 import { startupMarks } from '../lib/perf';
@@ -63,6 +64,11 @@ export default function About() {
           label="Your progress"
           value={synced ? 'Synced' : 'On this phone only'}
         />
+        {ANALYTICS_ON ? (
+          <Text variant="caption" tone="muted">
+            {ANALYTICS_NOTICE}
+          </Text>
+        ) : null}
       </Card>
 
       <Card>

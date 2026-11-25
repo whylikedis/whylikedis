@@ -23,7 +23,12 @@ import {
 import type { GameId, History, Score } from '@whylikedis/games';
 import { reportError } from './errors/report.ts';
 import { mark } from './perf.ts';
-import { emptyPlayer, playerStore, type PlayerDoc } from '@whylikedis/games';
+import {
+  emptyPlayer,
+  playerStore,
+  type GoalId,
+  type PlayerDoc,
+} from '@whylikedis/games';
 import { NEVER_SYNCED, syncOnce, type SyncRemote } from '@whylikedis/games';
 
 type Where = { game: GameId; mode: string; day: DayKey };
@@ -37,9 +42,15 @@ type Player = {
   markUpdatesSeen: (ids: readonly string[]) => void;
   eventCount: number;
   synced: boolean;
+  // The whole log, for progress (XP, goal) read with @whylikedis/games' rules.
+  events: readonly GameEvent[];
+  // The daily goal the player picked; undefined means the default.
+  goal: GoalId | undefined;
+  setGoal: (goal: GoalId) => void;
 };
 
 const empty = historyOf([]);
+const NO_EVENTS: readonly GameEvent[] = [];
 const Ctx = createContext<Player>({
   ready: false,
   history: empty,
@@ -49,6 +60,9 @@ const Ctx = createContext<Player>({
   markUpdatesSeen: () => {},
   eventCount: 0,
   synced: false,
+  events: [],
+  goal: undefined,
+  setGoal: () => {},
 });
 
 // `remote` is where the log syncs. None exists until there are accounts; with none, nothing
@@ -121,6 +135,12 @@ export function PlayerProvider({
           ? { ...cur, seenUpdates: [...(cur.seenUpdates ?? []), ...fresh] }
           : cur;
       }),
+    [update],
+  );
+
+  const setGoal = useCallback(
+    (goal: GoalId) =>
+      update((cur) => (cur.goal === goal ? cur : { ...cur, goal })),
     [update],
   );
 
@@ -210,8 +230,11 @@ export function PlayerProvider({
       markUpdatesSeen,
       eventCount: doc?.events.length ?? 0,
       synced: !!doc?.sync,
+      events: events ?? NO_EVENTS,
+      goal: doc?.goal,
+      setGoal,
     }),
-    [doc, history, recordAnswer, recordRound, markUpdatesSeen],
+    [doc, events, history, recordAnswer, recordRound, markUpdatesSeen, setGoal],
   );
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;
 }

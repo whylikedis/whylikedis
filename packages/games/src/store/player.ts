@@ -5,6 +5,7 @@ import { eventId, isGameEvent } from '../engine/events.ts';
 import type { SyncState } from '../sync/sync.ts';
 import type { KeyValue } from './persisted.ts';
 import { createPersisted } from './persisted.ts';
+import { isGoalId, type GoalId } from '../progress/progress.ts';
 
 export type PlayerDoc = {
   version: 2;
@@ -15,6 +16,8 @@ export type PlayerDoc = {
   sync?: SyncState;
   // Ids of the Updates the player has seen, for the tab's unread badge.
   seenUpdates?: string[];
+  // The daily goal the player picked (../progress/progress.ts GOALS). Absent means the default.
+  goal?: GoalId;
 };
 
 export const PLAYER_KEY = 'wld.player';
@@ -103,6 +106,7 @@ export function validatePlayer(v: unknown): PlayerDoc | null {
     doc.seenUpdates = d.seenUpdates.filter(
       (id): id is string => typeof id === 'string',
     );
+  if (isGoalId(d.goal)) doc.goal = d.goal;
   return doc;
 }
 

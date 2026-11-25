@@ -31,7 +31,13 @@ const FROM = path.resolve(
   process.argv[2] ?? path.join(APP, '../../../interlace'),
 );
 const OUT = path.join(APP, 'interlace');
-const MODELS = ['daily.ts', 'closer-model.ts', 'streak-model.ts'];
+const MODELS = [
+  'daily.ts',
+  'closer-model.ts',
+  'streak-model.ts',
+  'progress-model.ts',
+  'share-model.ts',
+];
 
 if (!existsSync(path.join(FROM, 'packages/native/src'))) {
   console.error(
