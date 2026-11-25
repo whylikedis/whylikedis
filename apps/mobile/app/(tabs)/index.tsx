@@ -6,6 +6,7 @@ import { useMemo } from 'react';
 import { dayKey } from '../../interlace/games/daily';
 import {
   Badge,
+  Button,
   Card,
   Screen,
   Stack,
@@ -91,6 +92,15 @@ export default function Play() {
           </Text>
         </Card>
       ) : null}
+
+      <Button
+        variant="ghost"
+        size="sm"
+        onPress={() => router.push('/about')}
+        testID="about"
+      >
+        About this app
+      </Button>
     </Screen>
   );
 }

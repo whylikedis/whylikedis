@@ -1,6 +1,9 @@
 // The app's frame: gestures, safe areas, the theme and the player's state, then the screens. The
 // splash stays up until the player's state has loaded, so no screen ever draws an empty streak
-// and then jumps. Uncaught errors are reported, and a crashing screen shows ScreenError.
+// and then jumps. Uncaught errors are reported and kept on the device, and a crashing screen shows
+// ScreenError. lib/perf is imported first so startup is timed from as early as possible.
+import { mark } from '../lib/perf';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Stack, type ErrorBoundaryProps } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { useEffect } from 'react';
@@ -9,11 +12,13 @@ import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { InterlaceProvider, useTheme } from '../interlace/native';
 import { ScreenError } from '../lib/errors/fallback';
+import { installErrorLog } from '../lib/errors/log';
 import { installGlobalHandler } from '../lib/errors/report';
 import { PlayerProvider, usePlayer } from '../lib/player';
 import { brand } from '../lib/theme';
 
 installGlobalHandler();
+installErrorLog(AsyncStorage).catch(() => {});
 SplashScreen.preventAutoHideAsync().catch(() => {});
 
 // The last line of defence: it renders in place of this layout, outside its providers, so it
@@ -32,7 +37,9 @@ function Screens() {
   const theme = useTheme();
   const { ready } = usePlayer();
   useEffect(() => {
-    if (ready) SplashScreen.hideAsync().catch(() => {});
+    if (!ready) return;
+    SplashScreen.hideAsync().catch(() => {});
+    requestAnimationFrame(() => mark('first screen'));
   }, [ready]);
   if (!ready) return null;
   return (
@@ -58,6 +65,7 @@ function Screens() {
           }}
         />
         <Stack.Screen name="answers/[id]" options={{ title: '' }} />
+        <Stack.Screen name="about" options={{ title: 'About this app' }} />
       </Stack>
     </>
   );

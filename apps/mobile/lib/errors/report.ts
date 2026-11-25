@@ -16,7 +16,7 @@ export type Reporter = (report: ErrorReport) => void;
 const RECENT_MAX = 25;
 const recent: ErrorReport[] = [];
 
-const devLog: Reporter = (r) => {
+export const devLog: Reporter = (r) => {
   // `__DEV__` is defined by React Native; absent in Node tests.
   if ((globalThis as { __DEV__?: boolean }).__DEV__)
     console.warn(`[${r.where}] ${r.message}`);
@@ -59,6 +59,12 @@ export function reportError(
 }
 
 export const recentErrors = (): readonly ErrorReport[] => recent.slice();
+
+// Puts reports kept from an earlier session in front of this session's, oldest first.
+export function restoreRecent(earlier: readonly ErrorReport[]): void {
+  recent.unshift(...earlier);
+  while (recent.length > RECENT_MAX) recent.shift();
+}
 
 type GlobalHandler = (error: unknown, isFatal?: boolean) => void;
 type ErrorUtilsLike = {
