@@ -8,3 +8,5 @@ export * from './store/persisted.ts';
 export * from './store/player.ts';
 export * from './sync/sync.ts';
 export * from './games/what-would-you-say.ts';
+export * from './progress/progress.ts';
+export * from './progress/round.ts';

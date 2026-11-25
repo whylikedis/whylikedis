@@ -17,11 +17,14 @@
     },
     "plugins": [
       "expo-router",
+      "expo-notifications",
       [
         "expo-splash-screen",
         {
           "backgroundColor": "#f7f4ee",
-          "dark": { "backgroundColor": "#191814" }
+          "dark": {
+            "backgroundColor": "#191814"
+          }
         }
       ]
     ],

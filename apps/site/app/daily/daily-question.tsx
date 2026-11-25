@@ -8,7 +8,12 @@ import {
   dayKey,
   daysBetween,
   FIRST_DAY,
+  GOALS,
+  isGoalId,
+  progressBetween,
+  PROTECTION,
   puzzleNumber,
+  STREAK_MILESTONES,
   whatWouldYouSay,
   WWYS,
   type DayKey,
@@ -22,7 +27,12 @@ import {
   DailyPuzzle,
   DailyPuzzleCountdown,
 } from '@/components/ui/games/daily-puzzle';
+import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { RecallCard } from '@/components/ui/games/recall-card';
+import { LevelMeter } from '@/components/ui/games/level-meter';
+import { Milestones } from '@/components/ui/games/milestones';
+import { ReminderOffer } from '@/components/ui/games/reminder-offer';
+import { RoundSummary } from '@/components/ui/games/round-summary';
 import { ShareCard } from '@/components/ui/games/share-card';
 import { Streak } from '@/components/ui/games/streak';
 import { summarizeStreak } from '@/components/ui/games/streak-model';
@@ -31,6 +41,7 @@ import { Typography } from '@/components/ui/typography';
 import { capture } from '@/lib/analytics';
 import { usePlayer } from '@/lib/player';
 import { SESSIONS_DESCRIPTION } from '../sessions/copy';
+import { CardAnswer } from './card-answer';
 
 export type DailyCard = {
   id: string;
@@ -53,6 +64,8 @@ const RATINGS = [
 ];
 const SHARE_MARKS = { 'had-it': '🟩', 'not-yet': '🟨' };
 const SHARE_WORDS = { 'had-it': 'had it', 'not-yet': 'not yet' };
+// Whether the reader added or dismissed the calendar reminder. Either way it is not offered again.
+const REMINDER_KEY = 'wld.reminder';
 
 export function DailyQuestion({
   cards,
@@ -92,7 +105,43 @@ export function DailyQuestion({
     : null;
   const [revealed, setRevealed] = useState(false);
   const rated = storedRating !== null;
-  const streak = summarizeStreak(played, day);
+  // Today's progress: what today's play changed against the log before today. The rules are
+  // @whylikedis/games' (the app reads the same), the arithmetic Interlace's.
+  const progress = useMemo(
+    () =>
+      progressBetween(
+        player.events.filter((e) => e.day < day),
+        player.events,
+        day,
+        player.goal,
+      ),
+    [player.events, day, player.goal],
+  );
+  const streak = progress.streak;
+  const milestone = progress.milestones.at(-1);
+  // True only for the rating made on this visit, so a reload does not celebrate again.
+  const [justRated, setJustRated] = useState(false);
+  const [reminder, setReminder] = useState<'unknown' | 'offer' | 'closed'>(
+    'unknown',
+  );
+  useEffect(() => {
+    let v: string | null = null;
+    try {
+      v = window.localStorage.getItem(REMINDER_KEY);
+    } catch {
+      // Storage blocked: offer it; dismissing then lasts for this page only.
+    }
+    setReminder(v ? 'closed' : 'offer');
+  }, []);
+  // Added stays on screen to say so; dismissed goes at once. Neither is offered again.
+  const closeReminder = (how: 'added' | 'dismissed') => {
+    if (how === 'dismissed') setReminder('closed');
+    try {
+      window.localStorage.setItem(REMINDER_KEY, how);
+    } catch {
+      // Kept for this page only.
+    }
+  };
 
   // One "viewed" per day the page shows, once the history has loaded.
   const viewed = useRef<string | null>(null);
@@ -107,8 +156,32 @@ export function DailyQuestion({
       days_since_last_play: last ? daysBetween(last, day) : null,
       streak: streak.current,
       already_played_today: played.includes(day),
+      level: progress.xp.level.level,
+      shields: streak.shields,
     });
-  }, [player.ready, card, day, played, number, streak]);
+  }, [player.ready, card, day, played, number, streak, progress]);
+
+  // Once the rating made on this visit is in the log, say what it earned, once.
+  const told = useRef(false);
+  useEffect(() => {
+    if (!justRated || told.current || !played.includes(day)) return;
+    told.current = true;
+    capture('xp_earned', {
+      source: 'daily',
+      xp: progress.xp.gained,
+      total: progress.xp.total,
+      level: progress.xp.level.level,
+    });
+    if (progress.xp.levelsUp > 0)
+      capture('level_up', { level: progress.xp.level.level });
+    if (progress.goal.metNow)
+      capture('goal_met', {
+        goal: player.goal ?? 'light',
+        xp: progress.goal.earned,
+      });
+    for (const value of progress.milestones)
+      capture('milestone_reached', { kind: 'streak', value });
+  }, [justRated, played, day, progress, player.goal]);
 
   const reveal = () => {
     setRevealed(true);
@@ -122,8 +195,14 @@ export function DailyQuestion({
     player.recordAnswer(where, card.id, score);
     player.recordRound(where, score, 1);
     capture('daily_rated', { puzzle: number, rating });
+    setJustRated(true);
     if (!played.includes(day)) {
-      const next = summarizeStreak([...played, day], day);
+      const next = summarizeStreak(
+        [...played, day],
+        day,
+        undefined,
+        PROTECTION,
+      );
       capture('streak_extended', { length: next.current, best: next.best });
     }
   };
@@ -183,31 +262,7 @@ export function DailyQuestion({
                       hint: 'What would you say back? Think of your reply, then check it.',
                       rate: 'Did you have it?',
                     }}
-                    answer={
-                      <Stack gap="sm">
-                        <Typography variant="h3" as="p">
-                          {card.claim}
-                        </Typography>
-                        {card.lines.map((line, i) => (
-                          <Typography key={i} variant="body">
-                            {line}
-                          </Typography>
-                        ))}
-                        {card.sources.length ? (
-                          <Typography variant="caption" tone="muted">
-                            Sources: {card.sources.join(', ')}
-                          </Typography>
-                        ) : null}
-                        {card.verified ? (
-                          <Link
-                            href={`/answers/${card.id}/`}
-                            className="text-primary text-sm font-medium underline underline-offset-4"
-                          >
-                            The full answer and every quote
-                          </Link>
-                        ) : null}
-                      </Stack>
-                    }
+                    answer={<CardAnswer card={card} />}
                   />
                 </Stack>
               </CardContent>
@@ -222,23 +277,40 @@ export function DailyQuestion({
 
       {rated && card ? (
         <Stack gap="lg">
-          <Card>
-            <CardContent>
-              <Streak played={played} today={day} />
-            </CardContent>
-          </Card>
-          <ShareCard
-            title="What would you say?"
-            number={number > 0 ? number : undefined}
-            results={[storedRating!]}
-            symbols={SHARE_MARKS}
-            bandLabels={SHARE_WORDS}
-            streak={streak.current}
-            url={url}
-            onShare={(method) =>
-              capture('daily_shared', { puzzle: number, method })
+          <RoundSummary
+            title={justRated ? 'Today’s question, done' : 'You’ve played today'}
+            description={
+              storedRating === 'had-it'
+                ? 'You had it. A new one is waiting tomorrow.'
+                : 'Not yet, and that is the honest answer. It comes back in practice.'
             }
-          />
+            xp={progress.xp.gained}
+            goal={{ earned: progress.goal.earned, goal: progress.goal.xp }}
+            streak={{ current: streak.current, extended: streak.extended }}
+            highlight={progress.highlight}
+            celebrate={justRated}
+            labels={{ xp: justRated ? 'XP earned' : 'XP today' }}
+          >
+            <ShareCard
+              title="What would you say?"
+              number={number > 0 ? number : undefined}
+              results={[storedRating!]}
+              symbols={SHARE_MARKS}
+              bandLabels={SHARE_WORDS}
+              note={
+                milestone !== undefined ? `${milestone}-day streak` : undefined
+              }
+              streak={milestone !== undefined ? undefined : streak.current}
+              url={url}
+              onShare={(method) =>
+                capture('daily_shared', {
+                  puzzle: number,
+                  method,
+                  kind: milestone !== undefined ? 'milestone' : 'result',
+                })
+              }
+            />
+          </RoundSummary>
           <DailyPuzzleCountdown onNextDay={() => setDay(dayKey())} />
           <Stack gap="sm">
             <Typography variant="h3" as="h2">
@@ -261,6 +333,18 @@ export function DailyQuestion({
               </Button>
               <Button
                 variant="outline"
+                render={<Link href="/daily/practice/" />}
+                onClick={() =>
+                  capture('daily_next_tapped', {
+                    puzzle: number,
+                    target: 'practice',
+                  })
+                }
+              >
+                Practice round
+              </Button>
+              <Button
+                variant="ghost"
                 render={<Link href="/facts/" />}
                 onClick={() =>
                   capture('daily_next_tapped', {
@@ -273,6 +357,113 @@ export function DailyQuestion({
               </Button>
             </Cluster>
           </Stack>
+        </Stack>
+      ) : null}
+
+      {player.ready && player.events.length > 0 ? (
+        <Stack gap="md">
+          <Typography variant="h3" as="h2">
+            Your progress
+          </Typography>
+          <Card>
+            <CardContent>
+              <Stack gap="lg">
+                <LevelMeter
+                  xp={progress.xp.total}
+                  gained={justRated ? progress.xp.gained : 0}
+                />
+                <Streak played={played} today={day} protection={PROTECTION} />
+                <Milestones
+                  value={streak.current}
+                  steps={STREAK_MILESTONES}
+                  show={4}
+                  labels={{
+                    list: 'Streak milestones',
+                    step: (n, f) => (n === 1 ? '1 day' : `${f} days`),
+                    next: (left, step) =>
+                      `${left} more ${left === '1' ? 'day' : 'days'} to ${step}`,
+                  }}
+                />
+              </Stack>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardContent>
+              <Stack gap="md">
+                <Stack gap="xs">
+                  <Typography variant="h4" as="h3" id="daily-goal">
+                    Your daily goal
+                  </Typography>
+                  <Typography variant="ui-sm" tone="muted">
+                    Today’s question is worth {GOALS[0].xp} XP, and each
+                    practice answer 5 more.
+                  </Typography>
+                </Stack>
+                <RadioGroup
+                  name="goal"
+                  value={player.goal ?? GOALS[0].id}
+                  onValueChange={(v) => {
+                    const from = player.goal ?? GOALS[0].id;
+                    if (!isGoalId(v) || v === from) return;
+                    capture('goal_changed', { goal: v, from });
+                    player.setGoal(v);
+                  }}
+                  aria-labelledby="daily-goal"
+                >
+                  {GOALS.map((g) => (
+                    <Typography as="label" key={g.id}>
+                      <Cluster gap="sm" align="start">
+                        <RadioGroupItem value={g.id} />
+                        <Stack gap="xs">
+                          <Typography as="span" variant="ui">
+                            {g.label}, {g.xp} XP
+                          </Typography>
+                          <Typography as="span" variant="ui-sm" tone="muted">
+                            {g.detail}
+                          </Typography>
+                        </Stack>
+                      </Cluster>
+                    </Typography>
+                  ))}
+                </RadioGroup>
+                <Cluster gap="sm">
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    render={<Link href="/daily/practice/" />}
+                    onClick={() =>
+                      capture('daily_next_tapped', {
+                        puzzle: number,
+                        target: 'practice',
+                      })
+                    }
+                  >
+                    Practice round
+                  </Button>
+                </Cluster>
+              </Stack>
+            </CardContent>
+          </Card>
+          {reminder === 'offer' && played.length >= 2 ? (
+            <ReminderOffer
+              event="What would you say? Today’s question"
+              eventDescription="One thing people say about Israel, and the answer with its sources. Two minutes."
+              url={url}
+              uid="daily-question@whylikedis"
+              fileName="whylikedis-daily.ics"
+              labels={{
+                body: 'Add a daily reminder to your own calendar. Nothing is sent to us, and you can remove it there any time.',
+              }}
+              onAdd={(time) => {
+                capture('reminder_added', { hour: Number(time.slice(0, 2)) });
+                closeReminder('added');
+              }}
+              onDismiss={() => {
+                capture('reminder_dismissed', {});
+                closeReminder('dismissed');
+              }}
+            />
+          ) : null}
         </Stack>
       ) : null}
     </Stack>

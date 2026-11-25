@@ -17,6 +17,8 @@ export interface ShareTextInput {
   /** Points scored, and out of how many. */
   score?: number;
   maxScore?: number;
+  /** One line of news after the marks, for a milestone ("7-day streak", "Level 5"). */
+  note?: string;
   /** Current streak; left out when 0 or missing. */
   streak?: number;
   url?: string;
@@ -48,6 +50,7 @@ export function shareText(input: ShareTextInput): string {
   const score =
     input.score === undefined ? '' : input.maxScore === undefined ? ` ${input.score}` : ` ${input.score}/${input.maxScore}`;
   const lines = [head, `${marks}${score}`.trimStart()];
+  if (input.note) lines.push(input.note);
   if (input.streak) lines.push(`${input.streakSymbol ?? '🔥'} ${input.streak}`);
   if (input.url) lines.push(input.url);
   return lines.join('\n');
@@ -65,6 +68,10 @@ export function shareText(input: ShareTextInput): string {
  *   🟩🟨🎯 240/300
  *   🔥 6
  *   https://example.com/play
+ *
+ * `note` adds one line of news ("7-day streak") after the marks; a share
+ * with no rounds (a milestone) keeps an empty marks line, so the news
+ * stands apart from the title.
  *
  * ## Marks
  *

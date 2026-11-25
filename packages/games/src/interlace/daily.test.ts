@@ -17,3 +17,19 @@ test("the package's daily.ts is the app's synced Interlace copy", () => {
   );
   assert.equal(here, app);
 });
+
+// The streak and progress arithmetic, the same way: the app's synced copies, with the one import
+// written with its extension so Node runs it.
+for (const name of ['streak-model', 'progress-model']) {
+  test(`the package's ${name}.ts is the app's synced Interlace copy`, () => {
+    const here = readFileSync(new URL(`./${name}.ts`, import.meta.url), 'utf8');
+    const app = readFileSync(
+      new URL(
+        `../../../../apps/mobile/interlace/games/${name}.ts`,
+        import.meta.url,
+      ),
+      'utf8',
+    );
+    assert.equal(here, app.replace("from './daily';", "from './daily.ts';"));
+  });
+}

@@ -9,20 +9,31 @@ import {
   useLocalSearchParams,
   type ErrorBoundaryProps,
 } from 'expo-router';
-import { useCallback, useMemo } from 'react';
-import { View } from 'react-native';
+import { useCallback, useEffect, useMemo, useRef } from 'react';
+import { Share, View } from 'react-native';
+import { shareText } from '../../../interlace/games/share-model';
 import {
   Badge,
   Button,
   Card,
+  LevelMeter,
   Reveal,
+  RoundSummary,
   Screen,
   Stack,
   StreakStrip,
   Text,
 } from '../../../interlace/native';
+import { capture } from '../../../lib/analytics';
 import { ScreenError } from '../../../lib/errors/fallback';
-import { whatWouldYouSay, type Rating } from '@whylikedis/games';
+import {
+  FIRST_DAY,
+  PROTECTION,
+  progressBetween,
+  puzzleNumber,
+  whatWouldYouSay,
+  type Rating,
+} from '@whylikedis/games';
 import { streakLabel } from '../../../lib/games/labels';
 import { cards, shortName } from '../../../lib/pack';
 import { usePlayer } from '../../../lib/player';
@@ -36,7 +47,9 @@ export function ErrorBoundary(props: ErrorBoundaryProps) {
 
 export default function Round() {
   const { mode } = useLocalSearchParams<{ mode: string }>();
-  const { history } = usePlayer();
+  const { history, events, goal } = usePlayer();
+  // The log as it was when the round began, so the summary shows what this round changed.
+  const start = useRef(events).current;
   const {
     session,
     item: card,
@@ -73,8 +86,140 @@ export default function Round() {
     [card],
   );
 
+  const finished = !card && session.items.length > 0;
+  const progress = useMemo(
+    () => (finished ? progressBetween(start, events, day, goal) : null),
+    [finished, start, events, day, goal],
+  );
+
+  // Once, when the round is in the log: what it earned, and a tap on the phone for news.
+  const told = useRef(false);
+  useEffect(() => {
+    if (!progress || told.current || progress.xp.gained === 0) return;
+    told.current = true;
+    capture('round_finished', {
+      mode: session.mode.id,
+      items: summary.answered,
+      points: summary.points,
+      xp: progress.xp.gained,
+    });
+    capture('xp_earned', {
+      source: session.mode.id,
+      xp: progress.xp.gained,
+      total: progress.xp.total,
+      level: progress.xp.level.level,
+    });
+    if (progress.xp.levelsUp > 0)
+      capture('level_up', { level: progress.xp.level.level });
+    if (progress.goal.metNow)
+      capture('goal_met', { goal: goal ?? 'light', xp: progress.goal.earned });
+    for (const value of progress.milestones)
+      capture('milestone_reached', { kind: 'streak', value });
+    if (progress.highlight)
+      Haptics.notificationAsync(Haptics.NotificationFeedbackType.Success).catch(
+        () => {},
+      );
+  }, [progress, session.mode.id, summary, goal]);
+
+  const share = useCallback(() => {
+    if (!progress) return;
+    const milestone = progress.milestones.at(-1);
+    const n = puzzleNumber(day, FIRST_DAY);
+    const message = shareText({
+      title: 'What would you say?',
+      number: daily && n > 0 ? n : undefined,
+      results: session.answered.map((a) =>
+        a.score.points >= a.score.max ? 'had-it' : 'not-yet',
+      ),
+      symbols: { 'had-it': '🟩', 'not-yet': '🟨' },
+      note: milestone ? `${milestone}-day streak` : undefined,
+      streak: milestone ? undefined : progress.streak.current,
+      url: 'https://www.whylikedis.fyi/daily/',
+    });
+    Share.share({ message })
+      .then((r) => {
+        if (r.action === Share.sharedAction)
+          capture('shared', {
+            kind: milestone ? 'milestone' : 'result',
+            mode: session.mode.id,
+          });
+      })
+      .catch(() => {});
+  }, [progress, day, daily, session]);
+
   if (!card) {
     const total = session.items.length;
+    if (progress) {
+      return (
+        <Screen scroll>
+          <RoundSummary
+            title={daily ? "Today's question, done" : 'Round done'}
+            description={
+              daily
+                ? summary.perfect
+                  ? 'You had it. A new one is waiting tomorrow.'
+                  : 'Not yet, and that is the honest answer. It comes back in practice.'
+                : `You had ${summary.points} of ${total}. ${
+                    summary.perfect
+                      ? 'Every one.'
+                      : 'The ones you did not get come back first next time.'
+                  }`
+            }
+            xp={progress.xp.gained}
+            goal={{
+              earned: progress.goal.earned,
+              earnedBefore: progress.goal.earnedBefore,
+              goal: progress.goal.xp,
+            }}
+            streak={
+              daily
+                ? {
+                    current: progress.streak.current,
+                    extended: progress.streak.extended,
+                  }
+                : undefined
+            }
+            highlight={progress.highlight}
+          >
+            <Card>
+              <LevelMeter xp={progress.xp.total} gained={progress.xp.gained} />
+            </Card>
+            {daily ? (
+              <Card>
+                <StreakStrip
+                  played={history.playedDays(game.id, 'daily')}
+                  today={day}
+                  protection={PROTECTION}
+                  labels={{ run: streakLabel }}
+                />
+              </Card>
+            ) : null}
+            <Stack gap="sm">
+              <Button
+                variant="highlight"
+                size="lg"
+                block
+                onPress={share}
+                testID="round-share"
+              >
+                {progress.milestones.length
+                  ? 'Share your streak'
+                  : 'Share your result'}
+              </Button>
+              <Button
+                variant="outline"
+                size="lg"
+                block
+                onPress={() => router.back()}
+                testID="round-done"
+              >
+                Done
+              </Button>
+            </Stack>
+          </RoundSummary>
+        </Screen>
+      );
+    }
     return (
       <Screen scroll>
         <Stack gap="lg" flex={1} justify="center">

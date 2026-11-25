@@ -9,6 +9,7 @@ import {
   playerStore,
   type GameEvent,
   type GameId,
+  type GoalId,
   type History,
   type KeyValue,
   type PlayerDoc,
@@ -46,6 +47,9 @@ export type WebPlayer = {
   events: readonly GameEvent[];
   recordAnswer: (w: Where, item: string, score: Score) => void;
   recordRound: (w: Where, score: Score, items: number) => void;
+  // The daily goal the player picked; undefined means the default.
+  goal: GoalId | undefined;
+  setGoal: (goal: GoalId) => void;
 };
 
 const store = () => playerStore(browserStorage);
@@ -117,6 +121,16 @@ export function usePlayer(): WebPlayer {
     [append],
   );
 
+  const setGoal = useCallback(
+    (goal: GoalId) => {
+      const next = { ...(ref.current ?? emptyPlayer()), goal };
+      ref.current = next;
+      setDoc(next);
+      void persisted.save(next).catch(() => {});
+    },
+    [persisted],
+  );
+
   const events = doc?.events;
   const history = useMemo(() => historyOf(events ?? []), [events]);
   return {
@@ -125,5 +139,7 @@ export function usePlayer(): WebPlayer {
     events: events ?? [],
     recordAnswer,
     recordRound,
+    goal: doc?.goal,
+    setGoal,
   };
 }
