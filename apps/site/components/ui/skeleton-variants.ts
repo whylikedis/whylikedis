@@ -178,3 +178,8 @@ export const SKELETON_VARIANT_CLASSES: Record<SkeletonVariant, string> = {
  * the codebase resolves to a value in this array. Typos and renames fail
  * the PR at CI time, complementing the dev-time TypeScript check.
  */
+
+// @interlace/skeleton-variants v2.1.0 — Interlace design system.
+// Docs, props and live preview: https://ds.interlace.tools/c/skeleton-variants
+// What changed since: https://ds.interlace.tools/c/skeleton-variants#history
+// Generated banner — keep it, the upgrade diff reads this version.
