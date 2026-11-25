@@ -73,10 +73,28 @@ jobs:
       - name: The app's engine, store and games tests, and every package's types
         run: npx turbo run test typecheck
 
+  interlace:
+    name: Interlace files
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Interlace main, with the history of its built registry
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: ofri-peretz/interlace
+          ref: main
+          path: .interlace
+          fetch-depth: 0
+          sparse-checkout: apps/registry/public/r
+          persist-credentials: false
+      - name: Every vendored Interlace file is one Interlace main shipped
+        run: node apps/site/interlace-vendored.mjs .interlace
+
   quality-gate:
     name: Quality Gate
     if: always()
-    needs: [gate, markdown, lockfile, build, app]
+    needs: [gate, markdown, lockfile, build, app, interlace]
     runs-on: ubuntu-latest
     timeout-minutes: 2
     steps:
