@@ -98,3 +98,35 @@ test('answer lines carry only the sources the reviewer tied to them', () => {
 test('the election map stays held', () => {
   assert.equal(HELD_DOCS.has('election-map'), true);
 });
+
+test('updates list verified answers only, newest first, dated by their last review', () => {
+  const s = site([
+    card({
+      id: 'old',
+      claim: 'Old?',
+      status: 'verified',
+      review: {
+        skeptic: { date: '2026-11-01' },
+        citer: { date: '2026-11-03' },
+      },
+    }),
+    card({
+      id: 'new',
+      claim: 'New?',
+      status: 'verified',
+      review: { skeptic: { date: '2026-11-20' } },
+    }),
+    card({ id: 'undated', claim: 'Undated?', status: 'verified' }),
+    card({
+      id: 'draft',
+      claim: 'Draft?',
+      review: { skeptic: { date: '2026-11-24' } },
+    }),
+  ]);
+  const ids = (p: ReturnType<typeof appPack>) =>
+    p.updates.map((u) => u.target.id);
+  assert.deepEqual(ids(appPack(s)), ['new', 'old']);
+  assert.equal(appPack(s).updates[1].date, '2026-11-03');
+  // A preview build shows drafts as cards, but the feed still announces finished work only.
+  assert.deepEqual(ids(appPack(s, { preview: true })), ['new', 'old']);
+});

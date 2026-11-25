@@ -24,4 +24,4 @@ pre-commit:
 pre-push:
   commands:
     battery:
-      run: npx --no -- turbo run build //#check //#lint:md --output-logs=errors-only
+      run: npx --no -- turbo run build test typecheck //#check //#lint:md --output-logs=errors-only

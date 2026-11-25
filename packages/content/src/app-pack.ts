@@ -5,7 +5,7 @@ import {
   isShown,
   quoteCount,
 } from './rules.ts';
-import type { Site } from './types.ts';
+import type { Card, Site } from './types.ts';
 
 // What the app bundles: the shown cards, trimmed to what a phone screen and a game use, so the app
 // works offline and starts without a network call. The gate's review notes never ship.
@@ -22,7 +22,56 @@ export type PackCard = {
   facts: number;
   quotes: number;
 };
-export type AppPack = { version: 1; preview: boolean; cards: PackCard[] };
+// One entry in the app's Updates feed. Only our own content: today a newly verified answer; later a
+// data release or a session, each from its own reviewed source. Never a third party's article.
+export type PackUpdate = {
+  id: string;
+  kind: 'answer';
+  // The day the card's last review signed it off, YYYY-MM-DD.
+  date: string;
+  title: string;
+  chapter: string;
+  target: { type: 'answer'; id: string };
+};
+export type AppPack = {
+  version: 1;
+  preview: boolean;
+  cards: PackCard[];
+  updates: PackUpdate[];
+};
+
+const DAY = /^\d{4}-\d{2}-\d{2}$/;
+
+// The day a card became an answer: the latest date its reviews carry, or undefined.
+export function verifiedOn(c: Card): string | undefined {
+  const dates = [c.review?.skeptic?.date, c.review?.citer?.date].filter(
+    (d): d is string => typeof d === 'string' && DAY.test(d),
+  );
+  return dates.sort().at(-1);
+}
+
+// Newest first. Verified cards only, even in a preview build: the feed announces finished work.
+export function packUpdates(cards: PackCard[], site: Site): PackUpdate[] {
+  const byId = new Map(site.cards.map((c) => [c.id, c]));
+  return cards
+    .filter((c) => c.verified)
+    .flatMap((c): PackUpdate[] => {
+      const date = verifiedOn(byId.get(c.id)!);
+      return date
+        ? [
+            {
+              id: `answer:${c.id}`,
+              kind: 'answer',
+              date,
+              title: c.claim,
+              chapter: c.chapter,
+              target: { type: 'answer', id: c.id },
+            },
+          ]
+        : [];
+    })
+    .sort((a, b) => b.date.localeCompare(a.date) || a.id.localeCompare(b.id));
+}
 
 const source = (s: {
   publisher: string;
@@ -59,5 +108,5 @@ export function appPack(site: Site, { preview = false } = {}): AppPack {
       facts: c.facts.length,
       quotes: quoteCount(c),
     }));
-  return { version: 1, preview, cards };
+  return { version: 1, preview, cards, updates: packUpdates(cards, site) };
 }

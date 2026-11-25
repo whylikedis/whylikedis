@@ -1,9 +1,15 @@
-// A game round: "What would you say?" One card for the daily game, five for practice. For each,
-// the claim someone makes, a moment to think, the answer with its sources, and an honest "I had it"
-// or "Not yet" from the player.
+// A round of "What would you say?": one card for the daily game, five for practice. For each, the
+// claim someone makes, a moment to think, the answer with its sources, and an honest "I had it" or
+// "Not yet". The rules are in lib/games/what-would-you-say.ts and the flow in the engine; this
+// screen only draws them.
+import type { PackCard } from '@whylikedis/content';
 import * as Haptics from 'expo-haptics';
-import { router, useLocalSearchParams } from 'expo-router';
-import { useCallback, useMemo, useState } from 'react';
+import {
+  router,
+  useLocalSearchParams,
+  type ErrorBoundaryProps,
+} from 'expo-router';
+import { useCallback, useMemo } from 'react';
 import { View } from 'react-native';
 import {
   Badge,
@@ -14,48 +20,46 @@ import {
   Stack,
   StreakStrip,
   Text,
-} from '../../interlace/native';
+} from '../../../interlace/native';
+import { ScreenError } from '../../../lib/errors/fallback';
 import {
-  dailyCard,
-  practiceRound,
-  today,
+  whatWouldYouSay,
   type Rating,
-} from '../../lib/game-model';
-import { cards, shortName } from '../../lib/pack';
-import { useProgress } from '../../lib/progress';
+} from '../../../lib/games/what-would-you-say';
+import { streakLabel } from '../../../lib/games/labels';
+import { cards, shortName } from '../../../lib/pack';
+import { usePlayer } from '../../../lib/player';
+import { useGameSession } from '../../../lib/use-game-session';
+
+const game = whatWouldYouSay<PackCard>();
+
+export function ErrorBoundary(props: ErrorBoundaryProps) {
+  return <ScreenError {...props} where="play/what-would-you-say" />;
+}
 
 export default function Round() {
   const { mode } = useLocalSearchParams<{ mode: string }>();
-  const daily = mode !== 'practice';
-  const { progress, rate } = useProgress();
-  const day = today();
-  // The round is fixed when it starts, so a rating mid-round does not reshuffle it.
-  const [round] = useState(() => {
-    if (daily) {
-      const c = dailyCard(cards, day);
-      return c ? [c] : [];
-    }
-    return practiceRound(cards, progress, day);
-  });
-  const [index, setIndex] = useState(0);
-  const [revealed, setRevealed] = useState(false);
-  const [had, setHad] = useState(0);
-  const card = round[index];
+  const { history } = usePlayer();
+  const {
+    session,
+    item: card,
+    summary,
+    day,
+    reveal,
+    answer,
+  } = useGameSession(game, mode === 'practice' ? 'practice' : 'daily', cards);
+  const daily = session.mode.daily;
 
-  const answer = useCallback(
+  const rate = useCallback(
     (rating: Rating) => {
-      if (!card) return;
-      rate(card.id, rating, daily);
-      if (rating === 'had-it') setHad((n) => n + 1);
+      answer(rating);
       Haptics.notificationAsync(
         rating === 'had-it'
           ? Haptics.NotificationFeedbackType.Success
           : Haptics.NotificationFeedbackType.Warning,
       ).catch(() => {});
-      setRevealed(false);
-      setIndex((i) => i + 1);
     },
-    [card, rate, daily],
+    [answer],
   );
 
   const sources = useMemo(
@@ -73,26 +77,27 @@ export default function Round() {
   );
 
   if (!card) {
+    const total = session.items.length;
     return (
       <Screen scroll>
         <Stack gap="lg" flex={1} justify="center">
           <Text variant="display">
-            {round.length ? 'Round done' : 'Nothing to play yet'}
+            {total ? 'Round done' : 'Nothing to play yet'}
           </Text>
-          {round.length ? (
+          {total ? (
             <Text variant="lead" tone="muted">
-              You had {had} of {round.length}.{' '}
-              {had === round.length
+              You had {summary.points} of {total}.{' '}
+              {summary.perfect
                 ? 'Every one.'
                 : 'The ones you did not get come back first next time.'}
             </Text>
           ) : null}
-          {daily && round.length ? (
+          {daily && total ? (
             <Card>
               <StreakStrip
-                played={progress.played}
+                played={history.playedDays(game.id, 'daily')}
                 today={day}
-                labels={{ run: (n) => `${n} days in a row` }}
+                labels={{ run: streakLabel }}
               />
             </Card>
           ) : null}
@@ -101,6 +106,7 @@ export default function Round() {
             size="lg"
             block
             onPress={() => router.back()}
+            testID="round-done"
           >
             Done
           </Button>
@@ -121,7 +127,7 @@ export default function Round() {
         <Text variant="caption" tone="muted" tabular>
           {daily
             ? "Today's question"
-            : `Question ${index + 1} of ${round.length}`}
+            : `Question ${session.index + 1} of ${session.items.length}`}
         </Text>
         <Button variant="ghost" size="sm" onPress={() => router.back()}>
           Close
@@ -145,8 +151,10 @@ export default function Round() {
       </Card>
 
       <Reveal
-        revealed={revealed}
-        onReveal={() => setRevealed(true)}
+        // A fresh reveal for each card, so its entrance plays again.
+        key={card.id}
+        revealed={session.phase === 'revealed'}
+        onReveal={reveal}
         label="Show the answer"
         announce="The answer is shown."
         hidden={
@@ -176,7 +184,8 @@ export default function Round() {
                 variant="highlight"
                 size="lg"
                 style={{ flex: 1 }}
-                onPress={() => answer('had-it')}
+                onPress={() => rate('had-it')}
+                testID="rate-had-it"
               >
                 I had it
               </Button>
@@ -184,7 +193,8 @@ export default function Round() {
                 variant="outline"
                 size="lg"
                 style={{ flex: 1 }}
-                onPress={() => answer('not-yet')}
+                onPress={() => rate('not-yet')}
+                testID="rate-not-yet"
               >
                 Not yet
               </Button>

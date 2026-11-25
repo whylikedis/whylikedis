@@ -1,0 +1,5 @@
+{
+  "$comment": "Size budgets, checked by `npm run bundle:check` after a production export. Raise one only on purpose, in its own commit, saying what the bytes buy.",
+  "hermesBytecode": { "ios": 4500000, "android": 4500000 },
+  "contentPack": 1500000
+}

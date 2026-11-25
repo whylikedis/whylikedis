@@ -1,10 +1,11 @@
 // The answers the app ships with, written by `npm run content` from the fact base. Bundled, so the
 // app opens with everything it needs and works offline.
-import type { AppPack, PackCard } from '@whylikedis/content';
+import type { AppPack, PackCard, PackUpdate } from '@whylikedis/content';
 import raw from '../content/pack.json';
 
 export const pack = raw as AppPack;
 export const cards: readonly PackCard[] = pack.cards;
+export const updates: readonly PackUpdate[] = pack.updates ?? [];
 const byId = new Map(cards.map((c) => [c.id, c]));
 export const cardById = (id: string) => byId.get(id);
 
