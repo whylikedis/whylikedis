@@ -28,6 +28,7 @@ import { Prose } from '@/components/ui/prose';
 import { Section } from '@/components/ui/section';
 import { Stack } from '@/components/ui/stack';
 import { Typography } from '@/components/ui/typography';
+import { MoreOnThis } from './more-on-this';
 import {
   answerLines,
   chapterTitle,
@@ -302,6 +303,18 @@ export default async function Answer(props: Props) {
             </Stack>
           </GridItem>
         </Grid>
+      </Section>
+
+      <Section container="wide" spacing="tight" divider="top">
+        <Stack gap="sm">
+          <Typography as="h2" variant="h3">
+            Want more on this?
+          </Typography>
+          <Typography variant="long" tone="muted">
+            Tell us, and we will know what to dig into next. It is anonymous.
+          </Typography>
+          <MoreOnThis answerId={c.id} claim={c.claim} />
+        </Stack>
       </Section>
 
       <Section container="wide" spacing="tight" divider="top">
