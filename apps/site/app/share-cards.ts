@@ -5,6 +5,7 @@ import { docLead } from './doc-lead';
 import { FACTS_DESCRIPTION, FACTS_TITLE } from './facts/copy';
 import { HOME_DESCRIPTION, HOME_TITLE } from './home-copy';
 import { DAILY_DESCRIPTION, DAILY_TITLE } from './daily/copy';
+import { PLAY_DESCRIPTION, PLAY_TITLE } from './play/copy';
 import { SESSIONS_DESCRIPTION, SESSIONS_TITLE } from './sessions/copy';
 import { UPDATES_DESCRIPTION, UPDATES_TITLE } from './updates/copy';
 
@@ -112,6 +113,18 @@ function daily(): ShareCard {
   };
 }
 
+function play(): ShareCard {
+  return {
+    alt: `${PLAY_TITLE}: a live game from WhyLikeDIs`,
+    props: {
+      label: 'Live game',
+      kicker: 'WhyLikeDIs',
+      title: PLAY_TITLE,
+      description: PLAY_DESCRIPTION,
+    },
+  };
+}
+
 function updates(): ShareCard {
   return {
     alt: `${UPDATES_TITLE} at WhyLikeDIs`,
@@ -127,6 +140,7 @@ function updates(): ShareCard {
 export function shareCard(page: string): ShareCard | null {
   if (page === 'daily') return daily();
   if (page === 'updates') return updates();
+  if (page === 'play') return play();
   if (page === '') return home();
   if (page === 'sessions') return sessions();
   if (page === 'facts') return facts();
@@ -140,6 +154,7 @@ export const sharePages = () => [
   'sessions',
   'daily',
   'updates',
+  'play',
   ...shownCards().map((c) => `answers/${c.id}`),
   ...Object.keys(site.docs),
 ];
