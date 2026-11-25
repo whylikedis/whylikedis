@@ -36,6 +36,9 @@ export type AnalyticsEvents = {
     method: string;
     kind: 'result' | 'milestone';
   };
+  practice_started: { items: number };
+  practice_finished: { items: number; points: number; xp: number };
+  goal_changed: { goal: string; from: string };
   xp_earned: { source: string; xp: number; total: number; level: number };
   level_up: { level: number };
   goal_met: { goal: string; xp: number };

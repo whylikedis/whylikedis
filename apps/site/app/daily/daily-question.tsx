@@ -8,6 +8,8 @@ import {
   dayKey,
   daysBetween,
   FIRST_DAY,
+  GOALS,
+  isGoalId,
   progressBetween,
   PROTECTION,
   puzzleNumber,
@@ -25,6 +27,7 @@ import {
   DailyPuzzle,
   DailyPuzzleCountdown,
 } from '@/components/ui/games/daily-puzzle';
+import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { RecallCard } from '@/components/ui/games/recall-card';
 import { LevelMeter } from '@/components/ui/games/level-meter';
 import { Milestones } from '@/components/ui/games/milestones';
@@ -38,6 +41,7 @@ import { Typography } from '@/components/ui/typography';
 import { capture } from '@/lib/analytics';
 import { usePlayer } from '@/lib/player';
 import { SESSIONS_DESCRIPTION } from '../sessions/copy';
+import { CardAnswer } from './card-answer';
 
 export type DailyCard = {
   id: string;
@@ -258,31 +262,7 @@ export function DailyQuestion({
                       hint: 'What would you say back? Think of your reply, then check it.',
                       rate: 'Did you have it?',
                     }}
-                    answer={
-                      <Stack gap="sm">
-                        <Typography variant="h3" as="p">
-                          {card.claim}
-                        </Typography>
-                        {card.lines.map((line, i) => (
-                          <Typography key={i} variant="body">
-                            {line}
-                          </Typography>
-                        ))}
-                        {card.sources.length ? (
-                          <Typography variant="caption" tone="muted">
-                            Sources: {card.sources.join(', ')}
-                          </Typography>
-                        ) : null}
-                        {card.verified ? (
-                          <Link
-                            href={`/answers/${card.id}/`}
-                            className="text-primary text-sm font-medium underline underline-offset-4"
-                          >
-                            The full answer and every quote
-                          </Link>
-                        ) : null}
-                      </Stack>
-                    }
+                    answer={<CardAnswer card={card} />}
                   />
                 </Stack>
               </CardContent>
@@ -353,6 +333,18 @@ export function DailyQuestion({
               </Button>
               <Button
                 variant="outline"
+                render={<Link href="/daily/practice/" />}
+                onClick={() =>
+                  capture('daily_next_tapped', {
+                    puzzle: number,
+                    target: 'practice',
+                  })
+                }
+              >
+                Practice round
+              </Button>
+              <Button
+                variant="ghost"
                 render={<Link href="/facts/" />}
                 onClick={() =>
                   capture('daily_next_tapped', {
@@ -368,7 +360,7 @@ export function DailyQuestion({
         </Stack>
       ) : null}
 
-      {player.ready && played.length > 0 ? (
+      {player.ready && player.events.length > 0 ? (
         <Stack gap="md">
           <Typography variant="h3" as="h2">
             Your progress
@@ -392,6 +384,63 @@ export function DailyQuestion({
                       `${left} more ${left === '1' ? 'day' : 'days'} to ${step}`,
                   }}
                 />
+              </Stack>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardContent>
+              <Stack gap="md">
+                <Stack gap="xs">
+                  <Typography variant="h4" as="h3" id="daily-goal">
+                    Your daily goal
+                  </Typography>
+                  <Typography variant="ui-sm" tone="muted">
+                    Today’s question is worth {GOALS[0].xp} XP, and each
+                    practice answer 5 more.
+                  </Typography>
+                </Stack>
+                <RadioGroup
+                  name="goal"
+                  value={player.goal ?? GOALS[0].id}
+                  onValueChange={(v) => {
+                    const from = player.goal ?? GOALS[0].id;
+                    if (!isGoalId(v) || v === from) return;
+                    capture('goal_changed', { goal: v, from });
+                    player.setGoal(v);
+                  }}
+                  aria-labelledby="daily-goal"
+                >
+                  {GOALS.map((g) => (
+                    <Typography as="label" key={g.id}>
+                      <Cluster gap="sm" align="start">
+                        <RadioGroupItem value={g.id} />
+                        <Stack gap="xs">
+                          <Typography as="span" variant="ui">
+                            {g.label}, {g.xp} XP
+                          </Typography>
+                          <Typography as="span" variant="ui-sm" tone="muted">
+                            {g.detail}
+                          </Typography>
+                        </Stack>
+                      </Cluster>
+                    </Typography>
+                  ))}
+                </RadioGroup>
+                <Cluster gap="sm">
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    render={<Link href="/daily/practice/" />}
+                    onClick={() =>
+                      capture('daily_next_tapped', {
+                        puzzle: number,
+                        target: 'practice',
+                      })
+                    }
+                  >
+                    Practice round
+                  </Button>
+                </Cluster>
               </Stack>
             </CardContent>
           </Card>
