@@ -1,26 +1,28 @@
-// Two tabs on the platform's own tab bar (UITabBarController on iOS, Material on Android): play is
-// home, answers is the library the games draw from.
+// The tab bar, on the platform's own control (UITabBarController on iOS, Material on Android),
+// built from the section list in lib/shell/sections.ts. A switched-off section keeps its route but
+// shows no tab.
 import { NativeTabs } from 'expo-router/native-tabs';
 import { useTheme } from '../../interlace/native';
+import { SECTIONS } from '../../lib/shell/sections';
 
 export default function TabsLayout() {
   const theme = useTheme();
   return (
     <NativeTabs tintColor={theme.colors.primary}>
-      <NativeTabs.Trigger name="index">
-        <NativeTabs.Trigger.Label>Play</NativeTabs.Trigger.Label>
-        <NativeTabs.Trigger.Icon
-          sf={{ default: 'gamecontroller', selected: 'gamecontroller.fill' }}
-          md="sports_esports"
-        />
-      </NativeTabs.Trigger>
-      <NativeTabs.Trigger name="answers">
-        <NativeTabs.Trigger.Label>Answers</NativeTabs.Trigger.Label>
-        <NativeTabs.Trigger.Icon
-          sf={{ default: 'book', selected: 'book.fill' }}
-          md="menu_book"
-        />
-      </NativeTabs.Trigger>
+      {SECTIONS.map((s) => (
+        <NativeTabs.Trigger
+          key={s.id}
+          name={s.route}
+          hidden={!s.enabled}
+          testID={`tab-${s.id}`}
+        >
+          <NativeTabs.Trigger.Label>{s.label}</NativeTabs.Trigger.Label>
+          <NativeTabs.Trigger.Icon
+            sf={{ default: s.icon.sf, selected: s.icon.sfSelected }}
+            md={s.icon.md}
+          />
+        </NativeTabs.Trigger>
+      ))}
     </NativeTabs>
   );
 }

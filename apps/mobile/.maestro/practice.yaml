@@ -1,0 +1,18 @@
+# A practice round: every question revealed and rated, then the summary. The round has up to five
+# questions, fewer when the app ships fewer answers.
+appId: com.whylikedis.app
+name: Practice round
+---
+- launchApp:
+    clearState: true
+- tapOn:
+    id: 'play-practice'
+- repeat:
+    while:
+      visible: 'Show the answer'
+    commands:
+      - tapOn: 'Show the answer'
+      - tapOn:
+          id: 'rate-not-yet'
+- assertVisible: 'Round done'
+- assertVisible: 'You had 0 of .*'

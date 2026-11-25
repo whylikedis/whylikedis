@@ -1,0 +1,20 @@
+# Today's question, start to finish: open the app, play the daily card, rate it, and see the
+# streak count it. Run with `npm run e2e` against a dev or preview build on a simulator.
+appId: com.whylikedis.app
+name: Daily game
+---
+- launchApp:
+    clearState: true
+- assertVisible: 'Play today to start a streak'
+- tapOn:
+    id: 'play-daily'
+- assertVisible: 'What would you say?'
+- tapOn: 'Show the answer'
+- tapOn:
+    id: 'rate-had-it'
+- assertVisible: 'Round done'
+- assertVisible: '1 day in a row'
+- tapOn:
+    id: 'round-done'
+- assertVisible: '1 day in a row'
+- assertVisible: 'Played today. Play it again any time.'

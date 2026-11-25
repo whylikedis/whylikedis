@@ -11,9 +11,11 @@
     "ios": "npm run content && expo run:ios",
     "android": "npm run content && expo run:android",
     "typecheck": "npm run content && tsc --noEmit",
-    "test": "node --experimental-strip-types --no-warnings --test lib/*.test.ts",
-    "bundle:check": "npm run content && expo export --platform ios --platform android --output-dir dist --no-minify",
-    "preview:web": "npm run content && expo start --web"
+    "test": "node --experimental-strip-types --no-warnings --test 'lib/**/*.test.ts'",
+    "bundle:check": "npm run content && expo export --platform ios --platform android --output-dir dist && node scripts/budget.mjs",
+    "preview:web": "npm run content && expo start --web",
+    "eas-build-post-install": "npm run content",
+    "e2e": "maestro test .maestro"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "2.2.0",
@@ -39,6 +41,7 @@
     "@types/react": "^19.3.2",
     "react-dom": "^19.3.1",
     "react-native-web": "^0.21.4",
+    "sf-symbols-typescript": "^2.2.0",
     "typescript": "^5.9.3"
   }
 }
