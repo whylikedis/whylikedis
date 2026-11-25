@@ -13,7 +13,7 @@ export type Fact = {
   enough: boolean;
   sources: Source[];
 };
-export type Round = { verdict?: string; notes?: string };
+export type Round = { verdict?: string; notes?: string; date?: string };
 export type Card = {
   id: string;
   era: number;
