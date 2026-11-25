@@ -19,12 +19,12 @@ import {
   historyOf,
   mergeEvents,
   type GameEvent,
-} from './engine/events.ts';
-import type { GameId, History, Score } from './engine/types.ts';
+} from '@whylikedis/games';
+import type { GameId, History, Score } from '@whylikedis/games';
 import { reportError } from './errors/report.ts';
 import { mark } from './perf.ts';
-import { emptyPlayer, playerStore, type PlayerDoc } from './store/player.ts';
-import { NEVER_SYNCED, syncOnce, type SyncRemote } from './sync/sync.ts';
+import { emptyPlayer, playerStore, type PlayerDoc } from '@whylikedis/games';
+import { NEVER_SYNCED, syncOnce, type SyncRemote } from '@whylikedis/games';
 
 type Where = { game: GameId; mode: string; day: DayKey };
 

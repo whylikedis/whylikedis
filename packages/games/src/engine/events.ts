@@ -2,7 +2,7 @@
 // back in practice, a score history) is derived from it. A log is what makes sync safe later: two
 // devices merge by taking the union of their events by id, in any order, any number of times, and
 // arrive at the same state. Nothing is ever overwritten.
-import { isDayKey, type DayKey } from '../../interlace/games/daily.ts';
+import { isDayKey, type DayKey } from '../interlace/daily.ts';
 import type { GameId, History, Score } from './types.ts';
 
 type Base = { id: string; game: GameId; mode: string; day: DayKey; at: number };

@@ -15,10 +15,10 @@ import {
 } from '../../interlace/native';
 import { comingSoon } from '../../lib/games/catalog';
 import { listOf, streakLabel } from '../../lib/games/labels';
-import { dailyCard } from '../../lib/games/what-would-you-say';
+import { dailyCard } from '@whylikedis/games';
 import { cards } from '../../lib/pack';
 import { usePlayer } from '../../lib/player';
-import { WWYS } from '../../lib/store/player';
+import { WWYS } from '@whylikedis/games';
 
 export default function Play() {
   const { history } = usePlayer();

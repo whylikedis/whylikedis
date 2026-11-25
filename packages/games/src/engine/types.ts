@@ -2,7 +2,7 @@
 // how it deals a round, and how it scores an answer. It never touches storage, the clock or the
 // screen, so the same rules run in tests, on a phone, on the web, and on a server that checks a
 // score later. The engine (session.ts) runs a round; the log (events.ts) remembers it.
-import type { DayKey } from '../../interlace/games/daily.ts';
+import type { DayKey } from '../interlace/daily.ts';
 
 export type GameId = string;
 

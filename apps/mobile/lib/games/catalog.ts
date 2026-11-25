@@ -1,6 +1,6 @@
 // The games the Play section lists, in order. A live game has its own routes under
 // app/play/<id>/; a coming one is shown as a promise, never as a dead button.
-import { WWYS } from '../store/player.ts';
+import { WWYS } from '@whylikedis/games';
 
 export type CatalogEntry = {
   id: string;

@@ -22,10 +22,7 @@ import {
   Text,
 } from '../../../interlace/native';
 import { ScreenError } from '../../../lib/errors/fallback';
-import {
-  whatWouldYouSay,
-  type Rating,
-} from '../../../lib/games/what-would-you-say';
+import { whatWouldYouSay, type Rating } from '@whylikedis/games';
 import { streakLabel } from '../../../lib/games/labels';
 import { cards, shortName } from '../../../lib/pack';
 import { usePlayer } from '../../../lib/player';
