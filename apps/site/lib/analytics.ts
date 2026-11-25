@@ -12,6 +12,10 @@ const HOST = process.env.NEXT_PUBLIC_POSTHOG_HOST ?? 'https://us.i.posthog.com';
 
 export const ANALYTICS_ON = Boolean(KEY);
 
+// The one line every page shows while analytics is on.
+export const ANALYTICS_NOTICE =
+  'We count anonymous taps to learn what helps. No cookies, and nothing that identifies you.';
+
 // The events the site sends, with their properties. A new event is added here first, so every
 // name and shape is in one place for whoever reads the dashboards.
 export type AnalyticsEvents = {
@@ -50,6 +54,8 @@ export function capture<E extends keyof AnalyticsEvents>(
     properties: {
       ...properties,
       $process_person_profile: false,
+      // Preview builds send too, so their test taps can be filtered out of real readers'.
+      site_env: process.env.NEXT_PUBLIC_VERCEL_ENV ?? 'local',
       $current_url: window.location.origin + window.location.pathname,
       $pathname: window.location.pathname,
     },
