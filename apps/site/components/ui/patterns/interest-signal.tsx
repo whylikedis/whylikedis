@@ -29,7 +29,8 @@ import * as React from 'react';
  *     │   └─ li × n                (data-slot="interest-board-row", data-rank, data-mine)
  *     │       ├─ span              (data-slot="interest-board-label")
  *     │       ├─ span              (data-slot="interest-board-count": the number, in words for a screen reader)
- *     │       └─ span aria-hidden  (data-slot="interest-board-bar": drawn against the top topic)
+ *     │       └─ span aria-hidden  (data-slot="interest-board-bar": the track)
+ *     │           └─ span          (data-slot="interest-board-fill": drawn against the top topic, grows on mount)
  *     └─ p                         (data-slot="interest-board-note": empty, held back, or "+3 more")
  *
  * ## Data
@@ -263,7 +264,7 @@ function InterestBoard({
   }, []);
 
   const notes = [
-    rows.length === 0 && held === 0 ? (labels?.empty ?? 'No one has asked for more yet.') : '',
+    rows.length === 0 && held === 0 && more === 0 ? (labels?.empty ?? 'No one has asked for more yet.') : '',
     held ? (labels?.held ?? HELD)(held, Math.max(1, Math.floor(minCount))) : '',
     more ? (labels?.more ?? MORE)(more) : '',
   ].filter(Boolean);
