@@ -37,7 +37,10 @@ const Ctx = createContext<Player>({
 
 export function PlayerProvider({ children }: { children: ReactNode }) {
   const store = useMemo(
-    () => playerStore(AsyncStorage, (e, where) => reportError(e, `storage: ${where}`)),
+    () =>
+      playerStore(AsyncStorage, (e, where) =>
+        reportError(e, `storage: ${where}`),
+      ),
     [],
   );
   const [doc, setDoc] = useState<PlayerDoc | null>(null);
@@ -79,7 +82,14 @@ export function PlayerProvider({ children }: { children: ReactNode }) {
     (w, item, score) =>
       append((device) => {
         const at = Date.now();
-        return { kind: 'answer', id: eventId(device, at), at, ...w, item, score };
+        return {
+          kind: 'answer',
+          id: eventId(device, at),
+          at,
+          ...w,
+          item,
+          score,
+        };
       }),
     [append],
   );
@@ -88,7 +98,14 @@ export function PlayerProvider({ children }: { children: ReactNode }) {
     (w, score, items) =>
       append((device) => {
         const at = Date.now();
-        return { kind: 'round', id: eventId(device, at), at, ...w, score, items };
+        return {
+          kind: 'round',
+          id: eventId(device, at),
+          at,
+          ...w,
+          score,
+          items,
+        };
       }),
     [append],
   );

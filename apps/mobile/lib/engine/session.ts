@@ -5,7 +5,11 @@ import type { Game, Mode, Score } from './types.ts';
 
 export type Phase = 'question' | 'revealed' | 'done';
 
-export type Answered<Item, Answer> = { item: Item; answer: Answer; score: Score };
+export type Answered<Item, Answer> = {
+  item: Item;
+  answer: Answer;
+  score: Score;
+};
 
 export type Session<Item, Answer> = {
   game: string;
@@ -17,8 +21,7 @@ export type Session<Item, Answer> = {
 };
 
 export type Action<Answer> =
-  | { type: 'reveal' }
-  | { type: 'answer'; answer: Answer };
+  { type: 'reveal' } | { type: 'answer'; answer: Answer };
 
 export function startSession<Item extends { id: string }, Answer, Content>(
   game: Game<Item, Answer, Content>,
@@ -63,10 +66,20 @@ export function step<Item extends { id: string }, Answer, Content>(
 export const currentItem = <Item, Answer>(s: Session<Item, Answer>) =>
   s.phase === 'done' ? undefined : s.items[s.index];
 
-export type Summary = { points: number; max: number; answered: number; perfect: boolean };
+export type Summary = {
+  points: number;
+  max: number;
+  answered: number;
+  perfect: boolean;
+};
 
 export function summarize<Item, Answer>(s: Session<Item, Answer>): Summary {
   const points = s.answered.reduce((n, a) => n + a.score.points, 0);
   const max = s.answered.reduce((n, a) => n + a.score.max, 0);
-  return { points, max, answered: s.answered.length, perfect: max > 0 && points === max };
+  return {
+    points,
+    max,
+    answered: s.answered.length,
+    perfect: max > 0 && points === max,
+  };
 }

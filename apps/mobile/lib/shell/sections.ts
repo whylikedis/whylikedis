@@ -21,7 +21,11 @@ export const SECTIONS: readonly Section[] = [
     id: 'play',
     route: 'index',
     label: 'Play',
-    icon: { sf: 'gamecontroller', sfSelected: 'gamecontroller.fill', md: 'sports_esports' },
+    icon: {
+      sf: 'gamecontroller',
+      sfSelected: 'gamecontroller.fill',
+      md: 'sports_esports',
+    },
     enabled: true,
   },
   {
@@ -51,6 +55,7 @@ export function sectionProblems(sections: readonly Section[]): string[] {
   dup('id');
   dup('route');
   if (!sections.some((s) => s.enabled)) problems.push('no section is enabled');
-  if (sections[0]?.route !== 'index') problems.push('the first section must be the index route');
+  if (sections[0]?.route !== 'index')
+    problems.push('the first section must be the index route');
   return problems;
 }

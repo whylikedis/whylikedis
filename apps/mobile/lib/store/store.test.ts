@@ -13,7 +13,10 @@ import {
 } from './player.ts';
 
 type Doc = { version: 3; n: number };
-const opts = (storage: ReturnType<typeof memoryStorage>, errors: string[] = []) => ({
+const opts = (
+  storage: ReturnType<typeof memoryStorage>,
+  errors: string[] = [],
+) => ({
   storage,
   key: 'k',
   version: 3 as const,
@@ -34,7 +37,10 @@ test('an old document walks through every migration in turn', async () => {
 });
 
 test('nothing stored gives empty; a current document loads as stored', async () => {
-  assert.equal((await createPersisted(opts(memoryStorage())).load()).source, 'empty');
+  assert.equal(
+    (await createPersisted(opts(memoryStorage())).load()).source,
+    'empty',
+  );
   const s = memoryStorage({ k: JSON.stringify({ version: 3, n: 2 }) });
   assert.deepEqual(await createPersisted(opts(s)).load(), {
     value: { version: 3, n: 2 },
@@ -43,7 +49,11 @@ test('nothing stored gives empty; a current document loads as stored', async () 
 });
 
 test('an unreadable document is set aside, never lost, and the app starts fresh', async () => {
-  for (const raw of ['{not json', JSON.stringify({ version: 9, n: 1 }), JSON.stringify({ version: 3, n: 'x' })]) {
+  for (const raw of [
+    '{not json',
+    JSON.stringify({ version: 9, n: 1 }),
+    JSON.stringify({ version: 3, n: 'x' }),
+  ]) {
     const s = memoryStorage({ k: raw });
     const r = await createPersisted(opts(s)).load();
     assert.deepEqual(r, { value: { version: 3, n: 0 }, source: 'unreadable' });
@@ -92,7 +102,7 @@ test('a failed write is reported and does not stop the next one', async () => {
   assert.equal(JSON.parse(s.data.get('k')!).n, 2);
 });
 
-test('the first app build\'s progress carries over: streak days and practice order', async () => {
+test("the first app build's progress carries over: streak days and practice order", async () => {
   const v1 = {
     version: 1,
     played: ['2026-11-25', '2026-11-26', 7],
@@ -117,14 +127,25 @@ test('the player document prefers the new key over the legacy one', async () => 
   const doc: PlayerDoc = { version: 2, device: 'd1', events: [] };
   const s = memoryStorage({
     [PLAYER_KEY]: JSON.stringify(doc),
-    [LEGACY_PROGRESS_KEY]: JSON.stringify({ version: 1, played: ['2026-11-25'], ratings: {} }),
+    [LEGACY_PROGRESS_KEY]: JSON.stringify({
+      version: 1,
+      played: ['2026-11-25'],
+      ratings: {},
+    }),
   });
-  assert.deepEqual(await playerStore(s).load(), { value: doc, source: 'stored' });
+  assert.deepEqual(await playerStore(s).load(), {
+    value: doc,
+    source: 'stored',
+  });
 });
 
 test('one damaged event is dropped, not the whole history', () => {
   const good = fromV1({ played: ['2026-11-25'], ratings: {} }).events[0];
-  const v = validatePlayer({ version: 2, device: 'd', events: [good, { junk: true }] });
+  const v = validatePlayer({
+    version: 2,
+    device: 'd',
+    events: [good, { junk: true }],
+  });
   assert.equal(v?.events.length, 1);
   assert.equal(validatePlayer({ version: 2, events: [] }), null);
   assert.equal(validatePlayer('x'), null);

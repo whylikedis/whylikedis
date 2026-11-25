@@ -31,7 +31,9 @@ export type LoadResult<T> = {
   source: 'empty' | 'stored' | 'migrated' | 'unreadable';
 };
 
-export function createPersisted<T extends Versioned>(opts: PersistedOptions<T>) {
+export function createPersisted<T extends Versioned>(
+  opts: PersistedOptions<T>,
+) {
   const report = opts.onError ?? (() => {});
 
   function upgrade(raw: string): { value: T; migrated: boolean } | null {
@@ -77,7 +79,9 @@ export function createPersisted<T extends Versioned>(opts: PersistedOptions<T>) 
           source: up.migrated || key !== opts.key ? 'migrated' : 'stored',
         };
       // Kept for a later app version (or a person) to recover; never silently dropped.
-      await opts.storage.setItem(`${key}.unreadable`, raw).catch((e) => report(e, 'set aside'));
+      await opts.storage
+        .setItem(`${key}.unreadable`, raw)
+        .catch((e) => report(e, 'set aside'));
       return { value: opts.empty(), source: 'unreadable' };
     }
     return { value: opts.empty(), source: 'empty' };

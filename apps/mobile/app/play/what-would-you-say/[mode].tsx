@@ -4,7 +4,11 @@
 // screen only draws them.
 import type { PackCard } from '@whylikedis/content';
 import * as Haptics from 'expo-haptics';
-import { router, useLocalSearchParams, type ErrorBoundaryProps } from 'expo-router';
+import {
+  router,
+  useLocalSearchParams,
+  type ErrorBoundaryProps,
+} from 'expo-router';
 import { useCallback, useMemo } from 'react';
 import { View } from 'react-native';
 import {
@@ -36,11 +40,14 @@ export function ErrorBoundary(props: ErrorBoundaryProps) {
 export default function Round() {
   const { mode } = useLocalSearchParams<{ mode: string }>();
   const { history } = usePlayer();
-  const { session, item: card, summary, day, reveal, answer } = useGameSession(
-    game,
-    mode === 'practice' ? 'practice' : 'daily',
-    cards,
-  );
+  const {
+    session,
+    item: card,
+    summary,
+    day,
+    reveal,
+    answer,
+  } = useGameSession(game, mode === 'practice' ? 'practice' : 'daily', cards);
   const daily = session.mode.daily;
 
   const rate = useCallback(
@@ -74,7 +81,9 @@ export default function Round() {
     return (
       <Screen scroll>
         <Stack gap="lg" flex={1} justify="center">
-          <Text variant="display">{total ? 'Round done' : 'Nothing to play yet'}</Text>
+          <Text variant="display">
+            {total ? 'Round done' : 'Nothing to play yet'}
+          </Text>
           {total ? (
             <Text variant="lead" tone="muted">
               You had {summary.points} of {total}.{' '}
@@ -127,7 +136,9 @@ export default function Round() {
 
       <Stack gap="sm">
         <Badge tone="primary">{card.chapter}</Badge>
-        {card.verified ? null : <Badge tone="warning">Still being checked</Badge>}
+        {card.verified ? null : (
+          <Badge tone="warning">Still being checked</Badge>
+        )}
       </Stack>
 
       <Card tone="muted">

@@ -12,8 +12,18 @@ export type CatalogEntry = {
 export const CATALOG: readonly CatalogEntry[] = [
   { id: WWYS, title: 'What would you say?', status: 'live', players: '1' },
   { id: 'closer', title: 'Closer', status: 'coming', players: '1' },
-  { id: 'before-or-after', title: 'Before or after', status: 'coming', players: '1' },
-  { id: 'with-friends', title: 'Playing with friends', status: 'coming', players: 'group' },
+  {
+    id: 'before-or-after',
+    title: 'Before or after',
+    status: 'coming',
+    players: '1',
+  },
+  {
+    id: 'with-friends',
+    title: 'Playing with friends',
+    status: 'coming',
+    players: 'group',
+  },
 ];
 
 export const comingSoon = () => CATALOG.filter((g) => g.status === 'coming');

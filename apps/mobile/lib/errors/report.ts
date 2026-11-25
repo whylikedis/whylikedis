@@ -28,7 +28,11 @@ export function setReporter(next: Reporter | null): void {
   reporter = next ?? devLog;
 }
 
-export function toReport(error: unknown, where: string, fatal = false): ErrorReport {
+export function toReport(
+  error: unknown,
+  where: string,
+  fatal = false,
+): ErrorReport {
   const e = error instanceof Error ? error : null;
   return {
     at: Date.now(),
@@ -39,7 +43,11 @@ export function toReport(error: unknown, where: string, fatal = false): ErrorRep
   };
 }
 
-export function reportError(error: unknown, where: string, fatal = false): void {
+export function reportError(
+  error: unknown,
+  where: string,
+  fatal = false,
+): void {
   const r = toReport(error, where, fatal);
   recent.push(r);
   if (recent.length > RECENT_MAX) recent.shift();

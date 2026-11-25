@@ -76,7 +76,11 @@ export function fromV1(v1: any): PlayerDoc {
 export function validatePlayer(v: unknown): PlayerDoc | null {
   if (typeof v !== 'object' || v === null) return null;
   const d = v as Record<string, unknown>;
-  if (d.version !== 2 || typeof d.device !== 'string' || !Array.isArray(d.events))
+  if (
+    d.version !== 2 ||
+    typeof d.device !== 'string' ||
+    !Array.isArray(d.events)
+  )
     return null;
   return { version: 2, device: d.device, events: d.events.filter(isGameEvent) };
 }

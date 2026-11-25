@@ -39,10 +39,10 @@ export function practiceRound<T extends { id: string }>(
     const s = history.lastScore(WWYS, c.id);
     return !!s && s.points >= s.max;
   };
-  return [...shuffled.filter((c) => !known(c)), ...shuffled.filter(known)].slice(
-    0,
-    size,
-  );
+  return [
+    ...shuffled.filter((c) => !known(c)),
+    ...shuffled.filter(known),
+  ].slice(0, size);
 }
 
 export function whatWouldYouSay<T extends { id: string }>(): Game<
