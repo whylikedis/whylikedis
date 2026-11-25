@@ -21,10 +21,15 @@ It does not copy the site screen by screen.
 | Game engine  | `lib/engine/`                  | The contract every game keeps (`types.ts`: modes, `deal`, `judge`), the round as a reducer (`session.ts`), and the event log (`events.ts`).                             |
 | Games        | `lib/games/`, `app/play/<id>/` | A game's rules are pure and tested; its screens live under its own route folder. `catalog.ts` lists what Play shows, live or coming.                                    |
 | Player state | `lib/store/`, `lib/player.tsx` | A versioned document with migrations, holding an append-only event log. Logs merge by event id, so syncing devices later cannot lose or double anything.                |
+| Sync         | `lib/sync/`                    | `syncOnce` pushes this device's new events and pulls the rest, merging by id. Any remote that stores events by id works; none is wired up until there are accounts.     |
 | Crash safety | `lib/errors/`                  | Every caught failure goes through `reportError`. A screen that throws shows `ScreenError` instead of a blank app. A crash service can be plugged in with `setReporter`. |
 
 To add a game: write its `Game` in `lib/games/<id>.ts` with tests, add its screens under
 `app/play/<id>/` using `useGameSession`, and set it live in `catalog.ts`.
+
+Problems are also kept on the device (`lib/errors/log.ts`) and listed on the About screen (Play,
+then "About this app"), with the startup times from `lib/perf.ts`. "Share diagnostics" opens the
+share sheet; nothing is sent on its own. The Updates tab shows a badge for updates not yet seen.
 
 ## Content
 

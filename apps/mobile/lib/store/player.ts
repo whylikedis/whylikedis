@@ -2,6 +2,7 @@
 // tested in Node. The React side (../player.tsx) loads it once and appends to it.
 import type { GameEvent } from '../engine/events.ts';
 import { eventId, isGameEvent } from '../engine/events.ts';
+import type { SyncState } from '../sync/sync.ts';
 import type { KeyValue } from './persisted.ts';
 import { createPersisted } from './persisted.ts';
 
@@ -10,6 +11,10 @@ export type PlayerDoc = {
   // Random, made on first launch. It names this device's events so logs merge; it identifies no one.
   device: string;
   events: GameEvent[];
+  // Where sync got to. Absent until a remote exists.
+  sync?: SyncState;
+  // Ids of the Updates the player has seen, for the tab's unread badge.
+  seenUpdates?: string[];
 };
 
 export const PLAYER_KEY = 'wld.player';
@@ -82,7 +87,23 @@ export function validatePlayer(v: unknown): PlayerDoc | null {
     !Array.isArray(d.events)
   )
     return null;
-  return { version: 2, device: d.device, events: d.events.filter(isGameEvent) };
+  const doc: PlayerDoc = {
+    version: 2,
+    device: d.device,
+    events: d.events.filter(isGameEvent),
+  };
+  const sync = d.sync as Partial<SyncState> | undefined;
+  if (
+    sync &&
+    (sync.cursor === null || typeof sync.cursor === 'string') &&
+    typeof sync.pushedAt === 'number'
+  )
+    doc.sync = { cursor: sync.cursor, pushedAt: sync.pushedAt };
+  if (Array.isArray(d.seenUpdates))
+    doc.seenUpdates = d.seenUpdates.filter(
+      (id): id is string => typeof id === 'string',
+    );
+  return doc;
 }
 
 export const playerStore = (

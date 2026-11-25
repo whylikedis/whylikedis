@@ -3,13 +3,14 @@
 // the same feed through the same PackUpdate shape.
 import { FlashList } from '@shopify/flash-list';
 import type { PackUpdate } from '@whylikedis/content';
-import { router } from 'expo-router';
+import { router, useFocusEffect } from 'expo-router';
 import { useCallback } from 'react';
 import { View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { dayKeyToDate } from '../../interlace/games/daily';
 import { ListRow, Text, useTheme } from '../../interlace/native';
 import { updates } from '../../lib/pack';
+import { usePlayer } from '../../lib/player';
 
 const dateLabel = new Intl.DateTimeFormat(undefined, {
   month: 'long',
@@ -21,6 +22,13 @@ const dateLabel = new Intl.DateTimeFormat(undefined, {
 export default function Updates() {
   const theme = useTheme();
   const insets = useSafeAreaInsets();
+  const { markUpdatesSeen } = usePlayer();
+  // Opening the tab counts as seeing what is on it, which clears the badge.
+  useFocusEffect(
+    useCallback(() => {
+      markUpdatesSeen(updates.map((u) => u.id));
+    }, [markUpdatesSeen]),
+  );
 
   const renderItem = useCallback(
     ({ item }: { item: PackUpdate }) => (

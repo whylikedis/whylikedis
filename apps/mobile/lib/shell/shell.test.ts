@@ -74,3 +74,13 @@ test('the global handler reports, then passes the error on, and installs once', 
   );
   setReporter(null);
 });
+
+test('the unread badge counts updates not yet seen', async () => {
+  const { badgeText, unreadCount } = await import('./unread.ts');
+  const updates = [{ id: 'a' }, { id: 'b' }, { id: 'c' }];
+  assert.equal(unreadCount(updates, undefined), 3);
+  assert.equal(unreadCount(updates, ['a', 'zzz']), 2);
+  assert.equal(badgeText(0), undefined);
+  assert.equal(badgeText(3), '3');
+  assert.equal(badgeText(12), '9+');
+});
