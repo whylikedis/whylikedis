@@ -5,6 +5,8 @@
  *
  * Screen readers get an adjustable control: swipe up or down moves one step (or 1% of a log range),
  * and the value is read in the caller's words through `formatValue`.
+ *
+ * Needs react-native-gesture-handler 3.3 or later, for the `usePanGesture` hook API.
  */
 import { memo, useCallback, useEffect, useRef } from 'react';
 import { StyleSheet, View, type AccessibilityActionEvent, type LayoutChangeEvent } from 'react-native';
@@ -44,12 +46,18 @@ export const Slider = memo(function Slider({
   const position = useSharedValue(toPosition(value, range));
   const last = useRef(value);
 
-  // A value set from outside (a reset, a new round) moves the thumb.
+  // A value or range set from outside (a reset, a new round, a narrower range) moves the thumb. A
+  // value the finger just produced does not: the thumb is already there, and snapping it back to
+  // the step from the JS thread would make it stutter behind the finger.
+  const lastRange = useRef(range);
   useEffect(() => {
-    if (value !== last.current) {
-      last.current = value;
-      position.value = toPosition(value, range);
-    }
+    const r = lastRange.current;
+    // Compared by value, so a range written inline (a new object each render) is not a change.
+    const sameRange = r.min === range.min && r.max === range.max && r.step === range.step && r.scale === range.scale;
+    if (value === last.current && sameRange) return;
+    last.current = value;
+    lastRange.current = range;
+    position.value = toPosition(value, range);
   }, [value, range, position]);
 
   const fromTrack = useCallback(
