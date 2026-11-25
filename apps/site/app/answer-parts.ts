@@ -1,9 +1,11 @@
 import type { CitationSourceData } from '@/components/ui/patterns/citation';
+import { contestedText, isShown, quoteCount } from '@whylikedis/content';
 import { type Card, type Fact, PREVIEW, site } from './data';
 
+export { contestedText, quoteCount };
+
 // The answer pages show only what the gate passed: a verified card, or any card in the local preview.
-export const shownCards = () =>
-  site.cards.filter((c) => PREVIEW || c.status === 'verified');
+export const shownCards = () => site.cards.filter((c) => isShown(c, PREVIEW));
 
 export const chapterTitle = (c: Card) =>
   site.chapters.find((ch) => ch.n === c.era)?.title ?? `Chapter ${c.era}`;
@@ -62,17 +64,11 @@ export const record = (c: Card) =>
     })
     .sort((a, b) => a.year - b.year);
 
-export const quoteCount = (c: Card) =>
-  c.facts.reduce((n, f) => n + f.sources.length, 0);
-
-export const contestedText = (c: Card) =>
-  c.contested.map((x) => (typeof x === 'string' ? x : x.text));
-
 // The search list: every claim once (the fuller card when two share a claim), each going to the best
 // page we have. A value must be unique, so it is the card id; the href travels beside it.
 export const searchItems = () => {
   const seen = new Set<string>();
-  const shown = (c: Card) => PREVIEW || c.status === 'verified';
+  const shown = (c: Card) => isShown(c, PREVIEW);
   const sorted = [...site.cards].sort(
     (a, b) =>
       Number(shown(b)) - Number(shown(a)) || b.facts.length - a.facts.length,

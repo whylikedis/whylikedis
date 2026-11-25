@@ -13,3 +13,8 @@ apps/site/lib/utils.ts
 apps/site/lib/theme-tokens.ts
 apps/site/hooks/use-reading-prefs.ts
 apps/site/styles/interlace/
+# Interlace native, synced as Interlace ships it (apps/mobile/scripts/sync-interlace.mjs).
+apps/mobile/interlace/
+apps/mobile/content/
+apps/mobile/dist/
+apps/mobile/.expo/

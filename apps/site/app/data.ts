@@ -1,54 +1,10 @@
 import { readFileSync } from 'node:fs';
 import path from 'node:path';
+import { HELD_DOCS, type Site } from '@whylikedis/content';
 
 // data/site.json is written by export.py from facts/ and docs/. The gate decides; the site displays.
-export type Source = {
-  publisher: string;
-  url: string;
-  quote: string;
-  kind: string;
-  wire?: string;
-};
-export type Fact = {
-  text: string;
-  record?: boolean;
-  enough: boolean;
-  sources: Source[];
-};
-export type Round = { verdict?: string; notes?: string };
-export type Card = {
-  id: string;
-  era: number;
-  claim: string;
-  answer: string;
-  status: string;
-  content_approved?: boolean;
-  heard: { who?: string; url: string; quote: string }[];
-  facts: Fact[];
-  contested: (string | { text: string; sources?: Source[] })[];
-  not_claimed: string[];
-  could_not_verify?: string[];
-  // Each sentence of the answer and the facts (by index) the citation reviewer tied it to.
-  answer_claims?: { says: string; facts: number[] }[];
-  review?: { skeptic?: Round; citer?: Round };
-};
-type Site = {
-  chapters: { n: number; title: string }[];
-  cards: Card[];
-  docs: Record<
-    string,
-    {
-      title: string;
-      html: string;
-      toc: { id: string; label: string; level: 2 | 3 | 4 }[];
-    }
-  >;
-  standing: string;
-};
-
-// Docs written but held back from the site until the owners approve them. A held doc gets no page,
-// no share image and no link: the election pages wait for the owners to agree on them.
-const HELD_DOCS = new Set(['election-map']);
+// The types and the rules for what is shown live in @whylikedis/content, shared with the app.
+export type { Card, Fact, Round, Source } from '@whylikedis/content';
 
 const raw: Site = JSON.parse(
   readFileSync(path.join(process.cwd(), 'data', 'site.json'), 'utf8'),
