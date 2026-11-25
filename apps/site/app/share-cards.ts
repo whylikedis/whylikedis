@@ -4,7 +4,9 @@ import { site } from './data';
 import { docLead } from './doc-lead';
 import { FACTS_DESCRIPTION, FACTS_TITLE } from './facts/copy';
 import { HOME_DESCRIPTION, HOME_TITLE } from './home-copy';
+import { DAILY_DESCRIPTION, DAILY_TITLE } from './daily/copy';
 import { SESSIONS_DESCRIPTION, SESSIONS_TITLE } from './sessions/copy';
+import { UPDATES_DESCRIPTION, UPDATES_TITLE } from './updates/copy';
 
 // What each page's share image says. A page is named by its path without slashes: '' is the home
 // page, 'facts' the answers index, 'answers/<id>' an answer, '<doc>' a guide.
@@ -98,7 +100,33 @@ function sessions(): ShareCard {
   };
 }
 
+function daily(): ShareCard {
+  return {
+    alt: `${DAILY_TITLE} A daily question from WhyLikeDIs`,
+    props: {
+      label: 'Every day',
+      kicker: 'WhyLikeDIs',
+      title: DAILY_TITLE,
+      description: DAILY_DESCRIPTION,
+    },
+  };
+}
+
+function updates(): ShareCard {
+  return {
+    alt: `${UPDATES_TITLE} at WhyLikeDIs`,
+    props: {
+      label: 'Updates',
+      kicker: 'WhyLikeDIs',
+      title: UPDATES_TITLE,
+      description: UPDATES_DESCRIPTION,
+    },
+  };
+}
+
 export function shareCard(page: string): ShareCard | null {
+  if (page === 'daily') return daily();
+  if (page === 'updates') return updates();
   if (page === '') return home();
   if (page === 'sessions') return sessions();
   if (page === 'facts') return facts();
@@ -110,6 +138,8 @@ export const sharePages = () => [
   '',
   'facts',
   'sessions',
+  'daily',
+  'updates',
   ...shownCards().map((c) => `answers/${c.id}`),
   ...Object.keys(site.docs),
 ];

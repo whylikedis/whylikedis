@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { Footer } from '@/components/ui/patterns/footer';
 import { Typography } from '@/components/ui/typography';
+import { ANALYTICS_NOTICE, ANALYTICS_ON } from '@/lib/analytics';
 
 const GROUPS = [
   {
@@ -8,6 +9,8 @@ const GROUPS = [
     links: [
       { href: '/facts/', label: 'All answers' },
       { href: '/questions/', label: 'Questions we tested' },
+      { href: '/daily/', label: 'Daily question' },
+      { href: '/updates/', label: "What's new" },
     ],
   },
   {
@@ -33,6 +36,8 @@ export function SiteFooter() {
       }
       tagline="Clear answers about Israel, each with sources you can check."
       groups={GROUPS}
+      // Shown only where analytics is on. The wording is a public claim: approved by the owners.
+      copyright={ANALYTICS_ON ? ANALYTICS_NOTICE : undefined}
       renderLink={({ href, className, children }) => (
         <Link href={href} className={className}>
           {children}

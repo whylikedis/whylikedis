@@ -1,7 +1,7 @@
 'use client';
 import type { CSSProperties } from 'react';
 
-import { BookOpen, CircleHelp, FlaskConical } from 'lucide-react';
+import { BookOpen, CircleHelp, FlaskConical, Sparkles } from 'lucide-react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Topbar } from '@/components/ui/patterns/topbar';
@@ -34,8 +34,16 @@ const LINKS = [
         description: 'Answers whose rounds of review ended without a verdict.',
         icon: <CircleHelp aria-hidden="true" />,
       },
+      {
+        href: '/updates/',
+        label: "What's new",
+        description:
+          'Our newest answers, once a second reader has checked them.',
+        icon: <Sparkles aria-hidden="true" />,
+      },
     ],
   },
+  { href: '/daily/', label: 'Daily question' },
   { href: '/method/', label: 'How we check' },
   { href: '/sessions/', label: 'Sessions' },
 ];

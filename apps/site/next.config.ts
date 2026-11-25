@@ -4,7 +4,7 @@ import type { NextConfig } from 'next';
 const config: NextConfig = {
   trailingSlash: true, // the addresses the first site used: /facts/, /method/
   poweredByHeader: false,
-  transpilePackages: ['@whylikedis/content'], // shared with the app, as TypeScript source
+  transpilePackages: ['@whylikedis/content', '@whylikedis/games'], // shared with the app, as TypeScript source
   turbopack: { root: path.join(__dirname, '../..') }, // the workspace root, where the lockfile is
   async headers() {
     return [
