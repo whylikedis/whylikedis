@@ -47,17 +47,69 @@ import {
 const HOST_ID = 'host';
 const CODE_MINUTES = 60;
 
+// A reload of the big screen must not end the game: the room and its deal are kept in this
+// browser and picked up again, so the phones carry on where they were.
+const SAVE_KEY = 'wld.room.host';
+const SAVE_HOURS = 3;
+
+type Saved = { room: RoomState; deck: MatchRound[]; savedAt: number };
+
+function loadSaved(): Saved | null {
+  try {
+    const raw = window.localStorage.getItem(SAVE_KEY);
+    if (!raw) return null;
+    const saved = JSON.parse(raw) as Saved;
+    if (
+      !saved?.room?.code ||
+      !Array.isArray(saved.deck) ||
+      saved.room.phase === 'closed' ||
+      Date.now() - saved.savedAt > SAVE_HOURS * 3_600_000
+    )
+      return null;
+    return saved;
+  } catch {
+    return null;
+  }
+}
+
+function save(room: RoomState, deck: MatchRound[]) {
+  try {
+    if (room.phase === 'closed') window.localStorage.removeItem(SAVE_KEY);
+    else
+      window.localStorage.setItem(
+        SAVE_KEY,
+        JSON.stringify({ room, deck, savedAt: Date.now() } satisfies Saved),
+      );
+  } catch {
+    // Private mode or full storage: the game goes on, a reload just starts a new one.
+  }
+}
+
+function forget() {
+  try {
+    window.localStorage.removeItem(SAVE_KEY);
+  } catch {}
+}
+
 export function HostRoom({ cards }: { cards: ReplyCard[] }) {
-  // The code and the deal are made in the browser, once, so a reload starts a new room.
+  // The code and the deal are made in the browser once; a reload picks the same game up again.
   const [start, setStart] = useState<{
     room: RoomState;
     deck: MatchRound[];
+    resumed: boolean;
   } | null>(null);
+  const [fresh, setFresh] = useState(0);
   useEffect(() => {
+    const saved = fresh === 0 ? loadSaved() : null;
+    if (saved) {
+      setStart({ room: saved.room, deck: saved.deck, resumed: true });
+      return;
+    }
     const code = makeJoinCode();
     const deck = dealMatchReply(cards, code);
     setStart({
       deck,
+      resumed: false,
       room: createRoom({
         code,
         hostId: HOST_ID,
@@ -65,7 +117,7 @@ export function HostRoom({ cards }: { cards: ReplyCard[] }) {
         codeExpiresAt: Date.now() + CODE_MINUTES * 60_000,
       }),
     });
-  }, [cards]);
+  }, [cards, fresh]);
 
   if (!start) return <Typography tone="muted">Opening a room…</Typography>;
   if (start.deck.length < 2)
@@ -74,10 +126,31 @@ export function HostRoom({ cards }: { cards: ReplyCard[] }) {
         A game needs at least two checked answers. More are on the way.
       </Callout>
     );
-  return <Stage initial={start.room} deck={start.deck} />;
+  return (
+    <Stage
+      key={start.room.code}
+      initial={start.room}
+      deck={start.deck}
+      resumed={start.resumed}
+      onStartOver={() => {
+        forget();
+        setFresh((n) => n + 1);
+      }}
+    />
+  );
 }
 
-function Stage({ initial, deck }: { initial: RoomState; deck: MatchRound[] }) {
+function Stage({
+  initial,
+  deck,
+  resumed,
+  onStartOver,
+}: {
+  initial: RoomState;
+  deck: MatchRound[];
+  resumed: boolean;
+  onStartOver: () => void;
+}) {
   const { transport, status } = useRoomTransport('host', initial.code);
   const { room, send } = useRoom({
     transport,
@@ -87,6 +160,9 @@ function Stage({ initial, deck }: { initial: RoomState; deck: MatchRound[] }) {
   });
   const roomRef = useRef(room!);
   roomRef.current = room!;
+  useEffect(() => {
+    if (room) save(room, deck);
+  }, [room, deck]);
 
   // Every round's claim and replies travel with the host's `question`; the answer only with
   // `reveal`. The host controls send the bare events; this adds the round.
@@ -141,6 +217,14 @@ function Stage({ initial, deck }: { initial: RoomState; deck: MatchRound[] }) {
         <Callout tone="note" title="This preview plays in one browser">
           Open the join link in another tab to play. Rooms across phones switch
           on with the live service.
+        </Callout>
+      )}
+      {resumed && room.phase !== 'lobby' && room.phase !== 'closed' && (
+        <Callout tone="note" title="Back in the game">
+          The page reloaded and picked up where it was. Players stay in.{' '}
+          <Button variant="link" className="h-auto p-0" onClick={onStartOver}>
+            Start a new game instead
+          </Button>
         </Callout>
       )}
       {status === 'retrying' && (

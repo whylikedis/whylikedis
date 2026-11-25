@@ -81,6 +81,20 @@ const BASE = process.env.BASE_URL ?? 'http://localhost:4173';
       ),
     );
     console.log('round', round, outcomes, status);
+    if (round === 1) {
+      // The big screen reloads mid-game: same room, same round, players still in.
+      await host.reload();
+      await host.getByText('Back in the game').waitFor({ timeout: 15000 });
+      await host
+        .locator('[data-slot=stack][data-phase=reveal]')
+        .waitFor({ timeout: 10000 });
+      // A phone reloads too: it is still the same player.
+      await players[2].reload();
+      await players[2]
+        .locator('[data-slot="answer-pad"][data-state="revealed"]')
+        .waitFor({ timeout: 15000 });
+      console.log('host and a phone reloaded mid-game: resumed');
+    }
     const next = host.getByRole('button', {
       name: /Next round|Show the podium/,
     });
