@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ofri-peretz/ui-nightly/v1/schema.json",
+  "storybook": { "dir": "no-storybook-here" },
+  "pages": {
+    "urls": [
+      "/",
+      "/facts/",
+      "/answers/era5-genocide-claim/",
+      "/method/",
+      "/open/",
+      "/questions/",
+      "/how-we-check/",
+      "/daily/",
+      "/daily/practice/",
+      "/daily/s/had-it/",
+      "/updates/",
+      "/sessions/",
+      "/sign-in/",
+      "/no-such-page/"
+    ],
+    "server": {
+      "command": "cd apps/site && npx --no next start -p 4174 -H 127.0.0.1",
+      "url": "http://127.0.0.1:4174/"
+    }
+  },
+  "browsers": ["chromium", "firefox", "webkit"],
+  "viewports": {
+    "desktop": { "width": 1440, "height": 900 }
+  },
+  "compat": {
+    "paths": ["apps/site/.next/static"],
+    "browserslist": [
+      "chrome >= 111",
+      "edge >= 111",
+      "firefox >= 128",
+      "safari >= 16.4",
+      "ios_saf >= 16.4"
+    ]
+  }
+}
