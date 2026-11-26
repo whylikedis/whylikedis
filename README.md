@@ -51,4 +51,6 @@ repository checks itself.
 
 ## Licence
 
-Not chosen yet.
+The source is public to read, not free to copy. The [WhyLikeDis Commercial License](LICENSE)
+allows development and testing only; any production use needs a signed agreement. Files copied
+from Interlace keep Interlace's MIT licence, and quoted sources belong to their authors.

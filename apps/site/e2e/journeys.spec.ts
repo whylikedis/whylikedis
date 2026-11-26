@@ -1,6 +1,6 @@
 // The paths a reader takes, end to end, as a reader takes them: by role and label, never by class.
 // Each one also checks what analytics heard, since that is how we learn what helps.
-import { PHONE, ratchet } from './conditions';
+import { PHONE } from './conditions';
 import { expect, NOW, OTP, settle, test } from './fixtures';
 
 const names = (b: { events: { event: string }[] }) =>
@@ -186,9 +186,7 @@ test.describe('sessions', () => {
   }
 
   test('an email that is not one says what is wrong', async ({ page }) => {
-    // MultiStepForm blocks the step and focuses the field, but shows no message and sets no
-    // aria-invalid, so a sighted reader sees nothing happen. A fix belongs in Interlace.
-    ratchet('invalid-field-message sessions');
+    // The step names the field and says why, not only where (Interlace #229).
     await page.goto('/sessions/');
     await settle(page);
     await page.getByRole('button', { name: 'Continue' }).click();
@@ -205,8 +203,10 @@ test.describe('sessions', () => {
       timeout: 2000,
     });
     await expect(
-      page.locator('[data-slot="field-error"]').filter({ visible: true }),
-    ).not.toHaveCount(0);
+      page
+        .locator('[data-slot="multi-step-form-error"]')
+        .filter({ visible: true }),
+    ).toHaveText(/^Email: \S/);
   });
 
   test('pick a day and time, give details, check, request', async ({
