@@ -129,3 +129,10 @@
     color-scheme: dark;
   }
 }
+
+/* The text-size steps in the reading menu come from the design system at its small control size
+   (38px wide). Readers from 35 to 85 get a 44px target, as every other control here does. */
+[data-slot='text-size-control'] button {
+  min-height: 44px;
+  min-width: 44px;
+}
