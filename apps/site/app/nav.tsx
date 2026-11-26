@@ -36,7 +36,7 @@ const LINKS = [
       },
       {
         href: '/updates/',
-        label: "What's new",
+        label: 'What’s new',
         description:
           'Our newest answers, once a second reader has checked them.',
         icon: <Sparkles aria-hidden="true" />,
