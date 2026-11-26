@@ -43,7 +43,21 @@ export default defineConfig({
       name: 'visual',
       testMatch: 'visual.spec.ts',
       snapshotPathTemplate: '{testDir}/baselines/{arg}{ext}',
-      use: { ...devices['Desktop Chrome'] },
+      use: {
+        ...devices['Desktop Chrome'],
+        // Same image, different CPU: Skia picks drawing code for the CPU it runs on, so text
+        // edges differed by a few hundred pixels between a laptop and CI. These flags take the
+        // generic paths everywhere.
+        launchOptions: {
+          args: [
+            '--disable-skia-runtime-opts',
+            '--disable-gpu',
+            '--disable-lcd-text',
+            '--force-color-profile=srgb',
+            '--font-render-hinting=none',
+          ],
+        },
+      },
     },
   ],
   webServer: {

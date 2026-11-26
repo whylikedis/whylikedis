@@ -41,12 +41,10 @@ test('offline after the page loaded: the daily question still plays', async ({
 test('no network for the booking: it says so, and keeps what was typed', async ({
   page,
 }) => {
-  test
-    .info()
-    .annotations.push({
-      type: 'console-error',
-      description: 'Failed to load resource',
-    });
+  test.info().annotations.push({
+    type: 'console-error',
+    description: 'Failed to load resource',
+  });
   await page.route(`${SUPABASE}/rest/v1/session_requests*`, (r) =>
     r.abort('internetdisconnected'),
   );
