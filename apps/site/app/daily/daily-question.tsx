@@ -13,6 +13,7 @@ import {
   progressBetween,
   PROTECTION,
   puzzleNumber,
+  shareSlug,
   STREAK_MILESTONES,
   whatWouldYouSay,
   WWYS,
@@ -211,6 +212,11 @@ export function DailyQuestion({
     typeof window === 'undefined'
       ? undefined
       : `${window.location.origin}/daily/`;
+  // A shared result links to its own page, so the link unfurls into a picture of the result.
+  const shareUrl =
+    url && storedRating
+      ? `${url}s/${shareSlug(storedRating, milestone)}/`
+      : url;
 
   return (
     <Stack gap="lg">
@@ -301,7 +307,7 @@ export function DailyQuestion({
                 milestone !== undefined ? `${milestone}-day streak` : undefined
               }
               streak={milestone !== undefined ? undefined : streak.current}
-              url={url}
+              url={shareUrl}
               onShare={(method) =>
                 capture('daily_shared', {
                   puzzle: number,
