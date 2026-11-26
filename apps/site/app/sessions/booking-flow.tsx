@@ -30,6 +30,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { Typography } from '@/components/ui/typography';
 import { supabase } from '@/lib/supabase/client';
 import { AUTH_ENABLED } from '@/lib/supabase/config';
+import { useFormIntent } from '@/hooks/use-intent';
 
 // With Supabase configured, the last step saves the request (public.session_requests, insert only)
 // and the team is emailed about it. Without it, the flow is a preview that sends nothing. The times
@@ -74,7 +75,18 @@ export function BookingFlow({ topics }: { topics: string[] }) {
   const [sending, setSending] = React.useState(false);
   const [failed, setFailed] = React.useState(false);
 
+  // Started, sent, or left half-way: counted for the booking funnel, never what was typed.
+  const intent = useFormIntent({ name: 'session_request' });
+  const touched =
+    forWho !== 'family' ||
+    Boolean(topic || date || time || who.name || who.email);
+  const { onChange: startIntent } = intent;
+  React.useEffect(() => {
+    if (touched) startIntent();
+  }, [touched, startIntent]);
+
   async function send(data: FormData) {
+    intent.markSubmitted();
     if (!AUTH_ENABLED) return setSent(true);
     setSending(true);
     setFailed(false);
