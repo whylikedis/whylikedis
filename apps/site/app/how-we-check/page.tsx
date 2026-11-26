@@ -146,24 +146,24 @@ export default function HowWeCheck() {
           <GridItem span={12} lgSpan={8}>
             <Stack render={<dl />} gap="lg">
               {labels.map((l, i) => (
-                <Reveal delay={i * 60} key={i}>
-                  <Stack gap="xs">
-                    <dt>
-                      <Cluster gap="sm" align="center">
-                        {l.badge}
-                        {l.count !== null && (
-                          <Typography variant="ui-sm" tone="muted">
-                            {l.count === 0
-                              ? 'None yet'
-                              : `${l.count} ${l.count === 1 ? 'answer' : 'answers'}`}
-                          </Typography>
-                        )}
-                      </Cluster>
-                    </dt>
-                    <dd>
-                      <Typography>{l.body}</Typography>
-                    </dd>
-                  </Stack>
+                // A <dl> may group each term and its description in one <div>, and only one: the
+                // Reveal is that div, so the stack's gap goes on it.
+                <Reveal delay={i * 60} key={i} className="flex flex-col gap-2">
+                  <dt>
+                    <Cluster gap="sm" align="center">
+                      {l.badge}
+                      {l.count !== null && (
+                        <Typography variant="ui-sm" tone="muted">
+                          {l.count === 0
+                            ? 'None yet'
+                            : `${l.count} ${l.count === 1 ? 'answer' : 'answers'}`}
+                        </Typography>
+                      )}
+                    </Cluster>
+                  </dt>
+                  <dd>
+                    <Typography>{l.body}</Typography>
+                  </dd>
                 </Reveal>
               ))}
             </Stack>

@@ -37,6 +37,9 @@ export function SignInPanel() {
   const [error, setError] = useState(errorText(params.get('error')));
   const [codeError, setCodeError] = useState<string>();
   const [verifying, setVerifying] = useState(false);
+  // The code is held here so a wrong one can be cleared: typing over six full boxes never
+  // completes the field again, so the second try would never be sent.
+  const [code, setCode] = useState('');
   const codeId = useId();
 
   useEffect(() => setLastUsed(readLastSignIn()), []);
@@ -96,11 +99,14 @@ export function SignInPanel() {
     });
     setVerifying(false);
     if (e) {
+      // Supabase answers a mistyped code and an expired one with the same otp_expired, so the
+      // words cover both: "expired" alone sends someone who mistyped off for a new code.
       setCodeError(
-        e.code === 'otp_expired'
-          ? ERRORS.otp_expired
-          : 'That code does not match. Check the email and try again.',
+        'That code does not match, or it has expired. Check the email, or ask for a new code.',
       );
+      setCode('');
+      // The id is the first box's, so the next try starts there.
+      requestAnimationFrame(() => document.getElementById(codeId)?.focus());
       return;
     }
     router.replace(next);
@@ -134,6 +140,8 @@ export function SignInPanel() {
           </label>
           <OtpField
             id={codeId}
+            value={code}
+            onValueChange={setCode}
             onValueComplete={verify}
             disabled={verifying}
             invalid={Boolean(codeError)}
