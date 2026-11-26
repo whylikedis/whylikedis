@@ -37,6 +37,8 @@ const KNOWN_AHEAD = {
     'Interlace #223, merged, awaiting release #99',
   'components/ui/effects/pointer-surface.tsx':
     'Interlace #223, merged, awaiting release #99',
+  'components/ui/games/daily-puzzle.tsx':
+    'Interlace #259 and #260, merged, awaiting release',
   'components/ui/patterns/claim-card.tsx':
     'Interlace #258, merged, awaiting release',
   'components/ui/patterns/cta-section.tsx':

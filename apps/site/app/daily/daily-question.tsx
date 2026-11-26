@@ -223,6 +223,7 @@ export function DailyQuestion({
       <DailyPuzzle
         title="What would you say?"
         headingLevel={1}
+        size="page"
         number={number > 0 ? number : undefined}
         day={day}
         rounds={1}
