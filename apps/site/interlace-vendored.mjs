@@ -28,9 +28,6 @@ const REGISTRY = 'apps/registry/public/r';
 // names the pull request; delete the entry once the file matches a release.
 const KNOWN_AHEAD = {
   'hooks/use-intent.ts': 'ofri-peretz/interlace#227',
-  'components/ui/callout.tsx': 'ofri-peretz/interlace#239',
-  'components/ui/patterns/topbar.tsx': 'ofri-peretz/interlace#239',
-  'components/ui/patterns/footer.tsx': 'ofri-peretz/interlace#239',
 };
 
 const interlace = process.argv[2];
