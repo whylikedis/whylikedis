@@ -72,8 +72,10 @@ export default async function Answer(props: Props) {
   const lines = answerLines(c);
   const dated = record(c);
   const argued = contestedText(c);
+  // Two answers can take one claim from different angles; a claim is suggested once.
   const others = shownCards().filter(
-    (x) => x.id !== c.id && x.claim !== c.claim,
+    (x, i, all) =>
+      x.claim !== c.claim && all.findIndex((y) => y.claim === x.claim) === i,
   );
   return (
     <>
@@ -231,7 +233,7 @@ export default async function Answer(props: Props) {
                   </Typography>
                   <Typography variant="long" tone="muted">
                     The documents behind the answer, by the year each one names,
-                    quoted as the gate checked them.
+                    quoted word for word.
                   </Typography>
                 </Stack>
                 <Timeline orientation="vertical">
