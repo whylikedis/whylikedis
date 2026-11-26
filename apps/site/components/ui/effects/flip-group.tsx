@@ -59,6 +59,7 @@ import * as React from 'react';
 
 import { cn } from '@/lib/utils';
 import { useReducedMotion } from '@/hooks/use-reduced-motion';
+import { motionEase } from '@/lib/motion-token';
 
 export interface FlipGroupProps extends React.ComponentPropsWithoutRef<'div'> {
   /** Milliseconds each glide takes. @default 400 */
@@ -67,7 +68,6 @@ export interface FlipGroupProps extends React.ComponentPropsWithoutRef<'div'> {
   render?: useRender.RenderProp;
 }
 
-const EASE = 'cubic-bezier(0.65, 0, 0.35, 1)';
 
 function items(root: HTMLElement): HTMLElement[] {
   return Array.from(root.querySelectorAll<HTMLElement>('[data-flip-id]'));
@@ -102,7 +102,7 @@ export function FlipGroup({ duration = 400, render, className, ...props }: FlipG
       const to = now.get(id)!;
       const from = before.get(id);
       if (!from) {
-        glides.current.set(id, el.animate([{ opacity: 0 }, { opacity: 1 }], { duration, easing: EASE }));
+        glides.current.set(id, el.animate([{ opacity: 0 }, { opacity: 1 }], { duration, easing: motionEase(el, 'move') }));
         continue;
       }
       const dx = from.left - to.left;
@@ -112,7 +112,7 @@ export function FlipGroup({ duration = 400, render, className, ...props }: FlipG
         id,
         el.animate([{ transform: `translate(${dx}px, ${dy}px)` }, { transform: 'none' }], {
           duration,
-          easing: EASE,
+          easing: motionEase(el, 'move'),
         }),
       );
     }

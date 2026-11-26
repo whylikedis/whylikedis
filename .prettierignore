@@ -11,6 +11,7 @@ FACTS.md
 apps/site/components/ui/
 apps/site/lib/utils.ts
 apps/site/lib/theme-tokens.ts
+apps/site/lib/motion-token.ts
 apps/site/hooks/use-reading-prefs.ts
 apps/site/hooks/use-intent.ts
 apps/site/styles/interlace/
