@@ -114,13 +114,34 @@ def md(text, toc=None):
     return "".join(out)
 
 
-def doc(source, title):
+# A card's review state, written `draft` in a doc, reads as a status pill like the table cells do.
+STATES = {"verified": "success", "weakened": "warning", "draft": "neutral"}
+
+
+def named(html_text, cards):
+    """A doc names a card by its file name (`era3-partition-1947`) and a state by its word (`draft`).
+    A visitor reads neither: the card becomes the claim it checks, in quotation marks because it is
+    the claim as people make it, not our answer; linked to the answer once that is shown (verified).
+    The state becomes a pill. Any other code stays code."""
+    def swap(m):
+        word = m.group(1)
+        c = cards.get(word)
+        if c:
+            label = f"\u201c{E(c['claim'])}\u201d"
+            return f'<a href="/answers/{word}/">{label}</a>' if c.get("status") == "verified" else label
+        tone = STATES.get(word) or TONES.get(html.unescape(word))
+        return f'<span data-status="{tone}">{word}</span>' if tone else m.group(0)
+    return re.sub(r"<code>([^<]+)</code>", swap, html_text)
+
+
+def doc(source, title, cards=None):
     """A doc page: its HTML and the contents list of its headings."""
     path = os.path.join(ROOT, "docs", source)
     if not os.path.exists(path):
         return {"title": title, "html": "<p>Not written yet.</p>", "toc": []}
     toc = []
-    return {"title": title, "html": md(open(path, encoding="utf-8").read(), toc), "toc": toc}
+    body = md(open(path, encoding="utf-8").read(), toc)
+    return {"title": title, "html": named(body, cards or {}), "toc": toc}
 
 
 def section(source, heading):
@@ -141,7 +162,7 @@ def site():
     return {
         "chapters": [{"n": k, "title": t} for k, t in factcheck.CHAPTERS.items() if k in eras],
         "cards": cards,
-        "docs": {path: doc(source, title) for path, (source, title) in DOCS.items()},
+        "docs": {path: doc(source, title, {c["id"]: c for c in cards}) for path, (source, title) in DOCS.items()},
         "standing": section("chapters.md", "Where we stand"),
     }
 
@@ -153,6 +174,10 @@ def demo():
     assert md("- one\n  more\n- two") == "<ul><li>one more</li><li>two</li></ul>"
     assert "&lt;script&gt;" in md("<script>") and "<script" not in inline("<script>alert(1)</script>")
     assert "<p>" in section("chapters.md", "Where we stand")
+    cs = {"a-1": {"claim": "Is <it> so?", "status": "verified"}, "b-2": {"claim": "Was it?", "status": "draft"}}
+    assert named("<p><code>a-1</code></p>", cs) == '<p><a href="/answers/a-1/">\u201cIs &lt;it&gt; so?\u201d</a></p>'
+    assert named("<code>b-2</code>", cs) == "\u201cWas it?\u201d" and named("<code>x.py</code>", cs) == "<code>x.py</code>"
+    assert named("<code>draft</code>", {}) == '<span data-status="neutral">draft</span>'
     assert 'href="https://a.org/x"' in inline("[t](https://a.org/x)") and "href" not in inline("[t](javascript:alert(1))")
 
 
