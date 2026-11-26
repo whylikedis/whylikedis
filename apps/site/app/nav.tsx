@@ -61,7 +61,7 @@ export function Nav() {
       logo={
         // The street sign keeps the sign face (Heebo), not the serif the headings use.
         <span style={{ '--font-heading': 'var(--font-sans)' } as CSSProperties}>
-          <Wordmark label="WhyLikeDIs, home" href="/">
+          <Wordmark label="WhyLikeDIs, home" href="/" size="responsive">
             <Wordmark.Line lang="he" dir="rtl">
               למה ככה
             </Wordmark.Line>

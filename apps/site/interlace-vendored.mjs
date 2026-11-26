@@ -26,12 +26,7 @@ const REGISTRY = 'apps/registry/public/r';
 
 // Taken from an open Interlace pull request before it merged. Each entry
 // names the pull request; delete the entry once the file matches a release.
-const KNOWN_AHEAD = {
-  'components/ui/games/streak.tsx': 'ofri-peretz/interlace#217',
-  'components/ui/games/streak-model.ts': 'ofri-peretz/interlace#217',
-  'components/ui/games/share-card.tsx': 'ofri-peretz/interlace#217',
-  'components/ui/games/share-model.ts': 'ofri-peretz/interlace#217',
-};
+const KNOWN_AHEAD = {};
 
 const interlace = process.argv[2];
 if (!interlace || !existsSync(join(interlace, REGISTRY))) {
