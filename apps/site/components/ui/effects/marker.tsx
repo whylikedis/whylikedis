@@ -55,6 +55,7 @@ import * as React from 'react';
 
 import { cn } from '@/lib/utils';
 import { useReducedMotion } from '@/hooks/use-reduced-motion';
+import { motionEase } from '@/lib/motion-token';
 
 const VARIANTS = {
   /** A highlighter across the lower half of the letters. */
@@ -127,7 +128,7 @@ export function Marker({
         el.animate([{ backgroundSize: from }, { backgroundSize: to }], {
           duration,
           delay,
-          easing: 'cubic-bezier(0.65, 0, 0.35, 1)',
+          easing: motionEase(el, 'move'),
           fill: 'backwards',
         });
       },

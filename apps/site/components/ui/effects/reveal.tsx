@@ -48,6 +48,7 @@ import * as React from "react";
 
 import { cn } from "@/lib/utils";
 import { useReducedMotion } from "@/hooks/use-reduced-motion";
+import { motionEase } from "@/lib/motion-token";
 
 /** Where each effect starts from. Every one ends at the element's own style. */
 const FROM = {
@@ -107,7 +108,7 @@ export function Reveal({
       el.animate([FROM[effect], TO[effect]], {
         duration,
         delay: wait,
-        easing: "cubic-bezier(0.2, 0, 0, 1)",
+        easing: motionEase(el, 'enter'),
         fill: "backwards",
       });
     };
