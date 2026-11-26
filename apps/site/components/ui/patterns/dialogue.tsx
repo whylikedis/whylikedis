@@ -80,7 +80,7 @@ function Dialogue({ speakers = 'above', className, ...props }: DialogueProps) {
       data-slot="dialogue"
       data-speakers={speakers}
       data-min-viewport={String(MIN_VIEWPORT)}
-      className={cn('group/dialogue flex flex-col gap-4', className)}
+      className={cn('group/dialogue isolate flex flex-col gap-4', className)}
       {...props}
     />
   );
@@ -109,7 +109,7 @@ const SPEAKER_INSIDE: Record<DialogueTone, string> = {
 const INSIDE_LI =
   "group-data-[speakers=inside]/dialogue:grid group-data-[speakers=inside]/dialogue:[grid-template-areas:'turn']";
 const INSIDE_SPEAKER =
-  'group-data-[speakers=inside]/dialogue:z-10 group-data-[speakers=inside]/dialogue:[grid-area:turn] group-data-[speakers=inside]/dialogue:self-start group-data-[speakers=inside]/dialogue:justify-self-start group-data-[speakers=inside]/dialogue:px-4 group-data-[speakers=inside]/dialogue:pt-3 group-data-[speakers=inside]/dialogue:font-bold group-data-[speakers=inside]/dialogue:text-(--dialogue-speaker)';
+  'group-data-[speakers=inside]/dialogue:z-raised group-data-[speakers=inside]/dialogue:[grid-area:turn] group-data-[speakers=inside]/dialogue:self-start group-data-[speakers=inside]/dialogue:justify-self-start group-data-[speakers=inside]/dialogue:px-4 group-data-[speakers=inside]/dialogue:pt-3 group-data-[speakers=inside]/dialogue:font-bold group-data-[speakers=inside]/dialogue:text-(--dialogue-speaker)';
 const INSIDE_BUBBLE =
   'group-data-[speakers=inside]/dialogue:[grid-area:turn] group-data-[speakers=inside]/dialogue:pt-8';
 
@@ -168,7 +168,7 @@ function DialogueSuggestions({ className, ...props }: React.ComponentProps<'div'
 }
 
 const SUGGESTION =
-  'border-primary text-primary hover:bg-primary/10 focus-visible:ring-ring/50 inline-flex min-h-control items-center rounded-full border-2 px-4 py-1.5 text-sm font-semibold transition-colors outline-none focus-visible:ring-[3px]';
+  'border-primary text-primary hover:bg-primary/10 focus-visible:ring-ring inline-flex min-h-control items-center rounded-full border-2 px-4 py-1.5 text-sm font-semibold transition-colors outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-background';
 
 type DialogueSuggestionProps = React.ComponentProps<'a'> & {
   /**
