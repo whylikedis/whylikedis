@@ -73,6 +73,7 @@ for (const commit of commits) {
     '--root',
     '--no-commit-id',
     '--name-only',
+    '--diff-filter=AM',
     '-r',
     commit,
     '--',
@@ -81,11 +82,7 @@ for (const commit of commits) {
     .split('\n')
     .filter((p) => p.endsWith('.json'));
   for (const path of paths) {
-    try {
-      take(git('show', `${commit}:${path}`));
-    } catch {
-      // deleted in this commit
-    }
+    take(git('show', `${commit}:${path}`));
   }
 }
 
