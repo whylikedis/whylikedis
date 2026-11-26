@@ -17,7 +17,7 @@ import * as React from 'react';
  *
  * ## Anatomy
  *
- *   DailyPuzzle                    (section — data-slot="daily-puzzle", data-state=playing|done, labelled by the title)
+ *   DailyPuzzle                    (section — data-slot="daily-puzzle", data-state=playing|done, data-size, labelled by the title)
  *     ├─ header                    (data-slot="daily-puzzle-header")
  *     │   ├─ h2                    (data-slot="daily-puzzle-title")
  *     │   ├─ p                     (data-slot="daily-puzzle-meta": "No. 42 · Tuesday, November 24")
@@ -73,6 +73,13 @@ type DailyPuzzleProps = Omit<React.ComponentProps<'section'>, 'title'> & {
   title: React.ReactNode;
   /** @default 2 */
   headingLevel?: 1 | 2 | 3;
+  /**
+   * `default` sets the title at `text-h3`, for a puzzle inside a page. `page` sets it as
+   * Typography's `h1` does (`text-h1`), for a page whose content is the puzzle.
+   * Visual only: pair it with `headingLevel={1}`.
+   * @default 'default'
+   */
+  size?: 'default' | 'page';
   /** Today's puzzle number (see `puzzleNumber`). */
   number?: number;
   /** Today's day key, shown as a date. */
@@ -92,6 +99,7 @@ type DailyPuzzleProps = Omit<React.ComponentProps<'section'>, 'title'> & {
 function DailyPuzzle({
   title,
   headingLevel = 2,
+  size = 'default',
   number,
   day,
   rounds,
@@ -127,6 +135,7 @@ function DailyPuzzle({
     <section
       data-slot="daily-puzzle"
       data-state={done ? 'done' : 'playing'}
+      data-size={size}
       data-min-viewport={String(MIN_VIEWPORT)}
       aria-labelledby={titleId}
       className={cn('grid gap-5', className)}
@@ -134,7 +143,14 @@ function DailyPuzzle({
     >
       <header data-slot="daily-puzzle-header" className="flex flex-wrap items-start justify-between gap-x-4 gap-y-2">
         <div className="grid min-w-0 gap-1">
-          <Heading id={titleId} data-slot="daily-puzzle-title" className="font-heading text-h3 font-semibold text-balance">
+          <Heading
+            id={titleId}
+            data-slot="daily-puzzle-title"
+            className={cn(
+              'font-heading text-balance',
+              size === 'page' ? 'text-h1 tracking-display font-bold' : 'text-h3 font-semibold',
+            )}
+          >
             {title}
           </Heading>
           {meta.length ? (
