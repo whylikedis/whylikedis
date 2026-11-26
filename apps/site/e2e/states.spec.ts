@@ -1,7 +1,7 @@
 // The states a reader lands in that a happy path never shows: storage turned off, the network
 // gone, a slow or failing back end, long words, no JavaScript, a keyboard only, an address that
 // leads nowhere.
-import { PHONE, ratchet } from './conditions';
+import { PHONE } from './conditions';
 import { expect, settle, test } from './fixtures';
 import { SUPABASE } from './env.mjs';
 import { PAGES } from './pages';
@@ -97,8 +97,6 @@ test('a slow account: the page says it is loading, then shows the account', asyn
 test('long words: a long name and email never push the booking summary sideways at 320px', async ({
   page,
 }) => {
-  // Interlace's MultiStepFormSummary does not wrap a long word in its answers.
-  ratchet('long-words sessions-summary');
   await page.setViewportSize({ width: 320, height: 640 });
   await page.goto('/sessions/');
   await settle(page);
