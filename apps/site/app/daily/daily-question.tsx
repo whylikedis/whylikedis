@@ -229,7 +229,9 @@ export function DailyQuestion({
         round={1}
         done={rated}
         aside={
-          player.ready ? (
+          // A first visit has no streak yet, and a flame beside a 0 read as a score of
+          // nothing. The chip appears once there is a run to show.
+          player.ready && streak.current > 0 ? (
             <Streak variant="compact" played={played} today={day} />
           ) : null
         }
