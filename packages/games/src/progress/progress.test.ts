@@ -8,6 +8,10 @@ import {
   goalXp,
   isGoalId,
   PRACTICE_XP,
+  ROOM_FINISH_XP,
+  ROOM_MAX_ROUNDS,
+  ROOM_MODE,
+  ROOM_ROUND_XP,
   ROUND_BONUS_XP,
   xpEntries,
   xpGained,
@@ -90,4 +94,26 @@ test('the player document keeps a valid goal and drops a bad one', () => {
   const base = { version: 2, device: 'd', events: [] };
   assert.equal(validatePlayer({ ...base, goal: 'keen' })?.goal, 'keen');
   assert.equal(validatePlayer({ ...base, goal: 'huge' })?.goal, undefined);
+});
+
+test('a live room earns XP for each round played and for finishing, never for its place', () => {
+  const won = {
+    ...round(ROOM_MODE, '2026-11-25', 3),
+    score: { points: 3000, max: 3000 },
+  };
+  const lost = {
+    ...round(ROOM_MODE, '2026-11-25', 3),
+    score: { points: 0, max: 3000 },
+  };
+  const expected = 3 * ROOM_ROUND_XP + ROOM_FINISH_XP;
+  assert.deepEqual(xpEntries([won]), [{ day: '2026-11-25', xp: expected }]);
+  assert.deepEqual(xpEntries([lost]), [{ day: '2026-11-25', xp: expected }]);
+});
+
+test('room answers earn nothing on their own, and a long room is capped', () => {
+  assert.deepEqual(xpEntries([answer(ROOM_MODE, '2026-11-25', 'c1')]), []);
+  assert.deepEqual(xpEntries([round(ROOM_MODE, '2026-11-25', 0)]), []);
+  assert.deepEqual(xpEntries([round(ROOM_MODE, '2026-11-25', 500)]), [
+    { day: '2026-11-25', xp: ROOM_MAX_ROUNDS * ROOM_ROUND_XP + ROOM_FINISH_XP },
+  ]);
 });

@@ -15,6 +15,16 @@ export const PRACTICE_XP = 5;
 /** Extra XP for finishing a practice round of at least `ROUND_MIN_ITEMS` questions. */
 export const ROUND_BONUS_XP = 5;
 export const ROUND_MIN_ITEMS = 3;
+/**
+ * Live rooms log one `round` event when a game ends, with mode `ROOM_MODE` and `items` = the rounds
+ * the player was in. Showing up and staying to the end earns XP; the place on the podium does not,
+ * so a room is as worth joining for the last player as for the first.
+ */
+export const ROOM_MODE = 'room';
+export const ROOM_ROUND_XP = 5;
+export const ROOM_FINISH_XP = 10;
+/** A room longer than this earns no more, so one long game cannot swamp a week of daily play. */
+export const ROOM_MAX_ROUNDS = 20;
 
 export type XpEntry = { day: DayKey; xp: number };
 
@@ -55,12 +65,21 @@ export const STREAK_MILESTONES: readonly number[] = [
 
 /**
  * The XP each event earned, by day. A daily question counts once per day however many times it is
- * replayed; practice counts every answer, since practice is the point.
+ * replayed; practice counts every answer, since practice is the point; a live room counts once, when
+ * it ends.
  */
 export function xpEntries(events: readonly GameEvent[]): XpEntry[] {
   const out: XpEntry[] = [];
   const dailySeen = new Set<string>();
   for (const e of events) {
+    if (e.mode === ROOM_MODE) {
+      // Only the room's closing round counts; per-question answers in a room earn nothing extra.
+      if (e.kind === 'round' && e.items > 0) {
+        const rounds = Math.min(Math.floor(e.items), ROOM_MAX_ROUNDS);
+        out.push({ day: e.day, xp: rounds * ROOM_ROUND_XP + ROOM_FINISH_XP });
+      }
+      continue;
+    }
     if (e.kind === 'answer') {
       if (e.mode === 'daily') {
         const key = `${e.game}\u0000${e.day}\u0000${e.item}`;

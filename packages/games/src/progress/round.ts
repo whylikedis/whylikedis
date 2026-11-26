@@ -58,8 +58,13 @@ const MILESTONE_WORDS: Record<number, string> = {
   365: 'A full year.',
 };
 
+/** The few words a milestone earns: "A whole week of replies." */
+export function milestoneWords(days: number): string {
+  return MILESTONE_WORDS[days] ?? 'Well kept.';
+}
+
 export function milestoneLine(days: number): string {
-  return `${days}-day streak. ${MILESTONE_WORDS[days] ?? 'Well kept.'}`;
+  return `${days}-day streak. ${milestoneWords(days)}`;
 }
 
 export function progressBetween(

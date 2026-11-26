@@ -10,3 +10,4 @@ export * from './sync/sync.ts';
 export * from './games/what-would-you-say.ts';
 export * from './progress/progress.ts';
 export * from './progress/round.ts';
+export * from './progress/share.ts';
