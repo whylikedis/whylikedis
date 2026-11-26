@@ -3,6 +3,7 @@
 import { readdirSync, readFileSync } from 'node:fs';
 import { join, sep } from 'node:path';
 import { HELD_DOCS } from '@whylikedis/content';
+import { SHARE_RESULT_SLUGS } from '@whylikedis/games';
 
 const here = join(__dirname, '..');
 const site = JSON.parse(readFileSync(join(here, 'data/site.json'), 'utf8')) as {
@@ -54,6 +55,13 @@ export const PAGES: Page[] = [
     route: '/daily/practice',
     visual: true,
   },
+  // Where a shared daily result lands: one per result, the same page with other words.
+  ...SHARE_RESULT_SLUGS.map((slug, i) => ({
+    name: `shared-${slug}`,
+    path: `/daily/s/${slug}/`,
+    route: '/daily/s/[result]',
+    visual: i === 0,
+  })),
   { name: 'updates', path: '/updates/', route: '/updates', visual: true },
   { name: 'sessions', path: '/sessions/', route: '/sessions', visual: true },
   { name: 'sign-in', path: '/sign-in/', route: '/sign-in', visual: true },

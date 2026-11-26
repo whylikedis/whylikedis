@@ -28,6 +28,10 @@ for (const scheme of ['light', 'dark'] as const) {
             fullPage: true,
             animations: 'disabled',
             caret: 'hide',
+            // Same build, same image: a few pixels of text edges still differ between CPUs even
+            // on Skia's generic paths. 100 px is less than one word of body text, the same
+            // allowance Interlace's screenshots use.
+            maxDiffPixels: 100,
           });
         });
       }
