@@ -2,6 +2,7 @@
   "name": "@whylikedis/site",
   "version": "0.0.0",
   "private": true,
+  "license": "SEE LICENSE IN LICENSE",
   "description": "The site: a Next.js projection of the fact base and the docs.",
   "scripts": {
     "export": "python3 export.py",
