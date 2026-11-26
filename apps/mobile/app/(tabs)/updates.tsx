@@ -36,7 +36,7 @@ export default function Updates() {
         overline={`New answer · ${dateLabel.format(dayKeyToDate(item.date))}`}
         // In quotes: it is the claim people hear, which the answer checks, not our statement.
         title={`“${item.title}”`}
-        subtitle={`What the sources say · ${item.chapter}`}
+        subtitle={item.chapter}
         accessibilityRole="link"
         onPress={() => router.push(`/answers/${item.target.id}`)}
       />

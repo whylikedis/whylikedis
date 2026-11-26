@@ -8,5 +8,8 @@ export * from './store/persisted.ts';
 export * from './store/player.ts';
 export * from './sync/sync.ts';
 export * from './games/what-would-you-say.ts';
+export * from './rooms/transport.ts';
+export * from './rooms/match-reply.ts';
 export * from './progress/progress.ts';
 export * from './progress/round.ts';
+export * from './progress/share.ts';

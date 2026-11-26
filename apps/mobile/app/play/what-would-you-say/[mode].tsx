@@ -31,6 +31,7 @@ import {
   PROTECTION,
   progressBetween,
   puzzleNumber,
+  shareSlug,
   whatWouldYouSay,
   type Rating,
 } from '@whylikedis/games';
@@ -125,6 +126,12 @@ export default function Round() {
     if (!progress) return;
     const milestone = progress.milestones.at(-1);
     const n = puzzleNumber(day, FIRST_DAY);
+    const firstAnswer = session.answered[0];
+    const first: Rating | undefined = firstAnswer
+      ? firstAnswer.score.points >= firstAnswer.score.max
+        ? 'had-it'
+        : 'not-yet'
+      : undefined;
     const message = shareText({
       title: 'What would you say?',
       number: daily && n > 0 ? n : undefined,
@@ -134,7 +141,11 @@ export default function Round() {
       symbols: { 'had-it': '🟩', 'not-yet': '🟨' },
       note: milestone ? `${milestone}-day streak` : undefined,
       streak: milestone ? undefined : progress.streak.current,
-      url: 'https://www.whylikedis.fyi/daily/',
+      // A daily result links to its own page, which unfurls into a picture of the result.
+      url:
+        daily && first
+          ? `https://www.whylikedis.fyi/daily/s/${shareSlug(first, milestone)}/`
+          : 'https://www.whylikedis.fyi/daily/',
     });
     Share.share({ message })
       .then((r) => {

@@ -92,10 +92,34 @@ jobs:
       - name: Every vendored Interlace file is one Interlace main shipped
         run: node apps/site/interlace-vendored.mjs .interlace
 
+  browser:
+    name: Site in a browser
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: ./.github/actions/setup
+        with:
+          turbo-cache: 'false'
+      - name: Build the site with a fake back end
+        run: npm run e2e:build --workspace @whylikedis/site
+      # The official Playwright image pinned to the installed version, through the same script a
+      # laptop or an agent uses, so screenshots match pixel for pixel. No retries: a retry hides a
+      # flaky check instead of fixing its cause.
+      - name: Every page, journey and state, and every page's screenshots
+        run: npm run e2e:docker --workspace @whylikedis/site -- --workers=4
+      - name: Upload what failed
+        if: failure()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: browser-failures
+          path: apps/site/test-results
+          retention-days: 7
+
   quality-gate:
     name: Quality Gate
     if: always()
-    needs: [gate, markdown, lockfile, build, app, interlace]
+    needs: [gate, markdown, lockfile, build, app, interlace, browser]
     runs-on: ubuntu-latest
     timeout-minutes: 2
     steps:

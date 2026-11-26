@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { pageMeta } from '@/lib/share-image';
+import { SeenMarker } from '../../seen-marker';
 import { shareOf } from '../../share-cards';
 import {
   Breadcrumb,
@@ -72,8 +73,10 @@ export default async function Answer(props: Props) {
   const lines = answerLines(c);
   const dated = record(c);
   const argued = contestedText(c);
+  // Two answers can take one claim from different angles; a claim is suggested once.
   const others = shownCards().filter(
-    (x) => x.id !== c.id && x.claim !== c.claim,
+    (x, i, all) =>
+      x.claim !== c.claim && all.findIndex((y) => y.claim === x.claim) === i,
   );
   return (
     <>
@@ -145,11 +148,15 @@ export default async function Answer(props: Props) {
                       </List.Item>
                     ))}
                   </List>
+                  {/* Reaching the end of the answer and staying a moment counts it as read. */}
+                  <SeenMarker name="answer_read" />
                 </CardContent>
               </Card>
               {argued.length > 0 && (
+                // A long list, so the plain surface with the blue rule: the highlighter wash is
+                // for one line the page wants remembered, and over a list this long it read as grey.
                 <Callout
-                  tone="highlight"
+                  tone="info"
                   kicker={
                     <span lang="he" dir="rtl">
                       דוגרי
@@ -187,7 +194,11 @@ export default async function Answer(props: Props) {
                             <>
                               {' '}
                               (
-                              <a href={safe(h.url)} rel="noopener noreferrer">
+                              <a
+                                href={safe(h.url)}
+                                rel="noopener noreferrer"
+                                data-intent="answer_source"
+                              >
                                 source
                               </a>
                               )
@@ -203,7 +214,7 @@ export default async function Answer(props: Props) {
                 <CardHeader>
                   <CardTitle>
                     <Typography as="h2" variant="h4">
-                      What we're not saying
+                      What we’re not saying
                     </Typography>
                   </CardTitle>
                 </CardHeader>
@@ -231,7 +242,7 @@ export default async function Answer(props: Props) {
                   </Typography>
                   <Typography variant="long" tone="muted">
                     The documents behind the answer, by the year each one names,
-                    quoted as the gate checked them.
+                    quoted word for word.
                   </Typography>
                 </Stack>
                 <Timeline orientation="vertical">
@@ -241,7 +252,11 @@ export default async function Answer(props: Props) {
                       date={year}
                       source={
                         safe(source.url) ? (
-                          <a href={safe(source.url)} rel="noopener noreferrer">
+                          <a
+                            href={safe(source.url)}
+                            rel="noopener noreferrer"
+                            data-intent="answer_source"
+                          >
                             {source.publisher}
                           </a>
                         ) : (

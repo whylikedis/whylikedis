@@ -20,7 +20,8 @@ import * as React from 'react';
  *   - `spacing`  → vertical padding, fluid from phone to laptop
  *                  (tight / comfortable / spacious / none; default comfortable)
  *   - `tone`     → background (default / muted / inset — `inset` also blurs —
- *                  / brand, the full-bleed brand band with its foreground)
+ *                  / brand, the full-bleed brand band: `--band` and
+ *                  `--band-foreground`, which follow the primary pair unless set)
  *   - `divider`  → border at the transition (none / top / bottom / both)
  *   - `overlap`  → ride up over the band above (none / sm / md / lg)
  *   - `container`→ which `<Container>` size wraps the children (default `content`)
@@ -83,7 +84,7 @@ const sectionVariants = cva('relative', {
       default: '',
       muted: 'bg-card/30',
       inset: 'bg-card/50 backdrop-blur-sm',
-      brand: 'bg-primary text-primary-foreground',
+      brand: 'bg-band text-band-foreground',
     },
     divider: {
       none: '',

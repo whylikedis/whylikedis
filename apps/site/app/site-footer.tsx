@@ -3,6 +3,10 @@ import { Footer } from '@/components/ui/patterns/footer';
 import { Typography } from '@/components/ui/typography';
 import { ANALYTICS_NOTICE, ANALYTICS_ON } from '@/lib/analytics';
 
+// Named for the anonymous click counts: nav_daily, footer_how_we_check, nav_home.
+const intentOf = (where: string, href: string) =>
+  `${where}_${href.replace(/^\/|\/$/g, '').replace(/[^a-z0-9]+/gi, '_') || 'home'}`;
+
 const GROUPS = [
   {
     title: 'Answers',
@@ -10,14 +14,14 @@ const GROUPS = [
       { href: '/facts/', label: 'All answers' },
       { href: '/questions/', label: 'Questions we tested' },
       { href: '/daily/', label: 'Daily question' },
-      { href: '/updates/', label: "What's new" },
+      { href: '/updates/', label: 'What’s new' },
     ],
   },
   {
     title: 'About us',
     links: [
       { href: '/#where-we-stand', label: 'Where we stand' },
-      { href: '/method/', label: 'How we check' },
+      { href: '/how-we-check/', label: 'How we check' },
       { href: '/open/', label: 'Open questions' },
     ],
   },
@@ -39,7 +43,11 @@ export function SiteFooter() {
       // Shown only where analytics is on. The wording is a public claim: approved by the owners.
       copyright={ANALYTICS_ON ? ANALYTICS_NOTICE : undefined}
       renderLink={({ href, className, children }) => (
-        <Link href={href} className={className}>
+        <Link
+          href={href}
+          className={className}
+          data-intent={intentOf('footer', href)}
+        >
           {children}
         </Link>
       )}

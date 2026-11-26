@@ -82,13 +82,13 @@ const SLOT =
   'border-input bg-background text-foreground rounded-lg border text-center font-medium tabular-nums shadow-xs outline-none ' +
   'transition-[border-color,box-shadow,transform] duration-(--duration-fast) ' +
   'data-filled:border-foreground/40 motion-safe:data-filled:scale-[1.04] ' +
-  'focus-visible:border-ring focus-visible:ring-ring/60 focus-visible:ring-[3px] focus-visible:scale-100 ' +
+  'focus-visible:border-ring focus-visible:ring-ring focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-background focus-visible:scale-100 ' +
   'aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 ' +
   'disabled:cursor-not-allowed disabled:opacity-50';
 
 const SIZE = {
-  sm: 'h-10 w-9 text-base',
-  default: 'h-12 w-11 text-xl',
+  sm: 'h-10 w-9 min-w-0 shrink text-base',
+  default: 'h-12 w-11 min-w-0 shrink text-xl',
 } as const;
 
 function OtpField({
@@ -128,7 +128,7 @@ function OtpField({
       data-slot="otp-field"
       data-size={size}
       data-min-viewport={String(MIN_VIEWPORT)}
-      className={cn('flex items-center gap-2', className)}
+      className={cn('flex max-w-full items-center gap-2', className)}
       {...props}
     >
       {slots}

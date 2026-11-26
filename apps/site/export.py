@@ -40,6 +40,24 @@ def slug(text, taken):
     taken.add(s)
     return s
 
+# A "State" cell holding one of these words reads as a status pill (Interlace Prose `data-status`).
+TONES = {
+    "supported": "success", "mostly supported": "success", "done": "success",
+    "partly": "warning", "started": "warning",
+    "not supported": "destructive",
+    "cannot know": "neutral", "untested": "neutral", "observe": "neutral",
+    "waits for github": "neutral", "n/a": "neutral",
+}
+
+
+def td(text, column):
+    """One body cell. It carries its column's name (`data-label`) so a phone can stack the
+    table into one card per row without waiting for script, and a known state becomes a pill."""
+    label = f' data-label="{E(re.sub(r"[`*_]", "", column))}"' if column else ""
+    tone = TONES.get(text.lower()) if column.lower() == "state" else None
+    value = f'<span data-status="{tone}">{inline(text)}</span>' if tone else inline(text)
+    return f"<td{label}>{value}</td>"
+
 
 def md(text, toc=None):
     """Just enough Markdown for our own docs: headings, tables, lists, code fences, paragraphs.
@@ -70,8 +88,9 @@ def md(text, toc=None):
             while j < len(lines) and lines[j].startswith("|"):
                 rows.append(cells(lines[j]))
                 j += 1
-            head = "".join(f"<th>{inline(c)}</th>" for c in cells(l))
-            body = "".join("<tr>" + "".join(f"<td>{inline(c)}</td>" for c in r) + "</tr>" for r in rows)
+            names = cells(l)
+            head = "".join(f"<th>{inline(c)}</th>" for c in names)
+            body = "".join("<tr>" + "".join(td(c, names[k] if k < len(names) else "") for k, c in enumerate(r)) + "</tr>" for r in rows)
             out.append(f'<div class="scroll"><table><thead><tr>{head}</tr></thead><tbody>{body}</tbody></table></div>')
             i = j
         elif re.match(r"(- |\d+\. )", l):
@@ -95,13 +114,34 @@ def md(text, toc=None):
     return "".join(out)
 
 
-def doc(source, title):
+# A card's review state, written `draft` in a doc, reads as a status pill like the table cells do.
+STATES = {"verified": "success", "weakened": "warning", "draft": "neutral"}
+
+
+def named(html_text, cards):
+    """A doc names a card by its file name (`era3-partition-1947`) and a state by its word (`draft`).
+    A visitor reads neither: the card becomes the claim it checks, in quotation marks because it is
+    the claim as people make it, not our answer; linked to the answer once that is shown (verified).
+    The state becomes a pill. Any other code stays code."""
+    def swap(m):
+        word = m.group(1)
+        c = cards.get(word)
+        if c:
+            label = f"\u201c{E(c['claim'])}\u201d"
+            return f'<a href="/answers/{word}/">{label}</a>' if c.get("status") == "verified" else label
+        tone = STATES.get(word) or TONES.get(html.unescape(word))
+        return f'<span data-status="{tone}">{word}</span>' if tone else m.group(0)
+    return re.sub(r"<code>([^<]+)</code>", swap, html_text)
+
+
+def doc(source, title, cards=None):
     """A doc page: its HTML and the contents list of its headings."""
     path = os.path.join(ROOT, "docs", source)
     if not os.path.exists(path):
         return {"title": title, "html": "<p>Not written yet.</p>", "toc": []}
     toc = []
-    return {"title": title, "html": md(open(path, encoding="utf-8").read(), toc), "toc": toc}
+    body = md(open(path, encoding="utf-8").read(), toc)
+    return {"title": title, "html": named(body, cards or {}), "toc": toc}
 
 
 def section(source, heading):
@@ -122,16 +162,22 @@ def site():
     return {
         "chapters": [{"n": k, "title": t} for k, t in factcheck.CHAPTERS.items() if k in eras],
         "cards": cards,
-        "docs": {path: doc(source, title) for path, (source, title) in DOCS.items()},
+        "docs": {path: doc(source, title, {c["id"]: c for c in cards}) for path, (source, title) in DOCS.items()},
         "standing": section("chapters.md", "Where we stand"),
     }
 
 
 def demo():
     assert "<table>" in md("| a | b |\n| - | - |\n| 1 | `x` |") and "<code>x</code>" in md("| a |\n| - |\n| `x` |")
+    assert '<td data-label="State"><span data-status="success">supported</span></td>' in md("| Q | State |\n| - | - |\n| x | supported |")
+    assert '<td data-label="b">2</td>' in md("| a | b |\n| - | - |\n| 1 | 2 |") and "data-status" not in md("| a |\n| - |\n| done |")
     assert md("- one\n  more\n- two") == "<ul><li>one more</li><li>two</li></ul>"
     assert "&lt;script&gt;" in md("<script>") and "<script" not in inline("<script>alert(1)</script>")
     assert "<p>" in section("chapters.md", "Where we stand")
+    cs = {"a-1": {"claim": "Is <it> so?", "status": "verified"}, "b-2": {"claim": "Was it?", "status": "draft"}}
+    assert named("<p><code>a-1</code></p>", cs) == '<p><a href="/answers/a-1/">\u201cIs &lt;it&gt; so?\u201d</a></p>'
+    assert named("<code>b-2</code>", cs) == "\u201cWas it?\u201d" and named("<code>x.py</code>", cs) == "<code>x.py</code>"
+    assert named("<code>draft</code>", {}) == '<span data-status="neutral">draft</span>'
     assert 'href="https://a.org/x"' in inline("[t](https://a.org/x)") and "href" not in inline("[t](javascript:alert(1))")
 
 
