@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { Stack } from '@/components/ui/stack';
 import { Typography } from '@/components/ui/typography';
+import { TalkItThrough } from '../talk-it-through';
 import type { DailyCard } from './daily-question';
 
 export function CardAnswer({ card }: { card: DailyCard }) {
@@ -29,6 +30,7 @@ export function CardAnswer({ card }: { card: DailyCard }) {
           The full answer and every quote
         </Link>
       ) : null}
+      <TalkItThrough where="daily_answer" />
     </Stack>
   );
 }
