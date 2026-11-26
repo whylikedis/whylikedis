@@ -25,14 +25,39 @@ export type AnalyticsEvents = {
     days_since_last_play: number | null;
     streak: number;
     already_played_today: boolean;
+    level: number;
+    shields: number;
   };
   daily_revealed: { puzzle: number };
   daily_rated: { puzzle: number; rating: string };
   streak_extended: { length: number; best: number };
-  daily_shared: { puzzle: number; method: string };
+  daily_shared: {
+    puzzle: number;
+    method: string;
+    kind: 'result' | 'milestone';
+  };
+  practice_started: { items: number };
+  practice_finished: { items: number; points: number; xp: number };
+  goal_changed: { goal: string; from: string };
+  xp_earned: { source: string; xp: number; total: number; level: number };
+  level_up: { level: number };
+  goal_met: { goal: string; xp: number };
+  milestone_reached: { kind: 'streak'; value: number };
+  reminder_added: { hour: number };
+  reminder_dismissed: Record<string, never>;
   daily_next_tapped: { puzzle: number; target: string };
   updates_viewed: { total: number; new_count: number; first_visit: boolean };
   update_opened: { kind: string; id: string; was_new: boolean };
+  // From Interlace intents (app/intent-bridge.tsx). `intent` is a name chosen in our code.
+  $pageview: Record<string, never>;
+  $pageleave: { visible_ms: number; scroll_depth: number };
+  intent_activate: { intent: string; input: string };
+  intent_view: { intent: string };
+  intent_dwell: { intent: string; input: string };
+  intent_commit: { intent: string; length: number };
+  intent_disclosure: { intent: string; open: boolean; reason: string };
+  intent_form: { intent: string; phase: string; reason: string | null };
+  rage_click: { intent: string; clicks: number };
 };
 
 let pageId: string | null = null;

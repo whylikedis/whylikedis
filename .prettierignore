@@ -12,10 +12,11 @@ apps/site/components/ui/
 apps/site/lib/utils.ts
 apps/site/lib/theme-tokens.ts
 apps/site/hooks/use-reading-prefs.ts
+apps/site/hooks/use-intent.ts
 apps/site/styles/interlace/
 # Interlace native, synced as Interlace ships it (apps/mobile/scripts/sync-interlace.mjs).
 apps/mobile/interlace/
-# The package's copy of Interlace's games/daily, kept byte for byte equal to the app's (a test checks).
+# The package's copies of Interlace's games models, kept equal to the app's (a test checks).
 packages/games/src/interlace/
 apps/mobile/content/
 apps/mobile/dist/

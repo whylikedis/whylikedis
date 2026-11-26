@@ -8,6 +8,12 @@ import { DAILY_DESCRIPTION, DAILY_TITLE } from './daily/copy';
 import { PLAY_DESCRIPTION, PLAY_TITLE } from './play/copy';
 import { SESSIONS_DESCRIPTION, SESSIONS_TITLE } from './sessions/copy';
 import { UPDATES_DESCRIPTION, UPDATES_TITLE } from './updates/copy';
+import { HOW_DESCRIPTION, HOW_TITLE } from './how-we-check/copy';
+import {
+  SHARE_RESULT_SLUGS,
+  shareResultCopy,
+  shareResultOf,
+} from '@whylikedis/games';
 
 // What each page's share image says. A page is named by its path without slashes: '' is the home
 // page, 'facts' the answers index, 'answers/<id>' an answer, '<doc>' a guide.
@@ -125,6 +131,26 @@ function play(): ShareCard {
   };
 }
 
+// A shared daily result: what the player did, never the day's claim or its answer.
+function dailyResult(slug: string): ShareCard | null {
+  const r = shareResultOf(slug);
+  if (!r) return null;
+  const { title, description } = shareResultCopy(r);
+  return {
+    alt: `${title} ${DAILY_TITLE} A daily question from WhyLikeDIs`,
+    props: {
+      label: 'Every day',
+      kicker: DAILY_TITLE,
+      title,
+      description,
+      ...(r.kind === 'streak'
+        ? { stat: { value: String(r.days), label: 'days in a row' } }
+        : {}),
+      footnote: 'A new question every day',
+    },
+  };
+}
+
 function updates(): ShareCard {
   return {
     alt: `${UPDATES_TITLE} at WhyLikeDIs`,
@@ -137,8 +163,23 @@ function updates(): ShareCard {
   };
 }
 
+function howWeCheck(): ShareCard {
+  return {
+    alt: `${HOW_TITLE}, at WhyLikeDIs`,
+    props: {
+      label: 'How we check',
+      kicker: 'WhyLikeDIs',
+      title: HOW_TITLE,
+      description: HOW_DESCRIPTION,
+    },
+  };
+}
+
 export function shareCard(page: string): ShareCard | null {
+  if (page === 'how-we-check') return howWeCheck();
   if (page === 'daily') return daily();
+  if (page.startsWith('daily/s/'))
+    return dailyResult(page.slice('daily/s/'.length));
   if (page === 'updates') return updates();
   if (page === 'play') return play();
   if (page === '') return home();
@@ -153,8 +194,10 @@ export const sharePages = () => [
   'facts',
   'sessions',
   'daily',
+  ...SHARE_RESULT_SLUGS.map((s) => `daily/s/${s}`),
   'updates',
   'play',
+  'how-we-check',
   ...shownCards().map((c) => `answers/${c.id}`),
   ...Object.keys(site.docs),
 ];

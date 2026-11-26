@@ -15,6 +15,7 @@ import { ScreenError } from '../lib/errors/fallback';
 import { installErrorLog } from '../lib/errors/log';
 import { installGlobalHandler } from '../lib/errors/report';
 import { PlayerProvider, usePlayer } from '../lib/player';
+import { useReminderTap } from '../lib/progress/reminder';
 import { brand } from '../lib/theme';
 
 installGlobalHandler();
@@ -41,6 +42,7 @@ function Screens() {
     SplashScreen.hideAsync().catch(() => {});
     requestAnimationFrame(() => mark('first screen'));
   }, [ready]);
+  useReminderTap(ready);
   if (!ready) return null;
   return (
     <>

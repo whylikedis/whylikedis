@@ -1,5 +1,7 @@
 import { Badge } from '@/components/ui/badge';
 import { StatGroup } from '@/components/ui/patterns/stat-group';
+import { Card as Panel, CardContent } from '@/components/ui/card';
+import { List, ListItem } from '@/components/ui/list';
 import { Prose } from '@/components/ui/prose';
 import { Section } from '@/components/ui/section';
 import Link from 'next/link';
@@ -60,6 +62,9 @@ const ROUNDS = [
   ['skeptic', 'attack round'],
   ['citer', 'citation round'],
 ] as const;
+
+// Several cards can answer one claim from different angles. The list names each claim once.
+const unique = (cards: Card[]) => [...new Set(cards.map((c) => c.claim))];
 
 function CardView({ c }: { c: Card }) {
   const rounds = ROUNDS.flatMap(([who, label]): [string, Round][] => {
@@ -235,16 +240,22 @@ export default function Facts() {
                 <CardView c={c} key={c.id} />
               ))}
               {drafts.length > 0 && (
-                <Prose>
-                  <p>Still being checked:</p>
-                  <ul>
-                    {drafts.map((c) => (
-                      <li key={c.id}>
-                        <q>{c.claim}</q>
-                      </li>
-                    ))}
-                  </ul>
-                </Prose>
+                <Panel>
+                  <CardContent>
+                    <Stack gap="sm">
+                      <div>
+                        <Badge variant="outline">Still being checked</Badge>
+                      </div>
+                      <List marker="bullet">
+                        {unique(drafts).map((claim) => (
+                          <ListItem key={claim}>
+                            <q>{claim}</q>
+                          </ListItem>
+                        ))}
+                      </List>
+                    </Stack>
+                  </CardContent>
+                </Panel>
               )}
             </Stack>
           );
