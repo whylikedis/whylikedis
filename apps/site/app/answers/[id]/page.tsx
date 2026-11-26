@@ -153,8 +153,10 @@ export default async function Answer(props: Props) {
                 </CardContent>
               </Card>
               {argued.length > 0 && (
+                // A long list, so the plain surface with the blue rule: the highlighter wash is
+                // for one line the page wants remembered, and over a list this long it read as grey.
                 <Callout
-                  tone="highlight"
+                  tone="info"
                   kicker={
                     <span lang="he" dir="rtl">
                       דוגרי
