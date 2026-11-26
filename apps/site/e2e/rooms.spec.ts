@@ -161,11 +161,11 @@ test.describe('a player who joins late', () => {
     await expect(host.locator(STATUS)).toHaveText('1 of 2 answered');
   });
 
-  test('is turned away from a locked room, and a player who was in is not', async ({
+  test('is turned away from a locked room', async ({
     page: host,
     openPage,
   }) => {
-    const { code, phones } = await lobby(host, openPage, ['Dana']);
+    const { code } = await lobby(host, openPage, ['Dana']);
     await host.getByRole('button', { name: 'Lock the room' }).click();
     await expect(
       host.getByRole('button', { name: 'Unlock the room' }),
@@ -178,10 +178,36 @@ test.describe('a player who joins late', () => {
     await expect(
       late.locator('[role="alert"]').filter({ hasText: /./ }),
     ).toHaveText('The host has locked the room. Ask them to open it.');
+    await expect(host.locator(STATUS)).toHaveText('1 player is in.');
+  });
 
-    // Dana reloads her phone: still in, though the room is locked.
-    await phones[0]!.reload();
-    await expect(phones[0]!.getByText('You are in')).toBeVisible();
+  test('a player who was in comes back after a reload, though the room is locked', async ({
+    page: host,
+    openPage,
+    realtime,
+  }) => {
+    const { code, phones } = await lobby(host, openPage, ['Dana']);
+    const dana = phones[0]!;
+    await host.getByRole('button', { name: 'Lock the room' }).click();
+    await expect(
+      host.getByRole('button', { name: 'Unlock the room' }),
+    ).toBeVisible();
+
+    // The room marks Dana away (her phone slept, or her page was closed), then she comes back:
+    // her phone asks to join again, and the locked room lets her in, since she was in.
+    const id = await dana.evaluate(() =>
+      window.sessionStorage.getItem('wld.room.id'),
+    );
+    realtime.inject(`room:${code}:up`, {
+      kind: 'intent',
+      from: id,
+      event: { type: 'leave', playerId: id },
+    });
+    await expect(host.locator(STATUS)).toHaveText(/0 so far/);
+    await expect(host.locator(STATUS)).toHaveText('1 player is in.');
+    await dana.reload();
+    await expect(dana.getByText('You are in')).toBeVisible();
+    await expect(host.locator(STATUS)).toHaveText('1 player is in.');
   });
 });
 
@@ -269,8 +295,9 @@ test.describe('a dropped connection', () => {
       host.getByText('The room lost its connection for a moment'),
     ).toBeHidden({ timeout: 30_000 });
     await expect(phone.getByText('Reconnecting…')).toBeHidden();
-    // The answer arrived: with one player the round ends at once.
+    // The answer arrived: with one player the round ends at once, and the host counted it.
     await nextRoom(host, 'reveal', 30_000);
+    await expect(host.getByText('1 answer', { exact: true })).toBeVisible();
     await nextRoom(phone, 'reveal');
   });
 
@@ -439,6 +466,30 @@ test.describe('a room of thirty', () => {
 
 // --- a bad network ----------------------------------------------------------------------------
 
+/** From now on, note each screen a phone shows, as `phase|round`, so a check can read the trail. */
+const trackPhases = (page: Page) =>
+  page.evaluate(() => {
+    const seen: string[] = [];
+    (window as unknown as { __phases: string[] }).__phases = seen;
+    const note = () => {
+      const p =
+        document.querySelector('[data-phase]')?.getAttribute('data-phase') ??
+        '';
+      const round = /Round (\d+) of/.exec(document.body.innerText)?.[1] ?? '';
+      const entry = `${p}|${round}`;
+      if (p && seen.at(-1) !== entry) seen.push(entry);
+    };
+    note();
+    new MutationObserver(note).observe(document.body, {
+      subtree: true,
+      childList: true,
+      attributes: true,
+      attributeFilter: ['data-phase'],
+    });
+  });
+const screens = (page: Page) =>
+  page.evaluate(() => (window as unknown as { __phases: string[] }).__phases);
+
 /** A repeatable stream of numbers in [0, 1): the same bad network every run. */
 function seeded(seed: number) {
   let a = seed;
@@ -458,32 +509,14 @@ test('on a network that delays, repeats and reorders messages, a phone only ever
   test.setTimeout(150_000);
   const { phones } = await lobby(host, openPage, ['Dana', 'Eli']);
   const [dana, eli] = phones as [Page, Page];
-  for (const phone of phones)
-    await phone.evaluate(() => {
-      const seen: string[] = [];
-      (window as unknown as { __phases: string[] }).__phases = seen;
-      const note = () => {
-        const p =
-          document.querySelector('[data-phase]')?.getAttribute('data-phase') ??
-          '';
-        const round = /Round (\d+) of/.exec(document.body.innerText)?.[1] ?? '';
-        const entry = `${p}|${round}`;
-        if (p && seen.at(-1) !== entry) seen.push(entry);
-      };
-      note();
-      new MutationObserver(note).observe(document.body, {
-        subtree: true,
-        childList: true,
-        attributes: true,
-        attributeFilter: ['data-phase'],
-      });
-    });
+  for (const phone of phones) await trackPhases(phone);
 
   // From here, every message takes up to 0.7 s, a third arrive twice, and so some pass others.
-  const rnd = seeded(7);
-  const sent: { to: number; n: number; at: number; kind: string }[] = [];
+  const rnd = seeded(1);
+  const sent: { to: Page; n: number; at: number; kind: string }[] = [];
   realtime.plan = (w, to) => {
-    const first = Math.floor(rnd() * 700);
+    // A state can be held back for seconds, so a later one overtakes it; the rest for under a second.
+    const first = Math.floor(rnd() * (w.kind === 'state' ? 3500 : 700));
     const times =
       rnd() < 0.35 ? [first, first + 50 + Math.floor(rnd() * 600)] : [first];
     for (const t of times)
@@ -512,6 +545,14 @@ test('on a network that delays, repeats and reorders messages, a phone only ever
     'You finished',
   );
 
+  // Let every message still in flight land: a late copy of an old state must not undo the podium.
+  const lastLanding = Math.max(...sent.map((m) => m.at));
+  await expect
+    .poll(() => Date.now() > lastLanding + 300, { timeout: 15_000 })
+    .toBe(true);
+  await nextRoom(dana, 'podium');
+  await nextRoom(eli, 'podium');
+
   // The network really was bad: states passed each other and some came twice.
   const states = sent.filter((s) => s.kind === 'state');
   const passed = states.some((a) =>
@@ -525,11 +566,9 @@ test('on a network that delays, repeats and reorders messages, a phone only ever
 
   // And no phone went back: it may skip a state that was overtaken, never show an older one.
   for (const phone of phones) {
-    const seen = (
-      await phone.evaluate(
-        () => (window as unknown as { __phases: string[] }).__phases,
-      )
-    ).map((e) => e.split('|') as [string, string]);
+    const seen = (await screens(phone)).map(
+      (e) => e.split('|') as [string, string],
+    );
     const trail = seen.map((e) => e.join(':')).join(' > ');
     expect(seen.at(0)![0], trail).toBe('lobby');
     expect(seen.at(-1)![0], trail).toBe('podium');
@@ -548,6 +587,44 @@ test('on a network that delays, repeats and reorders messages, a phone only ever
   }
 });
 
+test('a state that arrives after a newer one is ignored, and so is a copy of one already seen', async ({
+  page: host,
+  openPage,
+  realtime,
+}) => {
+  const { phones } = await lobby(host, openPage, ['Dana', 'Eli']);
+  const dana = phones[0]!;
+  await trackPhases(dana);
+  const phaseOf = (w: { payload: unknown }) =>
+    (w.payload as { state?: { phase?: string } }).state?.phase;
+
+  // The state that opens the round reaches Dana 4 s late; the next one, and a copy of each, on time.
+  let heldUntil = 0;
+  realtime.plan = (w, to) => {
+    if (to !== dana || w.kind !== 'state') return [0];
+    if (phaseOf(w) === 'question') {
+      heldUntil = Date.now() + 4_000;
+      return [4_000];
+    }
+    return [0, 30];
+  };
+  await host.getByRole('button', { name: 'Start' }).click();
+  await nextRoom(host, 'question');
+  await expect.poll(() => heldUntil).toBeGreaterThan(0);
+  await host.getByRole('button', { name: 'Reveal now' }).click();
+  await nextRoom(dana, 'reveal');
+
+  // The old state lands now. Dana stays on the reveal.
+  await expect
+    .poll(() => Date.now() > heldUntil + 500, { timeout: 10_000 })
+    .toBe(true);
+  await nextRoom(dana, 'reveal');
+  const seen = (await screens(dana)).map((e) => e.split('|')[0]);
+  expect(seen.slice(seen.indexOf('reveal')), seen.join(' > ')).toEqual([
+    'reveal',
+  ]);
+});
+
 // --- screen readers ---------------------------------------------------------------------------
 
 /** Mark an element, so a later check can tell it is the same one and was not swapped for a copy. */
@@ -562,61 +639,80 @@ const isMarked = (el: Locator, name: string) =>
     name,
   );
 
-test('what happens in a room is said in live regions that were already there', async ({
-  page: host,
-  openPage,
-}) => {
-  const { code, phones } = await lobby(host, openPage, ['Dana']);
-  const dana = phones[0]!;
+test.describe('what happens in a room is said in live regions that were already there', () => {
+  test('a player joining is announced in the host lobby, politely', async ({
+    page: host,
+    openPage,
+  }) => {
+    const { code, phones } = await lobby(host, openPage, ['Dana']);
+    const joined = host.locator('[data-slot="room-lobby-announce"]');
+    await expect(joined).toHaveAttribute('aria-live', 'polite');
+    await mark(joined, 'same');
+    await join(await openPage(), code, 'Eli');
+    await expect(joined).toHaveText('Eli joined');
+    expect(await isMarked(joined, 'same'), 'the region was replaced').toBe(
+      true,
+    );
+    // The phone's own lobby tells the player they are in.
+    await expect(phones[0]!.getByText('You are in')).toBeVisible();
+  });
 
-  // A player joins: the host's lobby says so, politely, in a region that was there before.
-  const joined = host.locator('[data-slot="room-lobby-announce"]');
-  await expect(joined).toHaveAttribute('aria-live', 'polite');
-  await mark(joined, 'same');
-  const eli = await openPage();
-  await join(eli, code, 'Eli');
-  await expect(joined).toHaveText('Eli joined');
-  expect(await isMarked(joined, 'same')).toBe(true);
-  // The phone's own lobby tells the player they are in.
-  await expect(dana.getByText('You are in')).toBeVisible();
+  test('the countdown on a phone is announced at once, with the seconds', async ({
+    page: host,
+    openPage,
+  }) => {
+    const { phones } = await lobby(host, openPage, ['Dana']);
+    await host.getByRole('button', { name: 'Start' }).click();
+    const countdown = phones[0]!.locator(
+      '[data-slot="room-countdown-announce"]',
+    );
+    await expect(countdown).toHaveAttribute('aria-live', 'assertive');
+    await expect(countdown).toContainText(/Starting in \d seconds?|Go/);
+  });
 
-  await host.getByRole('button', { name: 'Start' }).click();
-  // The countdown on a phone: assertive, once, with the seconds.
-  const countdown = dana.locator('[data-slot="room-countdown-announce"]');
-  await expect(countdown).toHaveAttribute('aria-live', 'assertive');
-  await expect(countdown).toContainText(/Starting in \d seconds?|Go/);
-  await nextRoom(host, 'question');
-  // The count of answers, on the host: one region for the whole round, from the first answer to
-  // the reveal.
-  const status = host.locator(STATUS);
-  await expect(status).toHaveAttribute('aria-live', 'polite');
-  await expect(status).toHaveText('0 of 2 answered');
-  await mark(status, 'same');
+  test('the host count of answers is one live region from the first answer to the reveal', async ({
+    page: host,
+    openPage,
+  }) => {
+    const { phones } = await lobby(host, openPage, ['Dana', 'Eli']);
+    await startAndOpen(host);
+    const status = host.locator(STATUS);
+    await expect(status).toHaveAttribute('aria-live', 'polite');
+    await expect(status).toHaveText('0 of 2 answered');
+    await mark(status, 'same');
+    await choice(phones[0]!, 0).click();
+    await expect(status).toHaveText('1 of 2 answered');
+    await choice(phones[1]!, 1).click();
+    await expect(status).toHaveText('2 of 2 answered');
+    await nextRoom(host, 'reveal');
+    await expect(status).toHaveText(/Round 1 of/);
+    expect(await isMarked(status, 'same'), 'the region was replaced').toBe(
+      true,
+    );
+  });
 
-  // A phone's answer: "Answer in", then how it went, in the same polite region.
-  const pad = dana.locator('[data-slot="answer-pad-status"]');
-  await expect(pad).toHaveAttribute('aria-live', 'polite');
-  await mark(pad, 'same');
-  await choice(dana, 0).click();
-  await expect(pad).toHaveText('Answer in. Watch the screen.');
-  await expect(status).toHaveText('1 of 2 answered');
-  await choice(eli, 1).click();
-  await expect(status).toHaveText('2 of 2 answered');
-  await nextRoom(dana, 'reveal');
-  await expect(pad).toHaveText(
-    /^(Right\. \+[\d,]+ points\.|Not this time\. The right reply was [A-D]\.)$/,
-  );
-  // The phone also hears where it stands, as a status.
-  await expect(dana.getByRole('status').last()).toContainText(
-    /You are (1st|2nd) of 2/,
-  );
-  await expect(status).toHaveText(/Round 1 of/);
-  expect(await isMarked(status, 'same'), 'the host count was replaced').toBe(
-    true,
-  );
-  expect(await isMarked(pad, 'same'), 'the answer status was replaced').toBe(
-    true,
-  );
+  test('a phone hears "Answer in", then how it went, in one polite region, and where it stands', async ({
+    page: host,
+    openPage,
+  }) => {
+    const { phones } = await lobby(host, openPage, ['Dana', 'Eli']);
+    const [dana, eli] = phones as [Page, Page];
+    await startAndOpen(host);
+    const pad = dana.locator('[data-slot="answer-pad-status"]');
+    await expect(pad).toHaveAttribute('aria-live', 'polite');
+    await mark(pad, 'same');
+    await choice(dana, 0).click();
+    await expect(pad).toHaveText('Answer in. Watch the screen.');
+    await choice(eli, 1).click();
+    await nextRoom(dana, 'reveal');
+    await expect(pad).toHaveText(
+      /^(Right\. \+[\d,]+ points\.|Not this time\. The right reply was [A-D]\.)$/,
+    );
+    expect(await isMarked(pad, 'same'), 'the region was replaced').toBe(true);
+    await expect(dana.getByRole('status').last()).toContainText(
+      /You are (1st|2nd) of 2/,
+    );
+  });
 });
 
 test('a dropped connection is announced as a status, not left as a silent banner', async ({

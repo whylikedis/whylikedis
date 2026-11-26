@@ -47,8 +47,8 @@ export class FakeRealtime {
 
   /** Every broadcast, in the order the hub received it. */
   readonly log: Wire[] = [];
-  /** Decides, per message and per receiving client, when it arrives. Default: at once, once. */
-  plan: (wire: Wire, to: number) => Plan = () => [0];
+  /** Decides, per message and per receiving page, when it arrives. Default: at once, once. */
+  plan: (wire: Wire, to: Page) => Plan = () => [0];
   /** While true a phone's HTTP send fails (a flaky upload), and the page sees a 503. */
   httpDown = false;
   /** While true no socket can connect: the client's reconnect loop keeps failing. */
@@ -87,7 +87,7 @@ export class FakeRealtime {
     this.log.push(wire);
     for (const c of this.clients) {
       if (c.id === from || !c.topics.has(name)) continue;
-      for (const afterMs of this.plan(wire, c.id)) {
+      for (const afterMs of this.plan(wire, c.page)) {
         if (afterMs <= 0) this.deliverNow(c, wire);
         else {
           const t = setTimeout(() => {
