@@ -11,7 +11,7 @@ import { HeardSearch } from '../heard-search';
 import { FACTS_DESCRIPTION, FACTS_TITLE } from './copy';
 import { shareOf } from '../share-cards';
 import { pageMeta } from '@/lib/share-image';
-import { Stack } from '@/components/ui/stack';
+import { Cluster, Stack } from '@/components/ui/stack';
 import { TagList } from '@/components/ui/tag';
 import { Typography } from '@/components/ui/typography';
 import { ClaimCard } from '@/components/ui/patterns/claim-card';
@@ -182,11 +182,23 @@ function CardView({ c }: { c: Card }) {
           </Prose>
         </ClaimCard.Section>
       )}
+      {/* The link and the card's reference sit apart: run together, they read as one phrase. */}
       <ClaimCard.Footer>
-        {c.status === 'verified' && (
-          <Link href={`/answers/${c.id}/`}>Open the answer page</Link>
-        )}{' '}
-        Card <code>{c.id}</code>
+        <Cluster justify="between" align="center" gap="xs">
+          {c.status === 'verified' && (
+            // Styled as a link in running text: the button's link variant carries button padding,
+            // which set it in from the card's edge.
+            <Link
+              href={`/answers/${c.id}/`}
+              className="text-primary focus-visible:ring-ring inline-block rounded-sm py-1 font-medium underline decoration-from-font underline-offset-4 hover:opacity-90 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
+            >
+              Open the answer page
+            </Link>
+          )}
+          <span>
+            Card <code>{c.id}</code>
+          </span>
+        </Cluster>
       </ClaimCard.Footer>
     </ClaimCard>
   );

@@ -31,6 +31,8 @@ const KNOWN_AHEAD = {
   'components/ui/drawer.tsx': 'Interlace #223, merged, awaiting release #99',
   'components/ui/dropdown-menu.tsx':
     'Interlace #223, merged, awaiting release #99',
+  'components/ui/effects/count-up.tsx':
+    'Interlace #250, merged, awaiting release',
   'components/ui/effects/grid-field.tsx':
     'Interlace #223, merged, awaiting release #99',
   'components/ui/effects/pointer-surface.tsx':
@@ -42,7 +44,7 @@ const KNOWN_AHEAD = {
   'components/ui/patterns/reading-layout.tsx':
     'Interlace #223, merged, awaiting release #99',
   'components/ui/patterns/scroll-story.tsx':
-    'Interlace #223, merged, awaiting release #99',
+    'Interlace #223 and #250, merged, awaiting release',
   'components/ui/patterns/timeline.tsx':
     'Interlace #223, merged, awaiting release #99',
   'components/ui/patterns/topbar-nav.tsx':
