@@ -5,6 +5,7 @@ import { PREVIEW } from './data';
 import { Banner } from '@/components/ui/patterns/banner';
 import { SkipLink } from '@/components/ui/skip-link';
 import { THEME_SCRIPT } from '@/lib/theme-script';
+import { IntentBridge } from './intent-bridge';
 import { Nav } from './nav';
 import { SiteFooter } from './site-footer';
 import './globals.css';
@@ -78,13 +79,17 @@ export default function Layout({ children }: { children: ReactNode }) {
             ? 'Local preview: drafts are shown, and nothing here is approved or public.'
             : 'This site is still being written. Answers still being checked are not ready to teach from yet.'}
         </Banner>
-        <Nav />
-        {/* Each page sets its own sections, so a page can open with a full-width brand band. Moving
+        {/* Anonymous intent analytics for everything below: page views and leaves, rage clicks,
+            and clicks on anything marked `data-intent`. Sends nothing unless analytics is on. */}
+        <IntentBridge>
+          <Nav />
+          {/* Each page sets its own sections, so a page can open with a full-width brand band. Moving
             between pages crossfades, and a claim morphs into the heading of its answer page. */}
-        <main id="main" className="flex-1">
-          <ViewTransition>{children}</ViewTransition>
-        </main>
-        <SiteFooter />
+          <main id="main" className="flex-1">
+            <ViewTransition>{children}</ViewTransition>
+          </main>
+          <SiteFooter />
+        </IntentBridge>
       </body>
     </html>
   );

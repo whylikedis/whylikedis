@@ -104,12 +104,16 @@ function Talk() {
           />
           <Dialogue.Suggestions>
             <Dialogue.Suggestion asChild>
-              <Link href={`/answers/${c.id}/`}>The whole answer</Link>
+              <Link href={`/answers/${c.id}/`} data-intent="home_answer">
+                The whole answer
+              </Link>
             </Dialogue.Suggestion>
             {others.map((x) => (
               <ViewTransition name={`claim-${x.id}`} key={x.id}>
                 <Dialogue.Suggestion asChild>
-                  <Link href={`/answers/${x.id}/`}>{x.claim}</Link>
+                  <Link href={`/answers/${x.id}/`} data-intent="home_answer">
+                    {x.claim}
+                  </Link>
                 </Dialogue.Suggestion>
               </ViewTransition>
             ))}
@@ -149,12 +153,14 @@ function Hero() {
               <Link
                 href="/facts/"
                 className={buttonVariants({ variant: 'highlight', size: 'lg' })}
+                data-intent="home_hero_answers"
               >
                 See the answers
               </Link>
               <Link
                 href="/how-we-check/"
                 className={buttonVariants({ variant: 'link', size: 'lg' })}
+                data-intent="home_hero_how_we_check"
               >
                 How we check
               </Link>
@@ -271,6 +277,7 @@ function CheckIt() {
                       <Link
                         href={`/answers/${c.id}/`}
                         className={buttonVariants({ variant: 'link' })}
+                        data-intent="home_answer"
                       >
                         The whole answer
                       </Link>
@@ -487,7 +494,11 @@ function Closing() {
       >
         <Stack gap="md" align="center">
           <HeardSearch items={searchItems()} />
-          <Link href="/facts/" className={buttonVariants({ variant: 'link' })}>
+          <Link
+            href="/facts/"
+            className={buttonVariants({ variant: 'link' })}
+            data-intent="home_every_answer"
+          >
             Or see every answer
           </Link>
         </Stack>
