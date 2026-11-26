@@ -25,7 +25,7 @@ const updates: Update[] = appPack(site, { preview: PREVIEW }).updates.map(
     kind: 'New answer',
     // In quotes: it is the claim people hear, which the answer checks, not our statement.
     title: `“${u.title}”`,
-    description: `What the sources say · ${u.chapter}`,
+    description: u.chapter,
     href: `/answers/${u.target.id}/`,
   }),
 );
