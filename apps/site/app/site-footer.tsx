@@ -17,7 +17,7 @@ const GROUPS = [
     title: 'About us',
     links: [
       { href: '/#where-we-stand', label: 'Where we stand' },
-      { href: '/method/', label: 'How we check' },
+      { href: '/how-we-check/', label: 'How we check' },
       { href: '/open/', label: 'Open questions' },
     ],
   },

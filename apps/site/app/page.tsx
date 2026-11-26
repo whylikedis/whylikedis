@@ -153,7 +153,7 @@ function Hero() {
                 See the answers
               </Link>
               <Link
-                href="/method/"
+                href="/how-we-check/"
                 className={buttonVariants({ variant: 'link', size: 'lg' })}
               >
                 How we check
