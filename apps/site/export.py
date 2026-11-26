@@ -40,6 +40,24 @@ def slug(text, taken):
     taken.add(s)
     return s
 
+# A "State" cell holding one of these words reads as a status pill (Interlace Prose `data-status`).
+TONES = {
+    "supported": "success", "mostly supported": "success", "done": "success",
+    "partly": "warning", "started": "warning",
+    "not supported": "destructive",
+    "cannot know": "neutral", "untested": "neutral", "observe": "neutral",
+    "waits for github": "neutral", "n/a": "neutral",
+}
+
+
+def td(text, column):
+    """One body cell. It carries its column's name (`data-label`) so a phone can stack the
+    table into one card per row without waiting for script, and a known state becomes a pill."""
+    label = f' data-label="{E(re.sub(r"[`*_]", "", column))}"' if column else ""
+    tone = TONES.get(text.lower()) if column.lower() == "state" else None
+    value = f'<span data-status="{tone}">{inline(text)}</span>' if tone else inline(text)
+    return f"<td{label}>{value}</td>"
+
 
 def md(text, toc=None):
     """Just enough Markdown for our own docs: headings, tables, lists, code fences, paragraphs.
@@ -70,8 +88,9 @@ def md(text, toc=None):
             while j < len(lines) and lines[j].startswith("|"):
                 rows.append(cells(lines[j]))
                 j += 1
-            head = "".join(f"<th>{inline(c)}</th>" for c in cells(l))
-            body = "".join("<tr>" + "".join(f"<td>{inline(c)}</td>" for c in r) + "</tr>" for r in rows)
+            names = cells(l)
+            head = "".join(f"<th>{inline(c)}</th>" for c in names)
+            body = "".join("<tr>" + "".join(td(c, names[k] if k < len(names) else "") for k, c in enumerate(r)) + "</tr>" for r in rows)
             out.append(f'<div class="scroll"><table><thead><tr>{head}</tr></thead><tbody>{body}</tbody></table></div>')
             i = j
         elif re.match(r"(- |\d+\. )", l):
@@ -129,6 +148,8 @@ def site():
 
 def demo():
     assert "<table>" in md("| a | b |\n| - | - |\n| 1 | `x` |") and "<code>x</code>" in md("| a |\n| - |\n| `x` |")
+    assert '<td data-label="State"><span data-status="success">supported</span></td>' in md("| Q | State |\n| - | - |\n| x | supported |")
+    assert '<td data-label="b">2</td>' in md("| a | b |\n| - | - |\n| 1 | 2 |") and "data-status" not in md("| a |\n| - |\n| done |")
     assert md("- one\n  more\n- two") == "<ul><li>one more</li><li>two</li></ul>"
     assert "&lt;script&gt;" in md("<script>") and "<script" not in inline("<script>alert(1)</script>")
     assert "<p>" in section("chapters.md", "Where we stand")
