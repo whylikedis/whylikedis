@@ -2,6 +2,7 @@
   "name": "@whylikedis/mobile",
   "version": "0.0.0",
   "private": true,
+  "license": "SEE LICENSE IN LICENSE",
   "description": "The WhyLikeDIs app for iOS and Android: the home of the games. Expo and React Native.",
   "main": "expo-router/entry",
   "scripts": {
@@ -44,6 +45,6 @@
     "react-dom": "^19.3.1",
     "react-native-web": "^0.21.4",
     "sf-symbols-typescript": "^2.2.0",
-    "typescript": "^5.9.3"
+    "typescript": "^7.0.2"
   }
 }

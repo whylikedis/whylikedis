@@ -1,0 +1,89 @@
+Copyright (c) 2026-present WhyLikeDis. All rights reserved.
+
+WHAT THIS LICENSE COVERS
+
+Everything in this repository is licensed under the WhyLikeDis Commercial License below,
+except:
+
+- Files copied from Interlace (https://github.com/ofri-peretz/interlace), found under
+  `apps/site/styles/interlace/` and `apps/mobile/interlace/`. Those files are licensed under the
+  MIT License, Copyright (c) Ofri Peretz, as set out in the Interlace repository.
+- Third-party packages, which are licensed under their own terms.
+- Text quoted from third-party sources in the fact cards (`facts/`). Each quote belongs to its
+  author or publisher and appears here, with its source, for commentary and education. This
+  license grants no rights in it.
+
+WHYLIKEDIS COMMERCIAL LICENSE
+
+This WhyLikeDis Commercial License (this "License") governs the use of the software, content,
+data and documentation in this repository (collectively, the "Software") by you and any entity
+you represent (collectively, "You"). If You have signed a written agreement with WhyLikeDis that
+refers to the Software (a "Commercial Agreement"), this License is part of that Commercial
+Agreement and changes it only as set out here. If You have not signed a Commercial Agreement,
+You may use the Software only as set out in Section 2.
+
+If this License directly conflicts with a Commercial Agreement, this License controls. In every
+other respect, the Commercial Agreement stays in full force.
+
+By using the Software, You agree to the terms below.
+
+1. Production use. You may copy, modify and publish patches to the Software in a production
+   environment ("Production Copies", "Production Modifications" and "Production Patches") only
+   if (a) You have agreed to, and fully comply with, a Commercial Agreement, and (b) that
+   Commercial Agreement covers the number of sites, events or projects You use the Software
+   for. WhyLikeDis owns all right, title and interest in all Production Copies, Production
+   Modifications and Production Patches. You may display or distribute them only while (i) the
+   Commercial Agreement covers that use and (ii) You comply with it. You assign to WhyLikeDis all
+   right, title and interest in all Production Copies, Production Modifications and Production
+   Patches, including every intellectual property right in them.
+
+2. Development and testing. You may copy and modify the Software only for development and
+   testing ("Development Copies" and "Development Modifications"), whether or not You have a
+   Commercial Agreement, as long as Your use complies with this Section 2. WhyLikeDis owns all
+   right, title and interest in all Development Copies and Development Modifications, and You
+   assign to WhyLikeDis all right, title and interest in them, including every intellectual
+   property right in them. If You do not have a Commercial Agreement, You also agree that, except
+   as this Section 2 expressly allows, You may not:
+
+   (a) copy or modify the Software;
+   (b) create derivative works of the Software;
+   (c) remove or change any patent, copyright, trademark or other proprietary notice in the
+       Software;
+   (d) reverse engineer, decompile, translate, disassemble or otherwise work out the source code
+       of any part of the Software;
+   (e) publicly display any part of the Software;
+   (f) distribute, disclose, market, lease, publish, merge, resell, assign, lend, sublicense, rent
+       or transfer the Software to any third party;
+   (g) use the Software for any online, hosted, interactive or remote-access service, or to
+       provide a service bureau, time-share, workshop, event or other service to third parties;
+   (h) merge the Software into another product;
+   (i) disclose the results of any benchmark or test of the Software to a third party without
+       WhyLikeDis's prior written consent;
+   (j) use any WhyLikeDis trademark, logo, service mark or trade name, or any part of one,
+       without WhyLikeDis's prior written consent;
+   (k) use the Software in a way that breaks any applicable law, regulation or government order;
+       or
+   (l) use or store the Software on equipment that You do not own or control.
+
+   Reading the public WhyLikeDis website, and linking to its pages, is not restricted by this
+   License.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT ANY REPRESENTATION, WARRANTY, COVENANT OR CONDITION OF
+ANY KIND, EXPRESS OR IMPLIED, STATUTORY OR OTHERWISE, INCLUDING ANY WARRANTY OF MERCHANTABILITY,
+TITLE, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT. WHYLIKEDIS DOES NOT REPRESENT OR
+WARRANT THAT (A) ACCESS TO OR USE OF THE SOFTWARE WILL BE SECURE, TIMELY, UNINTERRUPTED OR
+ERROR-FREE, OR WILL WORK WITH ANY OTHER HARDWARE, SOFTWARE, SYSTEM OR DATA; (B) THE SOFTWARE WILL
+MEET YOUR REQUIREMENTS OR PRODUCE ANY PARTICULAR RESULT; (C) ERRORS OR DEFECTS WILL BE CORRECTED,
+OR PATCHES OR WORKAROUNDS PROVIDED; (D) THE SOFTWARE IS FREE OF VIRUSES OR OTHER HARMFUL
+COMPONENTS; OR (E) THIRD-PARTY DISRUPTIONS OR SECURITY BREACHES WILL BE PREVENTED.
+
+WHYLIKEDIS WILL NOT BE LIABLE FOR ANY LOSS OF PROFITS, OR FOR ANY INDIRECT, SPECIAL, INCIDENTAL,
+RELIANCE OR CONSEQUENTIAL DAMAGES OF ANY KIND, HOWEVER CAUSED, WHETHER IN CONTRACT, TORT
+(INCLUDING NEGLIGENCE), STRICT LIABILITY OR OTHERWISE, EVEN IF TOLD OF THE POSSIBILITY OF SUCH
+DAMAGES IN ADVANCE. WHYLIKEDIS'S ENTIRE LIABILITY TO YOU FOR USE OF THE SOFTWARE WILL NOT EXCEED
+$100.
+
+3. No other rights. You are granted no rights beyond those this License and any Commercial
+   Agreement expressly state.
+
+For a Commercial Agreement, contact WhyLikeDis through the website.

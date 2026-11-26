@@ -16,12 +16,14 @@ and CI render the same pixels.
 
 ## What is checked
 
-| File               | What                                                                                                                         |
-| ------------------ | ---------------------------------------------------------------------------------------------------------------------------- |
-| `pages.spec.ts`    | Every page in six reading conditions: axe, no sideways scroll, one `h1`, the skip link, Hebrew and Arabic marked, the header |
-| `journeys.spec.ts` | Daily question, practice round, booking a session, signing in and the account page, and what analytics heard                 |
-| `states.spec.ts`   | Storage off, offline, a slow or failing back end, long words, keyboard only, no JavaScript, an address that leads nowhere    |
-| `visual.spec.ts`   | Every page at 390, 820 and 1440 pixels, light and dark, against `baselines/`                                                 |
+| File                 | What                                                                                                                                                                                  |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `pages.spec.ts`      | Every page in six reading conditions: axe, no sideways scroll, one `h1`, the skip link, Hebrew and Arabic marked, the header                                                          |
+| `journeys.spec.ts`   | Daily question, practice round, booking a session, signing in and the account page, and what analytics heard                                                                          |
+| `states.spec.ts`     | Storage off, offline, a slow or failing back end, long words, keyboard only, no JavaScript, an address that leads nowhere                                                             |
+| `rooms.spec.ts`      | Live rooms: a host and phones over a fake Realtime that drops, delays, repeats and reorders; late joiners, a host reload, thirty players, keyboard only, live regions, reduced motion |
+| `room-rules.spec.ts` | The rules of a room without a browser: who may join and when, repeats, late and out-of-order messages, thirty players                                                                 |
+| `visual.spec.ts`     | Every page at 390, 820 and 1440 pixels, light and dark, against `baselines/`                                                                                                          |
 
 Every check also fails on a console error and on any request to a host other than the site and
 its two fakes. A test that expects an error says so with a `console-error` annotation.

@@ -11,8 +11,8 @@ const raw: Site = JSON.parse(
 );
 // A claim sits inside curly double quotes on every page, so a straight ' inside it ("'From the
 // river to the sea' is…") showed as a typewriter mark beside a typeset one. Our own words (the
-// claim, the answer and its lines, what is argued, what we don't say) are set with curly marks;
-// a source's quote stays exactly as it was copied.
+// claim, the answer and its lines, what is argued, what we don't say, who said it) are set with
+// curly marks; a source's quote stays exactly as it was copied.
 export const curly = (s: string) =>
   s.replace(/(^|[\s(\[“—-])'/g, '$1‘').replace(/'/g, '’');
 
@@ -22,6 +22,7 @@ export const site: Site = {
     ...c,
     claim: curly(c.claim),
     answer: curly(c.answer),
+    heard: c.heard.map((h) => (h.who ? { ...h, who: curly(h.who) } : h)),
     answer_claims: c.answer_claims?.map((a) => ({ ...a, says: curly(a.says) })),
     contested: c.contested.map((x) =>
       typeof x === 'string' ? curly(x) : { ...x, text: curly(x.text) },

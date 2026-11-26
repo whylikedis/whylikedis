@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { pageMeta } from '@/lib/share-image';
+import { SeenMarker } from '../../seen-marker';
 import { shareOf } from '../../share-cards';
 import {
   Breadcrumb,
@@ -147,11 +148,15 @@ export default async function Answer(props: Props) {
                       </List.Item>
                     ))}
                   </List>
+                  {/* Reaching the end of the answer and staying a moment counts it as read. */}
+                  <SeenMarker name="answer_read" />
                 </CardContent>
               </Card>
               {argued.length > 0 && (
+                // A long list, so the plain surface with the blue rule: the highlighter wash is
+                // for one line the page wants remembered, and over a list this long it read as grey.
                 <Callout
-                  tone="highlight"
+                  tone="info"
                   kicker={
                     <span lang="he" dir="rtl">
                       דוגרי
@@ -189,7 +194,11 @@ export default async function Answer(props: Props) {
                             <>
                               {' '}
                               (
-                              <a href={safe(h.url)} rel="noopener noreferrer">
+                              <a
+                                href={safe(h.url)}
+                                rel="noopener noreferrer"
+                                data-intent="answer_source"
+                              >
                                 source
                               </a>
                               )
@@ -243,7 +252,11 @@ export default async function Answer(props: Props) {
                       date={year}
                       source={
                         safe(source.url) ? (
-                          <a href={safe(source.url)} rel="noopener noreferrer">
+                          <a
+                            href={safe(source.url)}
+                            rel="noopener noreferrer"
+                            data-intent="answer_source"
+                          >
                             {source.publisher}
                           </a>
                         ) : (

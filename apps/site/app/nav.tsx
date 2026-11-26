@@ -10,6 +10,10 @@ import { AccountButton } from '@/components/account-button';
 import { ReadingButton } from '@/components/reading-button';
 import { Cluster } from '@/components/ui/stack';
 
+// Named for the anonymous click counts: nav_daily, footer_how_we_check, nav_home.
+const intentOf = (where: string, href: string) =>
+  `${where}_${href.replace(/^\/|\/$/g, '').replace(/[^a-z0-9]+/gi, '_') || 'home'}`;
+
 // The site is a family of products. The record is the first: the answers and the data behind
 // them, grouped in one menu with a line on each. How we check stays a plain link beside it.
 const LINKS = [
@@ -61,7 +65,7 @@ export function Nav() {
       logo={
         // The street sign keeps the sign face (Heebo), not the serif the headings use.
         <span style={{ '--font-heading': 'var(--font-sans)' } as CSSProperties}>
-          <Wordmark label="WhyLikeDIs, home" href="/">
+          <Wordmark label="WhyLikeDIs, home" href="/" size="responsive">
             <Wordmark.Line lang="he" dir="rtl">
               למה ככה
             </Wordmark.Line>
@@ -81,7 +85,12 @@ export function Nav() {
         </Cluster>
       }
       renderLink={({ href, className, children, ...rest }) => (
-        <Link href={href} className={className} {...rest}>
+        <Link
+          href={href}
+          className={className}
+          data-intent={intentOf('nav', href)}
+          {...rest}
+        >
           {children}
         </Link>
       )}

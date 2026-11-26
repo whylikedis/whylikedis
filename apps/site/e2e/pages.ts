@@ -62,6 +62,21 @@ export const PAGES: Page[] = [
     route: '/daily/s/[result]',
     visual: i === 0,
   })),
+  // Live rooms. The host page makes a random code and a deal per visit, so none of them is a
+  // screenshot; what they do is checked in rooms.spec.ts.
+  { name: 'play', path: '/play/', route: '/play', visual: false },
+  {
+    name: 'play-host',
+    path: '/play/host/',
+    route: '/play/host',
+    visual: false,
+  },
+  {
+    name: 'play-join',
+    path: '/play/join/',
+    route: '/play/join',
+    visual: false,
+  },
   { name: 'updates', path: '/updates/', route: '/updates', visual: true },
   { name: 'sessions', path: '/sessions/', route: '/sessions', visual: true },
   { name: 'sign-in', path: '/sign-in/', route: '/sign-in', visual: true },

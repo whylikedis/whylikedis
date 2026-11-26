@@ -94,6 +94,10 @@
     --wld-primary: #9db7ff;
     --primary: var(--wld-primary);
     --primary-foreground: #191814;
+    /* The brand band (answer titles, the home numbers) stays flag blue: the light primary above
+       reads well as links and buttons, but as a full-width band it glared. White on it: 9.30. */
+    --band: #0038b8;
+    --band-foreground: #ffffff;
     --secondary: #232a40;
     --secondary-foreground: #f1ede4;
     --muted: #2a2822;
