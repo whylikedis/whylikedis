@@ -258,6 +258,13 @@ function CheckIt() {
                     <Typography as="h3" variant="h4">
                       {c.claim}
                     </Typography>
+                    {/* The source's own words, as copied. The back holds two lines of the
+                        answer, so without them the front was mostly empty card. */}
+                    {c.heard[0] && (
+                      <Typography as="blockquote" variant="body" tone="muted">
+                        “{c.heard[0].quote}”
+                      </Typography>
+                    )}
                     {c.heard[0] && (
                       <Typography variant="ui" tone="muted">
                         {c.heard[0].who}
