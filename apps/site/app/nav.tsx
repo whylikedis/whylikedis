@@ -44,7 +44,7 @@ const LINKS = [
     ],
   },
   { href: '/daily/', label: 'Daily question' },
-  { href: '/method/', label: 'How we check' },
+  { href: '/how-we-check/', label: 'How we check' },
   { href: '/sessions/', label: 'Sessions' },
 ];
 
