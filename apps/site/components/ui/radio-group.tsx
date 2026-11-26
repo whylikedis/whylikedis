@@ -46,7 +46,7 @@ import * as React from 'react';
  * | unchecked `border-input` on `--background`         | 3.62:1 | 3.35:1  | 3:1 (SC 1.4.11) |
  * | checked dot `fill-primary` on `--background`       | 8.80:1 | 11.79:1 | 3:1 (SC 1.4.11) |
  * | `aria-invalid:border-destructive` on `--background`| 8.31:1 | 10.43:1  | 3:1 (SC 1.4.11) |
- * | `focus-visible:ring-ring/60` on `--background`     | 3.23:1 | 4.73:1  | 3:1 (SC 2.4.13) |
+ * | `focus-visible:ring-ring` on `--background`     | 8.80:1 | 11.79:1 | 3:1 (SC 2.4.13) |
  *
  * | Rule | Concept                          | Where in this file                                          |
  * | ---- | -------------------------------- | ----------------------------------------------------------- |
@@ -99,7 +99,7 @@ const RadioGroupItem = React.forwardRef<
       ref={ref}
       data-slot="radio-group-item"
       className={cn(
-        'border-input text-primary bg-background focus-visible:border-ring focus-visible:ring-ring/60 aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive aspect-square size-4 shrink-0 rounded-full border shadow-xs transition-[color,box-shadow] outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50',
+        'border-input text-primary bg-background focus-visible:border-ring focus-visible:ring-ring aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive aspect-square size-4 shrink-0 rounded-full border shadow-xs transition-[color,box-shadow] outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:cursor-not-allowed disabled:opacity-50',
         // SC 2.5.8 — transparent 24×24 hit area around the 16px dot.
         "relative before:absolute before:-inset-1 before:content-['']",
         className,

@@ -148,7 +148,7 @@ function FlipCard({
         data-slot="flip-card-inner"
         className={cn(
           "relative grid h-full transform-3d",
-          "motion-safe:transition-transform motion-safe:duration-500 motion-safe:ease-[cubic-bezier(0.2,0,0,1)]",
+          "motion-safe:transition-transform motion-safe:duration-(--duration-slow) motion-safe:ease-move",
           "motion-safe:group-data-flipped/flip:rotate-y-180",
           "noscript:gap-3 noscript:transform-none",
         )}
@@ -158,7 +158,7 @@ function FlipCard({
           inert={hydrated && flipped ? true : undefined}
           className={cn(
             FACE,
-            "motion-reduce:transition-opacity motion-reduce:duration-200",
+            "motion-reduce:transition-opacity motion-reduce:duration-(--duration-medium)",
             "motion-reduce:group-data-flipped/flip:opacity-0",
           )}
         >
@@ -187,7 +187,7 @@ function FlipCard({
           className={cn(
             FACE,
             "motion-safe:rotate-y-180",
-            "motion-reduce:opacity-0 motion-reduce:transition-opacity motion-reduce:duration-200",
+            "motion-reduce:opacity-0 motion-reduce:transition-opacity motion-reduce:duration-(--duration-medium)",
             "motion-reduce:group-data-flipped/flip:opacity-100",
             "noscript:row-start-2 noscript:rotate-none noscript:opacity-100",
           )}
