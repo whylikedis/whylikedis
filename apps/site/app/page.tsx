@@ -289,7 +289,10 @@ function CheckIt() {
                     </Typography>
                     {/* A phone shows the first line only: with two, the back ran some 200px taller
                         than the front, and the card is as tall as its taller face. */}
-                    <Typography variant="body" className="max-md:[&>span+span]:hidden">
+                    <Typography
+                      variant="body"
+                      className="max-md:[&>span+span]:hidden"
+                    >
                       <Said lines={answerLines(c).slice(0, 2)} />
                     </Typography>
                     <Cluster>
