@@ -9,8 +9,25 @@ export type { Card, Fact, Round, Source } from '@whylikedis/content';
 const raw: Site = JSON.parse(
   readFileSync(path.join(process.cwd(), 'data', 'site.json'), 'utf8'),
 );
+// A claim sits inside curly double quotes on every page, so a straight ' inside it ("'From the
+// river to the sea' is…") showed as a typewriter mark beside a typeset one. Our own words (the
+// claim, the answer and its lines, what is argued, what we don't say) are set with curly marks;
+// a source's quote stays exactly as it was copied.
+export const curly = (s: string) =>
+  s.replace(/(^|[\s(\[“—-])'/g, '$1‘').replace(/'/g, '’');
+
 export const site: Site = {
   ...raw,
+  cards: raw.cards.map((c) => ({
+    ...c,
+    claim: curly(c.claim),
+    answer: curly(c.answer),
+    answer_claims: c.answer_claims?.map((a) => ({ ...a, says: curly(a.says) })),
+    contested: c.contested.map((x) =>
+      typeof x === 'string' ? curly(x) : { ...x, text: curly(x.text) },
+    ),
+    not_claimed: c.not_claimed.map(curly),
+  })),
   docs: Object.fromEntries(
     Object.entries(raw.docs).filter(([doc]) => !HELD_DOCS.has(doc)),
   ),

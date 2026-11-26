@@ -205,7 +205,7 @@ export default async function Answer(props: Props) {
                 <CardHeader>
                   <CardTitle>
                     <Typography as="h2" variant="h4">
-                      What we're not saying
+                      What we’re not saying
                     </Typography>
                   </CardTitle>
                 </CardHeader>

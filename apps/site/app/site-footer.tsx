@@ -10,7 +10,7 @@ const GROUPS = [
       { href: '/facts/', label: 'All answers' },
       { href: '/questions/', label: 'Questions we tested' },
       { href: '/daily/', label: 'Daily question' },
-      { href: '/updates/', label: "What's new" },
+      { href: '/updates/', label: 'What’s new' },
     ],
   },
   {
