@@ -19,7 +19,9 @@
         "package.json",
         "$TURBO_ROOT$/facts/**",
         "$TURBO_ROOT$/docs/**",
-        "$TURBO_ROOT$/tools/factcheck.py"
+        "$TURBO_ROOT$/tools/factcheck.py",
+        "$TURBO_ROOT$/packages/games/src/**",
+        "$TURBO_ROOT$/packages/content/src/**"
       ],
       "outputs": [".next/**", "!.next/cache/**", "data/**"],
       "env": ["SITE_PREVIEW"]
