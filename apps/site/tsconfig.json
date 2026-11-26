@@ -18,7 +18,6 @@
       }
     ],
     "allowJs": true,
-    "baseUrl": ".",
     "paths": {
       "@/*": ["./*"]
     },
