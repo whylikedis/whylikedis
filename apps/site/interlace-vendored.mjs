@@ -26,9 +26,7 @@ const REGISTRY = 'apps/registry/public/r';
 
 // Taken from an open Interlace pull request before it merged. Each entry
 // names the pull request; delete the entry once the file matches a release.
-const KNOWN_AHEAD = {
-  'hooks/use-intent.ts': 'ofri-peretz/interlace#227',
-};
+const KNOWN_AHEAD = {};
 
 const interlace = process.argv[2];
 if (!interlace || !existsSync(join(interlace, REGISTRY))) {
