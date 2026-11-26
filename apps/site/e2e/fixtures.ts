@@ -2,6 +2,7 @@
 // no request to any other host, and no console error. A check that needs something else says so.
 import { test as base, expect, type Page, type Route } from '@playwright/test';
 import { POSTHOG, SUPABASE } from './env.mjs';
+import { FakeRealtime } from './fake-realtime';
 
 /** The day every check is played on: a fixed weekday morning in New York. */
 export const NOW = new Date('2026-12-01T10:00:00-05:00');
@@ -48,6 +49,10 @@ type Fixtures = {
   /** Requests the page made to a host it should not talk to. */
   strayRequests: string[];
   consoleErrors: string[];
+  /** The live-room network every page of the test shares: see fake-realtime.ts. */
+  realtime: FakeRealtime;
+  /** Another page of the same browser, set up like `page`: a phone in a live room. */
+  openPage: () => Promise<Page>;
 };
 
 const json = (route: Route, status: number, body: unknown) =>
@@ -139,33 +144,66 @@ export const test = base.extend<Fixtures>({
   strayRequests: async ({}, use) => use([]),
   consoleErrors: async ({}, use) => use([]),
 
-  page: async ({ page, backend, strayRequests, consoleErrors }, use) => {
-    page.on('pageerror', (e) => consoleErrors.push(`page error: ${e.message}`));
-    page.on('console', (m) => {
-      if (m.type() === 'error') consoleErrors.push(`console: ${m.text()}`);
-    });
-    await page.clock.install({ time: NOW });
-    // Any host but this one and the two fakes below is stray: refused, and the test fails.
-    await page.route(
-      (url) => !['127.0.0.1', 'localhost'].includes(url.hostname),
-      (route) => {
-        strayRequests.push(route.request().url());
-        return route.abort('blockedbyclient');
-      },
-    );
-    // Routes added last match first: these two hosts are answered, everything else is stray.
-    await fakeSupabase(page, backend);
-    await page.route(`${POSTHOG}/**`, async (route) => {
-      const data = route.request().postData();
-      if (data) {
-        const { event, properties } = JSON.parse(data);
-        backend.events.push({ event, properties });
-      }
-      return route.fulfill({ status: 200, body: '{"status":"Ok"}' });
-    });
+  realtime: async ({}, use) => {
+    const hub = new FakeRealtime();
+    await use(hub);
+    hub.stop();
+  },
+
+  page: async (
+    { page, backend, strayRequests, consoleErrors, realtime },
+    use,
+  ) => {
+    await prepare(page, { backend, strayRequests, consoleErrors, realtime });
     await use(page);
   },
+
+  openPage: async (
+    { context, backend, strayRequests, consoleErrors, realtime },
+    use,
+  ) => {
+    await use(async () => {
+      const page = await context.newPage();
+      await prepare(page, { backend, strayRequests, consoleErrors, realtime });
+      return page;
+    });
+  },
 });
+
+async function prepare(
+  page: Page,
+  {
+    backend,
+    strayRequests,
+    consoleErrors,
+    realtime,
+  }: Pick<Fixtures, 'backend' | 'strayRequests' | 'consoleErrors' | 'realtime'>,
+) {
+  page.on('pageerror', (e) => consoleErrors.push(`page error: ${e.message}`));
+  page.on('console', (m) => {
+    if (m.type() === 'error') consoleErrors.push(`console: ${m.text()}`);
+  });
+  await page.clock.install({ time: NOW });
+  // Any host but this one and the two fakes below is stray: refused, and the test fails.
+  await page.route(
+    (url) => !['127.0.0.1', 'localhost'].includes(url.hostname),
+    (route) => {
+      strayRequests.push(route.request().url());
+      return route.abort('blockedbyclient');
+    },
+  );
+  // Routes added last match first: these hosts are answered, everything else is stray.
+  await fakeSupabase(page, backend);
+  await realtime.attach(page);
+  await page.route(`${POSTHOG}/**`, async (route) => {
+    const data = route.request().postData();
+    if (data) {
+      const { event, properties } = JSON.parse(data);
+      backend.events.push({ event, properties });
+    }
+    return route.fulfill({ status: 200, body: '{"status":"Ok"}' });
+  });
+}
 
 /** After the test: no stray request, no console error (unless the test expected one). */
 test.afterEach(async ({ strayRequests, consoleErrors }, info) => {

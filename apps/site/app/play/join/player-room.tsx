@@ -31,6 +31,7 @@ import { TimerRing } from '@/components/ui/games/timer-ring';
 import { Input } from '@/components/ui/input';
 import { Cluster, Stack } from '@/components/ui/stack';
 import { Typography } from '@/components/ui/typography';
+import { JOIN_TITLE } from '../copy';
 import {
   ROOMS_ACROSS_DEVICES,
   saveName,
@@ -56,7 +57,16 @@ const ordinal = (n: number) => {
 
 export function PlayerRoom({ initialCode }: { initialCode: string | null }) {
   const code = initialCode ? normalizeJoinCode(initialCode) : null;
-  return code ? <Room code={code} /> : <CodeForm bad={!!initialCode} />;
+  if (code) return <Room code={code} />;
+  // The page's own heading: /play shows this form under its own.
+  return (
+    <Stack gap="md">
+      <Typography as="h1" variant="h2">
+        {JOIN_TITLE}
+      </Typography>
+      <CodeForm bad={!!initialCode} />
+    </Stack>
+  );
 }
 
 export function CodeForm({ bad }: { bad: boolean }) {
