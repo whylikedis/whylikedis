@@ -2,6 +2,7 @@
   "name": "@whylikedis/content",
   "version": "0.0.0",
   "private": true,
+  "license": "SEE LICENSE IN LICENSE",
   "description": "The fact base's types and the rules for what is shown, shared by the site and the app.",
   "type": "module",
   "main": "./src/index.ts",

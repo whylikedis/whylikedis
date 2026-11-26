@@ -2,6 +2,7 @@
   "name": "@whylikedis/games",
   "version": "0.0.0",
   "private": true,
+  "license": "SEE LICENSE IN LICENSE",
   "description": "The games' rules, shared by the app and the site: the engine, the event log, the player's stored document, sync, and the daily \"What would you say?\" question.",
   "type": "module",
   "main": "./src/index.ts",
