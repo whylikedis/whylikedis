@@ -342,3 +342,56 @@ test('falls back to a websocket send without httpSend, and survives failed sends
   await new Promise((r) => setTimeout(r, 0));
   t.close();
 });
+
+test('a host that dropped sends its last state again when it is back, however long it was away', async () => {
+  const rt = fakeRealtime();
+  const c = clock();
+  const statuses: string[] = [];
+  const t = realtimeRoomTransport<{ kind: string; seq?: number; at?: number }>({
+    role: 'host',
+    open: rt.open,
+    code: 'ABC',
+    ...c,
+    onStatus: (s) => statuses.push(s),
+  });
+  const up = rt.channels[names.up]!;
+  const down = rt.channels[names.down]!;
+  const seqs = () => rt.sent.map((s) => (s.payload as { seq: number }).seq);
+  up.status!('SUBSCRIBED');
+  down.status!('SUBSCRIBED');
+  t.send({ kind: 'state', seq: 1, at: 0 });
+  assert.deepEqual(seqs(), [1]);
+
+  // The state was lost on the way and the link drops. The host's "say it again" timer (4 s) goes
+  // off while the link is down; it must not be the last chance a phone has to hear the state.
+  down.status!('CLOSED');
+  c.advance(5000);
+  assert.deepEqual(seqs(), [1]);
+  c.advance(60_000);
+  down.status!('SUBSCRIBED');
+  await Promise.resolve();
+  assert.deepEqual(seqs(), [1, 1]);
+  assert.equal((rt.sent[1]!.payload as { at: number }).at, c.now()); // stamped with the clock now
+  // And the host goes on saying it while it stays quiet.
+  c.advance(4000);
+  assert.deepEqual(seqs(), [1, 1, 1]);
+  assert.deepEqual(statuses, ['connecting', 'live', 'retrying', 'live']);
+  t.close();
+});
+
+test('a host with nothing to say yet says nothing when it connects, and again after a drop', async () => {
+  const rt = fakeRealtime();
+  const t = realtimeRoomTransport<{ kind: string }>({
+    role: 'host',
+    open: rt.open,
+    code: 'ABC',
+    resendEveryMs: 0,
+  });
+  rt.channels[names.up]!.status!('SUBSCRIBED');
+  rt.channels[names.down]!.status!('SUBSCRIBED');
+  rt.channels[names.up]!.status!('CHANNEL_ERROR');
+  rt.channels[names.up]!.status!('SUBSCRIBED');
+  await Promise.resolve();
+  assert.equal(rt.sent.length, 0);
+  t.close();
+});

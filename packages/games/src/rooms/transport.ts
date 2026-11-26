@@ -129,6 +129,13 @@ export function realtimeRoomTransport<M extends RoomWireMessage>(
           status('live');
           // Back after a drop: a player asks for the state again, since it may have missed some.
           if (again && hello) raw(hello);
+          // A host says where the room is, since the last state may have been lost as the link
+          // went down, and its "say it again" timer may have found the link down and stopped.
+          if (again && lastState) {
+            lastStateAt = now();
+            raw(stamp(lastState));
+            scheduleResend();
+          }
           flush();
         }
       } else if (s === 'CHANNEL_ERROR' || s === 'TIMED_OUT' || s === 'CLOSED') {
