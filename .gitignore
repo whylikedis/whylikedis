@@ -12,3 +12,6 @@ apps/site/next-env.d.ts
 apps/site/*.tsbuildinfo
 apps/site/landing.html
 .vercel/
+# What a browser check run leaves behind (apps/site/e2e).
+apps/site/test-results/
+apps/site/playwright-report/

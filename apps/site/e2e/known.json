@@ -1,0 +1,17 @@
+{
+  "//": "Failures we know about and have not fixed yet, as '<check> <page>'. A new failure fails CI, and so does a fixed one still listed here: delete its line in the PR that fixes it.",
+  "known": [
+    "header-on-top home 390",
+    "header-on-top home 1440",
+    "header-on-top answer-era5-genocide-claim 390",
+    "header-on-top answer-era5-genocide-claim 1440",
+    "header-on-top answer-era5-october-7-attack 390",
+    "header-on-top answer-era5-october-7-attack 1440",
+    "header-on-top answer-era7-hamas-in-its-own-words 390",
+    "header-on-top answer-era7-hamas-in-its-own-words 1440",
+    "header-on-top answer-era7-slogan-history-and-meanings 390",
+    "header-on-top answer-era7-slogan-history-and-meanings 1440",
+    "invalid-field-message sessions",
+    "long-words sessions-summary"
+  ]
+}
