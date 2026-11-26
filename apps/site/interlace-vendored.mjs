@@ -31,6 +31,7 @@ const KNOWN_AHEAD = {
   'components/ui/games/streak-model.ts': 'ofri-peretz/interlace#217',
   'components/ui/games/share-card.tsx': 'ofri-peretz/interlace#217',
   'components/ui/games/share-model.ts': 'ofri-peretz/interlace#217',
+  'hooks/use-intent.ts': 'ofri-peretz/interlace#227',
 };
 
 const interlace = process.argv[2];
