@@ -70,7 +70,9 @@ export function Nav() {
         // The street sign keeps the sign face (Heebo), not the serif the headings use.
         <span style={{ '--font-heading': 'var(--font-sans)' } as CSSProperties}>
           <Wordmark
-            label="WhyLikeDIs, home"
+            // The name holds the sign's visible words (WCAG 2.5.3, Label in Name): a person who says
+            // what they see on the link must reach it. Each line keeps its own lang for the reader.
+            label="למה ככה ليش هيك WHYLIKEDIS, home"
             href="/"
             size="responsive"
             // The bar is the page colour (solid once scrolled, clear before), so the plate's fill and
