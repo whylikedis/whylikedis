@@ -69,7 +69,16 @@ export function Nav() {
       logo={
         // The street sign keeps the sign face (Heebo), not the serif the headings use.
         <span style={{ '--font-heading': 'var(--font-sans)' } as CSSProperties}>
-          <Wordmark label="WhyLikeDIs, home" href="/" size="responsive">
+          <Wordmark
+            label="WhyLikeDIs, home"
+            href="/"
+            size="responsive"
+            // The bar is the page colour (solid once scrolled, clear before), so the plate's fill and
+            // edge in that colour paint nothing a reader can see. They did cost a flicker: the sticky
+            // bar is drawn twice, and the plate's rounded corners blend page colour over page colour,
+            // which rounds to a different level each time. The blue rule inside the plate stays.
+            className="border-transparent bg-transparent"
+          >
             <Wordmark.Line lang="he" dir="rtl">
               למה ככה
             </Wordmark.Line>

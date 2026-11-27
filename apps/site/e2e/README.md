@@ -23,6 +23,7 @@ and CI render the same pixels.
 | `states.spec.ts`     | Storage off, offline, a slow or failing back end, long words, keyboard only, no JavaScript, an address that leads nowhere                                                             |
 | `rooms.spec.ts`      | Live rooms: a host and phones over a fake Realtime that drops, delays, repeats and reorders; late joiners, a host reload, thirty players, keyboard only, live regions, reduced motion |
 | `room-rules.spec.ts` | The rules of a room without a browser: who may join and when, repeats, late and out-of-order messages, thirty players                                                                 |
+| `settles.spec.ts`    | A ready page does not change between screenshots on a slow CPU (what the nightly check needs), and a flip card stays flat with reduced motion                                         |
 | `visual.spec.ts`     | Every page at 390, 820 and 1440 pixels, light and dark, against `baselines/`                                                                                                          |
 
 Every check also fails on a console error and on any request to a host other than the site and
