@@ -38,7 +38,13 @@ test('the booking form lists church and company among the groups', async ({
   const group = page.getByRole('radio', { name: /A group/ });
   await expect(group).toBeVisible();
   const text = await page.getByRole('main').innerText();
-  for (const word of ['school', 'synagogue', 'church', 'company', 'youth group']) {
+  for (const word of [
+    'school',
+    'synagogue',
+    'church',
+    'company',
+    'youth group',
+  ]) {
     expect(text).toContain(word);
   }
 });
