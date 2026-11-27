@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 import { InterestSignal } from '@/components/ui/patterns/interest-signal';
-import { supabase } from '@/lib/supabase/client';
+import { supabaseLater } from '@/lib/supabase/lazy';
 import { AUTH_ENABLED } from '@/lib/supabase/config';
 
 // "I want more on this" under an answer. The press is remembered in this browser only, and,
@@ -37,10 +37,11 @@ export function MoreOnThis({
       // Private mode: the press still counts below, it just is not remembered here.
     }
     if (AUTH_ENABLED) {
-      void supabase()
-        .from('interest_signals')
-        .insert({ topic: `answer:${answerId}`, wants })
-        .then(() => undefined);
+      void supabaseLater().then((client) =>
+        client
+          .from('interest_signals')
+          .insert({ topic: `answer:${answerId}`, wants }),
+      );
     }
   };
 

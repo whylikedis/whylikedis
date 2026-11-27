@@ -15,8 +15,8 @@ import {
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
 import { displayName, initials, type Profile } from '@/lib/profile';
-import { supabase } from '@/lib/supabase/client';
 import { AUTH_ENABLED } from '@/lib/supabase/config';
+import { supabaseLater } from '@/lib/supabase/lazy';
 
 // The right end of the top bar: "Sign in" for a visitor, their photo and a menu once signed in.
 // Pages stay static: the session is read here, in the browser.
@@ -28,22 +28,41 @@ export function AccountButton() {
 
   useEffect(() => {
     if (!AUTH_ENABLED) return;
-    const auth = supabase().auth;
-    auth.getSession().then(({ data }) => setUser(data.session?.user ?? null));
-    const { data } = auth.onAuthStateChange((_e, session) =>
-      setUser(session?.user ?? null),
-    );
-    return () => data.subscription.unsubscribe();
+    let live = true;
+    let stop: (() => void) | undefined;
+    supabaseLater().then((client) => {
+      if (!live) return;
+      const auth = client.auth;
+      auth.getSession().then(({ data }) => {
+        if (live) setUser(data.session?.user ?? null);
+      });
+      const { data } = auth.onAuthStateChange((_e, session) =>
+        setUser(session?.user ?? null),
+      );
+      stop = () => data.subscription.unsubscribe();
+    });
+    return () => {
+      live = false;
+      stop?.();
+    };
   }, []);
 
   useEffect(() => {
     if (!user) return setProfile(null);
-    supabase()
-      .from('profiles')
-      .select('id, first_name, last_name, email, avatar_url')
-      .eq('id', user.id)
-      .maybeSingle()
-      .then(({ data }) => setProfile(data));
+    let live = true;
+    supabaseLater().then((client) =>
+      client
+        .from('profiles')
+        .select('id, first_name, last_name, email, avatar_url')
+        .eq('id', user.id)
+        .maybeSingle()
+        .then(({ data }) => {
+          if (live) setProfile(data);
+        }),
+    );
+    return () => {
+      live = false;
+    };
   }, [user]);
 
   if (!AUTH_ENABLED) return null;
@@ -111,7 +130,7 @@ export function AccountButton() {
         </DropdownMenuItem>
         <DropdownMenuItem
           onClick={async () => {
-            await supabase().auth.signOut();
+            await (await supabaseLater()).auth.signOut();
             router.refresh();
           }}
         >
