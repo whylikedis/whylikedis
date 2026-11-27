@@ -49,3 +49,40 @@ test('the Supabase client is not among the scripts a page asks for up front', as
     }
   }
 });
+
+// The question on /daily/ is the largest thing on the page, so when it paints is when the page
+// counts as loaded. It is in the server HTML, and it must also be painted at full strength, not
+// faded in: a fade on first load (a CSS `starting` style on the puzzle's body) held the paint of
+// the text back by its 150ms and put the mobile Lighthouse LCP 2.7s behind the other pages.
+test.describe('the daily question on first paint', () => {
+  // The suite runs with motion off; the fade only exists with motion on.
+  test.use({ reducedMotion: 'no-preference' });
+
+  test('is in the server HTML', async ({ request }) => {
+    const html = await (await request.get('/daily/')).text();
+    expect(html).toContain('data-slot="recall-card-prompt"');
+  });
+
+  test('is not faded in', async ({ page }) => {
+    await page.addInitScript(() => {
+      const w = window as unknown as { __body: unknown };
+      document.addEventListener('DOMContentLoaded', () => {
+        requestAnimationFrame(() => {
+          const body = document.querySelector(
+            '[data-slot="daily-puzzle-body"]',
+          );
+          w.__body = body && {
+            running: body.getAnimations().length,
+            opacity: getComputedStyle(body).opacity,
+          };
+        });
+      });
+    });
+    await page.goto('/daily/');
+    await expect
+      .poll(() =>
+        page.evaluate(() => (window as unknown as { __body: unknown }).__body),
+      )
+      .toEqual({ running: 0, opacity: '1' });
+  });
+});
