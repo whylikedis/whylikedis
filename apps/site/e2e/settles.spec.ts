@@ -25,6 +25,11 @@ test.describe('a ready page does not change between screenshots', () => {
         await cdp.send('Emulation.setCPUThrottlingRate', { rate: 4 });
         await page.goto(path);
         await settle(page);
+        // Ready means the session has been read too: "Sign in" fades in from its reserved room once
+        // it has (a slow runner reads it after the first frame), and a page is not ready before it.
+        await expect(
+          page.getByRole('banner').getByRole('link', { name: 'Sign in' }),
+        ).toBeVisible();
         await page.waitForTimeout(100);
         const frames: Buffer[] = [];
         for (let i = 0; i < FRAMES; i++) {
