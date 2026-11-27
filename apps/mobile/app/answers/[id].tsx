@@ -1,9 +1,14 @@
 // One answer in full: the claim, what is heard, the answer line by line with the quotes behind it,
 // and what is still argued. Every quote opens its source.
-import { Stack as RouterStack, useLocalSearchParams } from 'expo-router';
+import {
+  router,
+  Stack as RouterStack,
+  useLocalSearchParams,
+} from 'expo-router';
 import { Linking, View } from 'react-native';
 import {
   Badge,
+  Button,
   Card,
   PressableScale,
   Screen,
@@ -11,16 +16,35 @@ import {
   Text,
   useTheme,
 } from '../../interlace/native';
+import { reportError } from '../../lib/errors/report';
+import { openSource } from '../../lib/links';
 import { cardById } from '../../lib/pack';
+import { firstParam } from '../../lib/route-params';
 
 export default function Answer() {
-  const { id } = useLocalSearchParams<{ id: string }>();
+  const params = useLocalSearchParams<{ id: string | string[] }>();
   const theme = useTheme();
-  const card = cardById(id);
+  const id = firstParam(params.id);
+  const card = id ? cardById(id) : undefined;
   if (!card) {
     return (
       <Screen edges={['bottom', 'left', 'right']}>
-        <Text variant="title">That answer is not in the app.</Text>
+        <Stack gap="lg" flex={1} justify="center">
+          <Text variant="title">That answer is not in the app.</Text>
+          <Text variant="body" tone="muted">
+            The link may be from a newer version. Every answer we have is listed
+            under Answers.
+          </Text>
+          {/* A link opened from outside has no screen behind it, so there is always a way on. */}
+          <Button
+            variant="highlight"
+            size="lg"
+            block
+            onPress={() => router.replace('/answers')}
+          >
+            See all answers
+          </Button>
+        </Stack>
       </Screen>
     );
   }
@@ -59,8 +83,11 @@ export default function Answer() {
               <PressableScale
                 key={j}
                 accessibilityRole="link"
-                accessibilityHint="Opens the source"
-                onPress={() => Linking.openURL(s.url)}
+                accessibilityLabel={`Source: ${s.publisher}. “${s.quote}”`}
+                accessibilityHint="Opens the source in your browser"
+                onPress={() => {
+                  void openSource(s.url, Linking.openURL, reportError);
+                }}
                 style={{
                   borderLeftWidth: 3,
                   borderLeftColor: theme.colors.primary,
@@ -69,7 +96,8 @@ export default function Answer() {
                   gap: 2,
                 }}
               >
-                <Text variant="caption" tone="muted" numberOfLines={4}>
+                {/* The whole quote: cutting it short would hide the words the source is cited for. */}
+                <Text variant="caption" tone="muted">
                   “{s.quote}”
                 </Text>
                 <Text variant="caption" tone="primary">

@@ -53,6 +53,8 @@ export default function Answers() {
           accessibilityLabel="Search the answers"
           clearButtonMode="while-editing"
           returnKeyType="search"
+          autoCorrect={false}
+          autoCapitalize="none"
           style={{
             minHeight: theme.control.md,
             borderRadius: theme.radius.md,
@@ -74,7 +76,12 @@ export default function Answers() {
           paddingBottom: insets.bottom + theme.space['2xl'],
         }}
         ListEmptyComponent={
-          <Text variant="body" tone="muted" style={{ padding: theme.space.lg }}>
+          <Text
+            variant="body"
+            tone="muted"
+            accessibilityLiveRegion="polite"
+            style={{ padding: theme.space.lg }}
+          >
             No answer matches that yet.
           </Text>
         }
