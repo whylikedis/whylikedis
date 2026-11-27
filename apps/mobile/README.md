@@ -47,6 +47,13 @@ it came from. Never edit the copies. A missing piece is built in Interlace, then
 brand reaches Interlace through token overrides in `lib/theme.ts`, and `lib/theme.test.ts` holds
 them to the WCAG floors.
 
+## Orientation
+
+The app is portrait only (`orientation` in `app.json`). It also runs on iPad, where Apple wants every
+orientation unless the app opts out of split view, so `ios.requireFullScreen` is `true` (iOS
+`UIRequiresFullScreen`). `lib/app-config.test.ts` holds the two together. Landscape and split view
+need their own layouts first; drop the flag when they exist.
+
 ## Performance
 
 - React Native's New Architecture and Hermes. The bundle ships as bytecode.
