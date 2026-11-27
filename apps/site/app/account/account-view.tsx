@@ -44,7 +44,9 @@ export function AccountView() {
     const auth = supabase().auth;
     const { data } = await auth.getUser();
     if (!data.user) {
-      router.replace('/sign-in/?next=/account/');
+      // A full load, not a client navigation: that one left this page's description and robots tags
+      // in the head beside the sign-in page's, and a second canonical.
+      window.location.replace('/sign-in/?next=/account/');
       return;
     }
     setUser(data.user);

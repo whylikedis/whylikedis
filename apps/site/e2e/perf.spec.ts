@@ -86,3 +86,33 @@ test.describe('the daily question on first paint', () => {
       .toEqual({ running: 0, opacity: '1' });
   });
 });
+
+// The practice round does not use the daily puzzle's frame, so it never had its fade; this keeps
+// it that way. Nothing in the question's card may be animating or see-through on first paint.
+test.describe('the practice question on first paint', () => {
+  test.use({ reducedMotion: 'no-preference' });
+
+  test('is not faded in', async ({ page }) => {
+    await page.addInitScript(() => {
+      const w = window as unknown as { __main: unknown };
+      document.addEventListener('DOMContentLoaded', () => {
+        requestAnimationFrame(() => {
+          const main = document.querySelector('main#main');
+          w.__main = main && {
+            running: main
+              .getAnimations({ subtree: true })
+              .filter((a) => a.effect?.getComputedTiming().progress !== 1)
+              .length,
+            opacity: getComputedStyle(main).opacity,
+          };
+        });
+      });
+    });
+    await page.goto('/daily/practice/');
+    await expect
+      .poll(() =>
+        page.evaluate(() => (window as unknown as { __main: unknown }).__main),
+      )
+      .toEqual({ running: 0, opacity: '1' });
+  });
+});
