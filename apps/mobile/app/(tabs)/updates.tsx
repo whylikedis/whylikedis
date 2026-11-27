@@ -9,10 +9,11 @@ import { View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { dayKeyToDate } from '../../interlace/games/daily';
 import { ListRow, Text, useTheme } from '../../interlace/native';
+import { dateLabel } from '../../lib/dates';
 import { updates } from '../../lib/pack';
 import { usePlayer } from '../../lib/player';
 
-const dateLabel = new Intl.DateTimeFormat(undefined, {
+const dateFormat = new Intl.DateTimeFormat(undefined, {
   month: 'long',
   day: 'numeric',
   year: 'numeric',
@@ -30,19 +31,19 @@ export default function Updates() {
     }, [markUpdatesSeen]),
   );
 
-  const renderItem = useCallback(
-    ({ item }: { item: PackUpdate }) => (
+  const renderItem = useCallback(({ item }: { item: PackUpdate }) => {
+    const when = dateLabel(dateFormat, dayKeyToDate(item.date));
+    return (
       <ListRow
-        overline={`New answer · ${dateLabel.format(dayKeyToDate(item.date))}`}
+        overline={when ? `New answer · ${when}` : 'New answer'}
         // In quotes: it is the claim people hear, which the answer checks, not our statement.
         title={`“${item.title}”`}
         subtitle={item.chapter}
         accessibilityRole="link"
         onPress={() => router.push(`/answers/${item.target.id}`)}
       />
-    ),
-    [],
-  );
+    );
+  }, []);
 
   return (
     <View

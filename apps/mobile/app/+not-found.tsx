@@ -1,15 +1,20 @@
-import { Link } from 'expo-router';
-import { Screen, Text } from '../interlace/native';
+import { router } from 'expo-router';
+import { Button, Screen, Stack, Text } from '../interlace/native';
 
 export default function NotFound() {
   return (
     <Screen>
-      <Text variant="title">This page is not in the app.</Text>
-      <Link href="/">
-        <Text variant="label" tone="primary">
+      <Stack gap="lg" flex={1} justify="center">
+        <Text variant="title">This page is not in the app.</Text>
+        <Button
+          variant="highlight"
+          size="lg"
+          block
+          onPress={() => router.replace('/')}
+        >
           Go to Play
-        </Text>
-      </Link>
+        </Button>
+      </Stack>
     </Screen>
   );
 }

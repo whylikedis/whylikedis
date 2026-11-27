@@ -5,6 +5,7 @@
 import type { PackCard } from '@whylikedis/content';
 import * as Haptics from 'expo-haptics';
 import {
+  Redirect,
   router,
   useLocalSearchParams,
   type ErrorBoundaryProps,
@@ -38,6 +39,7 @@ import {
 import { streakLabel } from '../../../lib/games/labels';
 import { cards, shortName } from '../../../lib/pack';
 import { usePlayer } from '../../../lib/player';
+import { roundMode } from '../../../lib/route-params';
 import { useGameSession } from '../../../lib/use-game-session';
 
 const game = whatWouldYouSay<PackCard>();
@@ -46,8 +48,15 @@ export function ErrorBoundary(props: ErrorBoundaryProps) {
   return <ScreenError {...props} where="play/what-would-you-say" />;
 }
 
-export default function Round() {
-  const { mode } = useLocalSearchParams<{ mode: string }>();
+// An address that names no round (a stale or mistyped link) goes home; it is never played as the
+// daily, which would count toward the streak.
+export default function RoundRoute() {
+  const { mode } = useLocalSearchParams<{ mode: string | string[] }>();
+  const id = roundMode(mode);
+  return id ? <Round mode={id} /> : <Redirect href="/" />;
+}
+
+function Round({ mode }: { mode: 'daily' | 'practice' }) {
   const { history, events, goal } = usePlayer();
   // The log as it was when the round began, so the summary shows what this round changed.
   const start = useRef(events).current;
@@ -58,7 +67,7 @@ export default function Round() {
     day,
     reveal,
     answer,
-  } = useGameSession(game, mode === 'practice' ? 'practice' : 'daily', cards);
+  } = useGameSession(game, mode, cards);
   const daily = session.mode.daily;
 
   const rate = useCallback(
