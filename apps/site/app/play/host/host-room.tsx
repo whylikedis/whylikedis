@@ -203,6 +203,11 @@ function Stage({
       send={sendWithRound}
       roundSeconds={MATCH_SECONDS}
       score={score}
+      labels={{
+        // The kit's default says "Needs 1 players".
+        needMore: (min, n) =>
+          `Needs ${min} ${min === 1 ? 'player' : 'players'} to start. ${n} so far.`,
+      }}
     />
   );
 

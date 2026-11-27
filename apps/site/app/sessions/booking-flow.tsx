@@ -151,9 +151,10 @@ export function BookingFlow({ topics }: { topics: string[] }) {
           >
             {FOR.map(([value, label, hint]) => (
               <Typography as="label" key={value}>
-                <Cluster gap="sm" align="start">
-                  <RadioGroupItem value={value} />
-                  <Stack gap="xs">
+                {/* Not a wrapping Cluster: a long hint pushed the radio onto a line of its own. */}
+                <div className="flex items-start gap-3">
+                  <RadioGroupItem value={value} className="mt-1 shrink-0" />
+                  <Stack gap="xs" className="min-w-0 flex-1">
                     <Typography as="span" variant="ui">
                       {label}
                     </Typography>
@@ -161,7 +162,7 @@ export function BookingFlow({ topics }: { topics: string[] }) {
                       {hint}
                     </Typography>
                   </Stack>
-                </Cluster>
+                </div>
               </Typography>
             ))}
           </RadioGroup>

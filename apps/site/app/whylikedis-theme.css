@@ -138,3 +138,23 @@
   min-height: 44px;
   min-width: 44px;
 }
+
+/* Small controls keep their look and get a 44px hit area. A transparent border is part of the
+   element's box for a pointer, and `background-clip: padding-box` keeps the chip's fill where it
+   was; the negative margin takes the border's room back, so the text does not move. (An
+   `::after` that reached past the box was never hit: the browser does not test it on an inline
+   button.) The chips are 18px tall, the breadcrumb link 23px. */
+[data-slot='citation-trigger'],
+[data-slot='breadcrumb-link'] {
+  border: 0 solid transparent;
+  border-block-width: 13px;
+  border-inline-width: 6px;
+  margin-block: -13px;
+  margin-inline: -6px;
+  background-clip: padding-box;
+}
+/* Sign in and Copy link are 40px tall buttons: the same 44px as every other control. */
+[data-slot='join-code-copy'],
+[data-slot='topbar'] a[href*='sign-in'] {
+  min-height: 44px;
+}
