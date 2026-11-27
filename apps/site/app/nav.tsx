@@ -71,6 +71,10 @@ export function Nav() {
         <span style={{ '--font-heading': 'var(--font-sans)' } as CSSProperties}>
           <Wordmark
             label="WhyLikeDIs, home"
+            // Label in Name (WCAG 2.5.3): a link named differently from the words on it fails
+            // axe-core 4.14. So the link takes its name from its lines, each read in its own
+            // language, and a hidden "home" says where it goes.
+            aria-label={undefined}
             href="/"
             size="responsive"
             // The bar is the page colour (solid once scrolled, clear before), so the plate's fill and
@@ -86,6 +90,7 @@ export function Nav() {
               ليش هيك
             </Wordmark.Line>
             <Wordmark.Line lang="en">WHYLIKEDIS</Wordmark.Line>
+            <span className="sr-only">, home</span>
           </Wordmark>
         </span>
       }
