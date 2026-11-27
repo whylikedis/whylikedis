@@ -26,6 +26,8 @@ export type AnalyticsEvents = {
   shared: { kind: 'result' | 'milestone'; mode: string };
   reminder_set: { hour: number };
   reminder_off: Record<string, never>;
+  text_size_changed: { size: string };
+  contrast_changed: { contrast: string };
 };
 
 const launchId = `a${Math.random().toString(36).slice(2)}${Date.now().toString(36)}`;

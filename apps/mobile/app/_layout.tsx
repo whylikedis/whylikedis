@@ -6,7 +6,7 @@ import { mark } from '../lib/perf';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Stack, type ErrorBoundaryProps } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
-import { useEffect } from 'react';
+import { useEffect, type ReactNode } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
@@ -16,6 +16,7 @@ import { installErrorLog } from '../lib/errors/log';
 import { installGlobalHandler } from '../lib/errors/report';
 import { PlayerProvider, usePlayer } from '../lib/player';
 import { useReminderTap } from '../lib/progress/reminder';
+import { ReadingProvider, useReading } from '../lib/reading/context';
 import { brand } from '../lib/theme';
 
 installGlobalHandler();
@@ -36,7 +37,10 @@ export function ErrorBoundary(props: ErrorBoundaryProps) {
 
 function Screens() {
   const theme = useTheme();
-  const { ready } = usePlayer();
+  const playerReady = usePlayer().ready;
+  const readingReady = useReading().ready;
+  // One splash for both reads, so the app draws once, at the reader's size.
+  const ready = playerReady && readingReady;
   useEffect(() => {
     if (!ready) return;
     SplashScreen.hideAsync().catch(() => {});
@@ -73,15 +77,32 @@ function Screens() {
   );
 }
 
+// Inside the reading choice, so the theme is built once at the reader's text size and contrast.
+function Themed({ children }: { children: ReactNode }) {
+  const { prefs } = useReading();
+  return (
+    <InterlaceProvider
+      scheme="system"
+      overrides={brand}
+      textSize={prefs.textSize}
+      contrast={prefs.contrast}
+    >
+      {children}
+    </InterlaceProvider>
+  );
+}
+
 export default function RootLayout() {
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
       <SafeAreaProvider>
-        <InterlaceProvider scheme="system" overrides={brand}>
-          <PlayerProvider>
-            <Screens />
-          </PlayerProvider>
-        </InterlaceProvider>
+        <ReadingProvider>
+          <Themed>
+            <PlayerProvider>
+              <Screens />
+            </PlayerProvider>
+          </Themed>
+        </ReadingProvider>
       </SafeAreaProvider>
     </GestureHandlerRootView>
   );

@@ -79,3 +79,17 @@ export const colors = {
     chart5: '#9ca3af',
   },
 } as const;
+
+// What More contrast (the AAA reading mode) paints as the primary, per scheme. The flag blue already
+// clears 7:1 on the page and on every tinted surface in both schemes (lib/reading/reading.test.ts
+// holds it), so the one accent survives the mode instead of turning to black or white.
+export const moreContrastBrand = {
+  light: {
+    primary: colors.light.primary,
+    primaryForeground: colors.light.primaryForeground,
+  },
+  dark: {
+    primary: colors.dark.primary,
+    primaryForeground: colors.dark.primaryForeground,
+  },
+} as const;

@@ -11,12 +11,14 @@ import {
   Badge,
   Button,
   Card,
+  ContrastToggle,
   GoalMeter,
   LevelMeter,
   Screen,
   Stack,
   StreakStrip,
   Text,
+  TextSizeControl,
 } from '../../interlace/native';
 import { capture } from '../../lib/analytics';
 import { comingSoon } from '../../lib/games/catalog';
@@ -31,6 +33,7 @@ import {
 } from '@whylikedis/games';
 import { cards } from '../../lib/pack';
 import { usePlayer } from '../../lib/player';
+import { useReading } from '../../lib/reading/context';
 import { REMINDERS_AVAILABLE, useReminder } from '../../lib/progress/reminder';
 import {
   REMINDER_TIMES,
@@ -55,6 +58,7 @@ export default function Play() {
     [events, day, goal],
   );
   const reminder = useReminder();
+  const reading = useReading();
 
   const pickGoal = (id: GoalId) => {
     if (id === (goal ?? 'light')) return;
@@ -198,6 +202,22 @@ export default function Play() {
           </View>
         </Card>
       ) : null}
+
+      <Card>
+        <Text variant="label">Reading</Text>
+        <Text variant="body" tone="muted">
+          Make the text bigger, or turn on more contrast. It stays on this
+          phone, and it adds to your phone's own text size.
+        </Text>
+        <TextSizeControl
+          value={reading.prefs.textSize}
+          onChange={reading.setTextSize}
+        />
+        <ContrastToggle
+          value={reading.prefs.contrast}
+          onChange={reading.setContrast}
+        />
+      </Card>
 
       {coming.length ? (
         <Card tone="muted">

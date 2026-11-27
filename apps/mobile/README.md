@@ -11,6 +11,8 @@ It does not copy the site screen by screen.
 - **Answers** is every answer in the app, searchable, with each quote opening its source.
 - **Updates** lists answers as they are finished, newest first, dated by their last review. Only
   our own work appears there, and only once a second reader has checked it.
+- **Reading** (on Play) sets the text size (100 to 150%, on top of the phone's own) and an opt-in AAA
+  More contrast mode, which keeps the flag blue as the one accent. Both stay on the phone.
 - Progress stays on the phone. There is no account yet, and nothing is sent anywhere.
 
 ## How it is built
