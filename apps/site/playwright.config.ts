@@ -18,6 +18,8 @@ const PORT = 4174;
 
 export default defineConfig({
   testDir: './e2e',
+  // Refuses a build that is not the e2e build (a git hook's plain build, say).
+  globalSetup: './e2e/global-setup.ts',
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
   // No retries: a retry hides a flaky check instead of fixing its cause.

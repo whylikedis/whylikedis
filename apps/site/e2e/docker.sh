@@ -12,6 +12,7 @@ root="$(cd "$here/../.." && pwd)"        # repo root (node_modules live here)
 version="$(node -p "require('$root/node_modules/@playwright/test/package.json').version")"
 image="mcr.microsoft.com/playwright:v${version}-noble"
 
+node "$here/e2e/require-build.mjs" || exit 1
 if [ ! -f "$here/.next/BUILD_ID" ]; then
   echo "No built site. Run: npm run e2e:build --workspace @whylikedis/site" >&2
   exit 1
