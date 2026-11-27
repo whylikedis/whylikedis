@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-// @interlace/milestones v1.0.0 — Interlace design system.
+// @interlace/milestones v1.1.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/milestones
 // What changed since: https://ds.interlace.tools/c/milestones#history
 // Generated banner — keep it, the upgrade diff reads this version.

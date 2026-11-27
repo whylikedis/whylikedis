@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-// @interlace/skip-link v2.0.0 — Interlace design system.
+// @interlace/skip-link v2.1.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/skip-link
 // What changed since: https://ds.interlace.tools/c/skip-link#history
 // Generated banner — keep it, the upgrade diff reads this version.

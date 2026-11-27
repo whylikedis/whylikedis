@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-// @interlace/tag v1.3.0 — Interlace design system.
+// @interlace/tag v1.4.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/tag
 // What changed since: https://ds.interlace.tools/c/tag#history
 // Generated banner — keep it, the upgrade diff reads this version.

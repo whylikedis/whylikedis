@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-// @interlace/level-meter v1.0.0 — Interlace design system.
+// @interlace/level-meter v1.1.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/level-meter
 // What changed since: https://ds.interlace.tools/c/level-meter#history
 // Generated banner — keep it, the upgrade diff reads this version.

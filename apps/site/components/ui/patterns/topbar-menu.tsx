@@ -2,7 +2,7 @@
 
 import { MenuIcon } from "lucide-react";
 
-// @interlace/topbar-menu v2.2.0 — Interlace design system.
+// @interlace/topbar-menu v2.3.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/topbar-menu
 // What changed since: https://ds.interlace.tools/c/topbar-menu#history
 // Generated banner — keep it, the upgrade diff reads this version.

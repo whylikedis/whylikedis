@@ -2,7 +2,7 @@
 
 import { useRender } from '@base-ui/react/use-render';
 
-// @interlace/flip-group v1.0.0 — Interlace design system.
+// @interlace/flip-group v1.0.1 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/flip-group
 // What changed since: https://ds.interlace.tools/c/flip-group#history
 // Generated banner — keep it, the upgrade diff reads this version.

@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 
-// @interlace/dropdown-menu v2.1.0 — Interlace design system.
+// @interlace/dropdown-menu v2.2.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/dropdown-menu
 // What changed since: https://ds.interlace.tools/c/dropdown-menu#history
 // Generated banner — keep it, the upgrade diff reads this version.

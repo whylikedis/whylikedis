@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 
-// @interlace/social-sign-in v1.1.0 — Interlace design system.
+// @interlace/social-sign-in v2.1.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/social-sign-in
 // What changed since: https://ds.interlace.tools/c/social-sign-in#history
 // Generated banner — keep it, the upgrade diff reads this version.

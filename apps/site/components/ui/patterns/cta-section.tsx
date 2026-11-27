@@ -1,6 +1,6 @@
 import * as React from "react";
 
-// @interlace/cta-section v2.1.0 — Interlace design system.
+// @interlace/cta-section v2.2.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/cta-section
 // What changed since: https://ds.interlace.tools/c/cta-section#history
 // Generated banner — keep it, the upgrade diff reads this version.

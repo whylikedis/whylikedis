@@ -26,44 +26,7 @@ const REGISTRY = 'apps/registry/public/r';
 
 // Taken from an open Interlace pull request before it merged. Each entry
 // names the pull request; delete the entry once the file matches a release.
-const KNOWN_AHEAD = {
-  'components/ui/combobox.tsx': 'Interlace #223, merged, awaiting release #99',
-  'components/ui/drawer.tsx': 'Interlace #223, merged, awaiting release #99',
-  'components/ui/dropdown-menu.tsx':
-    'Interlace #223, merged, awaiting release #99',
-  'components/ui/effects/count-up.tsx':
-    'Interlace #250, merged, awaiting release',
-  'components/ui/effects/grid-field.tsx':
-    'Interlace #223, merged, awaiting release #99',
-  'components/ui/effects/pointer-surface.tsx':
-    'Interlace #223, merged, awaiting release #99',
-  'components/ui/games/daily-puzzle.tsx':
-    'Interlace #259 and #260, merged, awaiting release',
-  'components/ui/patterns/citation.tsx':
-    'Interlace #261, merged, awaiting release',
-  'components/ui/patterns/claim-card.tsx':
-    'Interlace #258, merged, awaiting release',
-  'components/ui/patterns/cta-section.tsx':
-    'Interlace #223, merged, awaiting release #99',
-  'components/ui/patterns/dialogue.tsx':
-    'Interlace #223, merged, awaiting release #99',
-  'components/ui/patterns/reading-layout.tsx':
-    'Interlace #223, merged, awaiting release #99',
-  'components/ui/patterns/scroll-story.tsx':
-    'Interlace #223 and #250, merged, awaiting release',
-  'components/ui/patterns/timeline.tsx':
-    'Interlace #223, merged, awaiting release #99',
-  'components/ui/patterns/topbar-nav.tsx':
-    'Interlace #223, merged, awaiting release #99',
-  'components/ui/patterns/topbar.tsx':
-    'Interlace #223, merged, awaiting release #99',
-  'components/ui/popover.tsx': 'Interlace #223, merged, awaiting release #99',
-  'components/ui/section.tsx': 'Interlace #223, merged, awaiting release #99',
-  'components/ui/skip-link.tsx': 'Interlace #223, merged, awaiting release #99',
-  'styles/interlace/base.css': 'Interlace #223, merged, awaiting release #99',
-  'styles/interlace/structure/layer.css':
-    'Interlace #223, merged, awaiting release #99',
-};
+const KNOWN_AHEAD = {};
 
 const interlace = process.argv[2];
 if (!interlace || !existsSync(join(interlace, REGISTRY))) {

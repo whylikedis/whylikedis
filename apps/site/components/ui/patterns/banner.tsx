@@ -2,7 +2,7 @@
 
 import { XIcon } from 'lucide-react';
 
-// @interlace/banner v1.0.0 — Interlace design system.
+// @interlace/banner v1.1.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/banner
 // What changed since: https://ds.interlace.tools/c/banner#history
 // Generated banner — keep it, the upgrade diff reads this version.

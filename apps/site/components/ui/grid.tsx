@@ -1,6 +1,6 @@
 import * as React from "react";
 
-// @interlace/grid v2.0.1 — Interlace design system.
+// @interlace/grid v2.0.2 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/grid
 // What changed since: https://ds.interlace.tools/c/grid#history
 // Generated banner — keep it, the upgrade diff reads this version.

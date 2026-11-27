@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 
-// @interlace/button v3.4.0 — Interlace design system.
+// @interlace/button v3.6.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/button
 // What changed since: https://ds.interlace.tools/c/button#history
 // Generated banner — keep it, the upgrade diff reads this version.

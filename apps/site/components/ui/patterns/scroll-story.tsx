@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 
-// @interlace/scroll-story v1.0.0 — Interlace design system.
+// @interlace/scroll-story v1.1.1 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/scroll-story
 // What changed since: https://ds.interlace.tools/c/scroll-story#history
 // Generated banner — keep it, the upgrade diff reads this version.

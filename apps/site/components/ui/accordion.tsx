@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 
-// @interlace/accordion v2.1.0 — Interlace design system.
+// @interlace/accordion v2.3.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/accordion
 // What changed since: https://ds.interlace.tools/c/accordion#history
 // Generated banner — keep it, the upgrade diff reads this version.

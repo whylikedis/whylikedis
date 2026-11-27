@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 
-// @interlace/citation v1.2.0 — Interlace design system.
+// @interlace/citation v1.3.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/citation
 // What changed since: https://ds.interlace.tools/c/citation#history
 // Generated banner — keep it, the upgrade diff reads this version.

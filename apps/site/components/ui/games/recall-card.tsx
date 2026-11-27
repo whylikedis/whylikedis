@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 
-// @interlace/recall-card v1.0.0 — Interlace design system.
+// @interlace/recall-card v1.0.1 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/recall-card
 // What changed since: https://ds.interlace.tools/c/recall-card#history
 // Generated banner — keep it, the upgrade diff reads this version.

@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 
-// @interlace/combobox v3.1.0 — Interlace design system.
+// @interlace/combobox v3.3.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/combobox
 // What changed since: https://ds.interlace.tools/c/combobox#history
 // Generated banner — keep it, the upgrade diff reads this version.

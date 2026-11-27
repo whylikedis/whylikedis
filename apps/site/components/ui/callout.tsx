@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-// @interlace/callout v2.1.1 — Interlace design system.
+// @interlace/callout v2.1.3 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/callout
 // What changed since: https://ds.interlace.tools/c/callout#history
 // Generated banner — keep it, the upgrade diff reads this version.

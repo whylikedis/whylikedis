@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-// @interlace/claim-card v1.1.0 — Interlace design system.
+// @interlace/claim-card v1.2.1 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/claim-card
 // What changed since: https://ds.interlace.tools/c/claim-card#history
 // Generated banner — keep it, the upgrade diff reads this version.
