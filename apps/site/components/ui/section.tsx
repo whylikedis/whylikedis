@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-// @interlace/section v1.2.0 — Interlace design system.
+// @interlace/section v1.6.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/section
 // What changed since: https://ds.interlace.tools/c/section#history
 // Generated banner — keep it, the upgrade diff reads this version.

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-// @interlace/topbar v2.6.0 — Interlace design system.
+// @interlace/topbar v2.7.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/topbar
 // What changed since: https://ds.interlace.tools/c/topbar#history
 // Generated banner — keep it, the upgrade diff reads this version.

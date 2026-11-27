@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-// @interlace/breadcrumb v2.0.0 — Interlace design system.
+// @interlace/breadcrumb v2.1.2 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/breadcrumb
 // What changed since: https://ds.interlace.tools/c/breadcrumb#history
 // Generated banner — keep it, the upgrade diff reads this version.

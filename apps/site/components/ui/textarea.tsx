@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-// @interlace/textarea v3.0.1 — Interlace design system.
+// @interlace/textarea v3.1.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/textarea
 // What changed since: https://ds.interlace.tools/c/textarea#history
 // Generated banner — keep it, the upgrade diff reads this version.

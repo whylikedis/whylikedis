@@ -1,6 +1,6 @@
 import * as React from "react";
 
-// @interlace/section-header v1.3.0 — Interlace design system.
+// @interlace/section-header v1.6.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/section-header
 // What changed since: https://ds.interlace.tools/c/section-header#history
 // Generated banner — keep it, the upgrade diff reads this version.

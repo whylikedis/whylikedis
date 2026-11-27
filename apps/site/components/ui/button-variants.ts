@@ -1,6 +1,6 @@
 import { cva, type VariantProps } from 'class-variance-authority';
 
-// @interlace/button-variants v3.3.0 — Interlace design system.
+// @interlace/button-variants v3.5.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/button-variants
 // What changed since: https://ds.interlace.tools/c/button-variants#history
 // Generated banner — keep it, the upgrade diff reads this version.

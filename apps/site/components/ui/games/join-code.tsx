@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 
-// @interlace/join-code v1.0.0 — Interlace design system.
+// @interlace/join-code v1.5.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/join-code
 // What changed since: https://ds.interlace.tools/c/join-code#history
 // Generated banner — keep it, the upgrade diff reads this version.

@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 
-// @interlace/standings v1.0.0 — Interlace design system.
+// @interlace/standings v1.1.1 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/standings
 // What changed since: https://ds.interlace.tools/c/standings#history
 // Generated banner — keep it, the upgrade diff reads this version.

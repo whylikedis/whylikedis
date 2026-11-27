@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-// @interlace/typography v2.1.0 — Interlace design system.
+// @interlace/typography v2.2.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/typography
 // What changed since: https://ds.interlace.tools/c/typography#history
 // Generated banner — keep it, the upgrade diff reads this version.

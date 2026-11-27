@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 
-// @interlace/multi-step-form v1.0.0 — Interlace design system.
+// @interlace/multi-step-form v2.1.2 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/multi-step-form
 // What changed since: https://ds.interlace.tools/c/multi-step-form#history
 // Generated banner — keep it, the upgrade diff reads this version.

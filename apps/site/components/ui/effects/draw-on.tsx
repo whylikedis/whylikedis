@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 
-// @interlace/draw-on v1.0.0 — Interlace design system.
+// @interlace/draw-on v1.0.1 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/draw-on
 // What changed since: https://ds.interlace.tools/c/draw-on#history
 // Generated banner — keep it, the upgrade diff reads this version.

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-// @interlace/skeleton v2.1.0 — Interlace design system.
+// @interlace/skeleton v2.1.2 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/skeleton
 // What changed since: https://ds.interlace.tools/c/skeleton#history
 // Generated banner — keep it, the upgrade diff reads this version.

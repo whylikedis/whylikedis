@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-// @interlace/streak v1.0.0 — Interlace design system.
+// @interlace/streak v1.2.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/streak
 // What changed since: https://ds.interlace.tools/c/streak#history
 // Generated banner — keep it, the upgrade diff reads this version.

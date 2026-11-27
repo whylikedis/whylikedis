@@ -2,7 +2,7 @@
 
 import { NavigationMenu } from "@base-ui/react/navigation-menu";
 
-// @interlace/topbar-nav v1.1.0 — Interlace design system.
+// @interlace/topbar-nav v1.2.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/topbar-nav
 // What changed since: https://ds.interlace.tools/c/topbar-nav#history
 // Generated banner — keep it, the upgrade diff reads this version.

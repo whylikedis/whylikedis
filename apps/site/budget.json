@@ -2,23 +2,23 @@
   "pages": {
     "/": {
       "js": 321700,
-      "css": 33500
+      "css": 33600
     },
     "/daily": {
       "js": 319600,
-      "css": 33500
+      "css": 33600
     },
     "/answers/era5-genocide-claim": {
       "js": 299900,
-      "css": 33500
+      "css": 33600
     },
     "/sessions": {
       "js": 313400,
-      "css": 33500
+      "css": 33600
     },
     "/how-we-check": {
       "js": 292200,
-      "css": 33500
+      "css": 33600
     }
   }
 }

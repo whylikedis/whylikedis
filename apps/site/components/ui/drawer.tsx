@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 
-// @interlace/drawer v1.0.0 — Interlace design system.
+// @interlace/drawer v1.2.0 — Interlace design system.
 // Docs, props and live preview: https://ds.interlace.tools/c/drawer
 // What changed since: https://ds.interlace.tools/c/drawer#history
 // Generated banner — keep it, the upgrade diff reads this version.
