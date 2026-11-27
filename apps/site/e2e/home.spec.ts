@@ -104,6 +104,11 @@ test('the reading control and its steps are 44px targets', async ({ page }) => {
   expect(box!.width).toBeGreaterThanOrEqual(44);
   expect(box!.height).toBeGreaterThanOrEqual(44);
   await trigger.click();
+  // The popover opens with an animation, even at 0.01ms under reduced motion; measured in the same
+  // tick the buttons are still scaled (41.8px wide), so wait until it has finished opening.
+  await page.evaluate(() =>
+    Promise.all(document.getAnimations().map((a) => a.finished)),
+  );
   for (const name of ['Smaller text', 'Larger text']) {
     const b = await page.getByRole('button', { name }).boundingBox();
     expect(b!.width, `${name} wide`).toBeGreaterThanOrEqual(44);
