@@ -80,6 +80,12 @@ export function DailyQuestion({
   const [day, setDay] = useState(initialDay);
   // The reader's own calendar day, once the browser can tell.
   useEffect(() => setDay(dayKey()), []);
+  // The puzzle's body fades in when it first mounts, which is right when one round gives way to
+  // the next but not on the page's first paint: the question is the largest thing on the page,
+  // and a fade holds the paint of its text back by the fade's length. So the fade is off until the
+  // page has loaded, and what follows (the done state taking the place of the question) has it.
+  const [loaded, setLoaded] = useState(false);
+  useEffect(() => setLoaded(true), []);
 
   const player = usePlayer();
   const card = useMemo(() => dailyCard(cards, day), [cards, day]);
@@ -229,6 +235,11 @@ export function DailyQuestion({
         rounds={1}
         round={1}
         done={rated}
+        className={
+          loaded
+            ? undefined
+            : '[&_[data-slot=daily-puzzle-body]]:transition-none'
+        }
         aside={
           // A first visit has no streak yet, and a flame beside a 0 read as a score of
           // nothing. The chip appears once there is a run to show.
