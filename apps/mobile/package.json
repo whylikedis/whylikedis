@@ -1,0 +1,50 @@
+{
+  "name": "@whylikedis/mobile",
+  "version": "0.0.0",
+  "private": true,
+  "license": "SEE LICENSE IN LICENSE",
+  "description": "The WhyLikeDIs app for iOS and Android: the home of the games. Expo and React Native.",
+  "main": "expo-router/entry",
+  "scripts": {
+    "content": "node scripts/content.mjs",
+    "sync:interlace": "node scripts/sync-interlace.mjs",
+    "start": "npm run content && expo start",
+    "ios": "npm run content && expo run:ios",
+    "android": "npm run content && expo run:android",
+    "typecheck": "npm run content && tsc --noEmit",
+    "test": "node --experimental-strip-types --no-warnings --import ./scripts/register-ts-resolve.mjs --test 'lib/**/*.test.ts'",
+    "bundle:check": "npm run content && expo export --platform ios --platform android --output-dir dist && node scripts/budget.mjs",
+    "preview:web": "npm run content && expo start --web",
+    "eas-build-post-install": "npm run content",
+    "e2e": "maestro test .maestro"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@shopify/flash-list": "2.3.2",
+    "@whylikedis/content": "*",
+    "@whylikedis/games": "*",
+    "expo": "~58.0.26",
+    "expo-constants": "~58.0.16",
+    "expo-haptics": "~58.0.8",
+    "expo-linking": "~58.0.17",
+    "expo-notifications": "~58.1.9",
+    "expo-router": "~58.0.32",
+    "expo-splash-screen": "~58.0.14",
+    "expo-status-bar": "~58.0.5",
+    "expo-system-ui": "~58.0.7",
+    "react": "^19.3.0",
+    "react-native": "0.88.1",
+    "react-native-gesture-handler": "~3.3.0",
+    "react-native-reanimated": "~4.7.1",
+    "react-native-safe-area-context": "~5.11.1",
+    "react-native-screens": "~4.30.1",
+    "react-native-worklets": "0.13.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.2",
+    "react-dom": "^19.3.1",
+    "react-native-web": "^0.21.4",
+    "sf-symbols-typescript": "^2.2.0",
+    "typescript": "^7.0.2"
+  }
+}

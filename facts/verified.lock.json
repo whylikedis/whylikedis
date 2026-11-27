@@ -98,7 +98,7 @@
  "025fc0abc8847e6c": {
   "checked": "2026-11-20",
   "http": 429,
-  "result": "unreachable",
+  "result": "found",
   "url": "https://www.thejc.com/news/israel/knesset-bills-west-bank-annexation-h34eesd3"
  },
  "02646fb056976602": {
@@ -533,6 +533,12 @@
   "result": "found",
   "url": "https://www.jm-qr-objects.jo/en/objects/%D9%85%D8%B3%D9%84%D8%A9%20%D9%85%D9%8A%D8%B4%D8%B9:%20%D8%A5%D8%AD%D8%AF%D9%89%20%D8%A3%D9%87%D9%85%20%D9%88%D8%AB%D8%A7%D8%A6%D9%82%20%D8%A7%D9%84%D8%A3%D8%B1%D8%AF%D9%86%20%D8%A7%D9%84%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%8A%D8%A9"
  },
+ "0ad4e803e31baddb": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "found",
+  "url": "https://www.palquest.org/en/node/21720"
+ },
  "0b21e81a80103457": {
   "checked": "2026-11-20",
   "http": 200,
@@ -683,6 +689,12 @@
   "result": "found",
   "url": "https://www.gesetze-im-internet.de/gg/art_116.html"
  },
+ "0e5a3a81030974d6": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20I.pdf"
+ },
  "0ecf7133d2cc1074": {
   "checked": "2026-11-20",
   "http": 200,
@@ -730,6 +742,12 @@
   "http": 200,
   "result": "found",
   "url": "https://archive.org/stream/100yearswarpalestine/The_Hundred_Years_War_on_Palestine_A_History_of_Settler_Colonial_Conquest_and_Resistance_UK_Edition_Rashid_Khalidi_djvu.txt"
+ },
+ "0f81a3bdcb39318d": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://bjpa.org/content/upload/bjpa/103d/103demographic.pdf"
  },
  "0f82b077282f8404": {
   "checked": "2026-11-20",
@@ -784,6 +802,12 @@
   "http": 200,
   "result": "missing",
   "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/safed"
+ },
+ "116a60f8539123e1": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "found",
+  "url": "https://rpl.hds.harvard.edu/news/2024/12/3/video-zionism-emotional-state"
  },
  "119744cc441856ca": {
   "checked": "2026-11-20",
@@ -892,6 +916,12 @@
   "http": 200,
   "result": "found",
   "url": "https://www.foreignaffairs.com/united-states/might-unmakes-right-hathaway-shapiro"
+ },
+ "13e2737d067832dd": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://web.archive.org/web/2024/https://www.commentary.org/articles/efraim-karsh/were-the-palestinians-expelled/"
  },
  "14279a7fbbe21d0b": {
   "checked": "2026-11-20",
@@ -1361,6 +1391,12 @@
   "result": "missing",
   "url": "https://ismi.emory.edu/documents/Readings/Mandel,%20Neville%20J.%20Ottoman%20Policy.pdf"
  },
+ "1c998cb9b86ec19e": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/auto-insert-179435/"
+ },
  "1cb70a8f635829cb": {
   "checked": "2026-11-20",
   "http": 200,
@@ -1456,6 +1492,12 @@
   "http": 200,
   "result": "found",
   "url": "https://doi.org/10.1017/s1356186300008300"
+ },
+ "1e9a1be7787d54b4": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/auto-insert-194707/"
  },
  "1e9dee496584e5a2": {
   "checked": "2026-11-20",
@@ -2045,6 +2087,12 @@
   "result": "found",
   "url": "https://www.posenlibrary.com/guide/bar-kokhba-revolt-and-its-aftermath"
  },
+ "292a1c369a2bb167": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20I.pdf"
+ },
  "2943ff44cdb5551d": {
   "checked": "2026-11-20",
   "http": 200,
@@ -2219,6 +2267,12 @@
   "result": "found",
   "url": "https://www.jurist.org/news/2012/01/israel-supreme-court-upholds-citizenship-law"
  },
+ "2cd0218c4cdee2f6": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "unreachable",
+  "url": "https://www.britannica.com/topic/Zionism"
+ },
  "2ce11f405365f226": {
   "checked": "2026-11-20",
   "http": 200,
@@ -2230,6 +2284,12 @@
   "http": 200,
   "result": "found",
   "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/united-torah-judaism/"
+ },
+ "2d46a6210ce4b9e1": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://jewishstudies.washington.edu/israel-hebrew/why-israel-isnt-a-settler-colonial-state"
  },
  "2d60bd9102b838d6": {
   "checked": "2026-11-20",
@@ -2254,6 +2314,12 @@
   "http": 200,
   "result": "found",
   "url": "https://sgp.fas.org/crs/mideast/RL33222.pdf"
+ },
+ "2df03ff93245e194": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://jewishencyclopedia.com/articles/2612-basel-program"
  },
  "2e097d229aa9cb8a": {
   "checked": "2026-11-20",
@@ -2483,6 +2549,12 @@
   "result": "found",
   "url": "https://en.idi.org.il/articles/24241"
  },
+ "32d1108aa34253d6": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://cojs.org/?p=5668"
+ },
  "32fc51251191f4b8": {
   "checked": "2026-11-20",
   "http": 200,
@@ -2662,6 +2734,12 @@
   "http": 200,
   "result": "found",
   "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20I.pdf"
+ },
+ "36d8edd5f0598415": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://israeled.org/wp-content/uploads/2012/08/1939-HMG-H-M-Corres-Review.pdf"
  },
  "3743ce046b6b45c3": {
   "checked": "2026-11-20",
@@ -3257,6 +3335,12 @@
   "result": "found",
   "url": "https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-5-jerusalem-chronicle/"
  },
+ "463dd8f5fb3dfd50": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20I.pdf"
+ },
  "463fecaf0da26c84": {
   "checked": "2026-11-20",
   "http": 200,
@@ -3293,6 +3377,12 @@
   "result": "found",
   "url": "https://www.inss.org.il/wp-content/uploads/2017/05/No.-928-.pdf"
  },
+ "4749dee95e5f00bd": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/auto-insert-179435/"
+ },
  "4752e2456d3c5d97": {
   "checked": "2026-11-20",
   "http": 200,
@@ -3322,6 +3412,12 @@
   "http": 200,
   "result": "found",
   "url": "https://www.icj-cij.org/node/103898"
+ },
+ "47ef38bd4cf7a9ba": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://web.archive.org/web/20250121/https://www.commentary.org/articles/reader-letters/1948-and-beyond/"
  },
  "47fabe6e2bedb09e": {
   "checked": "2026-11-20",
@@ -3646,6 +3742,12 @@
   "http": 200,
   "result": "found",
   "url": "https://wjla.com/news/nation-world/fact-check-team-what-does-the-un-record-show-about-israel-palestine-iran-arab-states-general-assembly"
+ },
+ "4f6d7959107a5898": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "found",
+  "url": "https://www.palquest.org/en/node/21720"
  },
  "4fa82f1d2c8a3466": {
   "checked": "2026-11-20",
@@ -4481,6 +4583,12 @@
   "result": "missing",
   "url": "https://sunnah.com/bukhari:1189"
  },
+ "62bcd237eaaf605a": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://users.cecs.anu.edu.au/~bdm/yabber/census/PalestineCensus1922.pdf"
+ },
  "62d7030c595007b7": {
   "checked": "2026-11-20",
   "http": 200,
@@ -4553,6 +4661,12 @@
   "result": "found",
   "url": "https://iussp.org/sites/default/files/Brazil2001/s60/S64_02_dellapergola.pdf"
  },
+ "645d43fb2c3e71c8": {
+  "checked": "2026-11-20",
+  "http": 0,
+  "result": "found",
+  "url": "https://web.archive.org/web/2024/https://www.commentary.org/articles/efraim-karsh/were-the-palestinians-expelled/"
+ },
  "64c38af7307b0a01": {
   "checked": "2026-11-20",
   "http": 200,
@@ -4595,6 +4709,12 @@
   "result": "found",
   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3543766"
  },
+ "65db391eec97e8e4": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/?p=201057"
+ },
  "65f1a1a2418ef27f": {
   "checked": "2026-11-20",
   "http": 200,
@@ -4624,6 +4744,12 @@
   "http": 200,
   "result": "found",
   "url": "https://www.thedartmouth.com/article/2025/05/professors-explore-if-zionism-is-settler-colonialism"
+ },
+ "66e090a861d1a515": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://ismi.emory.edu/documents/Zionist%20Land%20Aquisition.pdf"
  },
  "66fd04bfd62cbbe8": {
   "checked": "2026-11-20",
@@ -5087,6 +5213,12 @@
   "result": "found",
   "url": "https://www.polskieradio.pl/395/7785/artykul/3580191,un-inquiry-says-israel-committed-genocide-in-gaza-israel-calls-report-&"
  },
+ "700a3c6cc56d702c": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://nationsinquiry.com/datasets/vdem-democracy/2025/data.csv"
+ },
  "7014a48f474842c2": {
   "checked": "2026-11-20",
   "http": 200,
@@ -5110,6 +5242,12 @@
   "http": 200,
   "result": "found",
   "url": "https://www.haaretz.com/israel-news/elections/2022-11-03/ty-article/israel-election-final-results-netanyahu-jewish-far-right-win-power-fiasco-for-left/00000184-3e80-daf1-abc4-7f9a53f40000"
+ },
+ "70b1e4cd87cd0009": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://avalon.law.yale.edu/20th_century/angap04.asp"
  },
  "70bc90c9333fef88": {
   "checked": "2026-11-20",
@@ -5297,6 +5435,12 @@
   "result": "found",
   "url": "https://inss.org.il/wp-content/uploads/sites/2/systemfiles/%28FILE%291289896644.pdf"
  },
+ "741faef195ba0280": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "found",
+  "url": "https://rpl.hds.harvard.edu/news/2024/12/3/video-zionism-emotional-state"
+ },
  "74398aea1d1310ca": {
   "checked": "2026-11-20",
   "http": 200,
@@ -5344,6 +5488,12 @@
   "http": 200,
   "result": "found",
   "url": "https://www.ynetnews.com/article/h1dpvu9cgl"
+ },
+ "759bd800f98853b7": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cambridge.org/core/product/834B11030F8973E29ACE8AC194CAA0F6/core-reader"
  },
  "75ef822c2ac2fc70": {
   "checked": "2026-11-20",
@@ -5416,6 +5566,12 @@
   "http": 200,
   "result": "found",
   "url": "https://doi.org/10.1017/ajil.2024.26"
+ },
+ "7781b114d2d33098": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "found",
+  "url": "https://www.mdpi.com/2313-5778/9/3/72"
  },
  "77d579596d5deaf2": {
   "checked": "2026-11-20",
@@ -5902,6 +6058,12 @@
   "http": 200,
   "result": "found",
   "url": "https://www.cambridge.org/core/journals/israel-law-review/article/1948-refugees/1E997E364691F4379C6F77EC05BC84AD"
+ },
+ "821fc830e7ee43b6": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://api.parliament.uk/historic-hansard/commons/1939/feb/08/jews-and-arabs-population-statistics"
  },
  "8238504ac9bbbc0e": {
   "checked": "2026-11-20",
@@ -6725,6 +6887,12 @@
   "result": "found",
   "url": "https://jta.org/?p=403410"
  },
+ "927b64c787597192": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://cojs.org/?p=5655"
+ },
  "9281ab9579e0fa25": {
   "checked": "2026-11-20",
   "http": 200,
@@ -6785,6 +6953,12 @@
   "result": "found",
   "url": "https://www.aljazeera.com/news/2024/11/8/nearly-70-percent-of-deaths-in-gaza-are-women-and-children-un"
  },
+ "938423635f3b8e01": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://nationsinquiry.com/datasets/vdem-democracy/2025/data.csv"
+ },
  "938d7f45ee517e42": {
   "checked": "2026-11-20",
   "http": 200,
@@ -6820,6 +6994,12 @@
   "http": 200,
   "result": "missing",
   "url": "https://www.commentary.org/articles/efraim-karsh/were-the-palestinians-expelled/"
+ },
+ "9492daf8bde8df37": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/auto-insert-179435/"
  },
  "94a1deca97cf2d44": {
   "checked": "2026-11-20",
@@ -6898,6 +7078,12 @@
   "http": 200,
   "result": "found",
   "url": "https://www.un.org/unispal/document/ohchr-press-release-report-08nov24/"
+ },
+ "95f0ae88da7cc21b": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://jewishencyclopedia.com/articles/2612-basel-program"
  },
  "96058a8e53b1e79f": {
   "checked": "2026-11-20",
@@ -7163,6 +7349,12 @@
   "result": "found",
   "url": "https://missilethreat.csis.org/defsys/iron-dome/"
  },
+ "9c2238dafc715e71": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "unreachable",
+  "url": "https://rpl.hds.harvard.edu/news/2024/12/3/video-zionism-emotional-state"
+ },
  "9c2912df7819b1db": {
   "checked": "2026-11-20",
   "http": 200,
@@ -7228,6 +7420,18 @@
   "http": 200,
   "result": "found",
   "url": "https://research.un.org/en/docs/ga/quick/regular/46"
+ },
+ "9d0ada31ebe5020e": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://cojs.org/?p=5655"
+ },
+ "9d20b2e37f777d58": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/auto-insert-194707/"
  },
  "9d463f529fd5c49e": {
   "checked": "2026-11-20",
@@ -7379,6 +7583,12 @@
   "result": "found",
   "url": "https://www.bbc.com/news/world-middle-east-68687749"
  },
+ "a02411de0189a420": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "found",
+  "url": "https://www.palquest.org/en/node/21720"
+ },
  "a044d0f51888c109": {
   "checked": "2026-11-20",
   "http": 200,
@@ -7475,6 +7685,12 @@
   "result": "unreachable",
   "url": "https://www.britannica.com/event/Six-Day-War"
  },
+ "a20a59a91a6a3b48": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/auto-insert-179435/"
+ },
  "a20ad8b37d1922eb": {
   "checked": "2026-11-20",
   "http": 200,
@@ -7504,6 +7720,12 @@
   "http": 200,
   "result": "found",
   "url": "https://cambridge.org/core/journals/international-journal-of-middle-east-studies/article/political-economy-of-population-counts-in-ottoman-palestine-nablus-circa-1850/7F413C6CEEEE0C023860CE87CB175110"
+ },
+ "a33287a319c4b588": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "unreachable",
+  "url": "https://www.britannica.com/biography/Theodor-Herzl"
  },
  "a36ca19955a7440b": {
   "checked": "2026-11-20",
@@ -7535,11 +7757,23 @@
   "result": "found",
   "url": "https://encyclopedia.com/politics/encyclopedias-almanacs-transcripts-and-maps/jewish-state"
  },
+ "a3a9a05882958bee": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/auto-insert-194707/"
+ },
  "a3ae81cbf7dfb41c": {
   "checked": "2026-11-20",
   "http": 200,
   "result": "found",
   "url": "https://news.un.org/en/story/2015/02/489992-international-court-justice-dismisses-genocide-claims-croatia-and-serbia"
+ },
+ "a3ca7bbb4f3b99a8": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://web.itu.edu.tr/~altilar/tobi/e-library/TheArmenians/Population.pdf"
  },
  "a41e9627fa768865": {
   "checked": "2026-11-20",
@@ -7582,6 +7816,12 @@
   "http": 200,
   "result": "found",
   "url": "https://www.npr.org/2025/09/25/g-s1-89678/israel-gaza-genocide-debates-united-nations"
+ },
+ "a4b1d22b85f41dfc": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/?p=201057"
  },
  "a4d5d51846761026": {
   "checked": "2026-11-20",
@@ -7786,6 +8026,12 @@
   "http": 200,
   "result": "found",
   "url": "https://votes25.bechirot.gov.il/"
+ },
+ "a9037eac70eb67c5": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/aliyah"
  },
  "a97d2b943f006ae4": {
   "checked": "2026-11-20",
@@ -8033,6 +8279,12 @@
   "result": "found",
   "url": "https://www.cambridge.org/core/journals/israel-law-review/article/1948-refugees/1E997E364691F4379C6F77EC05BC84AD"
  },
+ "ae519171fc0bd9fb": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "unreachable",
+  "url": "https://cmes.fas.harvard.edu/publications/zionism-emotional-state"
+ },
  "ae94c7b760f57d82": {
   "checked": "2026-11-20",
   "http": 200,
@@ -8099,6 +8351,12 @@
   "result": "found",
   "url": "https://press.un.org/en/1996/19960117.ref1131.html"
  },
+ "b047b881b19fda2d": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "unreachable",
+  "url": "https://www.britannica.com/topic/Zionism"
+ },
  "b04c3602cff8cab9": {
   "checked": "2026-11-20",
   "http": 200,
@@ -8140,6 +8398,12 @@
   "http": 200,
   "result": "found",
   "url": "https://www.jurist.org/news/2024/07/icj-rules-israels-presence-in-palestinian-territory-illegal/"
+ },
+ "b0c3422bc161aea9": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.bjpa.org/content/upload/bjpa/a_su/A%20SURVEY%20OF%20PALESTINE%20DEC%201945-JAN%201946%20VOL%20I.pdf"
  },
  "b0fbcbfdfbfc3037": {
   "checked": "2026-11-20",
@@ -8314,6 +8578,12 @@
   "http": 200,
   "result": "found",
   "url": "https://www.un.org/unispal/document/auto-insert-208638/"
+ },
+ "b590098f293b0996": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://jewishstudies.washington.edu/israel-hebrew/why-israel-isnt-a-settler-colonial-state"
  },
  "b5c8983b1ec95480": {
   "checked": "2026-11-20",
@@ -8645,6 +8915,12 @@
   "result": "found",
   "url": "https://unispal.un.org/pdfs/07175DE9FA2DE563852568D3006E10F3.pdf"
  },
+ "bbb334af902c3d15": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.cambridge.org/core/product/834B11030F8973E29ACE8AC194CAA0F6/core-reader"
+ },
  "bbbb05d9acea5016": {
   "checked": "2026-11-20",
   "http": 403,
@@ -8759,6 +9035,12 @@
   "result": "found",
   "url": "https://www.nbcnews.com/news/world/israels-knesset-votes-overwhelmingly-palestinian-statehood-netanyahu-p-rcna162466"
  },
+ "bd294e14b5cb9c6e": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://web.archive.org/web/2024/https://www.commentary.org/articles/efraim-karsh/were-the-palestinians-expelled/"
+ },
  "bd876d21e704ad2a": {
   "checked": "2026-11-20",
   "http": 200,
@@ -8812,6 +9094,12 @@
   "http": 200,
   "result": "found",
   "url": "https://www.theguardian.com/world/2022/aug/11/a-sikh-soldier-pulled-me-out-of-the-rubble-survivors-recall-indias-violent-partition-and-reflect-on-its-legacy"
+ },
+ "bf350e84a15b92e0": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/?p=201057"
  },
  "bf36b7935e9295e0": {
   "checked": "2026-11-20",
@@ -8969,6 +9257,12 @@
   "result": "found",
   "url": "https://freedomhouse.org/country/israel/freedom-world/2026"
  },
+ "c2fc92ce61ff2975": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://content.ecf.org.il/files/M00302%20-%20TransjordanMemorandum.pdf"
+ },
  "c319747d1863d86d": {
   "checked": "2026-11-20",
   "http": 200,
@@ -9058,6 +9352,12 @@
   "http": 200,
   "result": "found",
   "url": "https://www.bjpa.org/content/upload/bjpa/serg/Sergio%20Dellapergola%20Iran%20Iraq%20Demography.pdf"
+ },
+ "c429144ab61ad52f": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "unreachable",
+  "url": "https://rpl.hds.harvard.edu/news/2024/12/3/video-zionism-emotional-state"
  },
  "c432cd15be2d03fd": {
   "checked": "2026-11-20",
@@ -9527,6 +9827,12 @@
   "result": "found",
   "url": "https://www.cnn.com/2023/09/30/asia/un-mission-nagorno-karabakh-intl-hnk"
  },
+ "cbb9bfc08a17545d": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/auto-insert-194707/"
+ },
  "cbdfe940fb17db6e": {
   "checked": "2026-11-20",
   "http": 200,
@@ -9568,6 +9874,12 @@
   "http": 200,
   "result": "found",
   "url": "https://www.aljazeera.com/opinions/2011/9/30/why-israel-cant-be-a-jewish-state"
+ },
+ "cc434c47f147a656": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/ga-meeting-coverage-12sep25"
  },
  "cc54ecb25fa46346": {
   "checked": "2026-11-20",
@@ -9797,6 +10109,12 @@
   "result": "found",
   "url": "https://theconversation.com/from-the-river-to-the-sea-a-palestinian-historian-explores-the-meaning-and-intent-of-scrutinized-slogan-217491"
  },
+ "d14ac0ffc868f810": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://bjpa.org/content/upload/bjpa/103d/103demographic.pdf"
+ },
  "d1a083bce234f0e5": {
   "checked": "2026-11-20",
   "http": 200,
@@ -9910,6 +10228,12 @@
   "http": 200,
   "result": "found",
   "url": "https://israeled.org/census-of-palestine-1931-an-invaluable-glimpse-at-palestines-population"
+ },
+ "d3ad1a29c78eaf2b": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://cojs.org/?p=5655"
  },
  "d3df998ae0f0118a": {
   "checked": "2026-11-20",
@@ -10084,6 +10408,12 @@
   "http": 200,
   "result": "found",
   "url": "https://www.euronews.com/2024/09/18/un-general-assembly-supports-resolution-calling-for-end-to-israeli-occupation"
+ },
+ "d7b9cfb1347170f9": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://users.cecs.anu.edu.au/~bdm/yabber/census/PalestineCensus1922.pdf"
  },
  "d7e09ae6151240dd": {
   "checked": "2026-11-20",
@@ -10415,6 +10745,24 @@
   "result": "found",
   "url": "https://www.ynetnews.com/article/h100a9e0yxl"
  },
+ "de596fa96257001e": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/auto-insert-194707/"
+ },
+ "de65328181dbc9ae": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/?p=201057"
+ },
+ "deea3237ddc4b467": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.jta.org/archive/palestine-jewish-population-put-at-460000-by-j-n-f-23000-increase-in-year"
+ },
  "df107d94ec214963": {
   "checked": "2026-11-20",
   "http": 200,
@@ -10511,6 +10859,12 @@
   "result": "found",
   "url": "https://www.ynetnews.com/article/sjybrfvtze"
  },
+ "e14b001e1d4b5743": {
+  "checked": "2026-11-20",
+  "http": 403,
+  "result": "unreachable",
+  "url": "https://www.britannica.com/topic/Zionism"
+ },
  "e14e6672f3dddd49": {
   "checked": "2026-11-20",
   "http": 200,
@@ -10595,6 +10949,18 @@
   "result": "found",
   "url": "https://www.aljazeera.com/amp/news/2017/05/hamas-accepts-palestinian-state-1967-borders-170501114309725.html"
  },
+ "e2e8fe98a2d8dd3e": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/auto-insert-179435/"
+ },
+ "e316a74113cb035a": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://users.cecs.anu.edu.au/~bdm/yabber/census/Census1931_TabVII-VIII.pdf"
+ },
  "e3294afd2b204914": {
   "checked": "2026-11-20",
   "http": 200,
@@ -10624,6 +10990,12 @@
   "http": 200,
   "result": "found",
   "url": "https://lbo-news.com/2024/10/08/rashid-khalidi-on-settler-colonial-israel-an-interview/"
+ },
+ "e3a38c534c31aa55": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://web.archive.org/web/2024/https://www.commentary.org/articles/efraim-karsh/were-the-palestinians-expelled/"
  },
  "e3aaaf4c862894ae": {
   "checked": "2026-11-20",
@@ -10750,6 +11122,18 @@
   "http": 200,
   "result": "found",
   "url": "https://www.israelnationalnews.com/news/362510"
+ },
+ "e71ca3d8988d926a": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://ismi.emory.edu/documents/Zionist%20Land%20Aquisition.pdf"
+ },
+ "e72b40d4d8e70f17": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.jta.org/archive/arabs-seek-to-stir-up-dispossessed-bedouins"
  },
  "e732c33ceda3e0fe": {
   "checked": "2026-11-20",
@@ -11603,6 +11987,12 @@
   "result": "unreachable",
   "url": "https://www.britannica.com/event/1948-Arab-Israeli-War"
  },
+ "f7193c3bbe781a2c": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/auto-insert-179435/"
+ },
  "f71e15e66881c084": {
   "checked": "2026-11-20",
   "http": 200,
@@ -11716,6 +12106,12 @@
   "http": 200,
   "result": "found",
   "url": "https://www.un.org/unispal/?p=294365"
+ },
+ "f98c4d01710fe023": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/document/auto-insert-179435/"
  },
  "f99fa7f5689db562": {
   "checked": "2026-11-20",
@@ -11968,6 +12364,12 @@
   "http": 200,
   "result": "found",
   "url": "https://www.constituteproject.org/constitution/Denmark_1953"
+ },
+ "ff2924edc0d1c433": {
+  "checked": "2026-11-20",
+  "http": 200,
+  "result": "found",
+  "url": "https://www.un.org/unispal/?p=201057"
  },
  "ff2d4889e43e0d7f": {
   "checked": "2026-11-20",

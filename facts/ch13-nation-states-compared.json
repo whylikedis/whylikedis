@@ -16,7 +16,7 @@
       "archive": ""
     }
   ],
-  "answer": "Preferring one faith or people is common. Pew found 43 countries with an official religion and more than 80 favouring one, among them Denmark, the United Kingdom and Greece. Iran and Saudi Arabia are different in kind: religious law is state law there. Germany gives citizenship to people of German ethnic origin; Israel's Law of Return does so for Jews and their close relatives. Israel's Declaration of Independence promises complete equality; the 2018 Nation-State Law calls self-determination unique to the Jewish people and omits equality. Scholars call Israel an ethnic democracy or an ethnocracy. The United States offered naturalisation to free white persons in 1790, set national-origins quotas in 1924, and abolished them in 1965.",
+  "answer": "Many states favour one faith or one people in law: Pew found 43 countries with an official religion and more than 80 favouring one, including Denmark and the United Kingdom. In our reading Iran and Saudi Arabia are different in kind: their constitutions make Islamic law the source of state law. Germany's Basic Law counts as German people of German ethnic origin admitted as refugees or expellees; Israel's Law of Return gives Jews and their close relatives the right to immigrate. Israel's Declaration of Independence promises complete equality; critics of the 2018 Nation-State Law note it omits equality, while an INSS analysis finds nothing in it that explicitly permits discrimination. Scholars classify Israel differently: Smooha as an ethnic democracy, others as an ethnocracy. The United States offered naturalisation to free white persons in 1790, set quotas by nationality in 1924, and barred visa discrimination by race or nationality in 1965.",
   "facts": [
     {
       "text": "Pew's 2017 report, covering 199 countries and territories, found more than 80 that favour a specific religion, 43 of them with an official state religion; a survey of 177 countries in 2008 found 41 with a state religion and 77 that clearly favoured certain religions (Springer), and Jonathan Fox's survey finds only a minority of states have separation of religion and state (Cambridge University Press).",
@@ -163,7 +163,7 @@
       "record": true
     },
     {
-      "text": "Saudi Arabia and Iran are different in kind from a state that favours one faith: in both, religious law is state law. Iran's constitution (article 4) requires all laws and regulations to be based on Islamic criteria, and Saudi Arabia's Basic Law (article 7) says the Qur'an and the Prophet's Sunnah rule over its state laws.",
+      "text": "Iran's constitution (article 4) requires all laws and regulations to be based on Islamic criteria, and Saudi Arabia's Basic Law (article 7) says the Qur'an and the Prophet's Sunnah rule over this and all other state laws. Our reading: in both, religious law is state law, a different kind of provision from naming one church or faith as established or prevailing.",
       "sources": [
         {
           "publisher": "Constitute Project",
@@ -198,10 +198,10 @@
       "record": true
     },
     {
-      "text": "The Law of Return, 5710-1950, says every Jew has the right to come to Israel as an oleh; the 1970 amendment extends the rights to a child and a grandchild of a Jew, and defines a Jew as a person born of a Jewish mother or converted to Judaism who is not a member of another religion.",
+      "text": "The Law of Return, 5710-1950, says every Jew has the right to come to Israel as an oleh; the 1970 amendment (Jewish Virtual Library text, Immigration and Refugee Board of Canada summary) extends the rights to a child, a grandchild and the spouses of a Jew, except a person who has been a Jew and voluntarily changed religion, and defines a Jew as a person born of a Jewish mother or converted to Judaism who is not a member of another religion.",
       "sources": [
         {
-          "publisher": "International Commission of Jurists (copy of the Law)",
+          "publisher": "International Commission of Jurists (English text of the 1950 Law as hosted by the ICJ; no translator named; it does not carry the 1970 amendment)",
           "title": "The Law of Return, 5710-1950",
           "url": "https://icj.org/wp-content/uploads/2013/06/Israel-The-Law-of-Return-5710-1950-eng.pdf",
           "archive": "",
@@ -241,7 +241,7 @@
       "record": true
     },
     {
-      "text": "Germany's Basic Law (Article 116) counts as German a person admitted as a refugee or expellee of German ethnic origin (deutsche Volkszugehörigkeit), including late emigrants (Spätaussiedler) of German ethnicity from the former Soviet Union and Eastern Europe, who acquire citizenship on admission.",
+      "text": "Germany's Basic Law (Article 116(1)) counts as German a person with German citizenship or one admitted as a refugee or expellee of German ethnic origin (deutsche Volkszugehörigkeit), or as that person's spouse or descendant, in the territory of the German Reich as of 31 December 1937; the Federal Agency for Civic Education and a law firm describe late emigrants (Spätaussiedler) of German ethnicity from the former Soviet Union and Eastern Europe as admitted and acquiring citizenship under this provision.",
       "sources": [
         {
           "publisher": "Federal Ministry of Justice (Germany)",
@@ -367,7 +367,7 @@
       "text": "The Palestinian Amended Basic Law (2003) says the Palestinian people are part of the Arab nation, that Islam is the official religion with respect for other divine religions, that Islamic Shari'a is a principal source of legislation, and that Arabic is the official language.",
       "sources": [
         {
-          "publisher": "Central Elections Commission, Palestine",
+          "publisher": "Central Elections Commission, Palestine (English translation made for a yearbook, as the document states)",
           "title": "The Amended Basic Law (promulgated 18 March 2003)",
           "url": "https://www.elections.ps/Portals/0/pdf/The_Amended_Basic_Law_2003_EN.pdf",
           "archive": "",
@@ -432,10 +432,10 @@
       "record": true
     },
     {
-      "text": "The 2018 Nation-State Basic Law says the right to exercise national self-determination in Israel is unique to the Jewish people, makes Hebrew the state language and gives Arabic a special status, and encourages Jewish settlement.",
+      "text": "In the English translation of the final text published by Middle East Eye (which says it follows the Knesset website), the 2018 Nation-State Basic Law says the right to exercise national self-determination in Israel is unique to the Jewish people, makes Hebrew the state language and gives Arabic a special status, and encourages Jewish settlement.",
       "sources": [
         {
-          "publisher": "Middle East Eye",
+          "publisher": "Middle East Eye (its translation of the Basic Law, stated to follow the Knesset website)",
           "title": "Read in full: Israel's Nation State of the Jewish People Law",
           "url": "https://www.middleeasteye.net/news/read-full-israels-nation-state-jewish-people-law",
           "archive": "",
@@ -444,7 +444,7 @@
           "kind": "news"
         },
         {
-          "publisher": "Middle East Eye",
+          "publisher": "Middle East Eye (its translation of the Basic Law, stated to follow the Knesset website)",
           "title": "Read in full: Israel's Nation State of the Jewish People Law",
           "url": "https://www.middleeasteye.net/news/read-full-israels-nation-state-jewish-people-law",
           "archive": "",
@@ -505,7 +505,7 @@
       ]
     },
     {
-      "text": "Freedom House's Freedom in the World 2026 scores Israel 73 of 100 (Free), the West Bank 22 (Not Free) and the Gaza Strip 2 (Not Free); V-Dem's 2025 liberal democracy index (0 to 1), as reproduced by an aggregator, lists Israel at 0.588.",
+      "text": "Freedom House's Freedom in the World 2026 scores Israel 73 of 100 (Free), the West Bank 22 (Not Free) and the Gaza Strip 2 (Not Free); V-Dem's 2025 liberal democracy index (0 to 1), as reproduced by an aggregator, lists Israel at 0.588. Freedom House scores the West Bank and Gaza in separate scorecards.",
       "sources": [
         {
           "publisher": "Freedom House",
@@ -529,10 +529,10 @@
         },
         {
           "publisher": "Nations Inquiry (aggregator of V-Dem data; no named author)",
-          "title": "V-Dem Electoral Democracy Index, 2025",
+          "title": "V-Dem democracy indices 2025 (data.csv, columns: electoral, liberal, participatory, deliberative, egalitarian)",
           "url": "https://nationsinquiry.com/datasets/vdem-democracy/2025/data.csv",
           "archive": "",
-          "quote": "Israel,ISR,0.694,0.588,0.455,0.511,0.549 Slovenia,SVN,0.692,0.589,0.506,0.612,0.604 Argentina,ARG,0.69,0.524,0.429,0.41,0.5 Croatia,HRV,0.686,0.593,0.459,0.499,0.543 Colombia,COL,0.679,0.555,0.467,0.458,0.405",
+          "quote": "ghana,gha,0.711,0.606,0.361,0.583,0.493 solomon islands,slb,0.696,0.539,0.429,0.395,0.439 israel,isr,0.694,0.588,0.455,0.511,0.549 slovenia,svn,0.692,0.589,0.506,0.612,0.604 argentina,arg,0.69,0.524,0.429,0.41,0.5",
           "accessed": "2026-11-20",
           "kind": "other"
         }
@@ -540,7 +540,7 @@
       "record": true
     },
     {
-      "text": "Freedom House's Freedom in the World 2026 scores, out of 100: Ireland 98, Denmark 97, Germany 95, United Kingdom 92, Greece 85, Armenia 54 (Partly Free), Iran 10 and Saudi Arabia 9 (Not Free); V-Dem's 2025 liberal democracy index (0 to 1), as reproduced by an aggregator, lists Germany 0.782, Greece 0.568, Armenia 0.371 and Saudi Arabia 0.047. An index score is a rating by its authors, not a count.",
+      "text": "Freedom House's Freedom in the World 2026 scores, out of 100: Ireland 98, Denmark 97, Germany 95, United Kingdom 92, Greece 85, Armenia 54 (Partly Free), Iran 10 and Saudi Arabia 9 (Not Free). V-Dem's 2025 liberal democracy index (0 to 1), as reproduced by an aggregator, lists Germany 0.782, Greece 0.568, Armenia 0.371 and Saudi Arabia 0.047. An index score is a rating by its authors, not a count.",
       "sources": [
         {
           "publisher": "Freedom House",
@@ -624,10 +624,10 @@
         },
         {
           "publisher": "Nations Inquiry (aggregator of V-Dem data; no named author)",
-          "title": "V-Dem Electoral Democracy Index, 2025",
+          "title": "V-Dem democracy indices 2025 (data.csv, columns: electoral, liberal, participatory, deliberative, egalitarian)",
           "url": "https://nationsinquiry.com/datasets/vdem-democracy/2025/data.csv",
           "archive": "",
-          "quote": "Netherlands,NLD,0.832,0.774,0.553,0.742,0.739 Germany,DEU,0.828,0.782,0.593,0.79,0.766 Portugal,PRT,0.822,0.717,0.529,0.691,0.614 Spain,ESP,0.822,0.741,0.572,0.693,0.695 Japan,JPN,0.819,0.734,0.526,0.729,0.758",
+          "quote": "latvia,lva,0.834,0.751,0.595,0.684,0.73 netherlands,nld,0.832,0.774,0.553,0.742,0.739 germany,deu,0.828,0.782,0.593,0.79,0.766 portugal,prt,0.822,0.717,0.529,0.691,0.614 spain,esp,0.822,0.741,0.572,0.693,0.695",
           "accessed": "2026-11-20",
           "kind": "other"
         }
@@ -703,7 +703,7 @@
       "record": true
     },
     {
-      "text": "The Immigration Act of 1924 set each nationality's annual quota at 2 per cent of its foreign-born residents counted in the 1890 census (minimum 100) and barred aliens ineligible to citizenship, a category that at the time included Asian immigrants.",
+      "text": "The Immigration Act of 1924 set each nationality's annual quota at 2 per cent of its foreign-born residents counted in the 1890 census (minimum 100), with a formula from 1 July 1927 that divided 150,000 in proportion to the national origins of the 1920 inhabitants (minimum 100), and barred aliens ineligible to citizenship, a category that at the time included Asian immigrants.",
       "sources": [
         {
           "publisher": "U.S. Government Publishing Office (Statutes at Large)",
@@ -825,7 +825,7 @@
       ]
     },
     {
-      "text": "Two models dominate the scholarly debate: Sammy Smooha classes Israel as an 'ethnic democracy' (contrary to its self-image as a Western liberal democracy, the Jews appropriate the state, yet Israel extends rights to its Arab citizens), and Oren Yiftachel as an 'ethnocracy' that promotes the expansion of the dominant group in contested territory while keeping a democratic facade.",
+      "text": "Two models dominate the scholarly debate: Sammy Smooha classes Israel as an 'ethnic democracy' (contrary to its self-image as a Western liberal democracy, the Jews appropriate the state, yet Israel extends rights to its Arab citizens), and the authors of a Public Seminar essay describe an 'ethnocracy', advocated by Oren Yiftachel and others, that promotes the expansion of the dominant group in contested territory while keeping a democratic facade.",
       "sources": [
         {
           "publisher": "Nations and Nationalism, Sammy Smooha (copy on archive.org)",
@@ -837,7 +837,7 @@
           "kind": "scholarly"
         },
         {
-          "publisher": "Public Seminar",
+          "publisher": "Public Seminar, The New School (Shaul Magid and Yehuda Magid, 2019)",
           "title": "Democracy in Israel/Palestine Today",
           "url": "https://publicseminar.org/essays/democracy-in-israel-palestine-today/",
           "archive": "",
@@ -846,7 +846,7 @@
           "kind": "scholarly"
         },
         {
-          "publisher": "Public Seminar",
+          "publisher": "Public Seminar, The New School (Shaul Magid and Yehuda Magid, 2019)",
           "title": "Democracy in Israel/Palestine Today",
           "url": "https://publicseminar.org/essays/democracy-in-israel-palestine-today/",
           "archive": "",
@@ -871,7 +871,7 @@
           "kind": "scholarly"
         },
         {
-          "publisher": "Public Seminar",
+          "publisher": "Public Seminar, The New School (Shaul Magid and Yehuda Magid, 2019)",
           "title": "Democracy in Israel/Palestine Today",
           "url": "https://publicseminar.org/essays/democracy-in-israel-palestine-today/",
           "archive": "",
@@ -977,7 +977,9 @@
     "A V-Dem figure from v-dem.net itself: the Democracy Report PDF reads but its country table is garbled, so the V-Dem rows come from an aggregator (Nations Inquiry, kind other, never counted).",
     "Minority-rights-specific scores for Israel against the comparison countries: the Freedom House and V-Dem pages read give overall scores, not a minority-rights score.",
     "A second reliable source for the scholarly classification of Israel (Smooha, Yiftachel): Smooha's article copy and Public Seminar are two sites; Yiftachel's own paper and the Wiley page blocked the checker.",
-    "National Academies Press (nationalacademies.org/read/21746/chapter/4) refuses the checker (HTTP 403), so every claim that rested on it was replaced by a statute text or other source; dropped: that the federal government did little to regulate immigration in the first century, and the 1917 Act. A person would need a readable source for both."
+    "National Academies Press (nationalacademies.org/read/21746/chapter/4) refuses the checker (HTTP 403), so every claim that rested on it was replaced by a statute text or other source; dropped: that the federal government did little to regulate immigration in the first century, and the 1917 Act. A person would need a readable source for both.",
+    "A scholar quoted as describing Israel as a liberal democracy (the Smooha abstract quotes that only as Israel's 'self-image'), and a named holder of the objection about non-citizens under Israeli control: neither found in a page the checker can read, so neither is in contested.",
+    "V-Dem's own data (v-dem.net): not read. The V-Dem scores in facts 14 and 15 come from an aggregator with no named author (kind other, never counted); the reviewer read the aggregator's file and the liberal_democracy column matches the figures stated, but only the Germany and Israel rows are quoted."
   ],
   "not_claimed": [
     "That preferring one people or religion is harmless: it can disadvantage minorities, and several of these states have been criticised for it.",
@@ -986,5 +988,80 @@
     "That the United States has never been, or is now, closed to immigration; it states what the laws said when."
   ],
   "status": "draft",
-  "content_approved": false
+  "content_approved": false,
+  "answer_claims": [
+    {
+      "says": "Many states favour one faith or one people in law.",
+      "facts": [
+        0,
+        6,
+        7,
+        9
+      ]
+    },
+    {
+      "says": "Pew found 43 countries with an official religion and more than 80 favouring one, including Denmark and the United Kingdom.",
+      "facts": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "says": "In our reading Iran and Saudi Arabia are different in kind: their constitutions make Islamic law the source of state law.",
+      "facts": [
+        4
+      ]
+    },
+    {
+      "says": "Germany's Basic Law counts as German people of German ethnic origin admitted as refugees or expellees.",
+      "facts": [
+        6
+      ]
+    },
+    {
+      "says": "Israel's Law of Return gives Jews and their close relatives the right to immigrate.",
+      "facts": [
+        5
+      ]
+    },
+    {
+      "says": "Israel's Declaration of Independence promises complete equality.",
+      "facts": [
+        11
+      ]
+    },
+    {
+      "says": "Critics of the 2018 Nation-State Law note it omits equality, while an INSS analysis finds nothing in it that explicitly permits discrimination.",
+      "facts": [
+        13
+      ]
+    },
+    {
+      "says": "Scholars classify Israel differently: Smooha as an ethnic democracy, others as an ethnocracy.",
+      "facts": [
+        21
+      ]
+    },
+    {
+      "says": "The United States offered naturalisation to free white persons in 1790, set quotas by nationality in 1924, and barred visa discrimination by race or nationality in 1965.",
+      "facts": [
+        16,
+        18,
+        20
+      ]
+    }
+  ],
+  "review": {
+    "skeptic": {
+      "verdict": "fails",
+      "date": "2026-11-20",
+      "notes": "Read the statutes themselves: 1790 (1 Stat. 103), 1882, 1924 (43 Stat. 153), 1952, 1965 (79 Stat. 911) quotes are in the Statutes at Large and in context; Iran art. 4 and Saudi art. 7 verified on Constitute; Law of Return, Article 116, Palestine Basic Law, Irish s.27 verified. must-fix: the required 'contested' content is incomplete. (1) No scholar is quoted as describing Israel as a liberal democracy: Smooha's abstract mentions 'liberal democracy' only as Israel's self-image. (2) The objection about non-citizens under Israeli control has no named holder; the two Freedom House lines are data, not a quoted position. Freedom House's own page says the Israel score does not reflect conditions in the West Bank and Gaza, which belongs in this entry. A critic from either side will say the card omits the strongest form of the opposing view. must-fix: the Yiftachel 'ethnocracy' position is quoted only second-hand (Public Seminar, by Shaul and Yehuda Magid); Yiftachel himself was not read. must-fix: the 2018 Nation-State Law (fact 12) is not read from the Knesset or any official text; it rests on Middle East Eye's translation (labelled now), CNN and Freedom House. The Law of Return's is_record source (ICJ copy) holds only the 1950 text; the 1970 amendment (grandchildren, spouses, definition of Jew) was read only in Jewish Virtual Library and the IRB of Canada. must-fix: fact 0 is flagged record, but its two reliable 'readers' (Springer on a 2008 survey of 177 countries, Cambridge on Fox) report different surveys, not Pew's; Pew has no independent reader. Facts 4, 5, 7, 8, 9, 14, 15, 17, 19, 21 fail the gate's source rule; fact 4's third source (Pew) says only that Saudi Arabia favours Islam, not that religious law is state law; fact 15 is Freedom House alone. should-fix: fact 18 stated only the 1890-census formula; the same section sets the 1927 national-origins formula (added). Fact 6 said Article 116 itself covers late emigrants; the article's text does not mention them (reworded to attribute to bpb and the law firm). The 1965 Act is quoted for non-discrimination 'except as specifically provided'; the per-country ceilings remain, and the card does not say so (nit-to-should). should-fix: Pew's 2017 count includes states beyond Christianity and Islam; the card does not say whether Pew counts Israel or Judaism, which a critic will ask. Saudi Arabia and Iran are stated as different in kind, now marked as our reading. No country is called racist in our voice; 'racist' appears only in heard and contested, attributed (Warshawsky). Smooha 'ethnic democracy', Yiftachel 'ethnocracy' and INSS are each quoted. Fixed by me: kept the V-Dem scores in facts 14 and 15 only because the gate needs two sites; they rest on an aggregator (kind other) and V-Dem's own data was not read (should-fix: drop them or read v-dem.net); I checked the aggregator's column headers and the five figures; labelled the ICJ, Palestine and Middle East Eye translations; added spouses to the 1970 amendment; reworded fact 4 and fact 6; added the Public Seminar authors."
+    },
+    "citer": {
+      "verdict": "weakened",
+      "date": "2026-11-20",
+      "notes": "Split into 10 claims. Removed: 'Germany gives citizenship to people of German ethnic origin' (broader than Article 116, which counts them as German; ordinary citizenship routes are not covered); 'the 2018 Nation-State Law calls self-determination unique to the Jewish people and omits equality' in our voice (now attributed to the Law's translation and to critics, with INSS's reply); 'Scholars call Israel an ethnic democracy or an ethnocracy' (reworded to 'classify differently', since liberal-democracy scholars are not on the card); 'abolished them in 1965' (the statute text says no preference or discrimination by race or nationality, with exceptions; abolition is the Migration Policy Institute's and NPR's wording); 'Preferring one faith or people is common' reworded to a count supported by facts 0, 6, 7, 9. Also removed the Greece sentence (for length; fact 3 stays on the card). must-fix: the 'Pew' sentence relies on fact 0, which lacks an independent reader of Pew."
+    }
+  }
 }

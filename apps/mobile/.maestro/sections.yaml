@@ -1,0 +1,24 @@
+# Every section in the tab bar opens, and progress survives a restart (the event log is on disk).
+appId: com.whylikedis.app
+name: Sections and persistence
+---
+- launchApp:
+    clearState: true
+- tapOn:
+    id: 'tab-answers'
+- assertVisible: 'Answers'
+- tapOn:
+    id: 'tab-updates'
+- assertVisible: 'Updates'
+- tapOn:
+    id: 'tab-play'
+- tapOn:
+    id: 'play-daily'
+- tapOn: 'Show the answer'
+- tapOn:
+    id: 'rate-had-it'
+- tapOn:
+    id: 'round-done'
+- stopApp
+- launchApp
+- assertVisible: '1 day in a row'

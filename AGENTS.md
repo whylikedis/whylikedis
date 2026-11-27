@@ -51,6 +51,8 @@ Misses are logged in `docs/lessons.md`. Rules that never catch anything are remo
 - `verify`: prove a change works before committing.
 - `fact-card`: write or extend a card.
 - `fact-review`: review a card you did not write, in two rounds.
+- `audience-benchmark`: read the sites of the organisations our audience knows and report what they
+  show. Its agent is `.claude/agents/audience-benchmark.md`. The report never goes in this repository.
 
 ## The one command
 
@@ -62,10 +64,10 @@ It must exit 0 before any commit that touches a card. Never edit the checker to 
 
 ## The repository
 
-A Turborepo with npm workspaces. `npm run check` is the gate, `npm run build` builds the site into
-`apps/site/dist`, `npm run preview` serves the local preview, and `npm run ci:local` runs what the
+A Turborepo with npm workspaces. `npm run check` is the gate, `npm run build` builds the site (Next.js,
+in `apps/site`, from the data `export.py` writes), `npm run preview` serves the local preview, and `npm run ci:local` runs what the
 pre-push hook runs. Hooks are installed by lefthook. **Never `--no-verify`: the hooks are the gate.**
-Only `main` deploys, through `.github/workflows/deploy.yml`.
+Only `main` deploys: Vercel builds it from GitHub, and that build runs the gate first (`turbo.json`). Branches get preview builds only.
 
 Commits are conventional (`feat(cards): …`, `fix(gate): …`, `docs: …`) and end with a `Checked:`
 line saying how the change was verified.

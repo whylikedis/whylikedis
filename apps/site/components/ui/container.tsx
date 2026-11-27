@@ -1,0 +1,106 @@
+import * as React from "react";
+
+// @interlace/container v3.0.1 — Interlace design system.
+// Docs, props and live preview: https://ds.interlace.tools/c/container
+// What changed since: https://ds.interlace.tools/c/container#history
+// Generated banner — keep it, the upgrade diff reads this version.
+
+/**
+ * @interlace/ui — Container
+ *
+ * The width contract from LAYOUT_PHILOSOPHY.md §2: four sizes only, each
+ * mapped to one layout token, plus the responsive horizontal padding scale
+ * `px-4 xs:px-6 lg:px-8` (§5).
+ *
+ * It is what every page section is measured by — the ad-hoc widths that would
+ * otherwise accumulate in app code are the thing it exists to retire.
+ *
+ * ## The four sizes
+ *
+ *   | size      | max-width                          | Use                                  |
+ *   | --------- | ---------------------------------- | ------------------------------------ |
+ *   | `prose`   | `--container-prose` (65ch)         | Long-form text (rule docs, articles) |
+ *   | `content` | `--container-content` (64rem)      | Default for landing sections         |
+ *   | `wide`    | `--container-wide` (80rem)         | Card-grid heavy sections             |
+ *   | `full`    | none                               | Full-bleed hero, decorative bands    |
+ *
+ * The widths are the same tokens `Topbar` and `Footer` read, so a consumer
+ * that retunes `--container-wide` moves every edge on the page together.
+ *
+ * `full` also zeroes the padding at every breakpoint, so a full-bleed band is
+ * genuinely edge-to-edge rather than a wide box with gutters.
+ *
+ * ## Anatomy
+ *
+ *   Container                        (div by default, or the `render` element)
+ *     └─ children                    (data-size carries the chosen size)
+ *
+ * ## Two things worth knowing
+ *
+ *   - Named Tailwind widths are BROKEN in this codebase: `structure/type.css`
+ *     defines `--spacing-xs…2xl`, and Tailwind v4 resolves a named max-width
+ *     against the spacing namespace first — so the one that should be 42rem
+ *     renders 96 pixels instead. That is why the sizes here name the
+ *     `--container-*` variables explicitly, and why `spacing-token-shadowing-lock` fails any source line
+ *     that names one (including this comment, which is why it does not).
+ *   - No `'use client'`, and that is the point rather than an oversight. A
+ *     doc pass flagged it against `badge.tsx`, which calls the same
+ *     `useRender` and does declare the directive — but `useRender` is
+ *     server-safe: `@base-ui/react/use-render` ships no `'use client'` of its
+ *     own, and `useRenderElement` guards its single hook behind
+ *     `typeof document !== 'undefined'` ("skips the `useMergedRefs` call on
+ *     the server"). DESIGN_PRINCIPLES #11 names the layout primitives as
+ *     zero-hook and RSC-safe on purpose, the registry publishes this item with
+ *     `client: false`, and `primitive-api-contract-lock` fails if the
+ *     directive ever appears here. Same shape in `stack.tsx`.
+ *
+ * | Rule | Concept                          | Where in this file                                          |
+ * | ---- | -------------------------------- | ----------------------------------------------------------- |
+ * | R4   | Extends native el                | `React.ComponentProps<'div'> & VariantProps<…>`             |
+ * | R6   | data-slot + data-size on root    | `'data-slot': 'container'`, `'data-size': size`             |
+ * | R7   | cva + cn + ...rest               | `cn(containerVariants({ size }), className)` + `...props`   |
+ * | R8   | Enum for size                    | prose / content / wide / full                               |
+ * | R10  | Composition seam                 | `render` — Base UI's `useRender`, not an `as` prop          |
+ * | R18  | Tailwind only                    | widths are utilities; zero inline `style`                   |
+ */
+
+import { useRender } from "@base-ui/react/use-render";
+import { cva, type VariantProps } from "class-variance-authority";
+
+import { cn } from "@/lib/utils";
+
+const containerVariants = cva("mx-auto w-full px-4 xs:px-6 lg:px-8", {
+  variants: {
+    size: {
+      prose: "max-w-(--container-prose)",
+      content: "max-w-(--container-content)",
+      wide: "max-w-(--container-wide)",
+      full: "max-w-none px-0 xs:px-0 lg:px-0",
+    },
+  },
+  defaultVariants: {
+    size: "content",
+  },
+});
+
+type ContainerProps = React.ComponentProps<"div"> &
+  VariantProps<typeof containerVariants> & {
+    render?: useRender.RenderProp;
+  };
+
+function Container({ className, size, render, ...props }: ContainerProps) {
+  const element = useRender({
+    render: render ?? <div />,
+    props: {
+      "data-slot": "container",
+      "data-size": size ?? undefined,
+      className: cn(containerVariants({ size }), className),
+      ...props,
+    },
+  });
+
+  return element;
+}
+
+export { Container, containerVariants };
+export type { ContainerProps };

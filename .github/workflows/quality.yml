@@ -60,13 +60,68 @@ jobs:
       - run: npx turbo run build
       - name: No page that is not approved may be in the built site
         run: |
-          test -f apps/site/dist/index.html
-          ! grep -rl "waiting for Ido" apps/site/dist
+          test -f apps/site/.next/server/app/index.html
+          ! grep -rl "waiting for Ido" apps/site/.next/server/app
+      - name: No page may load more script or CSS than its budget (apps/site/budget.json)
+        run: node apps/site/check-budget.mjs
+
+  app:
+    name: App tests and types
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: ./.github/actions/setup
+      - name: The app's engine, store and games tests, and every package's types
+        run: npx turbo run test typecheck
+
+  interlace:
+    name: Interlace files
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      # Full history, no sparse checkout: a sparse checkout implies a blob:none
+      # partial clone, and reading each old registry file then fetches it alone.
+      - name: Interlace main, with the history of its built registry
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: ofri-peretz/interlace
+          ref: main
+          path: .interlace
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Every vendored Interlace file is one Interlace main shipped
+        run: node apps/site/interlace-vendored.mjs .interlace
+
+  browser:
+    name: Site in a browser
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: ./.github/actions/setup
+        with:
+          turbo-cache: 'false'
+      - name: Build the site with a fake back end
+        run: npm run e2e:build --workspace @whylikedis/site
+      # The official Playwright image pinned to the installed version, through the same script a
+      # laptop or an agent uses, so screenshots match pixel for pixel. No retries: a retry hides a
+      # flaky check instead of fixing its cause.
+      - name: Every page, journey and state, and every page's screenshots
+        run: npm run e2e:docker --workspace @whylikedis/site -- --workers=4
+      - name: Upload what failed
+        if: failure()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: browser-failures
+          path: apps/site/test-results
+          retention-days: 7
 
   quality-gate:
     name: Quality Gate
     if: always()
-    needs: [gate, markdown, lockfile, build]
+    needs: [gate, markdown, lockfile, build, app, interlace, browser]
     runs-on: ubuntu-latest
     timeout-minutes: 2
     steps:

@@ -1,0 +1,376 @@
+/*
+ * @interlace/ui — "Harbor" theme (light + dark).
+ *
+ * The SECOND theme, and the reason Phase 8 is a multi-theme system rather
+ * than a one-theme system claiming to be one. A contract nothing exercises
+ * is a contract nobody has tested: until a palette that is not Interlace
+ * resolved through the same cascade, "themes are supported" was an
+ * assertion about code that had never run.
+ *
+ * ─── What this file is allowed to touch ───────────────────────────
+ *
+ * `--interlace-*` oklch literals, inside `@layer interlace.brand`, and
+ * nothing else. No semantic alias (`--background`, `--primary`, `--viz-*`),
+ * no `@theme` block, no component CSS. If a theme ever needs to reach past
+ * the brand layer, the token graph is wrong — fix the graph, not the theme.
+ *
+ * ─── Selectors ────────────────────────────────────────────────────
+ *
+ *   [data-theme='harbor']                          harbor · light
+ *   [data-theme='harbor'].dark                     harbor · dark
+ *   [data-theme='harbor'][data-scheme='dark']      harbor · dark (attr form)
+ *   [data-theme='harbor'] .dark                    harbor · dark (subtree)
+ *   [data-theme='harbor'] [data-scheme='dark']     harbor · dark (subtree, attr)
+ *
+ * The two DESCENDANT forms are not decoration — without them a `.dark`
+ * wrapper anywhere inside a Harbor page repaints that subtree in INTERLACE
+ * dark, because the bare `.dark` block in brand/interlace.css re-declares
+ * every brand literal on whatever element carries it. See the dark block
+ * below for the full story.
+ *
+ * Specificity note, because it is the whole mechanism: `[data-theme='harbor']`
+ * and `.dark` are BOTH (0,1,0). On `<html data-theme="harbor" class="dark">`
+ * the tie is broken by source order — this file is imported after
+ * brand/interlace.css — and then `[data-theme='harbor'].dark` (0,2,0) beats
+ * everything. That only produces a coherent page because this file defines
+ * EVERY token in both blocks: a token missing from the dark block would
+ * silently fall through to the harbor LIGHT value sitting one specificity
+ * step below it (not to Interlace dark, which is what a reader expects), and
+ * a single light-mode surface in an otherwise dark page is exactly the class
+ * of defect nobody files a bug for. `theme-contract-lock` is what stops it.
+ *
+ * ─── The palette ──────────────────────────────────────────────────
+ *
+ * Deep harbour blue on cool slate. Chosen to be *unmistakably* not
+ * Interlace: the brand palette is warm (burnt orange #7d350c, brand green,
+ * warm-tinted neutrals #faf7f4 / #4d453c), so Harbor inverts the temperature
+ * on every axis — blue primary, blue-grey neutrals, a cool off-white page.
+ * A second theme that reads as "the same theme, slightly different" proves
+ * nothing about the cascade.
+ *
+ * Hue separation inside the theme: primary is blue (250°-ish), `--info` is
+ * CYAN rather than the usual blue, because an info chip that renders in the
+ * primary hue is an info chip nobody can see is an info chip.
+ *
+ * ─── Contrast (WCAG 2.2 AA, measured — not eyeballed) ─────────────
+ *
+ * Every pair below is recomputed by `__tests__/theme-contract-lock.test.ts`
+ * on every run; these numbers are a reader's convenience, and the test is
+ * the authority. Body text ≥ 4.5:1, non-text UI boundaries ≥ 3:1.
+ *
+ *                                          light      dark
+ *   foreground   on background            17.74:1   16.19:1   (AAA)
+ *   card-fg      on card                  18.72:1   14.69:1   (AAA)
+ *   muted-fg     on background             7.82:1    9.52:1   (AAA)
+ *   muted-fg     on muted                  7.34:1    8.64:1   (AAA)
+ *   accent-fg    on accent                 8.95:1    9.65:1   (AAA)
+ *   primary-fg   on primary                8.86:1   10.03:1   (AAA)
+ *   primary      on background             8.39:1   10.03:1   (AAA)
+ *   primary      on primary/10 tint        7.15:1    8.42:1   (AAA)
+ *   destructive  on background             7.60:1   10.03:1   (AAA)
+ *   success      on background             7.28:1    9.86:1   (AAA)
+ *   warning      on background             8.60:1    8.83:1   (AAA)
+ *   info         on background             6.89:1   13.08:1   (AAA)
+ *   caution      on background             8.88:1   11.24:1   (AAA)
+ *   hero-fg      on hero-surface          15.76:1   15.76:1   (AAA)
+ *   ─ non-text (SC 1.4.11 / SC 2.4.13, floor 3:1) ─
+ *   ring         on background             8.39:1   10.03:1
+ *   ring         on card                   8.86:1    9.10:1
+ *   input        on background             3.43:1    4.25:1
+ *   input        on card                   3.62:1    3.85:1
+ *   viz-axis     on background             3.57:1    4.84:1
+ *   viz-axis     on card                   3.77:1    4.39:1
+ *
+ * `--border`, `--viz-grid` and `--viz-edge` are deliberately BELOW 3:1 in
+ * both schemes (1.2–1.5:1) for the same reason they are in Interlace: they
+ * are decorative separators and ambient chart texture, exempt from SC
+ * 1.4.11, and a grid that fights the series it exists to support is worse
+ * than a faint one.
+ */
+
+@layer interlace.brand {
+  /* ─────────────────────────────────────────────────────────────────
+   *  HARBOR · LIGHT
+   * ──────────────────────────────────────────────────────────────── */
+  [data-theme='harbor'],
+  [data-theme='harbor'] [data-scheme='light'] {
+    /* Brand — harbour blue. #0f4c81 is 8.39:1 on the page and 8.86:1 on a
+     * card; the binding constraint is the same one Interlace documents,
+     * `bg-primary/10 text-primary` (the stock shadcn tinted-chip pattern),
+     * which composites to #e0e8ef and still measures 7.15:1 — clear of the
+     * AAA floor the Storybook axe gate enforces. */
+    --interlace-primary: oklch(0.409 0.1065 250.2);            /* 8.39:1 on background (AAA) */
+    --interlace-primary-hover: oklch(0.357 0.0916 250.2);      /* 10.40:1 on background */
+    --interlace-primary-active: oklch(0.287 0.0708 249.8);     /* 13.49:1 on background */
+    --interlace-primary-foreground: oklch(1 0 0); /* 8.86:1 on primary (AAA) */
+    --interlace-primary-subtle: oklch(0.957 0.0127 244.3);     /* cool tint for backgrounds */
+    --interlace-primary-subtle-foreground: oklch(0.287 0.0708 249.8); /* 12.59:1 on subtle (AAA) */
+
+    /* Surface — a cool off-white page with pure-white cards, so the card
+     * edge reads without leaning on `--border`. (Interlace runs white-on-
+     * white and separates with the border; both are valid, and having the
+     * two themes differ here is a genuine test of the semantics layer.) */
+    --interlace-background: oklch(0.981 0.0034 247.9);
+    --interlace-foreground: oklch(0.183 0.0309 263.4);         /* near-black, cool cast */
+    --interlace-card: oklch(1 0 0);
+    --interlace-card-foreground: oklch(0.183 0.0309 263.4);
+    --interlace-popover: oklch(1 0 0);
+    --interlace-popover-foreground: oklch(0.183 0.0309 263.4);
+    --interlace-muted: oklch(0.959 0.0069 247.9);
+    --interlace-muted-foreground: oklch(0.425 0.0307 250.3);   /* 7.82:1 on bg / 7.34:1 on muted (AAA) */
+    --interlace-border: oklch(0.916 0.0133 251.6);    /* 1.21:1 on background — decorative separators only, exempt from SC 1.4.11 */
+    /* Control BOUNDARY, so SC 1.4.11 applies: ≥3:1 against the adjacent
+     * surface, and the adjacent surface is `--card` (#ffffff) as often as
+     * it is the page — a form usually lives in a card. Measured on both. */
+    --interlace-input: oklch(0.621 0.0261 250.2);              /* 3.43:1 on bg / 3.62:1 on card */
+    --interlace-ring: var(--interlace-primary);
+
+    /* Accent */
+    --interlace-accent: oklch(0.957 0.0127 244.3);             /* cool tint */
+    --interlace-accent-foreground: oklch(0.377 0.0933 247.8);  /* 8.95:1 on accent (AAA) */
+
+    /* Secondary */
+    --interlace-secondary: oklch(0.959 0.0069 247.9);
+    --interlace-secondary-foreground: oklch(0.239 0.0256 251.3); /* 14.63:1 on secondary (AAA) */
+
+    /* Destructive — rose-800 rather than Interlace's red-800. On a cool
+     * palette a pure red reads as a stray warm accent; rose keeps the
+     * magenta lean that sits with blue. 7.60:1 on background. */
+    --interlace-destructive: oklch(0.455 0.1713 13.7);
+    --interlace-destructive-foreground: oklch(1 0 0); /* 8.02:1 on destructive */
+
+    /* Success — emerald-800, shared with Interlace. Green is the one status
+     * hue with no cool/warm variant worth having: it must stay far from
+     * both the blue primary and the amber warning, and emerald already is. */
+    --interlace-success: oklch(0.432 0.0865 166.9);
+    --interlace-success-foreground: oklch(1 0 0); /* 7.68:1 on success */
+
+    /* Warning — amber-900. Same reasoning as Interlace: yellow cannot
+     * physically clear 7:1 on a light page at its brand-bright value, so
+     * the TEXT token is the deep amber and bright yellow stays a surface. */
+    --interlace-warning: oklch(0.414 0.1054 45.9);
+    --interlace-warning-foreground: oklch(1 0 0); /* 9.07:1 on warning */
+
+    /* Info — CYAN (cyan-800), not blue. See the header note: in a
+     * blue-primary theme, a blue info token is indistinguishable from
+     * primary, which is the whole job of the token. */
+    --interlace-info: oklch(0.45 0.0771 224.3);
+    --interlace-info-foreground: oklch(1 0 0);    /* 7.27:1 on info */
+
+    /* Caution — the rung between warning and destructive. orange-900,
+     * shared with Interlace: the ladder needs five separable tones and
+     * this is the only warm rung Harbor keeps. */
+    --interlace-caution: oklch(0.408 0.1165 38.2);
+    --interlace-caution-foreground: oklch(1 0 0); /* 9.37:1 on caution */
+
+    /* Highlight — amber-300, shared with Interlace: a warm call-to-action
+     * that stands apart from Harbor's blue primary. */
+    --interlace-highlight: oklch(0.879 0.1534 91.6);
+    --interlace-highlight-foreground: oklch(0.216 0.0061 56); /* 12.1:1 on highlight */
+
+    /* Scrim — sits on a consumer-supplied photo, so it does not invert and
+     * it does not take the theme's temperature either. Always used with an
+     * alpha modifier (`bg-scrim/70`). */
+    --interlace-scrim: oklch(0 0 0);
+    --interlace-scrim-foreground: oklch(1 0 0);
+
+    /* Cosmic hero effects — the starfield's three painted colours. Harbor
+     * runs a blue star / cyan trail against the same always-dark hero. */
+    --interlace-hero-star: oklch(0.82 0.0913 255.8);
+    --interlace-hero-trail: oklch(0.797 0.1339 211.5);
+    --interlace-hero-meteor: oklch(0.927 0.0362 252.1);
+
+    /* Cosmic hero surface — its OWN surface, not a themed one: a starfield
+     * only reads as a starfield on near-black, so this does not invert with
+     * the scheme. #e6eef7 on #0a1424 measures 15.76:1 (AAA). */
+    --interlace-hero-surface: oklch(0.191 0.0359 259.5);
+    --interlace-hero-surface-deep: oklch(0 0 0);
+    --interlace-hero-foreground: oklch(0.946 0.0149 251.2);
+
+    /* Window controls — the macOS traffic lights the CodeWindow chrome is
+     * quoting. These are system colours, not brand colours: a theme that
+     * recolours them stops quoting macOS and starts inventing an OS. */
+    --interlace-window-control-close: oklch(0.694 0.1964 26.4);
+    --interlace-window-control-minimize: oklch(0.835 0.1612 80.9);
+    --interlace-window-control-zoom: oklch(0.728 0.2173 144.7);
+
+    /* Chart palette — five separable hues at the same lightness the
+     * Interlace ladder uses (L 0.55 light), rotated into the cool half of
+     * the wheel with one warm outlier so a five-series chart still reads
+     * in greyscale by ordering. */
+    /* Strands — harbor inverts the interlace temperatures: strand-a is
+     * the harbour blue itself, strand-b the warm counter (hue 41 — not
+     * amber ~70, which is the warning status hue). */
+    --interlace-strand-a: oklch(0.55 0.15 250);
+    --interlace-strand-b: oklch(0.55 0.14 41);
+
+    --interlace-chart-1: oklch(0.55 0.15 250);  /* harbour blue */
+    --interlace-chart-2: oklch(0.55 0.12 200);  /* cyan */
+    --interlace-chart-3: oklch(0.55 0.14 155);  /* sea green */
+    --interlace-chart-4: oklch(0.55 0.16 300);  /* violet */
+    --interlace-chart-5: oklch(0.55 0.15 350);  /* rose */
+
+    /* Visualisation chrome — what the series are drawn ON.
+     *   grid  #dde4ec → 1.21:1 on bg / 1.28:1 on card   DECORATIVE
+     *                          (never the sole carrier of a value)
+     *   axis  #788593 → 3.57:1 on bg / 3.77:1 on card — STRUCTURAL, SC 1.4.11
+     *   edge  #dde4ec → 1.21:1 on bg / 1.28:1 on card   ambient texture
+     * Perceptual weights matched to Interlace (1.39 / 3.64 / 1.39) so a
+     * chart does not read as heavier in one theme than the other. */
+    --interlace-viz-grid: oklch(0.916 0.0133 251.6);
+    --interlace-viz-axis: oklch(0.611 0.0262 250.2);
+    --interlace-viz-edge: oklch(0.916 0.0133 251.6);
+
+    /* Radius — structural, not brand. Harbor keeps Interlace's base: a
+     * theme that also moves the geometry is two changes wearing one name. */
+    --interlace-radius: 0.75rem;
+
+    /* Brand mark — the two bars of the mark. Decorative fills, so they
+     * track the theme's identity pair rather than the AAA text ramp. */
+    --interlace-brand-mark-bar-o: oklch(0.569 0.2023 259.7);
+    --interlace-brand-mark-bar-g: oklch(0.52 0.0936 223.1);
+  }
+
+  /* ─────────────────────────────────────────────────────────────────
+   *  HARBOR · DARK
+   *
+   *  Both spellings of the scheme axis, exactly as brand/interlace.css
+   *  declares them — `.dark` (shadcn / next-themes canon, what the
+   *  Storybook decorator and every consumer writes) and the attribute
+   *  form for hosts that would rather not touch className.
+   *
+   *  ─── Why the DESCENDANT forms are here too ──────────────────────
+   *
+   *  `.dark` in brand/interlace.css is unscoped, so what it really means
+   *  is "INTERLACE dark" — it re-declares every `--interlace-*` literal on
+   *  whatever element carries it. A `.dark` on a SUBTREE of a Harbor page
+   *  therefore silently resets that subtree to the Interlace palette:
+   *  `[data-theme='harbor'].dark` needs both on the SAME element, and a
+   *  wrapper div has only the class.
+   *
+   *  Found in a browser (Phase 8.4): ds.interlace.tools in Harbor, with an
+   *  embedded Storybook preview whose story wraps itself in
+   *  `<div class="dark">` — navy page, burnt-orange button. It reads as
+   *  "the theme did not apply", and it is not a story artefact: any
+   *  consumer that darkens a panel rather than the document hits it.
+   *
+   *  So a theme claims its whole subtree. `[data-theme='harbor'] .dark`
+   *  is (0,2,0) — it out-specifies the bare `.dark` (0,1,0) it is
+   *  correcting, and ties with `[data-theme='harbor'].dark`, which is
+   *  fine: they declare identical values and cannot both match the same
+   *  element anyway. Every future theme owes the same two lines; the
+   *  selector table in `__tests__/theme-contract-lock.test.ts` is where
+   *  that is checked.
+   * ──────────────────────────────────────────────────────────────── */
+  [data-theme='harbor'].dark,
+  [data-theme='harbor'][data-scheme='dark'],
+  [data-theme='harbor'] .dark,
+  [data-theme='harbor'] [data-scheme='dark'] {
+    /* Brand — inverted weight: a light tint of the same harbour blue, so
+     * both directions clear AAA. text-primary on the page is 10.03:1, and
+     * a filled `bg-primary` chip with `text-primary-foreground` is the same
+     * 10.03:1 — the pair holds in both directions. */
+    --interlace-primary: oklch(0.794 0.086 245.4);            /* 10.03:1 on background (AAA) */
+    --interlace-primary-hover: oklch(0.85 0.0648 245.1);      /* 12.08:1 */
+    --interlace-primary-active: oklch(0.9 0.0445 244.1);     /* 14.14:1 */
+    --interlace-primary-foreground: oklch(0.175 0.0338 254.1); /* 10.03:1 on primary */
+    --interlace-primary-subtle: oklch(0.286 0.063 249.1);
+    --interlace-primary-subtle-foreground: oklch(0.9 0.0445 244.1); /* 10.65:1 on subtle (AAA) */
+
+    /* Surface — deep navy-black rather than Interlace's warm near-black. */
+    --interlace-background: oklch(0.175 0.0338 254.1);
+    --interlace-foreground: oklch(0.946 0.0149 251.2);
+    --interlace-card: oklch(0.223 0.0371 252.7);
+    --interlace-card-foreground: oklch(0.946 0.0149 251.2);
+    --interlace-popover: oklch(0.223 0.0371 252.7);
+    --interlace-popover-foreground: oklch(0.946 0.0149 251.2);
+    --interlace-muted: oklch(0.223 0.0371 252.7);
+    --interlace-muted-foreground: oklch(0.781 0.0343 248.3);   /* 9.52:1 on bg / 8.64:1 on card (AAA) */
+    --interlace-border: oklch(0.284 0.0397 252.1);    /* 1.32:1 on background — decorative separators only */
+    --interlace-input: oklch(0.569 0.0357 251.3);              /* 4.25:1 on bg / 3.85:1 on card (SC 1.4.11) */
+    --interlace-ring: var(--interlace-primary);
+
+    /* Accent */
+    --interlace-accent: oklch(0.286 0.063 249.1);
+    --interlace-accent-foreground: oklch(0.869 0.0567 247.7);  /* 9.65:1 on accent (AAA) */
+
+    /* Secondary */
+    --interlace-secondary: oklch(0.24 0.0336 254.5);
+    --interlace-secondary-foreground: oklch(0.946 0.0149 251.2); /* 14.04:1 on secondary (AAA) */
+
+    /* Destructive — rose-300, the dark twin of the light rose-800. */
+    --interlace-destructive: oklch(0.81 0.1061 11.6);        /* 10.03:1 on background (AAA) */
+    --interlace-destructive-foreground: oklch(0.175 0.0338 254.1);
+
+    /* Success — emerald-400. */
+    --interlace-success: oklch(0.773 0.1535 163.2);            /* 9.86:1 on background (AAA) */
+    --interlace-success-foreground: oklch(0.266 0.0628 152.9);
+
+    /* Warning — amber-500. Yellows are physically easier on dark surfaces,
+     * so no bump is needed: 8.83:1 on the page. */
+    --interlace-warning: oklch(0.769 0.1647 70.1);
+    --interlace-warning-foreground: oklch(0.187 0.0383 89.1);
+
+    /* Info — cyan-300, holding the hue separation from the blue primary
+     * that the light block explains. */
+    --interlace-info: oklch(0.865 0.1153 207.1);               /* 13.08:1 on background (AAA) */
+    --interlace-info-foreground: oklch(0.175 0.0338 254.1);
+
+    /* Caution — orange-300, the dark rung between warning and destructive. */
+    --interlace-caution: oklch(0.837 0.1165 66.3);            /* 11.24:1 on background (AAA) */
+    --interlace-caution-foreground: oklch(0.175 0.0338 254.1);
+
+    /* Highlight — amber-400, the dark twin. */
+    --interlace-highlight: oklch(0.837 0.1644 84.4);
+    --interlace-highlight-foreground: oklch(0.175 0.0338 254.1); /* 11.4:1 on highlight */
+
+    /* ── Scheme-invariant tokens, restated ──────────────────────────
+     * Same values as the light block by design (a scrim is dark because it
+     * sits on a photo; the cosmic hero paints its own near-black surface in
+     * either scheme; radii are structure, not colour). Restated rather than
+     * inherited so that every theme × scheme block is a COMPLETE override
+     * surface — which is what makes THEME_TOKENS checkable, and what tells
+     * the next reader "deliberately the same" instead of "forgotten". */
+    --interlace-scrim: oklch(0 0 0);
+    --interlace-scrim-foreground: oklch(1 0 0);
+
+    --interlace-hero-star: oklch(0.82 0.0913 255.8);
+    --interlace-hero-trail: oklch(0.797 0.1339 211.5);
+    --interlace-hero-meteor: oklch(0.927 0.0362 252.1);
+
+    --interlace-hero-surface: oklch(0.191 0.0359 259.5);
+    --interlace-hero-surface-deep: oklch(0 0 0);
+    --interlace-hero-foreground: oklch(0.946 0.0149 251.2);    /* 15.76:1 on the surface (AAA) */
+
+    --interlace-radius: 0.75rem;
+
+    --interlace-window-control-close: oklch(0.694 0.1964 26.4);
+    --interlace-window-control-minimize: oklch(0.835 0.1612 80.9);
+    --interlace-window-control-zoom: oklch(0.728 0.2173 144.7);
+
+    /* Chart palette — same five hues, lifted to L 0.78 so each series stays
+     * clear of the dark card, matching the Interlace dark ladder. */
+    /* Strands — lighter tints of the same inverted pair */
+    --interlace-strand-a: oklch(0.78 0.13 250);
+    --interlace-strand-b: oklch(0.78 0.12 41);
+
+    --interlace-chart-1: oklch(0.78 0.13 250);  /* harbour blue */
+    --interlace-chart-2: oklch(0.78 0.11 200);  /* cyan */
+    --interlace-chart-3: oklch(0.78 0.12 155);  /* sea green */
+    --interlace-chart-4: oklch(0.78 0.14 300);  /* violet */
+    --interlace-chart-5: oklch(0.78 0.13 350);  /* rose */
+
+    /* Visualisation chrome — dark, measured against BOTH dark surfaces
+     * because a chart normally renders inside a Card, not on the page:
+     *   grid  #25344a → 1.51:1 on bg / 1.37:1 on card   DECORATIVE
+     *   axis  #71829a → 4.84:1 on bg / 4.39:1 on card   clears SC 1.4.11
+     *   edge  #25344a → 1.51:1 on bg / 1.37:1 on card   ambient */
+    --interlace-viz-grid: oklch(0.322 0.0443 257.8);
+    --interlace-viz-axis: oklch(0.602 0.0418 257);
+    --interlace-viz-edge: oklch(0.322 0.0443 257.8);
+
+    /* Brand mark — brighter pair for dark chrome. */
+    --interlace-brand-mark-bar-o: oklch(0.794 0.086 245.4);
+    --interlace-brand-mark-bar-g: oklch(0.865 0.1153 207.1);
+  }
+}

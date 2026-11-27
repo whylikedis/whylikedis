@@ -1,0 +1,102 @@
+import * as React from 'react';
+
+// @interlace/stat-group v2.3.0 — Interlace design system.
+// Docs, props and live preview: https://ds.interlace.tools/c/stat-group
+// What changed since: https://ds.interlace.tools/c/stat-group#history
+// Generated banner — keep it, the upgrade diff reads this version.
+
+/**
+ * @interlace/ui — StatGroup
+ *
+ * Horizontal row (or grid) of StatCards. The pattern stat pages reach
+ * for: 3-5 hero KPIs at the top of a page, each a labelled big number.
+ * Server component.
+ *
+ * | Rule | Concept                          | Where in this file                                          |
+ * | ---- | -------------------------------- | ----------------------------------------------------------- |
+ * | R4   | Extends native el                | `React.ComponentProps<'section'>`                           |
+ * | R6   | data-slot on root                | `data-slot="stat-group"`                                    |
+ * | R10  | Composition seam (stats)         | `stats: StatCardProps[]`                                    |
+ * | R14  | Declares min viewport            | `data-min-viewport={String(MIN_VIEWPORT)}` + exported const |
+ * | R25  | Server component                 | No hooks                                                    |
+ */
+
+import { cn } from '@/lib/utils';
+import { Grid } from '@/components/ui/grid';
+import { Skeleton } from '@/components/ui/skeleton';
+import { StatCard } from '@/components/ui/patterns/stat-card';
+
+export const MIN_VIEWPORT = 320 as const;
+
+type StatItem = React.ComponentProps<typeof StatCard>;
+
+interface StatGroupProps extends React.ComponentProps<'section'> {
+  stats?: StatItem[];
+  cols?: 2 | 3 | 4;
+  /**
+   * How much air the collection has: the gap between cards.
+   * `compact` for dashboards and sidebars, `relaxed` for a landing page.
+   * @default 'default'
+   */
+  density?: 'compact' | 'default' | 'relaxed';
+  loading?: boolean;
+  /** Reading order for every card; a card's own `layout` wins. @default 'label-first' */
+  layout?: StatItem['layout'];
+  /** Tile or hairline for every card; a card's own `surface` wins. @default 'card' */
+  surface?: StatItem['surface'];
+}
+
+/**
+ * Track counts per `cols`, keyed on the width of this component (it is the
+ * `@container`), not the viewport: the same grid in a sidebar or a card
+ * collapses as it would on a phone. Two and four go one, two, then the full
+ * count (two from 28rem, four from 56rem). Three skips the two-track step and
+ * goes straight to three at 36rem: two tracks would leave the third stat
+ * alone on a row of its own, which reads as a missing one. Written out
+ * statically because Tailwind cannot scan a runtime-built
+ * `@4xl:grid-cols-${n}`.
+ */
+const STAT_GRID_COLS: Record<2 | 3 | 4, string> = {
+  2: 'grid-cols-1 @md:grid-cols-2',
+  3: 'grid-cols-1 @xl:grid-cols-3',
+  4: 'grid-cols-1 @md:grid-cols-2 @4xl:grid-cols-4',
+};
+
+/** Card gap per `density`, on the Grid primitive's closed gap scale. */
+const DENSITY_GAP = { compact: 'sm', default: 'md', relaxed: 'lg' } as const;
+
+function StatGroup({
+  stats = [],
+  cols = 3,
+  density = 'default',
+  loading,
+  layout,
+  surface,
+  className,
+  ...props
+}: StatGroupProps) {
+  return (
+    <section
+      data-slot="stat-group"
+      data-min-viewport={String(MIN_VIEWPORT)}
+      data-density={density}
+      className={cn('@container w-full', className)}
+      {...props}
+    >
+      {/* Responsive collapse: `cols` is a DESKTOP count. Handed to Grid
+          unqualified it stays 4 tracks at every width, which on a 375px phone
+          is a 68px card whose label and trend icon spill past the viewport. */}
+      <Grid cols={cols} gap={DENSITY_GAP[density]} className={STAT_GRID_COLS[cols]}>
+        {loading
+          ? Array.from({ length: cols }).map((_, i) => (
+              <Skeleton key={i} variant="stat-card" label={null} />
+            ))
+          : stats.map((stat, i) => <StatCard key={i} layout={layout} surface={surface} {...stat} />)}
+      </Grid>
+    </section>
+  );
+}
+StatGroup.displayName = 'StatGroup';
+
+export { StatGroup };
+export type { StatGroupProps };

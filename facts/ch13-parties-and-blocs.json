@@ -10,7 +10,7 @@
       "archive": ""
     }
   ],
-  "answer": "Israel's 120-seat Knesset is elected by proportional vote in one national district, with a 3.25% threshold. No party has ever won a majority, so every government is a coalition and small parties carry real weight. In the November 2022 election, by the Central Elections Committee's results, Likud won 32 seats and Yesh Atid 24; a Likud-led government took office in December 2022, with guidelines declaring the Jewish people's \"exclusive and indisputable right\" to all parts of the Land of Israel. The Democrats, by contrast, list halting annexation in the West Bank among their principles. Ra'am joined the 2021 Bennett-Lapid coalition, the first Arab party to be a formal coalition member. In the October 2026 election no bloc reached 61 seats.",
+  "answer": "Israel's 120-seat Knesset is elected by proportional vote in one national district, with a 3.25% threshold. No party has ever won a majority, so every government is a coalition and small parties have leverage. In November 2022, by the Central Elections Committee's results, Likud won 32 seats and Yesh Atid 24; a Likud-led government took office in December 2022, with guidelines declaring the Jewish people's \"exclusive and indisputable right\" to all parts of the Land of Israel. The parties differ: the Israel Democracy Institute says Hadash was among the first to champion two states for two peoples, and Religious Zionism advocates the \"Greater Land of Israel\". Ra'am joined the 2021 Bennett-Lapid coalition, the first time an Arab party was a formal coalition member. After the October 2026 election, Reuters reports, neither Netanyahu nor Eisenkot had a clear path to a majority.",
   "facts": [
     {
       "text": "The Knesset has 120 seats, is elected by proportional representation in one nationwide district, and a list needs at least 3.25% of valid votes to win seats.",
@@ -153,7 +153,7 @@
     },
     {
       "record": true,
-      "text": "The Central Elections Committee's official results for the 26th Knesset election (27 October 2026) show Likud 27 seats, Yashar 21, Together 12, Joint List 11, The Democrats 8, Ra'am 8, Yisrael Beiteinu 7, Otzma Yehudit 7, United Torah Judaism 7, Shas 6 and Religious Zionism 6. By our own sum of those figures, Likud, Shas, United Torah Judaism, Religious Zionism and Otzma Yehudit (the parties of the 2022 coalition) hold 53 of 120 seats; Reuters reports the election ended in deadlock, with neither Netanyahu nor Eisenkot having a clear path to a majority.",
+      "text": "The Central Elections Committee's official results for the 26th Knesset election (27 October 2026) show Likud 27 seats, Yashar 21, Together 12, Joint List 11, The Democrats 8, Ra'am 8, Yisrael Beiteinu 7, Otzma Yehudit 7, United Torah Judaism 7, Shas 6 and Religious Zionism 6. Our own arithmetic, 27 + 6 + 7 + 6 + 7 = 53 of 120 seats for Likud, Shas, United Torah Judaism, Religious Zionism and Otzma Yehudit; the grouping (the parties of the 2022 coalition) is our choice, not the Committee's. Reuters reports the election ended in deadlock, with neither Netanyahu nor Eisenkot having a clear path to a majority.",
       "sources": [
         {
           "publisher": "Central Elections Committee (Israel)",
@@ -442,7 +442,7 @@
       ]
     },
     {
-      "text": "The Israel Democracy Institute traces Otzma Yehudit's organisational roots to the Jewish National Front founded in 2004, and Reuters (via Ynetnews) and The Guardian say its roots are in Rabbi Meir Kahane's Kach movement, which was barred from the 1988 Knesset elections.",
+      "text": "The Israel Democracy Institute traces Otzma Yehudit's organisational roots to the Jewish National Front founded in 2004, and Reuters (via Ynetnews) says its roots are in the Kach movement, which Rabbi Meir Kahane established in the 1970s.",
       "sources": [
         {
           "publisher": "Israel Democracy Institute",
@@ -452,15 +452,6 @@
           "quote": "its organizational roots can be traced back to the Jewish National Front, a party founded in 2004 by Baruch Marzel",
           "accessed": "2026-11-20",
           "kind": "scholarly"
-        },
-        {
-          "publisher": "The Guardian",
-          "title": "Kahane's ghost: how a long-dead extremist rabbi continues to haunt Israel's politics",
-          "url": "https://www.theguardian.com/news/2025/mar/20/meir-kahane-israel-kach-ben-gvir-long-dead-extremist",
-          "archive": "",
-          "quote": "Kach was banned from running in the 1988 elections and the supreme court rejected Kahane's appeal.",
-          "accessed": "2026-11-20",
-          "kind": "news"
         },
         {
           "publisher": "Reuters (via Ynetnews)",
@@ -508,7 +499,7 @@
       ]
     },
     {
-      "text": "Per the Israel Democracy Institute, Shas supports peace agreements that preserve security but opposes dividing Jerusalem, and United Torah Judaism tends to back the right-wing camp because it is conservative on religion; Al Jazeera describes both as conservative on religion, family, gender roles and the public place of Judaism.",
+      "text": "Per the Israel Democracy Institute, Shas supports peace agreements that preserve security but opposes dividing Jerusalem (the Institute adds that in a series of Knesset votes on key diplomatic issues Shas took a hawkish stance), and United Torah Judaism tends to back the right-wing camp because it is conservative on religion; Al Jazeera describes both as conservative on religion, family, gender roles and the public place of Judaism.",
       "sources": [
         {
           "publisher": "Israel Democracy Institute",
@@ -698,7 +689,8 @@
     "Details dropped from earlier wording because no readable page carried them: Shas founded in 1984; the Ra'am platform on a Palestinian state; Yisrael Beiteinu's founding in 1999 and its universal conscription position; the 1994 designation of Kach and Kahane Chai as terrorist organisations; the Supreme Court plank of Religious Zionism.",
     "Whether a 26th-Knesset government has formed: no report found. The 26th-Knesset seat figures come from the Central Elections Committee's page (votes26.bechirot.gov.il); the five-party sum of 53 seats is our own addition of that page's figures, and which parties form a 'bloc' is a choice the reader may make differently.",
     "The Knesset's own English pages return nothing to the checker; seat counts come from the Central Elections Committee.",
-    "Positions of National Unity and Noam on a Palestinian state; National Unity's seat total after the 2023 split; seat counts after splits during the 2022 to 2026 term."
+    "Positions of National Unity and Noam on a Palestinian state; National Unity's seat total after the 2023 split; seat counts after splits during the 2022 to 2026 term.",
+    "Defenders' reading of the 2022 'exclusive and indisputable right' guideline (that it is declaratory): none found in a page the checker can read; the contested entry carries only the critic."
   ],
   "not_claimed": [
     "That any party speaks for a whole community: Arab citizens, ultra-Orthodox, secular, settlers and others vote across many lists.",
@@ -707,5 +699,62 @@
     "That describing a party's roots means every member shares the founders' positions."
   ],
   "status": "draft",
-  "content_approved": false
+  "content_approved": false,
+  "answer_claims": [
+    {
+      "says": "Israel's 120-seat Knesset is elected by proportional vote in one national district, with a 3.25% threshold.",
+      "facts": [
+        0
+      ]
+    },
+    {
+      "says": "No party has ever won a majority, so every government is a coalition and small parties have leverage.",
+      "facts": [
+        1
+      ]
+    },
+    {
+      "says": "In November 2022, by the Central Elections Committee's results, Likud won 32 seats and Yesh Atid 24.",
+      "facts": [
+        2
+      ]
+    },
+    {
+      "says": "A Likud-led government took office in December 2022, with guidelines declaring the Jewish people's \"exclusive and indisputable right\" to all parts of the Land of Israel.",
+      "facts": [
+        5
+      ]
+    },
+    {
+      "says": "The parties differ: the Israel Democracy Institute says Hadash was among the first to champion two states for two peoples, and Religious Zionism advocates the \"Greater Land of Israel\".",
+      "facts": [
+        16,
+        9
+      ]
+    },
+    {
+      "says": "Ra'am joined the 2021 Bennett-Lapid coalition, the first time an Arab party was a formal coalition member.",
+      "facts": [
+        15
+      ]
+    },
+    {
+      "says": "After the October 2026 election, Reuters reports, neither Netanyahu nor Eisenkot had a clear path to a majority.",
+      "facts": [
+        3
+      ]
+    }
+  ],
+  "review": {
+    "skeptic": {
+      "verdict": "weakened",
+      "date": "2026-11-20",
+      "notes": "Checked seats and votes against votes25.bechirot.gov.il and votes26.bechirot.gov.il (fetched): all 2022 and 2026 figures in facts 2, 3, 10 match; 2026 seats sum to 120; 27+6+7+6+7 = 53 recomputed. Reuters' graphic on the same page independently reports 53 seats for its 'Netanyahu-led bloc' and 48 for Eisenkot's bloc, so the grouping is not only ours; the card now says whose grouping the 53 is. Read the IDI, Haaretz, INN, Freedom House, UN News, JPost, Britannica, JVL, CFR, Anadolu and IFES pages. must-fix: fact 11 cited the Guardian for 'roots in Kach', but the cited Guardian passage (and the piece) does not say that of Otzma Yehudit; source and claim removed. The fact now has the IDI and Reuters (wire) only. must-fix: facts 8, 9, 11, 13, 14, 16 have two reliable sources, not three: the IDI party pages are one site and nothing independent confirms them (the gate refuses). should-fix: the 1988 Kach disqualification is a court record (Supreme Court) that no source here opens; fact 12 rests on the IDI, the Guardian and Reuters via Ynetnews, with the amendment's date taken from the Guardian. The Times of Israel page for fact 6 could not be re-read online (kept from the lock). The 2022 guidelines are read only through INN, Freedom House and Just Security, not the Knesset text. Party descriptions: no characterisation in our voice; 'far right'/'far-right' appears only attributed (IDI, Haaretz) in contested and fact 9. Fact 13 omitted the IDI's own note that Shas voted hawkishly in the Knesset; added. Strongest objections: (Israeli political scientist) a seat list shows who won, not who 'speaks for' anyone; the card answers with institutions, not the claim, and does not report the share of voters outside the five-party grouping. (critic of a Jewish state) the card offers Ra'am as inclusion but Arab lists' seat counts and exclusion from coalitions are not set beside it; fact 16 gives Balad's 'state of all its citizens' platform but not the disqualification attempts, which no source here covers. Fixed by me: fact 3 wording (our arithmetic, our grouping), fact 11 (Guardian removed), fact 13 (IDI hawkish-votes clause)."
+    },
+    "citer": {
+      "verdict": "weakened",
+      "date": "2026-11-20",
+      "notes": "Split into 8 claims. Removed (also for length): 'The Democrats, by contrast' (framing in our voice); 'In the October 2026 election no bloc reached 61 seats' (our grouping; replaced by Reuters' deadlock sentence, fact 3); 'small parties carry real weight' reworded to 'leverage' per fact 1. Added one sentence on party differences, tied to facts 16 and 9, because the card claim is that Israelis are not the same. must-fix: the answer still does not state a position on 'the government speaks for all Israelis'; the Netanyahu quote in heard is not answered. Add a sentence only with a fact."
+    }
+  }
 }

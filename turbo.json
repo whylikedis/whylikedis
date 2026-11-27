@@ -3,17 +3,28 @@
   "globalDependencies": ["package-lock.json"],
   "tasks": {
     "build": {
-      "dependsOn": ["^build"],
+      "dependsOn": ["^build", "//#check"],
       "inputs": [
-        "build.py",
-        "vercel.json",
-        "assets/**",
+        "app/**",
+        "components/**",
+        "lib/**",
+        "styles/**",
+        "public/**",
+        "export.py",
+        "check.mjs",
+        "next.config.ts",
+        "postcss.config.mjs",
+        "components.json",
+        "tsconfig.json",
         "package.json",
         "$TURBO_ROOT$/facts/**",
         "$TURBO_ROOT$/docs/**",
-        "$TURBO_ROOT$/tools/factcheck.py"
+        "$TURBO_ROOT$/tools/factcheck.py",
+        "$TURBO_ROOT$/packages/games/src/**",
+        "$TURBO_ROOT$/packages/content/src/**"
       ],
-      "outputs": ["dist/**"]
+      "outputs": [".next/**", "!.next/cache/**", "data/**"],
+      "env": ["SITE_PREVIEW"]
     },
     "//#check": {
       "inputs": ["facts/**", "tools/**"],
@@ -21,6 +32,14 @@
     },
     "//#lint:md": {
       "inputs": ["**/*.md", ".markdownlint-cli2.jsonc"],
+      "outputs": []
+    },
+    "test": {
+      "dependsOn": ["^test"],
+      "outputs": []
+    },
+    "typecheck": {
+      "dependsOn": ["^typecheck"],
       "outputs": []
     }
   }

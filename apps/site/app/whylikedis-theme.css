@@ -1,0 +1,160 @@
+/*
+ * The WhyLikeDIs theme on Interlace, as shadcn cssVars. Interlace components read these names
+ * (--primary, --background, --highlight ...), and a host app's unlayered :root beats Interlace's
+ * own layers, so every registry item picks the theme up with no code change.
+ *
+ * Palette: flag blue as the one accent on warm paper and ink (the calm editorial look), light
+ * pages by default, a dark scheme that follows the reader's system setting. Every text pair
+ * meets WCAG AA (most AAA): the measured ratios are below.
+ *
+ *                              light   dark
+ *   foreground on background   15.69   15.21
+ *   muted-fg on muted           6.46    8.57
+ *   primary on background       8.47    9.01
+ *   primary-fg on primary       9.30    9.01
+ *   highlight-fg on highlight  15.69   15.21
+ *   destructive on background   7.17    9.36
+ *   success on background       6.50   12.65
+ *   warning on background       7.76   10.53
+ *   input on background         3.71    4.54   (control boundary, floor 3:1)
+ *   border on background        1.33    1.50   (decorative only)
+ *
+ * More contrast (AAA) comes from Interlace; the hooks it reads are below the status colours.
+ */
+
+:root {
+  /* The sticky Topbar with the street-sign Wordmark is 113px tall at every width (measured at
+     360, 390, 820 and 1280). Long reads stick their contents below it and land headings under it. */
+  --reading-offset: 113px;
+  /* Source chips name a publisher and a count ("International Court of Justice +7"); 24ch cut both. */
+  --citation-chip-max-width: 36ch;
+
+  --radius: 0.625rem; /* softer than a tool, not a bubble: 10px cards, 8px controls */
+  --background: #f7f4ee; /* warm paper */
+  --foreground: #1c1b18; /* warm ink */
+  --card: #fffdf9;
+  --card-foreground: #1c1b18;
+  --popover: #fffdf9;
+  --popover-foreground: #1c1b18;
+  --wld-primary: #0038b8; /* flag blue: links, headings accents, the brand */
+  --primary: var(--wld-primary);
+  --primary-foreground: #ffffff;
+  --secondary: #e4eaf8; /* blue tint for quiet buttons and bands */
+  --secondary-foreground: #1c1b18;
+  --muted: #efeae0; /* stone: quiet surfaces, the "other side" panel */
+  --muted-foreground: #57524a;
+  --accent: #efeae0; /* shadcn hover tint, not the brand accent */
+  --accent-foreground: #1c1b18;
+  --highlight: #1c1b18; /* ink: the ONE main action per screen, the editorial way */
+  --highlight-foreground: #f7f4ee;
+  --wld-destructive: #9f1d1d;
+  --destructive: var(--wld-destructive);
+  --destructive-foreground: #ffffff;
+  --wld-success: #166534;
+  --success: var(--wld-success); /* "checked by a second reader" */
+  --success-foreground: #ffffff;
+  --wld-warning: #7c3a0a;
+  --warning: var(--wld-warning); /* "still being checked" */
+  --warning-foreground: #ffffff;
+  --wld-info: #155e75;
+  --info: var(--wld-info); /* cyan, kept apart from the blue primary */
+  --info-foreground: #ffffff;
+  --border: #dcd5c7;
+  --input: #857d6e;
+  --ring: #0038b8;
+  /* Hooks for Interlace More contrast (AAA), which takes over every other token in that mode:
+     it mixes these status hues 45% toward the ink, and keeps flag blue as the primary, moved
+     20% toward the ink so it clears 7:1 on every surface, the tinted citation chips included
+     (measured 9.98 light / 10.06 dark on the page, 7.58 dark on bg-primary/10). */
+  --interlace-destructive: var(--wld-destructive);
+  --interlace-success: var(--wld-success);
+  --interlace-warning: var(--wld-warning);
+  --interlace-info: var(--wld-info);
+  --contrast-primary: color-mix(
+    in srgb,
+    var(--wld-primary) 80%,
+    var(--foreground)
+  );
+  --chart-1: #0038b8; /* blue */
+  --chart-2: #c8961e; /* gold */
+  --chart-3: #3f4d1c; /* olive */
+  --chart-4: #9f1d1d; /* red */
+  --chart-5: #6b7280; /* grey: "not stated" */
+  /* The sticky topbar is 113px tall at 16px text (the street-sign mark sets it), so a scroll
+     story's pinned chart sits just below it. In rem, so it grows with the reader's text size. */
+  --scroll-story-offset: 7.125rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #191814;
+    --foreground: #f1ede4;
+    --card: #22201b;
+    --card-foreground: #f1ede4;
+    --popover: #22201b;
+    --popover-foreground: #f1ede4;
+    --wld-primary: #9db7ff;
+    --primary: var(--wld-primary);
+    --primary-foreground: #191814;
+    /* The brand band (answer titles, the home numbers) stays flag blue: the light primary above
+       reads well as links and buttons, but as a full-width band it glared. White on it: 9.30. */
+    --band: #0038b8;
+    --band-foreground: #ffffff;
+    --secondary: #232a40;
+    --secondary-foreground: #f1ede4;
+    --muted: #2a2822;
+    --muted-foreground: #cbc5b8;
+    --accent: #2a2822;
+    --accent-foreground: #f1ede4;
+    --highlight: #f1ede4;
+    --highlight-foreground: #191814;
+    --wld-destructive: #fca5a5;
+    --destructive: var(--wld-destructive);
+    --destructive-foreground: #191814;
+    --wld-success: #86efac;
+    --success: var(--wld-success);
+    --success-foreground: #191814;
+    --wld-warning: #fdba74;
+    --warning: var(--wld-warning);
+    --warning-foreground: #191814;
+    --wld-info: #67e8f9;
+    --info: var(--wld-info);
+    --info-foreground: #191814;
+    --border: #3a372f;
+    --input: #878072;
+    --ring: #9db7ff;
+    --chart-1: #9db7ff;
+    --chart-2: #f2b632;
+    --chart-3: #bccb84;
+    --chart-4: #fca5a5;
+    --chart-5: #9ca3af;
+    color-scheme: dark;
+  }
+}
+
+/* The text-size steps in the reading menu come from the design system at its small control size
+   (38px wide). Readers from 35 to 85 get a 44px target, as every other control here does. */
+[data-slot='text-size-control'] button {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+/* Small controls keep their look and get a 44px hit area. A transparent border is part of the
+   element's box for a pointer, and `background-clip: padding-box` keeps the chip's fill where it
+   was; the negative margin takes the border's room back, so the text does not move. (An
+   `::after` that reached past the box was never hit: the browser does not test it on an inline
+   button.) The chips are 18px tall, the breadcrumb link 23px. */
+[data-slot='citation-trigger'],
+[data-slot='breadcrumb-link'] {
+  border: 0 solid transparent;
+  border-block-width: 13px;
+  border-inline-width: 6px;
+  margin-block: -13px;
+  margin-inline: -6px;
+  background-clip: padding-box;
+}
+/* Sign in and Copy link are 40px tall buttons: the same 44px as every other control. */
+[data-slot='join-code-copy'],
+[data-slot='topbar'] a[href*='sign-in'] {
+  min-height: 44px;
+}

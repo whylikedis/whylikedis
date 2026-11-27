@@ -52,6 +52,7 @@
     "**/node_modules",
     "dist",
     "**/dist",
+    "**/.next",
     ".turbo",
     "**/.turbo",
     "FACTS.md",

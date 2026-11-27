@@ -1,0 +1,218 @@
+import * as React from 'react';
+
+// @interlace/callout v2.1.1 — Interlace design system.
+// Docs, props and live preview: https://ds.interlace.tools/c/callout
+// What changed since: https://ds.interlace.tools/c/callout#history
+// Generated banner — keep it, the upgrade diff reads this version.
+
+/**
+ * @interlace/ui — Callout
+ *
+ * Inline-prose annotation. The "stop and read this" surface that punctuates
+ * long-form content (docs, MDX, READMEs). Distinct from `Alert` — Alert is
+ * an out-of-band runtime banner ("your save failed"), Callout is an in-band
+ * authored aside ("note: this rule is type-aware"). Both can share pigment
+ * but they live at different altitudes in the system.
+ *
+ * Six tones, each fixed to a lucide icon + a semantic-token border-tint:
+ *
+ *   - info     Info             — neutral context, parallel to the body
+ *   - note     Lightbulb        — author tip / suggestion
+ *   - success  CircleCheck      — confirmation / positive outcome
+ *   - warn     TriangleAlert    — non-blocking caution
+ *   - danger   OctagonAlert     — destructive / blocking consequence
+ *   - highlight Highlighter     — the line the page wants remembered: a
+ *                                 highlighter-tinted surface, not just a rule
+ *
+ * ## Kicker
+ *
+ * `kicker` replaces the icon with a word or two set in bold at the start
+ * ("Straight talk", or a word in another script with its own `lang`). It is
+ * text, so it is read aloud before the body; the icon it replaces never is.
+ * Below `sm` it sits above the body rather than beside it, so a long body keeps
+ * the full width on a phone.
+ *
+ * ## Anatomy
+ *
+ *   Callout                            (div — role="note" — data-min-viewport=320)
+ *     ├─ {icon} | {kicker}             (lucide, aria-hidden | bold text, read first)
+ *     └─ <div>                         (text column)
+ *         ├─ {title?}                  (Typography variant=ui font-medium)
+ *         └─ {children}                (free-form prose)
+ *
+ * ## MIN_VIEWPORT — 320
+ *
+ * Callouts live inside body prose; they MUST work on the narrowest reading
+ * viewport (320 CSS-px). The icon-left + text-column flex layout reflows
+ * naturally — no horizontal scroll, no truncation.
+ *
+ * | Rule | Concept                          | Where in this file                                          |
+ * | ---- | -------------------------------- | ----------------------------------------------------------- |
+ * | R4   | Extends native el + VariantProps | `React.ComponentProps<'div'> & VariantProps<...>` + props   |
+ * | R6   | data-slot on root                | `data-slot="callout"` + data-tone                           |
+ * | R7   | className merged + ...rest + ref | `cn(calloutVariants(...), className)` + `{...props}`        |
+ * | R8   | No `isXxx`; enum for tone        | `tone` is a 6-way enum, never a boolean                     |
+ * | R10  | Composition seam                 | `title` + `kicker` slots + `children`                       |
+ * | R14  | Declares min viewport            | `data-min-viewport={String(MIN_VIEWPORT)}` + exported const |
+ * | R18  | Tailwind only                    | zero inline `style`; cva classes + Lucide via className     |
+ * | R19  | Tokens only                      | `p-4 sm:p-6` / `rounded-lg` / `border-s-*` widths via spacing + radius tokens; colors via semantic tokens |
+ * | R20  | AA contrast                      | tones map to AA-cleared semantic tokens (primary/destructive/foreground/muted-foreground) + neutral surface |
+ * | R25  | Server component                 | no hooks → no `'use client'`                                |
+ * | R26  | A11y from native el              | `role="note"` on the div; lucide icon marked `aria-hidden`  |
+ */
+
+import { cva, type VariantProps } from 'class-variance-authority';
+import {
+  CircleCheck,
+  Highlighter,
+  Info,
+  Lightbulb,
+  OctagonAlert,
+  TriangleAlert,
+} from 'lucide-react';
+
+import { cn } from '@/lib/utils';
+import { Typography } from '@/components/ui/typography';
+
+/**
+ * Minimum viable viewport (CSS px) for this primitive. Below it, preflight
+ * draws a dev-mode outline; in prod the component still renders. Exported
+ * so consumers / tests can read it.
+ */
+export const MIN_VIEWPORT = 320 as const;
+
+const calloutVariants = cva(
+  // Base — flex row, icon left, text column right; 4px left border via
+  // `border-s-4`; padding from the spacing scale; rounded-lg from radius
+  // tokens. Card-tint surface so the callout reads as a block in prose.
+  // The tint is a flat gradient over a solid page-colour fill, so the
+  // surface is opaque: on a brand band or a photo nothing shows through,
+  // and the callout sets its own text colour instead of inheriting the band's.
+  [
+    'flex items-start gap-4 text-foreground',
+    // Phones get the smaller inset: inside a padded page column, p-6 left a body
+    // narrower than the paragraphs around it.
+    'rounded-lg border border-border border-s-4 bg-background bg-linear-to-r from-card/40 to-card/40 p-4 sm:p-6',
+    // A kicker is a word, not a 20px icon, so beside the body it took a column the
+    // whole height of the callout. Below sm it sits above the body instead.
+    'data-[kicker]:max-sm:flex-col data-[kicker]:max-sm:gap-1',
+    '[&_[data-slot=callout-icon]]:size-5 [&_[data-slot=callout-icon]]:shrink-0',
+  ].join(' '),
+  {
+    variants: {
+      /**
+       * Narrative tone. Drives the icon, the left-border color, and the
+       * icon tint. Surface stays neutral so adjacent callouts don't fight
+       * each other for attention.
+       */
+      tone: {
+        info:
+          'border-s-primary [&_[data-slot=callout-icon]]:text-primary',
+        note:
+          'border-s-accent-foreground [&_[data-slot=callout-icon]]:text-accent-foreground',
+        success:
+          'border-s-primary [&_[data-slot=callout-icon]]:text-primary',
+        warn:
+          'border-s-foreground [&_[data-slot=callout-icon]]:text-foreground',
+        danger:
+          'border-s-destructive [&_[data-slot=callout-icon]]:text-destructive',
+        // The one tone that tints the surface: the body stays text-foreground
+        // on a 15% highlighter wash over the opaque page fill, so contrast is
+        // the page's own wherever the callout sits.
+        highlight:
+          'border-s-highlight from-highlight/15 to-highlight/15 [&_[data-slot=callout-icon]]:text-foreground',
+      },
+    },
+    defaultVariants: {
+      tone: 'info',
+    },
+  },
+);
+
+type CalloutTone = NonNullable<VariantProps<typeof calloutVariants>['tone']>;
+
+/** Per-tone lucide icon. One source of truth; no consumer override. */
+const TONE_ICON: Record<CalloutTone, React.ComponentType<{ className?: string; 'aria-hidden'?: boolean }>> = {
+  info: Info,
+  note: Lightbulb,
+  success: CircleCheck,
+  warn: TriangleAlert,
+  danger: OctagonAlert,
+  highlight: Highlighter,
+};
+
+interface CalloutProps
+  extends Omit<React.ComponentProps<'div'>, 'title'>,
+    VariantProps<typeof calloutVariants> {
+  /**
+   * Optional headline above the body. Renders as Typography variant=ui
+   * font-medium. Note: overrides the native `<div title>` tooltip attribute
+   * with a React node — the native tooltip is rarely useful on a Callout
+   * and the visible heading wins.
+   */
+  title?: React.ReactNode;
+  /**
+   * A word or two set bold at the start, in place of the icon. It is text and
+   * is read before the body; give a word in another script its own `lang`
+   * and `dir` (`<span lang="he" dir="rtl">…</span>`).
+   */
+  kicker?: React.ReactNode;
+  children?: React.ReactNode;
+}
+
+/**
+ * Inline-prose annotation. Server component (no hooks).
+ *
+ * Usage:
+ *
+ *   <Callout tone="warn" title="Heads up">
+ *     This rule is type-aware and adds ~50ms to lint runs.
+ *   </Callout>
+ */
+const Callout = React.forwardRef<HTMLDivElement, CalloutProps>(
+  ({ className, tone, title, kicker, children, ...props }, ref) => {
+    const resolvedTone: CalloutTone = tone ?? 'info';
+    const Icon = TONE_ICON[resolvedTone];
+
+    return (
+      <div
+        ref={ref}
+        role="note"
+        data-slot="callout"
+        data-min-viewport={String(MIN_VIEWPORT)}
+        data-tone={resolvedTone}
+        data-kicker={kicker ? '' : undefined}
+        className={cn(calloutVariants({ tone }), className)}
+        {...props}
+      >
+        {kicker ? (
+          <span
+            data-slot="callout-kicker"
+            className="font-heading text-foreground shrink-0 self-start font-bold"
+          >
+            {kicker}
+          </span>
+        ) : (
+          <Icon data-slot="callout-icon" aria-hidden />
+        )}
+        <div data-slot="callout-body" className="min-w-0 flex-1">
+          {title ? (
+            <Typography
+              as="p"
+              variant="ui"
+              className="font-medium"
+              data-slot="callout-title"
+            >
+              {title}
+            </Typography>
+          ) : null}
+          {children}
+        </div>
+      </div>
+    );
+  },
+);
+Callout.displayName = 'Callout';
+
+export { Callout, calloutVariants };
+export type { CalloutProps, CalloutTone };

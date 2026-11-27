@@ -1,0 +1,210 @@
+/*
+ * @interlace/ui — STRUCTURE / motion: animation tokens, keyframes, classes,
+ * and the reduced-motion allowlist.
+ *
+ * Layer 3 of 4 (brand → semantics → structure → page). No colour. Every
+ * `--animate-*` key is one Tailwind and tw-animate-css do not ship, so it
+ * adds utilities without replacing any.
+ */
+
+/* Motion tokens. `@theme` (not inline) so a brand can override any of them
+ * on :root and every utility follows. The eases become Tailwind utilities
+ * (`ease-enter`, `ease-exit`, `ease-move`); the durations are used as
+ * `duration-(--duration-fast)`. Bands and use: MOTION_PHILOSOPHY.md. */
+@theme {
+  /* Appear: fast out of the gate, a long soft landing (expo-out family). */
+  --ease-enter: cubic-bezier(0.16, 1, 0.3, 1);
+  /* Leave: starts slow, gets out of the way (quart-in family). */
+  --ease-exit: cubic-bezier(0.5, 0, 0.75, 0);
+  /* Move between two resting places, both ends eased. */
+  --ease-move: cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+:root {
+  --duration-fast: 100ms;
+  --duration-base: 150ms;
+  --duration-medium: 250ms;
+  --duration-slow: 400ms;
+}
+
+@theme inline {
+  /* Primitives: accordion — `animate-accordion-down/up` come from
+     tw-animate-css, which the base item depends on. Declaring them here
+     too replaced tw-animate's version in every shadcn app (losing its
+     duration/ease modifiers) for an identical keyframe. */
+
+  /* Interlace: the draw verb (BRAND_PHILOSOPHY §2) — a strand drawn,
+   * never faded. Paths normalize with pathLength=100 so one keyframe
+   * serves every geometry; 600ms is the doctrine's motion ceiling.
+   * Pure CSS on purpose: it runs with zero client JS and the preflight
+   * reduced-motion clamp reaches it (instantly-drawn end state). */
+  --animate-strand-draw: strand-draw 600ms ease-out forwards;
+
+  /* The draw verb's second mechanism, for a chart whose dash pattern IS
+   * series identity (TimeSeries): stroke-dashoffset would overwrite the
+   * dashes, so the true paths are progressively REVEALED by a clip rect
+   * that scales open left→right — the shuttle pass. The transform moves
+   * a CLIP EDGE, never content (the motion lock verifies the utility
+   * only ever lands on a clipPath child). From-only keyframe on
+   * purpose: the rect RESTS fully open, so with no animation at all
+   * (reduced motion, jsdom, an engine that cannot animate clip
+   * contents) nothing is ever hidden. Same 600ms draw ceiling.
+   *
+   * Declared ABOVE the keyframes bodies: the motion lock's segmenter
+   * runs each @keyframes to the next header, and a declaration sitting
+   * between two bodies would be over-captured into the first one. */
+  --animate-weave-reveal: weave-reveal 600ms ease-out;
+
+  /* The draw verb as a loading state (ThreadMark `drawing`): the woven
+   * pair draws in, then draws out ahead of itself, and starts again. An
+   * ambient loop, so it is exempt from the draw ceiling and named in the
+   * reduced-motion list below, where `animation: none` rests it at the
+   * element's own dashoffset (0): fully woven and still. */
+  --animate-strand-loop: strand-loop 1.6s ease-in-out infinite;
+
+  @keyframes strand-draw {
+    from {
+      stroke-dashoffset: 100;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  @keyframes strand-loop {
+    0% {
+      stroke-dashoffset: 100;
+    }
+    50% {
+      stroke-dashoffset: 0;
+    }
+    100% {
+      stroke-dashoffset: -100;
+    }
+  }
+
+  @keyframes weave-reveal {
+    from {
+      transform: scaleX(0);
+    }
+  }
+
+}
+
+/* ─────────────────────────────────────────────────────────────────
+ * Entry animations — fade-in-up / slide-in-left / scale-in.
+ *    Reduced-motion: the allowlist below names all three.
+ *
+ *    All three are ENTRY animations: fill mode `both`, starting from
+ *    `opacity: 0`. Nothing the reader came for is legible until they
+ *    finish, so MOTION_PHILOSOPHY caps them at 200ms and forbids an entry
+ *    delay outright — a delay is dead time where the content is already
+ *    painted at `opacity: 0` and the reader is looking at nothing.
+ *
+ *    They shipped at 0.5s / 0.5s+0.3s / 0.4s+0.2s, i.e. up to 800ms of
+ *    invisible hero. `motion-contract-lock` now recomputes these numbers
+ *    from this file, so the next 0.5s has to argue with a red test rather
+ *    than with a reviewer's memory of the budget.
+ * ──────────────────────────────────────────────────────────────── */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes slide-in-left {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@layer components {
+.animate-fade-in-up {
+  animation: fade-in-up 0.2s ease-out both;
+}
+.animate-slide-in-left {
+  animation: slide-in-left 0.2s ease-out both;
+}
+.animate-scale-in {
+  animation: scale-in 0.2s ease-out both;
+}
+} /* end @layer components */
+
+@layer components {
+/*
+ * Accessibility — respect prefers-reduced-motion.
+ * Industry-canon practice (MUI, Vercel, Linear, Stripe, GitHub all do this).
+ * Disables every CSS-driven animation registered above when the user has
+ * motion-sensitivity preferences. JS-driven motion (motion/react, canvas)
+ * is gated per-component via the useReducedMotion hook.
+ *
+ * ⚠️ THIS LIST IS THE SECOND LAYER, NOT THE FIRST.
+ *
+ * The primary reduced-motion guarantee is the wildcard in `page/preflight.css`
+ * (`*, *::before, *::after { animation-duration: 0.01ms !important; … }`),
+ * and it is the only thing that reaches the animations no selector here can
+ * name: Tailwind's own `animate-pulse` / `animate-bounce`, and the
+ * `data-[open]:animate-in` / `data-[closed]:animate-out` variants that every
+ * Dialog, Sheet, Popover, Tooltip, DropdownMenu and ContextMenu emits (those
+ * compile to `.data-\[open\]\:animate-in`, which `.animate-in` does not
+ * match). Delete the preflight wildcard and most of the DS starts animating
+ * under `reduce` with nothing here to catch it — `motion-contract-lock`
+ * fails if anyone tries.
+ *
+ * What this list buys on top of the wildcard is worth having, which is why
+ * both exist:
+ *   1. `animation: none` instead of a 0.01ms clamp — the animation never
+ *      runs at all, rather than running one imperceptible cycle.
+ *   2. cover for the à-la-carte import path. Every stylesheet here is a
+ *      separate `exports` entry, so a consumer can import base.css and
+ *      skip page/preflight.css; then this list is the ONLY defence.
+ *
+ * Rule for adding to it: every bare `animate-*` utility that `packages/ui/src`
+ * puts on an element belongs here. `.animate-pulse` did not, for the whole of
+ * Skeleton's life, and the à-la-carte path pulsed for reduce users.
+ */
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-in-up,
+  .animate-slide-in-left,
+  .animate-scale-in,
+  .animate-pulse,
+  /* weave-reveal belongs in THIS list, unlike strand-draw below: its
+   * keyframe is from-only, so `animation: none` rests at the fully
+   * revealed end state — nothing to clamp, nothing hidden. */
+  .animate-weave-reveal,
+  /* strand-loop rests at the element's own dashoffset, 0: the pair is
+   * fully woven and still. */
+  .animate-strand-loop {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  /* The draw gesture (MOTION_PHILOSOPHY's draw-gesture exception)
+   * completes instantly instead of vanishing: `animation: none` would
+   * hold stroke-dashoffset at 100 — the strand invisible forever —
+   * removing information, not motion. 0.01ms + the shorthand's
+   * `forwards` fill lands the honest drawn end state. */
+  .animate-strand-draw {
+    animation-duration: 0.01ms !important;
+  }
+}
+} /* end @layer components */

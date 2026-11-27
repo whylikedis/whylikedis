@@ -6,6 +6,12 @@ __pycache__/
 # Local-only working files: nothing about a person or a plan belongs in this repository.
 private/
 # The built site, and any page that is not approved yet.
-apps/site/dist/
+apps/site/.next/
+apps/site/data/
+apps/site/next-env.d.ts
+apps/site/*.tsbuildinfo
 apps/site/landing.html
 .vercel/
+# What a browser check run leaves behind (apps/site/e2e).
+apps/site/test-results/
+apps/site/playwright-report/

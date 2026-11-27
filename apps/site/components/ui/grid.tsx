@@ -1,0 +1,180 @@
+import * as React from "react";
+
+// @interlace/grid v2.0.1 — Interlace design system.
+// Docs, props and live preview: https://ds.interlace.tools/c/grid
+// What changed since: https://ds.interlace.tools/c/grid#history
+// Generated banner — keep it, the upgrade diff reads this version.
+
+/**
+ * @interlace/ui — Grid / GridItem
+ *
+ * The 2-D sibling of Stack: a thin, token-bound CSS-grid primitive, not a grid
+ * framework. `<Grid>` sets the column track and gap on the foundation
+ * `--spacing` scale; `<GridItem>` spans columns, responsively. Two FLAT
+ * components rather than one with a `kind: "container" | "item"` union, and
+ * both are server components.
+ *
+ * | Rule | Concept                          | Where in this file                                  |
+ * | ---- | -------------------------------- | --------------------------------------------------- |
+ * | R1   | New primitive, not a Stack mode  | 2-D track + span are meaningless on a flex Stack    |
+ * | R4   | Extends native el + VariantProps | `React.ComponentProps<'div'> & VariantProps<...>`   |
+ * | R6   | data-slot on both parts          | `data-slot="grid"` / `"grid-item"`                  |
+ * | R7   | className merged + ...rest + ref  | `cn(variants(...), className)` + `{...props}`       |
+ * | R11  | Two flat components, no kind-prop | `Grid` + `GridItem`, not a discriminated union      |
+ * | R18  | Tailwind only                    | zero inline style; static class maps (JIT-safe)     |
+ * | R19  | Tokens only                      | gap→gap-{--spacing}; cols/span→closed unions (R21)  |
+ * | R25  | Server component                 | no hooks → no 'use client'                          |
+ *
+ * API parity: MUI Grid v2 (container/item, columns, spacing, size). Deviations:
+ * MUI's nested `size={{xs,md}}` object → discrete `span`/`mdSpan`/`lgSpan` props
+ * for JSX ergonomics; MUI `component=` → `as`; spacing → Tailwind gap on the DS
+ * scale (not theme.spacing() inline style). `cols`/`span` are closed unions, the
+ * Grid analogue of Container's "four sizes only" (R21 — keeps every grid on-system).
+ */
+
+import { cva, type VariantProps } from "class-variance-authority";
+
+import { cn } from "@/lib/utils";
+
+// Twelve tracks need eleven column gaps. The gap is in rem, so it grows with
+// a reader's text size, while the column does not: at 150% on a 390px phone
+// eleven 36px gaps came to 396px in a 342px column. The column gap is the
+// step's value, but never more than one track's share of the width
+// (100% / cols), so eleven gaps always leave room for twelve tracks. At 100%
+// the cap never bites on a phone (24px or less against 320 / 12 = 26.7px); on
+// wider screens it only trims xl and 2xl where eleven of them would overflow.
+// A className gap (gap-8, gap-x-*) still replaces it.
+const COLUMN_GAP =
+  "gap-x-[min(var(--grid-gap-x),calc(100%/var(--grid-cols,12)))]";
+
+const gridVariants = cva(["grid", COLUMN_GAP], {
+  variants: {
+    /** Column track count. Closed set (R21). */
+    cols: {
+      1: "grid-cols-1 [--grid-cols:1]",
+      2: "grid-cols-2 [--grid-cols:2]",
+      3: "grid-cols-3 [--grid-cols:3]",
+      4: "grid-cols-4 [--grid-cols:4]",
+      6: "grid-cols-6 [--grid-cols:6]",
+      12: "grid-cols-12 [--grid-cols:12]",
+    },
+    /** Gap from the foundation --spacing scale (8/16/24/40/64/96px). */
+    gap: {
+      none: "gap-y-0 [--grid-gap-x:0px]",
+      xs: "gap-y-2 [--grid-gap-x:calc(var(--spacing)*2)]",
+      sm: "gap-y-4 [--grid-gap-x:calc(var(--spacing)*4)]",
+      md: "gap-y-6 [--grid-gap-x:calc(var(--spacing)*6)]",
+      // The large steps keep their row gap but use a smaller column gap
+      // below md, so a phone's twelve tracks are not all gap.
+      lg: "gap-y-10 [--grid-gap-x:calc(var(--spacing)*4)] md:[--grid-gap-x:calc(var(--spacing)*10)]",
+      xl: "gap-y-16 [--grid-gap-x:calc(var(--spacing)*6)] md:[--grid-gap-x:calc(var(--spacing)*16)]",
+      "2xl":
+        "gap-y-24 [--grid-gap-x:calc(var(--spacing)*6)] md:[--grid-gap-x:calc(var(--spacing)*24)]",
+    },
+  },
+  defaultVariants: { cols: 12, gap: "md" },
+});
+
+interface GridProps
+  extends React.ComponentProps<"div">, VariantProps<typeof gridVariants> {
+  /** Render as a different element (e.g. `ul`, `section`). Default `div`. */
+  as?: React.ElementType;
+}
+
+/** 2-D grid container. Server component (no hooks). */
+function Grid({ className, cols, gap, as, ...props }: GridProps) {
+  const Tag = (as ?? "div") as React.ElementType;
+  return (
+    <Tag
+      data-slot="grid"
+      data-cols={cols ?? undefined}
+      data-gap={gap ?? undefined}
+      className={cn(gridVariants({ cols, gap }), className)}
+      {...props}
+    />
+  );
+}
+
+// Static span maps — Tailwind can't scan runtime-built `col-span-${n}`.
+const gridItemVariants = cva("", {
+  variants: {
+    /** Base column span. `full` = the whole track. */
+    span: {
+      1: "col-span-1",
+      2: "col-span-2",
+      3: "col-span-3",
+      4: "col-span-4",
+      5: "col-span-5",
+      6: "col-span-6",
+      7: "col-span-7",
+      8: "col-span-8",
+      9: "col-span-9",
+      10: "col-span-10",
+      11: "col-span-11",
+      12: "col-span-12",
+      full: "col-span-full",
+    },
+    /** Span from the `md` breakpoint up. */
+    mdSpan: {
+      1: "md:col-span-1",
+      2: "md:col-span-2",
+      3: "md:col-span-3",
+      4: "md:col-span-4",
+      5: "md:col-span-5",
+      6: "md:col-span-6",
+      7: "md:col-span-7",
+      8: "md:col-span-8",
+      9: "md:col-span-9",
+      10: "md:col-span-10",
+      11: "md:col-span-11",
+      12: "md:col-span-12",
+      full: "md:col-span-full",
+    },
+    /** Span from the `lg` breakpoint up. */
+    lgSpan: {
+      1: "lg:col-span-1",
+      2: "lg:col-span-2",
+      3: "lg:col-span-3",
+      4: "lg:col-span-4",
+      5: "lg:col-span-5",
+      6: "lg:col-span-6",
+      7: "lg:col-span-7",
+      8: "lg:col-span-8",
+      9: "lg:col-span-9",
+      10: "lg:col-span-10",
+      11: "lg:col-span-11",
+      12: "lg:col-span-12",
+      full: "lg:col-span-full",
+    },
+  },
+  defaultVariants: { span: "full" },
+});
+
+interface GridItemProps
+  extends React.ComponentProps<"div">, VariantProps<typeof gridItemVariants> {
+  /** Render as a different element (e.g. `li`, `article`). Default `div`. */
+  as?: React.ElementType;
+}
+
+/** 2-D grid cell. Server component (no hooks). */
+function GridItem({
+  className,
+  span,
+  mdSpan,
+  lgSpan,
+  as,
+  ...props
+}: GridItemProps) {
+  const Tag = (as ?? "div") as React.ElementType;
+  return (
+    <Tag
+      data-slot="grid-item"
+      data-span={span ?? undefined}
+      className={cn(gridItemVariants({ span, mdSpan, lgSpan }), className)}
+      {...props}
+    />
+  );
+}
+
+export { Grid, GridItem, gridVariants, gridItemVariants };
+export type { GridProps, GridItemProps };

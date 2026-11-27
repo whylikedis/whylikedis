@@ -1,0 +1,109 @@
+// The app's frame: gestures, safe areas, the theme and the player's state, then the screens. The
+// splash stays up until the player's state has loaded, so no screen ever draws an empty streak
+// and then jumps. Uncaught errors are reported and kept on the device, and a crashing screen shows
+// ScreenError. lib/perf is imported first so startup is timed from as early as possible.
+import { mark } from '../lib/perf';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import { Stack, type ErrorBoundaryProps } from 'expo-router';
+import * as SplashScreen from 'expo-splash-screen';
+import { useEffect, type ReactNode } from 'react';
+import { StatusBar } from 'expo-status-bar';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { InterlaceProvider, useTheme } from '../interlace/native';
+import { ScreenError } from '../lib/errors/fallback';
+import { installErrorLog } from '../lib/errors/log';
+import { installGlobalHandler } from '../lib/errors/report';
+import { PlayerProvider, usePlayer } from '../lib/player';
+import { useReminderTap } from '../lib/progress/reminder';
+import { ReadingProvider, useReading } from '../lib/reading/context';
+import { brand } from '../lib/theme';
+
+installGlobalHandler();
+installErrorLog(AsyncStorage).catch(() => {});
+SplashScreen.preventAutoHideAsync().catch(() => {});
+
+// The last line of defence: it renders in place of this layout, outside its providers, so it
+// brings the ones a screen needs.
+export function ErrorBoundary(props: ErrorBoundaryProps) {
+  return (
+    <SafeAreaProvider>
+      <InterlaceProvider scheme="system" overrides={brand}>
+        <ScreenError {...props} where="root" />
+      </InterlaceProvider>
+    </SafeAreaProvider>
+  );
+}
+
+function Screens() {
+  const theme = useTheme();
+  const playerReady = usePlayer().ready;
+  const readingReady = useReading().ready;
+  // One splash for both reads, so the app draws once, at the reader's size.
+  const ready = playerReady && readingReady;
+  useEffect(() => {
+    if (!ready) return;
+    SplashScreen.hideAsync().catch(() => {});
+    requestAnimationFrame(() => mark('first screen'));
+  }, [ready]);
+  useReminderTap(ready);
+  if (!ready) return null;
+  return (
+    <>
+      <StatusBar style={theme.scheme === 'dark' ? 'light' : 'dark'} />
+      <Stack
+        screenOptions={{
+          headerTintColor: theme.colors.primary,
+          headerStyle: { backgroundColor: theme.colors.background },
+          headerTitleStyle: { color: theme.colors.foreground },
+          headerShadowVisible: false,
+          headerBackButtonDisplayMode: 'minimal',
+          contentStyle: { backgroundColor: theme.colors.background },
+        }}
+      >
+        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+        <Stack.Screen
+          name="play/what-would-you-say/[mode]"
+          options={{
+            title: '',
+            presentation: 'fullScreenModal',
+            headerShown: false,
+          }}
+        />
+        <Stack.Screen name="answers/[id]" options={{ title: '' }} />
+        <Stack.Screen name="about" options={{ title: 'About this app' }} />
+      </Stack>
+    </>
+  );
+}
+
+// Inside the reading choice, so the theme is built once at the reader's text size and contrast.
+function Themed({ children }: { children: ReactNode }) {
+  const { prefs } = useReading();
+  return (
+    <InterlaceProvider
+      scheme="system"
+      overrides={brand}
+      textSize={prefs.textSize}
+      contrast={prefs.contrast}
+    >
+      {children}
+    </InterlaceProvider>
+  );
+}
+
+export default function RootLayout() {
+  return (
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <SafeAreaProvider>
+        <ReadingProvider>
+          <Themed>
+            <PlayerProvider>
+              <Screens />
+            </PlayerProvider>
+          </Themed>
+        </ReadingProvider>
+      </SafeAreaProvider>
+    </GestureHandlerRootView>
+  );
+}

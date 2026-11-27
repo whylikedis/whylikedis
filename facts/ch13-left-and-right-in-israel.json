@@ -16,7 +16,7 @@
       "archive": ""
     }
   ],
-  "answer": "The labels sound alike but sort different things. In Israel, scholars and the Israel Democracy Institute describe left and right as defined mainly by one's stance on the conflict (territory, a Palestinian state, security), with religion and state second and economics weakest. In America the parties divide across many issues: government, economy, immigration, race, abortion. The overlap is real in one respect: the Institute's 2022 index says the Israeli divide is now more reminiscent of Democrats against Republicans. Different questions, same direction: Pew's 2025 Israeli survey found 54% of the left, 29% of the centre and 7% of the right saying coexistence with a Palestinian state is possible; Gallup's 2025 US survey found 76% of Democrats and 41% of Republicans favouring a Palestinian state.",
+  "answer": "In Israel, the Israel Democracy Institute and other sources describe left and right as defined mainly by one's stance on the conflict (territory, a Palestinian state, security), with religion and state a second line of division and small differences between the camps on economic issues. In America the parties divide across many issues: government, economy, immigration, race, abortion. The Institute's 2022 index says the Israeli divide is now more reminiscent of Democrats against Republicans, across a range of issues. Pew's 2025 Israeli survey found 54% of the left, 29% of the centre and 7% of the right saying a way can be found for Israel and a Palestinian state to coexist; Gallup's 2025 US survey, asking a different question, found 76% of Democrats and 41% of Republicans favouring an independent Palestinian state.",
   "facts": [
     {
       "text": "Scholars and commentators describe the Israeli left-right axis as mainly about the conflict with the Palestinians: territory, a Palestinian state, settlements and security.",
@@ -94,7 +94,7 @@
           "is_record": true
         },
         {
-          "publisher": "The New Yorker",
+          "publisher": "The New Yorker (Bernard Avishai, 2016; a writer's opinion, not a reader of the IDI record)",
           "title": "What Americans Against Trump Can Learn from the Failures of the Israeli Opposition",
           "url": "https://www.newyorker.com/news/news-desk/what-americans-against-trump-can-learn-from-the-failures-of-the-israeli-opposition",
           "archive": "",
@@ -163,7 +163,7 @@
     },
     {
       "record": true,
-      "text": "The Israel Democracy Institute's Israeli Democracy Index 2022 reported that 62% of Israeli Jews placed themselves on the right, 24% in the centre and 11% on the left (multi-year average for the right: 49.5%); the Institute's earlier article 'Doves and Hawks in Israeli Society' reported 52% right, 26% centre and 22% left of the population surveyed.",
+      "text": "The Israel Democracy Institute's Israeli Democracy Index 2022 reported that 62% of Israeli Jews placed themselves on the right, 24% in the centre and 11% on the left (multi-year average for the right: 49.5%).",
       "sources": [
         {
           "publisher": "Israel Democracy Institute",
@@ -181,16 +181,6 @@
           "url": "https://en.idi.org.il/media/19697/the-israeli-democracy-index-2022.pdf",
           "archive": "",
           "quote": "the Jewish public in Israel identifies largely with the Right (multiyear average, 49.5%)",
-          "accessed": "2026-11-20",
-          "kind": "primary",
-          "is_record": true
-        },
-        {
-          "publisher": "Israel Democracy Institute",
-          "title": "Doves and Hawks in Israeli Society: Stances on National Security",
-          "url": "https://en.idi.org.il/articles/10203",
-          "archive": "",
-          "quote": "52% of the population defined themselves as rightists; of them, 25% saw themselves as belonging to the extreme Right. Twenty-six percent saw themselves as centrists, and 22% defined themselves as leftist",
           "accessed": "2026-11-20",
           "kind": "primary",
           "is_record": true
@@ -466,7 +456,8 @@
     "IDI self-placement figures for 2023 to 2025, after 7 October: none found in a page the checker can read.",
     "Zur and Bakker (Party Politics, 2023), the study that places party positions first on the conflict, then culture, then the economy: the SAGE page blocks the checker; the claim rests on the IDI, Al Jazeera and ECFR pages.",
     "A second Gallup reporter beyond Newsweek for the 2025 figures: the Anadolu, Yahoo and Ynet pages found report the 2026 poll or sympathy figures, not the 2025 statehood question. Pew's 2022 and 2024 US surveys on the best outcome could not be read by the checker.",
-    "Pew's 2016 Israel survey (86% of the left, 46% of the centre, 29% of the right) was removed from the Pew 2025 fact because it is a different record; a person who wants the trend would add it as its own record fact with two reporters."
+    "Pew's 2016 Israel survey (86% of the left, 46% of the centre, 29% of the right) was removed from the Pew 2025 fact because it is a different record; a person who wants the trend would add it as its own record fact with two reporters.",
+    "Removed by the reviewer: the undated IDI 'Doves and Hawks' 52/26/22 figures from the self-placement fact (a different survey of a different population; one IDI article). The Avishai New Yorker clause stays in fact 1 as an attributed opinion; it is not a reader of the IDI Index and does not confirm it."
   ],
   "not_claimed": [
     "That Israeli and American politics are unrelated: the IDI itself sees a growing resemblance.",
@@ -476,5 +467,51 @@
     "That Pew and Gallup measure the same thing: Pew asks whether a way can be found for Israel and a Palestinian state to coexist; Gallup asks whether people favour establishing a Palestinian state."
   ],
   "status": "draft",
-  "content_approved": false
+  "content_approved": false,
+  "answer_claims": [
+    {
+      "says": "In Israel, the Israel Democracy Institute and other sources describe left and right as defined mainly by one's stance on the conflict (territory, a Palestinian state, security), with religion and state a second line of division and small differences between the camps on economic issues.",
+      "facts": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "says": "In America the parties divide across many issues: government, economy, immigration, race, abortion.",
+      "facts": [
+        10
+      ]
+    },
+    {
+      "says": "The Institute's 2022 index says the Israeli divide is now more reminiscent of Democrats against Republicans, across a range of issues.",
+      "facts": [
+        1
+      ]
+    },
+    {
+      "says": "Pew's 2025 Israeli survey found 54% of the left, 29% of the centre and 7% of the right saying a way can be found for Israel and a Palestinian state to coexist.",
+      "facts": [
+        5
+      ]
+    },
+    {
+      "says": "Gallup's 2025 US survey, asking a different question, found 76% of Democrats and 41% of Republicans favouring an independent Palestinian state.",
+      "facts": [
+        11
+      ]
+    }
+  ],
+  "review": {
+    "skeptic": {
+      "verdict": "weakened",
+      "date": "2026-11-20",
+      "notes": "Read the cited pages with fetch; every quote is on its page and in context (IDI 2022 Index pdf, Pew 2025, Gallup 2025, ECFR, Al Jazeera, Pew 2016). Seat-free card; numbers are survey results, labelled with who asked. must-fix: 11 of 12 facts (1, 3-11, with fact 1's only second site a writer's opinion) fail the record rule: the IDI/Pew/Gallup record is opened, but there are not two independent readers. Where a second source exists it reports a different record (JPost 2025 Index against the IDI 2024 fact; Al Jazeera 2026 analysis against the IDI 2022 economics statement) or is second-hand with no named author (Israel Votes, kind other). The gate rightly refuses them. should-fix: fact 8 joins the IDI 2024 figure to a JPost report of the 2025 Index (a different record); fact 3 joins an IDI statement to an Al Jazeera analysis. should-fix: the 2022 Index's 62% 'right' is Jewish respondents only and a post-October-2023 figure is missing; the Israel Votes page notes a JPPI figure of 66% in July 2026 on a different scale (not carried). Strongest objection, from the Israeli political scientist: the card quotes the IDI's 'Democrats and Republicans' sentence, but the same Index says Arab citizens are a separate camp outside the scale, so the American parallel is for Jewish Israelis only; fact 7 carries this but the answer does not. From the critic of a Jewish state: the Israeli left/right axis excludes Arab citizens by construction (fact 7), which the card states but does not weigh. Fixed by me: labelled the New Yorker source in fact 1 as a writer's opinion that does not confirm the IDI record; removed the undated 'Doves and Hawks' figures from fact 4; added wire JTA to the Forward copy (fact 9)."
+    },
+    "citer": {
+      "verdict": "weakened",
+      "date": "2026-11-20",
+      "notes": "Split into 5 claims, each tied to facts. Reworded: 'The labels sound alike but sort different things' removed (our verdict, no fact says it); 'The overlap is real in one respect' reworded to what the IDI says; 'Different questions, same direction' removed (our reading, and the two surveys ask different questions); 'economics weakest' reworded to the IDI's 'differences ... small'. must-fix: the answer's survey sentences rest on facts 5 and 11, which fail the record rule (one reader each at most); the card cannot be verified until independent reports are added."
+    }
+  }
 }

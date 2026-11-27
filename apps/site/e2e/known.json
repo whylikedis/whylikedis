@@ -1,0 +1,4 @@
+{
+  "//": "Failures we know about and have not fixed yet, as '<check> <page>'. A new failure fails CI, and so does a fixed one still listed here: delete its line in the PR that fixes it.",
+  "known": []
+}

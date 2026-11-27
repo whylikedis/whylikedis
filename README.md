@@ -35,7 +35,7 @@ The checker needs Python 3.9 or later and nothing else.
 ```bash
 npm install        # Node 24; installs the hooks
 npm run check      # the gate
-npm run build      # the site, into apps/site/dist
+npm run build      # the site: Next.js, built in apps/site
 npm run preview    # the local preview on http://localhost:4173
 ```
 
@@ -51,4 +51,6 @@ repository checks itself.
 
 ## Licence
 
-Not chosen yet.
+The source is public to read, not free to copy. The [WhyLikeDis Commercial License](LICENSE)
+allows development and testing only; any production use needs a signed agreement. Files copied
+from Interlace keep Interlace's MIT licence, and quoted sources belong to their authors.

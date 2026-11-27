@@ -1,0 +1,50 @@
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
+# Nightly browser check of the built site, from the reusable workflow in ofri-peretz/ui-nightly:
+# every page at a phone, tablet and desktop width, light, dark, more contrast, 200% zoom and 150%
+# text, in Chromium, Firefox and WebKit, against baselines kept on the `ui-baselines` branch. It
+# also checks the built CSS against the browser targets in .ui-nightly.json.
+#
+# It adds to the Quality workflow's pinned-image screenshots (apps/site/e2e), it does not replace
+# them: those gate every pull request in one browser, this one watches all three, nightly.
+#
+# First run: no baselines exist, so every screenshot is new; the run passes and writes them.
+# An intended change: run this workflow by hand with "update-baselines" ticked, after reading the
+# report. A red night opens (or updates) one issue labelled ui-nightly and closes it when green.
+name: UI nightly
+
+on:
+  schedule:
+    - cron: '45 2 * * *'
+  workflow_dispatch:
+    inputs:
+      update-baselines:
+        description: Accept every changed screenshot as the new baseline
+        type: boolean
+        default: false
+
+concurrency:
+  group: ui-nightly
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  ui:
+    name: Pages in three browsers
+    uses: ofri-peretz/ui-nightly/.github/workflows/nightly.yml@591d0d52789ea6c93bb9ad26e755d40c1231bcd1 # v1.0.1
+    permissions:
+      contents: write
+      issues: write
+    with:
+      tool-ref: 591d0d52789ea6c93bb9ad26e755d40c1231bcd1
+      node-version: '24'
+      install-command: npm ci --prefer-offline --no-audit --fund=false
+      # The same build the browser checks test (accounts and analytics pointed at hosts that do not
+      # exist, e2e/env.mjs), so nothing a screenshot does leaves the machine.
+      build-command: npm run e2e:build --workspace @whylikedis/site
+      artifact-paths: |
+        apps/site/.next
+        apps/site/data
+      capture-install: true
+      update-baselines: ${{ inputs.update-baselines || false }}
