@@ -1,0 +1,24 @@
+{
+  "pages": {
+    "/": {
+      "js": 321700,
+      "css": 33500
+    },
+    "/daily": {
+      "js": 319500,
+      "css": 33500
+    },
+    "/answers/era5-genocide-claim": {
+      "js": 299900,
+      "css": 33500
+    },
+    "/sessions": {
+      "js": 313400,
+      "css": 33500
+    },
+    "/how-we-check": {
+      "js": 292100,
+      "css": 33500
+    }
+  }
+}

@@ -28,7 +28,7 @@ import { Skeleton } from '@/components/ui/skeleton';
 import { Cluster, Stack } from '@/components/ui/stack';
 import { Textarea } from '@/components/ui/textarea';
 import { Typography } from '@/components/ui/typography';
-import { supabase } from '@/lib/supabase/client';
+import { supabaseLater } from '@/lib/supabase/lazy';
 import { AUTH_ENABLED } from '@/lib/supabase/config';
 import { useFormIntent } from '@/hooks/use-intent';
 
@@ -95,7 +95,9 @@ export function BookingFlow({ topics }: { topics: string[] }) {
     setSending(true);
     setFailed(false);
     const text = (k: string) => String(data.get(k) ?? '').trim() || null;
-    const { error } = await supabase()
+    const { error } = await (
+      await supabaseLater()
+    )
       .from('session_requests')
       .insert({
         for_whom: forWho,
@@ -112,7 +114,12 @@ export function BookingFlow({ topics }: { topics: string[] }) {
     else setSent(true);
   }
 
-  if (!today) return <Skeleton variant="card" />;
+  // The form's height, so the page below does not jump when it replaces this: 30rem on a phone,
+  // 27rem from 640px (measured, with its first step showing).
+  if (!today)
+    return (
+      <Skeleton variant="card" className="min-h-[30rem] sm:min-h-[27rem]" />
+    );
 
   if (sent)
     return (
