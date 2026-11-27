@@ -41,8 +41,6 @@ export function providerFromSupabase(
   );
 }
 
-const SITE = 'http://site.invalid';
-
 /**
  * Only same-site paths, so the sign-in page can never send someone to another site.
  * Browsers drop tabs and newlines from an address, so "/\t/host" would become "//host":
@@ -50,11 +48,9 @@ const SITE = 'http://site.invalid';
  * must still resolve to this site. Encoded slashes ("/%2F%2Fhost") stay a path on this site.
  */
 export function safeNext(next: string | null | undefined): string {
-  if (!next || !/^\/(?![/\\])[^\s\\\x00-\x1f\x7f]*$/.test(next))
-    return '/account/';
-  try {
-    return new URL(next, SITE).origin === SITE ? next : '/account/';
-  } catch {
-    return '/account/';
-  }
+  return next &&
+    /^\/(?![/\\])[^\s\\\x00-\x1f\x7f]*$/.test(next) &&
+    new URL(next, 'http://a').origin === 'http://a'
+    ? next
+    : '/account/';
 }
