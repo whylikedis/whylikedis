@@ -314,20 +314,28 @@ test.describe('sign in and account', () => {
     ).toBeVisible();
   });
 
-  test('the sign-in page never sends anyone to another site', async ({
-    page,
-  }) => {
-    await page.goto('/sign-in/?next=//evil.example/');
-    await settle(page);
-    await page
-      .getByRole('textbox', { name: 'Email' })
-      .fill('reader@example.com');
-    await page.getByRole('button', { name: 'Email me a code' }).click();
-    await page
-      .getByRole('textbox', { name: 'Code from the email' })
-      .first()
-      .click();
-    await page.keyboard.type(OTP);
-    await expect(page).toHaveURL(/127\.0\.0\.1:\d+\/account\/$/);
-  });
+  // The address is written out already encoded, as an attacker's link would be.
+  for (const [name, next] of [
+    ['a double slash', '//evil.example/'],
+    ['a tab between the slashes', '/%09/evil.example/'],
+    ['a newline between the slashes', '/%0A/evil.example/'],
+    ['a backslash', '/%5Cevil.example/'],
+  ]) {
+    test(`the sign-in page never sends anyone to another site: ${name}`, async ({
+      page,
+    }) => {
+      await page.goto(`/sign-in/?next=${next}`);
+      await settle(page);
+      await page
+        .getByRole('textbox', { name: 'Email' })
+        .fill('reader@example.com');
+      await page.getByRole('button', { name: 'Email me a code' }).click();
+      await page
+        .getByRole('textbox', { name: 'Code from the email' })
+        .first()
+        .click();
+      await page.keyboard.type(OTP);
+      await expect(page).toHaveURL(/127\.0\.0\.1:\d+\/account\/$/);
+    });
+  }
 });
