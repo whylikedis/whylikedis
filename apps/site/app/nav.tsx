@@ -49,7 +49,9 @@ const LINKS = [
   },
   { href: '/daily/', label: 'Daily question' },
   { href: '/how-we-check/', label: 'How we check' },
-  { href: '/sessions/', label: 'Sessions' },
+  // A link in the bar at every width, and in the menu on a phone: a family that wants to talk it
+  // through finds the way to book from any page.
+  { href: '/sessions/', label: 'Book a session' },
 ];
 
 // The mark is an Israeli street sign: the name in Hebrew, Arabic and English, the way the
@@ -59,6 +61,8 @@ export function Nav() {
   return (
     <Topbar
       containerSize="wide"
+      // A solid surface once the page scrolls under the bar, so text does not show through it.
+      className="data-scrolled:bg-background! supports-backdrop-filter:data-scrolled:bg-background!"
       collapseBelow="lg"
       edge="scroll"
       menuSide="full"

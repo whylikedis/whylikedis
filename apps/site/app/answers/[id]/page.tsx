@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { TalkItThrough } from '../../talk-it-through';
 import { pageMeta } from '@/lib/share-image';
 import { SeenMarker } from '../../seen-marker';
 import { shareOf } from '../../share-cards';
@@ -347,6 +348,10 @@ export default async function Answer(props: Props) {
             ))}
           </Dialogue.Suggestions>
         </Stack>
+      </Section>
+
+      <Section container="wide" spacing="tight" divider="top">
+        <TalkItThrough where="answer" />
       </Section>
     </>
   );

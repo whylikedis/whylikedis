@@ -43,7 +43,11 @@ const slotsFor = (date: string | null) =>
 
 const FOR = [
   ['family', 'My family', 'You, your kids, maybe the grandparents.'],
-  ['group', 'A group', 'A school, a synagogue, a youth group or friends.'],
+  [
+    'group',
+    'A group',
+    'A school, a synagogue, a church, a company, a youth group or friends.',
+  ],
 ] as const;
 
 const dayName = (date: string | null) =>

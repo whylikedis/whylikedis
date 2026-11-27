@@ -11,7 +11,6 @@ import { DrawOn } from '@/components/ui/effects/draw-on';
 import { Marker } from '@/components/ui/effects/marker';
 import { PointerSurface } from '@/components/ui/effects/pointer-surface';
 import { Reveal } from '@/components/ui/effects/reveal';
-import { SplitText } from '@/components/ui/effects/split-text';
 import { Grid, GridItem } from '@/components/ui/grid';
 import { SectionHeader } from '@/components/ui/patterns/section-header';
 import { Dialogue } from '@/components/ui/patterns/dialogue';
@@ -30,6 +29,7 @@ import {
 } from './answer-parts';
 import { counts, site } from './data';
 import { HOME_DESCRIPTION, HOME_TITLE } from './home-copy';
+import { SESSIONS_DESCRIPTION, SESSIONS_TITLE } from './sessions/copy';
 import { shareOf } from './share-cards';
 import { pageMeta } from '@/lib/share-image';
 import { HeardSearch } from './heard-search';
@@ -45,8 +45,8 @@ export const metadata: Metadata = {
     path: '/',
     share: shareOf(''),
   }),
-  // The home page keeps the bare site name as its tab title.
-  title: { absolute: 'WhyLikeDIs' },
+  // The tab title and the search result say what the site is, in the words of its own promise.
+  title: { absolute: `WhyLikeDIs · ${HOME_TITLE.replace(/\.$/, '')}` },
 };
 
 // The talk on the home page is a real answer, word for word: the claim, its first lines with their
@@ -141,8 +141,10 @@ function Hero() {
                   Say it straight
                 </Typography>
               </Cluster>
+              {/* Plain text, visible from the first paint: the reveal that split this headline
+                  into words started each one hidden, so the page opened with a blank heading. */}
               <Typography as="h1" variant="h1">
-                <SplitText>{HOME_TITLE}</SplitText>
+                {HOME_TITLE}
               </Typography>
               <Typography variant="long" tone="muted">
                 {HOME_DESCRIPTION}
@@ -505,6 +507,33 @@ function WhereWeStand() {
   );
 }
 
+// The way in for a family or a group that wants to talk it through with someone. Its words are the
+// sessions page's own.
+function Workshop() {
+  return (
+    <Section container="wide" spacing="comfortable" tone="muted">
+      <Reveal>
+        <Stack gap="lg" align="start">
+          <SectionHeader
+            align="start"
+            spacing="none"
+            eyebrow="Sessions"
+            title={SESSIONS_TITLE}
+            tagline={SESSIONS_DESCRIPTION}
+          />
+          <Link
+            href="/sessions/"
+            className={buttonVariants({ variant: 'highlight', size: 'lg' })}
+            data-intent="home_workshop"
+          >
+            {SESSIONS_TITLE}
+          </Link>
+        </Stack>
+      </Reveal>
+    </Section>
+  );
+}
+
 function Closing() {
   return (
     <Reveal effect="scale">
@@ -538,6 +567,7 @@ export default function Home() {
       <CheckIt />
       <Browse />
       <HowItWorks />
+      <Workshop />
       <Numbers />
       <WhereWeStand />
       <Closing />
