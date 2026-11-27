@@ -1,5 +1,6 @@
 import { NextResponse, type NextRequest } from 'next/server';
-import { AUTH_ENABLED, safeNext } from '@/lib/supabase/config';
+import { AUTH_ENABLED } from '@/lib/supabase/config';
+import { safeNext } from '@/lib/supabase/safe-next';
 import { supabaseServer } from '@/lib/supabase/server';
 
 // Where a provider sends someone back after they say yes: swap the one-time code for a

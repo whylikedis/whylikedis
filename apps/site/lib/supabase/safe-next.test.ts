@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
-import { safeNext } from './config.ts';
+import { safeNext } from './safe-next.ts';
 
 const HOME = '/account/';
 
