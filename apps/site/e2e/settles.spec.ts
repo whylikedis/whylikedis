@@ -71,3 +71,36 @@ test.describe('a flip card with reduced motion', () => {
     });
   });
 });
+
+test.describe('the bar does not move when the session is read', () => {
+  // Without JavaScript the page is what the server sent, the first paint: no session has been read.
+  // With it, once the session is read, "Sign in" is there. The button before it must already have
+  // its room, so the reading-settings button beside it stays where it was.
+  for (const [name, width] of Object.entries(WIDTHS)) {
+    test(`at ${name}`, async ({ browser, page, baseURL }) => {
+      const left = (p: typeof page) =>
+        p
+          .getByRole('banner')
+          .getByRole('button', { name: 'Reading settings' })
+          .evaluate((e) => Math.round(e.getBoundingClientRect().left));
+
+      const bare = await browser.newContext({
+        baseURL,
+        javaScriptEnabled: false,
+        viewport: { width, height: 900 },
+      });
+      const first = await bare.newPage();
+      await first.goto('/');
+      const atFirstPaint = await left(first);
+      await bare.close();
+
+      await page.setViewportSize({ width, height: 900 });
+      await page.goto('/');
+      await settle(page);
+      await expect(
+        page.getByRole('banner').getByRole('link', { name: 'Sign in' }),
+      ).toBeVisible();
+      expect(await left(page)).toBe(atFirstPaint);
+    });
+  }
+});

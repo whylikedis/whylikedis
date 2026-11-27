@@ -46,7 +46,19 @@ export function AccountButton() {
       .then(({ data }) => setProfile(data));
   }, [user]);
 
-  if (!AUTH_ENABLED || user === undefined) return null;
+  if (!AUTH_ENABLED) return null;
+  // Until the browser has read the session, keep the room the answer will take: an invisible copy of
+  // the Sign in button. Nothing is announced or focusable, and the bar does not move when it resolves.
+  if (user === undefined)
+    return (
+      <span
+        aria-hidden
+        inert
+        className={`${buttonVariants({ variant: 'outline', size: 'sm' })} invisible`}
+      >
+        Sign in
+      </span>
+    );
 
   if (!user) {
     const next =
