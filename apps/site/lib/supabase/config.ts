@@ -40,13 +40,3 @@ export function providerFromSupabase(
     (id) => PROVIDERS[id].supabase === name,
   );
 }
-
-/** Only same-site paths, so the sign-in page can never send someone to another site. */
-export function safeNext(next: string | null | undefined): string {
-  return next &&
-    next.startsWith('/') &&
-    !next.startsWith('//') &&
-    !next.startsWith('/\\')
-    ? next
-    : '/account/';
-}

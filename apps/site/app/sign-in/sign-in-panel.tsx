@@ -11,9 +11,9 @@ import {
   AUTH_ENABLED,
   ENABLED_PROVIDERS,
   PROVIDERS,
-  safeNext,
   type ProviderId,
 } from '@/lib/supabase/config';
+import { safeNext } from '@/lib/supabase/safe-next';
 
 // What a reason in ?error= means, in words a parent can act on.
 const ERRORS: Record<string, string> = {
