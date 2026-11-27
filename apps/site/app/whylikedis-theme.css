@@ -26,6 +26,8 @@
   /* The sticky Topbar with the street-sign Wordmark is 113px tall at every width (measured at
      360, 390, 820 and 1280). Long reads stick their contents below it and land headings under it. */
   --reading-offset: 113px;
+  /* Source chips name a publisher and a count ("International Court of Justice +7"); 24ch cut both. */
+  --citation-chip-max-width: 36ch;
 
   --radius: 0.625rem; /* softer than a tool, not a bubble: 10px cards, 8px controls */
   --background: #f7f4ee; /* warm paper */

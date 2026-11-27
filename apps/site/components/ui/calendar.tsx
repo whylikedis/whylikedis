@@ -97,6 +97,7 @@ import { ChevronLeftIcon, ChevronRightIcon } from 'lucide-react';
 
 import { cn } from '@/lib/utils';
 import { useReducedMotion } from '@/hooks/use-reduced-motion';
+import { motionEase } from '@/lib/motion-token';
 import { Button } from '@/components/ui/button';
 import {
   addMonths,
@@ -120,12 +121,6 @@ import {
 } from '@/components/ui/calendar-model';
 
 export const MIN_VIEWPORT = 320 as const;
-
-/** The brand's `--ease-enter`, so WAAPI motion retunes with the CSS. */
-function easeEnter(el: Element): string {
-  const value = getComputedStyle(el).getPropertyValue('--ease-enter').trim();
-  return value || 'cubic-bezier(0.16, 1, 0.3, 1)';
-}
 
 export interface CalendarLabels {
   /** @default 'Previous month' */
@@ -309,7 +304,7 @@ const Calendar = React.forwardRef<HTMLDivElement, CalendarProps>(function Calend
         { transform: `translateX(${from})`, opacity: 0 },
         { transform: 'translateX(0)', opacity: 1 },
       ],
-      { duration: 200, easing: easeEnter(body) },
+      { duration: 200, easing: motionEase(body, 'enter') },
     );
   }, [month, reduced]);
 

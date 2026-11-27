@@ -235,6 +235,16 @@ function SourcesStrip() {
 function CheckIt() {
   const cards = claimsToCheck();
   if (cards.length === 0) return null;
+  // Two claims can share a source. Each card shows the first quote of its own that no earlier
+  // card already shows, so the row never reads the same words twice.
+  const used = new Set<string>();
+  const quoteOf = new Map(
+    cards.map((c) => {
+      const h = c.heard.find((x) => !used.has(x.quote)) ?? c.heard[0];
+      if (h) used.add(h.quote);
+      return [c.id, h] as const;
+    }),
+  );
   return (
     <Section container="wide" spacing="comfortable">
       <Reveal>
@@ -262,14 +272,14 @@ function CheckIt() {
                     </Typography>
                     {/* The source's own words, as copied. The back holds two lines of the
                         answer, so without them the front was mostly empty card. */}
-                    {c.heard[0] && (
+                    {quoteOf.get(c.id) && (
                       <Typography as="blockquote" variant="body" tone="muted">
-                        “{c.heard[0].quote}”
+                        “{quoteOf.get(c.id)?.quote}”
                       </Typography>
                     )}
-                    {c.heard[0] && (
+                    {quoteOf.get(c.id) && (
                       <Typography variant="ui" tone="muted">
-                        {c.heard[0].who}
+                        {quoteOf.get(c.id)?.who}
                       </Typography>
                     )}
                   </Stack>
@@ -279,7 +289,12 @@ function CheckIt() {
                     <Typography variant="ui-sm" tone="primary">
                       What the record shows
                     </Typography>
-                    <Typography variant="body">
+                    {/* A phone shows the first line only: with two, the back ran some 200px taller
+                        than the front, and the card is as tall as its taller face. */}
+                    <Typography
+                      variant="body"
+                      className="max-md:[&>span+span]:hidden"
+                    >
                       <Said lines={answerLines(c).slice(0, 2)} />
                     </Typography>
                     <Cluster>
@@ -320,9 +335,9 @@ function Browse() {
   const topics = site.chapters
     .map((ch) => ({
       ...ch,
-      n: site.cards.filter((c) => c.era === ch.n).length,
+      count: site.cards.filter((c) => c.era === ch.n).length,
     }))
-    .filter((t) => t.n > 0);
+    .filter((t) => t.count > 0);
   return (
     <Section container="wide" spacing="comfortable" tone="muted">
       <Reveal>
@@ -343,7 +358,7 @@ function Browse() {
                     <CardContent>
                       <Stack gap="xs">
                         <Typography variant="ui-sm" tone="muted">
-                          {t.n} {t.n === 1 ? 'question' : 'questions'}
+                          {t.count} {t.count === 1 ? 'question' : 'questions'}
                         </Typography>
                         <Typography as="h3" variant="h5">
                           <CardLink asChild>

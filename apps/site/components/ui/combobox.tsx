@@ -107,16 +107,15 @@ import * as React from 'react';
  * | Composite                                            | Light   | Dark    | Floor           |
  * | ---------------------------------------------------- | ------- | ------- | --------------- |
  * | input `border-input` on `--background`               | 3.62:1  | 3.35:1  | 3:1 (SC 1.4.11) |
- * | `focus-visible:ring-ring/60` on `--background`       | 3.23:1  | 4.73:1  | 3:1 (SC 2.4.13) |
+ * | `focus-visible:ring-ring` on `--background`       | 8.80:1  | 11.79:1 | 3:1 (SC 2.4.13) |
  * | `placeholder:text-muted-foreground` on `--background`| 9.41:1  | 8.74:1  | 4.5:1 (SC 1.4.3)|
  * | item `text-popover-foreground` on `--popover`        | 19.65:1 | 15.71:1 | 4.5:1 (SC 1.4.3)|
  * | highlighted `text-accent-foreground` on `--accent`   | 8.98:1  | 10.46:1 | 4.5:1 (SC 1.4.3)|
  * | selected `text-primary-foreground` on `--primary`    | 8.80:1  | 11.79:1 | 4.5:1 (SC 1.4.3)|
  * | group label `text-muted-foreground` on `--popover`   | 9.41:1  | 10.48:1 | 4.5:1 (SC 1.4.3)|
  *
- * The focus ring is 3px (`ring-[3px]`), over the 2px minimum of SC 2.4.13, and
- * `/60` rather than `/50` because 50%-alpha primary composites to 2.57:1 on
- * white — under the 3:1 indicator floor.
+ * The focus ring is the full-strength `--ring`, 2px and offset outside the
+ * control, over the 2px minimum of SC 2.4.13.
  *
  * `data-disabled:opacity-50` is exempt — SC 1.4.3 carves out inactive
  * user-interface components.
@@ -194,10 +193,7 @@ function ComboboxInput({
       className={cn(
         'border-input placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground w-full min-w-0 rounded-lg border bg-background text-foreground px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none md:text-sm',
         'data-[size=default]:h-control data-[size=sm]:h-control-sm',
-        // /60 not /50 — 50%-alpha primary composites to 2.57:1 on white,
-        // under the 3:1 focus-indicator floor (SC 2.4.13). 3px > the 2px
-        // minimum thickness the same SC requires.
-        'focus-visible:border-ring focus-visible:ring-ring/60 focus-visible:ring-[3px]',
+        'focus-visible:border-ring focus-visible:ring-ring focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-background',
         'aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40',
         'disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50',
         className,
@@ -222,7 +218,7 @@ function ComboboxTrigger({
       data-slot="combobox-trigger"
       className={cn(
         'text-muted-foreground hover:text-foreground absolute end-1 flex size-7 items-center justify-center rounded-sm transition-colors outline-none',
-        'focus-visible:ring-ring/60 focus-visible:ring-[3px]',
+        'focus-visible:ring-ring focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-background',
         'disabled:pointer-events-none disabled:opacity-50',
         "[&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4",
         className,
@@ -278,7 +274,7 @@ function ComboboxClear({
         // `:has(~ …)` keeps the fix in CSS and out of the public API:
         // neither part needs to know whether the other was rendered.
         '[&:has(~[data-slot=combobox-trigger])]:end-9',
-        'focus-visible:ring-ring/60 focus-visible:ring-[3px]',
+        'focus-visible:ring-ring focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-background',
         'disabled:pointer-events-none disabled:opacity-50',
         "[&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4",
         className,
@@ -309,7 +305,7 @@ function ComboboxContent({
       <BaseCombobox.Positioner
         data-slot="combobox-positioner"
         sideOffset={sideOffset}
-        className={cn('z-50', className)}
+        className={cn('z-popover', className)}
         {...props}
       >
         <BaseCombobox.Popup
@@ -320,7 +316,7 @@ function ComboboxContent({
             'origin-(--transform-origin)',
             'data-starting-style:scale-95 data-starting-style:opacity-0',
             'data-ending-style:scale-95 data-ending-style:opacity-0',
-            'transition-[opacity,scale] duration-150',
+            'transition-[opacity,scale] duration-(--duration-base) ease-enter',
             popupClassName,
           )}
         >
@@ -355,7 +351,7 @@ function ComboboxItem({
       className={cn(
         // 36px tall (py-2 + text-sm line box) — over the 24px floor of
         // SC 2.5.8 at the 320px viewport.
-        'text-popover-foreground relative flex w-full cursor-pointer items-center gap-2 rounded-xl py-2 pe-8 ps-3 text-sm transition-colors duration-150 outline-hidden select-none',
+        'text-popover-foreground relative flex w-full cursor-pointer items-center gap-2 rounded-xl py-2 pe-8 ps-3 text-sm transition-colors duration-(--duration-fast) outline-hidden select-none',
         'data-highlighted:bg-accent data-highlighted:text-accent-foreground',
         'data-selected:bg-primary data-selected:text-primary-foreground data-selected:font-medium',
         'data-disabled:pointer-events-none data-disabled:opacity-50',
@@ -529,7 +525,7 @@ function ComboboxChipRemove({
         // match the icon; the icon is 12px and the target is not the icon.
         'flex size-6 items-center justify-center rounded-sm transition-colors outline-none',
         'hover:bg-accent hover:text-accent-foreground',
-        'focus-visible:ring-ring/60 focus-visible:ring-[3px]',
+        'focus-visible:ring-ring focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-background',
         "[&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-3",
         className,
       )}

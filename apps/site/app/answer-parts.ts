@@ -25,10 +25,19 @@ const sourcesOf = (facts: Fact[]): CitationSourceData[] =>
 const shortName = (publisher: string) =>
   publisher.split(' (')[0].split(', ')[0];
 
+// A name that would still fill the chip is cut at a word, so the "+N" after it always shows.
+const CHIP_NAME = 32;
+const fitName = (name: string) => {
+  if (name.length <= CHIP_NAME) return name;
+  const cut = name.slice(0, CHIP_NAME + 1).replace(/\s+\S*$/, '');
+  return `${cut.replace(/(\s+(of|on|the|and|for|in))+$/i, '')}…`;
+};
+
 // A chip names the first publisher and how many more there are; the popover lists them all.
 const chipLabel = (sources: CitationSourceData[]) => {
   const names = [...new Set(sources.map((s) => shortName(s.publisher)))];
-  return names.length > 1 ? `${names[0]} +${names.length - 1}` : names[0];
+  const first = fitName(names[0]);
+  return names.length > 1 ? `${first} +${names.length - 1}` : first;
 };
 
 export type Line = {
