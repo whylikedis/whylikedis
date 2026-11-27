@@ -6,15 +6,41 @@
 @import '../styles/interlace/page/preflight.css';
 @import './whylikedis-theme.css';
 
-/* Typefaces (loaded by next/font in layout.tsx): Heebo, an Israeli typeface, for text; Newsreader,
+/* Typefaces (served from this repository by next/font/local, app/typefaces.ts): Heebo, an Israeli typeface, for text; Newsreader,
    a book serif, for headings, the calm editorial look; Noto Naskh Arabic for Arabic. Newsreader has
    no Hebrew, so Hebrew headings fall through to Heebo. */
+/* Fallback faces with the metrics next/font generated, so the page does not move when a face loads. */
+@font-face {
+  font-family: 'Heebo Fallback';
+  src: local(Arial);
+  ascent-override: 104.9%;
+  descent-override: 42.14%;
+  line-gap-override: 0%;
+  size-adjust: 99.89%;
+}
+@font-face {
+  font-family: 'Newsreader Fallback';
+  src: local('Times New Roman');
+  ascent-override: 69.68%;
+  descent-override: 25.12%;
+  line-gap-override: 0%;
+  size-adjust: 105.48%;
+}
+@font-face {
+  font-family: 'Noto Naskh Arabic Fallback';
+  src: local('Times New Roman');
+  ascent-override: 91.43%;
+  descent-override: 54.22%;
+  line-gap-override: 0%;
+  size-adjust: 116.92%;
+}
+
 @theme {
-  --font-sans: var(--font-heebo), 'Heebo', system-ui, sans-serif;
+  --font-sans: 'Heebo', 'Heebo Fallback', system-ui, sans-serif;
   /* The browser takes Hebrew glyphs from Heebo and Arabic glyphs from Naskh. */
   --font-heading:
-    var(--font-newsreader), 'Newsreader', Georgia, var(--font-heebo), 'Heebo',
-    var(--font-naskh), 'Noto Naskh Arabic', serif;
+    'Newsreader', 'Newsreader Fallback', Georgia, 'Heebo', 'Heebo Fallback',
+    'Noto Naskh Arabic', 'Noto Naskh Arabic Fallback', serif;
 
   /* Sized for our readers, adults from 35 to 85: body text at 18px and long reads at 19 to 20px,
      UI text never under 15px. Interlace's scale keys stay; only their sizes change. */

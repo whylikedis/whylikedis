@@ -1,5 +1,4 @@
 import type { Metadata, Viewport } from 'next';
-import { Heebo, Newsreader, Noto_Naskh_Arabic } from 'next/font/google';
 import { type ReactNode, ViewTransition } from 'react';
 import { PREVIEW } from './data';
 import { Banner } from '@/components/ui/patterns/banner';
@@ -8,25 +7,8 @@ import { THEME_SCRIPT } from '@/lib/theme-script';
 import { IntentBridge } from './intent-bridge';
 import { Nav } from './nav';
 import { SiteFooter } from './site-footer';
+import './typefaces';
 import './globals.css';
-
-const body = Heebo({
-  subsets: ['latin', 'hebrew'],
-  weight: ['400', '500', '700', '800'],
-  variable: '--font-heebo',
-});
-// Headings: a calm book serif, the editorial look. Hebrew and Arabic fall through to Heebo and Naskh.
-const serif = Newsreader({
-  subsets: ['latin'],
-  weight: ['500', '600', '700'],
-  variable: '--font-newsreader',
-});
-// Only the wordmark's Arabic line uses it, and next/font subsets it to the glyphs it needs.
-const arabic = Noto_Naskh_Arabic({
-  subsets: ['arabic'],
-  weight: ['700'],
-  variable: '--font-naskh',
-});
 
 const TAGLINE = 'Clear answers about Israel, each with sources you can check.';
 
@@ -62,7 +44,6 @@ export default function Layout({ children }: { children: ReactNode }) {
     <html
       lang="en"
       data-density="comfortable"
-      className={`${body.variable} ${serif.variable} ${arabic.variable}`}
       // THEME_SCRIPT sets the reader's text size and contrast on <html> before the first paint,
       // so the server markup and the hydrated element differ on purpose.
       suppressHydrationWarning
