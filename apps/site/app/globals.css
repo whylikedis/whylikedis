@@ -35,4 +35,15 @@
   --text-xs--line-height: 1.4;
 }
 
-/* No local rules: every part of the page is an Interlace component. */
+/* Almost no local rules: every part of the page is an Interlace component. The one exception below
+   is a rendering fix that no component can carry. */
+
+/* With reduced motion a flip card turns by fading, not by rotating, so its faces never leave the
+   plane. Interlace still lays them out as a 3D scene (preserve-3d), and Chromium draws the rounded
+   corners of such a scene one way on the first frame and another a moment later: a card's edge
+   pixels changed by one level after the page was ready. Flat, they are drawn once. */
+@media (prefers-reduced-motion: reduce) {
+  [data-slot='flip-card-inner'] {
+    transform-style: flat;
+  }
+}
